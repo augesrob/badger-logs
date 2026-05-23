@@ -1,2 +1,20 @@
-=== samsung SM-S911U | shipped 2026-05-22 20:15:03 ===
+=== samsung SM-S911U | shipped 2026-05-22 20:18:39 ===
 [E] 05-22 20:15:03 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:5929 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2924 ← Handler.dispatchMessage:110 ← Looper.loopOnce:273 ← Looper.loop:363 ← ActivityThread.main:10060 ← Method.invoke:-2
+[I] 05-22 20:15:05 LogShipper: Shipped 1 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 05-22 20:15:08 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 20:15:08 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-22 20:15:08 MainActivity: BadgerService started (mic=true)
+[W] 05-22 20:15:09 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-22 20:15:09 AuthManager: Session expired — trying HWID silent login
+[I] 05-22 20:15:09 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 05-22 20:15:09 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 20:15:09 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 20:15:10 AuthManager: Sign in OK — felipe role=admin
+[I] 05-22 20:15:10 AuthManager: HWID silent login OK
+[I] 05-22 20:15:10 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 05-22 20:15:10 BadgerService: Realtime subscribed OK -- badger-svc-e7fa0775-b052-40dc-9d4a-9fafc98c63f0 status=SUBSCRIBED
+[I] 05-22 20:18:02 PTT: PTT recording STARTED
+[I] 05-22 20:18:02 PTT: PTT recording STOPPED
+[I] 05-22 20:18:03 PTT: PTT sent OK — 960 bytes
+[I] 05-22 20:18:03 PTT: Incoming PTT message received
+[E] 05-22 20:18:39 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:5929 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2924 ← Handler.dispatchMessage:110 ← Looper.loopOnce:273 ← Looper.loop:363 ← ActivityThread.main:10060 ← Method.invoke:-2
