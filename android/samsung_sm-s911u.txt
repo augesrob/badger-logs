@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-27 17:56:15 ===
+=== samsung SM-S911U | shipped 2026-05-27 17:56:29 ===
 [I] 05-26 20:04:16 AuthManager: Session expired — trying HWID silent login
 [I] 05-26 20:04:16 AuthManager: HWID silent login for felipe@badgerliquor.com
 [I] 05-26 20:04:17 BadgerService: Keepalive scheduled in 900s
@@ -415,3 +415,20 @@
 [I] 05-27 17:49:38 BadgerService: Keepalive scheduled in 900s
 [I] 05-27 17:49:40 LogShipper: Shipped 414 log lines to badger-logs/android/samsung_sm-s911u.txt
 [E] 05-27 17:56:15 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:5929 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2924 ← Handler.dispatchMessage:110 ← Looper.loopOnce:273 ← Looper.loop:363 ← ActivityThread.main:10060 ← Method.invoke:-2
+[I] 05-27 17:56:17 LogShipper: Shipped 416 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 05-27 17:56:23 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 17:56:23 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-27 17:56:24 MainActivity: BadgerService started (mic=true)
+[W] 05-27 17:56:24 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-27 17:56:24 AuthManager: Session expired — trying HWID silent login
+[I] 05-27 17:56:24 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 05-27 17:56:24 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 17:56:24 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-27 17:56:24 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-27 17:56:24 BadgerService: Keepalive scheduled in 2s
+[I] 05-27 17:56:25 AuthManager: Sign in OK — felipe role=admin
+[I] 05-27 17:56:25 AuthManager: HWID silent login OK
+[I] 05-27 17:56:25 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 05-27 17:56:25 BadgerService: Realtime subscribed OK -- badger-svc-bab8e8ae-73ec-4163-b56c-6bccfb8b27af status=SUBSCRIBED
+[I] 05-27 17:56:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 17:56:29 BadgerService: Keepalive scheduled in 900s
