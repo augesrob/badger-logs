@@ -1,0 +1,501 @@
+=== samsung SM-S938U | shipped 2026-05-26 19:00:30 ===
+[I] 05-21 15:49:23 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 16:04:23 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 16:04:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 16:19:23 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 16:19:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 16:34:23 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 16:34:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-21 16:34:28 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 05-21 16:49:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 16:49:23 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 16:49:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-21 16:49:23 BadgerService: startRealtimeSync skipped â€” already restarting
+[W] 05-21 16:54:23 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-21 16:54:23 BadgerService: Keepalive scheduled in 2s
+[I] 05-21 16:54:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 16:54:28 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 16:54:28 BadgerService: startRealtimeSync skipped â€” already restarting
+[W] 05-21 16:54:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-21 17:09:28 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 17:09:28 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 17:09:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-21 17:09:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-21 17:24:28 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 17:24:28 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 17:24:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-21 17:24:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-21 17:39:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-21 17:39:29 BadgerService: startRealtimeSync skipped â€” already restarting
+[W] 05-21 17:39:29 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-21 17:39:29 BadgerService: Keepalive scheduled in 900s
+[E] 05-21 17:40:55 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-21 17:40:55 CRASH: HttpRequestTimeoutException: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] | HttpTimeoutKt$applyRequestTimeout$killer$1.invokeSuspend:185 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:100 ← LimitedDispatcher$Worker.run:113 ← TaskImpl.run:89 ← CoroutineScheduler.runSafely:586 ← CoroutineScheduler$Worker.executeTask:820 ← CoroutineScheduler$Worker.runWorker:717
+[I] 05-21 17:40:58 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 17:40:58 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-21 17:40:58 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-21 17:40:58 AuthManager: Session expired — trying HWID silent login
+[I] 05-21 17:40:58 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 17:40:58 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 17:40:58 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-21 17:40:58 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-21 17:40:58 AuthManager: HWID silent login OK
+[I] 05-21 17:40:58 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-21 17:40:59 BadgerService: Realtime subscribed OK -- badger-svc-82dfd074-1639-4cb0-abe0-64e8696d9f13 status=SUBSCRIBED
+[I] 05-21 17:55:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 17:55:58 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 18:10:58 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 18:10:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[E] 05-21 18:22:38 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-21 18:22:43 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 18:22:43 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-21 18:22:43 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-21 18:22:43 AuthManager: Session expired — trying HWID silent login
+[I] 05-21 18:22:43 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 18:22:43 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 18:22:43 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-21 18:22:43 AuthManager: HWID silent login OK
+[I] 05-21 18:22:43 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-21 18:22:43 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-21 18:22:44 BadgerService: Realtime subscribed OK -- badger-svc-fdaf655c-47a3-4aab-9bf5-40106fa59a58 status=SUBSCRIBED
+[I] 05-21 18:25:02 Movement: Truck 223-1 status → In Door
+[I] 05-21 18:25:02 BadgerRepo: updateMovementStatus OK â€” truck=223-1 statusId=1
+[I] 05-21 18:25:41 Movement: Truck 188-1 status → 8
+[I] 05-21 18:25:41 BadgerRepo: updateMovementStatus OK â€” truck=188-1 statusId=11
+[I] 05-21 18:31:45 PreShift: Truck 185 staged at door 20A front
+[I] 05-21 18:36:42 Movement: Truck 248-2 status → Trailer Area - connected
+[I] 05-21 18:36:43 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=36
+[I] 05-21 18:37:06 Movement: Truck 224-1 status → Trailer Area - Not Connected
+[I] 05-21 18:37:06 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=37
+[I] 05-21 18:37:09 Movement: Truck 224-1 status → Trailer Area - connected
+[I] 05-21 18:37:09 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=36
+[I] 05-21 18:37:14 Movement: Truck 224-2 status → Trailer Area
+[I] 05-21 18:37:14 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=8
+[I] 05-21 18:37:20 Movement: Truck 224-2 status → Transfer
+[I] 05-21 18:37:20 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=25
+[I] 05-21 18:37:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 18:37:43 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 18:38:40 Movement: Truck 248-2 status → Transfer
+[I] 05-21 18:38:40 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=25
+[I] 05-21 18:38:50 Movement: Truck 187-2 status → Trailer Area - connected
+[I] 05-21 18:38:50 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=36
+[I] 05-21 18:38:54 PTT: Incoming PTT message received
+[I] 05-21 18:39:16 PTT: PTT recording STARTED
+[I] 05-21 18:39:17 PTT: PTT recording STOPPED
+[I] 05-21 18:39:57 Movement: Truck 248-2 status → Trailer Area - connected
+[I] 05-21 18:39:57 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=36
+[I] 05-21 18:46:36 Movement: Truck 224-2 status → In Front
+[I] 05-21 18:46:36 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=4
+[I] 05-21 18:49:40 Movement: Truck 231-2 status → In Front
+[I] 05-21 18:49:40 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=4
+[I] 05-21 18:52:25 Movement: Truck 188-1 status → In Front
+[I] 05-21 18:52:25 BadgerRepo: updateMovementStatus OK â€” truck=188-1 statusId=4
+[I] 05-21 18:52:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 18:52:43 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 18:55:33 Movement: Truck 224-1 status → In Front
+[I] 05-21 18:55:33 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=4
+[I] 05-21 19:00:31 Movement: Truck 187-2 status → In Front
+[I] 05-21 19:00:31 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=4
+[I] 05-21 19:07:10 Movement: Truck 248-2 status → In Front
+[I] 05-21 19:07:11 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=4
+[I] 05-21 19:07:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 19:07:43 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 19:22:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 19:22:43 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 19:22:55 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 05-21 19:37:43 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 19:37:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-21 19:37:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-21 19:37:43 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 19:52:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 19:52:43 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 19:52:43 BadgerService: startRealtimeSync skipped â€” already restarting
+[W] 05-21 19:52:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-21 20:07:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-21 20:07:43 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 20:07:43 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 20:07:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 20:22:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 20:22:43 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 20:22:43 BadgerService: startRealtimeSync skipped â€” already restarting
+[W] 05-21 20:22:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-21 20:37:43 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 20:37:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-21 20:37:43 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 20:37:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 20:52:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-21 20:52:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-21 20:52:43 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 20:52:43 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 21:07:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-21 21:07:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-21 21:07:43 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 21:07:43 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 21:12:16 PTT: PTT recording STARTED
+[I] 05-21 21:12:18 PTT: PTT recording STOPPED
+[I] 05-21 21:12:19 PTT: PTT sent OK — 35520 bytes
+[I] 05-21 21:12:22 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 21:12:22 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-21 21:12:23 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-21 21:12:23 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 21:12:30 PTT: PTT recording STARTED
+[I] 05-21 21:12:32 PTT: PTT recording STOPPED
+[I] 05-21 21:12:33 PTT: PTT sent OK — 31680 bytes
+[I] 05-21 21:12:45 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 21:12:45 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-21 21:12:45 MainActivity: BadgerService started (mic=true)
+[W] 05-21 21:12:45 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-21 21:12:45 AuthManager: Session expired — trying HWID silent login
+[I] 05-21 21:12:45 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-21 21:12:45 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 21:12:45 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 21:12:46 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-21 21:12:46 AuthManager: HWID silent login OK
+[I] 05-21 21:12:46 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-21 21:12:46 BadgerService: Realtime subscribed OK -- badger-svc-148d6d54-afab-400c-98d8-37bea771f0e6 status=SUBSCRIBED
+[I] 05-21 21:12:48 PTT: PTT recording STARTED
+[I] 05-21 21:12:50 PTT: PTT recording STOPPED
+[I] 05-21 21:12:50 PTT: PTT sent OK — 24640 bytes
+[I] 05-21 21:12:50 PTT: Incoming PTT message received
+[I] 05-21 21:16:37 PTT: Incoming PTT message received
+[I] 05-21 21:16:44 PTT: PTT recording STARTED
+[I] 05-21 21:16:45 PTT: PTT recording STOPPED
+[I] 05-21 21:16:45 PTT: PTT sent OK — 17280 bytes
+[I] 05-21 21:16:45 PTT: Incoming PTT message received
+[I] 05-21 21:16:51 PTT: Incoming PTT message received
+[I] 05-21 21:16:55 PTT: PTT recording STARTED
+[I] 05-21 21:16:56 PTT: PTT recording STOPPED
+[I] 05-21 21:16:56 PTT: PTT sent OK — 22400 bytes
+[I] 05-21 21:16:57 PTT: Incoming PTT message received
+[W] 05-21 21:17:10 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-21 21:17:10 BadgerService: Keepalive scheduled in 2s
+[I] 05-21 21:17:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 21:17:15 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 21:26:04 Movement: Truck 231-2 status → In Door
+[I] 05-21 21:26:04 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=1
+[I] 05-21 21:26:06 Movement: Truck 222-1 status → On Route
+[I] 05-21 21:26:06 BadgerRepo: updateMovementStatus OK â€” truck=222-1 statusId=3
+[I] 05-21 21:26:07 Movement: Door 15A status → Loading
+[I] 05-21 21:26:07 BadgerRepo: updateDoorStatus OK â€” id=5 status=Loading
+[I] 05-21 21:26:15 Movement: Truck 224-1 status → In Door
+[I] 05-21 21:26:15 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=1
+[I] 05-21 21:26:17 Movement: Truck 231-1 status → On Route
+[I] 05-21 21:26:17 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=3
+[I] 05-21 21:26:18 Movement: Door 14A status → Loading
+[I] 05-21 21:26:18 BadgerRepo: updateDoorStatus OK â€” id=3 status=Loading
+[I] 05-21 21:32:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 21:32:15 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 21:42:24 Movement: Door 14B status → End Of Truck Tote
+[I] 05-21 21:42:25 BadgerRepo: updateDoorStatus OK â€” id=4 status=End Of Truck Tote
+[I] 05-21 21:42:29 Movement: Door 13A status → End Of Truck Tote
+[I] 05-21 21:42:30 BadgerRepo: updateDoorStatus OK â€” id=1 status=End Of Truck Tote
+[I] 05-21 21:47:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 21:47:15 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 22:02:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 22:02:15 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 22:12:57 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 05-21 22:12:57 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[I] 05-21 22:17:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 22:17:15 BadgerService: Keepalive scheduled in 900s
+[W] 05-21 22:17:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-21 22:17:15 BadgerService: startRealtimeSync skipped â€” already restarting
+[I] 05-21 22:17:25 PTT: PTT recording STARTED
+[I] 05-21 22:17:25 PTT: PTT recording STOPPED
+[E] 05-21 22:17:27 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-21 22:17:30 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 22:17:30 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-21 22:17:30 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-21 22:17:30 AuthManager: Session expired — trying HWID silent login
+[I] 05-21 22:17:30 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 22:17:30 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 22:17:30 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-21 22:17:30 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-21 22:17:30 AuthManager: HWID silent login OK
+[I] 05-21 22:17:30 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-21 22:17:31 BadgerService: Realtime subscribed OK -- badger-svc-cc6c2a2b-eacb-4f9e-97bc-df636021f5b3 status=SUBSCRIBED
+[I] 05-21 22:21:28 Movement: Door 13B status → Loading
+[I] 05-21 22:21:29 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
+[I] 05-21 22:21:33 Movement: Truck 248-1 status → 8
+[I] 05-21 22:21:33 BadgerRepo: updateMovementStatus OK â€” truck=248-1 statusId=11
+[I] 05-21 22:21:35 Movement: Truck 187-2 status → In Door
+[I] 05-21 22:21:35 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=1
+[I] 05-21 22:32:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 22:32:30 BadgerService: Keepalive scheduled in 900s
+[E] 05-21 22:36:37 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-21 22:36:41 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 22:36:41 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-21 22:36:41 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-21 22:36:41 AuthManager: Session expired — trying HWID silent login
+[I] 05-21 22:36:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 22:36:41 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-21 22:36:41 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-21 22:36:41 AuthManager: HWID silent login OK
+[I] 05-21 22:36:41 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-21 22:36:41 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-21 22:36:41 BadgerService: Realtime subscribed OK -- badger-svc-f35c951c-d370-4259-8eeb-840e05dc667f status=SUBSCRIBED
+[I] 05-21 22:36:43 Movement: Door 13A status → End Of Truck Tote
+[I] 05-21 22:36:43 BadgerRepo: updateDoorStatus OK â€” id=1 status=End Of Truck Tote
+[I] 05-21 22:36:45 Movement: Door 13A status → Loading
+[I] 05-21 22:36:46 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 05-21 22:51:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 22:51:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 23:06:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 23:06:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 23:09:35 PTT: Incoming PTT message received
+[I] 05-21 23:09:48 PTT: PTT recording STARTED
+[I] 05-21 23:09:49 PTT: PTT recording STOPPED
+[I] 05-21 23:09:49 PTT: PTT sent OK — 18556 bytes
+[I] 05-21 23:09:49 PTT: Incoming PTT message received
+[I] 05-21 23:21:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 23:21:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 23:36:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 23:36:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-21 23:51:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-21 23:51:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 00:06:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 00:06:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 00:15:59 Movement: Truck 188-1 status → On Route
+[I] 05-22 00:15:59 BadgerRepo: updateMovementStatus OK â€” truck=188-1 statusId=3
+[I] 05-22 00:17:04 Movement: Truck 246 status → In Door
+[I] 05-22 00:17:04 BadgerRepo: updateMovementStatus OK â€” truck=246 statusId=1
+[I] 05-22 00:18:08 Movement: Door 14B status → Loading
+[I] 05-22 00:18:08 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
+[I] 05-22 00:18:20 Movement: Truck 248-2 status → 8
+[I] 05-22 00:18:20 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=11
+[I] 05-22 00:21:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 00:21:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 00:24:10 Movement: Door 13B status → EOT+1
+[I] 05-22 00:24:11 BadgerRepo: updateDoorStatus OK â€” id=2 status=EOT+1
+[I] 05-22 00:26:11 Movement: Door 13B status → Move to Receiving
+[I] 05-22 00:26:11 BadgerRepo: updateDoorStatus OK â€” id=2 status=Move to Receiving
+[I] 05-22 00:36:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 00:36:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 00:51:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 00:51:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 00:53:33 PTT: Incoming PTT message received
+[I] 05-22 00:55:07 PTT: Incoming PTT message received
+[E] 05-22 00:56:46 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-22 00:56:51 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 00:56:51 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-22 00:56:51 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-22 00:56:51 AuthManager: Session expired — trying HWID silent login
+[I] 05-22 00:56:51 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 00:56:51 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 00:56:51 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-22 00:56:52 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-22 00:56:52 AuthManager: HWID silent login OK
+[I] 05-22 00:56:52 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-22 00:56:52 BadgerService: Realtime subscribed OK -- badger-svc-87bd9675-8a93-4fe0-9485-f2ae01c9e740 status=SUBSCRIBED
+[I] 05-22 00:57:20 Movement: Truck 224-2 status → 10
+[I] 05-22 00:57:20 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=13
+[I] 05-22 01:03:49 Movement: Truck 244 status → In Door
+[I] 05-22 01:03:49 BadgerRepo: updateMovementStatus OK â€” truck=244 statusId=1
+[I] 05-22 01:04:34 Movement: Door 14B status → Loading
+[I] 05-22 01:04:34 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
+[I] 05-22 01:05:35 Movement: Door 13A status → End Of Truck Tote
+[I] 05-22 01:05:35 BadgerRepo: updateDoorStatus OK â€” id=1 status=End Of Truck Tote
+[I] 05-22 01:05:44 Movement: Door 13B status → End Of Truck Tote
+[I] 05-22 01:05:44 BadgerRepo: updateDoorStatus OK â€” id=2 status=End Of Truck Tote
+[I] 05-22 01:07:40 Movement: Door 13A status → Change Truck/Trailer
+[I] 05-22 01:07:40 BadgerRepo: updateDoorStatus OK â€” id=1 status=Change Truck/Trailer
+[I] 05-22 01:08:42 Movement: Truck 216 status → Put Away
+[I] 05-22 01:08:42 BadgerRepo: updateMovementStatus OK â€” truck=216 statusId=2
+[I] 05-22 01:09:06 Movement: Truck 216 status → Yard
+[I] 05-22 01:09:06 BadgerRepo: updateMovementStatus OK â€” truck=216 statusId=9
+[I] 05-22 01:10:07 Movement: Door 13A status → Loading
+[I] 05-22 01:10:07 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 05-22 01:10:11 Movement: Truck 243 status → In Door
+[I] 05-22 01:10:12 BadgerRepo: updateMovementStatus OK â€” truck=243 statusId=1
+[I] 05-22 01:11:32 Movement: Door 13B status → Loading
+[I] 05-22 01:11:32 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
+[I] 05-22 01:11:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 01:11:51 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 01:15:13 Movement: Truck 194 status → In Front
+[I] 05-22 01:15:13 BadgerRepo: updateMovementStatus OK â€” truck=194 statusId=4
+[I] 05-22 01:18:39 Movement: Truck 231-2 status → 11
+[I] 05-22 01:18:39 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=14
+[I] 05-22 01:24:50 Movement: Truck 199 status → In Door
+[I] 05-22 01:24:50 BadgerRepo: updateMovementStatus OK â€” truck=199 statusId=1
+[I] 05-22 01:25:58 PTT: PTT recording STARTED
+[I] 05-22 01:26:01 PTT: PTT recording STOPPED
+[I] 05-22 01:26:01 PTT: PTT sent OK — 45440 bytes
+[I] 05-22 01:26:01 PTT: Incoming PTT message received
+[I] 05-22 01:26:12 PTT: Incoming PTT message received
+[I] 05-22 01:26:15 PTT: PTT recording STARTED
+[I] 05-22 01:26:18 PTT: PTT recording STOPPED
+[I] 05-22 01:26:18 PTT: PTT sent OK — 51520 bytes
+[I] 05-22 01:26:19 PTT: Incoming PTT message received
+[I] 05-22 01:26:22 PTT: Incoming PTT message received
+[I] 05-22 01:26:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 01:26:51 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 01:41:51 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 01:41:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 01:56:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 01:56:51 BadgerService: Keepalive scheduled in 900s
+[W] 05-22 01:56:52 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 05-22 01:59:48 Movement: Door 15B status → Change Truck/Trailer
+[I] 05-22 01:59:48 BadgerRepo: updateDoorStatus OK â€” id=6 status=Change Truck/Trailer
+[E] 05-22 02:00:29 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-22 02:00:34 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 02:00:34 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-22 02:00:34 MainActivity: BadgerService started (mic=true)
+[W] 05-22 02:00:34 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-22 02:00:34 AuthManager: Session expired — trying HWID silent login
+[I] 05-22 02:00:34 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-22 02:00:34 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 02:00:34 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 02:00:35 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-22 02:00:35 AuthManager: HWID silent login OK
+[I] 05-22 02:00:35 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[W] 05-22 02:00:36 BadgerService: startRealtimeSync skipped â€” already restarting
+[W] 05-22 02:00:36 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-22 02:00:36 BadgerService: Realtime subscribed OK -- badger-svc-c8709661-7286-4ec5-9c22-fc238b5a970b status=SUBSCRIBED
+[E] 05-22 02:12:46 BadgerRepo: getLiveMovement FAILED: The coroutine scope left the composition
+[I] 05-22 02:12:51 Movement: Truck 238 status → In Door
+[I] 05-22 02:12:51 BadgerRepo: updateMovementStatus OK â€” truck=238 statusId=1
+[I] 05-22 02:14:49 PTT: PTT recording STARTED
+[I] 05-22 02:14:52 PTT: PTT recording STOPPED
+[I] 05-22 02:14:52 PTT: PTT sent OK — 48640 bytes
+[I] 05-22 02:14:53 PTT: Incoming PTT message received
+[I] 05-22 02:15:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 02:15:34 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 02:16:34 Movement: Truck 159 status → Yard
+[I] 05-22 02:16:34 BadgerRepo: updateMovementStatus OK â€” truck=159 statusId=9
+[I] 05-22 02:17:35 Movement: Truck 194 status → In Door
+[I] 05-22 02:17:35 BadgerRepo: updateMovementStatus OK â€” truck=194 statusId=1
+[I] 05-22 02:18:53 Movement: Door 13A status → Loading
+[I] 05-22 02:18:53 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 05-22 02:26:51 Movement: Truck 195 status → In Front
+[I] 05-22 02:26:51 BadgerRepo: updateMovementStatus OK â€” truck=195 statusId=4
+[I] 05-22 02:28:53 Movement: Truck 228 status → In Door
+[I] 05-22 02:28:53 BadgerRepo: updateMovementStatus OK â€” truck=228 statusId=1
+[I] 05-22 02:28:56 Movement: Door 13B status → Loading
+[I] 05-22 02:28:56 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
+[I] 05-22 02:30:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 02:30:34 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 02:30:48 Movement: Door 13B status → Loading
+[I] 05-22 02:30:48 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
+[I] 05-22 02:31:22 Movement: Truck 199 status → Put Away
+[I] 05-22 02:31:22 BadgerRepo: updateMovementStatus OK â€” truck=199 statusId=2
+[I] 05-22 02:32:52 Movement: Truck 230 status → In Front
+[I] 05-22 02:32:52 BadgerRepo: updateMovementStatus OK â€” truck=230 statusId=4
+[I] 05-22 02:41:48 Movement: Truck 245 status → Put Away
+[I] 05-22 02:41:48 BadgerRepo: updateMovementStatus OK â€” truck=245 statusId=2
+[I] 05-22 02:44:34 Movement: Truck 240 status → In Front
+[I] 05-22 02:44:34 BadgerRepo: updateMovementStatus OK â€” truck=240 statusId=4
+[I] 05-22 02:45:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 02:45:34 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 03:00:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 03:00:34 BadgerService: Keepalive scheduled in 900s
+[E] 05-22 03:02:58 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-22 03:03:02 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 03:03:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-22 03:03:02 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-22 03:03:02 AuthManager: Session expired — trying HWID silent login
+[I] 05-22 03:03:02 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 03:03:02 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-22 03:03:02 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-22 03:03:03 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-22 03:03:03 AuthManager: HWID silent login OK
+[I] 05-22 03:03:03 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-22 03:03:03 BadgerService: Realtime subscribed OK -- badger-svc-6f700ba8-28f5-474f-87ff-9892926adcf8 status=SUBSCRIBED
+[I] 05-22 03:03:10 Movement: Truck 195 status → In Door
+[I] 05-22 03:03:11 BadgerRepo: updateMovementStatus OK â€” truck=195 statusId=1
+[E] 05-22 03:05:00 BadgerRepo: getLoadingDoors FAILED: The coroutine scope left the composition
+[I] 05-22 03:05:12 Movement: Door 14B status → Loading
+[I] 05-22 03:05:12 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
+[I] 05-22 03:05:49 PreShift: Truck 160 staged at door 25B front
+[W] 05-22 03:05:49 PreShift: Duplicate truck 160 force-staged (override) — Truck 160 is already assigned in the Print Room.
+[I] 05-22 03:10:04 Movement: Truck 238 status → Put Away
+[I] 05-22 03:10:05 BadgerRepo: updateMovementStatus OK â€” truck=238 statusId=2
+[I] 05-22 03:13:22 PTT: PTT recording STARTED
+[I] 05-22 03:13:25 PTT: PTT recording STOPPED
+[I] 05-22 03:13:26 PTT: PTT sent OK — 48000 bytes
+[I] 05-22 03:13:26 PTT: Incoming PTT message received
+[I] 05-22 03:13:37 PTT: Incoming PTT message received
+[I] 05-22 03:13:40 PTT: PTT recording STARTED
+[I] 05-22 03:13:44 PTT: PTT recording STOPPED
+[I] 05-22 03:13:44 PTT: PTT sent OK — 60800 bytes
+[I] 05-22 03:13:44 PTT: Incoming PTT message received
+[I] 05-22 03:14:11 Movement: Door 13A status → Smile, almost finished 😁
+[I] 05-22 03:14:11 BadgerRepo: updateDoorStatus OK â€” id=1 status=Smile, almost finished 😁
+[I] 05-22 03:14:15 Movement: Truck 241 status → In Door
+[I] 05-22 03:14:15 BadgerRepo: updateMovementStatus OK â€” truck=241 statusId=1
+[I] 05-22 03:15:01 Movement: Truck 194 status → Put Away
+[I] 05-22 03:15:01 BadgerRepo: updateMovementStatus OK â€” truck=194 statusId=2
+[I] 05-22 03:15:47 Movement: Door 14A status → End Of Truck Tote
+[I] 05-22 03:15:48 BadgerRepo: updateDoorStatus OK â€” id=3 status=End Of Truck Tote
+[I] 05-22 03:17:08 Movement: Door 13B status → End Of Truck Tote
+[I] 05-22 03:17:08 BadgerRepo: updateDoorStatus OK â€” id=2 status=End Of Truck Tote
+[I] 05-22 03:18:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 03:18:02 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 03:18:19 Movement: Door 15A status → End Of Truck Tote
+[I] 05-22 03:18:19 BadgerRepo: updateDoorStatus OK â€” id=5 status=End Of Truck Tote
+[I] 05-22 03:21:24 Movement: Truck 141 status → Yard
+[I] 05-22 03:21:24 BadgerRepo: updateMovementStatus OK â€” truck=141 statusId=9
+[I] 05-22 03:22:35 Movement: Truck 240 status → In Door
+[I] 05-22 03:22:35 BadgerRepo: updateMovementStatus OK â€” truck=240 statusId=1
+[I] 05-22 03:22:42 Movement: Door 15A status → Smile, almost finished 😁
+[I] 05-22 03:22:42 BadgerRepo: updateDoorStatus OK â€” id=5 status=Smile, almost finished 😁
+[I] 05-22 03:23:43 Movement: Truck 228 status → Put Away
+[I] 05-22 03:23:43 BadgerRepo: updateMovementStatus OK â€” truck=228 statusId=2
+[I] 05-22 03:33:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 03:33:02 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 03:33:58 Movement: Door 14B status → Change Truck/Trailer
+[I] 05-22 03:33:59 BadgerRepo: updateDoorStatus OK â€” id=4 status=Change Truck/Trailer
+[I] 05-22 03:48:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 03:48:02 BadgerService: Keepalive scheduled in 900s
+[I] 05-22 03:53:49 Movement: Truck 141 status → Put Away
+[I] 05-22 03:53:50 BadgerRepo: updateMovementStatus OK â€” truck=141 statusId=2
+[W] 05-22 03:53:56 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-22 03:53:56 BadgerService: Keepalive scheduled in 2s
+[I] 05-22 03:54:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-22 03:54:01 BadgerService: Keepalive scheduled in 900s
+[I] 05-24 16:50:27 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-24 16:50:27 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-24 16:50:27 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-24 16:50:27 AuthManager: Session expired — trying HWID silent login
+[I] 05-24 16:50:27 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-24 16:50:29 AuthManager: HWID silent login OK
+[I] 05-24 16:50:29 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-24 16:50:29 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-26 18:45:10 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 18:45:10 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-26 18:45:10 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-26 18:45:10 AuthManager: Session expired — trying HWID silent login
+[I] 05-26 18:45:10 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-26 18:45:10 MainActivity: BadgerService started (mic=true)
+[I] 05-26 18:45:10 BadgerService: Keepalive scheduled in 900s
+[I] 05-26 18:45:10 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 18:45:11 AuthManager: HWID silent login OK
+[I] 05-26 18:45:11 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-26 18:45:11 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-26 18:45:12 BadgerService: Realtime subscribed OK -- badger-svc-cc264afb-946f-4b52-bd06-ee34091d7f02 status=SUBSCRIBED
+[I] 05-26 18:45:30 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 18:45:30 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-26 18:45:30 MainActivity: BadgerService started (mic=true)
+[I] 05-26 18:45:30 AuthManager: Session expired — trying HWID silent login
+[W] 05-26 18:45:30 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-26 18:45:30 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-26 18:45:30 BadgerService: Keepalive scheduled in 900s
+[I] 05-26 18:45:30 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 18:45:31 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-26 18:45:31 AuthManager: HWID silent login OK
+[I] 05-26 18:45:31 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-26 18:45:31 BadgerService: Realtime subscribed OK -- badger-svc-c88dd40b-a287-47d7-be7b-ba2ca1e97c66 status=SUBSCRIBED
+[I] 05-26 18:55:11 Movement: Truck 187-1 status → In Door
+[I] 05-26 18:55:11 BadgerRepo: updateMovementStatus OK â€” truck=187-1 statusId=1
+[I] 05-26 18:55:37 Movement: Truck 248-1 status → In Door
+[I] 05-26 18:55:38 BadgerRepo: updateMovementStatus OK â€” truck=248-1 statusId=1
+[I] 05-26 18:56:04 Movement: Truck 231-1 status → In Door
+[I] 05-26 18:56:04 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=1
+[I] 05-26 18:56:16 Movement: Truck 223-1 status → In Door
+[I] 05-26 18:56:16 BadgerRepo: updateMovementStatus OK â€” truck=223-1 statusId=1
+[I] 05-26 18:56:22 Movement: Truck 222-1 status → In Door
+[I] 05-26 18:56:23 BadgerRepo: updateMovementStatus OK â€” truck=222-1 statusId=1
+[I] 05-26 18:56:26 Movement: Truck 189-1 status → In Door
+[I] 05-26 18:56:26 BadgerRepo: updateMovementStatus OK â€” truck=189-1 statusId=1
+[I] 05-26 18:57:03 Movement: Truck 248-2 status → Trailer Area - connected
+[I] 05-26 18:57:03 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=36
+[I] 05-26 19:00:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-26 19:00:30 BadgerService: Keepalive scheduled in 900s
