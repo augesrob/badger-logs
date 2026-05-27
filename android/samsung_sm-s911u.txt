@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-26 22:14:25 ===
+=== samsung SM-S911U | shipped 2026-05-26 22:30:34 ===
 [E] 05-22 20:15:03 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:5929 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2924 ← Handler.dispatchMessage:110 ← Looper.loopOnce:273 ← Looper.loop:363 ← ActivityThread.main:10060 ← Method.invoke:-2
 [I] 05-22 20:15:05 LogShipper: Shipped 1 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 05-22 20:15:08 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -350,3 +350,21 @@
 [I] 05-26 22:04:43 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s911u.txt
 [E] 05-26 22:14:25 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [E] 05-26 22:14:25 CRASH: HttpRequestTimeoutException: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] | HttpTimeoutKt$applyRequestTimeout$killer$1.invokeSuspend:185 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:100 ← LimitedDispatcher$Worker.run:113 ← TaskImpl.run:89 ← CoroutineScheduler.runSafely:586 ← CoroutineScheduler$Worker.executeTask:820 ← CoroutineScheduler$Worker.runWorker:717
+[W] 05-26 22:14:28 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 05-26 22:14:31 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 05-26 22:14:33 BadgerService: Realtime subscribed OK -- badger-svc-a382d355-e375-4b61-8dd1-ce9b2b879f96 status=SUBSCRIBED
+[I] 05-26 22:15:34 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 22:15:34 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-26 22:15:34 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-26 22:15:34 AuthManager: Session expired — trying HWID silent login
+[I] 05-26 22:15:34 BadgerService: Keepalive scheduled in 900s
+[I] 05-26 22:15:34 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 05-26 22:15:34 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 22:15:35 AuthManager: Sign in OK — felipe role=admin
+[I] 05-26 22:15:35 AuthManager: HWID silent login OK
+[I] 05-26 22:15:35 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[W] 05-26 22:15:35 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-26 22:15:35 BadgerService: startRealtimeSync skipped — already restarting
+[I] 05-26 22:15:36 BadgerService: Realtime subscribed OK -- badger-svc-3802a8a3-40e0-4813-ace2-2ccdca6496cd status=SUBSCRIBED
+[I] 05-26 22:30:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-26 22:30:34 BadgerService: Keepalive scheduled in 900s
