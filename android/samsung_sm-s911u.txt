@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-26 23:45:34 ===
+=== samsung SM-S911U | shipped 2026-05-26 23:49:37 ===
 [E] 05-22 20:15:03 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:5929 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2924 ← Handler.dispatchMessage:110 ← Looper.loopOnce:273 ← Looper.loop:363 ← ActivityThread.main:10060 ← Method.invoke:-2
 [I] 05-22 20:15:05 LogShipper: Shipped 1 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 05-22 20:15:08 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -427,3 +427,27 @@
 [I] 05-26 23:45:34 BadgerService: Keepalive scheduled in 900s
 [W] 05-26 23:45:34 BadgerService: startRealtimeSync skipped — already restarting
 [W] 05-26 23:45:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-26 23:45:36 LogShipper: Shipped 428 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 05-26 23:46:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-26 23:47:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-26 23:48:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-26 23:49:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[I] 05-26 23:49:09 Movement: Truck 224-1 status → On Route
+[I] 05-26 23:49:10 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=3
+[I] 05-26 23:49:11 BadgerService: Realtime subscribed OK -- badger-svc-f6cd4c44-de02-4bb8-a06b-35c5ebfa2da3 status=SUBSCRIBED
+[I] 05-26 23:49:20 Movement: Truck 187-1 status → On Route
+[I] 05-26 23:49:20 BadgerRepo: updateMovementStatus OK â€” truck=187-1 statusId=3
+[W] 05-26 23:49:31 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-26 23:49:31 BadgerService: Keepalive scheduled in 2s
+[I] 05-26 23:49:36 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 23:49:36 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-26 23:49:36 BadgerService: FGS microphone blocked — starting without mic FGS type
+[W] 05-26 23:49:37 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-26 23:49:37 AuthManager: Session expired — trying HWID silent login
+[I] 05-26 23:49:37 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 05-26 23:49:37 BadgerService: Keepalive scheduled in 900s
+[I] 05-26 23:49:37 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-26 23:49:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-26 23:49:37 BadgerService: Keepalive scheduled in 900s
+[W] 05-26 23:49:37 BadgerService: startRealtimeSync skipped — already restarting
+[W] 05-26 23:49:37 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
