@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-27 00:04:37 ===
+=== samsung SM-S911U | shipped 2026-05-27 00:19:37 ===
 [E] 05-22 20:15:03 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:5929 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2924 ← Handler.dispatchMessage:110 ← Looper.loopOnce:273 ← Looper.loop:363 ← ActivityThread.main:10060 ← Method.invoke:-2
 [I] 05-22 20:15:05 LogShipper: Shipped 1 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 05-22 20:15:08 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -478,3 +478,10 @@
 [I] 05-27 00:04:37 BadgerService: Keepalive scheduled in 900s
 [W] 05-27 00:04:37 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 05-27 00:04:37 BadgerService: startRealtimeSync skipped — already restarting
+[I] 05-27 00:04:38 AuthManager: Sign in OK — felipe role=admin
+[I] 05-27 00:04:38 AuthManager: HWID silent login OK
+[I] 05-27 00:04:38 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 05-27 00:04:38 BadgerService: Realtime subscribed OK -- badger-svc-5f58a449-764f-4190-9cd9-2ee9dd5d6ee1 status=SUBSCRIBED
+[I] 05-27 00:04:39 LogShipper: Shipped 479 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 05-27 00:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 00:19:37 BadgerService: Keepalive scheduled in 900s
