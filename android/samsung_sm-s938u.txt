@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 03:49:09 ===
+=== samsung SM-S938U | shipped 2026-05-27 04:04:09 ===
 [I] 05-26 19:15:41 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=12
 [E] 05-26 19:20:46 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 05-26 19:20:46 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
@@ -337,3 +337,12 @@
 [I] 05-27 03:45:17 BadgerService: Realtime subscribed OK -- badger-svc-898cbdfe-7306-4977-93fd-fe25570bdb24 status=SUBSCRIBED
 [I] 05-27 03:49:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 03:49:09 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 03:49:10 LogShipper: Shipped 338 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-27 03:56:27 Movement: Truck 241 status → In Door
+[I] 05-27 03:56:28 BadgerRepo: updateMovementStatus OK â€” truck=241 statusId=1
+[I] 05-27 03:57:32 Movement: Truck 141 status → Put Away
+[I] 05-27 03:57:32 BadgerRepo: updateMovementStatus OK â€” truck=141 statusId=2
+[I] 05-27 04:03:48 Movement: Truck 231-2 status → On Route
+[I] 05-27 04:03:48 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=3
+[I] 05-27 04:04:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 04:04:09 BadgerService: Keepalive scheduled in 900s
