@@ -1,11 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 00:19:08 ===
-[I] 05-22 01:05:44 BadgerRepo: updateDoorStatus OK â€” id=2 status=End Of Truck Tote
-[I] 05-22 01:07:40 Movement: Door 13A status → Change Truck/Trailer
-[I] 05-22 01:07:40 BadgerRepo: updateDoorStatus OK â€” id=1 status=Change Truck/Trailer
-[I] 05-22 01:08:42 Movement: Truck 216 status → Put Away
-[I] 05-22 01:08:42 BadgerRepo: updateMovementStatus OK â€” truck=216 statusId=2
-[I] 05-22 01:09:06 Movement: Truck 216 status → Yard
-[I] 05-22 01:09:06 BadgerRepo: updateMovementStatus OK â€” truck=216 statusId=9
+=== samsung SM-S938U | shipped 2026-05-27 00:34:08 ===
 [I] 05-22 01:10:07 Movement: Door 13A status → Loading
 [I] 05-22 01:10:07 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
 [I] 05-22 01:10:11 Movement: Truck 243 status → In Door
@@ -499,3 +492,10 @@
 [W] 05-27 00:19:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 05-27 00:19:08 BadgerService: startRealtimeSync skipped — already restarting
 [I] 05-27 00:19:08 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-27 00:19:09 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-27 00:19:09 AuthManager: HWID silent login OK
+[I] 05-27 00:19:09 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-27 00:19:09 BadgerService: Realtime subscribed OK -- badger-svc-676bb12a-43c8-420a-a665-983352403a09 status=SUBSCRIBED
+[I] 05-27 00:19:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-27 00:34:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 00:34:08 BadgerService: Keepalive scheduled in 900s
