@@ -1,15 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 00:04:08 ===
-[I] 05-22 00:56:52 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 05-22 00:56:52 BadgerService: Realtime subscribed OK -- badger-svc-87bd9675-8a93-4fe0-9485-f2ae01c9e740 status=SUBSCRIBED
-[I] 05-22 00:57:20 Movement: Truck 224-2 status → 10
-[I] 05-22 00:57:20 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=13
-[I] 05-22 01:03:49 Movement: Truck 244 status → In Door
-[I] 05-22 01:03:49 BadgerRepo: updateMovementStatus OK â€” truck=244 statusId=1
-[I] 05-22 01:04:34 Movement: Door 14B status → Loading
-[I] 05-22 01:04:34 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
-[I] 05-22 01:05:35 Movement: Door 13A status → End Of Truck Tote
-[I] 05-22 01:05:35 BadgerRepo: updateDoorStatus OK â€” id=1 status=End Of Truck Tote
-[I] 05-22 01:05:44 Movement: Door 13B status → End Of Truck Tote
+=== samsung SM-S938U | shipped 2026-05-27 00:19:08 ===
 [I] 05-22 01:05:44 BadgerRepo: updateDoorStatus OK â€” id=2 status=End Of Truck Tote
 [I] 05-22 01:07:40 Movement: Door 13A status → Change Truck/Trailer
 [I] 05-22 01:07:40 BadgerRepo: updateDoorStatus OK â€” id=1 status=Change Truck/Trailer
@@ -497,3 +486,16 @@
 [W] 05-27 00:04:03 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
 [I] 05-27 00:04:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 00:04:08 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 00:04:10 LogShipper: Shipped 498 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-27 00:19:08 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 00:19:08 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-27 00:19:08 BadgerService: FGS microphone blocked — starting without mic FGS type
+[W] 05-27 00:19:08 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-27 00:19:08 AuthManager: Session expired — trying HWID silent login
+[I] 05-27 00:19:08 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 00:19:08 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 00:19:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 00:19:08 BadgerService: Keepalive scheduled in 900s
+[W] 05-27 00:19:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-27 00:19:08 BadgerService: startRealtimeSync skipped — already restarting
+[I] 05-27 00:19:08 AuthManager: HWID silent login for rfa1991@gmail.com
