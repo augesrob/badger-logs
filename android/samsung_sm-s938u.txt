@@ -1,7 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 09:06:59 ===
-[I] 05-26 19:25:23 Movement: Truck 231-2 status → In Front
-[I] 05-26 19:25:23 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=4
-[I] 05-26 19:25:33 Movement: Truck 186-1 status → In Front
+=== samsung SM-S938U | shipped 2026-05-27 09:21:59 ===
 [I] 05-26 19:25:33 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=4
 [E] 05-26 19:26:19 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 05-26 19:26:19 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
@@ -499,3 +496,6 @@
 [I] 05-27 08:52:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-27 09:06:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 09:06:59 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 09:07:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-27 09:21:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 09:21:59 BadgerService: Keepalive scheduled in 900s
