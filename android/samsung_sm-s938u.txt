@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 04:49:09 ===
+=== samsung SM-S938U | shipped 2026-05-27 05:04:09 ===
 [I] 05-26 19:15:41 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=12
 [E] 05-26 19:20:46 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 05-26 19:20:46 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
@@ -364,3 +364,17 @@
 [I] 05-27 04:49:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 04:49:09 BadgerService: Keepalive scheduled in 900s
 [W] 05-27 04:49:09 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-27 04:49:10 LogShipper: Shipped 365 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 05-27 04:49:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-27 04:50:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-27 04:51:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-27 04:52:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-27 04:53:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-27 04:54:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-27 04:55:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[W] 05-27 04:56:12 BadgerService: startRealtimeSync skipped — already restarting
+[W] 05-27 04:56:12 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 05-27 04:56:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[I] 05-27 04:56:35 BadgerService: Realtime subscribed OK -- badger-svc-77f9b4c3-8d11-402d-ba5a-3907ea79c4a7 status=SUBSCRIBED
+[I] 05-27 05:04:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 05:04:09 BadgerService: Keepalive scheduled in 900s
