@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 02:05:19 ===
+=== samsung SM-S938U | shipped 2026-05-28 02:20:19 ===
 [I] 05-27 19:59:47 Movement: Truck 231-1 status → In Door
 [I] 05-27 19:59:47 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=1
 [I] 05-27 19:59:49 Movement: Truck 223-1 status → In Door
@@ -295,3 +295,16 @@
 [I] 05-28 01:50:21 LogShipper: Shipped 293 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-28 02:05:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 02:05:19 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 02:05:21 LogShipper: Shipped 296 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-28 02:13:29 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 05-28 02:13:39 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-28 02:13:39 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-28 02:14:00 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-28 02:14:00 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-28 02:14:20 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-28 02:14:20 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-28 02:14:41 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-28 02:14:41 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 05-28 02:15:01 BadgerService: Realtime subscribed OK -- badger-svc-e4cd1e9d-b6fe-4c8b-acae-b0705ae5104b status=SUBSCRIBED
+[I] 05-28 02:20:19 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 02:20:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
