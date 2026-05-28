@@ -1,25 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 11:47:42 ===
-[I] 05-27 23:46:45 AuthManager: HWID silent login for rfa1991@gmail.com
-[I] 05-27 23:46:46 BadgerService: Realtime subscribed OK -- badger-svc-4dbb08eb-2f08-42ee-b3f9-8fc1797e04d9 status=SUBSCRIBED
-[I] 05-27 23:46:46 AuthManager: Sign in OK — augesrob role=admin
-[I] 05-27 23:46:46 AuthManager: HWID silent login OK
-[I] 05-27 23:46:46 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[W] 05-27 23:47:09 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
-[W] 05-27 23:47:11 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 05-27 23:47:11 BadgerService: startRealtimeSync skipped — already restarting
-[I] 05-27 23:47:13 BadgerService: Realtime subscribed OK -- badger-svc-4bb4c489-4c48-48eb-8f6f-76c6388957a6 status=SUBSCRIBED
-[W] 05-27 23:47:28 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[I] 05-27 23:47:31 BadgerService: Realtime subscribed OK -- badger-svc-aff37684-fa72-4261-bd3e-5fc070ec84a0 status=SUBSCRIBED
-[W] 05-27 23:47:46 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[I] 05-27 23:47:47 BadgerService: Realtime subscribed OK -- badger-svc-ec3df033-3e22-421c-9ed4-bc7d434e9e9d status=SUBSCRIBED
-[I] 05-28 00:01:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 00:01:45 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 00:01:47 LogShipper: Shipped 255 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 00:03:20 Movement: Door 14B status → Change Truck/Trailer
-[I] 05-28 00:03:20 BadgerRepo: updateDoorStatus OK â€” id=4 status=Change Truck/Trailer
-[W] 05-28 00:05:16 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
-[E] 05-28 00:05:16 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 05-28 00:05:16 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+=== samsung SM-S938U | shipped 2026-05-28 12:02:42 ===
 [E] 05-28 00:05:16 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
 [I] 05-28 00:05:19 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 05-28 00:05:19 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
@@ -499,3 +478,24 @@
 [W] 05-28 11:47:42 BadgerService: startRealtimeSync skipped — already restarting
 [I] 05-28 11:47:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 11:47:42 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 11:47:44 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 05-28 11:47:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:48:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:49:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:50:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:51:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:52:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:53:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:54:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:55:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:56:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:57:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:58:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:59:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 11:59:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:00:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:01:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[I] 05-28 12:02:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 12:02:42 BadgerService: Keepalive scheduled in 900s
+[W] 05-28 12:02:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-28 12:02:42 BadgerService: startRealtimeSync skipped — already restarting
