@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 20:15:38 ===
+=== samsung SM-S938U | shipped 2026-05-27 20:52:14 ===
 [I] 05-27 11:21:59 BadgerService: Keepalive scheduled in 900s
 [I] 05-27 11:22:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-27 11:36:59 BadgerService: Keepalive scheduled in 900s
@@ -276,3 +276,66 @@
 [I] 05-27 20:02:59 BadgerService: Realtime subscribed OK -- badger-svc-304fd414-d465-442d-af5e-a3f569f5761f status=SUBSCRIBED
 [I] 05-27 20:15:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 20:15:38 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 20:15:39 Movement: Truck 177-1 status → In Front
+[I] 05-27 20:15:39 BadgerRepo: updateMovementStatus OK â€” truck=177-1 statusId=4
+[I] 05-27 20:15:39 LogShipper: Shipped 277 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-27 20:16:00 PrintRoom: Updated truck 177-2 (id=5651)
+[I] 05-27 20:16:10 PrintRoom: Updated truck 177-1 (id=5658)
+[I] 05-27 20:16:28 Movement: Truck 187-2 status → In Front
+[I] 05-27 20:16:28 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=4
+[I] 05-27 20:16:34 Movement: Truck 187-2 status → In Front
+[I] 05-27 20:16:34 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=4
+[E] 05-27 20:20:55 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-27 20:20:55 CRASH: HttpRequestTimeoutException: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] | HttpTimeoutKt$applyRequestTimeout$killer$1.invokeSuspend:185 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:100 ← LimitedDispatcher$Worker.run:113 ← TaskImpl.run:89 ← CoroutineScheduler.runSafely:586 ← CoroutineScheduler$Worker.executeTask:820 ← CoroutineScheduler$Worker.runWorker:717
+[W] 05-27 20:20:55 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 05-27 20:21:01 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:21:01 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 05-27 20:21:02 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-27 20:21:04 BadgerService: Realtime subscribed OK -- badger-svc-6162f614-c1e4-49b2-bba5-96a1977bfffc status=SUBSCRIBED
+[I] 05-27 20:21:06 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-27 20:21:06 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 20:21:06 AuthManager: Session expired — trying HWID silent login
+[W] 05-27 20:21:06 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-27 20:21:06 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 20:21:06 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 20:21:06 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-27 20:21:07 AuthManager: HWID silent login OK
+[I] 05-27 20:21:07 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-27 20:21:07 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-27 20:21:07 BadgerService: Realtime subscribed OK -- badger-svc-77db406f-1290-4d77-a311-940f933c1df6 status=SUBSCRIBED
+[I] 05-27 20:23:39 Movement: Truck 186-1 status → In Front
+[I] 05-27 20:23:40 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=4
+[I] 05-27 20:24:02 Movement: Truck 231-2 status → In Front
+[I] 05-27 20:24:02 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=4
+[E] 05-27 20:32:01 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:32:01 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
+[I] 05-27 20:32:04 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-27 20:32:04 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-27 20:32:04 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-27 20:32:04 AuthManager: Session expired — trying HWID silent login
+[I] 05-27 20:32:04 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 20:32:04 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 20:32:04 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-27 20:32:04 AuthManager: HWID silent login OK
+[I] 05-27 20:32:04 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-27 20:32:04 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-27 20:32:04 BadgerService: Realtime subscribed OK -- badger-svc-8e69e930-3af2-48e2-93f5-888ab7752f59 status=SUBSCRIBED
+[I] 05-27 20:35:32 Movement: Truck 248-2 status → In Front
+[I] 05-27 20:35:33 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=4
+[I] 05-27 20:35:36 Movement: Truck 188-1 status → In Front
+[I] 05-27 20:35:36 BadgerRepo: updateMovementStatus OK â€” truck=188-1 statusId=4
+[E] 05-27 20:37:09 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:37:09 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
+[I] 05-27 20:37:14 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 20:37:14 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-27 20:37:14 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-27 20:37:14 AuthManager: Session expired — trying HWID silent login
+[I] 05-27 20:37:14 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 20:37:14 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 20:37:14 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-27 20:37:15 AuthManager: HWID silent login OK
+[I] 05-27 20:37:15 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-27 20:37:15 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-27 20:37:15 BadgerService: Realtime subscribed OK -- badger-svc-42e6788d-8830-4b34-aea2-1b8e38012944 status=SUBSCRIBED
+[I] 05-27 20:52:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 20:52:14 BadgerService: Keepalive scheduled in 900s
