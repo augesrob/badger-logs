@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 16:15:19 ===
+=== samsung SM-S938U | shipped 2026-05-28 16:15:35 ===
 [E] 05-28 12:17:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
 [I] 05-28 12:17:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 05-28 12:17:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -384,3 +384,19 @@
 [I] 05-28 16:15:17 BadgerService: Keepalive scheduled in 900s
 [I] 05-28 16:15:19 LogShipper: Shipped 383 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 05-28 16:15:19 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-28 16:15:21 LogShipper: Shipped 385 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-28 16:15:24 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 16:15:24 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-28 16:15:24 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-28 16:15:24 AuthManager: Session expired — trying HWID silent login
+[I] 05-28 16:15:24 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 16:15:24 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 16:15:24 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-28 16:15:24 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-28 16:15:24 AuthManager: HWID silent login OK
+[I] 05-28 16:15:24 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-28 16:15:25 BadgerService: Realtime subscribed OK -- badger-svc-41ca1258-ecf6-418b-88ce-9f4d133c2279 status=SUBSCRIBED
+[W] 05-28 16:15:30 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-28 16:15:30 BadgerService: Keepalive scheduled in 2s
+[I] 05-28 16:15:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 16:15:35 BadgerService: Keepalive scheduled in 900s
