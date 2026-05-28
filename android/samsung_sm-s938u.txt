@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 06:20:20 ===
+=== samsung SM-S938U | shipped 2026-05-28 06:35:20 ===
 [I] 05-27 19:59:47 Movement: Truck 231-1 status → In Door
 [I] 05-27 19:59:47 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=1
 [I] 05-27 19:59:49 Movement: Truck 223-1 status → In Door
@@ -385,3 +385,9 @@
 [I] 05-28 06:07:27 BadgerService: Realtime subscribed OK -- badger-svc-1d700e36-0887-44f3-9a5c-39e41fe167a0 status=SUBSCRIBED
 [I] 05-28 06:20:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 06:20:20 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 06:20:21 LogShipper: Shipped 386 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-28 06:31:13 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
+[E] 05-28 06:31:13 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
+[I] 05-28 06:31:14 BadgerService: Realtime subscribed OK -- badger-svc-0442a81e-eb3c-4406-975c-64dd25236eb3 status=SUBSCRIBED
+[I] 05-28 06:35:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 06:35:20 BadgerService: Keepalive scheduled in 900s
