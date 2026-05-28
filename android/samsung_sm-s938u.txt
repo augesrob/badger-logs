@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 18:04:52 ===
+=== samsung SM-S938U | shipped 2026-05-28 18:05:15 ===
 [E] 05-28 12:17:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
 [I] 05-28 12:17:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 05-28 12:17:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -426,3 +426,28 @@
 [I] 05-28 18:00:36 LogShipper: Shipped 424 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 05-28 18:04:51 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
 [E] 05-28 18:04:52 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-28 18:04:54 LogShipper: Shipped 427 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-28 18:04:57 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 18:04:57 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-28 18:04:57 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-28 18:04:57 AuthManager: Session expired — trying HWID silent login
+[I] 05-28 18:04:57 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 18:04:57 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 18:04:57 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-28 18:04:58 AuthManager: HWID silent login OK
+[I] 05-28 18:04:58 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-28 18:04:58 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-28 18:04:58 BadgerService: Realtime subscribed OK -- badger-svc-1a9b1f62-0a3e-46ce-8c07-ff9364f40385 status=SUBSCRIBED
+[I] 05-28 18:05:10 BadgerService: Keepalive scheduled in 2s
+[W] 05-28 18:05:10 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-28 18:05:15 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 18:05:15 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-28 18:05:15 BadgerService: FGS microphone blocked — starting without mic FGS type
+[W] 05-28 18:05:15 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-28 18:05:15 AuthManager: Session expired — trying HWID silent login
+[I] 05-28 18:05:15 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 18:05:15 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 18:05:15 BadgerService: Keepalive scheduled in 900s
+[W] 05-28 18:05:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-28 18:05:15 BadgerService: startRealtimeSync skipped — already restarting
+[I] 05-28 18:05:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
