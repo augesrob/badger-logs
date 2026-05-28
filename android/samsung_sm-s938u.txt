@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 07:05:20 ===
+=== samsung SM-S938U | shipped 2026-05-28 07:20:20 ===
 [I] 05-27 19:59:47 Movement: Truck 231-1 status → In Door
 [I] 05-27 19:59:47 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=1
 [I] 05-27 19:59:49 Movement: Truck 223-1 status → In Door
@@ -397,3 +397,25 @@
 [I] 05-28 06:50:21 LogShipper: Shipped 395 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-28 07:05:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 07:05:20 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 07:05:21 LogShipper: Shipped 398 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-28 07:07:17 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 05-28 07:07:17 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 2
+[E] 05-28 07:08:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:08:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:09:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:10:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:11:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:12:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:13:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:14:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:15:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:15:41 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 05-28 07:16:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:17:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:17:38 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 05-28 07:18:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:19:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 07:20:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[I] 05-28 07:20:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 07:20:20 BadgerService: Keepalive scheduled in 900s
+[W] 05-28 07:20:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
