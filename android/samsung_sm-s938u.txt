@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 00:01:45 ===
+=== samsung SM-S938U | shipped 2026-05-28 00:20:19 ===
 [I] 05-27 19:59:47 Movement: Truck 231-1 status → In Door
 [I] 05-27 19:59:47 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=1
 [I] 05-27 19:59:49 Movement: Truck 223-1 status → In Door
@@ -254,3 +254,23 @@
 [I] 05-27 23:47:47 BadgerService: Realtime subscribed OK -- badger-svc-ec3df033-3e22-421c-9ed4-bc7d434e9e9d status=SUBSCRIBED
 [I] 05-28 00:01:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 00:01:45 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 00:01:47 LogShipper: Shipped 255 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-28 00:03:20 Movement: Door 14B status → Change Truck/Trailer
+[I] 05-28 00:03:20 BadgerRepo: updateDoorStatus OK â€” id=4 status=Change Truck/Trailer
+[W] 05-28 00:05:16 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 05-28 00:05:16 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-28 00:05:16 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-28 00:05:16 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
+[I] 05-28 00:05:19 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 00:05:19 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-28 00:05:19 AuthManager: Session expired — trying HWID silent login
+[W] 05-28 00:05:19 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-28 00:05:19 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 00:05:19 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 00:05:19 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-28 00:05:20 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-28 00:05:20 AuthManager: HWID silent login OK
+[I] 05-28 00:05:20 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-28 00:05:20 BadgerService: Realtime subscribed OK -- badger-svc-db9b07b0-13e7-4a5f-b51e-61829bdee632 status=SUBSCRIBED
+[I] 05-28 00:20:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 00:20:19 BadgerService: Keepalive scheduled in 900s
