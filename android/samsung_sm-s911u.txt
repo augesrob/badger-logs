@@ -1,263 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-27 20:33:27 ===
-[I] 05-26 20:04:16 AuthManager: Session expired — trying HWID silent login
-[I] 05-26 20:04:16 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 05-26 20:04:17 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 20:04:17 BadgerService: Service started â€” URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 20:04:17 AuthManager: Sign in OK — felipe role=admin
-[I] 05-26 20:04:17 AuthManager: HWID silent login OK
-[I] 05-26 20:04:17 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 05-26 20:04:18 BadgerService: Realtime subscribed OK -- badger-svc-ee243744-ded8-49e6-8ba5-be5e44392170 status=SUBSCRIBED
-[I] 05-26 20:04:41 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-26 20:04:41 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 20:04:41 MainActivity: BadgerService started (mic=true)
-[W] 05-26 20:04:41 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-26 20:04:41 AuthManager: Session expired — trying HWID silent login
-[I] 05-26 20:04:41 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 05-26 20:04:41 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 20:04:41 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 20:04:42 AuthManager: HWID silent login OK
-[I] 05-26 20:04:42 AuthManager: Sign in OK — felipe role=admin
-[I] 05-26 20:04:42 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 05-26 20:04:43 BadgerService: Realtime subscribed OK -- badger-svc-fa581fe3-2fdf-4baf-8962-5cd64582ea2e status=SUBSCRIBED
-[I] 05-26 20:19:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 20:19:41 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 20:19:44 LogShipper: Shipped 319 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 20:34:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 20:34:42 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 20:34:43 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 20:49:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 20:49:42 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 20:49:43 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 21:04:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 21:04:42 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 21:04:43 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 21:19:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 21:19:42 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 21:19:43 LogShipper: Shipped 331 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 21:27:45 Movement: Truck 196 status → In Front
-[I] 05-26 21:27:45 BadgerRepo: updateMovementStatus OK â€” truck=196 statusId=4
-[I] 05-26 21:31:36 Movement: Truck 232 status → In Front
-[I] 05-26 21:31:36 BadgerRepo: updateMovementStatus OK â€” truck=232 statusId=4
-[I] 05-26 21:34:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 21:34:42 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 21:34:43 LogShipper: Shipped 338 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 21:36:28 Movement: Truck 246 status → In Front
-[I] 05-26 21:36:28 BadgerRepo: updateMovementStatus OK â€” truck=246 statusId=4
-[I] 05-26 21:45:53 Movement: Truck 147 status → In Front
-[I] 05-26 21:45:54 BadgerRepo: updateMovementStatus OK â€” truck=147 statusId=4
-[I] 05-26 21:49:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 21:49:42 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 21:49:43 LogShipper: Shipped 345 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 22:04:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 22:04:42 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 22:04:43 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 05-26 22:14:25 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-26 22:14:25 CRASH: HttpRequestTimeoutException: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] | HttpTimeoutKt$applyRequestTimeout$killer$1.invokeSuspend:185 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:100 ← LimitedDispatcher$Worker.run:113 ← TaskImpl.run:89 ← CoroutineScheduler.runSafely:586 ← CoroutineScheduler$Worker.executeTask:820 ← CoroutineScheduler$Worker.runWorker:717
-[W] 05-26 22:14:28 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[I] 05-26 22:14:31 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 22:14:33 BadgerService: Realtime subscribed OK -- badger-svc-a382d355-e375-4b61-8dd1-ce9b2b879f96 status=SUBSCRIBED
-[I] 05-26 22:15:34 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 22:15:34 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 05-26 22:15:34 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-26 22:15:34 AuthManager: Session expired — trying HWID silent login
-[I] 05-26 22:15:34 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 22:15:34 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 05-26 22:15:34 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 22:15:35 AuthManager: Sign in OK — felipe role=admin
-[I] 05-26 22:15:35 AuthManager: HWID silent login OK
-[I] 05-26 22:15:35 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[W] 05-26 22:15:35 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 05-26 22:15:35 BadgerService: startRealtimeSync skipped — already restarting
-[I] 05-26 22:15:36 BadgerService: Realtime subscribed OK -- badger-svc-3802a8a3-40e0-4813-ace2-2ccdca6496cd status=SUBSCRIBED
-[I] 05-26 22:30:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 22:30:34 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 22:30:36 LogShipper: Shipped 369 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 22:30:49 PTT: PTT recording STARTED
-[I] 05-26 22:30:51 PTT: PTT recording STOPPED
-[I] 05-26 22:30:51 PTT: PTT sent OK — 28480 bytes
-[I] 05-26 22:30:52 PTT: Incoming PTT message received
-[I] 05-26 22:45:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 22:45:34 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 22:45:36 LogShipper: Shipped 376 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 23:00:19 Movement: Truck 238 status → In Front
-[I] 05-26 23:00:19 BadgerRepo: updateMovementStatus OK â€” truck=238 statusId=4
-[I] 05-26 23:00:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 23:00:34 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 23:00:35 LogShipper: Shipped 381 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 23:15:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 23:15:34 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 23:15:36 LogShipper: Shipped 384 log lines to badger-logs/android/samsung_sm-s911u.txt
-[W] 05-26 23:15:42 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 05-26 23:16:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:17:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:18:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:19:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:20:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:21:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:22:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:22:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:23:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:24:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:25:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:26:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:27:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:28:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:29:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:30:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-26 23:30:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 23:30:34 BadgerService: Keepalive scheduled in 900s
-[W] 05-26 23:30:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 05-26 23:30:35 LogShipper: Shipped 405 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 05-26 23:31:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:32:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:33:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:33:21 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
-[E] 05-26 23:34:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:35:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:35:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:36:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:37:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:38:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:39:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:40:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:41:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:42:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:43:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:43:35 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
-[E] 05-26 23:44:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:45:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-26 23:45:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 23:45:34 BadgerService: Keepalive scheduled in 900s
-[W] 05-26 23:45:34 BadgerService: startRealtimeSync skipped — already restarting
-[W] 05-26 23:45:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 05-26 23:45:36 LogShipper: Shipped 428 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 05-26 23:46:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:47:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:48:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-26 23:49:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-26 23:49:09 Movement: Truck 224-1 status → On Route
-[I] 05-26 23:49:10 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=3
-[I] 05-26 23:49:11 BadgerService: Realtime subscribed OK -- badger-svc-f6cd4c44-de02-4bb8-a06b-35c5ebfa2da3 status=SUBSCRIBED
-[I] 05-26 23:49:20 Movement: Truck 187-1 status → On Route
-[I] 05-26 23:49:20 BadgerRepo: updateMovementStatus OK â€” truck=187-1 statusId=3
-[W] 05-26 23:49:31 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 05-26 23:49:31 BadgerService: Keepalive scheduled in 2s
-[I] 05-26 23:49:36 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 23:49:36 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 05-26 23:49:36 BadgerService: FGS microphone blocked — starting without mic FGS type
-[W] 05-26 23:49:37 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-26 23:49:37 AuthManager: Session expired — trying HWID silent login
-[I] 05-26 23:49:37 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 05-26 23:49:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-26 23:49:37 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 23:49:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-26 23:49:37 BadgerService: Keepalive scheduled in 900s
-[W] 05-26 23:49:37 BadgerService: startRealtimeSync skipped — already restarting
-[W] 05-26 23:49:37 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 05-26 23:49:38 AuthManager: Sign in OK — felipe role=admin
-[I] 05-26 23:49:38 AuthManager: HWID silent login OK
-[I] 05-26 23:49:38 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[W] 05-26 23:49:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 05-26 23:49:38 BadgerService: startRealtimeSync skipped — already restarting
-[I] 05-26 23:49:40 BadgerService: Realtime subscribed OK -- badger-svc-60df7efe-7bd8-4484-83b6-a0a9d70a126f status=SUBSCRIBED
-[I] 05-26 23:49:40 LogShipper: Shipped 452 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-26 23:49:53 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-26 23:49:53 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-26 23:49:54 AuthManager: Session expired — trying HWID silent login
-[W] 05-26 23:49:54 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-26 23:49:54 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 05-26 23:49:54 AuthManager: Sign in OK — felipe role=admin
-[I] 05-26 23:49:54 AuthManager: HWID silent login OK
-[I] 05-26 23:49:55 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 05-27 00:04:37 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-27 00:04:37 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 05-27 00:04:37 BadgerService: FGS microphone blocked — starting without mic FGS type
-[I] 05-27 00:04:37 AuthManager: Session expired — trying HWID silent login
-[W] 05-27 00:04:37 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-27 00:04:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 00:04:37 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 05-27 00:04:37 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-27 00:04:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 00:04:37 BadgerService: Keepalive scheduled in 900s
-[W] 05-27 00:04:37 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 05-27 00:04:37 BadgerService: startRealtimeSync skipped — already restarting
-[I] 05-27 00:04:38 AuthManager: Sign in OK — felipe role=admin
-[I] 05-27 00:04:38 AuthManager: HWID silent login OK
-[I] 05-27 00:04:38 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 05-27 00:04:38 BadgerService: Realtime subscribed OK -- badger-svc-5f58a449-764f-4190-9cd9-2ee9dd5d6ee1 status=SUBSCRIBED
-[I] 05-27 00:04:39 LogShipper: Shipped 479 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 00:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 00:19:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 00:19:39 LogShipper: Shipped 486 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 00:34:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 00:34:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 00:34:39 LogShipper: Shipped 489 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 00:49:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 00:49:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 00:49:39 LogShipper: Shipped 492 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 01:04:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 01:04:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 01:04:39 LogShipper: Shipped 495 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 01:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 01:19:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 01:19:39 LogShipper: Shipped 498 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 01:34:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 01:34:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 01:34:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 01:49:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 01:49:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 01:49:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 02:04:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 02:04:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 02:04:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 02:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 02:19:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 02:19:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 02:34:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 02:34:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 02:34:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 02:49:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 02:49:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 02:49:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 03:04:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 03:04:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 03:04:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 03:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 03:19:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 03:19:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 03:34:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 03:34:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 03:34:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 03:49:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 03:49:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 03:49:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 04:04:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 04:04:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 04:04:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 04:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 04:19:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 04:19:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 04:34:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 04:34:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 04:34:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 04:49:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 04:49:37 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 04:49:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 05:04:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 05:04:38 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 05:04:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 05:19:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 05:19:38 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 05:19:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 05:34:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 05:34:38 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 05:34:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 05:49:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 05:49:38 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 05:49:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 05-27 06:04:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-27 06:04:38 BadgerService: Keepalive scheduled in 900s
-[I] 05-27 06:04:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+=== samsung SM-S911U | shipped 2026-05-27 20:59:02 ===
 [I] 05-27 06:19:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 06:19:38 BadgerService: Keepalive scheduled in 900s
 [I] 05-27 06:19:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -480,3 +221,42 @@
 [I] 05-27 20:18:27 BadgerService: Realtime subscribed OK -- badger-svc-52103dfc-4d88-44b8-acae-10c33b459ea0 status=SUBSCRIBED
 [I] 05-27 20:33:27 BadgerService: Keepalive scheduled in 900s
 [I] 05-27 20:33:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 20:33:29 LogShipper: Shipped 481 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 05-27 20:43:32 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-27 20:43:33 CRASH: HttpRequestTimeoutException: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] | HttpTimeoutKt$applyRequestTimeout$killer$1.invokeSuspend:185 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:100 ← LimitedDispatcher$Worker.run:113 ← TaskImpl.run:89 ← CoroutineScheduler.runSafely:586 ← CoroutineScheduler$Worker.executeTask:820 ← CoroutineScheduler$Worker.runWorker:717
+[W] 05-27 20:43:39 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 05-27 20:43:50 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-27 20:43:50 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 05-27 20:44:02 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 20:44:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-27 20:44:02 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-27 20:44:02 AuthManager: Session expired — trying HWID silent login
+[I] 05-27 20:44:02 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 05-27 20:44:02 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 20:44:02 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-27 20:44:04 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-27 20:44:04 BadgerService: startRealtimeSync skipped — already restarting
+[E] 05-27 20:44:06 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Failed to connect to vjmvuqunedyuovtqtotj.supabase.co/104.18.38.10:443
+[E] 05-27 20:44:06 AuthManager: Sign in failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/auth/v1/token?grant_type=password (POST) failed with message: Failed to connect to vjmvuqunedyuovtqtotj.supabase.co/104.18.38.10:443
+[E] 05-27 20:44:06 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Failed to connect to vjmvuqunedyuovtqtotj.supabase.co/104.18.38.10:443
+[E] 05-27 20:44:06 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Failed to connect to vjmvuqunedyuovtqtotj.supabase.co/104.18.38.10:443
+[W] 05-27 20:44:08 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-27 20:44:10 BadgerService: Realtime subscribed OK -- badger-svc-350f6dcd-f45d-4870-8360-62858b5536de status=SUBSCRIBED
+[W] 05-27 20:44:25 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 05-27 20:44:26 BadgerService: Realtime subscribed OK -- badger-svc-dff50ebf-2810-45f2-a5d6-551eae816b79 status=SUBSCRIBED
+[W] 05-27 20:50:52 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 05-27 20:51:02 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-27 20:51:02 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 05-27 20:51:14 BadgerService: Realtime subscribed OK -- badger-svc-7a1dfbb5-f45b-4679-849d-76ed1ee87ffb status=SUBSCRIBED
+[W] 05-27 20:52:49 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 05-27 20:52:49 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:52:49 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:53:00 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:53:00 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:53:10 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 20:53:10 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 05-27 20:53:12 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-27 20:53:16 BadgerService: Realtime subscribed OK -- badger-svc-e406b23b-a0aa-43f6-b2fd-9524a92ff619 status=SUBSCRIBED
+[E] 05-27 20:56:22 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 05-27 20:59:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 20:59:02 BadgerService: Keepalive scheduled in 900s
