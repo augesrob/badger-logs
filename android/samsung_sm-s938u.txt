@@ -1,13 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 18:41:41 ===
-[E] 05-28 12:35:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:36:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:37:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:38:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:38:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:39:06 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
-[E] 05-28 12:39:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:40:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:41:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+=== samsung SM-S938U | shipped 2026-05-28 18:56:41 ===
 [E] 05-28 12:42:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
 [E] 05-28 12:43:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
 [E] 05-28 12:44:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
@@ -499,3 +490,12 @@
 [I] 05-28 18:40:33 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=37
 [I] 05-28 18:41:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 18:41:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 18:41:42 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-28 18:47:32 Movement: Truck 187-2 status → In Front
+[I] 05-28 18:47:33 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=4
+[I] 05-28 18:51:17 Movement: Truck 186-1 status → In Front
+[I] 05-28 18:51:18 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=4
+[I] 05-28 18:51:50 Movement: Truck 224-1 status → In Front
+[I] 05-28 18:51:50 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=4
+[I] 05-28 18:56:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 18:56:41 BadgerService: Keepalive scheduled in 900s
