@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-27 20:07:23 ===
+=== samsung SM-S911U | shipped 2026-05-27 20:18:22 ===
 [I] 05-26 20:04:16 AuthManager: Session expired — trying HWID silent login
 [I] 05-26 20:04:16 AuthManager: HWID silent login for felipe@badgerliquor.com
 [I] 05-26 20:04:17 BadgerService: Keepalive scheduled in 900s
@@ -463,3 +463,5 @@
 [I] 05-27 19:52:25 LogShipper: Shipped 461 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 05-27 20:07:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 20:07:23 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 20:07:25 LogShipper: Shipped 464 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 05-27 20:18:22 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:5929 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2924 ← Handler.dispatchMessage:110 ← Looper.loopOnce:273 ← Looper.loop:363 ← ActivityThread.main:10060 ← Method.invoke:-2
