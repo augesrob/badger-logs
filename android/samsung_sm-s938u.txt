@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 22:37:14 ===
+=== samsung SM-S938U | shipped 2026-05-27 23:06:45 ===
 [I] 05-27 11:21:59 BadgerService: Keepalive scheduled in 900s
 [I] 05-27 11:22:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-27 11:36:59 BadgerService: Keepalive scheduled in 900s
@@ -426,3 +426,45 @@
 [I] 05-27 22:35:08 BadgerService: Realtime subscribed OK -- badger-svc-4a6a7a5a-0577-4886-b7b4-36e6c07e2f78 status=SUBSCRIBED
 [I] 05-27 22:37:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 22:37:14 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 22:37:15 LogShipper: Shipped 427 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-27 22:40:16 Movement: Truck 186-1 status → In Door
+[I] 05-27 22:40:16 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=1
+[I] 05-27 22:40:20 Movement: Truck 223-1 status → On Route
+[I] 05-27 22:40:20 BadgerRepo: updateMovementStatus OK â€” truck=223-1 statusId=3
+[I] 05-27 22:40:24 Movement: Truck 189-1 status → On Route
+[I] 05-27 22:40:24 BadgerRepo: updateMovementStatus OK â€” truck=189-1 statusId=3
+[I] 05-27 22:40:26 Movement: Truck 177-1 status → In Door
+[I] 05-27 22:40:26 BadgerRepo: updateMovementStatus OK â€” truck=177-1 statusId=1
+[I] 05-27 22:40:52 Movement: Door 14B status → Loading
+[I] 05-27 22:40:54 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
+[I] 05-27 22:46:10 Movement: Door 14A status → Change Truck/Trailer
+[I] 05-27 22:46:10 BadgerRepo: updateDoorStatus OK â€” id=3 status=Change Truck/Trailer
+[I] 05-27 22:46:25 Movement: Truck 248-1 status → On Route
+[I] 05-27 22:46:25 BadgerRepo: updateMovementStatus OK â€” truck=248-1 statusId=3
+[I] 05-27 22:46:40 Movement: Truck 188-1 status → In Door
+[I] 05-27 22:46:40 BadgerRepo: updateMovementStatus OK â€” truck=188-1 statusId=1
+[E] 05-27 22:51:21 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-27 22:51:21 CRASH: HttpRequestTimeoutException: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] | HttpTimeoutKt$applyRequestTimeout$killer$1.invokeSuspend:185 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:100 ← LimitedDispatcher$Worker.run:113 ← TaskImpl.run:89 ← CoroutineScheduler.runSafely:586 ← CoroutineScheduler$Worker.executeTask:820 ← CoroutineScheduler$Worker.runWorker:717
+[W] 05-27 22:51:21 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[W] 05-27 22:51:29 BadgerService: startRealtimeSync skipped — already restarting
+[W] 05-27 22:51:29 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 05-27 22:51:30 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-27 22:51:30 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[I] 05-27 22:51:45 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 22:51:45 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-27 22:51:45 AuthManager: Session expired — trying HWID silent login
+[W] 05-27 22:51:45 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-27 22:51:45 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 22:51:45 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-27 22:51:45 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-27 22:51:46 BadgerService: Realtime subscribed OK -- badger-svc-14f66cf6-2174-42b3-88f3-1b96585081ed status=SUBSCRIBED
+[I] 05-27 22:51:46 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-27 22:51:46 AuthManager: HWID silent login OK
+[I] 05-27 22:51:46 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-27 23:04:00 Movement: Truck 222-1 status → On Route
+[I] 05-27 23:04:02 Movement: Truck 187-2 status → In Door
+[I] 05-27 23:04:03 BadgerRepo: updateMovementStatus OK â€” truck=222-1 statusId=3
+[I] 05-27 23:04:05 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=1
+[E] 05-27 23:04:20 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 05-27 23:06:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 23:06:45 BadgerService: Keepalive scheduled in 900s
