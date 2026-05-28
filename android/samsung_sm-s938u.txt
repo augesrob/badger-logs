@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-27 22:22:14 ===
+=== samsung SM-S938U | shipped 2026-05-27 22:37:14 ===
 [I] 05-27 11:21:59 BadgerService: Keepalive scheduled in 900s
 [I] 05-27 11:22:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-27 11:36:59 BadgerService: Keepalive scheduled in 900s
@@ -417,3 +417,12 @@
 [I] 05-27 22:09:05 BadgerRepo: updateMovementStatus OK â€” truck=152 statusId=5
 [I] 05-27 22:22:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-27 22:22:14 BadgerService: Keepalive scheduled in 900s
+[I] 05-27 22:22:15 LogShipper: Shipped 418 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-27 22:34:49 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 05-27 22:34:50 BadgerService: startRealtimeSync skipped — already restarting
+[W] 05-27 22:34:50 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-27 22:34:52 BadgerService: Realtime subscribed OK -- badger-svc-f4a750d2-c82a-4416-a00c-69b3c4ed3cb5 status=SUBSCRIBED
+[W] 05-27 22:35:07 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 05-27 22:35:08 BadgerService: Realtime subscribed OK -- badger-svc-4a6a7a5a-0577-4886-b7b4-36e6c07e2f78 status=SUBSCRIBED
+[I] 05-27 22:37:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-27 22:37:14 BadgerService: Keepalive scheduled in 900s
