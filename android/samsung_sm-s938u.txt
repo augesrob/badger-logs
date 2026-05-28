@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 18:00:35 ===
+=== samsung SM-S938U | shipped 2026-05-28 18:04:52 ===
 [E] 05-28 12:17:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
 [I] 05-28 12:17:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 05-28 12:17:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -423,3 +423,6 @@
 [I] 05-28 17:45:36 LogShipper: Shipped 421 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-28 18:00:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 18:00:35 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 18:00:36 LogShipper: Shipped 424 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 05-28 18:04:51 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 05-28 18:04:52 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
