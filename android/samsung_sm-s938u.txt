@@ -1,246 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 12:02:42 ===
-[E] 05-28 00:05:16 CRASH: HttpRequestException: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname | KtorSupabaseHttpClient.request:75 ← KtorSupabaseHttpClient$request$1.invokeSuspend:15 ← BaseContinuationImpl.resumeWith:33 ← DispatchedTask.run:98 ← AndroidUiDispatcher.performTrampolineDispatch:81 ← AndroidUiDispatcher.access$performTrampolineDispatch:41 ← AndroidUiDispatcher$dispatchCallback$1.run:57 ← Handler.handleCallback:1070
-[I] 05-28 00:05:19 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-28 00:05:19 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-28 00:05:19 AuthManager: Session expired — trying HWID silent login
-[W] 05-28 00:05:19 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-28 00:05:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 00:05:19 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-28 00:05:19 AuthManager: HWID silent login for rfa1991@gmail.com
-[I] 05-28 00:05:20 AuthManager: Sign in OK — augesrob role=admin
-[I] 05-28 00:05:20 AuthManager: HWID silent login OK
-[I] 05-28 00:05:20 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 05-28 00:05:20 BadgerService: Realtime subscribed OK -- badger-svc-db9b07b0-13e7-4a5f-b51e-61829bdee632 status=SUBSCRIBED
-[I] 05-28 00:20:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 00:20:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 00:20:21 LogShipper: Shipped 275 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 00:35:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 00:35:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 00:35:21 LogShipper: Shipped 278 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 00:50:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 00:50:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 00:50:21 LogShipper: Shipped 281 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 01:05:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 01:05:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 01:05:21 LogShipper: Shipped 284 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 01:20:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 01:20:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 01:20:21 LogShipper: Shipped 287 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 01:35:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 01:35:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 01:35:21 LogShipper: Shipped 290 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 01:50:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 01:50:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 01:50:21 LogShipper: Shipped 293 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 02:05:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 02:05:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 02:05:21 LogShipper: Shipped 296 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 05-28 02:13:29 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 05-28 02:13:39 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-28 02:13:39 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-28 02:14:00 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-28 02:14:00 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-28 02:14:20 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-28 02:14:20 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-28 02:14:41 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 05-28 02:14:41 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 05-28 02:15:01 BadgerService: Realtime subscribed OK -- badger-svc-e4cd1e9d-b6fe-4c8b-acae-b0705ae5104b status=SUBSCRIBED
-[I] 05-28 02:20:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 02:20:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 02:20:22 LogShipper: Shipped 309 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 05-28 02:27:41 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 05-28 02:27:44 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 05-28 02:27:44 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 05-28 02:27:55 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 05-28 02:27:55 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[W] 05-28 02:28:02 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 05-28 02:28:13 BadgerService: Realtime subscribed OK -- badger-svc-0cef13ec-a739-41de-b3c1-a01746d781d7 status=SUBSCRIBED
-[I] 05-28 02:35:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 02:35:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 02:35:21 LogShipper: Shipped 319 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 02:50:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 02:50:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 02:50:21 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 03:05:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 03:05:19 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 03:05:21 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 03:20:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 03:20:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 03:20:21 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 03:35:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 03:35:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 03:35:21 LogShipper: Shipped 331 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 03:50:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 03:50:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 03:50:21 LogShipper: Shipped 334 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 04:05:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 04:05:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 04:05:21 LogShipper: Shipped 337 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 04:20:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 04:20:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 04:20:21 LogShipper: Shipped 340 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 04:35:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 04:35:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 04:35:21 LogShipper: Shipped 343 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 04:50:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 04:50:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 04:50:22 LogShipper: Shipped 346 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 04:55:45 Movement: Truck 147 status → On Route
-[I] 05-28 04:55:45 BadgerRepo: updateMovementStatus OK â€” truck=147 statusId=3
-[I] 05-28 05:05:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 05:05:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 05:05:22 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 05:20:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 05:20:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 05:20:21 LogShipper: Shipped 354 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 05:35:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 05:35:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 05:35:21 LogShipper: Shipped 357 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 05:50:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 05:50:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 05:50:21 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 05-28 05:53:29 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 05-28 05:54:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 05:55:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 05:56:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 05:57:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 05:57:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 05:58:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 05:59:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 06:00:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 06:01:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 06:02:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 06:03:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 06:04:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-28 06:05:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 06:05:20 BadgerService: Keepalive scheduled in 900s
-[W] 05-28 06:05:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 05-28 06:05:20 BadgerService: startRealtimeSync skipped — already restarting
-[I] 05-28 06:05:21 LogShipper: Shipped 377 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 05-28 06:05:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 06:05:34 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
-[E] 05-28 06:06:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 06:07:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-28 06:07:27 BadgerService: Realtime subscribed OK -- badger-svc-1d700e36-0887-44f3-9a5c-39e41fe167a0 status=SUBSCRIBED
-[I] 05-28 06:20:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 06:20:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 06:20:21 LogShipper: Shipped 386 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 05-28 06:31:13 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
-[E] 05-28 06:31:13 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
-[I] 05-28 06:31:14 BadgerService: Realtime subscribed OK -- badger-svc-0442a81e-eb3c-4406-975c-64dd25236eb3 status=SUBSCRIBED
-[I] 05-28 06:35:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 06:35:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 06:35:21 LogShipper: Shipped 392 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 06:50:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 06:50:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 06:50:21 LogShipper: Shipped 395 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 07:05:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 07:05:20 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 07:05:21 LogShipper: Shipped 398 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 05-28 07:07:17 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 05-28 07:07:17 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 2
-[E] 05-28 07:08:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:08:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:09:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:10:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:11:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:12:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:13:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:14:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:15:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:15:41 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
-[E] 05-28 07:16:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:17:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:17:38 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
-[E] 05-28 07:18:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:19:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:20:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-28 07:20:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 07:20:20 BadgerService: Keepalive scheduled in 900s
-[W] 05-28 07:20:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 05-28 07:20:21 LogShipper: Shipped 420 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 05-28 07:21:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:22:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:22:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:23:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:24:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:25:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:26:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:27:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:28:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:29:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:30:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[W] 05-28 07:31:00 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 05-28 07:31:00 BadgerService: startRealtimeSync skipped — already restarting
-[E] 05-28 07:31:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 07:32:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[W] 05-28 07:32:36 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 05-28 07:32:36 BadgerService: Keepalive scheduled in 2s
-[I] 05-28 07:32:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 07:32:41 BadgerService: Keepalive scheduled in 900s
-[W] 05-28 07:32:41 BadgerService: startRealtimeSync skipped — already restarting
-[W] 05-28 07:32:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 05-28 07:32:43 LogShipper: Shipped 442 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 05-28 07:33:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-28 07:33:21 BadgerService: Realtime subscribed OK -- badger-svc-65fa65c1-b364-41ae-a01d-13d6c4bc2b68 status=SUBSCRIBED
-[I] 05-28 07:47:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 07:47:41 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 07:47:44 LogShipper: Shipped 447 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 08:02:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 08:02:41 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 08:02:43 LogShipper: Shipped 450 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-28 08:17:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 08:17:41 BadgerService: Keepalive scheduled in 900s
-[I] 05-28 08:17:43 LogShipper: Shipped 453 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 05-28 08:32:37 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[I] 05-28 08:32:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 08:32:41 BadgerService: Keepalive scheduled in 900s
-[W] 05-28 08:32:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 05-28 08:32:41 BadgerService: startRealtimeSync skipped — already restarting
-[I] 05-28 08:32:44 LogShipper: Shipped 459 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 05-28 08:33:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:34:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:35:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:36:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:37:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:38:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:38:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:39:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:40:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:41:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:42:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:43:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:44:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:45:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:46:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:47:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-28 08:47:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 08:47:41 BadgerService: Keepalive scheduled in 900s
-[W] 05-28 08:47:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 05-28 08:47:41 BadgerService: startRealtimeSync skipped — already restarting
-[I] 05-28 08:47:43 LogShipper: Shipped 242 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 05-28 08:48:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:49:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:50:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:51:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:52:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:52:10 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
-[E] 05-28 08:52:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:53:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:54:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:55:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:55:54 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
-[E] 05-28 08:56:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:57:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:58:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 08:59:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 09:00:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 09:01:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 09:02:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-28 09:02:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 05-28 09:02:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 05-28 09:02:41 BadgerService: Keepalive scheduled in 900s
-[W] 05-28 09:02:41 BadgerService: startRealtimeSync skipped — already restarting
+=== samsung SM-S938U | shipped 2026-05-28 12:17:42 ===
 [I] 05-28 09:02:44 LogShipper: Shipped 265 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 05-28 09:03:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
 [E] 05-28 09:04:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
@@ -499,3 +257,25 @@
 [I] 05-28 12:02:42 BadgerService: Keepalive scheduled in 900s
 [W] 05-28 12:02:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 05-28 12:02:42 BadgerService: startRealtimeSync skipped — already restarting
+[I] 05-28 12:02:43 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 05-28 12:02:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:03:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:04:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:05:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:06:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:07:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:08:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:09:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:10:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:11:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:12:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:13:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:13:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:14:06 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 05-28 12:14:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:15:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:16:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[E] 05-28 12:17:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
+[I] 05-28 12:17:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-28 12:17:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-28 12:17:42 BadgerService: Keepalive scheduled in 900s
