@@ -1,13 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 18:56:41 ===
-[E] 05-28 12:42:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:43:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:44:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:45:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:46:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[E] 05-28 12:47:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
-[I] 05-28 12:47:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-28 12:47:42 BadgerService: Keepalive scheduled in 900s
-[W] 05-28 12:47:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+=== samsung SM-S938U | shipped 2026-05-28 19:11:41 ===
 [W] 05-28 12:47:42 BadgerService: startRealtimeSync skipped — already restarting
 [I] 05-28 12:47:43 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 05-28 12:48:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s
@@ -499,3 +490,12 @@
 [I] 05-28 18:51:50 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=4
 [I] 05-28 18:56:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 18:56:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 18:56:42 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-28 18:59:57 Movement: Truck 231-2 status → In Front
+[I] 05-28 18:59:57 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=4
+[I] 05-28 19:11:03 Movement: Truck 188-2 status → 9
+[I] 05-28 19:11:03 BadgerRepo: updateMovementStatus OK â€” truck=188-2 statusId=12
+[I] 05-28 19:11:09 Movement: Truck 186-2 status → 10
+[I] 05-28 19:11:09 BadgerRepo: updateMovementStatus OK â€” truck=186-2 statusId=13
+[I] 05-28 19:11:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 19:11:41 BadgerService: Keepalive scheduled in 900s
