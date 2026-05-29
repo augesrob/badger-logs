@@ -1,4 +1,4 @@
-=== samsung SM-A025V | shipped 2026-05-29 15:03:15 ===
+=== samsung SM-A025V | shipped 2026-05-29 15:28:22 ===
 [I] 05-29 14:39:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 05-29 14:39:02 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 05-29 14:39:03 MainActivity: BadgerService started (mic=false)
@@ -47,3 +47,38 @@
 [I] 05-29 14:50:09 AppUpdater: Up to date (current=112 latest=99)
 [I] 05-29 15:03:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 15:03:15 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 15:03:16 LogShipper: Shipped 48 log lines to badger-logs/android/samsung_sm-a025v.txt
+[I] 05-29 15:11:31 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 15:11:31 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 15:11:31 MainActivity: BadgerService started (mic=true)
+[I] 05-29 15:11:32 AppUpdater: Checking for update (current=112)
+[W] 05-29 15:11:32 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 15:11:32 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 15:11:32 AuthManager: HWID silent login for driver@badgerliquor.com
+[I] 05-29 15:11:32 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 15:11:32 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 15:11:33 AppUpdater: Up to date (current=112 latest=99)
+[I] 05-29 15:11:33 AuthManager: HWID silent login OK
+[I] 05-29 15:11:33 AuthManager: Sign in OK — driver role=driver
+[I] 05-29 15:11:33 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
+[I] 05-29 15:11:34 BadgerService: Realtime subscribed OK -- badger-svc-7a6fd5eb-c49e-4ea4-a3fb-75a1fa348b45 status=SUBSCRIBED
+[I] 05-29 15:12:00 AppUpdater: Checking for update (current=112)
+[I] 05-29 15:12:00 AppUpdater: Up to date (current=112 latest=99)
+[I] 05-29 15:13:20 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 15:13:20 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 15:13:20 MainActivity: BadgerService started (mic=true)
+[I] 05-29 15:13:20 AppUpdater: Checking for update via website (current=115)
+[W] 05-29 15:13:20 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 15:13:20 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 15:13:20 AuthManager: HWID silent login for driver@badgerliquor.com
+[W] 05-29 15:13:21 AppUpdater: checkForUpdate failed: Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: $
+JSON input: <!DOCTYPE html><html lang="en".....
+[I] 05-29 15:13:21 AuthManager: Sign in OK — driver role=driver
+[I] 05-29 15:13:21 AuthManager: HWID silent login OK
+[I] 05-29 15:13:22 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 15:13:22 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 15:13:22 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
+[I] 05-29 15:13:23 BadgerService: Realtime subscribed OK -- badger-svc-d4701c5c-afdf-46c5-9744-c9669beda2db status=SUBSCRIBED
+[E] 05-29 15:26:10 BadgerRepo: getLoadingDoors FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Socket timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, socket_timeout=unknown] ms
+[I] 05-29 15:28:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 15:28:22 BadgerService: Keepalive scheduled in 900s
