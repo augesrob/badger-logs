@@ -1,0 +1,14 @@
+=== samsung SM-A025V | shipped 2026-05-29 09:28:32 ===
+[I] 05-29 09:28:20 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 09:28:20 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 09:28:21 MainActivity: BadgerService started (mic=false)
+[W] 05-29 09:28:22 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 09:28:22 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 09:28:25 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 09:28:25 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-29 09:28:26 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 09:28:26 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-29 09:28:27 BadgerService: Realtime subscribed OK -- badger-svc-ea94c006-cb3c-4095-b252-148e2a20bcd6 status=SUBSCRIBED
+[I] 05-29 09:28:32 MainActivity: Permissions result: RECORD_AUDIO=true
+[I] 05-29 09:28:32 MainActivity: BadgerService restarted (mic=true)
+[E] 05-29 09:28:32 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4953 ← ActivityThread.access$1800:310 ← ActivityThread$H.handleMessage:2300 ← Handler.dispatchMessage:106 ← Looper.loopOnce:226 ← Looper.loop:313 ← ActivityThread.main:8669 ← Method.invoke:-2
