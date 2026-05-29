@@ -1,14 +1,18 @@
-=== LGE Nexus 5X | shipped 2026-05-29 17:37:25 ===
-[I] 05-29 17:37:07 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 17:37:07 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-29 17:37:07 MainActivity: BadgerService started (mic=false)
-[W] 05-29 17:37:07 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-29 17:37:07 AuthManager: Session expired — trying HWID silent login
-[I] 05-29 17:37:11 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 17:37:11 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 05-29 17:37:13 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 05-29 17:37:13 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 05-29 17:37:14 BadgerService: Realtime subscribed OK -- badger-svc-a97646b8-1e89-4bd8-a839-562245130a7b status=SUBSCRIBED
-[I] 05-29 17:37:25 MainActivity: Permissions result: RECORD_AUDIO=true
-[I] 05-29 17:37:25 MainActivity: BadgerService restarted (mic=true)
-[E] 05-29 17:37:25 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4498 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2161 ← Handler.dispatchMessage:106 ← Looper.loopOnce:201 ← Looper.loop:288 ← ActivityThread.main:7872 ← Method.invoke:-2
+=== LGE Nexus 5X | shipped 2026-05-30 01:42:21 ===
+[I] 05-30 01:42:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-30 01:42:02 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-30 01:42:02 MainActivity: BadgerService started (mic=false)
+[I] 05-30 01:42:02 AppUpdater: Checking for update (current=112)
+[W] 05-30 01:42:02 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-30 01:42:02 AuthManager: Session expired — trying HWID silent login
+[I] 05-30 01:42:03 AppUpdater: Up to date (current=112 latest=99)
+[I] 05-30 01:42:05 BadgerService: Keepalive scheduled in 900s
+[I] 05-30 01:42:05 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-30 01:42:07 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 05-30 01:42:07 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-30 01:42:07 BadgerService: Realtime subscribed OK -- badger-svc-d047a3c2-b2cf-4b23-9e02-8856a9c02fd5 status=SUBSCRIBED
+[I] 05-30 01:42:20 MainActivity: Permissions result: RECORD_AUDIO=true
+[I] 05-30 01:42:21 MainActivity: BadgerService restarted (mic=true)
+[I] 05-30 01:42:21 AppUpdater: Checking for update (current=112)
+[E] 05-30 01:42:21 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4498 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:2161 ← Handler.dispatchMessage:106 ← Looper.loopOnce:201 ← Looper.loop:288 ← ActivityThread.main:7872 ← Method.invoke:-2
+[I] 05-30 01:42:21 AppUpdater: Up to date (current=112 latest=99)
