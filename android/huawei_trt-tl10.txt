@@ -1,0 +1,15 @@
+=== HUAWEI TRT-TL10 | shipped 2026-05-29 11:48:40 ===
+[I] 05-29 11:48:34 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 11:48:34 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 11:48:34 MainActivity: BadgerService started (mic=false)
+[W] 05-29 11:48:34 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 11:48:34 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 11:48:35 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 11:48:35 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-29 11:48:36 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 11:48:36 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-29 11:48:40 BadgerService: Realtime subscribed OK -- badger-svc-7146a2dc-6a01-444c-bda4-453560e2c4d8 status=SUBSCRIBED
+[I] 05-29 11:48:40 MainActivity: Permissions result: RECORD_AUDIO=true
+[I] 05-29 11:48:40 MainActivity: BadgerService restarted (mic=true)
+[E] 05-29 11:48:40 BadgerRepo: getLiveMovement FAILED: Job was cancelled
+[E] 05-29 11:48:40 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:3582 ← ActivityThread.access$1300:200 ← ActivityThread$H.handleMessage:1672 ← Handler.dispatchMessage:106 ← Looper.loop:193 ← ActivityThread.main:6718 ← Method.invoke:-2 ← RuntimeInit$MethodAndArgsCaller.run:493
