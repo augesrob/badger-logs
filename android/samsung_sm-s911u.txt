@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-29 09:40:40 ===
+=== samsung SM-S911U | shipped 2026-05-29 09:51:50 ===
 [E] 05-29 05:55:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 05-29 05:56:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 05-29 05:57:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
@@ -221,3 +221,5 @@
 [I] 05-29 09:25:41 BadgerService: Realtime subscribed OK -- badger-svc-d05206b6-72f2-4cbf-8eb5-ed334465cfa7 status=SUBSCRIBED
 [I] 05-29 09:40:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 09:40:40 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 09:40:41 LogShipper: Shipped 222 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 05-29 09:51:50 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
