@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-29 05:15:45 ===
+=== samsung SM-S938U | shipped 2026-05-29 05:30:45 ===
 [E] 05-29 01:41:59 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
 [E] 05-29 01:42:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 05-29 01:43:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
@@ -272,3 +272,10 @@
 [I] 05-29 05:00:46 LogShipper: Shipped 270 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-29 05:15:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 05:15:45 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 05:15:46 LogShipper: Shipped 273 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-29 05:30:19 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 05-29 05:30:19 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 3
+[I] 05-29 05:30:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 05:30:45 BadgerService: Keepalive scheduled in 900s
+[E] 05-29 05:30:45 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[W] 05-29 05:30:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
