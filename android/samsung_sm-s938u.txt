@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-29 02:04:42 ===
+=== samsung SM-S938U | shipped 2026-05-29 02:34:42 ===
 [I] 05-28 19:52:48 PTT: PTT recording STARTED
 [I] 05-28 19:52:51 PTT: PTT recording STOPPED
 [I] 05-28 19:52:52 PTT: PTT sent OK — 45120 bytes
@@ -290,3 +290,56 @@
 [I] 05-29 02:04:42 BadgerService: Keepalive scheduled in 900s
 [W] 05-29 02:04:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 05-29 02:04:42 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-29 02:04:44 LogShipper: Shipped 291 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 05-29 02:05:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:06:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:07:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:08:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:08:12 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 05-29 02:08:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:09:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:10:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:11:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:12:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:13:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:14:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:15:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:16:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:17:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:18:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:19:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:19:36 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-29 02:19:36 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 05-29 02:19:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 02:19:42 BadgerService: Keepalive scheduled in 900s
+[W] 05-29 02:19:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 05-29 02:19:42 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-29 02:19:42 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 05-29 02:19:45 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 05-29 02:20:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:20:53 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-29 02:20:53 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 05-29 02:21:04 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-29 02:21:04 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-29 02:21:15 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 05-29 02:21:15 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 05-29 02:21:23 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 05-29 02:22:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:23:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:24:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:24:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:25:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:26:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:27:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:27:58 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 05-29 02:28:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:29:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:30:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:31:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:32:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:33:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-29 02:34:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[I] 05-29 02:34:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 02:34:42 BadgerService: Keepalive scheduled in 900s
+[W] 05-29 02:34:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 02:34:42 BadgerService: startRealtimeSync skipped -- already restarting
