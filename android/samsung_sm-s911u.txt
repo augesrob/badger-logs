@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-28 19:53:34 ===
+=== samsung SM-S911U | shipped 2026-05-28 19:53:49 ===
 [I] 05-28 05:44:33 BadgerService: Keepalive scheduled in 900s
 [W] 05-28 05:44:33 BadgerService: startRealtimeSync skipped — already restarting
 [W] 05-28 05:44:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -328,3 +328,21 @@
 [E] 05-28 19:52:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 05-28 19:52:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 05-28 19:53:34 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-28 19:53:35 LogShipper: Shipped 329 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 05-28 19:53:43 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-28 19:53:43 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-28 19:53:43 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-28 19:53:43 AuthManager: Session expired — trying HWID silent login
+[I] 05-28 19:53:43 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 19:53:43 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 05-28 19:53:43 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-28 19:53:44 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[W] 05-28 19:53:44 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 05-28 19:53:44 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-28 19:53:44 BadgerService: Keepalive scheduled in 2s
+[I] 05-28 19:53:45 AuthManager: Sign in OK — felipe role=admin
+[I] 05-28 19:53:45 AuthManager: HWID silent login OK
+[I] 05-28 19:53:45 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 05-28 19:53:46 BadgerService: Realtime subscribed OK -- badger-svc-f76dcba9-1794-4ba9-b79b-334ab1b0a5a8 status=SUBSCRIBED
+[I] 05-28 19:53:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 19:53:49 BadgerService: Keepalive scheduled in 900s
