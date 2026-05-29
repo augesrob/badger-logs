@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 21:41:41 ===
+=== samsung SM-S938U | shipped 2026-05-28 21:56:41 ===
 [I] 05-28 15:17:42 BadgerService: Keepalive scheduled in 900s
 [W] 05-28 15:17:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 05-28 15:17:42 BadgerService: startRealtimeSync skipped — already restarting
@@ -400,3 +400,20 @@
 [I] 05-28 21:29:50 BadgerRepo: updateMovementStatus OK â€” truck=246 statusId=4
 [I] 05-28 21:41:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 21:41:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 21:41:43 LogShipper: Shipped 401 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-28 21:46:47 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 05-28 21:47:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:48:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:48:39 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 05-28 21:49:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:50:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:51:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:52:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:53:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:54:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:55:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 21:55:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[I] 05-28 21:56:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 21:56:41 BadgerService: Keepalive scheduled in 900s
+[W] 05-28 21:56:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-28 21:56:41 BadgerService: startRealtimeSync skipped -- already restarting
