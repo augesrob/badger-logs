@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-29 09:02:40 ===
+=== samsung SM-S938U | shipped 2026-05-29 09:02:54 ===
 [E] 05-29 04:12:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 05-29 04:13:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 05-29 04:14:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
@@ -355,3 +355,16 @@
 [I] 05-29 08:59:57 BadgerService: Keepalive scheduled in 900s
 [I] 05-29 08:59:59 LogShipper: Shipped 354 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 05-29 09:02:40 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
+[I] 05-29 09:02:42 LogShipper: Shipped 356 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-29 09:02:45 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 09:02:45 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-29 09:02:45 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 09:02:45 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 09:02:45 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 09:02:45 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 09:02:45 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-29 09:02:46 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-29 09:02:46 AuthManager: HWID silent login OK
+[I] 05-29 09:02:46 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-29 09:02:46 BadgerService: Realtime subscribed OK -- badger-svc-34831e02-b19f-46e0-9eb7-e48ba1544991 status=SUBSCRIBED
+[E] 05-29 09:02:54 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
