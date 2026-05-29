@@ -1,4 +1,4 @@
-=== samsung SM-A025V | shipped 2026-05-29 09:43:48 ===
+=== samsung SM-A025V | shipped 2026-05-29 09:47:25 ===
 [I] 05-29 09:28:20 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 05-29 09:28:20 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 05-29 09:28:21 MainActivity: BadgerService started (mic=false)
@@ -38,3 +38,7 @@ Http Method: POST
 [E] 05-29 09:30:52 Chat: realtime: The coroutine scope left the composition
 [I] 05-29 09:43:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 09:43:48 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 09:43:50 LogShipper: Shipped 39 log lines to badger-logs/android/samsung_sm-a025v.txt
+[E] 05-29 09:47:24 Chat: realtime: The coroutine scope left the composition
+[E] 05-29 09:47:25 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 05-29 09:47:25 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4953 ← ActivityThread.access$1800:310 ← ActivityThread$H.handleMessage:2300 ← Handler.dispatchMessage:106 ← Looper.loopOnce:226 ← Looper.loop:313 ← ActivityThread.main:8669 ← Method.invoke:-2
