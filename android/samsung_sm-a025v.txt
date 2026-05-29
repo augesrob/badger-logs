@@ -1,4 +1,4 @@
-=== samsung SM-A025V | shipped 2026-05-29 09:28:32 ===
+=== samsung SM-A025V | shipped 2026-05-29 09:43:48 ===
 [I] 05-29 09:28:20 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 05-29 09:28:20 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 05-29 09:28:21 MainActivity: BadgerService started (mic=false)
@@ -12,3 +12,29 @@
 [I] 05-29 09:28:32 MainActivity: Permissions result: RECORD_AUDIO=true
 [I] 05-29 09:28:32 MainActivity: BadgerService restarted (mic=true)
 [E] 05-29 09:28:32 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4953 ← ActivityThread.access$1800:310 ← ActivityThread$H.handleMessage:2300 ← Handler.dispatchMessage:106 ← Looper.loopOnce:226 ← Looper.loop:313 ← ActivityThread.main:8669 ← Method.invoke:-2
+[I] 05-29 09:28:34 LogShipper: Shipped 13 log lines to badger-logs/android/samsung_sm-a025v.txt
+[I] 05-29 09:28:44 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 09:28:44 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-29 09:28:46 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 09:28:46 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 09:28:46 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 09:28:46 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 09:28:46 MainActivity: BadgerService started (mic=true)
+[E] 05-29 09:28:47 BadgerRepo: getLiveMovement FAILED: Job was cancelled
+[I] 05-29 09:28:48 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 09:28:48 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-29 09:28:50 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 09:28:50 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-29 09:28:51 BadgerService: Realtime subscribed OK -- badger-svc-7f09e59d-db3d-4901-9991-17ee528e528f status=SUBSCRIBED
+[E] 05-29 09:29:18 AuthManager: Sign in failed: invalid_credentials (Invalid login credentials: invalid_credentials)
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/auth/v1/token?grant_type=password
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: POST
+[I] 05-29 09:29:31 AuthManager: Sign in OK — driver role=driver
+[I] 05-29 09:29:32 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
+[I] 05-29 09:29:32 AuthManager: Password encrypted and saved for biometric
+[E] 05-29 09:29:50 Chat: realtime: The coroutine scope left the composition
+[E] 05-29 09:30:40 Chat: realtime: The coroutine scope left the composition
+[E] 05-29 09:30:52 Chat: realtime: The coroutine scope left the composition
+[I] 05-29 09:43:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 09:43:48 BadgerService: Keepalive scheduled in 900s
