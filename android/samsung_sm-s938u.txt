@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-29 16:21:55 ===
+=== samsung SM-S938U | shipped 2026-05-29 16:32:07 ===
 [I] 05-29 14:30:05 AppUpdater: Checking for update (current=111)
 [I] 05-29 14:30:05 AppUpdater: Checking for update (current=111)
 [I] 05-29 14:30:05 AppUpdater: Up to date (current=111 latest=99)
@@ -274,3 +274,45 @@ JSON input: <!DOCTYPE html><html lang="en".....
 [I] 05-29 16:14:57 AppUpdater: Up to date via GitHub (current=118 latest=118)
 [I] 05-29 16:21:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 16:21:55 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 16:21:57 LogShipper: Shipped 275 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-29 16:29:39 AppUpdater: Checking via website (current=118)
+[W] 05-29 16:29:40 AppUpdater: Website returned non-JSON — falling back to GitHub direct
+[I] 05-29 16:29:40 AppUpdater: Checking via GitHub direct (current=118)
+[I] 05-29 16:29:40 AppUpdater: Update found via GitHub: access-v119 (current=118)
+[I] 05-29 16:29:40 MainActivity: Auto-downloading access-v119
+[I] 05-29 16:29:40 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v119/badger-access-access-v119.apk
+[I] 05-29 16:29:42 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v119/badger-access-access-v119.apk
+[I] 05-29 16:29:59 AppUpdater: Downloaded 15413319 bytes
+[I] 05-29 16:29:59 AppUpdater: Downloaded 15413319 bytes
+[I] 05-29 16:30:16 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 16:30:16 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 16:30:16 AuthManager: Session expired — trying HWID silent login
+[W] 05-29 16:30:16 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 16:30:16 MainActivity: BadgerService started (mic=true)
+[I] 05-29 16:30:16 AppUpdater: Checking via website (current=119)
+[I] 05-29 16:30:16 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-29 16:30:16 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 16:30:16 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-29 16:30:18 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 16:30:18 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 05-29 16:30:19 AppUpdater: Website returned non-JSON — falling back to GitHub direct
+[I] 05-29 16:30:19 AppUpdater: Checking via GitHub direct (current=119)
+[I] 05-29 16:30:19 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-29 16:30:19 AuthManager: HWID silent login OK
+[I] 05-29 16:30:19 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-29 16:30:19 AppUpdater: Up to date via GitHub (current=119 latest=119)
+[I] 05-29 16:30:19 BadgerService: Realtime subscribed OK -- badger-svc-1ac6cacf-207b-451e-bd1a-0ecfd6860e5e status=SUBSCRIBED
+[E] 05-29 16:30:28 Chat: realtime: The coroutine scope left the composition
+[I] 05-29 16:31:31 Chat: Sent in room 1
+[E] 05-29 16:31:35 Chat: realtime: The coroutine scope left the composition
+[I] 05-29 16:31:35 AppUpdater: Checking via website (current=119)
+[W] 05-29 16:31:35 AppUpdater: Website returned non-JSON — falling back to GitHub direct
+[I] 05-29 16:31:35 AppUpdater: Checking via GitHub direct (current=119)
+[I] 05-29 16:31:36 AppUpdater: Up to date via GitHub (current=119 latest=119)
+[E] 05-29 16:31:38 Chat: realtime: The coroutine scope left the composition
+[I] 05-29 16:31:57 Chat: Sent in room 1
+[E] 05-29 16:32:00 Chat: realtime: The coroutine scope left the composition
+[W] 05-29 16:32:02 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 05-29 16:32:02 BadgerService: Keepalive scheduled in 2s
+[I] 05-29 16:32:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 16:32:07 BadgerService: Keepalive scheduled in 900s
