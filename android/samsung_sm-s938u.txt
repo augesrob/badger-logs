@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-29 16:03:37 ===
+=== samsung SM-S938U | shipped 2026-05-29 16:21:55 ===
 [I] 05-29 14:30:05 AppUpdater: Checking for update (current=111)
 [I] 05-29 14:30:05 AppUpdater: Checking for update (current=111)
 [I] 05-29 14:30:05 AppUpdater: Up to date (current=111 latest=99)
@@ -230,3 +230,47 @@ JSON input: <!DOCTYPE html><html lang="en".....
 [I] 05-29 16:02:29 AppUpdater: Up to date via GitHub (current=117 latest=117)
 [I] 05-29 16:03:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 16:03:37 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 16:03:39 LogShipper: Shipped 231 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-29 16:06:29 AppUpdater: Checking via website (current=117)
+[W] 05-29 16:06:29 AppUpdater: Website returned non-JSON — falling back to GitHub direct
+[I] 05-29 16:06:29 AppUpdater: Checking via GitHub direct (current=117)
+[I] 05-29 16:06:30 AppUpdater: Update found via GitHub: access-v118 (current=117)
+[I] 05-29 16:06:30 MainActivity: Auto-downloading access-v118
+[I] 05-29 16:06:30 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v118/badger-access-access-v118.apk
+[I] 05-29 16:06:32 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v118/badger-access-access-v118.apk
+[I] 05-29 16:06:37 AppUpdater: Downloaded 15413319 bytes
+[I] 05-29 16:06:37 AppUpdater: Downloaded 15413319 bytes
+[I] 05-29 16:06:55 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 16:06:55 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 16:06:55 MainActivity: BadgerService started (mic=true)
+[W] 05-29 16:06:55 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 16:06:55 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 16:06:55 AppUpdater: Checking via website (current=118)
+[I] 05-29 16:06:55 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-29 16:06:55 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 16:06:55 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 05-29 16:06:56 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 05-29 16:06:56 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 16:06:57 AppUpdater: Website returned non-JSON — falling back to GitHub direct
+[I] 05-29 16:06:57 AppUpdater: Checking via GitHub direct (current=118)
+[I] 05-29 16:06:59 AppUpdater: Up to date via GitHub (current=118 latest=118)
+[I] 05-29 16:07:01 AuthManager: HWID silent login OK
+[I] 05-29 16:07:01 AuthManager: Sign in OK — augesrob role=admin
+[I] 05-29 16:07:01 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 05-29 16:07:03 BadgerService: Realtime subscribed OK -- badger-svc-344be526-7c0a-43ad-b64a-3c2682caf4b4 status=SUBSCRIBED
+[I] 05-29 16:09:54 AppUpdater: Checking via website (current=118)
+[W] 05-29 16:09:54 AppUpdater: Website returned non-JSON — falling back to GitHub direct
+[I] 05-29 16:09:54 AppUpdater: Checking via GitHub direct (current=118)
+[I] 05-29 16:09:55 AppUpdater: Up to date via GitHub (current=118 latest=118)
+[I] 05-29 16:09:57 BadgerRepo: Route sync OK: {"ok":true,"updated":8,"total":48,"csvAge":"2026-05-29T00:24:44.912+00:00"}
+[I] 05-29 16:10:20 PrintRoom: Updated truck 222-1 (id=5797)
+[I] 05-29 16:10:24 BadgerRepo: Route sync OK: {"ok":true,"updated":9,"total":48,"csvAge":"2026-05-29T00:24:44.912+00:00"}
+[E] 05-29 16:12:26 Chat: realtime: The coroutine scope left the composition
+[I] 05-29 16:12:34 Chat: Sent in room 3
+[E] 05-29 16:12:42 Chat: realtime: The coroutine scope left the composition
+[I] 05-29 16:14:55 AppUpdater: Checking via website (current=118)
+[W] 05-29 16:14:56 AppUpdater: Website returned non-JSON — falling back to GitHub direct
+[I] 05-29 16:14:56 AppUpdater: Checking via GitHub direct (current=118)
+[I] 05-29 16:14:57 AppUpdater: Up to date via GitHub (current=118 latest=118)
+[I] 05-29 16:21:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 16:21:55 BadgerService: Keepalive scheduled in 900s
