@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-28 19:56:41 ===
+=== samsung SM-S938U | shipped 2026-05-28 20:11:41 ===
 [I] 05-28 15:17:42 BadgerService: Keepalive scheduled in 900s
 [W] 05-28 15:17:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 05-28 15:17:42 BadgerService: startRealtimeSync skipped — already restarting
@@ -315,3 +315,17 @@
 [W] 05-28 19:56:40 PreShift: Duplicate truck 232 force-staged (override) — Truck 232 is already assigned in the Print Room.
 [I] 05-28 19:56:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 19:56:41 BadgerService: Keepalive scheduled in 900s
+[I] 05-28 19:56:42 LogShipper: Shipped 316 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-28 19:56:54 Movement: Truck 244 status → Ready
+[I] 05-28 19:56:54 BadgerRepo: updateMovementStatus OK â€” truck=244 statusId=5
+[I] 05-28 19:57:01 Movement: Truck 228 status → Ready
+[I] 05-28 19:57:01 BadgerRepo: updateMovementStatus OK â€” truck=228 statusId=5
+[I] 05-28 19:57:07 Movement: Truck 232 status → Ready
+[I] 05-28 19:57:07 BadgerRepo: updateMovementStatus OK â€” truck=232 statusId=5
+[E] 05-28 19:57:09 BadgerRepo: getLiveMovement FAILED: The coroutine scope left the composition
+[I] 05-28 19:57:16 Movement: Truck 243 status → Ready
+[I] 05-28 19:57:16 BadgerRepo: updateMovementStatus OK â€” truck=243 statusId=5
+[I] 05-28 20:11:04 Movement: Door 13A status → End Of Truck Tote
+[I] 05-28 20:11:05 BadgerRepo: updateDoorStatus OK â€” id=1 status=End Of Truck Tote
+[I] 05-28 20:11:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-28 20:11:41 BadgerService: Keepalive scheduled in 900s
