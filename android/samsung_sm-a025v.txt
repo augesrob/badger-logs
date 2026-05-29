@@ -1,135 +1,49 @@
-=== samsung SM-A025V | shipped 2026-05-29 14:28:44 ===
-[I] 05-29 09:28:20 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-29 09:28:20 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 09:28:21 MainActivity: BadgerService started (mic=false)
-[W] 05-29 09:28:22 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-29 09:28:22 AuthManager: Session expired — trying HWID silent login
-[I] 05-29 09:28:25 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 09:28:25 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 05-29 09:28:26 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 05-29 09:28:26 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 05-29 09:28:27 BadgerService: Realtime subscribed OK -- badger-svc-ea94c006-cb3c-4095-b252-148e2a20bcd6 status=SUBSCRIBED
-[I] 05-29 09:28:32 MainActivity: Permissions result: RECORD_AUDIO=true
-[I] 05-29 09:28:32 MainActivity: BadgerService restarted (mic=true)
-[E] 05-29 09:28:32 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4953 ← ActivityThread.access$1800:310 ← ActivityThread$H.handleMessage:2300 ← Handler.dispatchMessage:106 ← Looper.loopOnce:226 ← Looper.loop:313 ← ActivityThread.main:8669 ← Method.invoke:-2
-[I] 05-29 09:28:34 LogShipper: Shipped 13 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 09:28:44 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 09:28:44 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 05-29 09:28:46 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-29 09:28:46 AuthManager: Session expired — trying HWID silent login
-[I] 05-29 09:28:46 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 09:28:46 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 09:28:46 MainActivity: BadgerService started (mic=true)
-[E] 05-29 09:28:47 BadgerRepo: getLiveMovement FAILED: Job was cancelled
-[I] 05-29 09:28:48 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 09:28:48 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 05-29 09:28:50 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 05-29 09:28:50 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 05-29 09:28:51 BadgerService: Realtime subscribed OK -- badger-svc-7f09e59d-db3d-4901-9991-17ee528e528f status=SUBSCRIBED
-[E] 05-29 09:29:18 AuthManager: Sign in failed: invalid_credentials (Invalid login credentials: invalid_credentials)
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/auth/v1/token?grant_type=password
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: POST
-[I] 05-29 09:29:31 AuthManager: Sign in OK — driver role=driver
-[I] 05-29 09:29:32 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
-[I] 05-29 09:29:32 AuthManager: Password encrypted and saved for biometric
-[E] 05-29 09:29:50 Chat: realtime: The coroutine scope left the composition
-[E] 05-29 09:30:40 Chat: realtime: The coroutine scope left the composition
-[E] 05-29 09:30:52 Chat: realtime: The coroutine scope left the composition
-[I] 05-29 09:43:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 09:43:48 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 09:43:50 LogShipper: Shipped 39 log lines to badger-logs/android/samsung_sm-a025v.txt
-[E] 05-29 09:47:24 Chat: realtime: The coroutine scope left the composition
-[E] 05-29 09:47:25 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
-[E] 05-29 09:47:25 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4953 ← ActivityThread.access$1800:310 ← ActivityThread$H.handleMessage:2300 ← Handler.dispatchMessage:106 ← Looper.loopOnce:226 ← Looper.loop:313 ← ActivityThread.main:8669 ← Method.invoke:-2
-[I] 05-29 09:47:27 LogShipper: Shipped 43 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 09:47:35 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 09:47:35 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-29 09:47:35 MainActivity: BadgerService started (mic=true)
-[W] 05-29 09:47:36 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-29 09:47:36 AuthManager: Session expired — trying HWID silent login
-[I] 05-29 09:47:36 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 09:47:36 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 09:47:36 AuthManager: HWID silent login for driver@badgerliquor.com
-[W] 05-29 09:47:38 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 05-29 09:47:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 05-29 09:47:38 AuthManager: Sign in OK — driver role=driver
-[I] 05-29 09:47:38 AuthManager: HWID silent login OK
-[I] 05-29 09:47:38 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
-[I] 05-29 09:47:38 BadgerService: Realtime subscribed OK -- badger-svc-2a30a6e4-daaf-4fec-bd44-6edbf4b0ff1e status=SUBSCRIBED
-[W] 05-29 09:51:28 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 05-29 09:51:28 BadgerService: Keepalive scheduled in 2s
-[I] 05-29 09:51:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 09:51:33 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 09:51:35 LogShipper: Shipped 62 log lines to badger-logs/android/samsung_sm-a025v.txt
-[E] 05-29 09:51:37 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4953 ← ActivityThread.access$1800:310 ← ActivityThread$H.handleMessage:2300 ← Handler.dispatchMessage:106 ← Looper.loopOnce:226 ← Looper.loop:313 ← ActivityThread.main:8669 ← Method.invoke:-2
-[I] 05-29 09:51:38 LogShipper: Shipped 64 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 09:51:42 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 09:51:42 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-29 09:51:43 MainActivity: BadgerService started (mic=true)
-[W] 05-29 09:51:43 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 05-29 09:51:43 AuthManager: Session expired — trying HWID silent login
-[I] 05-29 09:51:43 AuthManager: HWID silent login for driver@badgerliquor.com
-[I] 05-29 09:51:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 09:51:44 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 05-29 09:51:44 AuthManager: Sign in OK — driver role=driver
-[I] 05-29 09:51:44 AuthManager: HWID silent login OK
-[I] 05-29 09:51:44 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
-[I] 05-29 09:51:45 BadgerService: Realtime subscribed OK -- badger-svc-e592e630-0170-46a7-b1ad-d7c024d15daa status=SUBSCRIBED
-[I] 05-29 10:06:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 10:06:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 10:06:45 LogShipper: Shipped 79 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 10:21:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 10:21:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 10:21:46 LogShipper: Shipped 82 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 10:36:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 10:36:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 10:36:46 LogShipper: Shipped 85 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 10:51:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 10:51:44 BadgerService: Keepalive scheduled in 900s
-[W] 05-29 10:51:45 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[I] 05-29 10:51:45 LogShipper: Shipped 88 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 10:51:47 BadgerService: Realtime subscribed OK -- badger-svc-4229e217-ca3a-4a92-a2f1-00c3e9d3230f status=SUBSCRIBED
-[I] 05-29 11:06:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 11:06:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 11:06:45 LogShipper: Shipped 93 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 11:21:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 11:21:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 11:21:45 LogShipper: Shipped 96 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 11:36:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 11:36:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 11:36:46 LogShipper: Shipped 99 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 11:51:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 11:51:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 11:51:46 LogShipper: Shipped 102 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 12:06:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 12:06:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 12:06:46 LogShipper: Shipped 105 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 12:21:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 12:21:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 12:21:46 LogShipper: Shipped 108 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 12:36:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 12:36:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 12:36:46 LogShipper: Shipped 111 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 12:51:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 12:51:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 12:51:46 LogShipper: Shipped 114 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 13:06:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 13:06:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 13:06:46 LogShipper: Shipped 117 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 13:21:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 13:21:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 13:21:46 LogShipper: Shipped 120 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 13:36:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 13:36:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 13:36:46 LogShipper: Shipped 123 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 13:51:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 13:51:44 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 13:51:46 LogShipper: Shipped 126 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 14:06:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 14:06:45 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 14:06:46 LogShipper: Shipped 129 log lines to badger-logs/android/samsung_sm-a025v.txt
-[I] 05-29 14:21:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-29 14:21:45 BadgerService: Keepalive scheduled in 900s
-[I] 05-29 14:21:46 LogShipper: Shipped 132 log lines to badger-logs/android/samsung_sm-a025v.txt
-[E] 05-29 14:28:44 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService: java.lang.IllegalStateException: You cannot call postgresChangeFlow after joining the channel | ActivityThread.handleCreateService:4953 ← ActivityThread.access$1800:310 ← ActivityThread$H.handleMessage:2300 ← Handler.dispatchMessage:106 ← Looper.loopOnce:226 ← Looper.loop:313 ← ActivityThread.main:8669 ← Method.invoke:-2
+=== samsung SM-A025V | shipped 2026-05-29 15:03:15 ===
+[I] 05-29 14:39:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 14:39:02 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 14:39:03 MainActivity: BadgerService started (mic=false)
+[I] 05-29 14:39:04 AppUpdater: Checking for update (current=111)
+[W] 05-29 14:39:04 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 14:39:04 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 14:39:05 AppUpdater: Up to date (current=111 latest=99)
+[I] 05-29 14:39:05 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 14:39:05 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 14:39:06 MainActivity: Permissions result: RECORD_AUDIO=true
+[I] 05-29 14:39:06 MainActivity: BadgerService restarted (mic=true)
+[I] 05-29 14:39:06 AppUpdater: Checking for update (current=111)
+[E] 05-29 14:39:06 BadgerRepo: getLiveMovement FAILED: Job was cancelled
+[E] 05-29 14:39:06 BadgerRepo: getLiveMovement FAILED: Job was cancelled
+[I] 05-29 14:39:07 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 14:39:07 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 14:39:07 AppUpdater: Up to date (current=111 latest=99)
+[W] 05-29 14:39:08 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 14:39:08 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-29 14:39:10 AppUpdater: Checking for update (current=111)
+[I] 05-29 14:39:10 AppUpdater: Up to date (current=111 latest=99)
+[I] 05-29 14:39:47 AuthManager: Sign in OK — driver role=driver
+[I] 05-29 14:39:47 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
+[I] 05-29 14:39:48 AuthManager: Password encrypted and saved for biometric
+[E] 05-29 14:39:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING)
+[I] 05-29 14:40:07 BadgerService: Realtime subscribed OK -- badger-svc-2a0fe0d3-d933-44a7-bd12-309fb8251a3c status=SUBSCRIBED
+[I] 05-29 14:44:34 AppUpdater: Checking for update (current=111)
+[I] 05-29 14:44:35 AppUpdater: Up to date (current=111 latest=99)
+[I] 05-29 14:48:12 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 14:48:12 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 14:48:12 MainActivity: BadgerService started (mic=true)
+[I] 05-29 14:48:13 AppUpdater: Checking for update (current=112)
+[W] 05-29 14:48:13 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 14:48:13 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 14:48:13 AuthManager: HWID silent login for driver@badgerliquor.com
+[I] 05-29 14:48:14 AppUpdater: Up to date (current=112 latest=99)
+[I] 05-29 14:48:15 AuthManager: Sign in OK — driver role=driver
+[I] 05-29 14:48:15 AuthManager: HWID silent login OK
+[I] 05-29 14:48:15 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 14:48:15 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 14:48:15 AuthManager: Profile realtime watch started for 27df9757-b7c8-4199-a0e5-aeb462fbfd72
+[I] 05-29 14:48:16 BadgerService: Realtime subscribed OK -- badger-svc-03852153-cd85-463d-a265-16e8c2cec9c5 status=SUBSCRIBED
+[E] 05-29 14:48:30 Chat: realtime: The coroutine scope left the composition
+[E] 05-29 14:48:33 Chat: realtime: The coroutine scope left the composition
+[I] 05-29 14:50:08 AppUpdater: Checking for update (current=112)
+[I] 05-29 14:50:09 AppUpdater: Up to date (current=112 latest=99)
+[I] 05-29 15:03:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 15:03:15 BadgerService: Keepalive scheduled in 900s
