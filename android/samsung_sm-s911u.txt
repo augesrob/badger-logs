@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-28 19:45:36 ===
+=== samsung SM-S911U | shipped 2026-05-28 19:53:34 ===
 [I] 05-28 05:44:33 BadgerService: Keepalive scheduled in 900s
 [W] 05-28 05:44:33 BadgerService: startRealtimeSync skipped — already restarting
 [W] 05-28 05:44:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -318,3 +318,13 @@
 [I] 05-28 19:45:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-28 19:45:36 BadgerService: Keepalive scheduled in 900s
 [W] 05-28 19:45:36 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-28 19:45:38 LogShipper: Shipped 319 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 05-28 19:46:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:47:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:48:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:49:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:50:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:51:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:52:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:52:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 05-28 19:53:34 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
