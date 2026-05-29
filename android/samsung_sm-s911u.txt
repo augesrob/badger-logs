@@ -1,4 +1,4 @@
-=== samsung SM-S911U | shipped 2026-05-29 15:19:56 ===
+=== samsung SM-S911U | shipped 2026-05-29 15:35:20 ===
 [I] 05-29 14:41:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 14:41:39 BadgerService: Keepalive scheduled in 900s
 [I] 05-29 14:41:40 LogShipper: Shipped 2 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -25,3 +25,24 @@
 [I] 05-29 15:13:25 AppUpdater: Up to date (current=112 latest=99)
 [I] 05-29 15:19:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-29 15:19:56 BadgerService: Keepalive scheduled in 900s
+[I] 05-29 15:19:57 LogShipper: Shipped 26 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 05-29 15:20:20 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 15:20:20 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 05-29 15:20:20 MainActivity: BadgerService started (mic=true)
+[I] 05-29 15:20:20 AppUpdater: Checking for update via website (current=115)
+[W] 05-29 15:20:20 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-29 15:20:20 AuthManager: Session expired — trying HWID silent login
+[I] 05-29 15:20:20 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 05-29 15:20:20 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-29 15:20:20 BadgerService: Keepalive scheduled in 900s
+[W] 05-29 15:20:21 AppUpdater: checkForUpdate failed: Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: $
+JSON input: <!DOCTYPE html><html lang="en".....
+[I] 05-29 15:20:21 AuthManager: Sign in OK — felipe role=admin
+[I] 05-29 15:20:21 AuthManager: HWID silent login OK
+[I] 05-29 15:20:21 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[W] 05-29 15:20:21 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 15:20:21 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-29 15:20:22 BadgerService: Realtime subscribed OK -- badger-svc-f1027278-1cba-41c3-998e-adb477e4c971 status=SUBSCRIBED
+[I] 05-29 15:20:26 Movement: Door 13A dock lock → cleared
+[I] 05-29 15:35:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 15:35:20 BadgerService: Keepalive scheduled in 900s
