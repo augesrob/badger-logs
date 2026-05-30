@@ -1,9 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-30 00:32:07 ===
-[I] 05-29 14:49:50 AppUpdater: Up to date (current=112 latest=99)
-[I] 05-29 14:57:05 AppUpdater: Checking for update (current=112)
-[I] 05-29 14:57:07 AppUpdater: Up to date (current=112 latest=99)
-[E] 05-29 14:57:09 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
-[I] 05-29 14:57:10 LogShipper: Shipped 50 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | shipped 2026-05-30 00:47:07 ===
 [I] 05-29 14:57:14 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 05-29 14:57:14 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [W] 05-29 14:57:14 AuthManager: JWT refresh failed: No refresh token found in current session
@@ -499,3 +494,8 @@ JSON input: <!DOCTYPE html><html lang="en".....
 [I] 05-30 00:32:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-30 00:32:07 BadgerService: Keepalive scheduled in 900s
 [W] 05-30 00:32:07 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-30 00:32:08 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-30 00:47:07 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-30 00:47:07 BadgerService: Keepalive scheduled in 900s
+[I] 05-30 00:47:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 05-30 00:47:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
