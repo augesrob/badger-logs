@@ -1,4 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-30 10:02:08 ===
+=== samsung SM-S938U | shipped 2026-05-30 10:32:08 ===
 [W] 05-29 16:30:19 AppUpdater: Website returned non-JSON — falling back to GitHub direct
 [I] 05-29 16:30:19 AppUpdater: Checking via GitHub direct (current=119)
 [I] 05-29 16:30:19 AuthManager: Sign in OK — augesrob role=admin
@@ -471,3 +471,22 @@
 [I] 05-30 10:02:08 BadgerService: Keepalive scheduled in 900s
 [W] 05-30 10:02:08 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 05-30 10:02:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 05-30 10:02:09 LogShipper: Shipped 472 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 05-30 10:17:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-30 10:17:08 BadgerService: Keepalive scheduled in 900s
+[W] 05-30 10:17:08 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 05-30 10:17:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-30 10:17:08 LogShipper: Ship failed HTTP 403: {
+	"message": "API rate limit exceeded for user ID 1887100. If you reach out to GitHub Support for help, please include 
+[I] 05-30 10:32:08 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-30 10:32:08 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 05-30 10:32:08 BadgerService: FGS microphone blocked — starting without mic FGS type
+[I] 05-30 10:32:08 AuthManager: Session expired — trying HWID silent login
+[W] 05-30 10:32:08 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 05-30 10:32:08 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 05-30 10:32:08 BadgerService: Keepalive scheduled in 900s
+[I] 05-30 10:32:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-30 10:32:08 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 05-30 10:32:08 BadgerService: Keepalive scheduled in 900s
+[W] 05-30 10:32:08 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 05-30 10:32:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
