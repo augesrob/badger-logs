@@ -1,11 +1,4 @@
-=== samsung SM-S938U | shipped 2026-05-29 22:32:07 ===
-[I] 05-29 14:36:23 AppUpdater: Checking for update (current=111)
-[I] 05-29 14:36:24 AppUpdater: Up to date (current=111 latest=99)
-[E] 05-29 14:36:29 CRASH: RuntimeException: Unable to create service com.badger.trucks.service.BadgerService | ActivityThread.handleCreateService:6294 ← ActivityThread.-$$Nest$mhandleCreateService:0 ← ActivityThread$H.handleMessage:3059 ← Handler.dispatchMessage:132 ← Looper.dispatchMessage:358 ← Looper.loopOnce:288 ← Looper.loop:392 ← ActivityThread.main:10346
-[I] 05-29 14:36:31 LogShipper: Shipped 7 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-29 14:36:35 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 05-29 14:36:35 BadgerApp: App started — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 05-29 14:36:35 AuthManager: JWT refresh failed: No refresh token found in current session
+=== samsung SM-S938U | shipped 2026-05-29 22:47:07 ===
 [I] 05-29 14:36:35 AuthManager: Session expired — trying HWID silent login
 [I] 05-29 14:36:35 BadgerService: Keepalive scheduled in 900s
 [I] 05-29 14:36:35 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -499,3 +492,10 @@ JSON input: <!DOCTYPE html><html lang="en".....
 [I] 05-29 22:32:07 BadgerService: Keepalive scheduled in 900s
 [W] 05-29 22:32:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 05-29 22:32:07 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 05-29 22:32:08 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 05-29 22:35:00 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 05-29 22:35:00 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 05-29 22:47:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 05-29 22:47:07 BadgerService: Keepalive scheduled in 900s
+[W] 05-29 22:47:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 05-29 22:47:07 BadgerService: startRealtimeSync skipped -- already restarting
