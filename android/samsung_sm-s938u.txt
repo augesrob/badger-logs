@@ -1,12 +1,4 @@
-=== samsung SM-S938U | shipped 2026-06-01 18:30:35 ===
-[W] 05-30 04:47:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 05-30 04:47:07 BadgerService: Keepalive scheduled in 900s
-[I] 05-30 04:47:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-30 04:47:08 LogShipper: Shipped 335 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 05-30 05:02:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 05-30 05:02:07 BadgerService: Keepalive scheduled in 900s
-[W] 05-30 05:02:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 05-30 05:02:07 BadgerService: startRealtimeSync skipped -- already restarting
+=== samsung SM-S938U | shipped 2026-06-01 18:45:35 ===
 [I] 05-30 05:02:08 LogShipper: Shipped 340 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 05-30 05:17:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 05-30 05:17:07 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +491,11 @@
 [I] 06-01 18:30:30 BadgerService: Keepalive scheduled in 2s
 [I] 06-01 18:30:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-01 18:30:35 BadgerService: Keepalive scheduled in 900s
+[I] 06-01 18:30:37 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-01 18:36:15 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-01 18:36:17 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-01 18:36:17 BadgerService: startRealtimeSync skipped -- already restarting
+[E] 06-01 18:37:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING)
+[I] 06-01 18:37:15 BadgerService: Realtime subscribed OK -- badger-svc-cf452a2f-bfbd-4ab2-b096-e89dc826120c status=SUBSCRIBED
+[I] 06-01 18:45:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-01 18:45:35 BadgerService: Keepalive scheduled in 900s
