@@ -1,253 +1,4 @@
-=== samsung SM-S911U | v120 | shipped 2026-06-02 01:26:07 ===
-[E] 06-01 19:24:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:25:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:26:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:27:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:28:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:29:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:30:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:31:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:32:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:32:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[I] 06-01 19:33:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 19:33:43 BadgerService: Keepalive scheduled in 900s
-[W] 06-01 19:33:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-01 19:33:43 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-01 19:33:45 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 06-01 19:33:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:34:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:35:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:35:57 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
-[E] 06-01 19:36:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:37:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:38:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:39:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 19:40:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[I] 06-01 19:40:48 AppUpdater: Checking via website (current=119)
-[I] 06-01 19:40:49 AppUpdater: Checking via GitHub direct (current=119)
-[W] 06-01 19:40:49 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 19:40:50 AppUpdater: Update found via GitHub: access-v120 (current=119)
-[I] 06-01 19:40:50 MainActivity: Auto-downloading access-v120
-[I] 06-01 19:40:50 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v120/badger-access-access-v120.apk
-[I] 06-01 19:40:51 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 19:40:51 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-01 19:40:52 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v120/badger-access-access-v120.apk
-[W] 06-01 19:40:52 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-01 19:40:52 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 06-01 19:40:54 BadgerService: Realtime subscribed OK -- badger-svc-187171a9-0c6f-4ce5-b34d-4c35b7228061 status=SUBSCRIBED
-[I] 06-01 19:40:57 AppUpdater: Downloaded 15413319 bytes
-[I] 06-01 19:40:58 AppUpdater: Downloaded 15413319 bytes
-[I] 06-01 19:41:07 BadgerApp: App started v120 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-01 19:41:07 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 06-01 19:41:07 MainActivity: BadgerService started (mic=true)
-[I] 06-01 19:41:07 AppUpdater: Checking via website (current=120)
-[W] 06-01 19:41:07 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 06-01 19:41:07 AuthManager: Session expired — trying HWID silent login
-[I] 06-01 19:41:07 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 06-01 19:41:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 19:41:07 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 06-01 19:41:07 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 19:41:07 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 19:41:07 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 19:41:08 AuthManager: HWID silent login OK
-[I] 06-01 19:41:08 AuthManager: Sign in OK — felipe role=admin
-[I] 06-01 19:41:08 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 06-01 19:41:08 BadgerService: Realtime subscribed OK -- badger-svc-203b3d2b-8260-4605-b49b-5b6da3267540 status=SUBSCRIBED
-[I] 06-01 19:41:31 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":11,"printroomCreated":0,"movementAdded":0}
-[I] 06-01 19:43:07 AppUpdater: Checking via website (current=120)
-[W] 06-01 19:43:07 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 19:43:07 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 19:43:08 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 19:44:15 AppUpdater: Checking via website (current=120)
-[W] 06-01 19:44:15 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 19:44:15 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 19:44:16 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 19:45:49 AppUpdater: Checking via website (current=120)
-[I] 06-01 19:45:49 AppUpdater: Checking via GitHub direct (current=120)
-[W] 06-01 19:45:49 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 19:45:50 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 19:50:26 AppUpdater: Checking via website (current=120)
-[W] 06-01 19:50:26 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 19:50:26 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 19:50:27 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 19:54:07 AppUpdater: Checking via website (current=120)
-[I] 06-01 19:54:07 AppUpdater: Checking via GitHub direct (current=120)
-[W] 06-01 19:54:07 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 19:54:08 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 19:54:11 Movement: Truck 224-2 status → In Front
-[I] 06-01 19:54:12 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=4
-[I] 06-01 19:56:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 19:56:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 19:56:08 LogShipper: Shipped 344 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 20:07:32 AppUpdater: Checking via website (current=120)
-[I] 06-01 20:07:32 AppUpdater: Checking via GitHub direct (current=120)
-[W] 06-01 20:07:32 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:07:33 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:08:22 AppUpdater: Checking via website (current=120)
-[I] 06-01 20:08:22 AppUpdater: Checking via GitHub direct (current=120)
-[W] 06-01 20:08:22 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:08:22 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:11:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 20:11:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 20:11:09 LogShipper: Shipped 355 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 20:11:52 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:11:52 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:11:52 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:11:53 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:11:55 Movement: Truck 158 status → In Front
-[I] 06-01 20:11:55 BadgerRepo: updateMovementStatus OK â€” truck=158 statusId=4
-[I] 06-01 20:13:32 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:13:33 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:13:33 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:13:33 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:13:35 Movement: Truck 148 status → In Front
-[I] 06-01 20:13:35 BadgerRepo: updateMovementStatus OK â€” truck=148 statusId=4
-[I] 06-01 20:17:29 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:17:29 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:17:29 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:17:30 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:17:34 Movement: Door 15B status → End Of Truck Tote
-[I] 06-01 20:17:35 BadgerRepo: updateDoorStatus OK â€” id=6 status=End Of Truck Tote
-[I] 06-01 20:17:37 Movement: Door 15A status → End Of Truck Tote
-[I] 06-01 20:17:37 BadgerRepo: updateDoorStatus OK â€” id=5 status=End Of Truck Tote
-[I] 06-01 20:17:44 AppUpdater: Checking via website (current=120)
-[I] 06-01 20:17:44 AppUpdater: Checking via GitHub direct (current=120)
-[W] 06-01 20:17:44 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:17:44 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:17:45 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:17:45 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:17:45 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:17:45 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:18:07 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:18:08 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:18:08 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:18:08 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:18:14 Movement: Door 15B status → EOT+1
-[I] 06-01 20:18:14 BadgerRepo: updateDoorStatus OK â€” id=6 status=EOT+1
-[I] 06-01 20:18:17 Movement: Door 15A status → EOT+1
-[I] 06-01 20:18:17 BadgerRepo: updateDoorStatus OK â€” id=5 status=EOT+1
-[I] 06-01 20:25:00 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:25:00 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:25:00 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:25:01 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:25:03 AppUpdater: Checking via website (current=120)
-[I] 06-01 20:25:03 AppUpdater: Checking via GitHub direct (current=120)
-[W] 06-01 20:25:03 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:25:03 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:25:06 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:25:06 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:25:06 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:25:06 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:26:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 20:26:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 20:26:09 LogShipper: Shipped 406 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 20:27:34 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:27:34 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:27:34 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:27:35 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:27:51 Movement: Truck 159 status → In Front
-[I] 06-01 20:27:51 BadgerRepo: updateMovementStatus OK â€” truck=159 statusId=4
-[I] 06-01 20:31:55 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:31:55 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:31:55 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:31:56 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:31:59 Movement: Door 15B status → Loading
-[I] 06-01 20:31:59 BadgerRepo: updateDoorStatus OK â€” id=6 status=Loading
-[I] 06-01 20:32:01 Movement: Truck 232 status → In Door
-[I] 06-01 20:32:01 BadgerRepo: updateMovementStatus OK â€” truck=232 statusId=1
-[I] 06-01 20:32:10 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:32:10 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:32:10 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:32:11 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:32:16 AppUpdater: Checking via website (current=120)
-[I] 06-01 20:32:16 AppUpdater: Checking via GitHub direct (current=120)
-[W] 06-01 20:32:16 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:32:16 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:41:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 20:41:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 20:41:08 LogShipper: Shipped 431 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 20:47:39 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:47:40 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:47:40 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:47:41 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:48:56 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:48:56 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:48:56 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:48:57 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:48:58 Movement: Truck 244 status → In Front
-[I] 06-01 20:48:58 BadgerRepo: updateMovementStatus OK â€” truck=244 statusId=4
-[I] 06-01 20:49:40 PTT: Incoming PTT message received
-[I] 06-01 20:49:50 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:49:50 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:49:50 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:49:51 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:49:51 PTT: PTT recording STARTED
-[I] 06-01 20:49:52 PTT: PTT recording STOPPED
-[I] 06-01 20:49:53 PTT: PTT sent OK — 25600 bytes
-[I] 06-01 20:49:53 PTT: Incoming PTT message received
-[I] 06-01 20:49:59 PTT: Incoming PTT message received
-[I] 06-01 20:50:05 PTT: PTT recording STARTED
-[I] 06-01 20:50:07 PTT: PTT recording STOPPED
-[I] 06-01 20:50:07 PTT: PTT sent OK — 30400 bytes
-[I] 06-01 20:50:07 PTT: Incoming PTT message received
-[I] 06-01 20:54:38 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:54:38 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:54:38 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:54:39 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 20:56:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 20:56:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 20:56:09 LogShipper: Shipped 462 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 20:57:27 AppUpdater: Checking via website (current=120)
-[W] 06-01 20:57:27 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 20:57:27 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 20:57:28 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 21:00:53 AppUpdater: Checking via website (current=120)
-[W] 06-01 21:00:53 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 21:00:53 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 21:00:54 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 21:00:56 Movement: Truck 231-1 status → On Route
-[I] 06-01 21:00:56 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=3
-[I] 06-01 21:00:58 Movement: Truck 187-2 status → In Door
-[I] 06-01 21:00:58 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=1
-[I] 06-01 21:01:02 Movement: Door 14A status → Loading
-[I] 06-01 21:01:02 BadgerRepo: updateDoorStatus OK â€” id=3 status=Loading
-[I] 06-01 21:01:06 AppUpdater: Checking via website (current=120)
-[W] 06-01 21:01:07 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 21:01:07 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 21:01:07 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 21:01:34 AppUpdater: Checking via website (current=120)
-[W] 06-01 21:01:34 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 21:01:34 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 21:01:34 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 21:11:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 21:11:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 21:11:09 LogShipper: Shipped 487 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 21:26:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 21:26:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 21:26:09 LogShipper: Shipped 490 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 21:31:02 AppUpdater: Checking via website (current=120)
-[W] 06-01 21:31:03 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
-[I] 06-01 21:31:03 AppUpdater: Checking via GitHub direct (current=120)
-[I] 06-01 21:31:04 AppUpdater: Up to date via GitHub (current=120 latest=120)
-[I] 06-01 21:41:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 21:41:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 21:41:08 LogShipper: Shipped 497 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 21:56:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 21:56:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 21:56:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 22:11:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 22:11:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 22:11:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-01 22:26:07 BadgerService: Keepalive scheduled in 900s
-[I] 06-01 22:26:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-01 22:26:08 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[W] 06-01 22:31:03 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 06-01 22:31:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 22:32:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 22:33:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 22:34:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 22:35:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
-[E] 06-01 22:36:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+=== samsung SM-S911U | v120 | shipped 2026-06-02 01:40:28 ===
 [E] 06-01 22:37:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 06-01 22:38:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 06-01 22:39:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
@@ -492,3 +243,25 @@
 [I] 06-02 01:26:07 BadgerService: Keepalive scheduled in 900s
 [W] 06-02 01:26:07 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-02 01:26:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-02 01:26:08 LogShipper: Shipped 493 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-02 01:26:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:27:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:28:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:29:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:30:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:31:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:32:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:33:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:34:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:35:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:35:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:36:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:37:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:38:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 01:39:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[W] 06-02 01:40:23 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-02 01:40:23 BadgerService: Keepalive scheduled in 2s
+[I] 06-02 01:40:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 01:40:28 BadgerService: Keepalive scheduled in 900s
+[W] 06-02 01:40:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-02 01:40:28 BadgerService: startRealtimeSync skipped -- already restarting
