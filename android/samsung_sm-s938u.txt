@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-02 18:31:46 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-02 18:46:46 ===
 [I] 06-02 10:17:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 06-02 10:17:02 BadgerApp: App started v126 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-02 10:17:02 MainActivity: BadgerService started (mic=false)
@@ -403,3 +403,21 @@
 [I] 06-02 18:29:26 BadgerService: Realtime subscribed OK -- badger-svc-d1b252b0-2070-41d7-b341-94ce005daaa3 status=SUBSCRIBED
 [I] 06-02 18:31:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-02 18:31:46 BadgerService: Keepalive scheduled in 900s
+[I] 06-02 18:31:48 LogShipper: Shipped 404 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-02 18:40:54 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:40:55 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:40:55 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:40:56 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 18:41:01 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":35,"printroomCreated":0,"movementAdded":21}
+[I] 06-02 18:41:20 Movement: Truck 186-1 status → In Front
+[I] 06-02 18:41:20 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=4
+[W] 06-02 18:42:25 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 06-02 18:42:25 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 06-02 18:43:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-02 18:43:24 BadgerService: Realtime subscribed OK -- badger-svc-a6705248-7728-4529-b069-7d901ad3d902 status=SUBSCRIBED
+[I] 06-02 18:44:13 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:44:14 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:44:14 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:44:14 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 18:46:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 18:46:46 BadgerService: Keepalive scheduled in 900s
