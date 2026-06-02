@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v120 | shipped 2026-06-02 10:25:29 ===
+=== samsung SM-S911U | v126 | shipped 2026-06-02 10:52:42 ===
 [W] 06-02 06:55:28 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-02 06:55:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 06-02 06:55:30 LogShipper: Shipped 480 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -301,3 +301,59 @@
 [I] 06-02 10:25:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-02 10:25:29 BadgerService: Keepalive scheduled in 900s
 [W] 06-02 10:25:29 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-02 10:25:31 LogShipper: Shipped 302 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-02 10:26:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:27:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:28:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:29:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:30:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:30:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:31:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:32:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:33:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:34:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:35:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[E] 06-02 10:36:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[W] 06-02 10:37:25 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-02 10:37:25 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 06-02 10:37:26 AppUpdater: Checking via website (current=120)
+[I] 06-02 10:37:27 AppUpdater: Update found via website: access-v126
+[I] 06-02 10:37:27 MainActivity: Auto-downloading access-v126
+[I] 06-02 10:37:27 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v126/badger-access-access-v126.apk
+[I] 06-02 10:37:29 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v126/badger-access-access-v126.apk
+[E] 06-02 10:37:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[I] 06-02 10:37:34 AppUpdater: Downloaded 15831675 bytes
+[I] 06-02 10:37:34 AppUpdater: Downloaded 15831675 bytes
+[I] 06-02 10:37:42 BadgerApp: App started v126 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-02 10:37:42 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-02 10:37:42 MainActivity: BadgerService started (mic=true)
+[I] 06-02 10:37:42 AppUpdater: Checking via website (current=126)
+[W] 06-02 10:37:42 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-02 10:37:42 AuthManager: Session expired — trying HWID silent login
+[I] 06-02 10:37:42 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 06-02 10:37:42 BadgerService: Keepalive scheduled in 900s
+[I] 06-02 10:37:42 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-02 10:37:42 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 10:37:42 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 10:37:43 AuthManager: Sign in OK — felipe role=admin
+[I] 06-02 10:37:43 AuthManager: HWID silent login OK
+[I] 06-02 10:37:43 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 06-02 10:37:43 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 10:37:44 BadgerService: Realtime subscribed OK -- badger-svc-e168ba43-8e67-4862-b4a8-ac7ac4245112 status=SUBSCRIBED
+[E] 06-02 10:37:51 Chat: realtime: The coroutine scope left the composition
+[E] 06-02 10:37:58 Chat: realtime: The coroutine scope left the composition
+[E] 06-02 10:38:04 Chat: realtime: The coroutine scope left the composition
+[I] 06-02 10:38:22 PTT: PTT recording STARTED
+[I] 06-02 10:38:24 PTT: PTT recording STOPPED
+[I] 06-02 10:38:24 PTT: PTT sent OK — 20480 bytes
+[I] 06-02 10:38:25 PTT: Incoming PTT message received
+[I] 06-02 10:38:28 PTT: PTT recording STARTED
+[I] 06-02 10:38:29 PTT: PTT recording STOPPED
+[I] 06-02 10:38:30 PTT: PTT sent OK — 22400 bytes
+[I] 06-02 10:38:30 PTT: Incoming PTT message received
+[I] 06-02 10:39:33 AppUpdater: Checking via website (current=126)
+[I] 06-02 10:39:34 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 10:39:34 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 10:39:35 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 10:52:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 10:52:42 BadgerService: Keepalive scheduled in 900s
