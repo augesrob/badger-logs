@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v121 | shipped 2026-06-02 09:26:43 ===
+=== samsung SM-S938U | v122 | shipped 2026-06-02 09:46:41 ===
 [I] 06-02 00:18:20 LogShipper: Shipped 259 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 06-02 00:19:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 06-02 00:19:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
@@ -342,3 +342,31 @@
 [I] 06-02 09:26:43 BadgerService: Keepalive scheduled in 900s
 [W] 06-02 09:26:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-02 09:26:43 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-02 09:26:44 LogShipper: Shipped 343 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-02 09:27:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[I] 06-02 09:27:19 AppUpdater: Checking via website (current=121)
+[I] 06-02 09:27:19 AppUpdater: Update found via website: access-v122
+[I] 06-02 09:27:19 MainActivity: Auto-downloading access-v122
+[I] 06-02 09:27:19 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v122/badger-access-access-v122.apk
+[I] 06-02 09:27:21 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v122/badger-access-access-v122.apk
+[I] 06-02 09:27:22 AppUpdater: Downloaded 15774135 bytes
+[I] 06-02 09:27:23 AppUpdater: Downloaded 15774135 bytes
+[I] 06-02 09:27:29 BadgerService: Realtime subscribed OK -- badger-svc-9dc08587-3eaf-4cf2-b0a9-dc34f0c3bf98 status=SUBSCRIBED
+[I] 06-02 09:31:41 BadgerApp: App started v122 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-02 09:31:41 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 06-02 09:31:41 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-02 09:31:41 AuthManager: Session expired — trying HWID silent login
+[I] 06-02 09:31:41 MainActivity: BadgerService started (mic=true)
+[I] 06-02 09:31:41 AppUpdater: Checking via website (current=122)
+[I] 06-02 09:31:41 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 06-02 09:31:41 BadgerService: Keepalive scheduled in 900s
+[I] 06-02 09:31:41 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-02 09:31:41 AppUpdater: Up to date via website (current=122 latest=122)
+[I] 06-02 09:31:41 AppUpdater: Checking via GitHub direct (current=122)
+[I] 06-02 09:31:42 AuthManager: HWID silent login OK
+[I] 06-02 09:31:42 AuthManager: Sign in OK — augesrob role=admin
+[I] 06-02 09:31:42 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 06-02 09:31:42 AppUpdater: Up to date via GitHub (current=122 latest=122)
+[I] 06-02 09:31:43 BadgerService: Realtime subscribed OK -- badger-svc-a16e8694-ec97-44af-b873-3fdc9ae3b597 status=SUBSCRIBED
+[I] 06-02 09:46:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 09:46:41 BadgerService: Keepalive scheduled in 900s
