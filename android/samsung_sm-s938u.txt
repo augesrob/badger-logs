@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v120 | shipped 2026-06-01 21:18:19 ===
+=== samsung SM-S938U | v120 | shipped 2026-06-01 21:33:19 ===
 [E] 06-01 18:52:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 06-01 18:52:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
 [E] 06-01 18:53:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
@@ -330,3 +330,13 @@
 [I] 06-01 21:17:40 AppUpdater: Up to date via GitHub (current=120 latest=120)
 [I] 06-01 21:18:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-01 21:18:19 BadgerService: Keepalive scheduled in 900s
+[I] 06-01 21:18:20 LogShipper: Shipped 331 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-01 21:32:06 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 06-01 21:32:26 AppUpdater: Checking via website (current=120)
+[W] 06-01 21:32:27 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
+[I] 06-01 21:32:27 AppUpdater: Checking via GitHub direct (current=120)
+[I] 06-01 21:32:27 AppUpdater: Up to date via GitHub (current=120 latest=120)
+[E] 06-01 21:32:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING)
+[I] 06-01 21:33:03 BadgerService: Realtime subscribed OK -- badger-svc-ef6e688d-b2c7-49cb-ad19-017fe28b82a1 status=SUBSCRIBED
+[I] 06-01 21:33:19 BadgerService: Keepalive scheduled in 900s
+[I] 06-01 21:33:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
