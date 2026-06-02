@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-02 17:47:04 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-02 18:01:46 ===
 [I] 06-02 10:17:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 06-02 10:17:02 BadgerApp: App started v126 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-02 10:17:02 MainActivity: BadgerService started (mic=false)
@@ -365,3 +365,29 @@
 [I] 06-02 17:36:30 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":7,"movementAdded":7}
 [I] 06-02 17:47:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-02 17:47:04 BadgerService: Keepalive scheduled in 900s
+[I] 06-02 17:47:06 LogShipper: Shipped 366 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-02 17:54:14 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-02 17:55:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-02 17:55:10 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 06-02 17:55:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-02 17:57:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-02 17:58:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[I] 06-02 18:00:07 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:00:08 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:00:08 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:00:09 BadgerService: Realtime subscribed OK -- badger-svc-cbcfa9a9-9020-4347-927f-d5862fb0825e status=SUBSCRIBED
+[I] 06-02 18:00:09 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 18:00:13 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
+[I] 06-02 18:01:11 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:01:12 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:01:12 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:01:13 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 18:01:27 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:01:27 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:01:27 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:01:27 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[E] 06-02 18:01:38 Chat: realtime: The coroutine scope left the composition
+[W] 06-02 18:01:41 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-02 18:01:41 BadgerService: Keepalive scheduled in 2s
+[I] 06-02 18:01:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 18:01:46 BadgerService: Keepalive scheduled in 900s
