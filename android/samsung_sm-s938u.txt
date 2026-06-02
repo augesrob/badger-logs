@@ -1,9 +1,4 @@
-=== samsung SM-S938U | v120 | shipped 2026-06-02 06:36:17 ===
-[I] 06-01 20:24:58 Movement: Door 15A status → Loading
-[I] 06-01 20:24:58 BadgerRepo: updateDoorStatus OK â€” id=5 status=Loading
-[I] 06-01 20:25:00 Movement: Truck 248-2 status → In Door
-[I] 06-01 20:25:00 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=1
-[I] 06-01 20:25:10 Movement: Truck 222-1 status → On Route
+=== samsung SM-S938U | v120 | shipped 2026-06-02 06:51:17 ===
 [I] 06-01 20:25:10 BadgerRepo: updateMovementStatus OK â€” truck=222-1 statusId=3
 [I] 06-01 20:25:39 AppUpdater: Checking via website (current=120)
 [W] 06-01 20:25:39 AppUpdater: Website check failed: Fields [versionCode, tagName, downloadUrl] are required for type with serial name 'com.badger.trucks.updater.VersionResponse', but they were missing at path: $ — trying GitHub direct
@@ -499,3 +494,8 @@
 [I] 06-02 06:36:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 06-02 06:36:17 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-02 06:36:17 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-02 06:36:19 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-02 06:51:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 06:51:17 BadgerService: Keepalive scheduled in 900s
+[W] 06-02 06:51:17 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-02 06:51:17 BadgerService: startRealtimeSync skipped -- already restarting
