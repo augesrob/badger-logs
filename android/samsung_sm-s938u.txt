@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-02 18:46:46 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-02 19:01:46 ===
 [I] 06-02 10:17:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 06-02 10:17:02 BadgerApp: App started v126 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-02 10:17:02 MainActivity: BadgerService started (mic=false)
@@ -421,3 +421,33 @@
 [I] 06-02 18:44:14 AppUpdater: Up to date via GitHub (current=126 latest=126)
 [I] 06-02 18:46:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-02 18:46:46 BadgerService: Keepalive scheduled in 900s
+[I] 06-02 18:46:48 LogShipper: Shipped 422 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-02 18:48:47 BadgerRepo: getLoadingDoors FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[I] 06-02 18:49:42 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:49:44 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:49:44 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:49:44 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 18:49:45 Movement: Truck 224-1 status → In Front
+[I] 06-02 18:49:46 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=4
+[W] 06-02 18:50:49 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-02 18:50:51 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-02 18:50:51 BadgerService: startRealtimeSync skipped -- already restarting
+[E] 06-02 18:51:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[E] 06-02 18:51:48 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[I] 06-02 18:51:50 BadgerService: Realtime subscribed OK -- badger-svc-48104422-9b64-4b7f-a99e-e3e0d2b2673c status=SUBSCRIBED
+[I] 06-02 18:54:17 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:54:18 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:54:18 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:54:19 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 18:54:19 Movement: Truck 231-2 status → In Front
+[I] 06-02 18:54:20 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=4
+[W] 06-02 18:56:11 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
+[I] 06-02 18:56:12 BadgerService: Realtime subscribed OK -- badger-svc-656e76c2-faf8-462d-8c94-20e61eabb7cd status=SUBSCRIBED
+[I] 06-02 18:59:51 AppUpdater: Checking via website (current=126)
+[I] 06-02 18:59:52 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 18:59:52 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 18:59:54 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 18:59:54 Movement: Truck 223-1 status → In Front
+[I] 06-02 18:59:54 BadgerRepo: updateMovementStatus OK â€” truck=223-1 statusId=4
+[I] 06-02 19:01:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 19:01:46 BadgerService: Keepalive scheduled in 900s
