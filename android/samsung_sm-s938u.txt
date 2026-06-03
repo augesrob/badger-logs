@@ -1,31 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-03 00:28:47 ===
-[I] 06-02 18:00:13 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
-[I] 06-02 18:01:11 AppUpdater: Checking via website (current=126)
-[I] 06-02 18:01:12 AppUpdater: Up to date via website (current=126 latest=126)
-[I] 06-02 18:01:12 AppUpdater: Checking via GitHub direct (current=126)
-[I] 06-02 18:01:13 AppUpdater: Up to date via GitHub (current=126 latest=126)
-[I] 06-02 18:01:27 AppUpdater: Checking via website (current=126)
-[I] 06-02 18:01:27 AppUpdater: Up to date via website (current=126 latest=126)
-[I] 06-02 18:01:27 AppUpdater: Checking via GitHub direct (current=126)
-[I] 06-02 18:01:27 AppUpdater: Up to date via GitHub (current=126 latest=126)
-[E] 06-02 18:01:38 Chat: realtime: The coroutine scope left the composition
-[W] 06-02 18:01:41 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 06-02 18:01:41 BadgerService: Keepalive scheduled in 2s
-[I] 06-02 18:01:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-02 18:01:46 BadgerService: Keepalive scheduled in 900s
-[I] 06-02 18:01:48 LogShipper: Shipped 392 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-02 18:16:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-02 18:16:46 BadgerService: Keepalive scheduled in 900s
-[I] 06-02 18:16:48 LogShipper: Shipped 395 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 06-02 18:27:50 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 06-02 18:28:27 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
-[W] 06-02 18:28:28 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-02 18:28:28 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-02 18:29:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
-[I] 06-02 18:29:26 BadgerService: Realtime subscribed OK -- badger-svc-d1b252b0-2070-41d7-b341-94ce005daaa3 status=SUBSCRIBED
-[I] 06-02 18:31:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-02 18:31:46 BadgerService: Keepalive scheduled in 900s
-[I] 06-02 18:31:48 LogShipper: Shipped 404 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | v126 | shipped 2026-06-03 00:43:47 ===
 [I] 06-02 18:40:54 AppUpdater: Checking via website (current=126)
 [I] 06-02 18:40:55 AppUpdater: Up to date via website (current=126 latest=126)
 [I] 06-02 18:40:55 AppUpdater: Checking via GitHub direct (current=126)
@@ -499,3 +472,30 @@
 [I] 06-03 00:28:35 BadgerRepo: updateMovementStatus OK â€” truck=195 statusId=1
 [I] 06-03 00:28:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-03 00:28:47 BadgerService: Keepalive scheduled in 900s
+[I] 06-03 00:28:48 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-03 00:29:08 Movement: Door 13A status → Loading
+[I] 06-03 00:29:08 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 06-03 00:29:45 AppUpdater: Checking via website (current=126)
+[I] 06-03 00:29:45 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-03 00:29:45 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-03 00:29:46 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-03 00:31:01 Movement: Truck 160 status → In Front
+[I] 06-03 00:31:02 BadgerRepo: updateMovementStatus OK â€” truck=160 statusId=4
+[I] 06-03 00:33:17 AppUpdater: Checking via website (current=126)
+[I] 06-03 00:33:17 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-03 00:33:17 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-03 00:33:17 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-03 00:42:07 AppUpdater: Checking via website (current=126)
+[I] 06-03 00:42:07 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-03 00:42:07 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-03 00:42:08 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-03 00:42:11 Movement: Door 13B status → 100%
+[I] 06-03 00:42:11 BadgerRepo: updateDoorStatus OK â€” id=2 status=100%
+[I] 06-03 00:42:29 AppUpdater: Checking via website (current=126)
+[I] 06-03 00:42:29 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-03 00:42:29 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-03 00:42:29 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-03 00:42:30 Movement: Door 13B status → End Of Truck Tote
+[I] 06-03 00:42:30 BadgerRepo: updateDoorStatus OK â€” id=2 status=End Of Truck Tote
+[I] 06-03 00:43:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-03 00:43:47 BadgerService: Keepalive scheduled in 900s
