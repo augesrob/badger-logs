@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-02 22:58:47 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-02 23:13:47 ===
 [E] 06-02 16:42:49 BadgerService: Realtime: 64 consecutive failures — cooling down 5 min
 [I] 06-02 16:47:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-02 16:47:04 BadgerService: Keepalive scheduled in 900s
@@ -452,3 +452,21 @@
 [I] 06-02 22:58:47 BadgerService: Keepalive scheduled in 900s
 [W] 06-02 22:58:47 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-02 22:58:47 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-02 22:58:48 LogShipper: Shipped 453 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-02 22:59:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[I] 06-02 22:59:52 AppUpdater: Checking via website (current=126)
+[I] 06-02 22:59:53 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 22:59:53 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 22:59:54 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 23:00:02 Movement: Truck 186-1 status → 12B
+[I] 06-02 23:00:02 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=16
+[I] 06-02 23:00:08 Movement: Truck 220 status → In Door
+[I] 06-02 23:00:08 BadgerRepo: updateMovementStatus OK â€” truck=220 statusId=1
+[I] 06-02 23:00:10 Movement: Door 15B status → Loading
+[I] 06-02 23:00:10 BadgerRepo: updateDoorStatus OK â€” id=6 status=Loading
+[I] 06-02 23:00:37 BadgerService: Realtime subscribed OK -- badger-svc-3f7e8a52-9f19-4ae9-8e3c-a197db79c4eb status=SUBSCRIBED
+[I] 06-02 23:13:46 AppUpdater: Checking via website (current=126)
+[I] 06-02 23:13:47 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 23:13:47 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 23:13:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 23:13:47 BadgerService: Keepalive scheduled in 900s
