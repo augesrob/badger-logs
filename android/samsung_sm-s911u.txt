@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-02 22:48:20 ===
+=== samsung SM-S911U | v126 | shipped 2026-06-02 23:03:20 ===
 [I] 06-02 19:18:48 AppUpdater: Checking via website (current=126)
 [I] 06-02 19:18:49 AppUpdater: Up to date via website (current=126 latest=126)
 [I] 06-02 19:18:49 AppUpdater: Checking via GitHub direct (current=126)
@@ -223,3 +223,18 @@
 [I] 06-02 22:33:21 LogShipper: Shipped 221 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 06-02 22:48:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-02 22:48:20 BadgerService: Keepalive scheduled in 900s
+[I] 06-02 22:48:22 LogShipper: Shipped 224 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 06-02 22:56:44 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-02 22:57:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-02 22:58:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-02 22:59:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 06-02 23:00:48 AppUpdater: Checking via website (current=126)
+[I] 06-02 23:00:48 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-02 23:00:48 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-02 23:00:49 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-02 23:00:54 Movement: Truck 186-1 status → 12B
+[I] 06-02 23:00:54 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=16
+[E] 06-02 23:00:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[I] 06-02 23:02:20 BadgerService: Realtime subscribed OK -- badger-svc-e953d37b-88b3-4b0e-8f71-308a3c6cbb72 status=SUBSCRIBED
+[I] 06-02 23:03:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-02 23:03:20 BadgerService: Keepalive scheduled in 900s
