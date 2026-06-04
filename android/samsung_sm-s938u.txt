@@ -1,24 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-04 01:26:08 ===
-[I] 06-03 19:38:08 BadgerRepo: importRoutes: 200  {"ok":true,"updated":31,"total":37,"fresh":true,"csvAge":"2026-06-04T00:38:07.81+00:00"}
-[I] 06-03 19:38:29 BadgerRepo: importRoutes: 200  {"ok":true,"updated":36,"total":37,"fresh":true,"csvAge":"2026-06-04T00:38:28.834+00:00"}
-[I] 06-03 19:51:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-03 19:51:16 BadgerService: Keepalive scheduled in 900s
-[I] 06-03 19:51:17 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-03 20:06:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-03 20:06:16 BadgerService: Keepalive scheduled in 900s
-[I] 06-03 20:06:20 LogShipper: Shipped 433 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-03 20:21:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-03 20:21:16 BadgerService: Keepalive scheduled in 900s
-[I] 06-03 20:21:17 LogShipper: Shipped 436 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 06-03 20:21:21 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 06-03 20:22:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[E] 06-03 20:23:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
-[E] 06-03 20:24:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
-[I] 06-03 20:25:21 AppUpdater: Checking via website (current=126)
-[I] 06-03 20:25:23 AppUpdater: Checking via GitHub direct (current=126)
-[I] 06-03 20:25:23 AppUpdater: Up to date via website (current=126 latest=126)
-[I] 06-03 20:25:23 AppUpdater: Up to date via GitHub (current=126 latest=126)
-[E] 06-03 20:25:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+=== samsung SM-S938U | v126 | shipped 2026-06-04 01:41:08 ===
 [E] 06-03 20:26:55 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 2
 [I] 06-03 20:26:57 BadgerService: Realtime subscribed OK -- badger-svc-8f88fefb-3a65-441c-ace4-640cf10f8563 status=SUBSCRIBED
 [I] 06-03 20:27:20 AppUpdater: Checking via website (current=126)
@@ -499,3 +479,23 @@
 [I] 06-04 01:23:26 AppUpdater: Up to date via GitHub (current=126 latest=126)
 [I] 06-04 01:26:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-04 01:26:08 BadgerService: Keepalive scheduled in 900s
+[I] 06-04 01:26:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-04 01:36:29 AppUpdater: Checking via website (current=126)
+[I] 06-04 01:36:29 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 01:36:29 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 01:36:30 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 01:36:55 Movement: Truck 199 status → In Door
+[I] 06-04 01:36:55 BadgerRepo: updateMovementStatus OK â€” truck=199 statusId=1
+[I] 06-04 01:39:19 AppUpdater: Checking via website (current=126)
+[I] 06-04 01:39:19 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 01:39:19 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 01:39:20 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 01:39:21 Movement: Door 13A status → Loading
+[I] 06-04 01:39:21 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 06-04 01:40:31 AppUpdater: Checking via website (current=126)
+[I] 06-04 01:40:31 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 01:40:31 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 01:40:32 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 01:41:08 Movement: Truck 213 status → Put Away
+[I] 06-04 01:41:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-04 01:41:08 BadgerService: Keepalive scheduled in 900s
