@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-04 02:11:08 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-04 02:26:08 ===
 [I] 06-03 22:31:47 BadgerService: Realtime subscribed OK -- badger-svc-fb802c10-ed3c-47e4-9197-92cc1492f020 status=SUBSCRIBED
 [I] 06-03 22:35:49 AppUpdater: Checking via website (current=126)
 [I] 06-03 22:35:49 AppUpdater: Up to date via website (current=126 latest=126)
@@ -347,3 +347,13 @@
 [I] 06-04 01:56:09 LogShipper: Shipped 345 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 06-04 02:11:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-04 02:11:08 BadgerService: Keepalive scheduled in 900s
+[I] 06-04 02:11:09 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-04 02:13:26 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 06-04 02:13:50 AppUpdater: Checking via website (current=126)
+[I] 06-04 02:13:51 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 02:13:51 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 02:13:51 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[E] 06-04 02:14:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[I] 06-04 02:14:23 BadgerService: Realtime subscribed OK -- badger-svc-614e2cd2-6008-441b-bc11-39da164e5c38 status=SUBSCRIBED
+[I] 06-04 02:26:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-04 02:26:08 BadgerService: Keepalive scheduled in 900s
