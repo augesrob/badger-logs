@@ -1,12 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-04 11:46:54 ===
-[I] 06-04 01:23:08 AppUpdater: Checking via GitHub direct (current=126)
-[I] 06-04 01:23:09 AppUpdater: Up to date via GitHub (current=126 latest=126)
-[I] 06-04 01:23:16 Movement: Truck 159 status → In Front
-[I] 06-04 01:23:16 BadgerRepo: updateMovementStatus OK â€” truck=159 statusId=4
-[I] 06-04 01:24:57 AppUpdater: Checking via website (current=126)
-[W] 06-04 01:25:03 AppUpdater: Website check failed: Unable to resolve host "badger.augesrob.net": No address associated with hostname — trying GitHub direct
-[I] 06-04 01:25:03 AppUpdater: Checking via GitHub direct (current=126)
-[W] 06-04 01:25:03 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+=== samsung SM-S911U | v126 | shipped 2026-06-04 12:01:54 ===
 [W] 06-04 01:25:03 AppUpdater: GitHub direct check failed: Unable to resolve host "api.github.com": No address associated with hostname
 [W] 06-04 01:25:04 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [W] 06-04 01:25:04 BadgerService: startRealtimeSync skipped -- already restarting
@@ -499,3 +491,11 @@
 [I] 06-04 11:46:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-04 11:46:54 BadgerService: Keepalive scheduled in 900s
 [W] 06-04 11:46:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-04 11:46:54 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-04 11:46:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 06-04 12:00:30 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-04 12:00:30 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 06-04 12:01:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-04 12:01:54 BadgerService: Keepalive scheduled in 900s
+[W] 06-04 12:01:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-04 12:01:54 BadgerService: startRealtimeSync skipped -- already restarting
