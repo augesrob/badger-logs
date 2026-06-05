@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-05 06:58:42 ===
-[W] 06-04 22:26:52 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 06-04 22:27:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[E] 06-04 22:28:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
-[E] 06-04 22:29:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
-[E] 06-04 22:30:20 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
-[E] 06-04 22:31:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
-[E] 06-04 22:33:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+=== samsung SM-S938U | v126 | shipped 2026-06-05 07:13:42 ===
 [I] 06-04 22:33:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-04 22:33:24 BadgerService: Keepalive scheduled in 900s
 [W] 06-04 22:33:24 BadgerService: startRealtimeSync: in backoff for 67s more — skipping
@@ -499,3 +492,10 @@
 [I] 06-05 06:58:42 BadgerService: Keepalive scheduled in 900s
 [W] 06-05 06:58:42 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-05 06:58:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-05 06:58:43 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-05 06:59:40 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-05 06:59:40 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-05 07:13:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-05 07:13:42 BadgerService: Keepalive scheduled in 900s
+[W] 06-05 07:13:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-05 07:13:42 BadgerService: startRealtimeSync skipped -- already restarting
