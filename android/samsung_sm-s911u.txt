@@ -1,15 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-04 23:10:57 ===
-[I] 06-04 14:01:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-04 14:01:54 BadgerService: Keepalive scheduled in 900s
-[W] 06-04 14:01:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-04 14:01:54 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-04 14:01:55 LogShipper: Shipped 299 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-04 14:16:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 06-04 14:16:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-04 14:16:54 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-04 14:16:54 BadgerService: Keepalive scheduled in 900s
-[I] 06-04 14:16:55 LogShipper: Shipped 304 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-04 14:31:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S911U | v126 | shipped 2026-06-04 23:25:57 ===
 [I] 06-04 14:31:54 BadgerService: Keepalive scheduled in 900s
 [W] 06-04 14:31:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-04 14:31:54 BadgerService: startRealtimeSync skipped -- already restarting
@@ -491,3 +480,22 @@
 [I] 06-04 23:05:10 AppUpdater: Up to date via GitHub (current=126 latest=126)
 [I] 06-04 23:10:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-04 23:10:57 BadgerService: Keepalive scheduled in 900s
+[E] 06-04 23:11:18 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 06-04 23:15:52 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 06-04 23:16:17 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-04 23:16:17 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 06-04 23:16:28 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 06-04 23:16:28 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 06-04 23:16:48 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[E] 06-04 23:16:48 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 06-04 23:17:36 BadgerService: Realtime subscribed OK -- badger-svc-634d24c8-813a-4039-90f4-62f9107269ea status=SUBSCRIBED
+[W] 06-04 23:18:40 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-04 23:19:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-04 23:20:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-04 23:21:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-04 23:22:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-04 23:25:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[I] 06-04 23:25:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-04 23:25:57 BadgerService: Keepalive scheduled in 900s
+[W] 06-04 23:25:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-04 23:25:57 BadgerService: startRealtimeSync: in backoff for 24s more — skipping
