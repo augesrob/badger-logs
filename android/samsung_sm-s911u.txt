@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-04 18:46:54 ===
+=== samsung SM-S911U | v126 | shipped 2026-06-04 19:10:57 ===
 [I] 06-04 04:40:48 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [E] 06-04 04:45:05 BadgerService: Realtime: 34 consecutive failures — cooling down 5 min
 [E] 06-04 04:45:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #34 in 300s)
@@ -399,3 +399,60 @@
 [W] 06-04 18:46:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-04 18:46:54 BadgerService: startRealtimeSync skipped -- already restarting
 [I] 06-04 18:46:54 BadgerService: Keepalive scheduled in 900s
+[I] 06-04 18:46:56 LogShipper: Shipped 400 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 06-04 18:48:38 BadgerApp: App started v126 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-04 18:48:38 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-04 18:48:38 MainActivity: BadgerService started (mic=true)
+[I] 06-04 18:48:38 AppUpdater: Checking via website (current=126)
+[W] 06-04 18:48:38 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-04 18:48:38 AuthManager: Session expired — trying HWID silent login
+[I] 06-04 18:48:38 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 06-04 18:48:38 BadgerService: Keepalive scheduled in 900s
+[I] 06-04 18:48:38 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-04 18:48:39 AuthManager: Sign in OK — felipe role=admin
+[I] 06-04 18:48:39 AuthManager: HWID silent login OK
+[I] 06-04 18:48:39 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 06-04 18:48:39 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 18:48:39 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 18:48:40 BadgerService: Realtime subscribed OK -- badger-svc-3445c540-2ac6-43c8-9e59-668587029a97 status=SUBSCRIBED
+[I] 06-04 18:48:40 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 18:48:57 Movement: Door 13A status → End Of Truck Tote
+[I] 06-04 18:48:57 BadgerRepo: updateDoorStatus OK â€” id=1 status=End Of Truck Tote
+[I] 06-04 18:49:00 Movement: Door 13A status → Loading
+[I] 06-04 18:49:00 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 06-04 18:55:35 AppUpdater: Checking via website (current=126)
+[I] 06-04 18:55:36 AppUpdater: Checking via GitHub direct (current=126)
+[W] 06-04 18:55:36 AppUpdater: GitHub direct check failed: Job was cancelled
+[W] 06-04 18:55:36 AppUpdater: Website check failed: Job was cancelled — trying GitHub direct
+[I] 06-04 18:55:36 AppUpdater: Checking via website (current=126)
+[I] 06-04 18:55:37 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 18:55:37 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 18:55:37 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 18:55:39 AppUpdater: Checking via website (current=126)
+[I] 06-04 18:55:39 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 18:55:39 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 18:55:39 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 18:55:57 BadgerService: Keepalive scheduled in 900s
+[I] 06-04 18:55:57 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-04 18:55:58 BadgerService: Realtime subscribed OK -- badger-svc-bc53f0fe-31d6-4353-bc7e-d6b951d2a787 status=SUBSCRIBED
+[I] 06-04 18:56:06 AppUpdater: Checking via website (current=126)
+[I] 06-04 18:56:06 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 18:56:06 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 18:56:07 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[W] 06-04 18:59:40 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-04 18:59:42 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-04 18:59:42 BadgerService: startRealtimeSync skipped -- already restarting
+[E] 06-04 19:00:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-04 19:00:41 BadgerService: Realtime subscribed OK -- badger-svc-e178c515-862d-446e-8fa0-46db2fbfe601 status=SUBSCRIBED
+[I] 06-04 19:06:22 AppUpdater: Checking via website (current=126)
+[I] 06-04 19:06:23 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 19:06:23 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 19:06:24 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 19:06:31 Movement: Truck 248-2 status → In Front
+[I] 06-04 19:06:31 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=4
+[I] 06-04 19:07:18 AppUpdater: Checking via website (current=126)
+[I] 06-04 19:07:20 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 19:07:20 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 19:07:20 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 19:10:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-04 19:10:57 BadgerService: Keepalive scheduled in 900s
