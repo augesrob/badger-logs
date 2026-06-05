@@ -1,25 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-04 20:25:57 ===
-[E] 06-04 05:48:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #45 in 300s)
-[E] 06-04 05:54:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #46 in 300s)
-[E] 06-04 05:54:19 BadgerService: Realtime: 46 consecutive failures — cooling down 5 min
-[I] 06-04 05:55:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-04 05:55:46 BadgerService: Keepalive scheduled in 900s
-[W] 06-04 05:55:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-04 05:55:46 BadgerService: startRealtimeSync: in backoff for 213s more — skipping
-[I] 06-04 05:55:47 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 06-04 06:00:05 BadgerService: Realtime: 47 consecutive failures — cooling down 5 min
-[E] 06-04 06:00:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #47 in 300s)
-[W] 06-04 06:02:06 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-04 06:02:06 BadgerService: startRealtimeSync: in backoff for 179s more — skipping
-[E] 06-04 06:05:51 BadgerService: Realtime: 48 consecutive failures — cooling down 5 min
-[E] 06-04 06:05:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #48 in 300s)
-[W] 06-04 06:09:51 BadgerService: startRealtimeSync: in backoff for 60s more — skipping
-[W] 06-04 06:09:51 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 06-04 06:10:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-04 06:10:46 BadgerService: Keepalive scheduled in 900s
-[W] 06-04 06:10:46 BadgerService: startRealtimeSync: in backoff for 5s more — skipping
-[W] 06-04 06:10:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 06-04 06:10:47 LogShipper: Shipped 341 log lines to badger-logs/android/samsung_sm-s911u.txt
+=== samsung SM-S911U | v126 | shipped 2026-06-04 20:40:57 ===
 [E] 06-04 06:11:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
 [E] 06-04 06:11:38 BadgerService: Realtime: 49 consecutive failures — cooling down 5 min
 [W] 06-04 06:12:09 BadgerService: startRealtimeSync: in backoff for 268s more — skipping
@@ -499,3 +478,24 @@
 [I] 06-04 20:21:24 AppUpdater: Up to date via GitHub (current=126 latest=126)
 [I] 06-04 20:25:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-04 20:25:57 BadgerService: Keepalive scheduled in 900s
+[I] 06-04 20:25:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 06-04 20:38:37 PTT: Incoming PTT message received
+[I] 06-04 20:38:47 AppUpdater: Checking via website (current=126)
+[I] 06-04 20:38:47 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 20:38:47 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 20:38:48 PTT: PTT recording STARTED
+[I] 06-04 20:38:48 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 20:38:50 PTT: PTT recording STOPPED
+[I] 06-04 20:38:50 PTT: PTT sent OK — 34560 bytes
+[I] 06-04 20:38:50 PTT: Incoming PTT message received
+[I] 06-04 20:38:53 PTT: PTT recording STARTED
+[I] 06-04 20:38:55 PTT: PTT recording STOPPED
+[I] 06-04 20:38:56 PTT: PTT sent OK — 39680 bytes
+[I] 06-04 20:38:56 PTT: Incoming PTT message received
+[W] 06-04 20:39:37 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-04 20:39:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-04 20:39:38 BadgerService: startRealtimeSync skipped -- already restarting
+[E] 06-04 20:40:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-04 20:40:37 BadgerService: Realtime subscribed OK -- badger-svc-b97ab035-026f-4118-b514-e022b1b5cbb7 status=SUBSCRIBED
+[I] 06-04 20:40:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-04 20:40:57 BadgerService: Keepalive scheduled in 900s
