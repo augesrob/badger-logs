@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-04 22:33:24 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-04 22:48:24 ===
 [I] 06-04 15:23:05 BadgerService: Keepalive scheduled in 900s
 [W] 06-04 15:23:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-04 15:23:05 BadgerService: startRealtimeSync skipped -- already restarting
@@ -383,3 +383,27 @@
 [I] 06-04 22:33:24 BadgerService: Keepalive scheduled in 900s
 [W] 06-04 22:33:24 BadgerService: startRealtimeSync: in backoff for 67s more — skipping
 [W] 06-04 22:33:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-04 22:33:26 LogShipper: Shipped 384 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-04 22:35:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 06-04 22:37:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 06-04 22:39:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[I] 06-04 22:41:18 AppUpdater: Checking via website (current=126)
+[I] 06-04 22:41:19 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 22:41:19 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 22:41:19 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[E] 06-04 22:41:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[I] 06-04 22:42:58 BadgerService: Realtime subscribed OK -- badger-svc-cc0f7c35-51ac-4814-96c1-35c3ed473c88 status=SUBSCRIBED
+[I] 06-04 22:46:24 AppUpdater: Checking via website (current=126)
+[I] 06-04 22:46:25 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 22:46:25 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 22:46:25 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 22:46:28 Movement: Door 13B status → End Of Truck Tote
+[I] 06-04 22:46:28 BadgerRepo: updateDoorStatus OK â€” id=2 status=End Of Truck Tote
+[I] 06-04 22:46:40 Movement: Truck 152 status → In Door
+[I] 06-04 22:46:40 BadgerRepo: updateMovementStatus OK â€” truck=152 statusId=1
+[I] 06-04 22:48:13 AppUpdater: Checking via website (current=126)
+[I] 06-04 22:48:13 AppUpdater: Checking via GitHub direct (current=126)
+[I] 06-04 22:48:13 AppUpdater: Up to date via website (current=126 latest=126)
+[I] 06-04 22:48:13 AppUpdater: Up to date via GitHub (current=126 latest=126)
+[I] 06-04 22:48:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-04 22:48:24 BadgerService: Keepalive scheduled in 900s
