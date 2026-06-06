@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-06 17:07:15 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-06 17:22:15 ===
 [I] 06-05 10:43:43 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 06-05 10:58:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 06-05 10:58:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -421,3 +421,11 @@
 [I] 06-06 16:52:16 LogShipper: Shipped 419 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 06-06 17:07:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-06 17:07:15 BadgerService: Keepalive scheduled in 900s
+[I] 06-06 17:07:17 LogShipper: Shipped 422 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-06 17:15:54 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-06 17:15:54 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[W] 06-06 17:15:56 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 06-06 17:16:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-06 17:16:54 BadgerService: Realtime subscribed OK -- badger-svc-5d4a371e-ef3d-4222-8888-f7b32f967631 status=SUBSCRIBED
+[I] 06-06 17:22:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-06 17:22:15 BadgerService: Keepalive scheduled in 900s
