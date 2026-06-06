@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-06 18:41:00 ===
+=== samsung SM-S911U | v126 | shipped 2026-06-06 18:56:00 ===
 [E] 06-06 08:31:43 BadgerService: Realtime: 322 consecutive failures — cooling down 5 min
 [E] 06-06 08:37:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #323 in 300s)
 [E] 06-06 08:37:29 BadgerService: Realtime: 323 consecutive failures — cooling down 5 min
@@ -422,3 +422,16 @@
 [E] 06-06 18:37:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #427 in 300s)
 [I] 06-06 18:41:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-06 18:41:00 BadgerService: Keepalive scheduled in 900s
+[W] 06-06 18:41:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-06 18:41:00 BadgerService: startRealtimeSync: in backoff for 106s more — skipping
+[I] 06-06 18:41:02 LogShipper: Shipped 423 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-06 18:43:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #428 in 300s)
+[E] 06-06 18:43:33 BadgerService: Realtime: 428 consecutive failures — cooling down 5 min
+[E] 06-06 18:49:19 BadgerService: Realtime: 429 consecutive failures — cooling down 5 min
+[E] 06-06 18:49:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #429 in 300s)
+[E] 06-06 18:55:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #430 in 300s)
+[E] 06-06 18:55:05 BadgerService: Realtime: 430 consecutive failures — cooling down 5 min
+[I] 06-06 18:56:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-06 18:56:00 BadgerService: Keepalive scheduled in 900s
+[W] 06-06 18:56:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-06 18:56:00 BadgerService: startRealtimeSync: in backoff for 245s more — skipping
