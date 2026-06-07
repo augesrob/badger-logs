@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-07 04:01:03 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-07 04:16:03 ===
 [I] 06-06 08:07:16 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 06-06 08:12:44 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [W] 06-06 08:13:09 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
@@ -409,3 +409,14 @@
 [I] 06-07 04:01:03 BadgerService: Keepalive scheduled in 900s
 [W] 06-07 04:01:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-07 04:01:03 BadgerService: startRealtimeSync: in backoff for 57s more — skipping
+[I] 06-07 04:01:05 LogShipper: Shipped 410 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-07 04:02:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #47 in 300s)
+[E] 06-07 04:02:47 BadgerService: Realtime: 47 consecutive failures — cooling down 5 min
+[E] 06-07 04:08:33 BadgerService: Realtime: 48 consecutive failures — cooling down 5 min
+[E] 06-07 04:08:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #48 in 300s)
+[E] 06-07 04:14:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
+[E] 06-07 04:14:19 BadgerService: Realtime: 49 consecutive failures — cooling down 5 min
+[I] 06-07 04:16:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-07 04:16:03 BadgerService: Keepalive scheduled in 900s
+[W] 06-07 04:16:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-07 04:16:03 BadgerService: startRealtimeSync: in backoff for 196s more — skipping
