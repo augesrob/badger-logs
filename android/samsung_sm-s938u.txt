@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-07 02:16:03 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-07 02:31:03 ===
 [I] 06-06 08:07:16 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 06-06 08:12:44 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [W] 06-06 08:13:09 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
@@ -336,3 +336,14 @@
 [I] 06-07 02:16:03 BadgerService: Keepalive scheduled in 900s
 [W] 06-07 02:16:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-07 02:16:03 BadgerService: startRealtimeSync: in backoff for 128s more — skipping
+[I] 06-07 02:16:05 LogShipper: Shipped 337 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-07 02:18:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #29 in 300s)
+[E] 06-07 02:18:58 BadgerService: Realtime: 29 consecutive failures — cooling down 5 min
+[E] 06-07 02:24:44 BadgerService: Realtime: 30 consecutive failures — cooling down 5 min
+[E] 06-07 02:24:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #30 in 300s)
+[E] 06-07 02:30:30 BadgerService: Realtime: 31 consecutive failures — cooling down 5 min
+[E] 06-07 02:30:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #31 in 300s)
+[I] 06-07 02:31:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 06-07 02:31:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-07 02:31:03 BadgerService: startRealtimeSync: in backoff for 266s more — skipping
+[I] 06-07 02:31:03 BadgerService: Keepalive scheduled in 900s
