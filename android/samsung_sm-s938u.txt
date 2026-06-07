@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v126 | shipped 2026-06-07 04:46:03 ===
+=== samsung SM-S938U | v126 | shipped 2026-06-07 05:01:03 ===
 [I] 06-06 08:07:16 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 06-06 08:12:44 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [W] 06-06 08:13:09 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
@@ -441,3 +441,15 @@
 [I] 06-07 04:46:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 06-07 04:46:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-07 04:46:03 BadgerService: startRealtimeSync: in backoff for 126s more — skipping
+[I] 06-07 04:46:05 LogShipper: Shipped 442 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-07 04:48:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #55 in 300s)
+[E] 06-07 04:48:56 BadgerService: Realtime: 55 consecutive failures — cooling down 5 min
+[E] 06-07 04:53:56 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 06-07 04:54:42 BadgerService: Realtime: 56 consecutive failures — cooling down 5 min
+[E] 06-07 04:54:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #56 in 300s)
+[E] 06-07 05:00:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #57 in 300s)
+[E] 06-07 05:00:28 BadgerService: Realtime: 57 consecutive failures — cooling down 5 min
+[I] 06-07 05:01:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-07 05:01:03 BadgerService: Keepalive scheduled in 900s
+[W] 06-07 05:01:03 BadgerService: startRealtimeSync: in backoff for 264s more — skipping
+[W] 06-07 05:01:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
