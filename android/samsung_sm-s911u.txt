@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v139 | shipped 2026-06-08 17:57:02 ===
+=== samsung SM-S911U | v139 | shipped 2026-06-08 18:12:02 ===
 [E] 06-06 20:56:18 BadgerService: Realtime: 451 consecutive failures — cooling down 5 min
 [E] 06-06 21:02:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #452 in 300s)
 [E] 06-06 21:02:04 BadgerService: Realtime: 452 consecutive failures — cooling down 5 min
@@ -341,3 +341,16 @@
 [I] 06-08 17:42:04 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 06-08 17:57:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-08 17:57:02 BadgerService: Keepalive scheduled in 900s
+[I] 06-08 17:57:03 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 06-08 17:59:58 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-08 18:00:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-08 18:01:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-08 18:02:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-08 18:04:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-08 18:06:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 06-08 18:08:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 06-08 18:10:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[I] 06-08 18:12:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-08 18:12:02 BadgerService: Keepalive scheduled in 900s
+[W] 06-08 18:12:02 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-08 18:12:02 BadgerService: startRealtimeSync skipped -- already restarting
