@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-08 12:11:48 ===
+=== samsung SM-S911U | v139 | shipped 2026-06-08 12:27:01 ===
 [E] 06-06 14:41:06 BadgerService: Realtime: 386 consecutive failures — cooling down 5 min
 [W] 06-06 14:41:10 BadgerService: startRealtimeSync: in backoff for 295s more — skipping
 [W] 06-06 14:41:10 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
@@ -389,3 +389,26 @@
 [I] 06-08 12:11:43 BadgerService: Keepalive scheduled in 2s
 [I] 06-08 12:11:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-08 12:11:48 BadgerService: Keepalive scheduled in 900s
+[I] 06-08 12:11:49 AppUpdater: Checking via website (current=126)
+[I] 06-08 12:11:50 LogShipper: Shipped 390 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 06-08 12:11:50 AppUpdater: Update found via website: access-v139
+[I] 06-08 12:11:52 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v139/badger-access-access-v139.apk
+[I] 06-08 12:11:55 AppUpdater: Downloaded 16325982 bytes
+[I] 06-08 12:12:01 BadgerApp: App started v139 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-08 12:12:01 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-08 12:12:01 MainActivity: BadgerService started (mic=true)
+[I] 06-08 12:12:01 AppUpdater: Checking via website (current=139)
+[W] 06-08 12:12:01 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-08 12:12:01 AuthManager: Session expired — trying HWID silent login
+[I] 06-08 12:12:01 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 06-08 12:12:01 BadgerService: Keepalive scheduled in 900s
+[I] 06-08 12:12:01 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-08 12:12:02 AppUpdater: Up to date via website (current=139 latest=139)
+[I] 06-08 12:12:02 AppUpdater: Checking via GitHub direct (current=139)
+[I] 06-08 12:12:02 AuthManager: Sign in OK — felipe role=admin
+[I] 06-08 12:12:02 AuthManager: HWID silent login OK
+[I] 06-08 12:12:02 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 06-08 12:12:02 AppUpdater: Up to date via GitHub (current=139 latest=139)
+[I] 06-08 12:12:03 BadgerService: Realtime subscribed OK -- badger-svc-66c4dd2a-01c0-4996-ae7a-2ed3c4f33c1f status=SUBSCRIBED
+[I] 06-08 12:27:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-08 12:27:01 BadgerService: Keepalive scheduled in 900s
