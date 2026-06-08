@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v126 | shipped 2026-06-06 23:26:00 ===
+=== samsung SM-S911U | v126 | shipped 2026-06-08 12:11:48 ===
 [E] 06-06 14:41:06 BadgerService: Realtime: 386 consecutive failures — cooling down 5 min
 [W] 06-06 14:41:10 BadgerService: startRealtimeSync: in backoff for 295s more — skipping
 [W] 06-06 14:41:10 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
@@ -362,3 +362,30 @@
 [I] 06-06 23:26:00 BadgerService: Keepalive scheduled in 900s
 [W] 06-06 23:26:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-06 23:26:00 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-06 23:26:02 LogShipper: Shipped 363 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-06 23:26:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #477 in 300s)
+[E] 06-06 23:26:22 BadgerService: Realtime: 477 consecutive failures — cooling down 5 min
+[E] 06-06 23:32:09 BadgerService: Realtime: 478 consecutive failures — cooling down 5 min
+[E] 06-06 23:32:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #478 in 300s)
+[I] 06-08 12:11:41 BadgerApp: App started v126 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-08 12:11:41 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-08 12:11:41 MainActivity: BadgerService started (mic=true)
+[I] 06-08 12:11:41 AppUpdater: Checking via website (current=126)
+[W] 06-08 12:11:41 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-08 12:11:41 AuthManager: Session expired — trying HWID silent login
+[I] 06-08 12:11:41 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 06-08 12:11:41 BadgerService: Keepalive scheduled in 900s
+[I] 06-08 12:11:41 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-08 12:11:43 AuthManager: HWID silent login OK
+[I] 06-08 12:11:43 AuthManager: Sign in OK — felipe role=admin
+[I] 06-08 12:11:43 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 06-08 12:11:43 AppUpdater: Update found via website: access-v139
+[I] 06-08 12:11:43 MainActivity: Auto-downloading access-v139
+[I] 06-08 12:11:43 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v139/badger-access-access-v139.apk
+[I] 06-08 12:11:43 BadgerService: Realtime subscribed OK -- badger-svc-986e9b1d-86dd-40d4-af6d-e55dd3fbf2a6 status=SUBSCRIBED
+[W] 06-08 12:11:43 AppUpdater: downloadAndInstall failed: Job was cancelled
+[E] 06-08 12:11:43 BadgerRepo: getLoadingDoors FAILED: The coroutine scope left the composition
+[W] 06-08 12:11:43 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-08 12:11:43 BadgerService: Keepalive scheduled in 2s
+[I] 06-08 12:11:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-08 12:11:48 BadgerService: Keepalive scheduled in 900s
