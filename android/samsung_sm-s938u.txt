@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v136 | shipped 2026-06-08 11:36:13 ===
+=== samsung SM-S938U | v139 | shipped 2026-06-08 11:43:05 ===
 [I] 06-08 06:29:31 AppUpdater: Checking via website (current=129)
 [I] 06-08 06:29:33 AppUpdater: Up to date via website (current=129 latest=129)
 [I] 06-08 06:29:33 AppUpdater: Checking via GitHub direct (current=129)
@@ -188,3 +188,54 @@
 [I] 06-08 11:36:13 BadgerService: Keepalive scheduled in 900s
 [W] 06-08 11:36:13 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-08 11:36:13 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-08 11:36:15 LogShipper: Shipped 189 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-08 11:36:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 06-08 11:38:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[I] 06-08 11:39:34 AppUpdater: Checking via website (current=136)
+[I] 06-08 11:39:34 AppUpdater: Up to date via website (current=136 latest=136)
+[I] 06-08 11:39:34 AppUpdater: Checking via GitHub direct (current=136)
+[I] 06-08 11:39:35 AppUpdater: Update found via GitHub: access-v139 (current=136)
+[I] 06-08 11:39:35 MainActivity: Auto-downloading access-v139
+[I] 06-08 11:39:35 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v139/badger-access-access-v139.apk
+[I] 06-08 11:39:36 AppUpdater: Downloaded 16325982 bytes
+[I] 06-08 11:39:37 AppUpdater: Checking via website (current=136)
+[I] 06-08 11:39:37 AppUpdater: Update found via website: access-v139
+[I] 06-08 11:39:38 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v139/badger-access-access-v139.apk
+[I] 06-08 11:39:38 AppUpdater: Downloaded 16325982 bytes
+[I] 06-08 11:39:44 BadgerService: Realtime subscribed OK -- badger-svc-5b009083-615d-4140-9773-372569b57672 status=SUBSCRIBED
+[I] 06-08 11:39:46 BadgerApp: App started v139 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-08 11:39:46 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-08 11:39:46 MainActivity: BadgerService started (mic=true)
+[I] 06-08 11:39:46 AppUpdater: Checking via website (current=139)
+[W] 06-08 11:39:46 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-08 11:39:46 AuthManager: Session expired — trying HWID silent login
+[I] 06-08 11:39:46 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 06-08 11:39:46 BadgerService: Keepalive scheduled in 900s
+[I] 06-08 11:39:46 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-08 11:39:46 AppUpdater: Up to date via website (current=139 latest=139)
+[I] 06-08 11:39:46 AppUpdater: Checking via GitHub direct (current=139)
+[I] 06-08 11:39:47 AuthManager: HWID silent login OK
+[I] 06-08 11:39:47 AuthManager: Sign in OK — augesrob role=admin
+[I] 06-08 11:39:47 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 06-08 11:39:47 AppUpdater: Up to date via GitHub (current=139 latest=139)
+[I] 06-08 11:39:48 BadgerService: Realtime subscribed OK -- badger-svc-12280e37-5d74-4eb9-879f-62582a3425c0 status=SUBSCRIBED
+[I] 06-08 11:39:49 Movement: Door 13A status → End Of Truck Tote
+[I] 06-08 11:39:49 BadgerRepo: updateDoorStatus OK â€” id=1 status=End Of Truck Tote
+[I] 06-08 11:40:06 Movement: Door 13A status → Loading
+[I] 06-08 11:40:06 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 06-08 11:42:45 AppUpdater: Checking via website (current=139)
+[I] 06-08 11:42:45 AppUpdater: Up to date via website (current=139 latest=139)
+[I] 06-08 11:42:45 AppUpdater: Checking via GitHub direct (current=139)
+[I] 06-08 11:42:46 AppUpdater: Up to date via GitHub (current=139 latest=139)
+[I] 06-08 11:42:47 Movement: Door 13A status → EOT+1
+[I] 06-08 11:42:47 BadgerRepo: updateDoorStatus OK â€” id=1 status=EOT+1
+[I] 06-08 11:42:52 Movement: Door 13A status → Loading
+[I] 06-08 11:42:52 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 06-08 11:42:58 AppUpdater: Checking via website (current=139)
+[I] 06-08 11:42:58 AppUpdater: Up to date via website (current=139 latest=139)
+[I] 06-08 11:42:58 AppUpdater: Checking via GitHub direct (current=139)
+[I] 06-08 11:42:58 AppUpdater: Up to date via GitHub (current=139 latest=139)
+[W] 06-08 11:43:00 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-08 11:43:00 BadgerService: Keepalive scheduled in 2s
+[I] 06-08 11:43:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-08 11:43:05 BadgerService: Keepalive scheduled in 900s
