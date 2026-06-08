@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v139 | shipped 2026-06-08 16:57:01 ===
+=== samsung SM-S911U | v139 | shipped 2026-06-08 17:12:02 ===
 [E] 06-06 20:56:18 BadgerService: Realtime: 451 consecutive failures — cooling down 5 min
 [E] 06-06 21:02:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #452 in 300s)
 [E] 06-06 21:02:04 BadgerService: Realtime: 452 consecutive failures — cooling down 5 min
@@ -317,3 +317,18 @@
 [I] 06-08 16:57:01 BadgerService: Keepalive scheduled in 900s
 [W] 06-08 16:57:01 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-08 16:57:01 BadgerService: startRealtimeSync: in backoff for 79s more — skipping
+[I] 06-08 16:57:03 LogShipper: Shipped 318 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-08 16:59:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #47 in 300s)
+[E] 06-08 16:59:07 BadgerService: Realtime: 47 consecutive failures — cooling down 5 min
+[I] 06-08 16:59:48 AppUpdater: Checking via website (current=139)
+[I] 06-08 16:59:49 AppUpdater: Checking via GitHub direct (current=139)
+[I] 06-08 16:59:49 AppUpdater: Up to date via website (current=139 latest=139)
+[I] 06-08 16:59:50 AppUpdater: Up to date via GitHub (current=139 latest=139)
+[I] 06-08 16:59:55 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
+[I] 06-08 17:00:02 AppUpdater: Checking via website (current=139)
+[I] 06-08 17:00:02 AppUpdater: Up to date via website (current=139 latest=139)
+[I] 06-08 17:00:02 AppUpdater: Checking via GitHub direct (current=139)
+[I] 06-08 17:00:03 AppUpdater: Up to date via GitHub (current=139 latest=139)
+[I] 06-08 17:04:09 BadgerService: Realtime subscribed OK -- badger-svc-a4255bd3-609c-43e0-be7c-cb2eef1b4ed9 status=SUBSCRIBED
+[I] 06-08 17:12:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-08 17:12:02 BadgerService: Keepalive scheduled in 900s
