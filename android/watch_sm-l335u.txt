@@ -1,4 +1,4 @@
-=== SM-L335U (Wear OS) | v1 | shipped 2026-06-09 17:46:07 ===
+=== SM-L335U (Wear OS) | v1 | shipped 2026-06-09 17:47:00 ===
 [I] 06-09 17:43:54 WearLogger: Initialized — device=wear-458321d23f0b583e model=Watch SM-L335U v1
 [I] 06-09 17:43:54 WearService: Service started v1
 [I] 06-09 17:43:56 WearService: TTS ready ✅
@@ -26,3 +26,30 @@ Http Method: POST
 [I] 06-09 17:45:04 WearService: TTS: Truck 187-1, In Door
 [I] 06-09 17:45:06 WearLogShipper: Shipped 25 lines to android/watch_sm-l335u.txt
 [I] 06-09 17:45:37 WearLogShipper: Shipped 26 lines to android/watch_sm-l335u.txt
+[I] 06-09 17:46:09 WearLogShipper: Shipped 27 lines to android/watch_sm-l335u.txt
+[I] 06-09 17:46:19 WearService: PTT recording started
+[I] 06-09 17:46:21 WearService: PTT recording stopped — uploading 7487 bytes
+[I] 06-09 17:46:21 WearService: PTT uploaded to ptt/1781045181341_watch.m4a
+[E] 06-09 17:46:22 WearService: PTT upload failed: Could not find the 'device_id' column of 'ptt_messages' in the schema cache
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/ptt_messages?columns=file_path%2Csource%2Cdevice_id
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Prefer=[return=minimal], Content-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: POST
+[W] 06-09 17:46:25 WearService: Realtime failed: StandaloneCoroutine was cancelled — retrying in 10s
+[I] 06-09 17:46:28 WearLogger: Initialized — device=wear-458321d23f0b583e model=Watch SM-L335U v1
+[I] 06-09 17:46:28 WearService: Service started v1
+[I] 06-09 17:46:28 WearService: TTS ready ✅
+[I] 06-09 17:46:29 WearService: Initial data loaded: 6 trucks, 6 doors
+[I] 06-09 17:46:29 WearUpdater: Checking for update (current v1)
+[I] 06-09 17:46:29 WearUpdater: Website: update found access-v152
+[I] 06-09 17:46:29 WearService: Update found: access-v152 — auto-downloading
+[I] 06-09 17:46:29 WearService: Update: Downloading access-v152...
+[I] 06-09 17:46:29 WearUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v152/badger-wear-access-v152.apk
+[I] 06-09 17:46:29 WearService: Realtime subscribed ✅
+[I] 06-09 17:46:30 WearUpdater: DownloadManager enqueued id=17
+[I] 06-09 17:46:34 WearService: PTT recording started
+[I] 06-09 17:46:36 WearService: PTT recording stopped — uploading 8008 bytes
+[I] 06-09 17:46:37 WearService: PTT uploaded to ptt/1781045196802_watch.m4a
+[E] 06-09 17:46:38 WearService: PTT upload failed: Could not find the 'device_id' column of 'ptt_messages' in the schema cache
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/ptt_messages?columns=file_path%2Csource%2Cdevice_id
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Prefer=[return=minimal], Content-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: POST
