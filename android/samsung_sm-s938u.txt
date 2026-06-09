@@ -1,5 +1,4 @@
-=== samsung SM-S938U | v149 | shipped 2026-06-09 17:27:33 ===
-[I] 06-08 22:31:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S938U | v152 | shipped 2026-06-09 17:50:59 ===
 [I] 06-08 22:31:36 BadgerService: Keepalive scheduled in 900s
 [I] 06-08 22:31:38 LogShipper: Shipped 316 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 06-08 22:38:30 AppUpdater: Checking via website (current=139)
@@ -429,3 +428,74 @@
 [I] 06-09 17:14:17 AppUpdater: Up to date via GitHub (current=149 latest=149)
 [I] 06-09 17:27:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-09 17:27:33 BadgerService: Keepalive scheduled in 900s
+[I] 06-09 17:27:35 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-09 17:33:02 AppUpdater: Checking via website (current=149)
+[I] 06-09 17:33:02 AppUpdater: Up to date via website (current=149 latest=149)
+[I] 06-09 17:33:02 AppUpdater: Checking via GitHub direct (current=149)
+[I] 06-09 17:33:03 AppUpdater: Update found via GitHub: access-v152 (current=149)
+[I] 06-09 17:33:03 MainActivity: Auto-downloading access-v152
+[I] 06-09 17:33:03 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v152/badger-access-access-v152.apk
+[I] 06-09 17:33:04 AppUpdater: Downloaded 16325982 bytes
+[I] 06-09 17:33:06 AppUpdater: Checking via website (current=149)
+[I] 06-09 17:33:06 AppUpdater: Update found via website: access-v152
+[I] 06-09 17:33:10 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":6,"printroomCreated":0,"movementAdded":6}
+[I] 06-09 17:35:44 AppUpdater: Checking via website (current=149)
+[I] 06-09 17:35:44 AppUpdater: Update found via website: access-v152
+[I] 06-09 17:35:46 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v152/badger-access-access-v152.apk
+[I] 06-09 17:35:47 AppUpdater: Downloaded 16325982 bytes
+[I] 06-09 17:35:59 BadgerApp: App started v152 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-09 17:35:59 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-09 17:35:59 MainActivity: BadgerService started (mic=true)
+[I] 06-09 17:35:59 AppUpdater: Checking via website (current=152)
+[W] 06-09 17:35:59 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-09 17:35:59 AuthManager: Session expired — trying HWID silent login
+[I] 06-09 17:35:59 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 06-09 17:35:59 BadgerService: Keepalive scheduled in 900s
+[I] 06-09 17:35:59 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-09 17:35:59 AppUpdater: Up to date via website (current=152 latest=152)
+[I] 06-09 17:35:59 AppUpdater: Checking via GitHub direct (current=152)
+[I] 06-09 17:36:00 AuthManager: HWID silent login OK
+[I] 06-09 17:36:00 AuthManager: Sign in OK — augesrob role=admin
+[I] 06-09 17:36:00 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 06-09 17:36:00 AppUpdater: Up to date via GitHub (current=152 latest=152)
+[I] 06-09 17:36:01 BadgerService: Realtime subscribed OK -- badger-svc-580900f3-fc26-4c71-89bf-61f78ad7d149 status=SUBSCRIBED
+[I] 06-09 17:44:21 AppUpdater: Checking via website (current=152)
+[I] 06-09 17:44:21 AppUpdater: Up to date via website (current=152 latest=152)
+[I] 06-09 17:44:21 AppUpdater: Checking via GitHub direct (current=152)
+[I] 06-09 17:44:22 AppUpdater: Up to date via GitHub (current=152 latest=152)
+[I] 06-09 17:44:23 PTT: PTT recording STARTED
+[I] 06-09 17:44:24 PTT: PTT recording STOPPED
+[I] 06-09 17:44:24 PTT: PTT sent OK — 20480 bytes
+[I] 06-09 17:44:25 PTT: Incoming PTT message received
+[I] 06-09 17:44:37 Movement: Truck 231-1 status → In Door
+[I] 06-09 17:44:39 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=1
+[I] 06-09 17:44:53 Movement: Truck 222-1 status → In Door
+[I] 06-09 17:44:53 BadgerRepo: updateMovementStatus OK â€” truck=222-1 statusId=1
+[I] 06-09 17:44:55 Movement: Truck 189-1 status → In Door
+[I] 06-09 17:44:55 BadgerRepo: updateMovementStatus OK â€” truck=189-1 statusId=1
+[I] 06-09 17:45:03 Movement: Truck 187-1 status → In Door
+[I] 06-09 17:45:03 BadgerRepo: updateMovementStatus OK â€” truck=187-1 statusId=1
+[I] 06-09 17:46:39 PTT: PTT recording STARTED
+[I] 06-09 17:46:39 PTT: PTT recording STOPPED
+[I] 06-09 17:46:39 PTT: PTT recording STARTED
+[I] 06-09 17:46:40 PTT: PTT recording STOPPED
+[I] 06-09 17:46:40 PTT: PTT sent OK — 7360 bytes
+[I] 06-09 17:46:40 PTT: PTT recording STARTED
+[I] 06-09 17:46:41 PTT: Incoming PTT message received
+[I] 06-09 17:46:42 PTT: PTT recording STOPPED
+[I] 06-09 17:46:42 PTT: PTT sent OK — 22080 bytes
+[I] 06-09 17:46:42 PTT: Incoming PTT message received
+[I] 06-09 17:46:46 PTT: PTT recording STARTED
+[I] 06-09 17:46:48 PTT: PTT recording STOPPED
+[I] 06-09 17:46:48 PTT: PTT sent OK — 23680 bytes
+[I] 06-09 17:46:48 PTT: Incoming PTT message received
+[I] 06-09 17:49:01 PTT: PTT recording STARTED
+[I] 06-09 17:49:02 PTT: PTT recording STOPPED
+[I] 06-09 17:49:02 PTT: PTT sent OK — 22720 bytes
+[I] 06-09 17:49:03 PTT: Incoming PTT message received
+[I] 06-09 17:49:52 AppUpdater: Checking via website (current=152)
+[I] 06-09 17:49:52 AppUpdater: Up to date via website (current=152 latest=152)
+[I] 06-09 17:49:52 AppUpdater: Checking via GitHub direct (current=152)
+[I] 06-09 17:49:53 AppUpdater: Up to date via GitHub (current=152 latest=152)
+[I] 06-09 17:50:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-09 17:50:59 BadgerService: Keepalive scheduled in 900s
