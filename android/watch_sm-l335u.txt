@@ -1,8 +1,4 @@
-=== SM-L335U (Wear OS) | v1 | shipped 2026-06-10 01:32:03 ===
-[I] 06-09 17:46:21 WearService: PTT recording stopped — uploading 7487 bytes
-[I] 06-09 17:46:21 WearService: PTT uploaded to ptt/1781045181341_watch.m4a
-[E] 06-09 17:46:22 WearService: PTT upload failed: Could not find the 'device_id' column of 'ptt_messages' in the schema cache
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/ptt_messages?columns=file_path%2Csource%2Cdevice_id
+=== SM-L335U (Wear OS) | v1 | shipped 2026-06-10 01:36:12 ===
 Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Prefer=[return=minimal], Content-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
 Http Method: POST
 [W] 06-09 17:46:25 WearService: Realtime failed: StandaloneCoroutine was cancelled — retrying in 10s
@@ -499,3 +495,7 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-10 01:29:49 WearService: TTS: Truck 230, In Front
 [I] 06-10 01:29:49 WearService: TTS: Truck 220, Yard
 [I] 06-10 01:31:59 WearService: TTS: Truck 230, In Door
+[I] 06-10 01:32:05 WearLogShipper: Shipped 500 lines to android/watch_sm-l335u.txt
+[I] 06-10 01:35:26 WearService: TTS: Door 15A, Loading
+[I] 06-10 01:35:26 WearService: TTS: Door 13B, Loading
+[I] 06-10 01:35:26 WearService: TTS: Door 15B, Move to Receiving
