@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v158 | shipped 2026-06-09 21:15:47 ===
+=== samsung SM-S938U | v158 | shipped 2026-06-09 21:30:47 ===
 [I] 06-09 08:47:38 AppUpdater: Update found via website: access-v145
 [I] 06-09 08:47:40 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v145/badger-access-access-v145.apk
 [I] 06-09 08:47:41 AppUpdater: Downloaded 16325982 bytes
@@ -410,3 +410,16 @@
 [I] 06-09 21:15:47 BadgerService: Keepalive scheduled in 900s
 [W] 06-09 21:15:47 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-09 21:15:47 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-09 21:15:48 LogShipper: Shipped 411 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-09 21:16:09 BadgerService: Realtime: 16 consecutive failures — cooling down 5 min
+[E] 06-09 21:16:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
+[E] 06-09 21:21:55 BadgerService: Realtime: 17 consecutive failures — cooling down 5 min
+[E] 06-09 21:21:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
+[I] 06-09 21:26:53 AppUpdater: Checking via website (current=158)
+[I] 06-09 21:26:54 AppUpdater: Up to date via website (current=158 latest=158)
+[I] 06-09 21:26:54 AppUpdater: Checking via GitHub direct (current=158)
+[I] 06-09 21:26:55 AppUpdater: Up to date via GitHub (current=158 latest=158)
+[I] 06-09 21:27:05 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
+[I] 06-09 21:27:18 BadgerService: Realtime subscribed OK -- badger-svc-4adbfd56-c61b-4dd0-a32a-b8aa27ff3cb2 status=SUBSCRIBED
+[I] 06-09 21:30:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-09 21:30:47 BadgerService: Keepalive scheduled in 900s
