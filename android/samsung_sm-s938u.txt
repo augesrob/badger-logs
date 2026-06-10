@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v158 | shipped 2026-06-09 19:25:47 ===
+=== samsung SM-S938U | v158 | shipped 2026-06-09 19:30:47 ===
 [I] 06-09 08:47:38 AppUpdater: Update found via website: access-v145
 [I] 06-09 08:47:40 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v145/badger-access-access-v145.apk
 [I] 06-09 08:47:41 AppUpdater: Downloaded 16325982 bytes
@@ -341,3 +341,22 @@
 [I] 06-09 19:23:46 PTT: Incoming PTT message received
 [I] 06-09 19:25:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-09 19:25:47 BadgerService: Keepalive scheduled in 900s
+[W] 06-09 19:25:47 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 06-09 19:25:49 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-09 19:26:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-09 19:27:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[I] 06-09 19:28:13 AppUpdater: Checking via website (current=158)
+[I] 06-09 19:28:13 AppUpdater: Up to date via website (current=158 latest=158)
+[I] 06-09 19:28:13 AppUpdater: Checking via GitHub direct (current=158)
+[I] 06-09 19:28:14 AppUpdater: Up to date via GitHub (current=158 latest=158)
+[E] 06-09 19:28:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-09 19:29:15 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[I] 06-09 19:29:17 BadgerService: Realtime subscribed OK -- badger-svc-b29c616f-0b77-4b33-b0d0-4765747ec16f status=SUBSCRIBED
+[I] 06-09 19:29:59 AppUpdater: Checking via website (current=158)
+[I] 06-09 19:29:59 AppUpdater: Up to date via website (current=158 latest=158)
+[I] 06-09 19:29:59 AppUpdater: Checking via GitHub direct (current=158)
+[I] 06-09 19:30:00 AppUpdater: Up to date via GitHub (current=158 latest=158)
+[W] 06-09 19:30:42 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-09 19:30:42 BadgerService: Keepalive scheduled in 2s
+[I] 06-09 19:30:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-09 19:30:47 BadgerService: Keepalive scheduled in 900s
