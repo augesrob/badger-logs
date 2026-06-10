@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v158 | shipped 2026-06-09 22:30:47 ===
-[I] 06-09 08:47:38 AppUpdater: Update found via website: access-v145
-[I] 06-09 08:47:40 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v145/badger-access-access-v145.apk
-[I] 06-09 08:47:41 AppUpdater: Downloaded 16325982 bytes
-[I] 06-09 08:47:56 BadgerApp: App started v145 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-09 08:47:56 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 06-09 08:47:56 MainActivity: BadgerService started (mic=true)
-[I] 06-09 08:47:56 AppUpdater: Checking via website (current=145)
-[W] 06-09 08:47:56 AuthManager: JWT refresh failed: No refresh token found in current session
+=== samsung SM-S938U | v158 | shipped 2026-06-09 22:45:47 ===
 [I] 06-09 08:47:56 AuthManager: Session expired — trying HWID silent login
 [I] 06-09 08:47:56 BadgerService: Keepalive scheduled in 900s
 [I] 06-09 08:47:56 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -491,3 +483,19 @@
 [I] 06-09 22:30:47 BadgerService: Keepalive scheduled in 900s
 [W] 06-09 22:30:47 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-09 22:30:47 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-09 22:30:49 LogShipper: Shipped 492 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-09 22:31:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-09 22:33:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 06-09 22:34:41 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 06-09 22:35:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 06-09 22:37:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 06-09 22:39:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 06-09 22:41:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[I] 06-09 22:43:58 AppUpdater: Checking via website (current=158)
+[I] 06-09 22:43:59 AppUpdater: Up to date via website (current=158 latest=158)
+[I] 06-09 22:43:59 AppUpdater: Checking via GitHub direct (current=158)
+[I] 06-09 22:44:00 AppUpdater: Up to date via GitHub (current=158 latest=158)
+[I] 06-09 22:45:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-09 22:45:47 BadgerService: Keepalive scheduled in 900s
+[W] 06-09 22:45:47 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-09 22:45:47 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
