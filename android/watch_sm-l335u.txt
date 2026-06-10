@@ -1,4 +1,4 @@
-=== SM-L335U (Wear OS) | v1 | shipped 2026-06-09 22:01:16 ===
+=== SM-L335U (Wear OS) | v1 | shipped 2026-06-09 22:02:24 ===
 [I] 06-09 17:43:54 WearLogger: Initialized — device=wear-458321d23f0b583e model=Watch SM-L335U v1
 [I] 06-09 17:43:54 WearService: Service started v1
 [I] 06-09 17:43:56 WearService: TTS ready ✅
@@ -367,3 +367,26 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-09 22:01:10 WearService: STATUS_CHANGE received
 [I] 06-09 22:01:10 WearService: Status changed: 186-2 -> 1
 [I] 06-09 22:01:11 WearService: TTS: Truck 186-2, In Door
+[I] 06-09 22:01:16 WearService: STATUS_CHANGE received
+[I] 06-09 22:01:16 WearService: Status changed: 186-2 -> 4
+[I] 06-09 22:01:17 WearService: TTS: Truck 186-2, In Front
+[I] 06-09 22:01:18 WearLogShipper: Shipped 368 lines to android/watch_sm-l335u.txt
+[I] 06-09 22:01:21 WearService: STATUS_CHANGE received
+[I] 06-09 22:01:21 WearService: Status changed: 187-2 -> 1
+[I] 06-09 22:01:22 WearService: TTS: Truck 187-2, In Door
+[I] 06-09 22:01:31 WearService: DOOR_CHANGE received
+[I] 06-09 22:01:31 WearService: Door changed: 2 -> Loading
+[I] 06-09 22:01:32 WearService: TTS: Door 13B, Loading
+[I] 06-09 22:01:39 WearService: TTS: Truck 220, Yard
+[W] 06-09 22:01:42 WearService: Realtime failed: StandaloneCoroutine was cancelled — retrying in 10s
+[I] 06-09 22:01:52 WearLogger: Initialized — device=wear-458321d23f0b583e model=Watch SM-L335U v1
+[I] 06-09 22:01:52 WearService: Service started v1
+[I] 06-09 22:01:52 WearService: TTS ready ✅
+[I] 06-09 22:01:53 WearService: Initial data loaded: 37 trucks, 6 doors
+[I] 06-09 22:01:53 WearUpdater: Checking for update (current v1)
+[I] 06-09 22:01:54 WearUpdater: Website: update found access-v158
+[I] 06-09 22:01:54 WearService: Update found: access-v158 — auto-downloading
+[I] 06-09 22:01:54 WearService: Update: Downloading access-v158...
+[I] 06-09 22:01:54 WearUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v158/badger-wear-access-v158.apk
+[I] 06-09 22:01:54 WearService: Realtime subscribed ✅
+[I] 06-09 22:01:54 WearUpdater: DownloadManager enqueued id=24
