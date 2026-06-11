@@ -1,33 +1,4 @@
-=== samsung SM-S938U | v158 | shipped 2026-06-10 21:22:06 ===
-[W] 06-10 07:41:22 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-10 07:41:22 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-10 07:49:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-10 07:49:57 BadgerService: Keepalive scheduled in 900s
-[W] 06-10 07:49:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-10 07:49:57 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-10 07:49:59 LogShipper: Shipped 429 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-10 08:04:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-10 08:04:57 BadgerService: Keepalive scheduled in 900s
-[W] 06-10 08:04:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-10 08:04:57 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-10 08:04:59 LogShipper: Shipped 434 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-10 08:19:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-10 08:19:57 BadgerService: Keepalive scheduled in 900s
-[W] 06-10 08:19:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-10 08:19:57 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-10 08:19:59 LogShipper: Shipped 439 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-10 08:34:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-10 08:34:57 BadgerService: Keepalive scheduled in 900s
-[W] 06-10 08:34:57 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-10 08:34:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 06-10 08:34:59 LogShipper: Shipped 444 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-10 08:49:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-10 08:49:57 BadgerService: Keepalive scheduled in 900s
-[W] 06-10 08:49:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-10 08:49:57 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-10 08:49:59 LogShipper: Shipped 449 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-10 09:04:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-10 09:04:57 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S938U | v158 | shipped 2026-06-10 21:37:06 ===
 [W] 06-10 09:04:57 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-10 09:04:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 06-10 09:04:59 LogShipper: Shipped 454 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -499,3 +470,32 @@
 [I] 06-10 21:22:06 BadgerService: Keepalive scheduled in 900s
 [W] 06-10 21:22:06 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-10 21:22:06 BadgerService: startRealtimeSync: in backoff for 36s more — skipping
+[I] 06-10 21:22:07 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-10 21:23:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 06-10 21:25:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[I] 06-10 21:26:46 AppUpdater: Checking via website (current=158)
+[I] 06-10 21:26:46 AppUpdater: Up to date via website (current=158 latest=158)
+[I] 06-10 21:26:46 AppUpdater: Checking via GitHub direct (current=158)
+[I] 06-10 21:26:47 AppUpdater: Up to date via GitHub (current=158 latest=158)
+[I] 06-10 21:26:50 Movement: Door 13A status → Change Truck/Trailer
+[I] 06-10 21:26:50 BadgerRepo: updateDoorStatus OK â€” id=1 status=Change Truck/Trailer
+[I] 06-10 21:26:52 Movement: Truck 187-1 status → On Route
+[I] 06-10 21:26:53 BadgerRepo: updateMovementStatus OK â€” truck=187-1 statusId=3
+[I] 06-10 21:26:55 Movement: Truck 231-2 status → In Door
+[I] 06-10 21:26:55 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=1
+[I] 06-10 21:26:56 BadgerService: Realtime subscribed OK -- badger-svc-671b2da7-d4c7-4fa6-b02f-861a1088263b status=SUBSCRIBED
+[I] 06-10 21:28:29 Movement: Door 13A status → Loading
+[I] 06-10 21:28:29 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
+[I] 06-10 21:29:41 AppUpdater: Checking via website (current=158)
+[I] 06-10 21:29:41 AppUpdater: Checking via GitHub direct (current=158)
+[I] 06-10 21:29:41 AppUpdater: Up to date via website (current=158 latest=158)
+[I] 06-10 21:29:41 AppUpdater: Up to date via GitHub (current=158 latest=158)
+[I] 06-10 21:33:03 AppUpdater: Checking via website (current=158)
+[I] 06-10 21:33:04 AppUpdater: Up to date via website (current=158 latest=158)
+[I] 06-10 21:33:04 AppUpdater: Checking via GitHub direct (current=158)
+[I] 06-10 21:33:04 AppUpdater: Up to date via GitHub (current=158 latest=158)
+[I] 06-10 21:33:10 Movement: Door 15A status → Change Truck/Trailer
+[I] 06-10 21:33:10 BadgerRepo: updateDoorStatus OK â€” id=5 status=Change Truck/Trailer
+[I] 06-10 21:33:18 Movement: Truck 222-1 status → On Route
+[I] 06-10 21:33:18 BadgerRepo: updateMovementStatus OK â€” truck=222-1 statusId=3
+[I] 06-10 21:37:06 BadgerService: Keepalive alarm fired -- service alive, rescheduling
