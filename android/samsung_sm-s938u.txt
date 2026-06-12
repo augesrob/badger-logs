@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-12 06:49:26 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-12 07:04:26 ===
 [I] 06-11 21:19:09 BadgerRepo: updateDoorStatus OK â€” id=5 status=Loading
 [I] 06-11 21:24:56 AppUpdater: Checking via website (current=162)
 [I] 06-11 21:24:56 AppUpdater: Up to date via website (current=162 latest=162)
@@ -401,3 +401,17 @@
 [I] 06-12 06:49:26 BadgerService: Keepalive scheduled in 900s
 [W] 06-12 06:49:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-12 06:49:26 BadgerService: startRealtimeSync: in backoff for 14s more — skipping
+[I] 06-12 06:49:28 LogShipper: Shipped 402 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-12 06:50:27 BadgerService: Realtime: 54 consecutive failures — cooling down 5 min
+[E] 06-12 06:50:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #54 in 300s)
+[I] 06-12 07:04:26 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-12 07:04:26 BadgerApp: App started v162 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 06-12 07:04:26 BadgerService: FGS microphone blocked — starting without mic FGS type
+[W] 06-12 07:04:26 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-12 07:04:26 AuthManager: Session expired — trying HWID silent login
+[I] 06-12 07:04:26 BadgerService: Keepalive scheduled in 900s
+[I] 06-12 07:04:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-12 07:04:26 BadgerService: Keepalive scheduled in 900s
+[W] 06-12 07:04:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-12 07:04:26 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-12 07:04:26 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
