@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-11 19:04:35 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-11 19:19:35 ===
 [I] 06-11 18:48:03 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 06-11 18:48:03 BadgerApp: App started v162 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-11 18:48:03 MainActivity: BadgerService started (mic=false)
@@ -54,3 +54,32 @@
 [I] 06-11 19:02:39 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-11 19:04:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-11 19:04:35 BadgerService: Keepalive scheduled in 900s
+[I] 06-11 19:04:36 LogShipper: Shipped 55 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 06-11 19:05:07 Movement: Truck 231-2 status → Trailer Area - connected
+[I] 06-11 19:05:07 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=36
+[W] 06-11 19:07:45 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-11 19:07:47 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-11 19:07:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 06-11 19:08:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-11 19:08:45 BadgerService: Realtime subscribed OK -- badger-svc-e83e551f-1486-4ef6-a0eb-5004d65c9a74 status=SUBSCRIBED
+[I] 06-11 19:10:34 AppUpdater: Checking via website (current=162)
+[I] 06-11 19:10:34 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-11 19:10:34 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-11 19:10:35 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-11 19:10:39 Movement: Truck 224-1 status → In Front
+[I] 06-11 19:10:39 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=4
+[I] 06-11 19:12:49 Movement: Truck 223-2 status → In Front
+[I] 06-11 19:12:49 BadgerRepo: updateMovementStatus OK â€” truck=223-2 statusId=4
+[W] 06-11 19:15:04 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-11 19:15:07 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-11 19:15:07 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-11 19:15:21 AppUpdater: Checking via website (current=162)
+[I] 06-11 19:15:21 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-11 19:15:21 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-11 19:15:22 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-11 19:15:25 Movement: Truck 187-2 status → In Front
+[I] 06-11 19:15:25 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=4
+[E] 06-11 19:15:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-11 19:16:04 BadgerService: Realtime subscribed OK -- badger-svc-0ee2cb23-ca52-4c89-be5d-1b67cc0fb759 status=SUBSCRIBED
+[I] 06-11 19:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-11 19:19:35 BadgerService: Keepalive scheduled in 900s
