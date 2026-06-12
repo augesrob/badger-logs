@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-11 22:04:35 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-11 22:34:35 ===
 [I] 06-11 18:48:03 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 06-11 18:48:03 BadgerApp: App started v162 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-11 18:48:03 MainActivity: BadgerService started (mic=false)
@@ -220,3 +220,32 @@
 [I] 06-11 22:03:08 Movement: Truck 161 status → Ready
 [I] 06-11 22:03:09 BadgerRepo: updateMovementStatus OK â€” truck=161 statusId=5
 [I] 06-11 22:04:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-11 22:04:35 BadgerService: Keepalive scheduled in 900s
+[I] 06-11 22:04:36 LogShipper: Shipped 221 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 06-11 22:07:48 AppUpdater: Checking via website (current=162)
+[I] 06-11 22:07:48 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-11 22:07:48 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-11 22:07:48 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-11 22:09:22 PreShift: Truck 158 staged at door 26A back
+[W] 06-11 22:09:22 PreShift: Duplicate truck 158 force-staged (override) — Truck 158 is already in the other slot of door 26A.
+[I] 06-11 22:09:27 PreShift: Truck 148 staged at door 26A front
+[W] 06-11 22:09:27 PreShift: Duplicate truck 148 force-staged (override) — Truck 148 is already in the other slot of door 26A.
+[I] 06-11 22:09:40 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
+[I] 06-11 22:11:10 Movement: Truck 148 status → Ready
+[I] 06-11 22:11:10 BadgerRepo: updateMovementStatus OK â€” truck=148 statusId=5
+[I] 06-11 22:12:48 AppUpdater: Checking via website (current=162)
+[I] 06-11 22:12:48 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-11 22:12:48 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-11 22:12:49 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-11 22:14:13 AppUpdater: Checking via website (current=162)
+[I] 06-11 22:14:13 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-11 22:14:13 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-11 22:14:14 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-11 22:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-11 22:19:35 BadgerService: Keepalive scheduled in 900s
+[E] 06-11 22:19:55 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 06-11 22:19:59 LogShipper: Ship failed HTTP 400: {"message": "We received a malformed request from your client. Sorry about that. Please try resubmitting your request an
+[W] 06-11 22:26:09 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 06-11 22:26:13 BadgerService: Realtime subscribed OK -- badger-svc-6a55b4c7-d5a8-4c4a-9d8f-3b18d2803905 status=SUBSCRIBED
+[I] 06-11 22:34:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-11 22:34:35 BadgerService: Keepalive scheduled in 900s
