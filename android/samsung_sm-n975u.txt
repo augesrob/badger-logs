@@ -1,66 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-12 03:04:35 ===
-[W] 06-11 19:07:47 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-11 19:07:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-11 19:08:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
-[I] 06-11 19:08:45 BadgerService: Realtime subscribed OK -- badger-svc-e83e551f-1486-4ef6-a0eb-5004d65c9a74 status=SUBSCRIBED
-[I] 06-11 19:10:34 AppUpdater: Checking via website (current=162)
-[I] 06-11 19:10:34 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-11 19:10:34 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-11 19:10:35 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-11 19:10:39 Movement: Truck 224-1 status → In Front
-[I] 06-11 19:10:39 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=4
-[I] 06-11 19:12:49 Movement: Truck 223-2 status → In Front
-[I] 06-11 19:12:49 BadgerRepo: updateMovementStatus OK â€” truck=223-2 statusId=4
-[W] 06-11 19:15:04 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
-[W] 06-11 19:15:07 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-11 19:15:07 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-11 19:15:21 AppUpdater: Checking via website (current=162)
-[I] 06-11 19:15:21 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-11 19:15:21 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-11 19:15:22 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-11 19:15:25 Movement: Truck 187-2 status → In Front
-[I] 06-11 19:15:25 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=4
-[E] 06-11 19:15:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
-[I] 06-11 19:16:04 BadgerService: Realtime subscribed OK -- badger-svc-0ee2cb23-ca52-4c89-be5d-1b67cc0fb759 status=SUBSCRIBED
-[I] 06-11 19:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-11 19:19:35 BadgerService: Keepalive scheduled in 900s
-[I] 06-11 19:19:38 LogShipper: Shipped 84 log lines to badger-logs/android/samsung_sm-n975u.txt
-[E] 06-11 19:25:30 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 06-11 19:25:55 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 06-11 19:26:06 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 06-11 19:26:06 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 06-11 19:26:26 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 06-11 19:26:26 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
-[I] 06-11 19:27:08 BadgerService: Realtime subscribed OK -- badger-svc-24d3403c-1519-48e8-a279-d5001af6fddc status=SUBSCRIBED
-[I] 06-11 19:34:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-11 19:34:35 BadgerService: Keepalive scheduled in 900s
-[I] 06-11 19:34:36 LogShipper: Shipped 94 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-11 19:41:56 AppUpdater: Checking via website (current=162)
-[I] 06-11 19:41:57 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-11 19:41:57 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-11 19:41:57 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-11 19:42:28 AppUpdater: Checking via website (current=162)
-[I] 06-11 19:42:28 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-11 19:42:28 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-11 19:42:29 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[W] 06-11 19:42:50 PreShift: Duplicate truck 242 force-staged (override) — Truck 242 is already assigned in the Print Room.
-[I] 06-11 19:42:50 PreShift: Truck 242 staged at door 21A front
-[I] 06-11 19:44:50 BadgerRepo: importRoutes: 200  {"ok":true,"updated":32,"total":36,"fresh":true,"csvAge":"2026-06-12T00:44:50.001+00:00"}
-[I] 06-11 19:45:08 BadgerRepo: importRoutes: 200  {"ok":true,"updated":35,"total":36,"fresh":true,"csvAge":"2026-06-12T00:45:08.268+00:00"}
-[I] 06-11 19:45:26 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
-[I] 06-11 19:49:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-11 19:49:35 BadgerService: Keepalive scheduled in 900s
-[I] 06-11 19:49:36 LogShipper: Shipped 110 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-11 19:50:30 AppUpdater: Checking via website (current=162)
-[I] 06-11 19:50:31 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-11 19:50:31 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-11 19:50:32 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-11 20:04:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-11 20:04:35 BadgerService: Keepalive scheduled in 900s
-[I] 06-11 20:04:36 LogShipper: Shipped 117 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-11 20:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-11 20:19:35 BadgerService: Keepalive scheduled in 900s
-[I] 06-11 20:19:36 LogShipper: Shipped 120 log lines to badger-logs/android/samsung_sm-n975u.txt
+=== samsung SM-N975U | v162 | shipped 2026-06-12 03:19:35 ===
 [I] 06-11 20:34:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-11 20:34:35 BadgerService: Keepalive scheduled in 900s
 [I] 06-11 20:34:36 LogShipper: Shipped 123 log lines to badger-logs/android/samsung_sm-n975u.txt
@@ -499,3 +437,65 @@
 [I] 06-12 02:49:37 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
 [I] 06-12 03:04:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-12 03:04:35 BadgerService: Keepalive scheduled in 900s
+[I] 06-12 03:04:37 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-12 03:06:19 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-12 03:06:19 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 06-12 03:07:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-12 03:08:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-12 03:09:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-12 03:10:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-12 03:12:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 06-12 03:14:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 06-12 03:16:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[I] 06-12 03:17:09 AppUpdater: Checking via website (current=162)
+[I] 06-12 03:17:10 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-12 03:17:10 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-12 03:17:11 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-12 03:17:13 Movement: Door 13B status → Loading
+[I] 06-12 03:17:13 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
+[I] 06-12 03:17:17 Movement: Truck 216 status → In Door
+[I] 06-12 03:17:17 BadgerRepo: updateMovementStatus OK â€” truck=216 statusId=1
+[I] 06-12 03:17:21 Movement: Truck 213 status → Put Away
+[I] 06-12 03:17:21 BadgerRepo: updateMovementStatus OK â€” truck=213 statusId=2
+[I] 06-12 03:17:23 Movement: Truck 160 status → Put Away
+[I] 06-12 03:17:23 BadgerRepo: updateMovementStatus OK â€” truck=160 statusId=2
+[I] 06-12 03:17:26 Movement: Truck 244 status → Put Away
+[I] 06-12 03:17:26 BadgerRepo: updateMovementStatus OK â€” truck=244 statusId=2
+[I] 06-12 03:17:28 Movement: Truck 242 status → In Door
+[I] 06-12 03:17:28 BadgerRepo: updateMovementStatus OK â€” truck=242 statusId=1
+[I] 06-12 03:17:32 Movement: Truck 194 status → Put Away
+[I] 06-12 03:17:32 BadgerRepo: updateMovementStatus OK â€” truck=194 statusId=2
+[I] 06-12 03:17:34 Movement: Truck 228 status → In Door
+[I] 06-12 03:17:34 BadgerRepo: updateMovementStatus OK â€” truck=228 statusId=1
+[I] 06-12 03:17:37 Movement: Truck 245 status → In Door
+[I] 06-12 03:17:37 BadgerRepo: updateMovementStatus OK â€” truck=245 statusId=1
+[I] 06-12 03:17:39 Movement: Truck 238 status → Put Away
+[I] 06-12 03:17:39 BadgerRepo: updateMovementStatus OK â€” truck=238 statusId=2
+[I] 06-12 03:17:43 Movement: Truck 199 status → Put Away
+[I] 06-12 03:17:43 BadgerRepo: updateMovementStatus OK â€” truck=199 statusId=2
+[I] 06-12 03:17:45 Movement: Truck 141 status → In Door
+[I] 06-12 03:17:45 BadgerRepo: updateMovementStatus OK â€” truck=141 statusId=1
+[I] 06-12 03:17:50 Movement: Truck 192 status → In Door
+[I] 06-12 03:17:50 BadgerRepo: updateMovementStatus OK â€” truck=192 statusId=1
+[I] 06-12 03:17:52 Movement: Truck 159 status → Put Away
+[I] 06-12 03:17:52 BadgerRepo: updateMovementStatus OK â€” truck=159 statusId=2
+[I] 06-12 03:17:57 Movement: Door 13A status → Done for Night
+[I] 06-12 03:17:58 BadgerRepo: updateDoorStatus OK â€” id=1 status=Done for Night
+[I] 06-12 03:18:01 Movement: Door 13B status → Done for Night
+[I] 06-12 03:18:01 BadgerRepo: updateDoorStatus OK â€” id=2 status=Done for Night
+[I] 06-12 03:18:05 Movement: Door 14A status → Done for Night
+[I] 06-12 03:18:05 BadgerRepo: updateDoorStatus OK â€” id=3 status=Done for Night
+[I] 06-12 03:18:09 Movement: Door 14B status → Done for Night
+[I] 06-12 03:18:09 BadgerRepo: updateDoorStatus OK â€” id=4 status=Done for Night
+[I] 06-12 03:18:12 Movement: Door 15A status → Done for Night
+[I] 06-12 03:18:12 BadgerRepo: updateDoorStatus OK â€” id=5 status=Done for Night
+[I] 06-12 03:18:14 BadgerService: Realtime subscribed OK -- badger-svc-8e770704-b4de-4292-9ed1-f2c8aa8ba1de status=SUBSCRIBED
+[I] 06-12 03:18:16 Movement: Door 15B status → Done for Night
+[I] 06-12 03:18:16 BadgerRepo: updateDoorStatus OK â€” id=6 status=Done for Night
+[I] 06-12 03:18:21 TTS: TTS DISABLED
+[I] 06-12 03:18:46 AppUpdater: Checking via website (current=162)
+[I] 06-12 03:18:47 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-12 03:18:47 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-12 03:18:48 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-12 03:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-12 03:19:35 BadgerService: Keepalive scheduled in 900s
