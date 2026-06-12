@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-11 22:34:35 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-11 22:49:35 ===
 [I] 06-11 18:48:03 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 06-11 18:48:03 BadgerApp: App started v162 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-11 18:48:03 MainActivity: BadgerService started (mic=false)
@@ -249,3 +249,19 @@
 [I] 06-11 22:26:13 BadgerService: Realtime subscribed OK -- badger-svc-6a55b4c7-d5a8-4c4a-9d8f-3b18d2803905 status=SUBSCRIBED
 [I] 06-11 22:34:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-11 22:34:35 BadgerService: Keepalive scheduled in 900s
+[I] 06-11 22:34:37 LogShipper: Shipped 250 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-11 22:38:00 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-11 22:38:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-11 22:39:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-11 22:40:03 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 06-11 22:40:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-11 22:42:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-11 22:43:35 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[I] 06-11 22:43:58 AppUpdater: Checking via website (current=162)
+[I] 06-11 22:43:59 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-11 22:43:59 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-11 22:44:00 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[E] 06-11 22:44:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[I] 06-11 22:45:43 BadgerService: Realtime subscribed OK -- badger-svc-5ee6aad4-122e-4562-89c0-b2a9d802c385 status=SUBSCRIBED
+[I] 06-11 22:49:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-11 22:49:35 BadgerService: Keepalive scheduled in 900s
