@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-12 17:34:27 ===
-[I] 06-11 21:47:20 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=3
-[I] 06-11 21:47:22 Movement: Truck 223-2 status → In Door
-[I] 06-11 21:47:22 BadgerRepo: updateMovementStatus OK â€” truck=223-2 statusId=1
-[I] 06-11 21:49:12 AppUpdater: Checking via website (current=162)
-[I] 06-11 21:49:12 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-11 21:49:12 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-11 21:49:13 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-11 21:49:14 Movement: Door 14A status → Loading
+=== samsung SM-S938U | v162 | shipped 2026-06-12 17:49:27 ===
 [I] 06-11 21:49:14 BadgerRepo: updateDoorStatus OK â€” id=3 status=Loading
 [I] 06-11 21:49:17 Movement: Truck 224-2 status → In Door
 [I] 06-11 21:49:17 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=1
@@ -499,3 +491,11 @@
 [I] 06-12 17:19:29 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 06-12 17:34:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-12 17:34:27 BadgerService: Keepalive scheduled in 900s
+[I] 06-12 17:34:29 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-12 17:35:34 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-12 17:35:34 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 06-12 17:35:44 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 06-12 17:35:44 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 06-12 17:35:56 BadgerService: Realtime subscribed OK -- badger-svc-d9e20628-208f-471e-be4c-5a0e1ef0123e status=SUBSCRIBED
+[I] 06-12 17:49:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-12 17:49:27 BadgerService: Keepalive scheduled in 900s
