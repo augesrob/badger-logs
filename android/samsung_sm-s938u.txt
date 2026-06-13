@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-13 18:31:09 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-13 18:46:09 ===
 [W] 06-12 04:13:47 BadgerService: startRealtimeSync: in backoff for 11s more — skipping
 [I] 06-12 04:13:47 BadgerService: Keepalive scheduled in 900s
 [I] 06-12 04:13:48 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -398,3 +398,17 @@
 [I] 06-13 18:31:09 BadgerService: Keepalive scheduled in 900s
 [W] 06-13 18:31:09 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-13 18:31:09 BadgerService: startRealtimeSync: in backoff for 22s more — skipping
+[I] 06-13 18:31:10 LogShipper: Shipped 399 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-13 18:32:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[W] 06-13 18:33:58 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-13 18:33:58 BadgerService: startRealtimeSync skipped -- already restarting
+[E] 06-13 18:34:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 06-13 18:36:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 06-13 18:38:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 06-13 18:40:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 06-13 18:42:47 BadgerService: Realtime: 11 consecutive failures — cooling down 5 min
+[E] 06-13 18:42:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[I] 06-13 18:46:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-13 18:46:09 BadgerService: Keepalive scheduled in 900s
+[W] 06-13 18:46:09 BadgerService: startRealtimeSync: in backoff for 98s more — skipping
+[W] 06-13 18:46:09 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
