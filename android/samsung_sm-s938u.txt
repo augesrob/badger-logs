@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-13 17:53:39 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-13 18:01:09 ===
 [W] 06-12 04:13:47 BadgerService: startRealtimeSync: in backoff for 11s more — skipping
 [I] 06-12 04:13:47 BadgerService: Keepalive scheduled in 900s
 [I] 06-12 04:13:48 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -375,3 +375,12 @@
 [I] 06-13 17:52:00 BadgerService: Realtime subscribed OK -- badger-svc-64d2041a-327f-4ba2-94e3-cd34e27b5075 status=SUBSCRIBED
 [I] 06-13 17:53:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-13 17:53:39 BadgerService: Keepalive scheduled in 900s
+[I] 06-13 17:53:40 LogShipper: Shipped 376 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-13 17:59:06 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 06-13 17:59:07 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 06-13 17:59:07 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[I] 06-13 17:59:19 BadgerService: Realtime subscribed OK -- badger-svc-ef794fee-aee6-4907-b026-f3a7ec465a57 status=SUBSCRIBED
+[W] 06-13 18:01:04 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-13 18:01:04 BadgerService: Keepalive scheduled in 2s
+[I] 06-13 18:01:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-13 18:01:09 BadgerService: Keepalive scheduled in 900s
