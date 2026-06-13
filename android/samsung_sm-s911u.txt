@@ -1,11 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-13 05:54:17 ===
-[I] 06-12 17:54:18 LogShipper: Shipped 269 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 06-12 17:56:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #244 in 300s)
-[E] 06-12 17:56:47 BadgerService: Realtime: 244 consecutive failures — cooling down 5 min
-[E] 06-12 18:02:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #245 in 300s)
-[E] 06-12 18:02:34 BadgerService: Realtime: 245 consecutive failures — cooling down 5 min
-[E] 06-12 18:08:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #246 in 300s)
-[E] 06-12 18:08:20 BadgerService: Realtime: 246 consecutive failures — cooling down 5 min
+=== samsung SM-S911U | v162 | shipped 2026-06-13 06:09:17 ===
 [I] 06-12 18:09:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-12 18:09:16 BadgerService: Keepalive scheduled in 900s
 [W] 06-12 18:09:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -499,3 +492,10 @@
 [I] 06-13 05:54:17 BadgerService: Keepalive scheduled in 900s
 [W] 06-13 05:54:17 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-13 05:54:17 BadgerService: startRealtimeSync: in backoff for 191s more — skipping
+[I] 06-13 05:54:18 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-13 05:58:15 BadgerService: Realtime: 369 consecutive failures — cooling down 5 min
+[E] 06-13 05:58:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #369 in 300s)
+[E] 06-13 06:03:15 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 06-13 06:04:01 BadgerService: Realtime: 370 consecutive failures — cooling down 5 min
+[E] 06-13 06:04:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #370 in 300s)
+[I] 06-13 06:09:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
