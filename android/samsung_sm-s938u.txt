@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-14 11:46:09 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-14 12:01:09 ===
 [E] 06-14 02:19:08 BadgerService: Realtime: 90 consecutive failures — cooling down 5 min
 [E] 06-14 02:24:54 BadgerService: Realtime: 91 consecutive failures — cooling down 5 min
 [E] 06-14 02:24:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #91 in 300s)
@@ -400,3 +400,13 @@
 [I] 06-14 11:46:09 BadgerService: Keepalive scheduled in 900s
 [W] 06-14 11:46:09 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-14 11:46:09 BadgerService: startRealtimeSync: in backoff for 204s more — skipping
+[I] 06-14 11:46:11 LogShipper: Shipped 401 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-14 11:50:20 BadgerService: Realtime: 189 consecutive failures — cooling down 5 min
+[E] 06-14 11:50:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #189 in 300s)
+[E] 06-14 11:55:31 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #190 in 300s)
+[E] 06-14 11:55:31 BadgerService: Realtime: 190 consecutive failures — cooling down 5 min
+[E] 06-14 11:55:31 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 06-14 12:01:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-14 12:01:09 BadgerService: Keepalive scheduled in 900s
+[W] 06-14 12:01:09 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-14 12:01:09 BadgerService: startRealtimeSync skipped -- already restarting
