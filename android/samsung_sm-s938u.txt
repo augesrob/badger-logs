@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-15 17:13:35 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-15 17:28:35 ===
 [E] 06-14 21:37:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #291 in 300s)
 [E] 06-14 21:42:46 BadgerService: Realtime: 292 consecutive failures — cooling down 5 min
 [E] 06-14 21:42:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #292 in 300s)
@@ -379,3 +379,12 @@
 [I] 06-15 17:13:35 BadgerService: Keepalive scheduled in 900s
 [W] 06-15 17:13:35 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-15 17:13:35 BadgerService: startRealtimeSync: in backoff for 16s more — skipping
+[I] 06-15 17:13:36 LogShipper: Shipped 380 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-15 17:13:53 BadgerService: Realtime subscribed OK -- badger-svc-1f1c282d-fbb9-4ee9-88da-d7aac94db65b status=SUBSCRIBED
+[I] 06-15 17:28:08 AppUpdater: Checking via website (current=162)
+[I] 06-15 17:28:09 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 17:28:09 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 17:28:09 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 17:28:17 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":6,"printroomCreated":0,"movementAdded":6}
+[I] 06-15 17:28:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-15 17:28:35 BadgerService: Keepalive scheduled in 900s
