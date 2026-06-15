@@ -1,37 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-15 18:11:20 ===
-[I] 06-12 00:07:31 Movement: Truck 231-2 status → 10
-[I] 06-12 00:07:31 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=13
-[I] 06-12 00:07:37 Movement: Door 13B status → Loading
-[I] 06-12 00:07:37 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
-[I] 06-12 00:07:40 Movement: Truck 230 status → In Door
-[I] 06-12 00:07:40 BadgerRepo: updateMovementStatus OK â€” truck=230 statusId=1
-[I] 06-12 00:11:07 AppUpdater: Checking via website (current=162)
-[I] 06-12 00:11:07 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-12 00:11:07 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-12 00:11:08 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-12 00:11:13 Movement: Door 15B status → Loading
-[I] 06-12 00:11:13 BadgerRepo: updateDoorStatus OK â€” id=6 status=Loading
-[I] 06-12 00:16:07 AppUpdater: Checking via website (current=162)
-[I] 06-12 00:16:07 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-12 00:16:07 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-12 00:16:08 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-12 00:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-12 00:19:35 BadgerService: Keepalive scheduled in 900s
-[I] 06-12 00:19:36 LogShipper: Shipped 354 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-12 00:20:09 Movement: Truck 194 status → In Front
-[I] 06-12 00:20:09 BadgerRepo: updateMovementStatus OK â€” truck=194 statusId=4
-[I] 06-12 00:21:07 AppUpdater: Checking via website (current=162)
-[I] 06-12 00:21:07 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-12 00:21:07 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-12 00:21:08 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-12 00:23:20 Movement: Truck 187-2 status → 11
-[I] 06-12 00:23:20 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=14
-[I] 06-12 00:23:22 Movement: Door 13A status → Loading
-[I] 06-12 00:23:23 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
-[I] 06-12 00:30:53 AppUpdater: Checking via website (current=162)
-[I] 06-12 00:30:53 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-12 00:30:53 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-12 00:30:54 AppUpdater: Up to date via GitHub (current=162 latest=162)
+=== samsung SM-N975U | v162 | shipped 2026-06-15 18:26:20 ===
 [I] 06-12 00:34:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-12 00:34:35 BadgerService: Keepalive scheduled in 900s
 [I] 06-12 00:34:36 LogShipper: Shipped 371 log lines to badger-logs/android/samsung_sm-n975u.txt
@@ -499,3 +466,36 @@
 [I] 06-15 18:08:58 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-15 18:11:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-15 18:11:20 BadgerService: Keepalive scheduled in 900s
+[I] 06-15 18:11:22 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 06-15 18:13:17 PTT: PTT recording STARTED
+[I] 06-15 18:13:21 PTT: PTT recording STOPPED
+[I] 06-15 18:13:22 PTT: PTT sent OK — 59200 bytes
+[I] 06-15 18:13:23 PTT: Incoming PTT message received
+[I] 06-15 18:13:57 AppUpdater: Checking via website (current=162)
+[I] 06-15 18:13:57 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 18:13:57 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 18:13:57 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 18:18:57 AppUpdater: Checking via website (current=162)
+[W] 06-15 18:19:07 AppUpdater: Website check failed: Socket timeout has expired [url=https://badger.augesrob.net/api/version, socket_timeout=unknown] ms — trying GitHub direct
+[I] 06-15 18:19:07 AppUpdater: Checking via GitHub direct (current=162)
+[W] 06-15 18:19:10 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-15 18:19:11 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 06-15 18:19:11 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 06-15 18:19:12 AppUpdater: GitHub direct check failed: Unable to resolve host "api.github.com": No address associated with hostname
+[W] 06-15 18:19:13 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-15 18:19:13 BadgerService: startRealtimeSync: in backoff for 7s more — skipping
+[I] 06-15 18:19:23 BadgerService: Realtime subscribed OK -- badger-svc-597d1994-786c-46af-8c54-e77cf6dc1cd1 status=SUBSCRIBED
+[I] 06-15 18:22:34 Movement: Truck 224-2 status → Trailer Area
+[I] 06-15 18:22:34 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=8
+[I] 06-15 18:23:57 AppUpdater: Checking via website (current=162)
+[I] 06-15 18:23:57 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 18:23:57 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 18:23:59 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[W] 06-15 18:24:34 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-15 18:24:45 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 06-15 18:24:45 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 06-15 18:25:03 BadgerService: Realtime subscribed OK -- badger-svc-a8a31b2b-cd29-4146-85aa-285bb0a3e1af status=SUBSCRIBED
+[I] 06-15 18:25:12 Movement: Truck 188-2 status → In Front
+[I] 06-15 18:25:13 BadgerRepo: updateMovementStatus OK â€” truck=188-2 statusId=4
+[I] 06-15 18:26:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-15 18:26:20 BadgerService: Keepalive scheduled in 900s
