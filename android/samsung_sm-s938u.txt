@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-15 17:01:10 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-15 17:13:35 ===
 [E] 06-14 21:37:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #291 in 300s)
 [E] 06-14 21:42:46 BadgerService: Realtime: 292 consecutive failures — cooling down 5 min
 [E] 06-14 21:42:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #292 in 300s)
@@ -359,3 +359,23 @@
 [I] 06-15 17:01:10 BadgerService: Keepalive scheduled in 900s
 [W] 06-15 17:01:10 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-15 17:01:10 BadgerService: startRealtimeSync: in backoff for 68s more — skipping
+[I] 06-15 17:01:12 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-15 17:03:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #493 in 300s)
+[E] 06-15 17:03:05 BadgerService: Realtime: 493 consecutive failures — cooling down 5 min
+[E] 06-15 17:08:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #494 in 300s)
+[E] 06-15 17:08:52 BadgerService: Realtime: 494 consecutive failures — cooling down 5 min
+[I] 06-15 17:10:47 AppUpdater: Checking via website (current=162)
+[I] 06-15 17:10:47 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 17:10:47 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 17:10:48 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 17:10:58 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":22,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
+[I] 06-15 17:11:34 AppUpdater: Checking via website (current=162)
+[I] 06-15 17:11:35 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 17:11:35 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 17:11:35 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[W] 06-15 17:13:30 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-15 17:13:30 BadgerService: Keepalive scheduled in 2s
+[I] 06-15 17:13:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-15 17:13:35 BadgerService: Keepalive scheduled in 900s
+[W] 06-15 17:13:35 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-15 17:13:35 BadgerService: startRealtimeSync: in backoff for 16s more — skipping
