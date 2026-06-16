@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-15 19:52:26 ===
+=== samsung SM-S911U | v162 | shipped 2026-06-15 20:07:26 ===
 [E] 06-12 10:58:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #144 in 300s)
 [E] 06-12 11:04:38 BadgerService: Realtime: 145 consecutive failures — cooling down 5 min
 [E] 06-12 11:04:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #145 in 300s)
@@ -332,3 +332,12 @@
 [I] 06-15 19:52:21 BadgerService: Keepalive scheduled in 2s
 [I] 06-15 19:52:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-15 19:52:26 BadgerService: Keepalive scheduled in 900s
+[I] 06-15 19:52:27 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 06-15 19:56:52 AppUpdater: Checking via website (current=162)
+[I] 06-15 19:56:52 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 19:56:52 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 19:56:53 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[W] 06-15 20:07:17 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 06-15 20:07:18 BadgerService: Realtime subscribed OK -- badger-svc-a3e9019a-c5ca-4a4d-a4f5-34fa72236cff status=SUBSCRIBED
+[I] 06-15 20:07:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-15 20:07:26 BadgerService: Keepalive scheduled in 900s
