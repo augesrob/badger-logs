@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-16 05:23:45 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-16 05:38:45 ===
 [I] 06-15 22:32:20 BadgerService: Realtime subscribed OK -- badger-svc-36acd8ab-7fb5-41e0-bc68-f0c6b53db6ee status=SUBSCRIBED
 [I] 06-15 22:32:22 Movement: Truck 241 status → In Front
 [I] 06-15 22:32:22 BadgerRepo: updateMovementStatus OK â€” truck=241 statusId=4
@@ -443,3 +443,9 @@
 [I] 06-16 05:08:47 LogShipper: Shipped 441 log lines to badger-logs/android/samsung_sm-n975u.txt
 [I] 06-16 05:23:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-16 05:23:45 BadgerService: Keepalive scheduled in 900s
+[I] 06-16 05:23:46 LogShipper: Shipped 444 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-16 05:38:45 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 06-16 05:38:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 06-16 05:38:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-16 05:38:45 BadgerService: Keepalive scheduled in 900s
+[W] 06-16 05:38:45 BadgerService: startRealtimeSync skipped -- already restarting
