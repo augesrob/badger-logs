@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-16 03:11:21 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-16 03:26:21 ===
 [I] 06-15 22:32:20 BadgerService: Realtime subscribed OK -- badger-svc-36acd8ab-7fb5-41e0-bc68-f0c6b53db6ee status=SUBSCRIBED
 [I] 06-15 22:32:22 Movement: Truck 241 status → In Front
 [I] 06-15 22:32:22 BadgerRepo: updateMovementStatus OK â€” truck=241 statusId=4
@@ -354,3 +354,16 @@
 [I] 06-16 03:11:21 BadgerService: Keepalive scheduled in 900s
 [W] 06-16 03:11:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-16 03:11:21 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-16 03:11:22 LogShipper: Shipped 355 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 06-16 03:11:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-16 03:12:03 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 06-16 03:12:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-16 03:14:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-16 03:16:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 06-16 03:18:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 06-16 03:20:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 06-16 03:22:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 06-16 03:24:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[I] 06-16 03:26:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-16 03:26:21 BadgerService: Keepalive scheduled in 900s
+[W] 06-16 03:26:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
