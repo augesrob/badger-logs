@@ -1,24 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-15 21:56:20 ===
-[I] 06-12 03:18:46 AppUpdater: Checking via website (current=162)
-[I] 06-12 03:18:47 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-12 03:18:47 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-12 03:18:48 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-12 03:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-12 03:19:35 BadgerService: Keepalive scheduled in 900s
-[I] 06-12 03:19:38 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
-[W] 06-12 03:21:29 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 06-12 03:21:40 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 06-12 03:21:40 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 06-12 03:21:51 BadgerService: Realtime subscribed OK -- badger-svc-006e49a4-d02c-427f-97db-597093052cee status=SUBSCRIBED
-[I] 06-12 03:26:13 PTT: Incoming PTT message received
-[I] 06-12 03:26:37 AppUpdater: Checking via website (current=162)
-[I] 06-12 03:26:37 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-12 03:26:37 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-12 03:26:38 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[W] 06-12 03:26:40 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 06-12 03:26:40 BadgerService: Keepalive scheduled in 2s
-[I] 06-12 03:26:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-12 03:26:45 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-N975U | v162 | shipped 2026-06-15 22:11:20 ===
 [I] 06-12 03:26:46 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-n975u.txt
 [I] 06-12 03:26:55 BadgerService: User explicitly stopped service -- keepalive cancelled
 [I] 06-13 01:22:29 BadgerApp: App started v162 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -499,3 +479,23 @@
 [I] 06-15 21:51:51 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-15 21:56:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-15 21:56:20 BadgerService: Keepalive scheduled in 900s
+[I] 06-15 21:56:22 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 06-15 21:56:50 AppUpdater: Checking via website (current=162)
+[I] 06-15 21:56:50 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 21:56:50 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 21:56:51 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 22:01:50 AppUpdater: Checking via website (current=162)
+[I] 06-15 22:01:50 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 22:01:50 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 22:01:51 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 22:08:56 AppUpdater: Checking via website (current=162)
+[I] 06-15 22:08:57 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 22:08:57 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 22:08:58 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 22:09:00 Movement: Truck 224-2 status → In Door
+[I] 06-15 22:09:00 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=1
+[I] 06-15 22:09:04 Movement: Door 14B status → Loading
+[I] 06-15 22:09:04 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
+[I] 06-15 22:09:09 Movement: Truck 188-2 status → 9
+[I] 06-15 22:09:09 BadgerRepo: updateMovementStatus OK â€” truck=188-2 statusId=12
+[I] 06-15 22:11:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
