@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-16 02:37:26 ===
+=== samsung SM-S911U | v162 | shipped 2026-06-16 03:07:26 ===
 [W] 06-12 17:28:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-12 17:28:22 BadgerService: startRealtimeSync: in backoff for 131s more — skipping
 [I] 06-12 17:28:24 LogShipper: Shipped 266 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -341,3 +341,29 @@
 [W] 06-16 02:37:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-16 02:37:26 BadgerService: startRealtimeSync: in backoff for 104s more — skipping
 [I] 06-16 02:37:26 BadgerService: Keepalive scheduled in 900s
+[I] 06-16 02:37:27 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-16 02:39:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #69 in 300s)
+[E] 06-16 02:39:57 BadgerService: Realtime: 69 consecutive failures — cooling down 5 min
+[E] 06-16 02:44:57 BadgerService: Realtime: 70 consecutive failures — cooling down 5 min
+[E] 06-16 02:44:57 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #70 in 300s)
+[E] 06-16 02:44:57 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 06-16 02:49:58 BadgerService: Realtime: 71 consecutive failures — cooling down 5 min
+[E] 06-16 02:49:58 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #71 in 300s)
+[E] 06-16 02:49:58 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[I] 06-16 02:52:26 BadgerService: Keepalive scheduled in 900s
+[I] 06-16 02:52:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 06-16 02:52:26 BadgerService: startRealtimeSync: in backoff for 152s more — skipping
+[W] 06-16 02:52:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 06-16 02:54:59 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 06-16 02:54:59 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #72 in 300s)
+[E] 06-16 02:54:59 BadgerService: Realtime: 72 consecutive failures — cooling down 5 min
+[W] 06-16 02:56:38 BadgerService: startRealtimeSync: in backoff for 200s more — skipping
+[W] 06-16 02:56:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 06-16 03:00:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #73 in 300s)
+[E] 06-16 03:00:45 BadgerService: Realtime: 73 consecutive failures — cooling down 5 min
+[E] 06-16 03:06:31 BadgerService: Realtime: 74 consecutive failures — cooling down 5 min
+[E] 06-16 03:06:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #74 in 300s)
+[I] 06-16 03:07:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 06-16 03:07:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-16 03:07:26 BadgerService: startRealtimeSync: in backoff for 245s more — skipping
+[I] 06-16 03:07:26 BadgerService: Keepalive scheduled in 900s
