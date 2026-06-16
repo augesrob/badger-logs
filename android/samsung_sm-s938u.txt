@@ -1,14 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-16 00:29:21 ===
-[W] 06-15 16:38:29 BadgerService: startRealtimeSync: in backoff for 45s more — skipping
-[W] 06-15 16:38:29 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-15 16:40:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #489 in 300s)
-[E] 06-15 16:40:01 BadgerService: Realtime: 489 consecutive failures — cooling down 5 min
-[E] 06-15 16:45:47 BadgerService: Realtime: 490 consecutive failures — cooling down 5 min
-[E] 06-15 16:45:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #490 in 300s)
-[I] 06-15 16:46:10 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-15 16:46:10 BadgerService: Keepalive scheduled in 900s
-[W] 06-15 16:46:10 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-15 16:46:10 BadgerService: startRealtimeSync: in backoff for 276s more — skipping
+=== samsung SM-S938U | v162 | shipped 2026-06-16 00:44:21 ===
 [I] 06-15 16:46:12 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 06-15 16:51:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #491 in 300s)
 [E] 06-15 16:51:33 BadgerService: Realtime: 491 consecutive failures — cooling down 5 min
@@ -499,3 +489,13 @@
 [I] 06-16 00:29:21 BadgerService: Keepalive scheduled in 900s
 [W] 06-16 00:29:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-16 00:29:21 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-16 00:29:23 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-16 00:29:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #19 in 300s)
+[E] 06-16 00:29:24 BadgerService: Realtime: 19 consecutive failures — cooling down 5 min
+[I] 06-16 00:29:39 AppUpdater: Checking via website (current=162)
+[I] 06-16 00:29:39 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-16 00:29:39 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-16 00:29:40 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-16 00:34:26 BadgerService: Realtime subscribed OK -- badger-svc-d5bc6868-50bb-4685-9839-e82aa2a55ddc status=SUBSCRIBED
+[I] 06-16 00:44:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-16 00:44:21 BadgerService: Keepalive scheduled in 900s
