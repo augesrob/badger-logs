@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-16 02:11:20 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-16 02:26:20 ===
 [I] 06-15 22:32:20 BadgerService: Realtime subscribed OK -- badger-svc-36acd8ab-7fb5-41e0-bc68-f0c6b53db6ee status=SUBSCRIBED
 [I] 06-15 22:32:22 Movement: Truck 241 status → In Front
 [I] 06-15 22:32:22 BadgerRepo: updateMovementStatus OK â€” truck=241 statusId=4
@@ -323,3 +323,16 @@
 [I] 06-16 02:10:50 BadgerService: Realtime subscribed OK -- badger-svc-fa5205d6-1a41-4b1d-bb93-6e2c3d7ad768 status=SUBSCRIBED
 [I] 06-16 02:11:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-16 02:11:20 BadgerService: Keepalive scheduled in 900s
+[I] 06-16 02:11:22 LogShipper: Shipped 324 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-16 02:14:52 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-16 02:15:03 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 06-16 02:15:03 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 06-16 02:15:14 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 06-16 02:15:14 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
+[E] 06-16 02:15:35 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #3 in 40s)
+[E] 06-16 02:15:35 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 06-16 02:15:43 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-16 02:15:43 BadgerService: startRealtimeSync: in backoff for 31s more — skipping
+[I] 06-16 02:16:16 BadgerService: Realtime subscribed OK -- badger-svc-6a4fa7b7-b369-403e-94a9-159a101e0134 status=SUBSCRIBED
+[I] 06-16 02:26:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-16 02:26:20 BadgerService: Keepalive scheduled in 900s
