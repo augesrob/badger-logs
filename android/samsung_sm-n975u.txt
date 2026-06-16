@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-15 21:26:20 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-15 21:41:20 ===
 [I] 06-12 03:18:16 BadgerRepo: updateDoorStatus OK â€” id=6 status=Done for Night
 [I] 06-12 03:18:21 TTS: TTS DISABLED
 [I] 06-12 03:18:46 AppUpdater: Checking via website (current=162)
@@ -447,3 +447,37 @@
 [I] 06-15 21:26:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 06-15 21:26:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-15 21:26:20 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-15 21:26:20 BadgerService: Keepalive scheduled in 900s
+[I] 06-15 21:26:22 LogShipper: Shipped 448 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-15 21:26:41 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-15 21:26:41 BadgerService: startRealtimeSync skipped -- already restarting
+[E] 06-15 21:26:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-15 21:27:03 BadgerService: Realtime subscribed OK -- badger-svc-8089809f-d514-4b5c-b0b1-cd2ba6450d3e status=SUBSCRIBED
+[I] 06-15 21:27:15 AppUpdater: Checking via website (current=162)
+[I] 06-15 21:27:20 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 21:27:20 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 21:27:21 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 21:27:25 Movement: Truck 183 status → In Front
+[I] 06-15 21:27:25 BadgerRepo: updateMovementStatus OK â€” truck=183 statusId=4
+[I] 06-15 21:30:22 AppUpdater: Checking via website (current=162)
+[I] 06-15 21:30:22 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 21:30:22 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 21:30:22 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 21:35:22 AppUpdater: Checking via website (current=162)
+[I] 06-15 21:35:22 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 21:35:22 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 21:35:22 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[W] 06-15 21:37:24 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 06-15 21:37:25 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 06-15 21:37:25 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 06-15 21:37:26 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-15 21:37:26 BadgerService: startRealtimeSync: in backoff for 8s more — skipping
+[I] 06-15 21:37:36 BadgerService: Realtime subscribed OK -- badger-svc-70b6fca0-0d00-4fa3-896d-4e02768d3b2c status=SUBSCRIBED
+[I] 06-15 21:39:04 Movement: Truck 160 status → In Front
+[I] 06-15 21:39:05 BadgerRepo: updateMovementStatus OK â€” truck=160 statusId=4
+[I] 06-15 21:40:22 AppUpdater: Checking via website (current=162)
+[I] 06-15 21:40:22 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-15 21:40:22 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-15 21:40:23 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-15 21:41:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-15 21:41:20 BadgerService: Keepalive scheduled in 900s
