@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-15 20:22:26 ===
+=== samsung SM-S911U | v162 | shipped 2026-06-15 20:37:26 ===
 [E] 06-12 10:58:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #144 in 300s)
 [E] 06-12 11:04:38 BadgerService: Realtime: 145 consecutive failures — cooling down 5 min
 [E] 06-12 11:04:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #145 in 300s)
@@ -344,3 +344,12 @@
 [I] 06-15 20:07:27 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 06-15 20:22:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-15 20:22:26 BadgerService: Keepalive scheduled in 900s
+[I] 06-15 20:22:27 LogShipper: Shipped 345 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 06-15 20:36:30 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-15 20:36:32 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-15 20:36:32 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 06-15 20:37:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-15 20:37:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-15 20:37:26 BadgerService: Keepalive scheduled in 900s
+[W] 06-15 20:37:26 BadgerService: startRealtimeSync: in backoff for 3s more — skipping
+[W] 06-15 20:37:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
