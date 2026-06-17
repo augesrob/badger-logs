@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-16 19:18:27 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-16 19:33:27 ===
 [I] 06-15 20:41:09 BadgerRepo: updateMovementStatus OK â€” truck=248-1 statusId=3
 [I] 06-15 20:41:12 Movement: Truck 224-1 status → In Door
 [I] 06-15 20:41:12 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=1
@@ -399,3 +399,9 @@
 [W] 06-16 19:18:22 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
 [I] 06-16 19:18:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-16 19:18:27 BadgerService: Keepalive scheduled in 900s
+[I] 06-16 19:18:28 LogShipper: Shipped 400 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-16 19:33:09 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 06-16 19:33:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-16 19:33:27 BadgerService: Keepalive scheduled in 900s
+[W] 06-16 19:33:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-16 19:33:27 BadgerService: startRealtimeSync skipped -- already restarting
