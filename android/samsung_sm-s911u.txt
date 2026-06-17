@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-17 04:44:13 ===
+=== samsung SM-S911U | v162 | shipped 2026-06-17 04:59:13 ===
 [E] 06-16 20:42:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
 [E] 06-16 20:44:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
 [E] 06-16 20:46:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
@@ -343,3 +343,16 @@
 [I] 06-17 04:44:13 BadgerService: Keepalive scheduled in 900s
 [W] 06-17 04:44:13 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-17 04:44:13 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-17 04:44:15 LogShipper: Shipped 344 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-17 04:44:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #80 in 300s)
+[E] 06-17 04:44:59 BadgerService: Realtime: 80 consecutive failures — cooling down 5 min
+[E] 06-17 04:50:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #81 in 300s)
+[E] 06-17 04:50:45 BadgerService: Realtime: 81 consecutive failures — cooling down 5 min
+[W] 06-17 04:54:05 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-17 04:54:05 BadgerService: startRealtimeSync: in backoff for 100s more — skipping
+[E] 06-17 04:56:32 BadgerService: Realtime: 82 consecutive failures — cooling down 5 min
+[E] 06-17 04:56:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #82 in 300s)
+[I] 06-17 04:59:13 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-17 04:59:13 BadgerService: Keepalive scheduled in 900s
+[W] 06-17 04:59:13 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-17 04:59:13 BadgerService: startRealtimeSync: in backoff for 138s more — skipping
