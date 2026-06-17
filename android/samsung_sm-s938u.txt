@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-16 19:48:27 ===
+=== samsung SM-S938U | v162 | shipped 2026-06-16 20:03:27 ===
 [I] 06-15 20:41:09 BadgerRepo: updateMovementStatus OK â€” truck=248-1 statusId=3
 [I] 06-15 20:41:12 Movement: Truck 224-1 status → In Door
 [I] 06-15 20:41:12 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=1
@@ -419,3 +419,21 @@
 [I] 06-16 19:48:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-16 19:48:27 BadgerService: Keepalive scheduled in 900s
 [W] 06-16 19:48:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-16 19:48:27 BadgerService: startRealtimeSync: in backoff for 48s more — skipping
+[I] 06-16 19:48:29 LogShipper: Shipped 420 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-16 19:50:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 06-16 19:52:07 BadgerService: Realtime: 11 consecutive failures — cooling down 5 min
+[E] 06-16 19:52:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[I] 06-16 19:54:40 AppUpdater: Checking via website (current=162)
+[I] 06-16 19:54:40 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-16 19:54:40 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-16 19:54:41 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-16 19:54:57 BadgerRepo: importRoutes: 200  {"ok":true,"updated":33,"total":34,"fresh":true,"csvAge":"2026-06-17T00:54:56.528+00:00"}
+[I] 06-16 19:57:09 BadgerService: Realtime subscribed OK -- badger-svc-cf3933b2-f1b8-49a2-b018-1291e7b8f492 status=SUBSCRIBED
+[I] 06-16 19:58:18 AppUpdater: Checking via website (current=162)
+[I] 06-16 19:58:18 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-16 19:58:18 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-16 19:58:19 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-16 20:00:53 PrintRoom: Updated truck 220 (id=6798)
+[I] 06-16 20:03:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-16 20:03:27 BadgerService: Keepalive scheduled in 900s
