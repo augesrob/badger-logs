@@ -1,15 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-19 06:04:23 ===
-[I] 06-18 04:30:08 BadgerRepo: updateMovementStatus OK â€” truck=183 statusId=2
-[I] 06-18 04:30:13 Movement: Truck 192 status → Put Away
-[I] 06-18 04:30:13 BadgerRepo: updateMovementStatus OK â€” truck=192 statusId=2
-[I] 06-18 04:30:15 Movement: Truck 245 status → Put Away
-[I] 06-18 04:30:15 BadgerRepo: updateMovementStatus OK â€” truck=245 statusId=2
-[I] 06-18 04:30:18 Movement: Truck 187-2 status → On Route
-[I] 06-18 04:30:18 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=3
-[I] 06-18 04:30:23 Movement: Truck 224-2 status → On Route
-[I] 06-18 04:30:23 BadgerRepo: updateMovementStatus OK â€” truck=224-2 statusId=3
-[I] 06-18 04:30:28 Movement: Door 13A status → Done for Night
-[I] 06-18 04:30:28 BadgerRepo: updateDoorStatus OK â€” id=1 status=Done for Night
+=== samsung SM-S938U | v162 | shipped 2026-06-19 06:19:23 ===
 [I] 06-18 04:30:31 Movement: Door 13B status → Done for Night
 [I] 06-18 04:30:31 BadgerRepo: updateDoorStatus OK â€” id=2 status=Done for Night
 [I] 06-18 04:30:34 Movement: Door 14A status → Done for Night
@@ -499,3 +488,14 @@
 [I] 06-19 06:04:23 BadgerService: Keepalive scheduled in 900s
 [W] 06-19 06:04:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-19 06:04:23 BadgerService: startRealtimeSync: in backoff for 116s more — skipping
+[I] 06-19 06:04:25 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-19 06:07:06 BadgerService: Realtime: 105 consecutive failures — cooling down 5 min
+[E] 06-19 06:07:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #105 in 300s)
+[E] 06-19 06:12:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #106 in 300s)
+[E] 06-19 06:12:52 BadgerService: Realtime: 106 consecutive failures — cooling down 5 min
+[E] 06-19 06:18:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #107 in 300s)
+[E] 06-19 06:18:38 BadgerService: Realtime: 107 consecutive failures — cooling down 5 min
+[I] 06-19 06:19:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 06-19 06:19:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-19 06:19:23 BadgerService: Keepalive scheduled in 900s
+[W] 06-19 06:19:23 BadgerService: startRealtimeSync: in backoff for 255s more — skipping
