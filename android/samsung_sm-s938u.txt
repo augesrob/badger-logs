@@ -1,13 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-19 06:19:23 ===
-[I] 06-18 04:30:31 Movement: Door 13B status → Done for Night
-[I] 06-18 04:30:31 BadgerRepo: updateDoorStatus OK â€” id=2 status=Done for Night
-[I] 06-18 04:30:34 Movement: Door 14A status → Done for Night
-[I] 06-18 04:30:34 BadgerRepo: updateDoorStatus OK â€” id=3 status=Done for Night
-[I] 06-18 04:30:38 Movement: Door 15A status → Done for Night
-[I] 06-18 04:30:38 BadgerRepo: updateDoorStatus OK â€” id=5 status=Done for Night
-[I] 06-18 04:30:40 Movement: Door 15B status → Done for Night
-[I] 06-18 04:30:40 BadgerRepo: updateDoorStatus OK â€” id=6 status=Done for Night
-[I] 06-18 04:30:46 AppUpdater: Checking via website (current=162)
+=== samsung SM-S938U | v162 | shipped 2026-06-19 06:34:23 ===
 [I] 06-18 04:30:46 AppUpdater: Up to date via website (current=162 latest=162)
 [I] 06-18 04:30:46 AppUpdater: Checking via GitHub direct (current=162)
 [I] 06-18 04:30:47 AppUpdater: Up to date via GitHub (current=162 latest=162)
@@ -499,3 +490,12 @@
 [W] 06-19 06:19:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 06-19 06:19:23 BadgerService: Keepalive scheduled in 900s
 [W] 06-19 06:19:23 BadgerService: startRealtimeSync: in backoff for 255s more — skipping
+[I] 06-19 06:19:25 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-19 06:24:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #108 in 300s)
+[E] 06-19 06:24:24 BadgerService: Realtime: 108 consecutive failures — cooling down 5 min
+[E] 06-19 06:30:10 BadgerService: Realtime: 109 consecutive failures — cooling down 5 min
+[E] 06-19 06:30:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #109 in 300s)
+[I] 06-19 06:34:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-19 06:34:23 BadgerService: Keepalive scheduled in 900s
+[W] 06-19 06:34:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-19 06:34:23 BadgerService: startRealtimeSync: in backoff for 47s more — skipping
