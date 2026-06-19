@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-18 19:07:00 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-18 19:22:00 ===
 [I] 06-16 01:41:22 LogShipper: Shipped 310 log lines to badger-logs/android/samsung_sm-n975u.txt
 [I] 06-16 01:56:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-16 01:56:20 BadgerService: Keepalive scheduled in 900s
@@ -372,3 +372,30 @@
 [I] 06-18 18:52:02 LogShipper: Shipped 370 log lines to badger-logs/android/samsung_sm-n975u.txt
 [I] 06-18 19:07:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-18 19:07:00 BadgerService: Keepalive scheduled in 900s
+[W] 06-18 19:07:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-18 19:07:01 LogShipper: Shipped 373 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 06-18 19:07:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[I] 06-18 19:08:20 AppUpdater: Checking via website (current=162)
+[I] 06-18 19:08:21 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-18 19:08:21 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-18 19:08:22 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-18 19:08:26 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":20,"printroomCreated":7,"movementAdded":26}
+[E] 06-18 19:08:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[I] 06-18 19:09:04 BadgerService: Realtime subscribed OK -- badger-svc-8df82388-42ab-4955-aabb-fddf855bcf31 status=SUBSCRIBED
+[W] 06-18 19:12:49 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-18 19:12:51 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-18 19:12:51 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 06-18 19:13:20 AppUpdater: Checking via website (current=162)
+[I] 06-18 19:13:21 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-18 19:13:21 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-18 19:13:21 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[E] 06-18 19:13:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-18 19:13:49 BadgerService: Realtime subscribed OK -- badger-svc-e2b00e82-1804-4b8b-bb2c-8d6edf1eb0f9 status=SUBSCRIBED
+[I] 06-18 19:17:32 Movement: Truck 231-2 status → In Front
+[I] 06-18 19:17:32 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=4
+[I] 06-18 19:18:20 AppUpdater: Checking via website (current=162)
+[I] 06-18 19:18:21 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-18 19:18:21 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-18 19:18:21 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-18 19:22:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-18 19:22:00 BadgerService: Keepalive scheduled in 900s
