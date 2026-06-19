@@ -1,31 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-19 00:37:01 ===
-[I] 06-18 18:07:01 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-18 18:07:02 BadgerService: Realtime subscribed OK -- badger-svc-35862892-ccc1-48cd-ac2b-81d1c91c0b31 status=SUBSCRIBED
-[I] 06-18 18:07:02 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-18 18:22:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-18 18:22:00 BadgerService: Keepalive scheduled in 900s
-[I] 06-18 18:22:02 LogShipper: Shipped 357 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-18 18:37:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-18 18:37:00 BadgerService: Keepalive scheduled in 900s
-[I] 06-18 18:37:01 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-18 18:37:06 AppUpdater: Checking via website (current=162)
-[I] 06-18 18:37:08 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-18 18:37:08 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-18 18:37:08 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-18 18:37:14 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
-[W] 06-18 18:37:22 BadgerRepo: requestRoutes failed: The coroutine scope left the composition
-[I] 06-18 18:37:43 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
-[I] 06-18 18:52:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-18 18:52:00 BadgerService: Keepalive scheduled in 900s
-[I] 06-18 18:52:02 LogShipper: Shipped 370 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-18 19:07:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-18 19:07:00 BadgerService: Keepalive scheduled in 900s
-[W] 06-18 19:07:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 06-18 19:07:01 LogShipper: Shipped 373 log lines to badger-logs/android/samsung_sm-n975u.txt
-[E] 06-18 19:07:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[I] 06-18 19:08:20 AppUpdater: Checking via website (current=162)
-[I] 06-18 19:08:21 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-18 19:08:21 AppUpdater: Checking via GitHub direct (current=162)
+=== samsung SM-N975U | v162 | shipped 2026-06-19 00:52:01 ===
 [I] 06-18 19:08:22 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-18 19:08:26 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":20,"printroomCreated":7,"movementAdded":26}
 [E] 06-18 19:08:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
@@ -499,3 +472,30 @@
 [I] 06-19 00:36:20 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-19 00:37:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-19 00:37:01 BadgerService: Keepalive scheduled in 900s
+[I] 06-19 00:37:03 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 06-19 00:38:50 Movement: Truck 187-2 status → 8
+[I] 06-19 00:38:50 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=11
+[I] 06-19 00:39:02 Movement: Truck 248-2 status → On Route
+[I] 06-19 00:39:02 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=3
+[I] 06-19 00:40:09 Movement: Truck 244 status → In Door
+[I] 06-19 00:40:09 BadgerRepo: updateMovementStatus OK â€” truck=244 statusId=1
+[I] 06-19 00:40:10 Movement: Door 14A status → Loading
+[I] 06-19 00:40:10 BadgerRepo: updateDoorStatus OK â€” id=3 status=Loading
+[I] 06-19 00:41:18 AppUpdater: Checking via website (current=162)
+[I] 06-19 00:41:19 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-19 00:41:19 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-19 00:41:20 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-19 00:45:04 Movement: Truck 194 status → In Front
+[I] 06-19 00:45:04 BadgerRepo: updateMovementStatus OK â€” truck=194 statusId=4
+[I] 06-19 00:46:18 AppUpdater: Checking via website (current=162)
+[I] 06-19 00:46:18 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-19 00:46:18 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-19 00:46:19 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-19 00:47:20 Movement: Truck 242 status → In Front
+[I] 06-19 00:47:20 BadgerRepo: updateMovementStatus OK â€” truck=242 statusId=4
+[I] 06-19 00:51:18 AppUpdater: Checking via website (current=162)
+[I] 06-19 00:51:18 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-19 00:51:18 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-19 00:51:19 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-19 00:52:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-19 00:52:01 BadgerService: Keepalive scheduled in 900s
