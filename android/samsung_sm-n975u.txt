@@ -1,20 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-18 20:52:00 ===
-[I] 06-16 01:41:22 LogShipper: Shipped 310 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-16 01:56:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-16 01:56:20 BadgerService: Keepalive scheduled in 900s
-[I] 06-16 01:56:22 LogShipper: Shipped 314 log lines to badger-logs/android/samsung_sm-n975u.txt
-[W] 06-16 02:09:52 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[I] 06-16 02:09:59 AppUpdater: Checking via website (current=162)
-[I] 06-16 02:10:01 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-16 02:10:01 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-16 02:10:02 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[E] 06-16 02:10:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[I] 06-16 02:10:50 BadgerService: Realtime subscribed OK -- badger-svc-fa5205d6-1a41-4b1d-bb93-6e2c3d7ad768 status=SUBSCRIBED
-[I] 06-16 02:11:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-16 02:11:20 BadgerService: Keepalive scheduled in 900s
-[I] 06-16 02:11:22 LogShipper: Shipped 324 log lines to badger-logs/android/samsung_sm-n975u.txt
-[W] 06-16 02:14:52 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 06-16 02:15:03 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+=== samsung SM-N975U | v162 | shipped 2026-06-18 21:07:00 ===
 [E] 06-16 02:15:03 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
 [E] 06-16 02:15:14 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 06-16 02:15:14 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
@@ -490,3 +474,28 @@
 [I] 06-18 20:47:59 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-18 20:52:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-18 20:52:00 BadgerService: Keepalive scheduled in 900s
+[I] 06-18 20:52:02 LogShipper: Shipped 491 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-18 20:57:02 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 06-18 20:57:03 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 06-18 20:57:03 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[I] 06-18 20:57:15 BadgerService: Realtime subscribed OK -- badger-svc-92ace643-af2d-4a55-92b3-2512a6e9f164 status=SUBSCRIBED
+[I] 06-18 20:59:19 AppUpdater: Checking via website (current=162)
+[I] 06-18 20:59:20 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-18 20:59:20 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-18 20:59:21 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-18 20:59:31 Movement: Truck 187-1 status → 8
+[I] 06-18 20:59:31 BadgerRepo: updateMovementStatus OK â€” truck=187-1 statusId=11
+[I] 06-18 21:02:09 AppUpdater: Checking via website (current=162)
+[I] 06-18 21:02:10 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-18 21:02:10 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-18 21:02:11 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-18 21:02:12 Movement: Truck 224-1 status → In Door
+[I] 06-18 21:02:12 BadgerRepo: updateMovementStatus OK â€” truck=224-1 statusId=1
+[I] 06-18 21:03:03 Movement: Door 13B status → Loading
+[I] 06-18 21:03:03 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
+[I] 06-18 21:06:43 AppUpdater: Checking via website (current=162)
+[I] 06-18 21:06:43 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-18 21:06:43 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-18 21:06:44 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-18 21:07:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-18 21:07:00 BadgerService: Keepalive scheduled in 900s
