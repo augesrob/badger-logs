@@ -1,10 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-22 19:30:38 ===
-[W] 06-19 13:07:35 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-19 13:07:53 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 06-19 13:07:53 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #4 in 80s)
-[W] 06-19 13:08:39 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-19 13:08:39 BadgerService: startRealtimeSync: in backoff for 34s more — skipping
-[E] 06-19 13:09:23 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #5 in 80s)
+=== samsung SM-S938U | v162 | shipped 2026-06-22 19:45:38 ===
 [E] 06-19 13:09:23 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [I] 06-19 13:10:45 BadgerService: Realtime subscribed OK -- badger-svc-dfb99b11-2d79-43f8-a972-853cb7f627e4 status=SUBSCRIBED
 [W] 06-19 13:16:22 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
@@ -491,3 +485,17 @@
 [I] 06-22 19:26:36 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":0,"printroomCreated":0,"movementAdded":0}
 [I] 06-22 19:30:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-22 19:30:38 BadgerService: Keepalive scheduled in 900s
+[I] 06-22 19:30:40 LogShipper: Shipped 492 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-22 19:37:11 AppUpdater: Checking via website (current=162)
+[I] 06-22 19:37:11 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 19:37:11 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 19:37:12 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 19:37:26 BadgerRepo: importRoutes: 200  {"ok":false,"waiting":true,"message":"Waiting for route email reply…"}
+[I] 06-22 19:37:35 BadgerRepo: importRoutes: 200  {"ok":false,"waiting":true,"message":"Waiting for route email reply…"}
+[I] 06-22 19:37:45 BadgerRepo: importRoutes: 200  {"ok":true,"updated":36,"total":37,"fresh":true,"csvAge":"2026-06-23T00:37:44.531+00:00"}
+[I] 06-22 19:39:24 AppUpdater: Checking via website (current=162)
+[I] 06-22 19:39:24 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 19:39:24 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 19:39:25 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 19:45:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-22 19:45:38 BadgerService: Keepalive scheduled in 900s
