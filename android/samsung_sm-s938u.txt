@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-23 01:11:53 ===
-[E] 06-22 18:18:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
-[E] 06-22 18:19:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
-[W] 06-22 18:20:21 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-22 18:20:21 BadgerService: startRealtimeSync: in backoff for 11s more — skipping
-[E] 06-22 18:21:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
-[W] 06-22 18:22:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-22 18:22:47 BadgerService: startRealtimeSync skipped -- already restarting
+=== samsung SM-S938U | v162 | shipped 2026-06-23 01:26:53 ===
 [E] 06-22 18:23:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
 [W] 06-22 18:25:13 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-22 18:25:13 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
@@ -499,3 +492,10 @@
 [I] 06-23 01:11:53 BadgerService: Keepalive scheduled in 900s
 [W] 06-23 01:11:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-23 01:11:53 BadgerService: startRealtimeSync: in backoff for 1s more — skipping
+[I] 06-23 01:11:54 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-23 01:12:40 BadgerService: Realtime: 15 consecutive failures — cooling down 5 min
+[E] 06-23 01:12:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #15 in 300s)
+[I] 06-23 01:26:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-23 01:26:53 BadgerService: Keepalive scheduled in 900s
+[W] 06-23 01:26:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-23 01:26:53 BadgerService: startRealtimeSync skipped -- already restarting
