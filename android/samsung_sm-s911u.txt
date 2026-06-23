@@ -1,37 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-22 20:38:24 ===
-[I] 06-17 20:58:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-17 20:58:50 BadgerService: Keepalive scheduled in 900s
-[W] 06-17 20:58:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-17 20:58:50 BadgerService: startRealtimeSync: in backoff for 70s more — skipping
-[I] 06-17 20:58:52 LogShipper: Shipped 326 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 06-17 21:00:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
-[I] 06-17 21:01:45 AppUpdater: Checking via website (current=162)
-[I] 06-17 21:01:46 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-17 21:01:46 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-17 21:01:48 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-17 21:01:48 BadgerService: Keepalive scheduled in 900s
-[I] 06-17 21:01:48 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-17 21:01:50 BadgerService: Realtime subscribed OK -- badger-svc-bba9170d-f2c8-49d0-ba80-0c9065de054b status=SUBSCRIBED
-[I] 06-17 21:08:50 AppUpdater: Checking via website (current=162)
-[I] 06-17 21:08:51 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-17 21:08:51 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-17 21:08:52 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-17 21:16:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-17 21:16:48 BadgerService: Keepalive scheduled in 900s
-[I] 06-17 21:16:50 LogShipper: Shipped 341 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 06-17 21:17:53 AppUpdater: Checking via website (current=162)
-[I] 06-17 21:17:53 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-17 21:17:53 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-17 21:17:54 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-17 21:18:58 AppUpdater: Checking via website (current=162)
-[I] 06-17 21:18:58 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-17 21:18:58 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-17 21:18:59 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-17 21:19:01 Movement: Truck 240 status → In Front
-[I] 06-17 21:19:01 BadgerRepo: updateMovementStatus OK â€” truck=240 statusId=4
-[I] 06-17 21:19:43 AppUpdater: Checking via website (current=162)
-[I] 06-17 21:19:43 AppUpdater: Checking via website (current=162)
-[I] 06-17 21:19:43 AppUpdater: Checking via GitHub direct (current=162)
+=== samsung SM-S911U | v162 | shipped 2026-06-22 20:53:24 ===
 [I] 06-17 21:19:43 AppUpdater: Up to date via website (current=162 latest=162)
 [I] 06-17 21:19:43 AppUpdater: Up to date via website (current=162 latest=162)
 [I] 06-17 21:19:43 AppUpdater: Checking via GitHub direct (current=162)
@@ -499,3 +466,36 @@
 [I] 06-22 20:23:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 06-22 20:38:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-22 20:38:24 BadgerService: Keepalive scheduled in 900s
+[W] 06-22 20:38:24 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 06-22 20:38:25 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-22 20:39:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-22 20:40:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-22 20:41:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-22 20:42:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-22 20:44:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[I] 06-22 20:45:28 AppUpdater: Checking via website (current=162)
+[I] 06-22 20:45:30 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 20:45:30 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 20:45:31 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 20:45:35 Movement: Door 14B status → End Of Truck Tote
+[I] 06-22 20:45:36 BadgerRepo: updateDoorStatus OK â€” id=4 status=End Of Truck Tote
+[I] 06-22 20:46:08 BadgerService: Realtime subscribed OK -- badger-svc-76dab1e5-349e-4b2e-bd4e-cac5f1ba04fc status=SUBSCRIBED
+[I] 06-22 20:46:23 Movement: Truck 231-2 status → In Door
+[I] 06-22 20:46:23 BadgerRepo: updateMovementStatus OK â€” truck=231-2 statusId=1
+[I] 06-22 20:48:09 AppUpdater: Checking via website (current=162)
+[I] 06-22 20:48:10 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 20:48:10 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 20:48:10 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 20:48:11 Movement: Door 14B status → Loading
+[I] 06-22 20:48:11 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
+[I] 06-22 20:48:30 Movement: Truck 188-1 status → 8
+[I] 06-22 20:48:30 BadgerRepo: updateMovementStatus OK â€” truck=188-1 statusId=11
+[I] 06-22 20:48:55 Movement: Truck 231-1 status → On Route
+[I] 06-22 20:48:55 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=3
+[I] 06-22 20:49:30 PTT: Incoming PTT message received
+[I] 06-22 20:50:01 AppUpdater: Checking via website (current=162)
+[I] 06-22 20:50:02 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 20:50:02 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 20:50:03 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 20:53:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-22 20:53:24 BadgerService: Keepalive scheduled in 900s
