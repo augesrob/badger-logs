@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-23 00:08:24 ===
+=== samsung SM-S911U | v162 | shipped 2026-06-23 00:23:24 ===
 [I] 06-18 01:45:17 BadgerService: Keepalive scheduled in 900s
 [I] 06-18 01:45:17 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-18 01:45:18 BadgerService: Realtime subscribed OK -- badger-svc-e3746ac0-a3d0-46b3-ae5a-3440585d3a86 status=SUBSCRIBED
@@ -462,3 +462,13 @@
 [I] 06-22 23:57:30 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-23 00:08:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-23 00:08:24 BadgerService: Keepalive scheduled in 900s
+[I] 06-23 00:08:25 LogShipper: Shipped 463 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 06-23 00:10:22 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-23 00:10:32 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 06-23 00:10:32 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 06-23 00:10:50 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
+[E] 06-23 00:10:50 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 06-23 00:12:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #3 in 40s)
+[I] 06-23 00:12:46 BadgerService: Realtime subscribed OK -- badger-svc-1cb4ba92-8743-4cde-a8e9-b811fab8229c status=SUBSCRIBED
+[I] 06-23 00:23:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-23 00:23:24 BadgerService: Keepalive scheduled in 900s
