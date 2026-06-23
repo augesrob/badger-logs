@@ -1,265 +1,4 @@
-=== samsung SM-S938U | v162 | shipped 2026-06-22 19:45:38 ===
-[E] 06-19 13:09:23 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 06-19 13:10:45 BadgerService: Realtime subscribed OK -- badger-svc-dfb99b11-2d79-43f8-a972-853cb7f627e4 status=SUBSCRIBED
-[W] 06-19 13:16:22 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 06-19 13:16:22 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
-[I] 06-19 13:16:25 BadgerService: Realtime subscribed OK -- badger-svc-c2e59ba9-beef-4ca4-9eb1-67691d57d9ff status=SUBSCRIBED
-[E] 06-19 13:17:22 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 06-19 13:17:43 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
-[E] 06-19 13:17:44 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
-[E] 06-19 13:17:44 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[I] 06-19 13:18:01 BadgerService: Realtime subscribed OK -- badger-svc-107af1c9-0708-476d-97b9-ff4e0d2f53f8 status=SUBSCRIBED
-[I] 06-19 13:19:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 13:19:23 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 13:19:34 LogShipper: Shipped 482 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 13:34:23 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 13:34:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 13:34:26 LogShipper: Shipped 485 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 06-19 13:46:25 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
-[W] 06-19 13:47:07 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 06-19 13:47:07 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 1
-[E] 06-19 13:47:17 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 06-19 13:47:17 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 06-19 13:47:38 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
-[E] 06-19 13:47:38 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 06-19 13:48:09 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #3 in 40s)
-[E] 06-19 13:48:09 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 06-19 13:49:00 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #4 in 80s)
-[E] 06-19 13:49:00 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 06-19 13:49:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 13:49:23 BadgerService: Keepalive scheduled in 900s
-[W] 06-19 13:49:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-19 13:49:23 BadgerService: startRealtimeSync: in backoff for 56s more — skipping
-[E] 06-19 13:50:30 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #5 in 80s)
-[E] 06-19 13:50:30 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 06-19 13:52:01 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #6 in 80s)
-[E] 06-19 13:52:01 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 06-19 13:53:22 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #7 in 80s)
-[E] 06-19 13:53:22 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 06-19 13:54:42 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 06-19 13:54:42 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #8 in 80s)
-[E] 06-19 13:56:03 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #9 in 80s)
-[E] 06-19 13:56:03 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 06-19 13:57:24 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #10 in 80s)
-[E] 06-19 13:57:24 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[W] 06-19 13:57:43 BadgerService: startRealtimeSync: in backoff for 60s more — skipping
-[W] 06-19 13:57:43 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-19 13:58:44 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 06-19 13:58:44 BadgerService: Realtime: 11 consecutive failures — cooling down 5 min
-[E] 06-19 13:58:44 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #11 in 300s)
-[W] 06-19 14:00:27 BadgerService: startRealtimeSync: in backoff for 197s more — skipping
-[W] 06-19 14:00:27 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-19 14:03:45 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 06-19 14:03:45 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #12 in 300s)
-[E] 06-19 14:03:45 BadgerService: Realtime: 12 consecutive failures — cooling down 5 min
-[I] 06-19 14:04:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 14:04:23 BadgerService: Keepalive scheduled in 900s
-[W] 06-19 14:04:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-19 14:04:23 BadgerService: startRealtimeSync: in backoff for 261s more — skipping
-[W] 06-19 14:06:14 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-19 14:06:14 BadgerService: startRealtimeSync: in backoff for 151s more — skipping
-[I] 06-19 14:08:47 BadgerService: Realtime subscribed OK -- badger-svc-40fa36ea-d7aa-4460-888c-f40fa03cacf4 status=SUBSCRIBED
-[I] 06-19 14:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 14:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 14:19:25 LogShipper: Shipped 289 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 14:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 14:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 14:34:27 LogShipper: Shipped 292 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 14:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 14:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 14:49:25 LogShipper: Shipped 295 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 15:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 15:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 15:04:26 LogShipper: Shipped 298 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 15:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 15:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 15:19:25 LogShipper: Shipped 301 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 15:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 15:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 15:34:26 LogShipper: Shipped 304 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 15:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 15:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 15:49:25 LogShipper: Shipped 307 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 16:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 16:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 16:04:26 LogShipper: Shipped 310 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 16:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 16:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 16:19:25 LogShipper: Shipped 313 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 16:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 16:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 16:34:25 LogShipper: Shipped 316 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 16:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 16:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 16:49:26 LogShipper: Shipped 319 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 17:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 17:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 17:04:25 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 17:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 17:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 17:19:25 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 17:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 17:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 17:34:25 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 17:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 17:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 17:49:25 LogShipper: Shipped 331 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 18:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 18:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 18:04:25 LogShipper: Shipped 334 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 18:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 18:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 18:19:25 LogShipper: Shipped 337 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 18:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 18:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 18:34:25 LogShipper: Shipped 340 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 18:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 18:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 18:49:26 LogShipper: Shipped 343 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 19:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 19:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 19:04:25 LogShipper: Shipped 346 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 19:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 19:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 19:19:25 LogShipper: Shipped 349 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 19:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 19:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 19:34:25 LogShipper: Shipped 352 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 19:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 19:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 19:49:26 LogShipper: Shipped 355 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 20:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 20:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 20:04:25 LogShipper: Shipped 358 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 20:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 20:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 20:19:25 LogShipper: Shipped 361 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 20:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 20:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 20:34:25 LogShipper: Shipped 364 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 20:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 20:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 20:49:25 LogShipper: Shipped 367 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 21:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 21:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 21:04:25 LogShipper: Shipped 370 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 21:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 21:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 21:19:25 LogShipper: Shipped 373 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 21:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 21:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 21:34:25 LogShipper: Shipped 376 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 21:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 21:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 21:49:25 LogShipper: Shipped 377 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 22:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 22:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 22:04:25 LogShipper: Shipped 382 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 22:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 22:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 22:19:25 LogShipper: Shipped 385 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 22:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 22:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 22:34:25 LogShipper: Shipped 388 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 22:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 22:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 22:49:25 LogShipper: Shipped 391 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 23:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 23:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 23:04:25 LogShipper: Shipped 394 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 23:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 23:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 23:19:26 LogShipper: Shipped 397 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 23:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 23:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 23:34:25 LogShipper: Shipped 399 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-19 23:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-19 23:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-19 23:49:25 LogShipper: Shipped 403 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 00:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 00:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 00:04:25 LogShipper: Shipped 406 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 00:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 00:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 00:19:25 LogShipper: Shipped 409 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 00:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 00:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 00:34:25 LogShipper: Shipped 412 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 00:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 00:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 00:49:25 LogShipper: Shipped 415 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 01:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 01:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 01:04:25 LogShipper: Shipped 418 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 01:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 01:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 01:19:25 LogShipper: Shipped 421 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 01:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 01:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 01:34:25 LogShipper: Shipped 424 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 01:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 01:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 01:49:26 LogShipper: Shipped 427 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 02:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 02:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 02:04:26 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 02:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 02:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 02:19:26 LogShipper: Shipped 433 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 02:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 02:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 02:34:26 LogShipper: Shipped 436 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 02:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 02:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 02:49:26 LogShipper: Shipped 439 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 03:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 03:04:24 BadgerService: K
-[I] 06-20 05:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 05:19:26 LogShipper: Shipped 234 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 05:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 05:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 05:34:26 LogShipper: Shipped 225 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 05:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 05:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 05:49:25 LogShipper: Shipped 228 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 06:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 06:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 06:04:26 LogShipper: Shipped 231 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 06:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 06:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 06:19:26 LogShipper: Shipped 234 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 06:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 06:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 06:34:26 LogShipper: Shipped 237 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 06:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 06:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 06:49:26 LogShipper: Shipped 240 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 07:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 07:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 07:04:26 LogShipper: Shipped 243 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 07:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 07:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 07:19:26 LogShipper: Shipped 246 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 07:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 07:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 07:34:26 LogShipper: Shipped 249 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 07:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 07:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 07:49:26 LogShipper: Shipped 252 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 08:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 08:04:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 08:04:26 LogShipper: Shipped 255 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 08:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 08:19:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 08:19:26 LogShipper: Shipped 258 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 08:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 08:34:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 08:34:26 LogShipper: Shipped 261 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 08:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 08:49:24 BadgerService: Keepalive scheduled in 900s
-[I] 06-20 08:49:26 LogShipper: Shipped 264 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 06-20 09:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-20 09:04:24 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S938U | v162 | shipped 2026-06-22 20:13:20 ===
 [I] 06-20 09:04:26 LogShipper: Shipped 267 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 06-20 09:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-20 09:19:24 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +238,42 @@
 [I] 06-22 19:39:25 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-22 19:45:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-22 19:45:38 BadgerService: Keepalive scheduled in 900s
+[I] 06-22 19:45:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-22 19:57:42 AppUpdater: Checking via website (current=162)
+[I] 06-22 19:57:43 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 19:57:43 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 19:57:44 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 19:58:04 AppUpdater: Checking via website (current=162)
+[I] 06-22 19:58:04 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 19:58:04 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 19:58:04 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 19:58:18 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 06-22 19:58:20 MainActivity: BadgerService started (mic=true)
+[I] 06-22 19:58:20 AppUpdater: Checking via website (current=162)
+[I] 06-22 19:58:20 BadgerService: Keepalive scheduled in 900s
+[I] 06-22 19:58:20 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-22 19:58:20 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 19:58:20 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 19:58:20 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 19:58:21 BadgerService: Realtime subscribed OK -- badger-svc-6ee4ade2-07c3-4494-9d22-f5a76db2d333 status=SUBSCRIBED
+[I] 06-22 19:58:51 AppUpdater: Checking via website (current=162)
+[I] 06-22 19:58:51 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 19:58:51 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 19:58:51 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 19:59:40 AppUpdater: Checking via website (current=162)
+[I] 06-22 19:59:40 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 19:59:40 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 19:59:41 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[E] 06-22 19:59:42 Chat: realtime: The coroutine scope left the composition
+[I] 06-22 19:59:59 Movement: Truck 223-1 status → In Door
+[I] 06-22 19:59:59 BadgerRepo: updateMovementStatus OK â€” truck=223-1 statusId=1
+[I] 06-22 20:02:34 AppUpdater: Checking via website (current=162)
+[I] 06-22 20:02:34 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 20:02:34 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 20:02:35 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 20:03:25 AppUpdater: Checking via website (current=162)
+[I] 06-22 20:03:25 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-22 20:03:25 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-22 20:03:26 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-22 20:13:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-22 20:13:20 BadgerService: Keepalive scheduled in 900s
