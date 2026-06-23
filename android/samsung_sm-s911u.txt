@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v162 | shipped 2026-06-23 00:38:24 ===
+=== samsung SM-S911U | v162 | shipped 2026-06-23 00:53:24 ===
 [I] 06-18 01:45:17 BadgerService: Keepalive scheduled in 900s
 [I] 06-18 01:45:17 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 06-18 01:45:18 BadgerService: Realtime subscribed OK -- badger-svc-e3746ac0-a3d0-46b3-ae5a-3440585d3a86 status=SUBSCRIBED
@@ -481,3 +481,17 @@
 [I] 06-23 00:38:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-23 00:38:24 BadgerService: Keepalive scheduled in 900s
 [W] 06-23 00:38:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-23 00:38:24 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-23 00:38:25 LogShipper: Shipped 482 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-23 00:38:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 06-23 00:39:52 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 06-23 00:40:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 06-23 00:42:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 06-23 00:44:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 06-23 00:46:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 06-23 00:49:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 06-23 00:51:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[E] 06-23 00:51:09 BadgerService: Realtime: 11 consecutive failures — cooling down 5 min
+[I] 06-23 00:53:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-23 00:53:24 BadgerService: Keepalive scheduled in 900s
+[W] 06-23 00:53:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
