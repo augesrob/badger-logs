@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-25 00:18:08 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-25 00:33:08 ===
 [W] 06-23 17:13:19 AuthManager: JWT refresh failed: No refresh token found in current session
 [I] 06-23 17:13:19 AuthManager: Session expired — trying HWID silent login
 [I] 06-23 17:13:19 AuthManager: HWID silent login for millerjo1986@gmail.com
@@ -387,3 +387,14 @@
 [I] 06-25 00:04:26 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-25 00:18:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-25 00:18:08 BadgerService: Keepalive scheduled in 900s
+[I] 06-25 00:18:10 LogShipper: Shipped 388 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-25 00:22:40 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-25 00:22:40 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[I] 06-25 00:22:52 BadgerService: Realtime subscribed OK -- badger-svc-e8aa6cd2-3895-452f-aae9-0a76e9b659bd status=SUBSCRIBED
+[W] 06-25 00:30:49 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-25 00:31:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-25 00:32:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[I] 06-25 00:33:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-25 00:33:08 BadgerService: Keepalive scheduled in 900s
+[W] 06-25 00:33:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-25 00:33:08 BadgerService: startRealtimeSync skipped -- already restarting
