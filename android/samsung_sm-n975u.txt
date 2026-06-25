@@ -1,84 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-25 06:36:08 ===
-[I] 06-24 23:48:09 LogShipper: Shipped 364 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-24 23:51:38 AppUpdater: Checking via website (current=162)
-[I] 06-24 23:51:38 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-24 23:51:38 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-24 23:51:39 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-24 23:56:38 AppUpdater: Checking via website (current=162)
-[I] 06-24 23:56:38 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-24 23:56:38 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-24 23:56:39 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-24 23:59:25 AppUpdater: Checking via website (current=162)
-[I] 06-24 23:59:25 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-24 23:59:25 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-24 23:59:26 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-25 00:01:20 Movement: Truck 243 status → In Front
-[I] 06-25 00:01:20 BadgerRepo: updateMovementStatus OK â€” truck=243 statusId=4
-[I] 06-25 00:03:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-25 00:03:08 BadgerService: Keepalive scheduled in 900s
-[I] 06-25 00:03:09 LogShipper: Shipped 381 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-25 00:04:25 AppUpdater: Checking via website (current=162)
-[I] 06-25 00:04:25 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-25 00:04:25 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-25 00:04:26 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-25 00:18:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-25 00:18:08 BadgerService: Keepalive scheduled in 900s
-[I] 06-25 00:18:10 LogShipper: Shipped 388 log lines to badger-logs/android/samsung_sm-n975u.txt
-[W] 06-25 00:22:40 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 06-25 00:22:40 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
-[I] 06-25 00:22:52 BadgerService: Realtime subscribed OK -- badger-svc-e8aa6cd2-3895-452f-aae9-0a76e9b659bd status=SUBSCRIBED
-[W] 06-25 00:30:49 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 06-25 00:31:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[E] 06-25 00:32:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
-[I] 06-25 00:33:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-25 00:33:08 BadgerService: Keepalive scheduled in 900s
-[W] 06-25 00:33:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-25 00:33:08 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-25 00:33:09 LogShipper: Shipped 399 log lines to badger-logs/android/samsung_sm-n975u.txt
-[E] 06-25 00:33:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
-[I] 06-25 00:33:54 AppUpdater: Checking via website (current=162)
-[I] 06-25 00:33:54 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-25 00:33:54 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-25 00:33:55 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-25 00:34:03 Movement: Truck 248-2 status → 8
-[I] 06-25 00:34:03 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=11
-[I] 06-25 00:34:19 BadgerService: Realtime subscribed OK -- badger-svc-542ea3fb-cc07-4718-b9d0-549e887293e0 status=SUBSCRIBED
-[I] 06-25 00:34:20 TTS: TTS DISABLED
-[I] 06-25 00:34:21 TTS: TTS ENABLED
-[I] 06-25 00:37:00 AppUpdater: Checking via website (current=162)
-[I] 06-25 00:37:00 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-25 00:37:00 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-25 00:37:01 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-25 00:39:00 Movement: Door 14A status → Loading
-[I] 06-25 00:39:00 BadgerRepo: updateDoorStatus OK â€” id=3 status=Loading
-[I] 06-25 00:39:02 Movement: Truck 187-2 status → In Door
-[I] 06-25 00:39:02 BadgerRepo: updateMovementStatus OK â€” truck=187-2 statusId=1
-[I] 06-25 00:41:42 Movement: Truck 186-1 status → 10
-[I] 06-25 00:41:42 BadgerRepo: updateMovementStatus OK â€” truck=186-1 statusId=13
-[I] 06-25 00:42:00 AppUpdater: Checking via website (current=162)
-[I] 06-25 00:42:00 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-25 00:42:00 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-25 00:42:01 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-25 00:42:55 Movement: Truck 223-2 status → In Door
-[I] 06-25 00:42:55 BadgerRepo: updateMovementStatus OK â€” truck=223-2 statusId=1
-[I] 06-25 00:42:56 Movement: Door 14B status → Loading
-[I] 06-25 00:42:56 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
-[I] 06-25 00:47:00 AppUpdater: Checking via website (current=162)
-[I] 06-25 00:47:00 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-25 00:47:00 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-25 00:47:01 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-25 00:48:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-25 00:48:08 BadgerService: Keepalive scheduled in 900s
-[I] 06-25 00:48:10 LogShipper: Shipped 434 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-25 00:51:12 Movement: Truck 195 status → In Front
-[I] 06-25 00:51:12 BadgerRepo: updateMovementStatus OK â€” truck=195 statusId=4
-[I] 06-25 00:52:00 AppUpdater: Checking via website (current=162)
-[I] 06-25 00:52:00 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-25 00:52:00 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-25 00:52:01 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-25 00:55:19 AppUpdater: Checking via website (current=162)
-[I] 06-25 00:55:19 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-25 00:55:19 AppUpdater: Checking via GitHub direct (current=162)
+=== samsung SM-N975U | v162 | shipped 2026-06-25 17:28:41 ===
 [I] 06-25 00:55:20 AppUpdater: Up to date via GitHub (current=162 latest=162)
 [I] 06-25 00:57:46 Movement: Truck 215 status → In Front
 [I] 06-25 00:57:46 BadgerRepo: updateMovementStatus OK â€” truck=215 statusId=4
@@ -499,3 +419,83 @@
 [I] 06-25 06:36:08 BadgerService: Keepalive scheduled in 900s
 [W] 06-25 06:36:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-25 06:36:08 BadgerService: startRealtimeSync: in backoff for 244s more — skipping
+[I] 06-25 06:36:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 06-25 06:40:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[E] 06-25 06:40:58 BadgerService: Realtime: 13 consecutive failures — cooling down 5 min
+[I] 06-25 06:46:09 TTS: TTS DISABLED
+[I] 06-25 06:46:11 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 06-25 07:08:24 BadgerApp: App started v162 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-25 07:08:24 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 06-25 07:08:24 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-25 07:08:24 AuthManager: Session expired — trying HWID silent login
+[I] 06-25 07:08:25 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 06-25 07:08:26 AuthManager: Sign in OK — joemiller role=admin
+[I] 06-25 07:08:26 AuthManager: HWID silent login OK
+[I] 06-25 07:08:26 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 06-25 16:29:56 BadgerApp: App started v162 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-25 16:29:56 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 06-25 16:29:56 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-25 16:29:56 AuthManager: Session expired — trying HWID silent login
+[I] 06-25 16:29:56 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 06-25 16:30:01 AuthManager: Sign in OK — joemiller role=admin
+[I] 06-25 16:30:01 AuthManager: HWID silent login OK
+[I] 06-25 16:30:04 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 06-25 17:13:41 MainActivity: BadgerService started (mic=true)
+[I] 06-25 17:13:41 AppUpdater: Checking via website (current=162)
+[I] 06-25 17:13:41 BadgerService: Keepalive scheduled in 900s
+[I] 06-25 17:13:41 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-25 17:13:42 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-25 17:13:42 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-25 17:13:42 BadgerService: Realtime subscribed OK -- badger-svc-d4d7d673-dd8c-439e-9978-2ef8b9a84c33 status=SUBSCRIBED
+[I] 06-25 17:13:43 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-25 17:13:43 TTS: TTS DISABLED
+[I] 06-25 17:13:50 PreShift: Truck 151 staged at door 28B front
+[I] 06-25 17:13:53 PreShift: Truck 170 staged at door 28B back
+[I] 06-25 17:13:54 PreShift: Truck 121 staged at door 28A front
+[I] 06-25 17:13:58 PreShift: Truck 666-666 staged at door 28A back
+[I] 06-25 17:14:04 PreShift: Truck 215 staged at door 27B back
+[I] 06-25 17:14:08 PreShift: Truck 143 staged at door 27A back
+[I] 06-25 17:14:21 PreShift: Truck 126 staged at door 27A front
+[I] 06-25 17:14:26 PreShift: Truck 128 staged at door 26B back
+[I] 06-25 17:14:30 PreShift: Truck 148 staged at door 26B front
+[I] 06-25 17:14:32 PreShift: Truck 158 staged at door 26A back
+[I] 06-25 17:14:36 PreShift: Truck 244 staged at door 26A front
+[I] 06-25 17:14:39 PreShift: Truck 173 staged at door 25B back
+[I] 06-25 17:14:44 PreShift: Truck 212 staged at door 25B front
+[I] 06-25 17:14:48 PreShift: Truck 159 staged at door 25A back
+[I] 06-25 17:14:53 PreShift: Truck 160 staged at door 25A front
+[I] 06-25 17:14:57 PreShift: Truck 245 staged at door 24B back
+[I] 06-25 17:15:01 PreShift: Truck 194 staged at door 24A back
+[I] 06-25 17:15:07 PreShift: Truck 199 staged at door 24B front
+[I] 06-25 17:15:14 PreShift: Truck 213 staged at door 23B back
+[I] 06-25 17:15:23 PreShift: Truck 246 staged at door 23B front
+[I] 06-25 17:15:30 PreShift: Truck 195 staged at door 23A back
+[I] 06-25 17:15:40 PreShift: Truck 192 staged at door 23A front
+[I] 06-25 17:15:46 PreShift: Truck 141 staged at door 22B back
+[I] 06-25 17:15:48 PreShift: Truck 230 staged at door 22A back
+[I] 06-25 17:15:53 PreShift: Truck 242 staged at door 21B back
+[I] 06-25 17:15:55 PreShift: Truck 230 staged at door 22A front
+[I] 06-25 17:15:58 PreShift: Truck 241 staged at door 21B front
+[I] 06-25 17:16:00 PreShift: Truck 240 staged at door 21A front
+[I] 06-25 17:16:05 PreShift: Truck 130 staged at door 20B front
+[I] 06-25 17:16:12 PreShift: Truck 216 staged at door 19B front
+[I] 06-25 17:16:15 PreShift: Truck 119 staged at door 18B front
+[I] 06-25 17:17:16 AppUpdater: Checking via website (current=162)
+[I] 06-25 17:17:16 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-25 17:17:16 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-25 17:17:17 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-25 17:17:22 PreShift: Truck 152 staged at door 18A front
+[W] 06-25 17:17:54 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 06-25 17:17:56 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-25 17:17:56 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 06-25 17:18:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-25 17:18:55 BadgerService: Realtime subscribed OK -- badger-svc-ba7ae058-f964-42b4-8b26-4bc8146d9c8d status=SUBSCRIBED
+[I] 06-25 17:25:38 AppUpdater: Checking via website (current=162)
+[I] 06-25 17:25:39 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-25 17:25:39 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-25 17:25:39 AppUpdater: Update found via GitHub: access-v164 (current=162)
+[I] 06-25 17:25:39 MainActivity: Auto-downloading access-v164
+[I] 06-25 17:25:39 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v164/badger-access-access-v164.apk
+[I] 06-25 17:25:49 AppUpdater: Downloaded 16358838 bytes
+[I] 06-25 17:28:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-25 17:28:41 BadgerService: Keepalive scheduled in 900s
