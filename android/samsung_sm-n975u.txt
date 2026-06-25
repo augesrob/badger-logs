@@ -1,16 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-25 06:18:08 ===
-[I] 06-24 23:31:21 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-24 23:31:22 AppUpdater: Up to date via GitHub (current=162 latest=162)
-[I] 06-24 23:33:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-24 23:33:08 BadgerService: Keepalive scheduled in 900s
-[W] 06-24 23:33:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-24 23:33:08 BadgerService: startRealtimeSync: in backoff for 44s more — skipping
-[I] 06-24 23:33:14 LogShipper: Shipped 344 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-24 23:33:54 BadgerService: Realtime subscribed OK -- badger-svc-7fe558dc-bd8e-4720-bc36-ee4081a6b9d1 status=SUBSCRIBED
-[I] 06-24 23:34:05 AppUpdater: Checking via website (current=162)
-[I] 06-24 23:34:05 AppUpdater: Checking via GitHub direct (current=162)
-[I] 06-24 23:34:05 AppUpdater: Up to date via website (current=162 latest=162)
-[I] 06-24 23:34:06 AppUpdater: Up to date via GitHub (current=162 latest=162)
+=== samsung SM-N975U | v162 | shipped 2026-06-25 06:21:07 ===
 [I] 06-24 23:38:45 AppUpdater: Checking via website (current=162)
 [I] 06-24 23:38:45 AppUpdater: Checking via GitHub direct (current=162)
 [I] 06-24 23:38:45 AppUpdater: Up to date via website (current=162 latest=162)
@@ -499,3 +487,15 @@
 [E] 06-25 06:18:01 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
 [I] 06-25 06:18:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-25 06:18:08 BadgerService: Keepalive scheduled in 900s
+[W] 06-25 06:18:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-25 06:18:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 06-25 06:18:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[W] 06-25 06:20:50 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-25 06:20:50 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 06-25 06:21:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[W] 06-25 06:21:02 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-25 06:21:02 BadgerService: Keepalive scheduled in 2s
+[I] 06-25 06:21:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-25 06:21:07 BadgerService: Keepalive scheduled in 900s
+[W] 06-25 06:21:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-25 06:21:07 BadgerService: startRealtimeSync: in backoff for 73s more — skipping
