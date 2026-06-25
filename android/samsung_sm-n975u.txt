@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v165 | shipped 2026-06-25 18:13:14 ===
+=== samsung SM-N975U | v165 | shipped 2026-06-25 18:28:14 ===
 [I] 06-25 02:57:15 AppUpdater: Checking via website (current=162)
 [I] 06-25 02:57:15 AppUpdater: Checking via GitHub direct (current=162)
 [I] 06-25 02:57:15 AppUpdater: Up to date via website (current=162 latest=162)
@@ -419,3 +419,30 @@
 [I] 06-25 18:11:54 PreShift: Truck cleared from door 23A front
 [I] 06-25 18:13:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-25 18:13:14 BadgerService: Keepalive scheduled in 900s
+[I] 06-25 18:13:15 LogShipper: Shipped 420 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-25 18:20:31 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[I] 06-25 18:20:33 BadgerService: Realtime subscribed OK -- badger-svc-925deb04-372f-4b22-863a-bdebc64b36bd status=SUBSCRIBED
+[I] 06-25 18:20:39 AppUpdater: Checking via website (current=165)
+[I] 06-25 18:20:39 AppUpdater: Update found via website: access-v167
+[I] 06-25 18:20:48 PreShift: Truck 183 staged at door 19A front
+[I] 06-25 18:20:54 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":2,"printroomUpdated":0,"printroomCreated":9,"movementAdded":8}
+[I] 06-25 18:21:00 PreShift: Truck cleared from door 22A front
+[I] 06-25 18:22:59 AppUpdater: Checking via website (current=165)
+[I] 06-25 18:23:00 AppUpdater: Update found via website: access-v167
+[I] 06-25 18:23:06 PreShift: Truck 228 staged at door 22A front
+[I] 06-25 18:23:33 AppUpdater: Checking via website (current=165)
+[I] 06-25 18:23:33 AppUpdater: Update found via website: access-v167
+[I] 06-25 18:23:47 Movement: Truck 248-1 status → In Door
+[I] 06-25 18:23:48 BadgerRepo: updateMovementStatus OK â€” truck=248-1 statusId=1
+[I] 06-25 18:24:57 Movement: Truck 187-1 status → In Door
+[I] 06-25 18:24:57 BadgerRepo: updateMovementStatus OK â€” truck=187-1 statusId=1
+[I] 06-25 18:25:25 Movement: Truck 231-1 status → In Door
+[I] 06-25 18:25:25 BadgerRepo: updateMovementStatus OK â€” truck=231-1 statusId=1
+[I] 06-25 18:25:29 Movement: Truck 223-1 status → In Door
+[I] 06-25 18:25:29 BadgerRepo: updateMovementStatus OK â€” truck=223-1 statusId=1
+[I] 06-25 18:25:31 Movement: Truck 222-1 status → In Door
+[I] 06-25 18:25:32 BadgerRepo: updateMovementStatus OK â€” truck=222-1 statusId=1
+[I] 06-25 18:25:34 Movement: Truck 189-1 status → In Door
+[I] 06-25 18:25:34 BadgerRepo: updateMovementStatus OK â€” truck=189-1 statusId=1
+[I] 06-25 18:28:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-25 18:28:14 BadgerService: Keepalive scheduled in 900s
