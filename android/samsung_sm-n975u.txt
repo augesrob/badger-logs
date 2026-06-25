@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-24 22:03:08 ===
+=== samsung SM-N975U | v162 | shipped 2026-06-24 22:18:08 ===
 [W] 06-23 17:13:19 AuthManager: JWT refresh failed: No refresh token found in current session
 [I] 06-23 17:13:19 AuthManager: Session expired — trying HWID silent login
 [I] 06-23 17:13:19 AuthManager: HWID silent login for millerjo1986@gmail.com
@@ -254,3 +254,37 @@
 [I] 06-24 22:00:05 BadgerService: Realtime subscribed OK -- badger-svc-675a3bd3-ad00-4618-b1dd-6279b1f03612 status=SUBSCRIBED
 [I] 06-24 22:03:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-24 22:03:08 BadgerService: Keepalive scheduled in 900s
+[I] 06-24 22:03:09 LogShipper: Shipped 255 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 06-24 22:05:42 AppUpdater: Checking via website (current=162)
+[I] 06-24 22:05:44 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-24 22:05:44 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-24 22:05:44 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-24 22:05:55 Movement: Truck 186-2 status → In Door
+[I] 06-24 22:05:55 BadgerRepo: updateMovementStatus OK â€” truck=186-2 statusId=1
+[I] 06-24 22:05:56 Movement: Door 15B status → Loading
+[I] 06-24 22:05:56 BadgerRepo: updateDoorStatus OK â€” id=6 status=Loading
+[I] 06-24 22:05:58 Movement: Truck 189-1 status → On Route
+[I] 06-24 22:05:58 BadgerRepo: updateMovementStatus OK â€” truck=189-1 statusId=3
+[I] 06-24 22:06:31 Movement: Truck 248-2 status → In Door
+[I] 06-24 22:06:31 BadgerRepo: updateMovementStatus OK â€” truck=248-2 statusId=1
+[I] 06-24 22:06:33 Movement: Truck 188-1 status → On Route
+[I] 06-24 22:06:33 BadgerRepo: updateMovementStatus OK â€” truck=188-1 statusId=3
+[I] 06-24 22:06:35 Movement: Door 13B status → Loading
+[I] 06-24 22:06:35 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
+[W] 06-24 22:08:24 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 06-24 22:08:24 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[W] 06-24 22:08:26 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 06-24 22:09:04 AppUpdater: Checking via website (current=162)
+[I] 06-24 22:09:04 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-24 22:09:04 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-24 22:09:05 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[E] 06-24 22:09:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 06-24 22:09:13 Movement: Truck 240 status → In Front
+[I] 06-24 22:09:13 BadgerRepo: updateMovementStatus OK â€” truck=240 statusId=4
+[I] 06-24 22:09:24 BadgerService: Realtime subscribed OK -- badger-svc-59225a94-97ed-4d86-a4c0-207c920377be status=SUBSCRIBED
+[I] 06-24 22:12:48 AppUpdater: Checking via website (current=162)
+[I] 06-24 22:12:49 AppUpdater: Checking via GitHub direct (current=162)
+[I] 06-24 22:12:49 AppUpdater: Up to date via website (current=162 latest=162)
+[I] 06-24 22:12:49 AppUpdater: Up to date via GitHub (current=162 latest=162)
+[I] 06-24 22:18:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-24 22:18:08 BadgerService: Keepalive scheduled in 900s
