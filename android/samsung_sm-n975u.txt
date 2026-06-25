@@ -1,9 +1,4 @@
-=== samsung SM-N975U | v162 | shipped 2026-06-24 20:33:08 ===
-[I] 06-19 01:16:47 BadgerRepo: updateMovementStatus OK â€” truck=199 statusId=1
-[I] 06-19 01:16:48 Movement: Door 13B status → Loading
-[I] 06-19 01:16:48 BadgerRepo: updateDoorStatus OK â€” id=2 status=Loading
-[I] 06-19 01:18:46 Movement: Truck 159 status → Put Away
-[I] 06-19 01:18:46 BadgerRepo: updateMovementStatus OK â€” truck=159 statusId=2
+=== samsung SM-N975U | v162 | shipped 2026-06-24 20:48:08 ===
 [I] 06-19 01:20:30 Movement: Truck 240 status → In Front
 [I] 06-19 01:20:30 BadgerRepo: updateMovementStatus OK â€” truck=240 statusId=4
 [I] 06-19 01:21:18 AppUpdater: Checking via website (current=162)
@@ -499,3 +494,8 @@
 [I] 06-24 20:32:55 BadgerService: Realtime subscribed OK -- badger-svc-007a2874-8ee2-40b2-b696-1309d760dde8 status=SUBSCRIBED
 [I] 06-24 20:33:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-24 20:33:08 BadgerService: Keepalive scheduled in 900s
+[I] 06-24 20:33:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-24 20:46:34 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 06-24 20:46:42 BadgerService: Realtime subscribed OK -- badger-svc-2cc23e35-7bc1-40f8-9b32-86c1c7bd3490 status=SUBSCRIBED
+[I] 06-24 20:48:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-24 20:48:08 BadgerService: Keepalive scheduled in 900s
