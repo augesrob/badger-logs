@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v178 | shipped 2026-06-26 16:50:17 ===
+=== samsung SM-S938U | v178 | shipped 2026-06-26 17:05:17 ===
 [I] 06-26 03:30:10 AppUpdater: Checking via GitHub direct (current=167)
 [I] 06-26 03:30:10 AppUpdater: Up to date via GitHub (current=167 latest=167)
 [I] 06-26 03:37:57 AppUpdater: Checking via website (current=167)
@@ -327,3 +327,23 @@
 [I] 06-26 16:50:17 BadgerService: Keepalive scheduled in 900s
 [W] 06-26 16:50:17 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-26 16:50:17 BadgerService: startRealtimeSync: in backoff for 189s more � skipping
+[I] 06-26 16:50:18 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-26 16:52:16 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
+[W] 06-26 16:52:16 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 06-26 16:54:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #50 in 300s)
+[E] 06-26 16:54:12 BadgerService: Realtime: 50 consecutive failures � cooling down 5 min
+[E] 06-26 16:59:58 BadgerService: Realtime: 51 consecutive failures � cooling down 5 min
+[E] 06-26 16:59:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #51 in 300s)
+[I] 06-26 17:05:17 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-26 17:05:17 BadgerApp: App started v178 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 06-26 17:05:17 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 06-26 17:05:17 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-26 17:05:17 AuthManager: Session expired — trying HWID silent login
+[I] 06-26 17:05:17 BadgerService: Keepalive scheduled in 900s
+[I] 06-26 17:05:17 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-26 17:05:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-26 17:05:17 BadgerService: Keepalive scheduled in 900s
+[W] 06-26 17:05:17 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-26 17:05:17 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[W] 06-26 17:05:17 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-26 17:05:17 AuthManager: HWID silent login for rfa1991@gmail.com
