@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v167 | shipped 2026-06-26 00:04:19 ===
+=== samsung SM-N975U | v167 | shipped 2026-06-26 00:19:19 ===
 [I] 06-25 19:58:54 AuthManager: Sign in OK — joemiller role=admin
 [I] 06-25 19:58:54 AuthManager: HWID silent login OK
 [I] 06-25 19:58:54 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
@@ -284,3 +284,8 @@
 [I] 06-26 00:00:01 BadgerService: Realtime subscribed OK -- badger-svc-eab0100d-9d98-474f-91b9-8ddcd644ba2a status=SUBSCRIBED
 [I] 06-26 00:04:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-26 00:04:19 BadgerService: Keepalive scheduled in 900s
+[W] 06-26 00:04:48 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
+[E] 06-26 00:04:48 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[I] 06-26 00:04:51 BadgerService: Realtime subscribed OK -- badger-svc-d336d575-4969-4576-8ba8-963105ddf302 status=SUBSCRIBED
+[I] 06-26 00:19:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-26 00:19:19 BadgerService: Keepalive scheduled in 900s
