@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v167 | shipped 2026-06-25 22:34:19 ===
+=== samsung SM-N975U | v167 | shipped 2026-06-25 22:49:19 ===
 [I] 06-25 19:58:54 AuthManager: Sign in OK — joemiller role=admin
 [I] 06-25 19:58:54 AuthManager: HWID silent login OK
 [I] 06-25 19:58:54 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
@@ -191,3 +191,25 @@
 [I] 06-25 22:31:24 WatchNotif: Sent to watch: Truck 187-2 - In Front → In Door
 [I] 06-25 22:34:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-25 22:34:19 BadgerService: Keepalive scheduled in 900s
+[I] 06-25 22:34:20 LogShipper: Shipped 192 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 06-25 22:35:31 WatchNotif: Sent to watch: Truck 223-1 - On Route → 9
+[I] 06-25 22:35:55 AppUpdater: Checking via website (current=167)
+[I] 06-25 22:35:55 AppUpdater: Checking via GitHub direct (current=167)
+[I] 06-25 22:35:55 AppUpdater: Up to date via website (current=167 latest=167)
+[I] 06-25 22:35:56 AppUpdater: Up to date via GitHub (current=167 latest=167)
+[I] 06-25 22:38:47 Movement: Door 14B status → Move to Receiving
+[I] 06-25 22:38:47 BadgerRepo: updateDoorStatus OK â€” id=4 status=Move to Receiving
+[I] 06-25 22:40:55 AppUpdater: Checking via website (current=167)
+[I] 06-25 22:40:55 AppUpdater: Up to date via website (current=167 latest=167)
+[I] 06-25 22:40:55 AppUpdater: Checking via GitHub direct (current=167)
+[I] 06-25 22:40:56 AppUpdater: Up to date via GitHub (current=167 latest=167)
+[W] 06-25 22:42:50 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-25 22:43:01 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 06-25 22:43:01 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 06-25 22:43:12 BadgerService: Realtime subscribed OK -- badger-svc-17f3a950-6693-483c-8aff-36eb7d0ea236 status=SUBSCRIBED
+[I] 06-25 22:45:55 AppUpdater: Checking via website (current=167)
+[I] 06-25 22:45:56 AppUpdater: Up to date via website (current=167 latest=167)
+[I] 06-25 22:45:56 AppUpdater: Checking via GitHub direct (current=167)
+[I] 06-25 22:45:57 AppUpdater: Up to date via GitHub (current=167 latest=167)
+[I] 06-25 22:49:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-25 22:49:19 BadgerService: Keepalive scheduled in 900s
