@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v167 | shipped 2026-06-25 23:49:19 ===
+=== samsung SM-N975U | v167 | shipped 2026-06-26 00:04:19 ===
 [I] 06-25 19:58:54 AuthManager: Sign in OK — joemiller role=admin
 [I] 06-25 19:58:54 AuthManager: HWID silent login OK
 [I] 06-25 19:58:54 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
@@ -277,3 +277,10 @@
 [I] 06-25 23:47:40 AppUpdater: Up to date via GitHub (current=167 latest=167)
 [I] 06-25 23:49:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-25 23:49:19 BadgerService: Keepalive scheduled in 900s
+[I] 06-25 23:49:24 LogShipper: Shipped 278 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-25 23:59:38 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-25 23:59:49 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 06-25 23:59:49 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 06-26 00:00:01 BadgerService: Realtime subscribed OK -- badger-svc-eab0100d-9d98-474f-91b9-8ddcd644ba2a status=SUBSCRIBED
+[I] 06-26 00:04:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-26 00:04:19 BadgerService: Keepalive scheduled in 900s
