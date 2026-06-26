@@ -1,19 +1,4 @@
-=== samsung SM-S938U | v167 | shipped 2026-06-25 23:11:27 ===
-[I] 06-25 17:38:43 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 06-25 17:38:44 BadgerService: Realtime subscribed OK -- badger-svc-3034cd4f-d012-447d-9093-ae87c7895caf status=SUBSCRIBED
-[I] 06-25 17:38:45 AppUpdater: Up to date via GitHub (current=164 latest=164)
-[I] 06-25 17:44:48 AppUpdater: Checking via website (current=164)
-[I] 06-25 17:44:49 AppUpdater: Up to date via website (current=164 latest=164)
-[I] 06-25 17:44:49 AppUpdater: Checking via GitHub direct (current=164)
-[I] 06-25 17:44:49 AppUpdater: Up to date via GitHub (current=164 latest=164)
-[I] 06-25 17:44:51 Movement: Door 13A status → Change Truck/Trailer
-[I] 06-25 17:44:51 BadgerRepo: updateDoorStatus OK â€” id=1 status=Change Truck/Trailer
-[I] 06-25 17:44:56 Movement: Door 13A status → Loading
-[I] 06-25 17:44:56 BadgerRepo: updateDoorStatus OK â€” id=1 status=Loading
-[I] 06-25 17:47:25 AppUpdater: Checking via website (current=164)
-[I] 06-25 17:47:25 AppUpdater: Up to date via website (current=164 latest=164)
-[I] 06-25 17:47:25 AppUpdater: Checking via GitHub direct (current=164)
-[I] 06-25 17:47:25 AppUpdater: Up to date via GitHub (current=164 latest=164)
+=== samsung SM-S938U | v167 | shipped 2026-06-25 23:26:27 ===
 [I] 06-25 17:47:38 AppUpdater: Checking via website (current=164)
 [I] 06-25 17:47:38 AppUpdater: Up to date via website (current=164 latest=164)
 [I] 06-25 17:47:38 AppUpdater: Checking via GitHub direct (current=164)
@@ -499,3 +484,18 @@
 [I] 06-25 23:11:27 BadgerService: Keepalive scheduled in 900s
 [W] 06-25 23:11:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-25 23:11:27 BadgerService: startRealtimeSync: in backoff for 11s more — skipping
+[I] 06-25 23:11:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-25 23:12:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 06-25 23:13:44 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 06-25 23:14:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[I] 06-25 23:15:14 AppUpdater: Checking via website (current=167)
+[I] 06-25 23:15:15 AppUpdater: Checking via GitHub direct (current=167)
+[I] 06-25 23:15:15 AppUpdater: Up to date via website (current=167 latest=167)
+[I] 06-25 23:15:16 AppUpdater: Up to date via GitHub (current=167 latest=167)
+[I] 06-25 23:15:52 BadgerService: Realtime subscribed OK -- badger-svc-ba3c3589-3f80-454d-9769-1e8aefbdd976 status=SUBSCRIBED
+[I] 06-25 23:16:55 AppUpdater: Checking via website (current=167)
+[I] 06-25 23:16:55 AppUpdater: Up to date via website (current=167 latest=167)
+[I] 06-25 23:16:55 AppUpdater: Checking via GitHub direct (current=167)
+[I] 06-25 23:16:55 AppUpdater: Up to date via GitHub (current=167 latest=167)
+[I] 06-25 23:26:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-25 23:26:27 BadgerService: Keepalive scheduled in 900s
