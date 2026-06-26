@@ -1,0 +1,4 @@
+=== Google sdk_gphone64_x86_64 | v168 | shipped 2026-06-26 17:17:06 ===
+[I] 06-26 17:17:05 BadgerApp: App started v168 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-26 17:17:05 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[E] 06-26 17:17:06 CRASH: RuntimeException: Unable to start receiver com.badger.trucks.BootReceiver: android.app.BackgroundServiceStartNotAllowedException: Not allowed to start service Intent { cmp=com.badger.access/com.badger.trucks.service.BadgerService }: app is in background uid UidRecord{83f2296 u0a217 RCVR bg:+1s516ms idle change:uncachedprocstate procs:0 seq(1364,1364)} caps=------- | ActivityThread.handleReceiver:4781 ← ActivityThread.-$$Nest$mhandleReceiver:0 ← ActivityThread$H.handleMessage:2436 ← Handler.dispatchMessage:107 ← Looper.loopOnce:232 ← Looper.loop:317 ← ActivityThread.main:8705 ← Method.invoke:-2
