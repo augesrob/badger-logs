@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v184 | shipped 2026-06-28 02:50:14 ===
+=== samsung SM-S938U | v184 | shipped 2026-06-28 10:52:31 ===
 [W] 06-26 16:05:17 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-26 16:05:17 BadgerService: startRealtimeSync: in backoff for 119s more � skipping
 [I] 06-26 16:05:18 LogShipper: Shipped 294 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -418,3 +418,27 @@
 [I] 06-28 02:36:51 WatchNotif: ? Successfully sent to watch: Truck 130 - Put Away ? In Door
 [I] 06-28 02:50:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-28 02:50:14 BadgerService: Keepalive scheduled in 900s
+[I] 06-28 02:50:16 LogShipper: Shipped 419 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-28 10:22:30 BadgerApp: App started v184 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-28 10:22:30 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 06-28 10:22:30 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 06-28 10:22:30 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-28 10:22:30 AuthManager: Session expired — trying HWID silent login
+[I] 06-28 10:22:30 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 06-28 10:22:31 BadgerService: Keepalive scheduled in 900s
+[I] 06-28 10:22:31 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-28 10:22:31 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 06-28 10:22:31 BadgerRepo: ? updateFCMToken failed: Element class kotlinx.serialization.json.JsonLiteral is not a JsonObject
+[I] 06-28 10:22:32 AuthManager: Sign in OK — augesrob role=admin
+[I] 06-28 10:22:32 AuthManager: HWID silent login OK
+[I] 06-28 10:22:32 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 06-28 10:22:32 BadgerService: Realtime subscribed OK -- badger-svc-2f855c6c-5a78-4e61-8da5-13a20987abc0 status=SUBSCRIBED
+[I] 06-28 10:37:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-28 10:37:31 BadgerService: Keepalive scheduled in 900s
+[W] 06-28 10:37:33 LogShipper: Ship failed HTTP 409: {"message":"is at cbe61c1a388d02bcb596bf810bb4939ad66d80b0 but expected 9f885bc7bbe57721c90f742fb36b99b71f8735d9","docum
+[I] 06-28 10:43:08 AppUpdater: Checking via website (current=184)
+[I] 06-28 10:43:10 AppUpdater: Up to date via website (current=184 latest=184)
+[I] 06-28 10:43:10 AppUpdater: Checking via GitHub direct (current=184)
+[I] 06-28 10:43:11 AppUpdater: Up to date via GitHub (current=184 latest=184)
+[I] 06-28 10:52:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-28 10:52:31 BadgerService: Keepalive scheduled in 900s
