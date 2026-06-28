@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v194 | shipped 2026-06-28 17:55:28 ===
+=== samsung SM-S938U | v194 | shipped 2026-06-28 18:10:28 ===
 [I] 06-28 02:18:05 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
 [E] 06-28 02:18:05 BadgerRepo: ? updateFCMToken failed: Element class kotlinx.serialization.json.JsonLiteral is not a JsonObject
 [I] 06-28 02:18:05 BadgerService: Realtime subscribed OK -- badger-svc-7f24a75d-09b4-4d65-81f3-648ab6e1c227 status=SUBSCRIBED
@@ -478,3 +478,18 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-28 17:51:36 WatchNotif: ? Successfully sent to watch: Truck 188-1 - Transfer ? In Door
 [I] 06-28 17:55:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-28 17:55:28 BadgerService: Keepalive scheduled in 900s
+[I] 06-28 17:55:30 LogShipper: Shipped 479 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-28 17:57:40 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-28 17:58:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-28 17:59:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-28 18:00:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-28 18:01:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 06-28 18:04:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 06-28 18:06:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[I] 06-28 18:07:07 AppUpdater: Checking via website (current=194)
+[I] 06-28 18:07:08 AppUpdater: Up to date via website (current=194 latest=194)
+[I] 06-28 18:07:08 AppUpdater: Checking via GitHub direct (current=194)
+[I] 06-28 18:07:09 AppUpdater: Up to date via GitHub (current=194 latest=194)
+[I] 06-28 18:07:28 BadgerService: Realtime subscribed OK -- badger-svc-8029cf41-d5dc-4985-83b8-7f507b651010 status=SUBSCRIBED
+[I] 06-28 18:10:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-28 18:10:28 BadgerService: Keepalive scheduled in 900s
