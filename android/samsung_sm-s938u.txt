@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v194 | shipped 2026-06-28 14:22:31 ===
+=== samsung SM-S938U | v194 | shipped 2026-06-28 14:37:31 ===
 [I] 06-28 02:18:05 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
 [E] 06-28 02:18:05 BadgerRepo: ? updateFCMToken failed: Element class kotlinx.serialization.json.JsonLiteral is not a JsonObject
 [I] 06-28 02:18:05 BadgerService: Realtime subscribed OK -- badger-svc-7f24a75d-09b4-4d65-81f3-648ab6e1c227 status=SUBSCRIBED
@@ -310,3 +310,15 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [W] 06-28 14:22:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-28 14:22:31 BadgerService: startRealtimeSync: in backoff for 137s more � skipping
 [I] 06-28 14:22:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-28 14:22:32 LogShipper: Shipped 311 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 06-28 14:25:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
+[E] 06-28 14:25:34 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
+[E] 06-28 14:30:34 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 06-28 14:31:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
+[E] 06-28 14:31:20 BadgerService: Realtime: 17 consecutive failures � cooling down 5 min
+[E] 06-28 14:37:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #18 in 300s)
+[E] 06-28 14:37:06 BadgerService: Realtime: 18 consecutive failures � cooling down 5 min
+[I] 06-28 14:37:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-28 14:37:31 BadgerService: Keepalive scheduled in 900s
+[W] 06-28 14:37:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-28 14:37:31 BadgerService: startRealtimeSync: in backoff for 275s more � skipping
