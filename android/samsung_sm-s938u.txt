@@ -1,20 +1,4 @@
-=== samsung SM-S938U | v194 | shipped 2026-06-28 18:29:12 ===
-[I] 06-28 02:18:18 Movement: Door 13A status → End Of Truck Tote
-[I] 06-28 02:18:18 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
-[I] 06-28 02:18:19 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
-[I] 06-28 02:18:19 WatchNotif: ?? Notif ID: -108073026
-[I] 06-28 02:18:19 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
-[I] 06-28 02:18:27 Movement: Door 13A status → Loading
-[I] 06-28 02:18:27 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 06-28 02:18:28 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
-[I] 06-28 02:18:28 WatchNotif: ?? Notif ID: -108073026
-[I] 06-28 02:18:28 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
-[I] 06-28 02:18:31 Movement: Truck 130 status → In Door
-[I] 06-28 02:18:31 BadgerRepo: updateMovementStatus OK — truck=130 statusId=1
-[I] 06-28 02:18:31 WatchNotif: ?? PUSHING NOTIF: Truck 130 - Put Away ? In Door (tag=watch_truck_130)
-[I] 06-28 02:18:31 WatchNotif: ?? Notif ID: -658232578
-[I] 06-28 02:18:31 WatchNotif: ? Successfully sent to watch: Truck 130 - Put Away ? In Door
-[I] 06-28 02:18:59 Movement: Door 13A status → End Of Truck Tote
+=== samsung SM-S938U | v194 | shipped 2026-06-28 18:44:12 ===
 [I] 06-28 02:18:59 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
 [I] 06-28 02:18:59 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
 [I] 06-28 02:18:59 WatchNotif: ?? Notif ID: -108073026
@@ -499,3 +483,19 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-28 18:29:07 BadgerService: Keepalive scheduled in 2s
 [I] 06-28 18:29:12 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-28 18:29:12 BadgerService: Keepalive scheduled in 900s
+[I] 06-28 18:29:14 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 06-28 18:38:37 AppUpdater: Checking via website (current=194)
+[I] 06-28 18:38:38 AppUpdater: Up to date via website (current=194 latest=194)
+[I] 06-28 18:38:38 AppUpdater: Checking via GitHub direct (current=194)
+[I] 06-28 18:38:39 AppUpdater: Up to date via GitHub (current=194 latest=194)
+[I] 06-28 18:38:44 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":17,"printroomCreated":10,"movementAdded":26}
+[I] 06-28 18:38:44 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - New ? Transfer (tag=watch_truck_223-2)
+[I] 06-28 18:38:44 WatchNotif: ?? Notif ID: -1200416888
+[I] 06-28 18:38:44 WatchNotif: ? Successfully sent to watch: Truck 223-2 - New ? Transfer
+[I] 06-28 18:41:15 Movement: Truck 187-2 status → In Front
+[I] 06-28 18:41:15 BadgerRepo: updateMovementStatus OK — truck=187-2 statusId=4
+[I] 06-28 18:41:16 WatchNotif: ?? Notif ID: -1201157819
+[I] 06-28 18:41:16 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - Transfer ? In Front (tag=watch_truck_187-2)
+[I] 06-28 18:41:16 WatchNotif: ? Successfully sent to watch: Truck 187-2 - Transfer ? In Front
+[I] 06-28 18:44:12 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-28 18:44:12 BadgerService: Keepalive scheduled in 900s
