@@ -1,19 +1,4 @@
-=== samsung SM-S938U | v194 | shipped 2026-06-29 04:44:12 ===
-[I] 06-29 00:39:12 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Front ? In Door (tag=watch_truck_244)
-[I] 06-29 00:39:12 WatchNotif: ?? Notif ID: -658231582
-[I] 06-29 00:39:12 WatchNotif: ? Successfully sent to watch: Truck 244 - In Front ? In Door
-[I] 06-29 00:39:37 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Door ? Put Away (tag=watch_truck_243)
-[I] 06-29 00:39:37 WatchNotif: ?? Notif ID: -658231583
-[I] 06-29 00:39:37 WatchNotif: ? Successfully sent to watch: Truck 243 - In Door ? Put Away
-[I] 06-29 00:40:05 Movement: Door 13A status → Loading
-[I] 06-29 00:40:05 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 06-29 00:40:05 WatchNotif: ?? PUSHING NOTIF: Door 13A - Change Truck/Trailer ? Loading (tag=watch_door_13A)
-[I] 06-29 00:40:05 WatchNotif: ?? Notif ID: -108073026
-[I] 06-29 00:40:05 WatchNotif: ? Successfully sent to watch: Door 13A - Change Truck/Trailer ? Loading
-[I] 06-29 00:41:30 WatchNotif: ?? PUSHING NOTIF: Truck 152 - Ready ? In Front (tag=watch_truck_152)
-[I] 06-29 00:41:30 WatchNotif: ?? Notif ID: -658232514
-[I] 06-29 00:41:30 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
-[I] 06-29 00:43:18 WatchNotif: ?? PUSHING NOTIF: Door 14A - End Of Truck Tote ? Move to Receiving (tag=watch_door_14A)
+=== samsung SM-S938U | v194 | shipped 2026-06-29 04:59:12 ===
 [I] 06-29 00:43:18 WatchNotif: ?? Notif ID: -108072995
 [I] 06-29 00:43:18 WatchNotif: ? Successfully sent to watch: Door 14A - End Of Truck Tote ? Move to Receiving
 [I] 06-29 00:43:31 AppUpdater: Checking via website (current=194)
@@ -499,3 +484,18 @@
 [I] 06-29 04:44:12 BadgerService: Keepalive scheduled in 900s
 [W] 06-29 04:44:12 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-29 04:44:12 BadgerService: startRealtimeSync: in backoff for 142s more � skipping
+[I] 06-29 04:44:14 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-29 04:45:25 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-29 04:45:25 BadgerService: startRealtimeSync: in backoff for 69s more � skipping
+[W] 06-29 04:46:33 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-29 04:46:33 BadgerService: startRealtimeSync: in backoff for 1s more � skipping
+[E] 06-29 04:47:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #15 in 300s)
+[E] 06-29 04:47:21 BadgerService: Realtime: 15 consecutive failures � cooling down 5 min
+[E] 06-29 04:53:07 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
+[E] 06-29 04:53:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
+[E] 06-29 04:58:53 BadgerService: Realtime: 17 consecutive failures � cooling down 5 min
+[E] 06-29 04:58:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
+[I] 06-29 04:59:12 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-29 04:59:12 BadgerService: Keepalive scheduled in 900s
+[W] 06-29 04:59:12 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-29 04:59:12 BadgerService: startRealtimeSync: in backoff for 280s more � skipping
