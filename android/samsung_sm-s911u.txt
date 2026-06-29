@@ -1,8 +1,4 @@
-=== samsung SM-S911U | v194 | shipped 2026-06-29 14:16:11 ===
-[I] 06-29 01:52:41 Movement: Truck 199 status → Put Away
-[I] 06-29 01:52:41 BadgerRepo: updateMovementStatus OK — truck=199 statusId=2
-[I] 06-29 01:52:42 WatchNotif: ?? PUSHING NOTIF: Truck 199 - In Door ? Put Away (tag=watch_truck_199)
-[I] 06-29 01:52:42 WatchNotif: ? Successfully sent to watch: Truck 199 - In Door ? Put Away
+=== samsung SM-S911U | v194 | shipped 2026-06-29 14:31:11 ===
 [I] 06-29 01:52:42 WatchNotif: ?? Notif ID: -658232383
 [I] 06-29 01:54:01 WatchNotif: ?? Notif ID: -658231584
 [I] 06-29 01:54:01 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Front ? In Door (tag=watch_truck_242)
@@ -492,3 +488,14 @@
 [I] 06-29 14:16:11 BadgerService: Keepalive scheduled in 900s
 [W] 06-29 14:16:11 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-29 14:16:11 BadgerService: startRealtimeSync: in backoff for 115s more � skipping
+[I] 06-29 14:16:14 LogShipper: Shipped 493 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-29 14:18:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #103 in 300s)
+[E] 06-29 14:18:53 BadgerService: Realtime: 103 consecutive failures � cooling down 5 min
+[E] 06-29 14:24:39 BadgerService: Realtime: 104 consecutive failures � cooling down 5 min
+[E] 06-29 14:24:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #104 in 300s)
+[E] 06-29 14:30:26 BadgerService: Realtime: 105 consecutive failures � cooling down 5 min
+[E] 06-29 14:30:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #105 in 300s)
+[I] 06-29 14:31:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-29 14:31:11 BadgerService: Keepalive scheduled in 900s
+[W] 06-29 14:31:11 BadgerService: startRealtimeSync: in backoff for 254s more � skipping
+[W] 06-29 14:31:11 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
