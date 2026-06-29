@@ -1,12 +1,4 @@
-=== samsung SM-S911U | v194 | shipped 2026-06-29 14:31:11 ===
-[I] 06-29 01:52:42 WatchNotif: ?? Notif ID: -658232383
-[I] 06-29 01:54:01 WatchNotif: ?? Notif ID: -658231584
-[I] 06-29 01:54:01 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Front ? In Door (tag=watch_truck_242)
-[I] 06-29 01:54:01 WatchNotif: ? Successfully sent to watch: Truck 242 - In Front ? In Door
-[I] 06-29 01:54:13 AppUpdater: Checking via website (current=194)
-[I] 06-29 01:54:13 AppUpdater: Checking via GitHub direct (current=194)
-[I] 06-29 01:54:13 AppUpdater: Up to date via website (current=194 latest=194)
-[I] 06-29 01:54:14 AppUpdater: Up to date via GitHub (current=194 latest=194)
+=== samsung SM-S911U | v194 | shipped 2026-06-29 14:46:11 ===
 [I] 06-29 01:54:18 Movement: Door 15B status → Done for Night
 [I] 06-29 01:54:18 BadgerRepo: updateDoorStatus OK — id=6 status=Done for Night
 [I] 06-29 01:54:19 WatchNotif: ?? PUSHING NOTIF: Door 15B - Change Truck/Trailer ? Done for Night (tag=watch_door_15B)
@@ -499,3 +491,11 @@
 [I] 06-29 14:31:11 BadgerService: Keepalive scheduled in 900s
 [W] 06-29 14:31:11 BadgerService: startRealtimeSync: in backoff for 254s more � skipping
 [W] 06-29 14:31:11 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-29 14:31:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-29 14:36:12 BadgerService: Realtime: 106 consecutive failures � cooling down 5 min
+[E] 06-29 14:36:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #106 in 300s)
+[E] 06-29 14:41:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #107 in 300s)
+[E] 06-29 14:41:58 BadgerService: Realtime: 107 consecutive failures � cooling down 5 min
+[I] 06-29 14:46:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 06-29 14:46:11 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-29 14:46:11 BadgerService: Keepalive scheduled in 900s
