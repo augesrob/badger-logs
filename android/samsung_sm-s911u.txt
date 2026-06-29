@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v194 | shipped 2026-06-29 17:16:11 ===
+=== samsung SM-S911U | v195 | shipped 2026-06-29 17:27:40 ===
 [E] 06-29 09:07:12 BadgerService: Realtime: 49 consecutive failures � cooling down 5 min
 [E] 06-29 09:07:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
 [E] 06-29 09:12:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #50 in 300s)
@@ -338,3 +338,43 @@
 [I] 06-29 17:16:11 BadgerService: Keepalive scheduled in 900s
 [W] 06-29 17:16:11 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-29 17:16:11 BadgerService: startRealtimeSync: in backoff for 50s more � skipping
+[I] 06-29 17:16:13 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 06-29 17:17:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #134 in 300s)
+[E] 06-29 17:17:48 BadgerService: Realtime: 134 consecutive failures � cooling down 5 min
+[E] 06-29 17:23:35 BadgerService: Realtime: 135 consecutive failures � cooling down 5 min
+[E] 06-29 17:23:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #135 in 300s)
+[I] 06-29 17:27:18 AppUpdater: Checking via website (current=194)
+[I] 06-29 17:27:19 AppUpdater: Update found via website: access-v195
+[I] 06-29 17:27:19 MainActivity: Auto-downloading access-v195
+[I] 06-29 17:27:19 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v195/badger-access-access-v195.apk
+[I] 06-29 17:27:21 AppUpdater: Checking via website (current=194)
+[I] 06-29 17:27:21 AppUpdater: Update found via website: access-v195
+[I] 06-29 17:27:21 AppUpdater: Downloaded 16635260 bytes
+[I] 06-29 17:27:21 AppUpdater: Checking via website (current=194)
+[I] 06-29 17:27:21 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v195/badger-access-access-v195.apk
+[I] 06-29 17:27:22 AppUpdater: Update found via website: access-v195
+[I] 06-29 17:27:23 AppUpdater: Downloaded 16635260 bytes
+[I] 06-29 17:27:31 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-29 17:27:31 BadgerApp: App started v195 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-29 17:27:31 MainActivity: BadgerService started (mic=true)
+[I] 06-29 17:27:31 AppUpdater: Checking via website (current=195)
+[W] 06-29 17:27:31 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-29 17:27:31 AuthManager: Session expired — trying HWID silent login
+[I] 06-29 17:27:31 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 06-29 17:27:31 BadgerService: Keepalive scheduled in 900s
+[I] 06-29 17:27:31 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-29 17:27:32 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-29 17:27:32 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-29 17:27:32 FCM: ?? FCM Token: cZ3kVW_ZRwaBydQ06hnw...
+[E] 06-29 17:27:32 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 06-29 17:27:32 AuthManager: Sign in OK — felipe role=admin
+[I] 06-29 17:27:32 AuthManager: HWID silent login OK
+[I] 06-29 17:27:32 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 06-29 17:27:32 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-29 17:27:33 BadgerService: Realtime subscribed OK -- badger-svc-755fb2af-ba0c-446b-b7f3-16f71981bd1a status=SUBSCRIBED
+[W] 06-29 17:27:35 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-29 17:27:35 BadgerService: Keepalive scheduled in 2s
+[I] 06-29 17:27:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-29 17:27:40 BadgerService: Keepalive scheduled in 900s
