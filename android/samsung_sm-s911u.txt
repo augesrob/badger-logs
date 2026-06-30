@@ -1,10 +1,4 @@
-=== samsung SM-S911U | v195 | shipped 2026-06-30 10:49:27 ===
-[I] 06-29 21:19:16 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 06-29 21:19:18 Movement: Door 13A status → End Of Truck Tote
-[I] 06-29 21:19:18 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
-[I] 06-29 21:19:19 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
-[I] 06-29 21:19:19 WatchNotif: ?? Notif ID: -108073026
-[I] 06-29 21:19:19 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
+=== samsung SM-S911U | v195 | shipped 2026-06-30 11:04:27 ===
 [I] 06-29 21:19:24 Movement: Door 13A status → Loading
 [I] 06-29 21:19:24 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
 [I] 06-29 21:19:24 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
@@ -499,3 +493,9 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-30 10:49:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-30 10:49:27 BadgerService: Keepalive scheduled in 900s
 [W] 06-30 10:49:27 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-30 10:49:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 06-30 10:49:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 06-30 11:04:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 11:04:27 BadgerService: Keepalive scheduled in 900s
+[W] 06-30 11:04:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 11:04:27 BadgerService: startRealtimeSync skipped -- already restarting
