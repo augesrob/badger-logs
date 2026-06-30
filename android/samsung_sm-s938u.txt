@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-06-30 15:07:20 ===
+=== samsung SM-S938U | v195 | shipped 2026-06-30 15:22:20 ===
 [E] 06-30 08:38:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #56 in 300s)
 [E] 06-30 08:38:51 BadgerService: Realtime: 56 consecutive failures � cooling down 5 min
 [E] 06-30 08:44:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #57 in 300s)
@@ -275,3 +275,17 @@
 [I] 06-30 15:07:20 BadgerService: Keepalive scheduled in 900s
 [W] 06-30 15:07:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-30 15:07:20 BadgerService: startRealtimeSync: in backoff for 182s more � skipping
+[I] 06-30 15:07:21 LogShipper: Shipped 276 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-30 15:09:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 15:09:38 BadgerService: startRealtimeSync: in backoff for 44s more � skipping
+[E] 06-30 15:11:08 BadgerService: Realtime: 124 consecutive failures � cooling down 5 min
+[E] 06-30 15:11:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #124 in 300s)
+[E] 06-30 15:16:08 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 06-30 15:16:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #125 in 300s)
+[E] 06-30 15:16:54 BadgerService: Realtime: 125 consecutive failures � cooling down 5 min
+[W] 06-30 15:21:35 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 15:21:35 BadgerService: startRealtimeSync: in backoff for 19s more � skipping
+[I] 06-30 15:22:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 15:22:20 BadgerService: Keepalive scheduled in 900s
+[W] 06-30 15:22:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 15:22:20 BadgerService: startRealtimeSync skipped -- already restarting
