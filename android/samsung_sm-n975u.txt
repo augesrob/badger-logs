@@ -1,44 +1,4 @@
-=== samsung SM-N975U | v167 | shipped 2026-06-28 18:49:50 ===
-[I] 06-26 03:10:26 AppUpdater: Up to date via website (current=167 latest=167)
-[I] 06-26 03:10:26 AppUpdater: Checking via GitHub direct (current=167)
-[I] 06-26 03:10:27 AppUpdater: Up to date via GitHub (current=167 latest=167)
-[I] 06-26 03:11:39 WatchNotif: Sent to watch: Truck 241 - In Door → Put Away
-[I] 06-26 03:11:41 WatchNotif: Sent to watch: Truck 212 - In Front → In Door
-[I] 06-26 03:11:52 AppUpdater: Checking via website (current=167)
-[I] 06-26 03:11:52 AppUpdater: Up to date via website (current=167 latest=167)
-[I] 06-26 03:11:52 AppUpdater: Checking via GitHub direct (current=167)
-[I] 06-26 03:11:53 AppUpdater: Up to date via GitHub (current=167 latest=167)
-[I] 06-26 03:12:54 AppUpdater: Checking via website (current=167)
-[I] 06-26 03:12:54 AppUpdater: Up to date via website (current=167 latest=167)
-[I] 06-26 03:12:54 AppUpdater: Checking via GitHub direct (current=167)
-[I] 06-26 03:12:55 AppUpdater: Up to date via GitHub (current=167 latest=167)
-[I] 06-26 03:14:29 AppUpdater: Checking via website (current=167)
-[I] 06-26 03:14:29 AppUpdater: Up to date via website (current=167 latest=167)
-[I] 06-26 03:14:29 AppUpdater: Checking via GitHub direct (current=167)
-[I] 06-26 03:14:30 AppUpdater: Up to date via GitHub (current=167 latest=167)
-[I] 06-26 03:14:39 Movement: Truck 216 status → In Front
-[I] 06-26 03:14:40 BadgerRepo: updateMovementStatus OK â€” truck=216 statusId=4
-[I] 06-26 03:14:40 WatchNotif: Sent to watch: Truck 216 - Ready → In Front
-[I] 06-26 03:14:46 Movement: Door 15B status → Loading
-[I] 06-26 03:14:46 BadgerRepo: updateDoorStatus OK â€” id=6 status=Loading
-[I] 06-26 03:14:51 WatchNotif: Sent to watch: Truck 220 - In Door → Put Away
-[I] 06-26 03:15:26 Movement: Truck 159 status → In Door
-[I] 06-26 03:15:26 BadgerRepo: updateMovementStatus OK â€” truck=159 statusId=1
-[I] 06-26 03:15:26 WatchNotif: Sent to watch: Truck 159 - In Front → In Door
-[I] 06-26 03:16:34 AppUpdater: Checking via website (current=167)
-[I] 06-26 03:16:34 AppUpdater: Up to date via website (current=167 latest=167)
-[I] 06-26 03:16:34 AppUpdater: Checking via GitHub direct (current=167)
-[I] 06-26 03:16:35 AppUpdater: Up to date via GitHub (current=167 latest=167)
-[I] 06-26 03:17:46 WatchNotif: Sent to watch: Truck 215 - In Door → Put Away
-[I] 06-26 03:18:57 AppUpdater: Checking via website (current=167)
-[I] 06-26 03:18:57 AppUpdater: Up to date via website (current=167 latest=167)
-[I] 06-26 03:18:57 AppUpdater: Checking via GitHub direct (current=167)
-[I] 06-26 03:18:59 AppUpdater: Up to date via GitHub (current=167 latest=167)
-[I] 06-26 03:19:01 Movement: Truck 243 status → Put Away
-[I] 06-26 03:19:01 BadgerRepo: updateMovementStatus OK â€” truck=243 statusId=2
-[I] 06-26 03:19:02 WatchNotif: Sent to watch: Truck 243 - Yard → Put Away
-[I] 06-26 03:19:07 Movement: Truck 160 status → In Door
-[I] 06-26 03:19:07 BadgerRepo: updateMovementStatus OK â€” truck=160 statusId=1
+=== samsung SM-N975U | v195 | shipped 2026-06-30 17:38:26 ===
 [I] 06-26 03:19:08 WatchNotif: Sent to watch: Truck 160 - In Front → In Door
 [I] 06-26 03:19:08 Movement: Door 14B status → Loading
 [I] 06-26 03:19:08 BadgerRepo: updateDoorStatus OK â€” id=4 status=Loading
@@ -334,3 +294,208 @@
 [E] 06-28 18:45:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
 [E] 06-28 18:45:40 BadgerService: Realtime: 13 consecutive failures — cooling down 5 min
 [I] 06-28 18:49:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 06-28 18:49:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-28 18:49:50 BadgerService: startRealtimeSync: in backoff for 49s more — skipping
+[I] 06-28 18:49:50 BadgerService: Keepalive scheduled in 900s
+[I] 06-28 18:49:52 LogShipper: Shipped 335 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 06-28 18:51:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
+[E] 06-28 18:51:26 BadgerService: Realtime: 14 consecutive failures — cooling down 5 min
+[I] 06-28 18:56:46 BadgerApp: App started v167 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-28 18:56:46 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 06-28 18:56:46 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-28 18:56:46 AuthManager: Session expired — trying HWID silent login
+[I] 06-28 18:56:46 BadgerService: Keepalive scheduled in 900s
+[I] 06-28 18:56:46 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-28 18:56:46 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 06-28 18:56:47 AuthManager: HWID silent login OK
+[I] 06-28 18:56:47 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 06-28 18:56:47 AuthManager: Sign in OK — joemiller role=admin
+[W] 06-28 18:56:47 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-28 18:56:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-28 18:56:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-28 18:56:47 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-28 18:56:48 BadgerService: Realtime subscribed OK -- badger-svc-f73b9b43-6e6b-4553-a661-8e7d7e50a03e status=SUBSCRIBED
+[I] 06-28 18:57:09 AppUpdater: Checking via website (current=167)
+[I] 06-28 18:57:10 AppUpdater: Update found via website: access-v194
+[I] 06-28 18:57:10 MainActivity: Auto-downloading access-v194
+[I] 06-28 18:57:10 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v194/badger-access-access-v194.apk
+[I] 06-29 17:10:59 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-29 17:10:59 BadgerApp: App started v167 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-29 17:10:59 MainActivity: BadgerService started (mic=true)
+[I] 06-29 17:10:59 AppUpdater: Checking via website (current=167)
+[W] 06-29 17:10:59 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-29 17:10:59 AuthManager: Session expired — trying HWID silent login
+[I] 06-29 17:10:59 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 06-29 17:11:00 BadgerService: Keepalive scheduled in 900s
+[I] 06-29 17:11:00 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-29 17:11:01 AuthManager: Sign in OK — joemiller role=admin
+[I] 06-29 17:11:01 AuthManager: HWID silent login OK
+[I] 06-29 17:11:01 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 06-29 17:11:01 AppUpdater: Update found via website: access-v194
+[I] 06-29 17:11:01 MainActivity: Auto-downloading access-v194
+[I] 06-29 17:11:01 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v194/badger-access-access-v194.apk
+[I] 06-29 17:11:02 BadgerService: Realtime subscribed OK -- badger-svc-236d83e2-39e9-4bee-b22f-f23beaecfaf0 status=SUBSCRIBED
+[I] 06-29 17:11:07 AppUpdater: Downloaded 16635260 bytes
+[I] 06-29 17:11:18 AppUpdater: Checking via website (current=167)
+[I] 06-29 17:11:18 AppUpdater: Update found via website: access-v195
+[I] 06-29 17:11:19 MainActivity: Auto-downloading access-v195
+[I] 06-29 17:11:19 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v195/badger-access-access-v195.apk
+[I] 06-29 17:11:20 TTS: TTS DISABLED
+[I] 06-29 17:11:23 AppUpdater: Downloaded 16635260 bytes
+[I] 06-29 17:11:24 AppUpdater: Checking via website (current=167)
+[I] 06-29 17:11:24 AppUpdater: Update found via website: access-v195
+[I] 06-29 17:11:32 PreShift: Truck 151 staged at door 28B back
+[I] 06-29 17:11:34 PreShift: Truck 170 staged at door 28B front
+[I] 06-29 17:11:37 PreShift: Truck 121 staged at door 28A front
+[I] 06-29 17:11:40 PreShift: Truck 666.666 staged at door 28A back
+[I] 06-29 17:11:42 PreShift: Truck 212 staged at door 27B back
+[I] 06-29 17:11:55 PreShift: Truck 174 staged at door 27B front
+[I] 06-29 17:11:58 PreShift: Truck 143 staged at door 27A back
+[I] 06-29 17:12:05 PreShift: Truck 126 staged at door 27A front
+[I] 06-29 17:12:10 PreShift: Truck 128 staged at door 26B back
+[I] 06-29 17:12:15 PreShift: Truck 148 staged at door 26B front
+[I] 06-29 17:12:18 PreShift: Truck 158 staged at door 26A back
+[I] 06-29 17:12:22 PreShift: Truck 159 staged at door 25B back
+[I] 06-29 17:12:27 PreShift: Truck 160 staged at door 25B front
+[I] 06-29 17:12:31 PreShift: Truck 243 staged at door 25A back
+[I] 06-29 17:12:35 PreShift: Truck 194 staged at door 24B back
+[I] 06-29 17:12:39 PreShift: Truck 244 staged at door 25A front
+[I] 06-29 17:12:41 PreShift: Truck 245 staged at door 24A back
+[I] 06-29 17:12:46 PreShift: Truck 215 staged at door 23B back
+[I] 06-29 17:12:52 PreShift: Truck 199 staged at door 24B front
+[I] 06-29 17:12:54 PreShift: Truck 211 staged at door 23A back
+[I] 06-29 17:12:57 PreShift: Truck 238 staged at door 24A front
+[I] 06-29 17:13:03 PreShift: Truck 246 staged at door 23B front
+[I] 06-29 17:13:10 PreShift: Truck 213 staged at door 23A front
+[I] 06-29 17:13:13 PreShift: Truck 141 staged at door 22B back
+[I] 06-29 17:13:15 PreShift: Truck 195 staged at door 22A back
+[I] 06-29 17:13:18 PreShift: Truck 228 staged at door 22B front
+[I] 06-29 17:13:24 PreShift: Truck 192 staged at door 22A front
+[I] 06-29 17:13:28 PreShift: Truck 241 staged at door 21B back
+[I] 06-29 17:13:32 PreShift: Truck 230 staged at door 21A back
+[I] 06-29 17:13:37 PreShift: Truck 220 staged at door 21B front
+[I] 06-29 17:13:39 PreShift: Truck 242 staged at door 21A front
+[I] 06-29 17:13:51 PreShift: Truck 240 staged at door 20B front
+[I] 06-29 17:13:54 PreShift: Truck 130 staged at door 20A front
+[I] 06-29 17:13:58 PreShift: Truck 183 staged at door 19B front
+[I] 06-29 17:14:16 PreShift: Truck 216 staged at door 19A front
+[I] 06-29 17:14:18 PreShift: Truck 119 staged at door 18B front
+[I] 06-29 17:14:21 PreShift: Truck 152 staged at door 18A front
+[I] 06-30 17:16:11 BadgerApp: App started v167 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-30 17:16:11 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-30 17:16:11 MainActivity: BadgerService started (mic=true)
+[I] 06-30 17:16:11 AppUpdater: Checking via website (current=167)
+[W] 06-30 17:16:11 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-30 17:16:11 AuthManager: Session expired — trying HWID silent login
+[I] 06-30 17:16:11 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 06-30 17:16:11 BadgerService: Keepalive scheduled in 900s
+[I] 06-30 17:16:11 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-30 17:16:12 AppUpdater: Update found via website: access-v195
+[I] 06-30 17:16:12 MainActivity: Auto-downloading access-v195
+[I] 06-30 17:16:12 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v195/badger-access-access-v195.apk
+[I] 06-30 17:16:12 AuthManager: Sign in OK — joemiller role=admin
+[I] 06-30 17:16:12 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 06-30 17:16:12 AuthManager: HWID silent login OK
+[I] 06-30 17:16:13 BadgerService: Realtime subscribed OK -- badger-svc-0b29bc02-0950-4e16-a815-f416de189069 status=SUBSCRIBED
+[I] 06-30 17:16:14 TTS: TTS DISABLED
+[I] 06-30 17:16:18 AppUpdater: Downloaded 16635260 bytes
+[I] 06-30 17:16:20 AppUpdater: Checking via website (current=167)
+[I] 06-30 17:16:20 AppUpdater: Update found via website: access-v195
+[I] 06-30 17:16:29 PreShift: Truck 151 staged at door 28B front
+[I] 06-30 17:16:31 PreShift: Truck 170 staged at door 28B back
+[I] 06-30 17:16:35 PreShift: Truck 666-666 staged at door 28A back
+[I] 06-30 17:16:37 PreShift: Truck 121 staged at door 28A front
+[I] 06-30 17:16:41 PreShift: Truck 212 staged at door 27B back
+[I] 06-30 17:16:43 PreShift: Truck 143 staged at door 27A back
+[I] 06-30 17:17:01 PreShift: Truck 174 staged at door 27B front
+[I] 06-30 17:17:03 PreShift: Truck 128 staged at door 26B back
+[I] 06-30 17:17:09 PreShift: Truck 148 staged at door 26B front
+[I] 06-30 17:17:12 PreShift: Truck 158 staged at door 26A back
+[I] 06-30 17:17:15 PreShift: Truck 159 staged at door 25B back
+[I] 06-30 17:17:18 PreShift: Truck 160 staged at door 25B front
+[I] 06-30 17:17:23 PreShift: Truck 243 staged at door 25A back
+[I] 06-30 17:17:25 PreShift: Truck 244 staged at door 25A front
+[I] 06-30 17:17:27 PreShift: Truck 199 staged at door 24B back
+[I] 06-30 17:17:30 PreShift: Truck 194 staged at door 24A back
+[I] 06-30 17:17:33 PreShift: Truck 215 staged at door 23B back
+[I] 06-30 17:17:37 PreShift: Truck 213 staged at door 23A back
+[I] 06-30 17:17:39 PreShift: Truck 246 staged at door 23B front
+[I] 06-30 17:17:46 PreShift: Truck 211 staged at door 23A front
+[I] 06-30 17:17:52 PreShift: Truck 141 staged at door 22B back
+[I] 06-30 17:17:54 PreShift: Truck 228 staged at door 22B front
+[I] 06-30 17:17:59 PreShift: Truck 192 staged at door 22A front
+[I] 06-30 17:18:02 PreShift: Truck 195 staged at door 22A back
+[I] 06-30 17:18:04 PreShift: Truck 242 staged at door 21B back
+[I] 06-30 17:18:08 PreShift: Truck 220 staged at door 21A back
+[I] 06-30 17:18:17 PreShift: Truck 241 staged at door 21B front
+[I] 06-30 17:18:19 PreShift: Truck 230 staged at door 21A front
+[I] 06-30 17:18:24 PreShift: Truck 130 staged at door 20B front
+[I] 06-30 17:18:26 PreShift: Truck 240 staged at door 20A front
+[I] 06-30 17:18:29 PreShift: Truck 183 staged at door 19B front
+[I] 06-30 17:18:33 PreShift: Truck 152 staged at door 18A front
+[I] 06-30 17:18:35 PreShift: Truck 119 staged at door 18B front
+[I] 06-30 17:18:41 PreShift: Truck 216 staged at door 19A front
+[I] 06-30 17:22:33 WatchNotif: Sent to watch: Truck 216 - New → Ready
+[I] 06-30 17:22:39 AppUpdater: Checking via website (current=167)
+[I] 06-30 17:22:39 AppUpdater: Update found via website: access-v195
+[I] 06-30 17:22:43 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v195/badger-access-access-v195.apk
+[I] 06-30 17:22:49 AppUpdater: Downloaded 16635260 bytes
+[I] 06-30 17:23:26 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-30 17:23:26 BadgerApp: App started v195 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-30 17:23:26 MainActivity: BadgerService started (mic=true)
+[I] 06-30 17:23:26 AppUpdater: Checking via website (current=195)
+[W] 06-30 17:23:26 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-30 17:23:26 AuthManager: Session expired — trying HWID silent login
+[I] 06-30 17:23:26 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 06-30 17:23:26 BadgerService: Keepalive scheduled in 900s
+[I] 06-30 17:23:26 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-30 17:23:26 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 17:23:26 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 17:23:26 AuthManager: Sign in OK — joemiller role=admin
+[I] 06-30 17:23:26 AuthManager: HWID silent login OK
+[I] 06-30 17:23:26 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 06-30 17:23:27 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 06-30 17:23:27 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 06-30 17:23:27 FCM: 🔄 FCM Token refreshed: cRlCDBUBTJiXJzVIZO6T...
+[I] 06-30 17:23:27 FCM: ✅ New token sent to backend
+[E] 06-30 17:23:27 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 06-30 17:23:27 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 17:23:27 BadgerService: Realtime subscribed OK -- badger-svc-1af073c2-afe1-42e7-83a3-a1ce3c9dc28e status=SUBSCRIBED
+[I] 06-30 17:24:09 Movement: Truck 189-1 status → In Door
+[I] 06-30 17:24:09 BadgerRepo: updateMovementStatus OK — truck=189-1 statusId=1
+[I] 06-30 17:24:10 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - Transfer ? In Door (tag=watch_truck_189-1)
+[I] 06-30 17:24:10 WatchNotif: ?? Notif ID: -1201155898
+[I] 06-30 17:24:10 WatchNotif: ? Successfully sent to watch: Truck 189-1 - Transfer ? In Door
+[I] 06-30 17:24:12 Movement: Truck 222-1 status → In Door
+[I] 06-30 17:24:12 BadgerRepo: updateMovementStatus OK — truck=222-1 statusId=1
+[I] 06-30 17:24:12 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - Transfer ? In Door (tag=watch_truck_222-1)
+[I] 06-30 17:24:12 WatchNotif: ?? Notif ID: -1200417850
+[I] 06-30 17:24:12 WatchNotif: ? Successfully sent to watch: Truck 222-1 - Transfer ? In Door
+[I] 06-30 17:24:22 Movement: Truck 231-1 status → In Door
+[I] 06-30 17:24:22 BadgerRepo: updateMovementStatus OK — truck=231-1 statusId=1
+[I] 06-30 17:24:22 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - Transfer ? In Door (tag=watch_truck_231-1)
+[I] 06-30 17:24:22 WatchNotif: ?? Notif ID: -1200389020
+[I] 06-30 17:24:22 WatchNotif: ? Successfully sent to watch: Truck 231-1 - Transfer ? In Door
+[I] 06-30 17:28:26 AppUpdater: Checking via website (current=195)
+[I] 06-30 17:28:26 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 17:28:26 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 17:28:27 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 17:30:16 AppUpdater: Checking via website (current=195)
+[I] 06-30 17:30:16 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 17:30:16 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 17:30:17 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 17:30:23 Movement: Truck 188-1 status → In Door
+[I] 06-30 17:30:23 BadgerRepo: updateMovementStatus OK — truck=188-1 statusId=1
+[I] 06-30 17:30:24 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - Transfer ? In Door (tag=watch_truck_188-1)
+[I] 06-30 17:30:24 WatchNotif: ?? Notif ID: -1201156859
+[I] 06-30 17:30:24 WatchNotif: ? Successfully sent to watch: Truck 188-1 - Transfer ? In Door
+[I] 06-30 17:35:16 AppUpdater: Checking via website (current=195)
+[I] 06-30 17:35:16 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 17:35:16 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 17:35:17 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 17:38:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 17:38:26 BadgerService: Keepalive scheduled in 900s
