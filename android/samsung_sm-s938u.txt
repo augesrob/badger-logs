@@ -1,9 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-07-01 15:18:16 ===
-[I] 06-30 23:08:01 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 06-30 23:08:15 Movement: Truck 231-2 status → 9
-[I] 06-30 23:08:16 BadgerRepo: updateMovementStatus OK — truck=231-2 statusId=12
-[I] 06-30 23:08:16 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - In Door ? 9 (tag=watch_truck_231-2)
-[I] 06-30 23:08:16 WatchNotif: ?? Notif ID: -1200389019
+=== samsung SM-S938U | v195 | shipped 2026-07-01 15:33:16 ===
 [I] 06-30 23:08:16 WatchNotif: ? Successfully sent to watch: Truck 231-2 - In Door ? 9
 [I] 06-30 23:08:21 Movement: Truck 187-2 status → In Door
 [I] 06-30 23:08:21 BadgerRepo: updateMovementStatus OK — truck=187-2 statusId=1
@@ -499,3 +494,8 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-01 15:18:16 BadgerService: Keepalive scheduled in 900s
 [W] 07-01 15:18:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-01 15:18:16 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 07-01 15:18:18 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-01 15:33:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 15:33:16 BadgerService: Keepalive scheduled in 900s
+[W] 07-01 15:33:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-01 15:33:16 BadgerService: startRealtimeSync skipped -- already restarting
