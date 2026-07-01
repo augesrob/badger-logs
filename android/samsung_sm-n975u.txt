@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 18:39:22 ===
+=== samsung SM-N975U | v195 | shipped 2026-07-01 18:54:22 ===
 [I] 07-01 03:24:24 WatchNotif: ?? PUSHING NOTIF: Truck 183 - Ready ? In Front (tag=watch_truck_183)
 [I] 07-01 03:24:24 WatchNotif: ?? Notif ID: -658232420
 [I] 07-01 03:24:24 WatchNotif: ? Successfully sent to watch: Truck 183 - Ready ? In Front
@@ -188,3 +188,17 @@
 [I] 07-01 18:39:22 BadgerService: Keepalive scheduled in 900s
 [W] 07-01 18:39:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-01 18:39:22 BadgerService: startRealtimeSync: in backoff for 32s more � skipping
+[I] 07-01 18:39:25 LogShipper: Shipped 189 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-01 18:39:56 BadgerService: Realtime subscribed OK -- badger-svc-4f3ccbc8-acc6-4390-8b05-98f930d2d02c status=SUBSCRIBED
+[W] 07-01 18:44:36 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-01 18:45:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-01 18:46:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-01 18:47:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-01 18:48:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 07-01 18:50:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 07-01 18:52:18 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 07-01 18:53:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[I] 07-01 18:54:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 18:54:22 BadgerService: Keepalive scheduled in 900s
+[W] 07-01 18:54:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-01 18:54:22 BadgerService: startRealtimeSync: in backoff for 2s more � skipping
