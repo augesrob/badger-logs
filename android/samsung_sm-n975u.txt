@@ -1,32 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-06-30 23:06:36 ===
-[I] 06-29 17:11:24 AppUpdater: Checking via website (current=167)
-[I] 06-29 17:11:24 AppUpdater: Update found via website: access-v195
-[I] 06-29 17:11:32 PreShift: Truck 151 staged at door 28B back
-[I] 06-29 17:11:34 PreShift: Truck 170 staged at door 28B front
-[I] 06-29 17:11:37 PreShift: Truck 121 staged at door 28A front
-[I] 06-29 17:11:40 PreShift: Truck 666.666 staged at door 28A back
-[I] 06-29 17:11:42 PreShift: Truck 212 staged at door 27B back
-[I] 06-29 17:11:55 PreShift: Truck 174 staged at door 27B front
-[I] 06-29 17:11:58 PreShift: Truck 143 staged at door 27A back
-[I] 06-29 17:12:05 PreShift: Truck 126 staged at door 27A front
-[I] 06-29 17:12:10 PreShift: Truck 128 staged at door 26B back
-[I] 06-29 17:12:15 PreShift: Truck 148 staged at door 26B front
-[I] 06-29 17:12:18 PreShift: Truck 158 staged at door 26A back
-[I] 06-29 17:12:22 PreShift: Truck 159 staged at door 25B back
-[I] 06-29 17:12:27 PreShift: Truck 160 staged at door 25B front
-[I] 06-29 17:12:31 PreShift: Truck 243 staged at door 25A back
-[I] 06-29 17:12:35 PreShift: Truck 194 staged at door 24B back
-[I] 06-29 17:12:39 PreShift: Truck 244 staged at door 25A front
-[I] 06-29 17:12:41 PreShift: Truck 245 staged at door 24A back
-[I] 06-29 17:12:46 PreShift: Truck 215 staged at door 23B back
-[I] 06-29 17:12:52 PreShift: Truck 199 staged at door 24B front
-[I] 06-29 17:12:54 PreShift: Truck 211 staged at door 23A back
-[I] 06-29 17:12:57 PreShift: Truck 238 staged at door 24A front
-[I] 06-29 17:13:03 PreShift: Truck 246 staged at door 23B front
-[I] 06-29 17:13:10 PreShift: Truck 213 staged at door 23A front
-[I] 06-29 17:13:13 PreShift: Truck 141 staged at door 22B back
-[I] 06-29 17:13:15 PreShift: Truck 195 staged at door 22A back
-[I] 06-29 17:13:18 PreShift: Truck 228 staged at door 22B front
+=== samsung SM-N975U | v195 | shipped 2026-06-30 23:21:37 ===
 [I] 06-29 17:13:24 PreShift: Truck 192 staged at door 22A front
 [I] 06-29 17:13:28 PreShift: Truck 241 staged at door 21B back
 [I] 06-29 17:13:32 PreShift: Truck 230 staged at door 21A back
@@ -499,3 +471,31 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-30 22:57:43 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
 [I] 06-30 23:06:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-30 23:06:36 BadgerService: Keepalive scheduled in 900s
+[I] 06-30 23:06:38 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-30 23:07:03 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 06-30 23:07:03 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 06-30 23:07:03 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 06-30 23:07:05 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 23:07:05 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[I] 06-30 23:07:15 BadgerService: Realtime subscribed OK -- badger-svc-f8aa0a68-e5cf-4e9d-b8d2-444811cad3b0 status=SUBSCRIBED
+[I] 06-30 23:07:50 WatchNotif: ?? Notif ID: -108073026
+[I] 06-30 23:07:50 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
+[I] 06-30 23:07:50 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
+[I] 06-30 23:08:15 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - In Door ? 9 (tag=watch_truck_231-2)
+[I] 06-30 23:08:15 WatchNotif: ?? Notif ID: -1200389019
+[I] 06-30 23:08:15 WatchNotif: ? Successfully sent to watch: Truck 231-2 - In Door ? 9
+[I] 06-30 23:08:20 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - 11 ? In Door (tag=watch_truck_187-2)
+[I] 06-30 23:08:20 WatchNotif: ?? Notif ID: -1201157819
+[I] 06-30 23:08:20 WatchNotif: ? Successfully sent to watch: Truck 187-2 - 11 ? In Door
+[I] 06-30 23:08:25 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Door ? Ready (tag=watch_truck_216)
+[I] 06-30 23:08:25 WatchNotif: ?? Notif ID: -658231673
+[I] 06-30 23:08:25 WatchNotif: ? Successfully sent to watch: Truck 216 - In Door ? Ready
+[I] 06-30 23:08:37 WatchNotif: ?? Notif ID: -1200417849
+[I] 06-30 23:08:37 WatchNotif: ?? PUSHING NOTIF: Truck 222-2 - 12B ? Transfer (tag=watch_truck_222-2)
+[I] 06-30 23:08:37 WatchNotif: ? Successfully sent to watch: Truck 222-2 - 12B ? Transfer
+[I] 06-30 23:09:23 AppUpdater: Checking via website (current=195)
+[I] 06-30 23:09:24 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 23:09:24 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 23:09:25 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 23:21:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 23:21:37 BadgerService: Keepalive scheduled in 900s
