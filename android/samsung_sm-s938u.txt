@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-06-30 18:52:20 ===
+=== samsung SM-S938U | v195 | shipped 2026-06-30 19:07:20 ===
 [E] 06-30 08:38:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #56 in 300s)
 [E] 06-30 08:38:51 BadgerService: Realtime: 56 consecutive failures � cooling down 5 min
 [E] 06-30 08:44:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #57 in 300s)
@@ -423,3 +423,30 @@
 [I] 06-30 18:37:21 LogShipper: Shipped 421 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 06-30 18:52:20 BadgerService: Keepalive scheduled in 900s
 [I] 06-30 18:52:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 18:52:21 LogShipper: Shipped 424 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-30 19:01:08 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 06-30 19:01:23 AppUpdater: Checking via website (current=195)
+[I] 06-30 19:01:23 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 19:01:23 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 19:01:24 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 19:01:30 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":25,"printroomCreated":11,"movementAdded":34}
+[E] 06-30 19:01:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[I] 06-30 19:02:00 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":37,"printroomCreated":6,"movementAdded":0}
+[E] 06-30 19:02:04 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
+[I] 06-30 19:02:06 BadgerService: Realtime subscribed OK -- badger-svc-ebc798cd-4bda-4100-ac3f-05b27219d0ea status=SUBSCRIBED
+[I] 06-30 19:02:14 AppUpdater: Checking via website (current=195)
+[I] 06-30 19:02:15 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 19:02:15 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 19:02:15 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 19:02:16 AppUpdater: Checking via website (current=195)
+[I] 06-30 19:02:16 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 19:02:16 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 19:02:16 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 19:06:24 WatchNotif: ?? PUSHING NOTIF: Truck 2161 - New ? On Route (tag=watch_truck_2161)
+[I] 06-30 19:06:24 WatchNotif: ?? Notif ID: 1069654666
+[I] 06-30 19:06:24 WatchNotif: ? Successfully sent to watch: Truck 2161 - New ? On Route
+[I] 06-30 19:06:51 WatchNotif: ?? PUSHING NOTIF: Truck 216x - New ? On Route (tag=watch_truck_216x)
+[I] 06-30 19:06:51 WatchNotif: ?? Notif ID: 1069654737
+[I] 06-30 19:06:51 WatchNotif: ? Successfully sent to watch: Truck 216x - New ? On Route
+[I] 06-30 19:07:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 19:07:20 BadgerService: Keepalive scheduled in 900s
