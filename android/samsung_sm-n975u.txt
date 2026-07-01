@@ -1,7 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-06-30 19:23:26 ===
-[I] 06-26 04:21:10 BadgerRepo: updateDoorStatus OK â€” id=1 status=Done for Night
-[I] 06-26 04:21:13 Movement: Truck 159 status → Yard
-[I] 06-26 04:21:13 BadgerRepo: updateMovementStatus OK â€” truck=159 statusId=9
+=== samsung SM-N975U | v195 | shipped 2026-06-30 19:38:26 ===
 [I] 06-26 04:21:13 WatchNotif: Sent to watch: Truck 159 - In Door → Yard
 [I] 06-26 04:21:18 Movement: Truck 192 status → In Door
 [I] 06-26 04:21:18 BadgerRepo: updateMovementStatus OK â€” truck=192 statusId=1
@@ -499,3 +496,6 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-30 19:23:26 BadgerService: Keepalive scheduled in 900s
 [W] 06-30 19:23:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-30 19:23:26 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-30 19:23:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-30 19:35:53 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-30 19:35:53 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
