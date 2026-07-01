@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-07-01 12:18:16 ===
-[I] 06-30 22:30:07 WatchNotif: ? Successfully sent to watch: Truck 243 - In Back ? In Front
-[I] 06-30 22:30:18 AppUpdater: Checking via website (current=195)
-[I] 06-30 22:30:18 AppUpdater: Up to date via website (current=195 latest=195)
-[I] 06-30 22:30:18 AppUpdater: Checking via GitHub direct (current=195)
-[I] 06-30 22:30:19 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 06-30 22:30:43 Movement: Truck 246 status → In Front
-[I] 06-30 22:30:43 BadgerRepo: updateMovementStatus OK — truck=246 statusId=4
+=== samsung SM-S938U | v195 | shipped 2026-07-01 12:33:16 ===
 [I] 06-30 22:30:43 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
 [I] 06-30 22:30:43 WatchNotif: ?? Notif ID: -658231580
 [I] 06-30 22:30:43 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-01 12:18:16 BadgerService: Keepalive scheduled in 900s
 [W] 07-01 12:18:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-01 12:18:16 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 07-01 12:18:17 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-01 12:29:32 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 07-01 12:29:32 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-01 12:33:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-01 12:33:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 07-01 12:33:16 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 07-01 12:33:16 BadgerService: Keepalive scheduled in 900s
