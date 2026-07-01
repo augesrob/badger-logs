@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-06-30 23:16:57 ===
+=== samsung SM-S938U | v195 | shipped 2026-06-30 23:31:57 ===
 [I] 06-30 20:17:21 BadgerRepo: updateDoorStatus OK — id=2 status=Loading
 [I] 06-30 20:17:26 BadgerService: Keepalive scheduled in 900s
 [I] 06-30 20:17:26 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -420,3 +420,17 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-30 23:16:52 BadgerService: Keepalive scheduled in 2s
 [I] 06-30 23:16:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-30 23:16:57 BadgerService: Keepalive scheduled in 900s
+[I] 06-30 23:16:58 LogShipper: Shipped 421 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 06-30 23:26:38 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 06-30 23:27:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 06-30 23:28:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 06-30 23:29:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 06-30 23:30:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[I] 06-30 23:31:36 AppUpdater: Checking via website (current=195)
+[I] 06-30 23:31:36 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 23:31:36 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 23:31:37 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 23:31:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 23:31:57 BadgerService: Keepalive scheduled in 900s
+[W] 06-30 23:31:57 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 23:31:57 BadgerService: startRealtimeSync: in backoff for 14s more � skipping
