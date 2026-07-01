@@ -1,14 +1,4 @@
-=== samsung SM-S911U | v194 | shipped 2026-06-30 19:46:41 ===
-[E] 06-30 01:34:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #64 in 300s)
-[E] 06-30 01:34:53 BadgerService: Realtime: 64 consecutive failures � cooling down 5 min
-[I] 06-30 01:35:06 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-30 01:35:06 BadgerService: Keepalive scheduled in 900s
-[W] 06-30 01:35:06 BadgerService: startRealtimeSync: in backoff for 286s more � skipping
-[W] 06-30 01:35:06 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 06-30 01:35:08 LogShipper: Shipped 288 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 06-30 01:40:39 BadgerService: Realtime: 65 consecutive failures � cooling down 5 min
-[E] 06-30 01:40:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #65 in 300s)
-[E] 06-30 01:46:26 BadgerService: Realtime: 66 consecutive failures � cooling down 5 min
+=== samsung SM-S911U | v194 | shipped 2026-06-30 19:51:07 ===
 [E] 06-30 01:46:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #66 in 300s)
 [I] 06-30 01:50:06 BadgerService: Keepalive scheduled in 900s
 [W] 06-30 01:50:06 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -499,3 +489,13 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-30 19:46:38 AppUpdater: Update found via website: access-v195
 [I] 06-30 19:46:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-30 19:46:41 BadgerService: Keepalive scheduled in 900s
+[I] 06-30 19:46:43 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 06-30 19:46:46 WatchNotif: ?? Notif ID: -1200415928
+[I] 06-30 19:46:46 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - 9 ? In Front (tag=watch_truck_224-1)
+[I] 06-30 19:46:46 WatchNotif: ? Successfully sent to watch: Truck 224-1 - 9 ? In Front
+[I] 06-30 19:50:58 AppUpdater: Checking via website (current=194)
+[I] 06-30 19:50:58 AppUpdater: Update found via website: access-v195
+[W] 06-30 19:51:02 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 06-30 19:51:02 BadgerService: Keepalive scheduled in 2s
+[I] 06-30 19:51:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 19:51:07 BadgerService: Keepalive scheduled in 900s
