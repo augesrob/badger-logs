@@ -1,43 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 01:51:37 ===
-[I] 06-30 20:43:33 AppUpdater: Checking via website (current=195)
-[I] 06-30 20:43:33 AppUpdater: Up to date via website (current=195 latest=195)
-[I] 06-30 20:43:33 AppUpdater: Checking via GitHub direct (current=195)
-[I] 06-30 20:43:34 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 06-30 20:45:12 TTS: TTS DISABLED
-[I] 06-30 20:45:13 TTS: TTS ENABLED
-[W] 06-30 20:45:31 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-30 20:45:31 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 06-30 20:53:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-30 20:53:26 BadgerService: Keepalive scheduled in 900s
-[W] 06-30 20:53:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-30 20:53:26 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-30 20:53:28 LogShipper: Shipped 385 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-30 21:08:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 06-30 21:08:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-30 21:08:26 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-30 21:08:26 BadgerService: Keepalive scheduled in 900s
-[I] 06-30 21:08:28 LogShipper: Shipped 390 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 06-30 21:23:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-30 21:23:26 BadgerService: Keepalive scheduled in 900s
-[W] 06-30 21:23:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-30 21:23:26 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-30 21:23:28 LogShipper: Shipped 395 log lines to badger-logs/android/samsung_sm-n975u.txt
-[W] 06-30 21:24:20 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-30 21:24:20 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-30 21:34:49 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-30 21:34:49 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-30 21:38:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 06-30 21:38:26 BadgerService: Keepalive scheduled in 900s
-[W] 06-30 21:38:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-30 21:38:26 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-30 21:38:28 LogShipper: Shipped 404 log lines to badger-logs/android/samsung_sm-n975u.txt
-[W] 06-30 21:40:04 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-30 21:40:04 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-30 21:41:23 AppUpdater: Checking via website (current=195)
-[I] 06-30 21:41:24 AppUpdater: Up to date via website (current=195 latest=195)
-[I] 06-30 21:41:24 AppUpdater: Checking via GitHub direct (current=195)
-[I] 06-30 21:41:24 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 06-30 21:46:40 AppUpdater: Checking via website (current=195)
+=== samsung SM-N975U | v195 | shipped 2026-07-01 02:06:37 ===
 [I] 06-30 21:46:40 AppUpdater: Checking via GitHub direct (current=195)
 [I] 06-30 21:46:40 AppUpdater: Up to date via website (current=195 latest=195)
 [I] 06-30 21:46:41 AppUpdater: Up to date via GitHub (current=195 latest=195)
@@ -499,3 +460,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-01 01:51:31 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Change Truck/Trailer
 [I] 07-01 01:51:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-01 01:51:37 BadgerService: Keepalive scheduled in 900s
+[I] 07-01 01:51:38 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-01 01:55:17 AppUpdater: Checking via website (current=195)
+[I] 07-01 01:55:19 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 01:55:19 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 01:55:20 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 01:55:22 Movement: Door 15A status → Loading
+[I] 07-01 01:55:22 BadgerRepo: updateDoorStatus OK — id=5 status=Loading
+[I] 07-01 01:55:23 WatchNotif: ?? PUSHING NOTIF: Door 15A - Change Truck/Trailer ? Loading (tag=watch_door_15A)
+[I] 07-01 01:55:23 WatchNotif: ?? Notif ID: -108072964
+[I] 07-01 01:55:23 WatchNotif: ? Successfully sent to watch: Door 15A - Change Truck/Trailer ? Loading
+[I] 07-01 01:55:25 Movement: Truck 240 status → Put Away
+[I] 07-01 01:55:25 BadgerRepo: updateMovementStatus OK — truck=240 statusId=2
+[I] 07-01 01:55:25 WatchNotif: ?? PUSHING NOTIF: Truck 240 - In Door ? Put Away (tag=watch_truck_240)
+[I] 07-01 01:55:25 WatchNotif: ?? Notif ID: -658231586
+[I] 07-01 01:55:25 WatchNotif: ? Successfully sent to watch: Truck 240 - In Door ? Put Away
+[I] 07-01 01:55:33 WatchNotif: ?? Notif ID: -658231583
+[I] 07-01 01:55:33 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Front ? In Door (tag=watch_truck_243)
+[I] 07-01 01:55:33 WatchNotif: ? Successfully sent to watch: Truck 243 - In Front ? In Door
+[I] 07-01 01:56:57 WatchNotif: ?? PUSHING NOTIF: Truck 130 - Ready ? In Front (tag=watch_truck_130)
+[I] 07-01 01:56:57 WatchNotif: ?? Notif ID: -658232578
+[I] 07-01 01:56:57 WatchNotif: ? Successfully sent to watch: Truck 130 - Ready ? In Front
+[I] 07-01 01:57:09 WatchNotif: ?? PUSHING NOTIF: Truck 238 - Ready ? In Front (tag=watch_truck_238)
+[I] 07-01 01:57:09 WatchNotif: ?? Notif ID: -658231609
+[I] 07-01 01:57:09 WatchNotif: ? Successfully sent to watch: Truck 238 - Ready ? In Front
+[I] 07-01 01:58:55 WatchNotif: ?? Notif ID: -108072963
+[I] 07-01 01:58:55 WatchNotif: ?? PUSHING NOTIF: Door 15B - Loading ? Change Truck/Trailer (tag=watch_door_15B)
+[I] 07-01 01:58:55 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? Change Truck/Trailer
+[I] 07-01 02:01:53 WatchNotif: ?? PUSHING NOTIF: Truck 195 - In Front ? In Door (tag=watch_truck_195)
+[I] 07-01 02:01:53 WatchNotif: ?? Notif ID: -658232387
+[I] 07-01 02:01:53 WatchNotif: ? Successfully sent to watch: Truck 195 - In Front ? In Door
+[I] 07-01 02:01:56 WatchNotif: ?? PUSHING NOTIF: Truck 241 - In Door ? Put Away (tag=watch_truck_241)
+[I] 07-01 02:01:56 WatchNotif: ?? Notif ID: -658231585
+[I] 07-01 02:01:56 WatchNotif: ? Successfully sent to watch: Truck 241 - In Door ? Put Away
+[I] 07-01 02:01:59 AppUpdater: Checking via website (current=195)
+[I] 07-01 02:01:59 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 02:01:59 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 02:02:00 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 02:06:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 02:06:37 BadgerService: Keepalive scheduled in 900s
