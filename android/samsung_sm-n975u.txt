@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 05:21:37 ===
+=== samsung SM-N975U | v195 | shipped 2026-07-01 05:36:37 ===
 [I] 07-01 02:38:49 WatchNotif: ?? PUSHING NOTIF: Truck 189-2 - Transfer ? 12A (tag=watch_truck_189-2)
 [I] 07-01 02:38:49 WatchNotif: ?? Notif ID: -1201155897
 [I] 07-01 02:38:49 WatchNotif: ? Successfully sent to watch: Truck 189-2 - Transfer ? 12A
@@ -390,3 +390,52 @@
 [I] 07-01 05:17:28 WatchNotif: ? Successfully sent to watch: Door 14A - Loading ? Change Truck/Trailer
 [I] 07-01 05:21:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-01 05:21:37 BadgerService: Keepalive scheduled in 900s
+[I] 07-01 05:21:39 LogShipper: Shipped 391 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-01 05:22:19 WatchNotif: ?? PUSHING NOTIF: Door 15B - Loading ? Change Truck/Trailer (tag=watch_door_15B)
+[I] 07-01 05:22:19 WatchNotif: ?? Notif ID: -108072963
+[I] 07-01 05:22:19 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? Change Truck/Trailer
+[I] 07-01 05:22:37 AppUpdater: Checking via website (current=195)
+[I] 07-01 05:22:38 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 05:22:38 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 05:22:38 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 05:22:43 Movement: Door 14A status → Done for Night
+[I] 07-01 05:22:43 BadgerRepo: updateDoorStatus OK — id=3 status=Done for Night
+[I] 07-01 05:22:44 WatchNotif: ?? PUSHING NOTIF: Door 14A - Change Truck/Trailer ? Done for Night (tag=watch_door_14A)
+[I] 07-01 05:22:44 WatchNotif: ?? Notif ID: -108072995
+[I] 07-01 05:22:44 WatchNotif: ? Successfully sent to watch: Door 14A - Change Truck/Trailer ? Done for Night
+[I] 07-01 05:23:01 Movement: Door 13B status → Done for Night
+[I] 07-01 05:23:02 BadgerRepo: updateDoorStatus OK — id=2 status=Done for Night
+[I] 07-01 05:23:02 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? Done for Night (tag=watch_door_13B)
+[I] 07-01 05:23:02 WatchNotif: ?? Notif ID: -108073025
+[I] 07-01 05:23:02 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Done for Night
+[I] 07-01 05:23:04 Movement: Truck 152 status → In Door
+[I] 07-01 05:23:04 BadgerRepo: updateMovementStatus OK — truck=152 statusId=1
+[I] 07-01 05:23:05 WatchNotif: ?? Notif ID: -658232514
+[I] 07-01 05:23:05 WatchNotif: ?? PUSHING NOTIF: Truck 152 - In Front ? In Door (tag=watch_truck_152)
+[I] 07-01 05:23:05 WatchNotif: ? Successfully sent to watch: Truck 152 - In Front ? In Door
+[I] 07-01 05:25:45 Movement: Truck 242 status → Yard
+[I] 07-01 05:25:45 BadgerRepo: updateMovementStatus OK — truck=242 statusId=9
+[I] 07-01 05:25:46 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Door ? Yard (tag=watch_truck_242)
+[I] 07-01 05:25:46 WatchNotif: ?? Notif ID: -658231584
+[I] 07-01 05:25:46 WatchNotif: ? Successfully sent to watch: Truck 242 - In Door ? Yard
+[I] 07-01 05:25:52 Movement: Truck 183 status → In Door
+[I] 07-01 05:25:52 BadgerRepo: updateMovementStatus OK — truck=183 statusId=1
+[I] 07-01 05:25:52 WatchNotif: ?? PUSHING NOTIF: Truck 183 - In Front ? In Door (tag=watch_truck_183)
+[I] 07-01 05:25:52 WatchNotif: ?? Notif ID: -658232420
+[I] 07-01 05:25:52 WatchNotif: ? Successfully sent to watch: Truck 183 - In Front ? In Door
+[I] 07-01 05:25:54 Movement: Door 15B status → Done for Night
+[I] 07-01 05:25:54 BadgerRepo: updateDoorStatus OK — id=6 status=Done for Night
+[I] 07-01 05:25:54 WatchNotif: ?? PUSHING NOTIF: Door 15B - Change Truck/Trailer ? Done for Night (tag=watch_door_15B)
+[I] 07-01 05:25:54 WatchNotif: ?? Notif ID: -108072963
+[I] 07-01 05:25:54 WatchNotif: ? Successfully sent to watch: Door 15B - Change Truck/Trailer ? Done for Night
+[I] 07-01 05:32:11 AppUpdater: Checking via website (current=195)
+[I] 07-01 05:32:11 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 05:32:11 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 05:32:12 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 05:32:15 Movement: Truck 242 status → Put Away
+[I] 07-01 05:32:15 BadgerRepo: updateMovementStatus OK — truck=242 statusId=2
+[I] 07-01 05:32:16 WatchNotif: ?? PUSHING NOTIF: Truck 242 - Yard ? Put Away (tag=watch_truck_242)
+[I] 07-01 05:32:16 WatchNotif: ?? Notif ID: -658231584
+[I] 07-01 05:32:16 WatchNotif: ? Successfully sent to watch: Truck 242 - Yard ? Put Away
+[I] 07-01 05:36:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 05:36:37 BadgerService: Keepalive scheduled in 900s
