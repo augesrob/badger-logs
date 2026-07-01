@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v194 | shipped 2026-07-01 04:21:17 ===
+=== samsung SM-S911U | v195 | shipped 2026-07-01 04:22:31 ===
 [I] 06-30 20:48:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 06-30 20:48:43 BadgerService: Keepalive scheduled in 900s
 [W] 06-30 20:48:43 BadgerService: startRealtimeSync skipped -- already restarting
@@ -298,3 +298,33 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-01 04:20:23 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Done for Night
 [I] 07-01 04:21:17 BadgerService: Keepalive scheduled in 900s
 [I] 07-01 04:21:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 04:21:19 LogShipper: Shipped 299 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-01 04:21:32 AppUpdater: Checking via website (current=194)
+[I] 07-01 04:21:32 AppUpdater: Update found via website: access-v195
+[I] 07-01 04:21:32 MainActivity: Auto-downloading access-v195
+[I] 07-01 04:21:32 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v195/badger-access-access-v195.apk
+[I] 07-01 04:21:35 AppUpdater: Downloaded 16635260 bytes
+[I] 07-01 04:21:53 BadgerApp: App started v195 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-01 04:21:53 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-01 04:21:53 MainActivity: BadgerService started (mic=true)
+[I] 07-01 04:21:53 AppUpdater: Checking via website (current=195)
+[W] 07-01 04:21:53 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-01 04:21:53 AuthManager: Session expired — trying HWID silent login
+[I] 07-01 04:21:53 AuthManager: HWID silent login for kevinpotter@badgerliquor.com
+[I] 07-01 04:21:53 BadgerService: Keepalive scheduled in 900s
+[I] 07-01 04:21:53 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-01 04:21:53 FCM: ?? FCM Token: cWmwZ0_HRheV4HpH8V0P...
+[I] 07-01 04:21:53 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 04:21:53 AppUpdater: Checking via GitHub direct (current=195)
+[E] 07-01 04:21:53 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-01 04:21:54 AuthManager: HWID silent login OK
+[I] 07-01 04:21:54 AuthManager: Sign in OK — kevinpotter role=driver
+[I] 07-01 04:21:54 AuthManager: Profile realtime watch started for b1d2a619-af22-4d90-9dd9-ea53a97b95cc
+[I] 07-01 04:21:54 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 04:21:55 BadgerService: Realtime subscribed OK -- badger-svc-0eeb503e-38f7-4318-8e47-e9073e8e341e status=SUBSCRIBED
+[W] 07-01 04:22:26 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-01 04:22:26 BadgerService: Keepalive scheduled in 2s
+[I] 07-01 04:22:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 04:22:31 BadgerService: Keepalive scheduled in 900s
