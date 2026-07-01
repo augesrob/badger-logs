@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 00:06:37 ===
+=== samsung SM-N975U | v195 | shipped 2026-07-01 00:21:37 ===
 [W] 06-30 19:35:53 BadgerService: startRealtimeSync skipped -- already restarting
 [W] 06-30 19:35:53 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [W] 06-30 19:38:26 BadgerService: startRealtimeSync skipped -- already restarting
@@ -332,3 +332,50 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-01 00:03:03 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Change Truck/Trailer
 [I] 07-01 00:06:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-01 00:06:37 BadgerService: Keepalive scheduled in 900s
+[I] 07-01 00:06:38 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-01 00:06:50 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Front ? In Door (tag=watch_truck_246)
+[I] 07-01 00:06:50 WatchNotif: ?? Notif ID: -658231580
+[I] 07-01 00:06:50 WatchNotif: ? Successfully sent to watch: Truck 246 - In Front ? In Door
+[I] 07-01 00:06:56 WatchNotif: ?? Notif ID: -108073025
+[I] 07-01 00:06:56 WatchNotif: ?? PUSHING NOTIF: Door 13B - Change Truck/Trailer ? Loading (tag=watch_door_13B)
+[I] 07-01 00:06:56 WatchNotif: ? Successfully sent to watch: Door 13B - Change Truck/Trailer ? Loading
+[I] 07-01 00:07:13 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? EOT+1 (tag=watch_door_14B)
+[I] 07-01 00:07:13 WatchNotif: ?? Notif ID: -108072994
+[I] 07-01 00:07:13 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? EOT+1
+[I] 07-01 00:07:15 WatchNotif: ?? Notif ID: -108072994
+[I] 07-01 00:07:15 WatchNotif: ?? PUSHING NOTIF: Door 14B - EOT+1 ? Change Truck/Trailer (tag=watch_door_14B)
+[I] 07-01 00:07:15 WatchNotif: ? Successfully sent to watch: Door 14B - EOT+1 ? Change Truck/Trailer
+[I] 07-01 00:09:26 AppUpdater: Checking via website (current=195)
+[I] 07-01 00:09:27 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 00:09:27 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 00:09:28 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 00:09:34 Movement: Truck 223-2 status → 8
+[I] 07-01 00:09:34 BadgerRepo: updateMovementStatus OK — truck=223-2 statusId=11
+[I] 07-01 00:09:34 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - In Door ? 8 (tag=watch_truck_223-2)
+[I] 07-01 00:09:34 WatchNotif: ?? Notif ID: -1200416888
+[I] 07-01 00:09:34 WatchNotif: ? Successfully sent to watch: Truck 223-2 - In Door ? 8
+[I] 07-01 00:10:17 PTT: PTT recording STARTED
+[I] 07-01 00:10:19 PTT: PTT recording STOPPED
+[I] 07-01 00:10:19 PTT: PTT sent OK — 21120 bytes
+[I] 07-01 00:10:19 PTT: Incoming PTT message received
+[I] 07-01 00:14:14 AppUpdater: Checking via website (current=195)
+[I] 07-01 00:14:14 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 00:14:14 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 00:14:15 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 00:14:21 Movement: Truck 224-2 status → In Door
+[I] 07-01 00:14:21 BadgerRepo: updateMovementStatus OK — truck=224-2 statusId=1
+[I] 07-01 00:14:22 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - Transfer ? In Door (tag=watch_truck_224-2)
+[I] 07-01 00:14:22 WatchNotif: ?? Notif ID: -1200415927
+[I] 07-01 00:14:22 WatchNotif: ? Successfully sent to watch: Truck 224-2 - Transfer ? In Door
+[I] 07-01 00:14:29 Movement: Door 14B status → Loading
+[I] 07-01 00:14:30 BadgerRepo: updateDoorStatus OK — id=4 status=Loading
+[I] 07-01 00:14:30 WatchNotif: ?? Notif ID: -108072994
+[I] 07-01 00:14:30 WatchNotif: ?? PUSHING NOTIF: Door 14B - Change Truck/Trailer ? Loading (tag=watch_door_14B)
+[I] 07-01 00:14:30 WatchNotif: ? Successfully sent to watch: Door 14B - Change Truck/Trailer ? Loading
+[I] 07-01 00:14:34 Movement: Truck 186-1 status → On Route
+[I] 07-01 00:14:34 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=3
+[I] 07-01 00:14:35 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Door ? On Route (tag=watch_truck_186-1)
+[I] 07-01 00:14:35 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-01 00:14:35 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Door ? On Route
+[I] 07-01 00:21:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 00:21:37 BadgerService: Keepalive scheduled in 900s
