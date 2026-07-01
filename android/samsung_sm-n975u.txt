@@ -1,63 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-06-30 22:19:35 ===
-[W] 06-28 18:19:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-28 18:19:50 BadgerService: startRealtimeSync: in backoff for 53s more — skipping
-[I] 06-28 18:19:53 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
-[E] 06-28 18:21:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
-[E] 06-28 18:23:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
-[W] 06-28 18:25:24 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-28 18:25:24 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-28 18:25:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
-[W] 06-28 18:27:46 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-28 18:27:46 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 06-28 18:27:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
-[E] 06-28 18:29:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
-[E] 06-28 18:32:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
-[E] 06-28 18:34:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
-[E] 06-28 18:34:08 BadgerService: Realtime: 11 consecutive failures — cooling down 5 min
-[I] 06-28 18:34:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[E] 06-28 18:39:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
-[E] 06-28 18:39:54 BadgerService: Realtime: 12 consecutive failures — cooling down 5 min
-[E] 06-28 18:45:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
-[E] 06-28 18:45:40 BadgerService: Realtime: 13 consecutive failures — cooling down 5 min
-[I] 06-28 18:49:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 06-28 18:49:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 06-28 18:49:50 BadgerService: startRealtimeSync: in backoff for 49s more — skipping
-[I] 06-28 18:49:50 BadgerService: Keepalive scheduled in 900s
-[I] 06-28 18:49:52 LogShipper: Shipped 335 log lines to badger-logs/android/samsung_sm-n975u.txt
-[E] 06-28 18:51:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
-[E] 06-28 18:51:26 BadgerService: Realtime: 14 consecutive failures — cooling down 5 min
-[I] 06-28 18:56:46 BadgerApp: App started v167 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-28 18:56:46 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 06-28 18:56:46 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 06-28 18:56:46 AuthManager: Session expired — trying HWID silent login
-[I] 06-28 18:56:46 BadgerService: Keepalive scheduled in 900s
-[I] 06-28 18:56:46 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-28 18:56:46 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 06-28 18:56:47 AuthManager: HWID silent login OK
-[I] 06-28 18:56:47 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
-[I] 06-28 18:56:47 AuthManager: Sign in OK — joemiller role=admin
-[W] 06-28 18:56:47 BadgerService: startRealtimeSync skipped -- already restarting
-[W] 06-28 18:56:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-28 18:56:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 06-28 18:56:47 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 06-28 18:56:48 BadgerService: Realtime subscribed OK -- badger-svc-f73b9b43-6e6b-4553-a661-8e7d7e50a03e status=SUBSCRIBED
-[I] 06-28 18:57:09 AppUpdater: Checking via website (current=167)
-[I] 06-28 18:57:10 AppUpdater: Update found via website: access-v194
-[I] 06-28 18:57:10 MainActivity: Auto-downloading access-v194
-[I] 06-28 18:57:10 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v194/badger-access-access-v194.apk
-[I] 06-29 17:10:59 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 06-29 17:10:59 BadgerApp: App started v167 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-29 17:10:59 MainActivity: BadgerService started (mic=true)
-[I] 06-29 17:10:59 AppUpdater: Checking via website (current=167)
-[W] 06-29 17:10:59 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 06-29 17:10:59 AuthManager: Session expired — trying HWID silent login
-[I] 06-29 17:10:59 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 06-29 17:11:00 BadgerService: Keepalive scheduled in 900s
-[I] 06-29 17:11:00 BadgerService: Service started — URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 06-29 17:11:01 AuthManager: Sign in OK — joemiller role=admin
-[I] 06-29 17:11:01 AuthManager: HWID silent login OK
-[I] 06-29 17:11:01 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
-[I] 06-29 17:11:01 AppUpdater: Update found via website: access-v194
+=== samsung SM-N975U | v195 | shipped 2026-06-30 22:51:36 ===
 [I] 06-29 17:11:01 MainActivity: Auto-downloading access-v194
 [I] 06-29 17:11:01 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v194/badger-access-access-v194.apk
 [I] 06-29 17:11:02 BadgerService: Realtime subscribed OK -- badger-svc-236d83e2-39e9-4bee-b22f-f23beaecfaf0 status=SUBSCRIBED
@@ -480,3 +421,81 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 06-30 22:19:35 BadgerService: Keepalive scheduled in 900s
 [W] 06-30 22:19:35 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 06-30 22:19:35 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-30 22:19:37 LogShipper: Shipped 481 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 06-30 22:20:33 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-30 22:20:33 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 06-30 22:21:21 AppUpdater: Checking via website (current=195)
+[I] 06-30 22:21:22 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 22:21:22 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 22:21:23 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 22:21:25 Movement: Truck 241 status → In Front
+[I] 06-30 22:21:26 BadgerRepo: updateMovementStatus OK — truck=241 statusId=4
+[I] 06-30 22:21:49 BadgerService: Keepalive scheduled in 900s
+[I] 06-30 22:21:49 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-30 22:21:49 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 06-30 22:21:49 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[W] 06-30 22:21:51 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 22:21:51 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-30 22:24:22 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 06-30 22:24:22 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 06-30 22:25:01 Movement: Truck 186-2 status → In Door
+[I] 06-30 22:25:02 BadgerRepo: updateMovementStatus OK — truck=186-2 statusId=1
+[I] 06-30 22:25:04 Movement: Truck 222-1 status → On Route
+[I] 06-30 22:25:04 BadgerRepo: updateMovementStatus OK — truck=222-1 statusId=3
+[W] 06-30 22:25:49 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-30 22:25:49 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 06-30 22:26:21 AppUpdater: Checking via website (current=195)
+[I] 06-30 22:26:22 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 22:26:22 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 22:26:23 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 22:29:43 AppUpdater: Checking via website (current=195)
+[I] 06-30 22:29:43 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 22:29:43 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 22:29:44 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 22:30:05 Movement: Truck 243 status → In Front
+[I] 06-30 22:30:06 BadgerRepo: updateMovementStatus OK — truck=243 statusId=4
+[W] 06-30 22:33:31 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 06-30 22:33:31 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 06-30 22:34:22 AppUpdater: Checking via website (current=195)
+[I] 06-30 22:34:23 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 22:34:23 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 22:34:23 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 22:34:26 Movement: Truck 240 status → In Front
+[I] 06-30 22:34:26 BadgerRepo: updateMovementStatus OK — truck=240 statusId=4
+[I] 06-30 22:34:50 AppUpdater: Checking via website (current=195)
+[I] 06-30 22:34:50 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 22:34:50 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 22:34:50 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 22:36:36 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 06-30 22:36:36 BadgerApp: App started v195 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-30 22:36:36 MainActivity: BadgerService started (mic=true)
+[I] 06-30 22:36:36 AppUpdater: Checking via website (current=195)
+[W] 06-30 22:36:36 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 06-30 22:36:36 AuthManager: Session expired — trying HWID silent login
+[I] 06-30 22:36:36 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 06-30 22:36:36 BadgerService: Keepalive scheduled in 900s
+[I] 06-30 22:36:37 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 06-30 22:36:37 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 06-30 22:36:37 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 06-30 22:36:37 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 22:36:37 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 22:36:37 AuthManager: HWID silent login OK
+[I] 06-30 22:36:37 AuthManager: Sign in OK — joemiller role=admin
+[I] 06-30 22:36:37 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 06-30 22:36:38 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 22:36:38 BadgerService: Realtime subscribed OK -- badger-svc-c9115025-50ee-4e03-9642-52e14f58e499 status=SUBSCRIBED
+[I] 06-30 22:38:02 Movement: Truck 148 status → In Front
+[I] 06-30 22:38:02 BadgerRepo: updateMovementStatus OK — truck=148 statusId=4
+[I] 06-30 22:38:02 WatchNotif: ?? Notif ID: -658232539
+[I] 06-30 22:38:02 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Ready ? In Front (tag=watch_truck_148)
+[I] 06-30 22:38:02 WatchNotif: ? Successfully sent to watch: Truck 148 - Ready ? In Front
+[I] 06-30 22:39:26 AppUpdater: Checking via website (current=195)
+[I] 06-30 22:39:26 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 06-30 22:39:26 AppUpdater: Checking via GitHub direct (current=195)
+[I] 06-30 22:39:27 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 06-30 22:51:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 06-30 22:51:36 BadgerService: Keepalive scheduled in 900s
