@@ -1,29 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-07-02 00:04:50 ===
-[I] 07-01 18:23:05 AppUpdater: Checking via GitHub direct (current=195)
-[I] 07-01 18:23:05 AppUpdater: Up to date via website (current=195 latest=195)
-[I] 07-01 18:23:06 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 07-01 18:23:08 PTT: PTT recording STARTED
-[I] 07-01 18:23:10 PTT: PTT recording STOPPED
-[I] 07-01 18:23:10 PTT: PTT sent OK — 35840 bytes
-[I] 07-01 18:23:27 Movement: Truck 231-2 status → In Front
-[I] 07-01 18:23:27 BadgerRepo: updateMovementStatus OK — truck=231-2 statusId=4
-[I] 07-01 18:23:30 Movement: Truck 224-2 status → In Front
-[I] 07-01 18:23:30 BadgerRepo: updateMovementStatus OK — truck=224-2 statusId=4
-[I] 07-01 18:24:34 AppUpdater: Checking via website (current=195)
-[I] 07-01 18:24:34 AppUpdater: Up to date via website (current=195 latest=195)
-[I] 07-01 18:24:34 AppUpdater: Checking via GitHub direct (current=195)
-[I] 07-01 18:24:35 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 07-01 18:35:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-01 18:35:49 BadgerService: Keepalive scheduled in 900s
-[W] 07-01 18:35:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-01 18:35:49 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 07-01 18:35:50 LogShipper: Shipped 433 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-01 18:50:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-01 18:50:49 BadgerService: Keepalive scheduled in 900s
-[W] 07-01 18:50:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-01 18:50:49 BadgerService: startRealtimeSync skipped -- already restarting
-[I] 07-01 18:50:50 LogShipper: Shipped 438 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-01 19:05:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S938U | v195 | shipped 2026-07-02 00:19:50 ===
 [I] 07-01 19:05:49 BadgerService: Keepalive scheduled in 900s
 [W] 07-01 19:05:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-01 19:05:49 BadgerService: startRealtimeSync skipped -- already restarting
@@ -499,3 +474,28 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-02 00:01:53 WatchNotif: ?? PUSHING NOTIF: Door 14A - Change Truck/Trailer ? Loading (tag=watch_door_14A)
 [I] 07-02 00:04:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-02 00:04:50 BadgerService: Keepalive scheduled in 900s
+[I] 07-02 00:04:51 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-02 00:16:47 AppUpdater: Checking via website (current=195)
+[I] 07-02 00:16:48 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-02 00:16:48 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-02 00:16:49 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-02 00:16:53 Movement: Door 15A status → Change Truck/Trailer
+[I] 07-02 00:16:53 BadgerRepo: updateDoorStatus OK — id=5 status=Change Truck/Trailer
+[I] 07-02 00:16:54 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Change Truck/Trailer (tag=watch_door_15A)
+[I] 07-02 00:16:54 WatchNotif: ?? Notif ID: -108072964
+[I] 07-02 00:16:54 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Change Truck/Trailer
+[I] 07-02 00:16:58 Movement: Truck 230 status → In Door
+[I] 07-02 00:16:58 BadgerRepo: updateMovementStatus OK — truck=230 statusId=1
+[I] 07-02 00:16:59 WatchNotif: ?? PUSHING NOTIF: Truck 230 - In Front ? In Door (tag=watch_truck_230)
+[I] 07-02 00:16:59 WatchNotif: ?? Notif ID: -658231617
+[I] 07-02 00:16:59 WatchNotif: ? Successfully sent to watch: Truck 230 - In Front ? In Door
+[I] 07-02 00:17:54 Movement: Door 15A status → Loading
+[I] 07-02 00:17:54 BadgerRepo: updateDoorStatus OK — id=5 status=Loading
+[I] 07-02 00:17:55 WatchNotif: ?? Notif ID: -108072964
+[I] 07-02 00:17:55 WatchNotif: ?? PUSHING NOTIF: Door 15A - Change Truck/Trailer ? Loading (tag=watch_door_15A)
+[I] 07-02 00:17:55 WatchNotif: ? Successfully sent to watch: Door 15A - Change Truck/Trailer ? Loading
+[I] 07-02 00:18:56 WatchNotif: ?? Notif ID: -658231580
+[I] 07-02 00:18:56 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Door ? Put Away (tag=watch_truck_246)
+[I] 07-02 00:18:56 WatchNotif: ? Successfully sent to watch: Truck 246 - In Door ? Put Away
+[I] 07-02 00:19:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-02 00:19:50 BadgerService: Keepalive scheduled in 900s
