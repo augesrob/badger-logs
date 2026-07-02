@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 21:39:22 ===
+=== samsung SM-N975U | v195 | shipped 2026-07-01 21:54:22 ===
 [I] 07-01 03:24:24 WatchNotif: ?? PUSHING NOTIF: Truck 183 - Ready ? In Front (tag=watch_truck_183)
 [I] 07-01 03:24:24 WatchNotif: ?? Notif ID: -658232420
 [I] 07-01 03:24:24 WatchNotif: ? Successfully sent to watch: Truck 183 - Ready ? In Front
@@ -391,3 +391,9 @@
 [I] 07-01 21:31:56 WatchNotif: ? Successfully sent to watch: Truck 195 - In Back ? In Front
 [I] 07-01 21:39:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-01 21:39:22 BadgerService: Keepalive scheduled in 900s
+[I] 07-01 21:39:30 LogShipper: Shipped 392 log lines to badger-logs/android/samsung_sm-n975u.txt
+[W] 07-01 21:48:51 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-01 21:49:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 07-01 21:49:51 BadgerService: Realtime subscribed OK -- badger-svc-4854d6f6-93eb-4be0-b2bf-e30a296d2f3b status=SUBSCRIBED
+[I] 07-01 21:54:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 21:54:22 BadgerService: Keepalive scheduled in 900s
