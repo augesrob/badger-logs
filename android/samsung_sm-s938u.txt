@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-07-02 11:30:02 ===
+=== samsung SM-S938U | v195 | shipped 2026-07-02 11:56:24 ===
 [I] 07-02 03:24:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-02 03:24:22 BadgerService: Keepalive scheduled in 900s
 [I] 07-02 03:24:23 LogShipper: Shipped 297 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -381,3 +381,25 @@
 [I] 07-02 11:30:02 BadgerService: Keepalive scheduled in 900s
 [W] 07-02 11:30:02 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-02 11:30:02 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 07-02 11:30:04 LogShipper: Shipped 382 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-02 11:30:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #85 in 300s)
+[E] 07-02 11:30:40 BadgerService: Realtime: 85 consecutive failures � cooling down 5 min
+[E] 07-02 11:36:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #86 in 300s)
+[E] 07-02 11:36:27 BadgerService: Realtime: 86 consecutive failures � cooling down 5 min
+[I] 07-02 11:41:24 BadgerApp: App started v195 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-02 11:41:24 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 07-02 11:41:24 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-02 11:41:24 AuthManager: Session expired — trying HWID silent login
+[I] 07-02 11:41:24 BadgerService: Keepalive scheduled in 900s
+[I] 07-02 11:41:24 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 07-02 11:41:24 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-02 11:41:24 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-02 11:41:24 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-02 11:41:25 AuthManager: HWID silent login OK
+[I] 07-02 11:41:25 AuthManager: Sign in OK — augesrob role=admin
+[I] 07-02 11:41:25 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 07-02 11:41:25 BadgerService: Realtime subscribed OK -- badger-svc-a45010e5-566e-4ec2-b9d4-1b5d5a621a26 status=SUBSCRIBED
+[I] 07-02 11:56:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-02 11:56:24 BadgerService: Keepalive scheduled in 900s
