@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 19:39:22 ===
+=== samsung SM-N975U | v195 | shipped 2026-07-01 19:54:22 ===
 [I] 07-01 03:24:24 WatchNotif: ?? PUSHING NOTIF: Truck 183 - Ready ? In Front (tag=watch_truck_183)
 [I] 07-01 03:24:24 WatchNotif: ?? Notif ID: -658232420
 [I] 07-01 03:24:24 WatchNotif: ? Successfully sent to watch: Truck 183 - Ready ? In Front
@@ -238,3 +238,11 @@
 [I] 07-01 19:39:22 BadgerService: Keepalive scheduled in 900s
 [W] 07-01 19:39:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-01 19:39:22 BadgerService: startRealtimeSync: in backoff for 232s more � skipping
+[I] 07-01 19:39:23 LogShipper: Shipped 239 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 07-01 19:44:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #18 in 300s)
+[E] 07-01 19:44:00 BadgerService: Realtime: 18 consecutive failures � cooling down 5 min
+[E] 07-01 19:49:46 BadgerService: Realtime: 19 consecutive failures � cooling down 5 min
+[E] 07-01 19:49:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #19 in 300s)
+[I] 07-01 19:54:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 07-01 19:54:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-01 19:54:22 BadgerService: startRealtimeSync: in backoff for 24s more � skipping
