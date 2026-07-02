@@ -1,14 +1,4 @@
-=== samsung SM-S911U | v195 | shipped 2026-07-02 13:56:08 ===
-[I] 07-01 20:14:20 Movement: Truck 188-1 status → 8
-[I] 07-01 20:14:20 BadgerRepo: updateMovementStatus OK — truck=188-1 statusId=11
-[I] 07-01 20:14:23 Movement: Door 14B status → Loading
-[I] 07-01 20:14:23 BadgerRepo: updateDoorStatus OK — id=4 status=Loading
-[I] 07-01 20:17:50 AppUpdater: Checking via website (current=195)
-[I] 07-01 20:17:50 AppUpdater: Up to date via website (current=195 latest=195)
-[I] 07-01 20:17:50 AppUpdater: Checking via GitHub direct (current=195)
-[I] 07-01 20:17:51 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 07-01 20:17:53 Movement: Truck 231-2 status → In Door
-[I] 07-01 20:17:53 BadgerRepo: updateMovementStatus OK — truck=231-2 statusId=1
+=== samsung SM-S911U | v195 | shipped 2026-07-02 14:26:08 ===
 [I] 07-01 20:17:55 Movement: Truck 248-1 status → Put Away
 [I] 07-01 20:17:55 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=2
 [I] 07-01 20:17:57 Movement: Truck 248-1 status → On Route
@@ -499,3 +489,13 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-02 13:56:08 BadgerService: Keepalive scheduled in 900s
 [W] 07-02 13:56:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-02 13:56:08 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 07-02 13:56:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-02 14:11:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-02 14:11:08 BadgerService: Keepalive scheduled in 900s
+[W] 07-02 14:11:08 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 07-02 14:11:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-02 14:11:11 LogShipper: Ship failed HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/conten
+[I] 07-02 14:26:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-02 14:26:08 BadgerService: Keepalive scheduled in 900s
+[W] 07-02 14:26:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-02 14:26:08 BadgerService: startRealtimeSync skipped -- already restarting
