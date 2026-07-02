@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-07-01 21:08:07 ===
+=== samsung SM-S938U | v195 | shipped 2026-07-01 21:23:07 ===
 [I] 07-01 16:03:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-01 16:03:16 BadgerService: Keepalive scheduled in 900s
 [W] 07-01 16:03:16 BadgerService: startRealtimeSync skipped -- already restarting
@@ -360,3 +360,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-01 21:07:53 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
 [I] 07-01 21:08:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-01 21:08:07 BadgerService: Keepalive scheduled in 900s
+[I] 07-01 21:08:08 LogShipper: Shipped 361 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-01 21:09:37 AppUpdater: Checking via website (current=195)
+[I] 07-01 21:09:37 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 21:09:37 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 21:09:38 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 21:09:44 Movement: Truck 158 status → In Front
+[I] 07-01 21:09:44 BadgerRepo: updateMovementStatus OK — truck=158 statusId=4
+[I] 07-01 21:09:45 WatchNotif: ?? PUSHING NOTIF: Truck 158 - In Back ? In Front (tag=watch_truck_158)
+[I] 07-01 21:09:45 WatchNotif: ?? Notif ID: -658232508
+[I] 07-01 21:09:45 WatchNotif: ? Successfully sent to watch: Truck 158 - In Back ? In Front
+[I] 07-01 21:16:07 AppUpdater: Checking via website (current=195)
+[I] 07-01 21:16:07 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 21:16:07 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 21:16:08 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 21:17:25 AppUpdater: Checking via website (current=195)
+[I] 07-01 21:17:25 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 21:17:25 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 21:17:26 AppUpdater: Checking via website (current=195)
+[E] 07-01 21:17:26 BadgerRepo: getLiveMovement FAILED: The coroutine scope left the composition
+[W] 07-01 21:17:26 AppUpdater: GitHub direct check failed: Job was cancelled
+[I] 07-01 21:17:26 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 21:17:26 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 21:17:26 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 21:22:45 AppUpdater: Checking via website (current=195)
+[I] 07-01 21:22:45 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 21:22:45 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 21:22:46 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 21:22:51 Movement: Truck 187-1 status → 9
+[I] 07-01 21:22:52 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=12
+[I] 07-01 21:22:52 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 9 (tag=watch_truck_187-1)
+[I] 07-01 21:22:52 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-01 21:22:52 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 9
+[I] 07-01 21:22:55 Movement: Truck 224-2 status → In Door
+[I] 07-01 21:22:55 BadgerRepo: updateMovementStatus OK — truck=224-2 statusId=1
+[I] 07-01 21:22:55 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - In Front ? In Door (tag=watch_truck_224-2)
+[I] 07-01 21:22:55 WatchNotif: ?? Notif ID: -1200415927
+[I] 07-01 21:22:55 WatchNotif: ? Successfully sent to watch: Truck 224-2 - In Front ? In Door
+[I] 07-01 21:23:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 21:23:07 BadgerService: Keepalive scheduled in 900s
