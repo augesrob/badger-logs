@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 21:09:22 ===
+=== samsung SM-N975U | v195 | shipped 2026-07-01 21:24:22 ===
 [I] 07-01 03:24:24 WatchNotif: ?? PUSHING NOTIF: Truck 183 - Ready ? In Front (tag=watch_truck_183)
 [I] 07-01 03:24:24 WatchNotif: ?? Notif ID: -658232420
 [I] 07-01 03:24:24 WatchNotif: ? Successfully sent to watch: Truck 183 - Ready ? In Front
@@ -367,3 +367,21 @@
 [I] 07-01 21:09:22 BadgerService: Keepalive scheduled in 900s
 [W] 07-01 21:09:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-01 21:09:22 BadgerService: startRealtimeSync: in backoff for 6s more � skipping
+[I] 07-01 21:09:23 LogShipper: Shipped 368 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 07-01 21:10:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-01 21:11:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[I] 07-01 21:13:15 AppUpdater: Checking via website (current=195)
+[I] 07-01 21:13:15 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 21:13:15 AppUpdater: Checking via GitHub direct (current=195)
+[W] 07-01 21:13:16 BadgerService: startRealtimeSync skipped -- already restarting
+[W] 07-01 21:13:16 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-01 21:13:16 TTS: TTS DISABLED
+[I] 07-01 21:13:16 TTS: TTS ENABLED
+[I] 07-01 21:13:16 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[E] 07-01 21:13:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[I] 07-01 21:15:08 BadgerService: Realtime subscribed OK -- badger-svc-3ea38ccb-2930-4093-b869-260b7302a34e status=SUBSCRIBED
+[I] 07-01 21:22:51 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-01 21:22:51 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 9 (tag=watch_truck_187-1)
+[I] 07-01 21:22:51 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 9
+[I] 07-01 21:24:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 21:24:22 BadgerService: Keepalive scheduled in 900s
