@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v195 | shipped 2026-07-01 23:24:22 ===
+=== samsung SM-N975U | v195 | shipped 2026-07-01 23:39:22 ===
 [I] 07-01 03:24:24 WatchNotif: ?? PUSHING NOTIF: Truck 183 - Ready ? In Front (tag=watch_truck_183)
 [I] 07-01 03:24:24 WatchNotif: ?? Notif ID: -658232420
 [I] 07-01 03:24:24 WatchNotif: ? Successfully sent to watch: Truck 183 - Ready ? In Front
@@ -470,3 +470,17 @@
 [I] 07-01 23:20:39 AppUpdater: Up to date via GitHub (current=195 latest=195)
 [I] 07-01 23:24:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-01 23:24:22 BadgerService: Keepalive scheduled in 900s
+[I] 07-01 23:24:24 LogShipper: Shipped 471 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-01 23:36:42 AppUpdater: Checking via website (current=195)
+[I] 07-01 23:36:42 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 23:36:42 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 23:36:43 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[E] 07-01 23:37:52 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 07-01 23:38:17 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 07-01 23:38:21 BadgerService: Realtime subscribed OK -- badger-svc-ecdb996c-aab7-4fba-b853-3aa43fe26ec1 status=SUBSCRIBED
+[I] 07-01 23:38:40 AppUpdater: Checking via website (current=195)
+[I] 07-01 23:38:40 AppUpdater: Up to date via website (current=195 latest=195)
+[I] 07-01 23:38:40 AppUpdater: Checking via GitHub direct (current=195)
+[I] 07-01 23:38:41 AppUpdater: Up to date via GitHub (current=195 latest=195)
+[I] 07-01 23:39:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-01 23:39:22 BadgerService: Keepalive scheduled in 900s
