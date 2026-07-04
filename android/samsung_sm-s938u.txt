@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v195 | shipped 2026-07-04 04:56:34 ===
+=== samsung SM-S938U | v195 | shipped 2026-07-04 05:11:34 ===
 [I] 07-03 19:56:35 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 07-03 19:59:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #275 in 300s)
 [E] 07-03 19:59:36 BadgerService: Realtime: 275 consecutive failures � cooling down 5 min
@@ -385,3 +385,14 @@
 [I] 07-04 04:56:34 BadgerService: Keepalive scheduled in 900s
 [W] 07-04 04:56:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-04 04:56:34 BadgerService: startRealtimeSync skipped -- already restarting
+[I] 07-04 04:56:35 LogShipper: Shipped 386 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-04 04:56:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #368 in 300s)
+[E] 07-04 04:56:43 BadgerService: Realtime: 368 consecutive failures � cooling down 5 min
+[E] 07-04 05:02:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #369 in 300s)
+[E] 07-04 05:02:29 BadgerService: Realtime: 369 consecutive failures � cooling down 5 min
+[E] 07-04 05:08:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #370 in 300s)
+[E] 07-04 05:08:16 BadgerService: Realtime: 370 consecutive failures � cooling down 5 min
+[I] 07-04 05:11:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-04 05:11:34 BadgerService: Keepalive scheduled in 900s
+[W] 07-04 05:11:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-04 05:11:34 BadgerService: startRealtimeSync: in backoff for 101s more � skipping
