@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v196 | shipped 2026-07-06 18:39:20 ===
+=== samsung SM-S938U | v196 | shipped 2026-07-06 18:54:20 ===
 [W] 07-05 20:56:36 BadgerService: startRealtimeSync: in backoff for 0s more � skipping
 [E] 07-05 20:56:36 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
 [I] 07-05 20:56:37 LogShipper: Shipped 275 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -387,3 +387,15 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-06 18:39:20 BadgerService: Keepalive scheduled in 900s
 [W] 07-06 18:39:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-06 18:39:20 BadgerService: startRealtimeSync: in backoff for 141s more � skipping
+[I] 07-06 18:39:21 LogShipper: Shipped 388 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-06 18:52:13 AppUpdater: Checking via website (current=196)
+[I] 07-06 18:52:14 AppUpdater: Up to date via website (current=196 latest=196)
+[I] 07-06 18:52:14 AppUpdater: Checking via GitHub direct (current=196)
+[I] 07-06 18:52:15 AppUpdater: Up to date via GitHub (current=196 latest=196)
+[I] 07-06 18:52:24 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":27,"printroomCreated":12,"movementAdded":32}
+[I] 07-06 18:54:07 Movement: Truck 223-2 status → Trailer Area - connected
+[I] 07-06 18:54:08 BadgerRepo: updateMovementStatus OK — truck=223-2 statusId=36
+[I] 07-06 18:54:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-06 18:54:20 BadgerService: Keepalive scheduled in 900s
+[W] 07-06 18:54:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 07-06 18:54:20 BadgerService: startRealtimeSync: restart lock stuck 758s -- forcing reclaim
