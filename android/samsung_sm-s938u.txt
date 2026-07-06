@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v196 | shipped 2026-07-06 16:24:19 ===
+=== samsung SM-S938U | v196 | shipped 2026-07-06 16:39:19 ===
 [W] 07-05 20:56:36 BadgerService: startRealtimeSync: in backoff for 0s more � skipping
 [E] 07-05 20:56:36 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
 [I] 07-05 20:56:37 LogShipper: Shipped 275 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -296,3 +296,11 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-06 16:09:21 LogShipper: Shipped 294 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-06 16:24:19 BadgerService: Keepalive scheduled in 900s
 [I] 07-06 16:24:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-06 16:24:21 LogShipper: Shipped 297 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-06 16:26:31 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-06 16:26:31 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 07-06 16:26:37 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Socket closed
+[E] 07-06 16:26:37 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Socket closed (retry #1 in 10s)
+[I] 07-06 16:26:49 BadgerService: Realtime subscribed OK -- badger-svc-9017051c-a4a3-4dcd-b825-ebff44e23802 status=SUBSCRIBED
+[I] 07-06 16:39:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-06 16:39:19 BadgerService: Keepalive scheduled in 900s
