@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v203 | shipped 2026-07-07 11:01:25 ===
+=== samsung SM-S938U | v203 | shipped 2026-07-07 11:16:25 ===
 [E] 07-07 08:46:55 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 07-07 08:46:55 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
 [E] 07-07 08:47:12 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
@@ -324,3 +324,6 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 10:52:16 BadgerService: Realtime subscribed OK -- badger-svc-ef36db54-360c-4418-a38f-01cf886f0738 status=SUBSCRIBED
 [I] 07-07 11:01:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 11:01:25 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 11:01:27 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-07 11:16:25 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 11:16:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
