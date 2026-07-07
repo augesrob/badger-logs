@@ -1,4 +1,4 @@
-=== SM-L335U (Wear OS) | v206 | shipped 2026-07-07 18:43:18 ===
+=== SM-L335U (Wear OS) | v206 | shipped 2026-07-07 18:45:21 ===
 [I] 07-07 09:03:15 WearLogShipper: Shipped 500 lines to android/watch_sm-l335u.txt
 [I] 07-07 09:03:47 WearLogShipper: Shipped 500 lines to android/watch_sm-l335u.txt
 [I] 07-07 09:04:03 WearService: PTT recording started
@@ -473,3 +473,28 @@
 [I] 07-07 18:39:58 WearMainActivity: ✅ Truck 187-1 status changed to In Front
 [I] 07-07 18:39:58 WearMainActivity: ✅ Truck 224-1 status changed to In Front
 [I] 07-07 18:40:14 WearLogShipper: Shipped 473 lines to android/watch_sm-l335u.txt
+[I] 07-07 18:43:21 WearLogShipper: Shipped 474 lines to android/watch_sm-l335u.txt
+[I] 07-07 18:44:41 WearUpdater: Checking for update (current v0)
+[I] 07-07 18:44:42 WearUpdater: Website: update found access-v207
+[W] 07-07 18:44:43 WearService: Realtime failed: StandaloneCoroutine was cancelled — retrying in 10s
+[I] 07-07 18:44:48 WearLogger: Initialized — device=wear-458321d23f0b583e model=Watch SM-L335U v206
+[I] 07-07 18:44:48 WearService: Service started v206
+[I] 07-07 18:44:49 WearService: TTS engine initialized, waiting for full initialization...
+[I] 07-07 18:44:49 WearService: TTS fully ready ✅
+[I] 07-07 18:44:50 WearService: Initial data loaded: 15 trucks, 6 doors
+[I] 07-07 18:44:50 WearUpdater: Checking for update (current v206)
+[I] 07-07 18:44:51 WearService: Realtime subscribed ✅
+[I] 07-07 18:44:51 WearUpdater: Website: update found access-v209
+[I] 07-07 18:44:51 WearService: Update found: access-v209 — auto-downloading
+[I] 07-07 18:44:51 WearService: Update: Downloading access-v209...
+[I] 07-07 18:44:51 WearUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v209/badger-wear-access-v209.apk
+[I] 07-07 18:44:51 WearUpdater: DownloadManager enqueued id=65
+[I] 07-07 18:44:51 WearUpdater: Checking for update (current v0)
+[I] 07-07 18:44:52 WearUpdater: Website: update found access-v209
+[I] 07-07 18:44:53 WearUpdater: Download status=2 (73014/55970340 bytes)
+[I] 07-07 18:44:53 WearUpdater: File complete (55970340 bytes) despite status=2 — installing
+[I] 07-07 18:44:55 WearUpdater: PackageInstaller session committed
+[W] 07-07 18:44:55 InstallReceiver: Install status=4 msg=INSTALL_PARSE_FAILED_NOT_APK: Failed to parse /data/app/vmdl71417508.tmp/badger-wear.apk: Failed to load asset path /data/app/vmdl71417508.tmp/badger-wear.apk
+[I] 07-07 18:45:07 WearService: TTS queued: 'Truck 186-1, In Front'
+[I] 07-07 18:45:07 WearService: TTS: Truck 186-1, In Front
+[I] 07-07 18:45:08 WearMainActivity: ✅ Truck 186-1 status changed to In Front
