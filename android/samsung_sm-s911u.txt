@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v195 | shipped 2026-07-07 11:05:00 ===
+=== samsung SM-S911U | v205 | shipped 2026-07-07 11:26:22 ===
 [I] 07-07 01:31:48 WatchNotif: ?? Notif ID: -658231609
 [I] 07-07 01:31:48 WatchNotif: ? Successfully sent to watch: Truck 238 - In Back ? In Front
 [I] 07-07 01:32:13 WatchNotif: ?? Notif ID: -658231582
@@ -376,3 +376,37 @@
 [I] 07-07 10:50:02 LogShipper: Shipped 374 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 07-07 11:05:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 11:05:00 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 11:05:02 LogShipper: Shipped 377 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-07 11:11:13 AppUpdater: Checking via website (current=195)
+[I] 07-07 11:11:14 AppUpdater: Update found via website: access-v205
+[I] 07-07 11:11:14 MainActivity: Auto-downloading access-v205
+[I] 07-07 11:11:14 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v205/badger-access-access-v205.apk
+[I] 07-07 11:11:15 AppUpdater: Downloaded 16635260 bytes
+[I] 07-07 11:11:22 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-07 11:11:22 BadgerApp: App started v205 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 11:11:22 MainActivity: BadgerService started (mic=true)
+[I] 07-07 11:11:22 AppUpdater: Checking via website (current=205)
+[W] 07-07 11:11:22 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-07 11:11:22 AuthManager: Session expired — trying HWID silent login
+[I] 07-07 11:11:22 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 07-07 11:11:22 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 11:11:22 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 11:11:22 AppUpdater: Up to date via website (current=205 latest=205)
+[I] 07-07 11:11:22 AppUpdater: Checking via GitHub direct (current=205)
+[I] 07-07 11:11:22 FCM: ?? FCM Token: cZ3kVW_ZRwaBydQ06hnw...
+[E] 07-07 11:11:22 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-07 11:11:23 AuthManager: Sign in OK — felipe role=admin
+[I] 07-07 11:11:23 AuthManager: HWID silent login OK
+[I] 07-07 11:11:23 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 07-07 11:11:23 AppUpdater: Up to date via GitHub (current=205 latest=205)
+[I] 07-07 11:11:24 BadgerService: Realtime subscribed OK -- badger-svc-5c645392-ec42-40a8-a2ad-98ca9d88c1a0 status=SUBSCRIBED
+[I] 07-07 11:11:26 AppUpdater: Checking via website (current=0)
+[I] 07-07 11:11:27 AppUpdater: Update found via website: access-v205
+[I] 07-07 11:18:25 AppUpdater: Checking via website (current=205)
+[I] 07-07 11:18:26 AppUpdater: Up to date via website (current=205 latest=205)
+[I] 07-07 11:18:26 AppUpdater: Checking via GitHub direct (current=205)
+[I] 07-07 11:18:27 AppUpdater: Up to date via GitHub (current=205 latest=205)
+[I] 07-07 11:26:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 11:26:22 BadgerService: Keepalive scheduled in 900s
