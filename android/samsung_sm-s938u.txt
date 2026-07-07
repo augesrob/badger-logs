@@ -1,15 +1,4 @@
-=== samsung SM-S938U | v196 | shipped 2026-07-06 19:43:07 ===
-[I] 07-05 21:26:36 BadgerService: Keepalive scheduled in 900s
-[I] 07-05 21:26:37 LogShipper: Shipped 298 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-05 21:31:12 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
-[E] 07-05 21:31:58 BadgerService: Realtime: 790 consecutive failures � cooling down 5 min
-[E] 07-05 21:31:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #790 in 300s)
-[W] 07-05 21:32:17 BadgerService: startRealtimeSync: in backoff for 281s more � skipping
-[W] 07-05 21:32:17 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
-[E] 07-05 21:37:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #791 in 300s)
-[E] 07-05 21:37:44 BadgerService: Realtime: 791 consecutive failures � cooling down 5 min
-[I] 07-05 21:41:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-05 21:41:36 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S938U | v196 | shipped 2026-07-06 19:51:45 ===
 [W] 07-05 21:41:36 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-05 21:41:36 BadgerService: startRealtimeSync: in backoff for 68s more � skipping
 [I] 07-05 21:41:37 LogShipper: Shipped 310 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -499,3 +488,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-06 19:43:07 BadgerService: Keepalive scheduled in 900s
 [W] 07-06 19:43:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [E] 07-06 19:43:07 BadgerService: startRealtimeSync: restart lock stuck 900s -- forcing reclaim
+[I] 07-06 19:43:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-06 19:51:27 AppUpdater: Checking via website (current=196)
+[I] 07-06 19:51:28 AppUpdater: Checking via GitHub direct (current=196)
+[I] 07-06 19:51:28 AppUpdater: Up to date via website (current=196 latest=196)
+[I] 07-06 19:51:28 AppUpdater: Up to date via GitHub (current=196 latest=196)
+[W] 07-06 19:51:40 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-06 19:51:40 BadgerService: Keepalive scheduled in 2s
+[I] 07-06 19:51:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-06 19:51:45 BadgerService: Keepalive scheduled in 900s
+[W] 07-06 19:51:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 07-06 19:51:45 BadgerService: startRealtimeSync: restart lock stuck 518s -- forcing reclaim
