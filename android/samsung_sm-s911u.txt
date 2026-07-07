@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v205 | shipped 2026-07-07 12:11:22 ===
+=== samsung SM-S911U | v205 | shipped 2026-07-07 12:26:22 ===
 [I] 07-07 01:31:48 WatchNotif: ?? Notif ID: -658231609
 [I] 07-07 01:31:48 WatchNotif: ? Successfully sent to watch: Truck 238 - In Back ? In Front
 [I] 07-07 01:32:13 WatchNotif: ?? Notif ID: -658231582
@@ -419,3 +419,18 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 11:56:24 LogShipper: Shipped 417 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 07-07 12:11:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 12:11:22 BadgerService: Keepalive scheduled in 900s
+[W] 07-07 12:11:24 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 07-07 12:11:24 LogShipper: Shipped 420 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 07-07 12:12:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-07 12:13:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-07 12:14:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-07 12:15:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 07-07 12:17:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 07-07 12:19:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 07-07 12:21:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 07-07 12:24:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 07-07 12:26:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[I] 07-07 12:26:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 12:26:22 BadgerService: Keepalive scheduled in 900s
+[W] 07-07 12:26:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-07 12:26:22 BadgerService: startRealtimeSync: in backoff for 69s more � skipping
