@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v203 | shipped 2026-07-07 10:46:25 ===
+=== samsung SM-S938U | v203 | shipped 2026-07-07 11:01:25 ===
 [E] 07-07 08:46:55 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 07-07 08:46:55 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
 [E] 07-07 08:47:12 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
@@ -306,3 +306,21 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 10:31:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-07 10:46:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 10:46:25 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 10:46:28 LogShipper: Shipped 307 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-07 10:46:40 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-07 10:47:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-07 10:48:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-07 10:49:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-07 10:50:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[I] 07-07 10:51:39 AppUpdater: Checking via website (current=203)
+[I] 07-07 10:51:40 AppUpdater: Up to date via website (current=203 latest=203)
+[I] 07-07 10:51:40 AppUpdater: Checking via GitHub direct (current=203)
+[W] 07-07 10:51:40 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-07 10:51:40 BadgerService: startRealtimeSync: in backoff for 34s more � skipping
+[I] 07-07 10:51:41 AppUpdater: Update found via GitHub: access-v205 (current=203)
+[I] 07-07 10:51:41 MainActivity: Auto-downloading access-v205
+[I] 07-07 10:51:41 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v205/badger-access-access-v205.apk
+[I] 07-07 10:51:42 AppUpdater: Downloaded 16635260 bytes
+[I] 07-07 10:52:16 BadgerService: Realtime subscribed OK -- badger-svc-ef36db54-360c-4418-a38f-01cf886f0738 status=SUBSCRIBED
+[I] 07-07 11:01:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 11:01:25 BadgerService: Keepalive scheduled in 900s
