@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v209 | shipped 2026-07-07 18:26:57 ===
+=== samsung SM-N975U | v209 | shipped 2026-07-07 18:56:57 ===
 [I] 07-02 03:41:35 AuthManager: Sign in OK — joemiller role=admin
 [I] 07-02 03:41:35 AuthManager: HWID silent login OK
 [I] 07-02 03:41:35 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
@@ -329,3 +329,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 18:20:57 AppUpdater: Up to date via GitHub (current=209 latest=209)
 [I] 07-07 18:26:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 18:26:57 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 18:26:59 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-07 18:33:05 WatchNotif: ?? PUSHING NOTIF: Truck 188-2 - New ? Transfer (tag=watch_truck_188-2)
+[I] 07-07 18:33:05 WatchNotif: ?? Notif ID: -1201156858
+[I] 07-07 18:33:05 WatchNotif: ? Successfully sent to watch: Truck 188-2 - New ? Transfer
+[I] 07-07 18:34:20 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-07 18:34:20 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - Transfer ? In Front (tag=watch_truck_187-1)
+[I] 07-07 18:34:20 WatchNotif: ? Successfully sent to watch: Truck 187-1 - Transfer ? In Front
+[I] 07-07 18:35:57 AppUpdater: Checking via website (current=209)
+[I] 07-07 18:35:57 AppUpdater: Up to date via website (current=209 latest=209)
+[I] 07-07 18:35:57 AppUpdater: Checking via GitHub direct (current=209)
+[I] 07-07 18:35:58 AppUpdater: Up to date via GitHub (current=209 latest=209)
+[I] 07-07 18:39:50 AppUpdater: Checking via website (current=209)
+[I] 07-07 18:39:50 AppUpdater: Up to date via website (current=209 latest=209)
+[I] 07-07 18:39:50 AppUpdater: Checking via GitHub direct (current=209)
+[I] 07-07 18:39:51 AppUpdater: Up to date via GitHub (current=209 latest=209)
+[I] 07-07 18:39:55 Movement: Truck 224-1 status → In Front
+[I] 07-07 18:39:55 BadgerRepo: updateMovementStatus OK — truck=224-1 statusId=4
+[I] 07-07 18:39:56 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - Transfer ? In Front (tag=watch_truck_224-1)
+[I] 07-07 18:39:56 WatchNotif: ?? Notif ID: -1200415928
+[I] 07-07 18:39:56 WatchNotif: ? Successfully sent to watch: Truck 224-1 - Transfer ? In Front
+[I] 07-07 18:41:55 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - Transfer ? In Front (tag=watch_truck_248-2)
+[I] 07-07 18:41:55 WatchNotif: ?? Notif ID: -1200352501
+[I] 07-07 18:41:55 WatchNotif: ? Successfully sent to watch: Truck 248-2 - Transfer ? In Front
+[I] 07-07 18:41:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 18:41:57 BadgerService: Keepalive scheduled in 900s
+[W] 07-07 18:42:10 LogShipper: Ship failed HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/conten
+[I] 07-07 18:44:59 AppUpdater: Checking via website (current=209)
+[I] 07-07 18:45:00 AppUpdater: Up to date via website (current=209 latest=209)
+[I] 07-07 18:45:00 AppUpdater: Checking via GitHub direct (current=209)
+[I] 07-07 18:45:01 AppUpdater: Up to date via GitHub (current=209 latest=209)
+[I] 07-07 18:45:02 Movement: Truck 186-1 status → In Front
+[I] 07-07 18:45:03 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=4
+[I] 07-07 18:45:03 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - Transfer ? In Front (tag=watch_truck_186-1)
+[I] 07-07 18:45:03 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-07 18:45:03 WatchNotif: ? Successfully sent to watch: Truck 186-1 - Transfer ? In Front
+[W] 07-07 18:48:42 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 07-07 18:48:54 BadgerService: Realtime subscribed OK -- badger-svc-96ee4d6c-b70b-465f-be3b-143ba135bd7b status=SUBSCRIBED
+[I] 07-07 18:56:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 18:56:57 BadgerService: Keepalive scheduled in 900s
