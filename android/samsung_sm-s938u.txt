@@ -1,35 +1,4 @@
-=== samsung SM-S938U | v203 | shipped 2026-07-07 16:16:26 ===
-[I] 07-07 08:48:07 AppUpdater: Up to date via website (current=198 latest=198)
-[I] 07-07 08:48:07 AppUpdater: Checking via GitHub direct (current=198)
-[I] 07-07 08:48:07 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
-[E] 07-07 08:48:07 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-07 08:48:07 AuthManager: HWID silent login OK
-[I] 07-07 08:48:07 AuthManager: Sign in OK — augesrob role=admin
-[I] 07-07 08:48:07 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 07-07 08:48:07 AppUpdater: Up to date via GitHub (current=198 latest=198)
-[I] 07-07 08:48:08 BadgerService: Realtime subscribed OK -- badger-svc-ef051db6-80a5-44ec-be85-fdd6cb4c7b55 status=SUBSCRIBED
-[I] 07-07 08:48:12 Movement: Truck 186-2 status → On Route
-[I] 07-07 08:48:13 BadgerRepo: updateMovementStatus OK — truck=186-2 statusId=3
-[I] 07-07 08:48:13 WatchNotif: ?? PUSHING NOTIF: Truck 186-2 - 11 ? On Route (tag=watch_truck_186-2)
-[I] 07-07 08:48:13 WatchNotif: ?? Notif ID: -1201158780
-[I] 07-07 08:48:13 WatchNotif: ? Successfully sent to watch: Truck 186-2 - 11 ? On Route
-[I] 07-07 08:48:21 Movement: Door 13A status → End Of Truck Tote
-[I] 07-07 08:48:21 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
-[I] 07-07 08:48:22 WatchNotif: ?? PUSHING NOTIF: Door 13A - Done for Night ? End Of Truck Tote (tag=watch_door_13A)
-[I] 07-07 08:48:22 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 08:48:22 WatchNotif: ? Successfully sent to watch: Door 13A - Done for Night ? End Of Truck Tote
-[I] 07-07 08:48:28 Movement: Truck 223-1 status → Put Away
-[I] 07-07 08:48:28 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=2
-[I] 07-07 08:48:29 WatchNotif: ?? Notif ID: -1200416889
-[I] 07-07 08:48:29 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - On Route ? Put Away (tag=watch_truck_223-1)
-[I] 07-07 08:48:29 WatchNotif: ? Successfully sent to watch: Truck 223-1 - On Route ? Put Away
-[I] 07-07 08:48:35 Movement: Door 13A status → Loading
-[I] 07-07 08:48:35 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 07-07 08:48:36 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
-[I] 07-07 08:48:36 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 08:48:36 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
+=== samsung SM-S938U | v205 | shipped 2026-07-07 16:40:20 ===
 [I] 07-07 08:48:41 Movement: Truck 223-1 status → In Door
 [I] 07-07 08:48:42 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=1
 [I] 07-07 08:48:42 WatchNotif: ?? Notif ID: -1200416889
@@ -499,3 +468,34 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 16:16:26 BadgerService: Keepalive scheduled in 900s
 [W] 07-07 16:16:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 16:16:26 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
+[I] 07-07 16:16:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-07 16:19:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #54 in 300s)
+[E] 07-07 16:19:30 BadgerService: Realtime: 54 consecutive failures � cooling down 5 min
+[I] 07-07 16:25:02 AppUpdater: Checking via website (current=203)
+[I] 07-07 16:25:03 AppUpdater: Update found via website: access-v205
+[I] 07-07 16:25:04 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v205/badger-access-access-v205.apk
+[I] 07-07 16:25:06 AppUpdater: Downloaded 16635260 bytes
+[E] 07-07 16:25:16 BadgerService: Realtime: 55 consecutive failures � cooling down 5 min
+[E] 07-07 16:25:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #55 in 300s)
+[I] 07-07 16:25:19 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-07 16:25:19 BadgerApp: App started v205 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 07-07 16:25:19 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-07 16:25:19 AuthManager: Session expired — trying HWID silent login
+[I] 07-07 16:25:19 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 07-07 16:25:19 MainActivity: BadgerService started (mic=true)
+[I] 07-07 16:25:19 AppUpdater: Checking via website (current=205)
+[I] 07-07 16:25:19 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 16:25:19 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 16:25:20 AppUpdater: Up to date via website (current=205 latest=205)
+[I] 07-07 16:25:20 AppUpdater: Checking via GitHub direct (current=205)
+[I] 07-07 16:25:20 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-07 16:25:20 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-07 16:25:20 AuthManager: HWID silent login OK
+[I] 07-07 16:25:20 AuthManager: Sign in OK — augesrob role=admin
+[I] 07-07 16:25:20 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 07-07 16:25:21 AppUpdater: Up to date via GitHub (current=205 latest=205)
+[I] 07-07 16:25:21 BadgerService: Realtime subscribed OK -- badger-svc-9c7bc100-a73e-466d-a1c1-ee09392aec59 status=SUBSCRIBED
+[I] 07-07 16:40:20 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 16:40:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
