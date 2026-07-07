@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v209 | shipped 2026-07-07 18:03:01 ===
+=== samsung SM-S938U | v209 | shipped 2026-07-07 18:18:01 ===
 [W] 07-07 14:01:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 14:01:26 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
 [I] 07-07 14:01:27 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -279,3 +279,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 18:02:56 BadgerService: Keepalive scheduled in 2s
 [I] 07-07 18:03:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 18:03:01 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 18:03:02 LogShipper: Shipped 280 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-07 18:05:37 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 07-07 18:05:39 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 07-07 18:06:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 07-07 18:06:37 BadgerService: Realtime subscribed OK -- badger-svc-679eabc7-2d0a-4bae-8b8f-7c5d2cb711fe status=SUBSCRIBED
+[I] 07-07 18:12:09 WatchNotif: ?? Notif ID: -1200416889
+[I] 07-07 18:12:09 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Transfer ? In Door (tag=watch_truck_223-1)
+[I] 07-07 18:12:09 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Door
+[I] 07-07 18:12:11 WatchNotif: ?? Notif ID: -1200417850
+[I] 07-07 18:12:11 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - Transfer ? In Door (tag=watch_truck_222-1)
+[I] 07-07 18:12:11 WatchNotif: ? Successfully sent to watch: Truck 222-1 - Transfer ? In Door
+[I] 07-07 18:18:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 18:18:01 BadgerService: Keepalive scheduled in 900s
