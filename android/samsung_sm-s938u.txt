@@ -1,378 +1,4 @@
-=== samsung SM-S938U | v205 | shipped 2026-07-07 16:55:20 ===
-[I] 07-07 08:48:42 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Put Away ? In Door (tag=watch_truck_223-1)
-[I] 07-07 08:48:42 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Put Away ? In Door
-[I] 07-07 08:48:49 Movement: Truck 223-1 status → Put Away
-[I] 07-07 08:48:49 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=2
-[I] 07-07 08:48:49 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Door ? Put Away (tag=watch_truck_223-1)
-[I] 07-07 08:48:49 WatchNotif: ?? Notif ID: -1200416889
-[I] 07-07 08:48:49 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Door ? Put Away
-[I] 07-07 08:50:22 Movement: Door 13A status → End Of Truck Tote
-[I] 07-07 08:50:22 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
-[I] 07-07 08:50:23 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
-[I] 07-07 08:50:23 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 08:50:23 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
-[I] 07-07 08:50:29 Movement: Door 13A status → Loading
-[I] 07-07 08:50:29 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 07-07 08:50:30 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
-[I] 07-07 08:50:30 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 08:50:30 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
-[I] 07-07 08:50:56 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Put Away ? In Door (tag=watch_truck_223-1)
-[I] 07-07 08:50:56 WatchNotif: ?? Notif ID: -1200416889
-[I] 07-07 08:50:56 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Put Away ? In Door
-[I] 07-07 08:51:13 WatchNotif: ?? Notif ID: -1200416889
-[I] 07-07 08:51:13 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Door ? Put Away (tag=watch_truck_223-1)
-[I] 07-07 08:51:13 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Door ? Put Away
-[I] 07-07 09:01:38 AppUpdater: Checking via website (current=198)
-[I] 07-07 09:01:39 AppUpdater: Up to date via website (current=198 latest=198)
-[I] 07-07 09:01:39 AppUpdater: Checking via GitHub direct (current=198)
-[I] 07-07 09:01:41 AppUpdater: Update found via GitHub: access-v199 (current=198)
-[I] 07-07 09:01:41 MainActivity: Auto-downloading access-v199
-[I] 07-07 09:01:41 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v199/badger-access-access-v199.apk
-[I] 07-07 09:01:42 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 09:01:42 AppUpdater: Checking via website (current=198)
-[I] 07-07 09:01:42 AppUpdater: Update found via website: access-v199
-[I] 07-07 09:01:43 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v199/badger-access-access-v199.apk
-[I] 07-07 09:01:43 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 09:01:56 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-07 09:01:56 BadgerApp: App started v199 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 07-07 09:01:56 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-07 09:01:56 AuthManager: Session expired — trying HWID silent login
-[I] 07-07 09:01:56 MainActivity: BadgerService started (mic=true)
-[I] 07-07 09:01:56 AppUpdater: Checking via website (current=199)
-[I] 07-07 09:01:56 AuthManager: HWID silent login for rfa1991@gmail.com
-[I] 07-07 09:01:57 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 09:01:57 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-07 09:01:57 AppUpdater: Up to date via website (current=199 latest=199)
-[I] 07-07 09:01:57 AppUpdater: Checking via GitHub direct (current=199)
-[I] 07-07 09:01:57 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
-[E] 07-07 09:01:57 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-07 09:01:57 AuthManager: Sign in OK — augesrob role=admin
-[I] 07-07 09:01:57 AuthManager: HWID silent login OK
-[I] 07-07 09:01:57 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 07-07 09:01:57 AppUpdater: Up to date via GitHub (current=199 latest=199)
-[I] 07-07 09:01:58 BadgerService: Realtime subscribed OK -- badger-svc-2fcf5a71-49c9-481a-9fa2-543e77a38212 status=SUBSCRIBED
-[I] 07-07 09:02:01 Movement: Door 13A status → End Of Truck Tote
-[I] 07-07 09:02:01 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
-[I] 07-07 09:02:02 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:02:02 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
-[I] 07-07 09:02:02 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
-[I] 07-07 09:02:11 Movement: Door 13A status → Loading
-[I] 07-07 09:02:11 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 07-07 09:02:11 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:02:11 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
-[I] 07-07 09:02:11 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
-[I] 07-07 09:02:20 Movement: Door 13A status → Done for Night
-[I] 07-07 09:02:20 BadgerRepo: updateDoorStatus OK — id=1 status=Done for Night
-[I] 07-07 09:02:20 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:02:20 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? Done for Night (tag=watch_door_13A)
-[I] 07-07 09:02:20 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? Done for Night
-[I] 07-07 09:04:03 PTT: Incoming PTT message received
-[I] 07-07 09:06:32 AppUpdater: Checking via website (current=199)
-[I] 07-07 09:06:32 AppUpdater: Up to date via website (current=199 latest=199)
-[I] 07-07 09:06:32 AppUpdater: Checking via GitHub direct (current=199)
-[I] 07-07 09:06:33 AppUpdater: Up to date via GitHub (current=199 latest=199)
-[I] 07-07 09:10:34 AppUpdater: Checking via website (current=199)
-[I] 07-07 09:10:34 AppUpdater: Up to date via website (current=199 latest=199)
-[I] 07-07 09:10:34 AppUpdater: Checking via GitHub direct (current=199)
-[I] 07-07 09:10:35 AppUpdater: Update found via GitHub: access-v200 (current=199)
-[I] 07-07 09:10:35 MainActivity: Auto-downloading access-v200
-[I] 07-07 09:10:35 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v200/badger-access-access-v200.apk
-[I] 07-07 09:10:36 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 09:10:37 AppUpdater: Checking via website (current=199)
-[I] 07-07 09:10:37 AppUpdater: Update found via website: access-v200
-[I] 07-07 09:10:37 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v200/badger-access-access-v200.apk
-[I] 07-07 09:10:38 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 09:10:48 BadgerApp: App started v200 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-07 09:10:48 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-07 09:10:48 MainActivity: BadgerService started (mic=true)
-[W] 07-07 09:10:48 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-07 09:10:48 AuthManager: Session expired — trying HWID silent login
-[I] 07-07 09:10:48 AppUpdater: Checking via website (current=200)
-[I] 07-07 09:10:48 AuthManager: HWID silent login for rfa1991@gmail.com
-[I] 07-07 09:10:48 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 09:10:48 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-07 09:10:49 AppUpdater: Checking via GitHub direct (current=200)
-[I] 07-07 09:10:49 AppUpdater: Up to date via website (current=200 latest=200)
-[I] 07-07 09:10:49 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
-[E] 07-07 09:10:49 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-07 09:10:49 AppUpdater: Up to date via GitHub (current=200 latest=200)
-[I] 07-07 09:10:49 AuthManager: Sign in OK — augesrob role=admin
-[I] 07-07 09:10:49 AuthManager: HWID silent login OK
-[I] 07-07 09:10:49 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 07-07 09:10:50 BadgerService: Realtime subscribed OK -- badger-svc-4b6d9931-5c05-455c-8705-72008ac3a3bb status=SUBSCRIBED
-[I] 07-07 09:10:52 Movement: Door 13A status → End Of Truck Tote
-[I] 07-07 09:10:52 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
-[I] 07-07 09:10:53 WatchNotif: ?? PUSHING NOTIF: Door 13A - Done for Night ? End Of Truck Tote (tag=watch_door_13A)
-[I] 07-07 09:10:53 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:10:53 WatchNotif: ? Successfully sent to watch: Door 13A - Done for Night ? End Of Truck Tote
-[I] 07-07 09:10:58 Movement: Door 13A status → Loading
-[I] 07-07 09:10:58 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 07-07 09:10:58 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:10:58 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
-[I] 07-07 09:10:58 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
-[I] 07-07 09:11:06 Movement: Door 13A status → Done for Night
-[I] 07-07 09:11:06 BadgerRepo: updateDoorStatus OK — id=1 status=Done for Night
-[I] 07-07 09:11:06 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? Done for Night (tag=watch_door_13A)
-[I] 07-07 09:11:06 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:11:06 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? Done for Night
-[W] 07-07 09:11:45 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 07-07 09:11:56 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 07-07 09:11:56 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 07-07 09:12:15 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 07-07 09:12:15 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
-[I] 07-07 09:12:19 BadgerService: Realtime subscribed OK -- badger-svc-15c8511f-3d80-4959-a3f5-29c83c17d50b status=SUBSCRIBED
-[I] 07-07 09:18:51 AppUpdater: Checking via website (current=200)
-[I] 07-07 09:18:52 AppUpdater: Checking via GitHub direct (current=200)
-[I] 07-07 09:18:52 AppUpdater: Up to date via website (current=200 latest=200)
-[I] 07-07 09:18:53 AppUpdater: Up to date via GitHub (current=200 latest=200)
-[I] 07-07 09:25:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 09:25:48 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 09:25:50 LogShipper: Shipped 489 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 09:27:48 AppUpdater: Checking via website (current=200)
-[I] 07-07 09:27:48 AppUpdater: Up to date via website (current=200 latest=200)
-[I] 07-07 09:27:48 AppUpdater: Checking via GitHub direct (current=200)
-[I] 07-07 09:27:49 MainActivity: Auto-downloading access-v202
-[I] 07-07 09:27:49 AppUpdater: Update found via GitHub: access-v202 (current=200)
-[I] 07-07 09:27:49 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v202/badger-access-access-v202.apk
-[I] 07-07 09:27:50 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 09:27:50 AppUpdater: Checking via website (current=200)
-[I] 07-07 09:27:50 AppUpdater: Update found via website: access-v202
-[I] 07-07 09:27:50 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v202/badger-access-access-v202.apk
-[I] 07-07 09:27:51 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 09:28:00 BadgerApp: App started v202 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-07 09:28:00 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 07-07 09:28:00 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-07 09:28:00 AuthManager: Session expired — trying HWID silent login
-[I] 07-07 09:28:00 MainActivity: BadgerService started (mic=true)
-[I] 07-07 09:28:00 AppUpdater: Checking via website (current=202)
-[I] 07-07 09:28:00 AuthManager: HWID silent login for rfa1991@gmail.com
-[I] 07-07 09:28:00 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 09:28:00 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-07 09:28:00 AppUpdater: Checking via GitHub direct (current=202)
-[I] 07-07 09:28:00 AppUpdater: Up to date via website (current=202 latest=202)
-[I] 07-07 09:28:00 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
-[E] 07-07 09:28:00 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-07 09:28:01 AppUpdater: Up to date via GitHub (current=202 latest=202)
-[I] 07-07 09:28:01 AuthManager: Sign in OK — augesrob role=admin
-[I] 07-07 09:28:01 AuthManager: HWID silent login OK
-[I] 07-07 09:28:01 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 07-07 09:28:01 BadgerService: Realtime subscribed OK -- badger-svc-5569ce12-fb2c-46da-a001-0908dd664700 status=SUBSCRIBED
-[I] 07-07 09:28:03 Movement: Door 13A status → Loading
-[I] 07-07 09:28:04 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 07-07 09:28:04 WatchNotif: ?? PUSHING NOTIF: Door 13A - Done for Night ? Loading (tag=watch_door_13A)
-[I] 07-07 09:28:04 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:28:04 WatchNotif: ? Successfully sent to watch: Door 13A - Done for Night ? Loading
-[I] 07-07 09:28:09 Movement: Door 13A status → Done for Night
-[I] 07-07 09:28:10 BadgerRepo: updateDoorStatus OK — id=1 status=Done for Night
-[I] 07-07 09:28:10 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? Done for Night (tag=watch_door_13A)
-[I] 07-07 09:28:10 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:28:10 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? Done for Night
-[I] 07-07 09:28:13 Movement: Truck 223-1 status → In Door
-[I] 07-07 09:28:13 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=1
-[I] 07-07 09:28:13 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Put Away ? In Door (tag=watch_truck_223-1)
-[I] 07-07 09:28:13 WatchNotif: ?? Notif ID: -1200416889
-[I] 07-07 09:28:13 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Put Away ? In Door
-[I] 07-07 09:28:20 Movement: Truck 223-1 status → Put Away
-[I] 07-07 09:28:20 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=2
-[I] 07-07 09:28:20 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Door ? Put Away (tag=watch_truck_223-1)
-[I] 07-07 09:28:20 WatchNotif: ?? Notif ID: -1200416889
-[I] 07-07 09:28:20 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Door ? Put Away
-[I] 07-07 09:28:24 Movement: Truck 223-1 status → On Route
-[I] 07-07 09:28:24 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=3
-[I] 07-07 09:28:25 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Put Away ? On Route (tag=watch_truck_223-1)
-[I] 07-07 09:28:25 WatchNotif: ?? Notif ID: -1200416889
-[I] 07-07 09:28:25 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Put Away ? On Route
-[I] 07-07 09:43:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 09:43:00 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 09:43:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 09:46:11 AppUpdater: Checking via website (current=202)
-[I] 07-07 09:46:13 AppUpdater: Up to date via website (current=202 latest=202)
-[I] 07-07 09:46:13 AppUpdater: Checking via GitHub direct (current=202)
-[I] 07-07 09:46:14 AppUpdater: Update found via GitHub: access-v203 (current=202)
-[I] 07-07 09:46:14 MainActivity: Auto-downloading access-v203
-[I] 07-07 09:46:14 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v203/badger-access-access-v203.apk
-[I] 07-07 09:46:16 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 09:46:25 BadgerApp: App started v203 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-07 09:46:25 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-07 09:46:25 MainActivity: BadgerService started (mic=true)
-[I] 07-07 09:46:25 AppUpdater: Checking via website (current=203)
-[I] 07-07 09:46:25 AuthManager: Session expired — trying HWID silent login
-[W] 07-07 09:46:25 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-07 09:46:25 AuthManager: HWID silent login for rfa1991@gmail.com
-[I] 07-07 09:46:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 09:46:25 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-07 09:46:26 AppUpdater: Up to date via website (current=203 latest=203)
-[I] 07-07 09:46:26 AppUpdater: Checking via GitHub direct (current=203)
-[I] 07-07 09:46:26 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
-[E] 07-07 09:46:26 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-07 09:46:26 AppUpdater: Up to date via GitHub (current=203 latest=203)
-[I] 07-07 09:46:26 AuthManager: HWID silent login OK
-[I] 07-07 09:46:26 AuthManager: Sign in OK — augesrob role=admin
-[I] 07-07 09:46:26 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 07-07 09:46:27 BadgerService: Realtime subscribed OK -- badger-svc-b18cb9bc-1271-4bfa-8a54-c6768ac6e2ce status=SUBSCRIBED
-[I] 07-07 09:46:28 AppUpdater: Checking via website (current=0)
-[I] 07-07 09:46:28 AppUpdater: Update found via website: access-v203
-[I] 07-07 09:46:46 Movement: Door 13A status → End Of Truck Tote
-[I] 07-07 09:46:46 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
-[I] 07-07 09:46:46 WatchNotif: ?? PUSHING NOTIF: Door 13A - Done for Night ? End Of Truck Tote (tag=watch_door_13A)
-[I] 07-07 09:46:46 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:46:46 WatchNotif: ? Successfully sent to watch: Door 13A - Done for Night ? End Of Truck Tote
-[I] 07-07 09:46:50 Movement: Door 13A status → Loading
-[I] 07-07 09:46:51 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
-[I] 07-07 09:46:51 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
-[I] 07-07 09:46:51 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:46:51 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
-[I] 07-07 09:46:54 Movement: Door 13A status → Done for Night
-[I] 07-07 09:46:54 BadgerRepo: updateDoorStatus OK — id=1 status=Done for Night
-[I] 07-07 09:46:55 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? Done for Night (tag=watch_door_13A)
-[I] 07-07 09:46:55 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:46:55 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? Done for Night
-[I] 07-07 09:58:20 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:58:20 WatchNotif: ?? PUSHING NOTIF: Door 13A - Done for Night ? Loading (tag=watch_door_13A)
-[I] 07-07 09:58:20 WatchNotif: ? Successfully sent to watch: Door 13A - Done for Night ? Loading
-[I] 07-07 09:58:32 WatchNotif: ?? Notif ID: -108073026
-[I] 07-07 09:58:32 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? Done for Night (tag=watch_door_13A)
-[I] 07-07 09:58:32 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? Done for Night
-[I] 07-07 10:01:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 10:01:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 10:01:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 10:16:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 10:16:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 10:16:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 10:31:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 10:31:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 10:31:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 10:46:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 10:46:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 10:46:28 LogShipper: Shipped 307 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 07-07 10:46:40 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 07-07 10:47:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[E] 07-07 10:48:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
-[E] 07-07 10:49:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
-[E] 07-07 10:50:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
-[I] 07-07 10:51:39 AppUpdater: Checking via website (current=203)
-[I] 07-07 10:51:40 AppUpdater: Up to date via website (current=203 latest=203)
-[I] 07-07 10:51:40 AppUpdater: Checking via GitHub direct (current=203)
-[W] 07-07 10:51:40 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 10:51:40 BadgerService: startRealtimeSync: in backoff for 34s more � skipping
-[I] 07-07 10:51:41 AppUpdater: Update found via GitHub: access-v205 (current=203)
-[I] 07-07 10:51:41 MainActivity: Auto-downloading access-v205
-[I] 07-07 10:51:41 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v205/badger-access-access-v205.apk
-[I] 07-07 10:51:42 AppUpdater: Downloaded 16635260 bytes
-[I] 07-07 10:52:16 BadgerService: Realtime subscribed OK -- badger-svc-ef36db54-360c-4418-a38f-01cf886f0738 status=SUBSCRIBED
-[I] 07-07 11:01:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 11:01:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 11:01:27 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 11:16:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 11:16:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 11:16:27 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 11:31:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 11:31:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 11:31:27 LogShipper: Shipped 331 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-07 11:46:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 11:46:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 11:46:29 LogShipper: Shipped 334 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 07-07 11:51:43 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 07-07 11:51:43 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 3
-[E] 07-07 11:52:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[E] 07-07 11:53:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
-[E] 07-07 11:54:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
-[E] 07-07 11:55:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
-[E] 07-07 11:58:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
-[E] 07-07 12:00:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
-[I] 07-07 12:01:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 12:01:25 BadgerService: Keepalive scheduled in 900s
-[W] 07-07 12:01:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 12:01:25 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
-[I] 07-07 12:01:27 LogShipper: Shipped 347 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 12:02:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
-[E] 07-07 12:04:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
-[E] 07-07 12:06:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
-[E] 07-07 12:08:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
-[E] 07-07 12:09:54 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 1
-[E] 07-07 12:10:40 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
-[E] 07-07 12:10:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
-[W] 07-07 12:16:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-07 12:16:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 12:16:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 12:16:27 LogShipper: Shipped 358 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 12:17:11 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
-[E] 07-07 12:17:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
-[E] 07-07 12:22:58 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
-[E] 07-07 12:22:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
-[E] 07-07 12:28:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
-[E] 07-07 12:28:44 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
-[I] 07-07 12:31:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 12:31:25 BadgerService: Keepalive scheduled in 900s
-[W] 07-07 12:31:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 12:31:25 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
-[I] 07-07 12:31:27 LogShipper: Shipped 369 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 12:34:30 BadgerService: Realtime: 15 consecutive failures � cooling down 5 min
-[E] 07-07 12:34:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #15 in 300s)
-[E] 07-07 12:40:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
-[E] 07-07 12:40:16 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
-[E] 07-07 12:46:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
-[E] 07-07 12:46:02 BadgerService: Realtime: 17 consecutive failures � cooling down 5 min
-[I] 07-07 12:46:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 12:46:25 BadgerService: Keepalive scheduled in 900s
-[W] 07-07 12:46:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 12:46:25 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
-[I] 07-07 12:46:27 LogShipper: Shipped 380 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 12:51:48 BadgerService: Realtime: 18 consecutive failures � cooling down 5 min
-[E] 07-07 12:51:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #18 in 300s)
-[E] 07-07 12:57:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #19 in 300s)
-[E] 07-07 12:57:34 BadgerService: Realtime: 19 consecutive failures � cooling down 5 min
-[I] 07-07 13:01:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 13:01:25 BadgerService: Keepalive scheduled in 900s
-[W] 07-07 13:01:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 13:01:25 BadgerService: startRealtimeSync: in backoff for 68s more � skipping
-[I] 07-07 13:01:27 LogShipper: Shipped 389 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 13:03:21 BadgerService: Realtime: 20 consecutive failures � cooling down 5 min
-[E] 07-07 13:03:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #20 in 300s)
-[E] 07-07 13:09:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #21 in 300s)
-[E] 07-07 13:09:07 BadgerService: Realtime: 21 consecutive failures � cooling down 5 min
-[E] 07-07 13:14:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #22 in 300s)
-[E] 07-07 13:14:53 BadgerService: Realtime: 22 consecutive failures � cooling down 5 min
-[I] 07-07 13:16:25 BadgerService: Keepalive scheduled in 900s
-[I] 07-07 13:16:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 07-07 13:16:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 13:16:26 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
-[I] 07-07 13:16:27 LogShipper: Shipped 400 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 13:20:39 BadgerService: Realtime: 23 consecutive failures � cooling down 5 min
-[E] 07-07 13:20:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #23 in 300s)
-[E] 07-07 13:26:25 BadgerService: Realtime: 24 consecutive failures � cooling down 5 min
-[E] 07-07 13:26:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #24 in 300s)
-[I] 07-07 13:31:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 13:31:26 BadgerService: Keepalive scheduled in 900s
-[W] 07-07 13:31:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-07 13:31:27 LogShipper: Shipped 408 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 13:32:11 BadgerService: Realtime: 25 consecutive failures � cooling down 5 min
-[E] 07-07 13:32:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #25 in 300s)
-[E] 07-07 13:37:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #26 in 300s)
-[E] 07-07 13:37:57 BadgerService: Realtime: 26 consecutive failures � cooling down 5 min
-[E] 07-07 13:43:44 BadgerService: Realtime: 27 consecutive failures � cooling down 5 min
-[E] 07-07 13:43:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #27 in 300s)
-[I] 07-07 13:46:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 13:46:26 BadgerService: Keepalive scheduled in 900s
-[W] 07-07 13:46:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 13:46:26 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
-[I] 07-07 13:46:27 LogShipper: Shipped 419 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-07 13:49:30 BadgerService: Realtime: 28 consecutive failures � cooling down 5 min
-[E] 07-07 13:49:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #28 in 300s)
-[E] 07-07 13:55:16 BadgerService: Realtime: 29 consecutive failures � cooling down 5 min
-[E] 07-07 13:55:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #29 in 300s)
-[E] 07-07 14:01:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #30 in 300s)
-[E] 07-07 14:01:02 BadgerService: Realtime: 30 consecutive failures � cooling down 5 min
-[I] 07-07 14:01:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 14:01:26 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S938U | v207 | shipped 2026-07-07 17:21:01 ===
 [W] 07-07 14:01:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 14:01:26 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
 [I] 07-07 14:01:27 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -499,3 +125,47 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 16:40:21 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-07 16:55:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 16:55:20 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 16:55:21 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-07 17:05:47 AppUpdater: Checking via website (current=205)
+[I] 07-07 17:05:47 AppUpdater: Up to date via website (current=205 latest=205)
+[I] 07-07 17:05:47 AppUpdater: Checking via GitHub direct (current=205)
+[I] 07-07 17:05:48 AppUpdater: Update found via GitHub: access-v207 (current=205)
+[I] 07-07 17:05:48 MainActivity: Auto-downloading access-v207
+[I] 07-07 17:05:48 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v207/badger-access-access-v207.apk
+[I] 07-07 17:05:50 AppUpdater: Downloaded 16635264 bytes
+[I] 07-07 17:06:01 BadgerApp: App started v207 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 17:06:01 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-07 17:06:01 AuthManager: Session expired — trying HWID silent login
+[W] 07-07 17:06:01 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-07 17:06:01 MainActivity: BadgerService started (mic=true)
+[I] 07-07 17:06:01 AppUpdater: Checking via website (current=207)
+[I] 07-07 17:06:01 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 07-07 17:06:01 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 17:06:01 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 17:06:01 AppUpdater: Up to date via website (current=207 latest=207)
+[I] 07-07 17:06:01 AppUpdater: Checking via GitHub direct (current=207)
+[I] 07-07 17:06:01 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-07 17:06:01 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-07 17:06:01 AuthManager: HWID silent login OK
+[I] 07-07 17:06:01 AuthManager: Sign in OK — augesrob role=admin
+[I] 07-07 17:06:01 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 07-07 17:06:02 AppUpdater: Up to date via GitHub (current=207 latest=207)
+[I] 07-07 17:06:02 BadgerService: Realtime subscribed OK -- badger-svc-d457a109-d1ec-4383-8351-53eac192cd6c status=SUBSCRIBED
+[I] 07-07 17:06:17 AppUpdater: Checking via website (current=0)
+[I] 07-07 17:06:17 AppUpdater: Update found via website: access-v207
+[I] 07-07 17:11:21 AppUpdater: Checking via website (current=207)
+[I] 07-07 17:11:22 AppUpdater: Checking via GitHub direct (current=207)
+[I] 07-07 17:11:22 AppUpdater: Up to date via website (current=207 latest=207)
+[I] 07-07 17:11:23 AppUpdater: Up to date via GitHub (current=207 latest=207)
+[I] 07-07 17:16:32 AppUpdater: Checking via website (current=207)
+[I] 07-07 17:16:33 AppUpdater: Up to date via website (current=207 latest=207)
+[I] 07-07 17:16:33 AppUpdater: Checking via GitHub direct (current=207)
+[I] 07-07 17:16:34 AppUpdater: Up to date via GitHub (current=207 latest=207)
+[I] 07-07 17:19:04 AppUpdater: Checking via website (current=207)
+[I] 07-07 17:19:04 AppUpdater: Checking via GitHub direct (current=207)
+[I] 07-07 17:19:04 AppUpdater: Up to date via website (current=207 latest=207)
+[I] 07-07 17:19:06 AppUpdater: Up to date via GitHub (current=207 latest=207)
+[I] 07-07 17:21:01 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 17:21:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
