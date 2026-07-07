@@ -1,23 +1,4 @@
-=== samsung SM-N975U | v207 | shipped 2026-07-07 17:44:04 ===
-[I] 07-02 02:09:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-02 02:09:22 BadgerService: Keepalive scheduled in 900s
-[I] 07-02 02:09:24 LogShipper: Shipped 403 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 07-02 02:11:25 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Door ? Put Away (tag=watch_truck_244)
-[I] 07-02 02:11:25 WatchNotif: ?? Notif ID: -658231582
-[I] 07-02 02:11:25 WatchNotif: ? Successfully sent to watch: Truck 244 - In Door ? Put Away
-[I] 07-02 02:11:39 AppUpdater: Checking via website (current=195)
-[I] 07-02 02:11:39 AppUpdater: Up to date via website (current=195 latest=195)
-[I] 07-02 02:11:39 AppUpdater: Checking via GitHub direct (current=195)
-[I] 07-02 02:11:40 AppUpdater: Up to date via GitHub (current=195 latest=195)
-[I] 07-02 02:11:41 Movement: Truck 228 status → In Door
-[I] 07-02 02:11:41 BadgerRepo: updateMovementStatus OK — truck=228 statusId=1
-[I] 07-02 02:11:42 WatchNotif: ?? PUSHING NOTIF: Truck 228 - In Front ? In Door (tag=watch_truck_228)
-[I] 07-02 02:11:42 WatchNotif: ?? Notif ID: -658231640
-[I] 07-02 02:11:42 WatchNotif: ? Successfully sent to watch: Truck 228 - In Front ? In Door
-[I] 07-02 02:11:43 Movement: Door 13A status → Done for Night
-[I] 07-02 02:11:43 BadgerRepo: updateDoorStatus OK — id=1 status=Done for Night
-[I] 07-02 02:11:44 WatchNotif: ?? Notif ID: -108073026
-[I] 07-02 02:11:44 WatchNotif: ?? PUSHING NOTIF: Door 13A - Change Truck/Trailer ? Done for Night (tag=watch_door_13A)
+=== samsung SM-N975U | v207 | shipped 2026-07-07 17:59:04 ===
 [I] 07-02 02:11:44 WatchNotif: ? Successfully sent to watch: Door 13A - Change Truck/Trailer ? Done for Night
 [I] 07-02 02:11:47 Movement: Door 13A status → Loading
 [I] 07-02 02:11:47 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
@@ -499,3 +480,22 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 17:37:56 AppUpdater: Up to date via GitHub (current=207 latest=207)
 [I] 07-07 17:44:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 17:44:04 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 17:44:06 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[E] 07-07 17:45:22 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 07-07 17:46:28 AppUpdater: Checking via website (current=207)
+[I] 07-07 17:46:29 AppUpdater: Up to date via website (current=207 latest=207)
+[I] 07-07 17:46:29 AppUpdater: Checking via GitHub direct (current=207)
+[I] 07-07 17:46:30 AppUpdater: Up to date via GitHub (current=207 latest=207)
+[W] 07-07 17:50:54 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 07-07 17:51:01 BadgerService: Realtime subscribed OK -- badger-svc-eda7036d-ca68-4012-a5c2-b92b16a6e025 status=SUBSCRIBED
+[I] 07-07 17:52:37 PTT: Incoming PTT message received
+[I] 07-07 17:53:35 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - In Door ? Transfer (tag=watch_truck_222-1)
+[I] 07-07 17:53:35 WatchNotif: ?? Notif ID: -1200417850
+[I] 07-07 17:53:35 WatchNotif: ? Successfully sent to watch: Truck 222-1 - In Door ? Transfer
+[W] 07-07 17:55:57 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-07 17:56:01 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 07-07 17:56:01 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 07-07 17:56:03 BadgerService: startRealtimeSync: in backoff for 7s more � skipping
+[W] 07-07 17:56:03 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-07 17:56:13 BadgerService: Realtime subscribed OK -- badger-svc-ba3dc007-d802-4bdd-87de-b0b82568ca44 status=SUBSCRIBED
+[I] 07-07 17:59:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
