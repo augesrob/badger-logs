@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v203 | shipped 2026-07-07 12:01:25 ===
+=== samsung SM-S938U | v203 | shipped 2026-07-07 12:16:25 ===
 [E] 07-07 08:46:55 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 07-07 08:46:55 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
 [E] 07-07 08:47:12 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
@@ -346,3 +346,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 12:01:25 BadgerService: Keepalive scheduled in 900s
 [W] 07-07 12:01:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 12:01:25 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
+[I] 07-07 12:01:27 LogShipper: Shipped 347 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-07 12:02:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 07-07 12:04:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 07-07 12:06:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 07-07 12:08:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 07-07 12:09:54 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 1
+[E] 07-07 12:10:40 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 07-07 12:10:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[W] 07-07 12:16:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-07 12:16:25 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 12:16:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
