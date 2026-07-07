@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v205 | shipped 2026-07-07 17:56:22 ===
+=== samsung SM-S911U | v209 | shipped 2026-07-07 18:16:59 ===
 [I] 07-07 08:48:50 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Door ? Put Away
 [I] 07-07 08:50:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 08:50:00 BadgerService: Keepalive scheduled in 900s
@@ -379,3 +379,69 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 17:56:22 BadgerService: Keepalive scheduled in 900s
 [W] 07-07 17:56:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 17:56:22 BadgerService: startRealtimeSync: in backoff for 152s more � skipping
+[I] 07-07 17:56:24 LogShipper: Shipped 380 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-07 17:56:30 AppUpdater: Checking via website (current=205)
+[I] 07-07 17:56:30 AppUpdater: Update found via website: access-v207
+[I] 07-07 17:56:30 MainActivity: Auto-downloading access-v207
+[I] 07-07 17:56:30 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v207/badger-access-access-v207.apk
+[I] 07-07 17:56:32 AppUpdater: Downloaded 16635264 bytes
+[I] 07-07 17:56:38 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-07 17:56:38 BadgerApp: App started v207 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 17:56:38 MainActivity: BadgerService started (mic=true)
+[I] 07-07 17:56:38 AppUpdater: Checking via website (current=207)
+[W] 07-07 17:56:38 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-07 17:56:38 AuthManager: Session expired — trying HWID silent login
+[I] 07-07 17:56:38 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 07-07 17:56:39 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 17:56:39 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 17:56:39 AppUpdater: Up to date via website (current=207 latest=207)
+[I] 07-07 17:56:39 AppUpdater: Checking via GitHub direct (current=207)
+[I] 07-07 17:56:39 AuthManager: Sign in OK — felipe role=admin
+[I] 07-07 17:56:39 AuthManager: HWID silent login OK
+[I] 07-07 17:56:39 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 07-07 17:56:39 FCM: ?? FCM Token: cZ3kVW_ZRwaBydQ06hnw...
+[E] 07-07 17:56:39 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-07 17:56:40 AppUpdater: Up to date via GitHub (current=207 latest=207)
+[I] 07-07 17:56:40 BadgerService: Realtime subscribed OK -- badger-svc-57f8d28a-753e-4891-adf3-e88540ccee62 status=SUBSCRIBED
+[I] 07-07 17:56:42 AppUpdater: Checking via website (current=0)
+[I] 07-07 17:56:42 AppUpdater: Update found via website: access-v207
+[I] 07-07 18:01:39 AppUpdater: Checking via website (current=207)
+[I] 07-07 18:01:39 AppUpdater: Up to date via website (current=207 latest=207)
+[I] 07-07 18:01:39 AppUpdater: Checking via GitHub direct (current=207)
+[I] 07-07 18:01:39 MainActivity: Auto-downloading access-v209
+[I] 07-07 18:01:39 AppUpdater: Update found via GitHub: access-v209 (current=207)
+[I] 07-07 18:01:39 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v209/badger-access-access-v209.apk
+[I] 07-07 18:01:41 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v209/badger-access-access-v209.apk
+[I] 07-07 18:01:51 AppUpdater: Downloaded 16635260 bytes
+[I] 07-07 18:01:51 AppUpdater: Downloaded 16635260 bytes
+[I] 07-07 18:01:59 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-07 18:01:59 BadgerApp: App started v209 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 18:01:59 MainActivity: BadgerService started (mic=true)
+[I] 07-07 18:01:59 AppUpdater: Checking via website (current=209)
+[I] 07-07 18:01:59 AuthManager: Session expired — trying HWID silent login
+[W] 07-07 18:01:59 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-07 18:01:59 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 07-07 18:01:59 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 18:01:59 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 18:02:00 AppUpdater: Up to date via website (current=209 latest=209)
+[I] 07-07 18:02:00 AppUpdater: Checking via GitHub direct (current=209)
+[I] 07-07 18:02:00 FCM: ?? FCM Token: cZ3kVW_ZRwaBydQ06hnw...
+[E] 07-07 18:02:00 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-07 18:02:00 AuthManager: HWID silent login OK
+[I] 07-07 18:02:00 AuthManager: Sign in OK — felipe role=admin
+[I] 07-07 18:02:00 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[W] 07-07 18:02:01 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-07 18:02:02 BadgerService: Realtime subscribed OK -- badger-svc-e60771bc-4786-41f8-9599-a3ba47f48abb status=SUBSCRIBED
+[I] 07-07 18:02:04 AppUpdater: Up to date via GitHub (current=209 latest=209)
+[I] 07-07 18:12:09 WatchNotif: ?? Notif ID: -1200416889
+[I] 07-07 18:12:09 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Transfer ? In Door (tag=watch_truck_223-1)
+[I] 07-07 18:12:09 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Door
+[I] 07-07 18:12:12 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - Transfer ? In Door (tag=watch_truck_222-1)
+[I] 07-07 18:12:12 WatchNotif: ?? Notif ID: -1200417850
+[I] 07-07 18:12:12 WatchNotif: ? Successfully sent to watch: Truck 222-1 - Transfer ? In Door
+[I] 07-07 18:16:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 18:16:59 BadgerService: Keepalive scheduled in 900s
