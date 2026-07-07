@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v203 | shipped 2026-07-07 15:46:26 ===
-[E] 07-07 08:46:55 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 07-07 08:46:55 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
-[E] 07-07 08:47:12 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[I] 07-07 08:47:33 BadgerService: Realtime subscribed OK -- badger-svc-9253c71d-a9c3-4fbd-b6ce-ea1c63c3f315 status=SUBSCRIBED
-[I] 07-07 08:47:53 AppUpdater: Checking via website (current=197)
-[I] 07-07 08:47:53 AppUpdater: Checking via GitHub direct (current=197)
-[I] 07-07 08:47:53 AppUpdater: Up to date via website (current=197 latest=197)
-[I] 07-07 08:47:54 AppUpdater: Update found via GitHub: access-v198 (current=197)
+=== samsung SM-S938U | v203 | shipped 2026-07-07 16:01:26 ===
 [I] 07-07 08:47:54 MainActivity: Auto-downloading access-v198
 [I] 07-07 08:47:54 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v198/badger-access-access-v198.apk
 [I] 07-07 08:47:56 AppUpdater: Downloaded 16635260 bytes
@@ -499,3 +491,11 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 15:46:26 BadgerService: Keepalive scheduled in 900s
 [W] 07-07 15:46:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 15:46:26 BadgerService: startRealtimeSync: in backoff for 206s more � skipping
+[I] 07-07 15:46:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-07 15:50:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
+[E] 07-07 15:50:39 BadgerService: Realtime: 49 consecutive failures � cooling down 5 min
+[E] 07-07 15:56:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #50 in 300s)
+[E] 07-07 15:56:25 BadgerService: Realtime: 50 consecutive failures � cooling down 5 min
+[I] 07-07 16:01:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 16:01:26 BadgerService: Keepalive scheduled in 900s
+[W] 07-07 16:01:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
