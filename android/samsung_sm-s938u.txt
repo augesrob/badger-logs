@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-08 18:39:40 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-08 18:54:40 ===
 [I] 07-08 07:33:38 AuthManager: HWID silent login for rfa1991@gmail.com
 [I] 07-08 07:33:38 BadgerService: Keepalive scheduled in 900s
 [I] 07-08 07:33:38 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -218,3 +218,43 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-08 18:39:40 BadgerService: Keepalive scheduled in 900s
 [W] 07-08 18:39:40 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-08 18:39:40 BadgerService: startRealtimeSync: in backoff for 29s more � skipping
+[I] 07-08 18:39:41 LogShipper: Shipped 219 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-08 18:40:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 07-08 18:43:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[I] 07-08 18:43:11 AppUpdater: Checking via website (current=214)
+[I] 07-08 18:43:12 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 18:43:12 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 18:43:13 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 18:44:24 BadgerService: Realtime subscribed OK -- badger-svc-8a9b043f-e5c6-435a-8620-810cb2aca831 status=SUBSCRIBED
+[I] 07-08 18:47:56 AppUpdater: Checking via website (current=214)
+[I] 07-08 18:47:56 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 18:47:56 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 18:47:57 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 18:48:13 Movement: Truck 187-1 status → Trailer Area - connected
+[I] 07-08 18:48:13 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=36
+[I] 07-08 18:48:13 TTS: Speaking: Truck 187-1, Trailer Area - connected
+[I] 07-08 18:48:13 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - 8 ? Trailer Area - connected (tag=watch_truck_187-1)
+[I] 07-08 18:48:13 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-08 18:48:13 WatchNotif: ? Successfully sent to watch: Truck 187-1 - 8 ? Trailer Area - connected
+[I] 07-08 18:48:57 Movement: Truck 186-1 status → Trailer Area - connected
+[I] 07-08 18:48:57 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=36
+[I] 07-08 18:48:58 TTS: Speaking: Truck 186-1, Trailer Area - connected
+[I] 07-08 18:48:58 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - Transfer ? Trailer Area - connected (tag=watch_truck_186-1)
+[I] 07-08 18:48:58 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-08 18:48:58 WatchNotif: ? Successfully sent to watch: Truck 186-1 - Transfer ? Trailer Area - connected
+[I] 07-08 18:49:17 AppUpdater: Checking via website (current=214)
+[I] 07-08 18:49:17 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 18:49:17 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 18:49:19 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 18:53:52 AppUpdater: Checking via website (current=214)
+[I] 07-08 18:53:52 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 18:53:52 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 18:53:53 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 18:53:55 Movement: Truck 248-2 status → In Front
+[I] 07-08 18:53:55 BadgerRepo: updateMovementStatus OK — truck=248-2 statusId=4
+[I] 07-08 18:53:55 TTS: Speaking: Truck 248-2, In Front
+[I] 07-08 18:53:55 WatchNotif: ?? Notif ID: -1200352501
+[I] 07-08 18:53:55 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - Transfer ? In Front (tag=watch_truck_248-2)
+[I] 07-08 18:53:55 WatchNotif: ? Successfully sent to watch: Truck 248-2 - Transfer ? In Front
+[I] 07-08 18:54:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 18:54:40 BadgerService: Keepalive scheduled in 900s
