@@ -1,11 +1,4 @@
-=== samsung SM-S911U | v210 | shipped 2026-07-08 00:36:22 ===
-[I] 07-07 08:49:10 LogShipper: Shipped 277 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 07-07 08:53:40 BadgerService: Realtime: 87 consecutive failures � cooling down 5 min
-[E] 07-07 08:53:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #87 in 300s)
-[E] 07-07 08:59:26 BadgerService: Realtime: 88 consecutive failures � cooling down 5 min
-[E] 07-07 08:59:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #88 in 300s)
-[I] 07-07 09:04:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-07 09:04:08 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S911U | v210 | shipped 2026-07-08 00:40:33 ===
 [W] 07-07 09:04:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 09:04:08 BadgerService: startRealtimeSync: in backoff for 18s more � skipping
 [I] 07-07 09:04:10 LogShipper: Shipped 286 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -473,3 +466,36 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-08 00:33:09 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? EOT+1
 [I] 07-08 00:36:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 00:36:22 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 00:36:24 LogShipper: Shipped 474 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-08 00:37:16 TTS: Skipped (ttsEnabled=false channelPref=true): Door 14B, Change Truck/Trailer
+[I] 07-08 00:37:16 WatchNotif: ?? PUSHING NOTIF: Door 14B - EOT+1 ? Change Truck/Trailer (tag=watch_door_14B)
+[I] 07-08 00:37:16 WatchNotif: ?? Notif ID: -108072994
+[I] 07-08 00:37:16 WatchNotif: ? Successfully sent to watch: Door 14B - EOT+1 ? Change Truck/Trailer
+[I] 07-08 00:37:39 TTS: Skipped (ttsEnabled=false channelPref=true): Door 15A, Move to Receiving
+[I] 07-08 00:37:39 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Move to Receiving (tag=watch_door_15A)
+[I] 07-08 00:37:39 WatchNotif: ?? Notif ID: -108072964
+[I] 07-08 00:37:39 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Move to Receiving
+[I] 07-08 00:37:52 AppUpdater: Checking via website (current=210)
+[I] 07-08 00:37:53 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 00:37:53 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 00:37:54 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[I] 07-08 00:38:32 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 220, Yard
+[I] 07-08 00:38:32 WatchNotif: ?? Notif ID: -658231648
+[I] 07-08 00:38:32 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Door ? Yard (tag=watch_truck_220)
+[I] 07-08 00:38:32 WatchNotif: ? Successfully sent to watch: Truck 220 - In Door ? Yard
+[I] 07-08 00:39:51 TTS: Skipped (ttsEnabled=false channelPref=true): Door 14A, Change Truck/Trailer
+[I] 07-08 00:39:51 WatchNotif: ?? Notif ID: -108072995
+[I] 07-08 00:39:51 WatchNotif: ?? PUSHING NOTIF: Door 14A - Loading ? Change Truck/Trailer (tag=watch_door_14A)
+[I] 07-08 00:39:51 WatchNotif: ? Successfully sent to watch: Door 14A - Loading ? Change Truck/Trailer
+[I] 07-08 00:40:23 AppUpdater: Checking via website (current=210)
+[I] 07-08 00:40:23 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 00:40:23 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 00:40:24 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[W] 07-08 00:40:27 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-08 00:40:27 BadgerService: Keepalive scheduled in 2s
+[I] 07-08 00:40:28 AppUpdater: Checking via website (current=210)
+[I] 07-08 00:40:28 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 00:40:28 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 00:40:29 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[I] 07-08 00:40:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 00:40:33 BadgerService: Keepalive scheduled in 900s
