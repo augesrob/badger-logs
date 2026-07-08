@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v210 | shipped 2026-07-08 14:14:49 ===
+=== samsung SM-S911U | v210 | shipped 2026-07-08 14:29:49 ===
 [W] 07-08 07:57:07 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
 [I] 07-08 07:57:09 LogShipper: Shipped 260 log lines to badger-logs/android/samsung_sm-s911u.txt
 [E] 07-08 08:02:31 BadgerService: Realtime: 97 consecutive failures � cooling down 5 min
@@ -268,3 +268,15 @@
 [I] 07-08 14:14:49 BadgerService: Keepalive scheduled in 900s
 [W] 07-08 14:14:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-08 14:14:49 BadgerService: startRealtimeSync: in backoff for 149s more � skipping
+[I] 07-08 14:14:52 LogShipper: Shipped 269 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 07-08 14:17:30 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #162 in 300s)
+[E] 07-08 14:17:30 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-08 14:17:30 BadgerService: Realtime: 162 consecutive failures � cooling down 5 min
+[E] 07-08 14:23:16 BadgerService: Realtime: 163 consecutive failures � cooling down 5 min
+[E] 07-08 14:23:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #163 in 300s)
+[E] 07-08 14:29:03 BadgerService: Realtime: 164 consecutive failures � cooling down 5 min
+[E] 07-08 14:29:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #164 in 300s)
+[I] 07-08 14:29:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 14:29:49 BadgerService: Keepalive scheduled in 900s
+[W] 07-08 14:29:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-08 14:29:49 BadgerService: startRealtimeSync: in backoff for 253s more � skipping
