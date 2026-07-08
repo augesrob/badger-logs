@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v210 | shipped 2026-07-08 00:19:37 ===
+=== samsung SM-N975U | v210 | shipped 2026-07-08 00:34:37 ===
 [I] 07-07 21:09:06 AppUpdater: Checking via website (current=210)
 [I] 07-07 21:09:06 AppUpdater: Up to date via website (current=210 latest=210)
 [I] 07-07 21:09:06 AppUpdater: Checking via GitHub direct (current=210)
@@ -442,3 +442,40 @@
 [I] 07-08 00:19:12 AppUpdater: Up to date via GitHub (current=210 latest=210)
 [I] 07-08 00:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 00:19:37 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 00:19:38 LogShipper: Shipped 443 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-08 00:20:53 Movement: Truck 230 status → In Front
+[I] 07-08 00:20:53 BadgerRepo: updateMovementStatus OK — truck=230 statusId=4
+[I] 07-08 00:20:54 TTS: Speaking: Truck 230, In Front
+[I] 07-08 00:20:54 WatchNotif: ?? PUSHING NOTIF: Truck 230 - Ready ? In Front (tag=watch_truck_230)
+[I] 07-08 00:20:54 WatchNotif: ?? Notif ID: -658231617
+[I] 07-08 00:20:54 WatchNotif: ? Successfully sent to watch: Truck 230 - Ready ? In Front
+[I] 07-08 00:24:10 AppUpdater: Checking via website (current=210)
+[I] 07-08 00:24:10 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 00:24:10 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 00:24:11 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[W] 07-08 00:27:29 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-08 00:27:29 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 07-08 00:29:10 AppUpdater: Checking via website (current=210)
+[I] 07-08 00:29:10 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 00:29:10 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 00:29:11 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[W] 07-08 00:31:29 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-08 00:31:40 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 07-08 00:31:40 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 07-08 00:32:34 BadgerService: Realtime subscribed OK -- badger-svc-e22ada4f-7761-43b7-9f5e-f8a52ba4f02f status=SUBSCRIBED
+[I] 07-08 00:32:52 Movement: Truck 224-1 status → On Route
+[I] 07-08 00:32:52 BadgerRepo: updateMovementStatus OK — truck=224-1 statusId=3
+[I] 07-08 00:32:53 TTS: Speaking: Truck 224-1, On Route
+[I] 07-08 00:32:53 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - 12B ? On Route (tag=watch_truck_224-1)
+[I] 07-08 00:32:53 WatchNotif: ?? Notif ID: -1200415928
+[I] 07-08 00:32:53 WatchNotif: ? Successfully sent to watch: Truck 224-1 - 12B ? On Route
+[I] 07-08 00:33:08 TTS: Speaking: Door 14B, EOT+1
+[I] 07-08 00:33:08 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? EOT+1 (tag=watch_door_14B)
+[I] 07-08 00:33:08 WatchNotif: ?? Notif ID: -108072994
+[I] 07-08 00:33:08 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? EOT+1
+[I] 07-08 00:34:10 AppUpdater: Checking via website (current=210)
+[I] 07-08 00:34:10 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 00:34:10 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 00:34:11 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[I] 07-08 00:34:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 00:34:37 BadgerService: Keepalive scheduled in 900s
