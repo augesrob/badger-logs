@@ -1,25 +1,4 @@
-=== samsung SM-S938U | v210 | shipped 2026-07-07 22:53:14 ===
-[I] 07-07 18:33:06 WatchNotif: ? Successfully sent to watch: Truck 188-2 - New ? Transfer
-[I] 07-07 18:33:48 AppUpdater: Checking via website (current=209)
-[I] 07-07 18:33:49 AppUpdater: Checking via GitHub direct (current=209)
-[I] 07-07 18:33:49 AppUpdater: Up to date via website (current=209 latest=209)
-[I] 07-07 18:33:50 AppUpdater: Up to date via GitHub (current=209 latest=209)
-[I] 07-07 18:34:20 Movement: Truck 187-1 status → In Front
-[I] 07-07 18:34:20 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=4
-[I] 07-07 18:34:21 WatchNotif: ?? Notif ID: -1201157820
-[I] 07-07 18:34:21 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - Transfer ? In Front (tag=watch_truck_187-1)
-[I] 07-07 18:34:21 WatchNotif: ? Successfully sent to watch: Truck 187-1 - Transfer ? In Front
-[I] 07-07 18:36:29 AppUpdater: Checking via website (current=209)
-[I] 07-07 18:36:29 AppUpdater: Up to date via website (current=209 latest=209)
-[I] 07-07 18:36:29 AppUpdater: Checking via GitHub direct (current=209)
-[I] 07-07 18:36:30 AppUpdater: Up to date via GitHub (current=209 latest=209)
-[I] 07-07 18:39:14 AppUpdater: Checking via website (current=209)
-[I] 07-07 18:39:14 AppUpdater: Checking via GitHub direct (current=209)
-[I] 07-07 18:39:14 AppUpdater: Up to date via website (current=209 latest=209)
-[I] 07-07 18:39:15 AppUpdater: Up to date via GitHub (current=209 latest=209)
-[I] 07-07 18:39:57 WatchNotif: ?? Notif ID: -1200415928
-[I] 07-07 18:39:57 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - Transfer ? In Front (tag=watch_truck_224-1)
-[I] 07-07 18:39:57 WatchNotif: ? Successfully sent to watch: Truck 224-1 - Transfer ? In Front
+=== samsung SM-S938U | v210 | shipped 2026-07-07 23:08:14 ===
 [I] 07-07 18:41:48 AppUpdater: Checking via website (current=209)
 [I] 07-07 18:41:48 AppUpdater: Up to date via website (current=209 latest=209)
 [I] 07-07 18:41:48 AppUpdater: Checking via GitHub direct (current=209)
@@ -499,3 +478,24 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 22:50:44 WatchNotif: ? Successfully sent to watch: Truck 224-1 - In Door ? 12B
 [I] 07-07 22:53:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 22:53:14 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 22:53:16 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-07 22:53:20 TTS: Speaking: Truck 183, In Door
+[I] 07-07 22:53:20 WatchNotif: ?? PUSHING NOTIF: Truck 183 - In Front ? In Door (tag=watch_truck_183)
+[I] 07-07 22:53:20 WatchNotif: ?? Notif ID: -658232420
+[I] 07-07 22:53:20 WatchNotif: ? Successfully sent to watch: Truck 183 - In Front ? In Door
+[I] 07-07 22:53:23 TTS: Speaking: Door 15A, Loading
+[I] 07-07 22:53:23 WatchNotif: ?? PUSHING NOTIF: Door 15A - Move to Receiving ? Loading (tag=watch_door_15A)
+[I] 07-07 22:53:23 WatchNotif: ?? Notif ID: -108072964
+[I] 07-07 22:53:23 WatchNotif: ? Successfully sent to watch: Door 15A - Move to Receiving ? Loading
+[I] 07-07 23:02:44 TTS: Speaking: Truck 159, In Front
+[I] 07-07 23:02:44 WatchNotif: ?? PUSHING NOTIF: Truck 159 - Ready ? In Front (tag=watch_truck_159)
+[I] 07-07 23:02:44 WatchNotif: ?? Notif ID: -658232507
+[I] 07-07 23:02:44 WatchNotif: ? Successfully sent to watch: Truck 159 - Ready ? In Front
+[W] 07-07 23:05:01 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-07 23:05:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-07 23:06:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-07 23:07:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 07-07 23:08:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 07-07 23:08:14 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-07 23:08:14 BadgerService: startRealtimeSync: in backoff for 14s more � skipping
+[I] 07-07 23:08:14 BadgerService: Keepalive scheduled in 900s
