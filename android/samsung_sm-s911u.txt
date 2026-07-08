@@ -1,13 +1,4 @@
-=== samsung SM-S911U | v210 | shipped 2026-07-08 00:40:33 ===
-[W] 07-07 09:04:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-07 09:04:08 BadgerService: startRealtimeSync: in backoff for 18s more � skipping
-[I] 07-07 09:04:10 LogShipper: Shipped 286 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 07-07 09:04:26 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
-[E] 07-07 09:05:13 BadgerService: Realtime: 89 consecutive failures � cooling down 5 min
-[E] 07-07 09:05:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #89 in 300s)
-[E] 07-07 09:10:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #90 in 300s)
-[E] 07-07 09:10:59 BadgerService: Realtime: 90 consecutive failures � cooling down 5 min
-[E] 07-07 09:16:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #91 in 300s)
+=== samsung SM-S911U | v210 | shipped 2026-07-08 00:40:54 ===
 [E] 07-07 09:16:45 BadgerService: Realtime: 91 consecutive failures � cooling down 5 min
 [I] 07-07 09:19:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 09:19:08 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-08 00:40:29 AppUpdater: Up to date via GitHub (current=210 latest=210)
 [I] 07-08 00:40:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 00:40:33 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 00:40:35 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 07-08 00:40:49 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-08 00:40:49 BadgerService: Keepalive scheduled in 2s
+[I] 07-08 00:40:53 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 230, In Door
+[I] 07-08 00:40:53 WatchNotif: ?? PUSHING NOTIF: Truck 230 - In Front ? In Door (tag=watch_truck_230)
+[I] 07-08 00:40:53 WatchNotif: ?? Notif ID: -658231617
+[I] 07-08 00:40:53 WatchNotif: ? Successfully sent to watch: Truck 230 - In Front ? In Door
+[I] 07-08 00:40:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 00:40:54 BadgerService: Keepalive scheduled in 900s
