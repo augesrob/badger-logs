@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v210 | shipped 2026-07-08 00:01:58 ===
+=== samsung SM-S911U | v210 | shipped 2026-07-08 00:03:43 ===
 [I] 07-07 08:49:10 LogShipper: Shipped 277 log lines to badger-logs/android/samsung_sm-s911u.txt
 [E] 07-07 08:53:40 BadgerService: Realtime: 87 consecutive failures � cooling down 5 min
 [E] 07-07 08:53:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #87 in 300s)
@@ -405,3 +405,20 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-08 00:01:53 BadgerService: Keepalive scheduled in 2s
 [I] 07-08 00:01:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 00:01:58 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 00:02:00 LogShipper: Shipped 406 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-08 00:03:06 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 220, In Door
+[I] 07-08 00:03:06 WatchNotif: ?? Notif ID: -658231648
+[I] 07-08 00:03:06 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Front ? In Door (tag=watch_truck_220)
+[I] 07-08 00:03:06 WatchNotif: ? Successfully sent to watch: Truck 220 - In Front ? In Door
+[I] 07-08 00:03:09 TTS: Skipped (ttsEnabled=false channelPref=true): Door 14B, Loading
+[I] 07-08 00:03:09 WatchNotif: ?? PUSHING NOTIF: Door 14B - Change Truck/Trailer ? Loading (tag=watch_door_14B)
+[I] 07-08 00:03:09 WatchNotif: ?? Notif ID: -108072994
+[I] 07-08 00:03:09 WatchNotif: ? Successfully sent to watch: Door 14B - Change Truck/Trailer ? Loading
+[I] 07-08 00:03:24 AppUpdater: Checking via website (current=210)
+[I] 07-08 00:03:25 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 00:03:25 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 00:03:25 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[W] 07-08 00:03:38 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-08 00:03:38 BadgerService: Keepalive scheduled in 2s
+[I] 07-08 00:03:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 00:03:43 BadgerService: Keepalive scheduled in 900s
