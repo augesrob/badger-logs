@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v209 | shipped 2026-07-07 19:48:01 ===
+=== samsung SM-S938U | v209 | shipped 2026-07-07 20:03:01 ===
 [W] 07-07 14:01:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 14:01:26 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
 [I] 07-07 14:01:27 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -424,3 +424,23 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 19:45:41 WatchNotif: ? Successfully sent to watch: Door 14A - Change Truck/Trailer ? Loading
 [I] 07-07 19:48:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 19:48:01 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 19:48:02 LogShipper: Shipped 425 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-07 19:57:36 WatchNotif: ?? Notif ID: -108072963
+[I] 07-07 19:57:36 WatchNotif: ?? PUSHING NOTIF: Door 15B - Loading ? Change Truck/Trailer (tag=watch_door_15B)
+[I] 07-07 19:57:36 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? Change Truck/Trailer
+[I] 07-07 20:02:25 AppUpdater: Checking via website (current=209)
+[I] 07-07 20:02:27 AppUpdater: Up to date via website (current=209 latest=209)
+[I] 07-07 20:02:27 AppUpdater: Checking via GitHub direct (current=209)
+[I] 07-07 20:02:27 AppUpdater: Up to date via GitHub (current=209 latest=209)
+[I] 07-07 20:02:29 Movement: Door 15B status → Loading
+[I] 07-07 20:02:29 BadgerRepo: updateDoorStatus OK — id=6 status=Loading
+[I] 07-07 20:02:30 WatchNotif: ?? PUSHING NOTIF: Door 15B - Change Truck/Trailer ? Loading (tag=watch_door_15B)
+[I] 07-07 20:02:30 WatchNotif: ?? Notif ID: -108072963
+[I] 07-07 20:02:30 WatchNotif: ? Successfully sent to watch: Door 15B - Change Truck/Trailer ? Loading
+[I] 07-07 20:02:31 Movement: Truck 187-1 status → In Door
+[I] 07-07 20:02:31 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=1
+[I] 07-07 20:02:31 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Front ? In Door (tag=watch_truck_187-1)
+[I] 07-07 20:02:31 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-07 20:02:31 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Front ? In Door
+[I] 07-07 20:03:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 20:03:01 BadgerService: Keepalive scheduled in 900s
