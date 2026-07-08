@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v210 | shipped 2026-07-08 07:22:51 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-08 07:48:38 ===
 [E] 07-08 01:25:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #32 in 300s)
 [E] 07-08 01:30:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #33 in 300s)
 [E] 07-08 01:30:57 BadgerService: Realtime: 33 consecutive failures � cooling down 5 min
@@ -401,3 +401,50 @@
 [I] 07-08 07:22:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 07:22:51 BadgerService: Keepalive scheduled in 900s
 [W] 07-08 07:22:51 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-08 07:22:51 BadgerService: startRealtimeSync: in backoff for 298s more � skipping
+[I] 07-08 07:22:52 LogShipper: Shipped 402 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-08 07:28:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #56 in 300s)
+[E] 07-08 07:28:35 BadgerService: Realtime: 56 consecutive failures � cooling down 5 min
+[I] 07-08 07:33:10 AppUpdater: Checking via website (current=210)
+[I] 07-08 07:33:10 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-08 07:33:10 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-08 07:33:11 AppUpdater: Update found via GitHub: access-v214 (current=210)
+[I] 07-08 07:33:11 MainActivity: Auto-downloading access-v214
+[I] 07-08 07:33:11 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v214/badger-access-access-v214.apk
+[I] 07-08 07:33:12 AppUpdater: Downloaded 16635260 bytes
+[I] 07-08 07:33:38 BadgerApp: App started v214 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-08 07:33:38 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 07-08 07:33:38 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-08 07:33:38 AuthManager: Session expired — trying HWID silent login
+[I] 07-08 07:33:38 MainActivity: BadgerService started (mic=true)
+[I] 07-08 07:33:38 AppUpdater: Checking via website (current=214)
+[I] 07-08 07:33:38 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 07-08 07:33:38 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 07:33:38 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-08 07:33:38 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 07:33:38 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 07:33:39 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-08 07:33:39 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-08 07:33:39 AuthManager: Sign in OK — augesrob role=admin
+[I] 07-08 07:33:39 AuthManager: HWID silent login OK
+[I] 07-08 07:33:39 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 07-08 07:33:39 TTS: Engine initialized OK
+[I] 07-08 07:33:39 TTS: Speaking: Badger live monitoring active
+[I] 07-08 07:33:39 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 07:33:40 BadgerService: Realtime subscribed OK -- badger-svc-820cc0fe-2c38-4538-ae3b-0c6fb6817af7 status=SUBSCRIBED
+[I] 07-08 07:33:43 Movement: Door 13A status → End Of Truck Tote
+[I] 07-08 07:33:43 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
+[I] 07-08 07:33:43 TTS: Speaking: Door 13A, End Of Truck Tote
+[I] 07-08 07:33:43 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
+[I] 07-08 07:33:43 WatchNotif: ?? Notif ID: -108073026
+[I] 07-08 07:33:43 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
+[I] 07-08 07:33:47 Movement: Door 13A status → Loading
+[I] 07-08 07:33:47 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
+[I] 07-08 07:33:48 TTS: Speaking: Door 13A, Loading
+[I] 07-08 07:33:48 WatchNotif: ?? Notif ID: -108073026
+[I] 07-08 07:33:48 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
+[I] 07-08 07:33:48 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
+[I] 07-08 07:48:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 07:48:38 BadgerService: Keepalive scheduled in 900s
