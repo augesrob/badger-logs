@@ -1,15 +1,4 @@
-=== samsung SM-N975U | v209 | shipped 2026-07-07 20:11:58 ===
-[I] 07-02 03:41:35 AuthManager: Sign in OK — joemiller role=admin
-[I] 07-02 03:41:35 AuthManager: HWID silent login OK
-[I] 07-02 03:41:35 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
-[I] 07-02 15:50:41 BadgerApp: App started v195 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-02 15:50:41 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 07-02 15:50:42 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-02 15:50:42 AuthManager: Session expired — trying HWID silent login
-[I] 07-02 15:50:42 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-02 15:50:43 AuthManager: Sign in OK — joemiller role=admin
-[I] 07-02 15:50:43 AuthManager: HWID silent login OK
-[I] 07-02 15:50:43 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+=== samsung SM-N975U | v209 | shipped 2026-07-07 20:26:58 ===
 [I] 07-02 22:11:52 BadgerApp: App started v195 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 07-02 22:11:52 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [W] 07-02 22:11:52 AuthManager: JWT refresh failed: No refresh token found in current session
@@ -463,3 +452,50 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 20:10:54 WatchNotif: ?? Notif ID: -658231673
 [I] 07-07 20:11:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 20:11:58 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 20:11:59 LogShipper: Shipped 464 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-07 20:19:08 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? Change Truck/Trailer (tag=watch_door_13B)
+[I] 07-07 20:19:08 WatchNotif: ?? Notif ID: -108073025
+[I] 07-07 20:19:08 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Change Truck/Trailer
+[I] 07-07 20:21:32 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? Move to Receiving (tag=watch_door_14B)
+[I] 07-07 20:21:32 WatchNotif: ?? Notif ID: -108072994
+[I] 07-07 20:21:32 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? Move to Receiving
+[I] 07-07 20:22:17 WatchNotif: ?? PUSHING NOTIF: Door 15A - Change Truck/Trailer ? Loading (tag=watch_door_15A)
+[I] 07-07 20:22:17 WatchNotif: ?? Notif ID: -108072964
+[I] 07-07 20:22:17 WatchNotif: ? Successfully sent to watch: Door 15A - Change Truck/Trailer ? Loading
+[I] 07-07 20:22:25 AppUpdater: Checking via website (current=209)
+[I] 07-07 20:22:26 AppUpdater: Checking via GitHub direct (current=209)
+[I] 07-07 20:22:26 AppUpdater: Up to date via website (current=209 latest=209)
+[I] 07-07 20:22:27 AppUpdater: Update found via GitHub: access-v210 (current=209)
+[I] 07-07 20:22:27 MainActivity: Auto-downloading access-v210
+[I] 07-07 20:22:27 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v210/badger-access-access-v210.apk
+[I] 07-07 20:22:31 AppUpdater: Downloaded 16635260 bytes
+[I] 07-07 20:22:35 AppUpdater: Checking via website (current=209)
+[I] 07-07 20:22:35 AppUpdater: Update found via website: access-v210
+[I] 07-07 20:22:39 Movement: Door 13B status → Loading
+[I] 07-07 20:22:39 BadgerRepo: updateDoorStatus OK — id=2 status=Loading
+[I] 07-07 20:22:40 WatchNotif: ?? PUSHING NOTIF: Door 13B - Change Truck/Trailer ? Loading (tag=watch_door_13B)
+[I] 07-07 20:22:40 WatchNotif: ?? Notif ID: -108073025
+[I] 07-07 20:22:40 WatchNotif: ? Successfully sent to watch: Door 13B - Change Truck/Trailer ? Loading
+[I] 07-07 20:22:41 Movement: Truck 222-2 status → In Door
+[I] 07-07 20:22:41 BadgerRepo: updateMovementStatus OK — truck=222-2 statusId=1
+[I] 07-07 20:22:41 WatchNotif: ?? PUSHING NOTIF: Truck 222-2 - In Front ? In Door (tag=watch_truck_222-2)
+[I] 07-07 20:22:41 WatchNotif: ?? Notif ID: -1200417849
+[I] 07-07 20:22:41 WatchNotif: ? Successfully sent to watch: Truck 222-2 - In Front ? In Door
+[I] 07-07 20:22:43 Movement: Truck 223-1 status → 11
+[I] 07-07 20:22:43 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=14
+[I] 07-07 20:22:44 WatchNotif: ?? Notif ID: -1200416889
+[I] 07-07 20:22:44 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Door ? 11 (tag=watch_truck_223-1)
+[I] 07-07 20:22:44 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Door ? 11
+[I] 07-07 20:26:13 WatchNotif: ?? PUSHING NOTIF: Door 14B - Move to Receiving ? Loading (tag=watch_door_14B)
+[I] 07-07 20:26:13 WatchNotif: ?? Notif ID: -108072994
+[I] 07-07 20:26:13 WatchNotif: ? Successfully sent to watch: Door 14B - Move to Receiving ? Loading
+[I] 07-07 20:26:18 AppUpdater: Checking via website (current=209)
+[I] 07-07 20:26:18 AppUpdater: Update found via website: access-v210
+[I] 07-07 20:26:19 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - In Door ? 12B (tag=watch_truck_188-1)
+[I] 07-07 20:26:19 WatchNotif: ?? Notif ID: -1201156859
+[I] 07-07 20:26:19 WatchNotif: ? Successfully sent to watch: Truck 188-1 - In Door ? 12B
+[I] 07-07 20:26:22 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - In Front ? In Door (tag=watch_truck_248-2)
+[I] 07-07 20:26:22 WatchNotif: ?? Notif ID: -1200352501
+[I] 07-07 20:26:22 WatchNotif: ? Successfully sent to watch: Truck 248-2 - In Front ? In Door
+[I] 07-07 20:26:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 20:26:58 BadgerService: Keepalive scheduled in 900s
