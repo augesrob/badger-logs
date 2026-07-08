@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v209 | shipped 2026-07-07 23:51:06 ===
+=== samsung SM-S911U | v210 | shipped 2026-07-07 23:55:42 ===
 [I] 07-07 08:49:10 LogShipper: Shipped 277 log lines to badger-logs/android/samsung_sm-s911u.txt
 [E] 07-07 08:53:40 BadgerService: Realtime: 87 consecutive failures � cooling down 5 min
 [E] 07-07 08:53:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #87 in 300s)
@@ -353,3 +353,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 23:36:07 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 07-07 23:51:06 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-07 23:51:06 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 23:51:07 LogShipper: Shipped 354 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-07 23:54:31 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? Change Truck/Trailer (tag=watch_door_14B)
+[I] 07-07 23:54:31 WatchNotif: ?? Notif ID: -108072994
+[I] 07-07 23:54:31 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? Change Truck/Trailer
+[I] 07-07 23:54:42 AppUpdater: Checking via website (current=209)
+[I] 07-07 23:54:42 AppUpdater: Update found via website: access-v210
+[I] 07-07 23:54:42 MainActivity: Auto-downloading access-v210
+[I] 07-07 23:54:42 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v210/badger-access-access-v210.apk
+[I] 07-07 23:54:45 AppUpdater: Downloaded 16635260 bytes
+[I] 07-07 23:54:48 AppUpdater: Checking via website (current=209)
+[I] 07-07 23:54:48 AppUpdater: Update found via website: access-v210
+[I] 07-07 23:55:08 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v210/badger-access-access-v210.apk
+[I] 07-07 23:55:12 AppUpdater: Downloaded 16635260 bytes
+[I] 07-07 23:55:24 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-07 23:55:24 BadgerApp: App started v210 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 23:55:24 MainActivity: BadgerService started (mic=true)
+[I] 07-07 23:55:24 AppUpdater: Checking via website (current=210)
+[W] 07-07 23:55:24 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-07 23:55:24 AuthManager: Session expired — trying HWID silent login
+[I] 07-07 23:55:24 AuthManager: HWID silent login for kevinpotter@badgerliquor.com
+[I] 07-07 23:55:24 BadgerService: Keepalive scheduled in 900s
+[I] 07-07 23:55:24 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-07 23:55:24 TTS: Engine initialized OK
+[I] 07-07 23:55:24 TTS: Speaking: Badger live monitoring active
+[I] 07-07 23:55:24 FCM: ?? FCM Token: cWmwZ0_HRheV4HpH8V0P...
+[E] 07-07 23:55:24 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-07 23:55:24 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-07 23:55:24 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-07 23:55:25 AuthManager: Sign in OK — kevinpotter role=driver
+[I] 07-07 23:55:25 AuthManager: HWID silent login OK
+[I] 07-07 23:55:25 AuthManager: Profile realtime watch started for b1d2a619-af22-4d90-9dd9-ea53a97b95cc
+[I] 07-07 23:55:25 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[I] 07-07 23:55:25 BadgerService: Realtime subscribed OK -- badger-svc-8cd030ab-62c2-4986-8a40-fd50584c4141 status=SUBSCRIBED
+[W] 07-07 23:55:37 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-07 23:55:37 BadgerService: Keepalive scheduled in 2s
+[I] 07-07 23:55:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 23:55:42 BadgerService: Keepalive scheduled in 900s
