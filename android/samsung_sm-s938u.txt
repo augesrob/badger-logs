@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v210 | shipped 2026-07-07 21:53:14 ===
+=== samsung SM-S938U | v210 | shipped 2026-07-07 22:08:14 ===
 [I] 07-07 18:33:06 WatchNotif: ? Successfully sent to watch: Truck 188-2 - New ? Transfer
 [I] 07-07 18:33:48 AppUpdater: Checking via website (current=209)
 [I] 07-07 18:33:49 AppUpdater: Checking via GitHub direct (current=209)
@@ -372,3 +372,23 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-07 21:53:14 BadgerService: Keepalive scheduled in 900s
 [W] 07-07 21:53:14 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-07 21:53:14 BadgerService: startRealtimeSync: in backoff for 44s more � skipping
+[I] 07-07 21:53:16 LogShipper: Shipped 373 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-07 21:54:45 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[E] 07-07 21:54:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[E] 07-07 22:00:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
+[E] 07-07 22:00:31 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
+[I] 07-07 22:04:50 AppUpdater: Checking via website (current=210)
+[I] 07-07 22:04:51 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-07 22:04:51 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-07 22:04:51 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[I] 07-07 22:05:32 BadgerService: Realtime subscribed OK -- badger-svc-098e57b3-3660-43b9-99e7-5d87ca08b49b status=SUBSCRIBED
+[I] 07-07 22:06:27 AppUpdater: Checking via website (current=210)
+[I] 07-07 22:06:27 AppUpdater: Checking via GitHub direct (current=210)
+[I] 07-07 22:06:27 AppUpdater: Up to date via website (current=210 latest=210)
+[I] 07-07 22:06:27 AppUpdater: Up to date via GitHub (current=210 latest=210)
+[I] 07-07 22:07:00 TTS: Speaking: Truck 186-1, 8
+[I] 07-07 22:07:00 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Door ? 8 (tag=watch_truck_186-1)
+[I] 07-07 22:07:00 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-07 22:07:00 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Door ? 8
+[I] 07-07 22:08:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-07 22:08:14 BadgerService: Keepalive scheduled in 900s
