@@ -1,19 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-08 20:54:40 ===
-[I] 07-08 07:33:38 AuthManager: HWID silent login for rfa1991@gmail.com
-[I] 07-08 07:33:38 BadgerService: Keepalive scheduled in 900s
-[I] 07-08 07:33:38 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-08 07:33:38 AppUpdater: Checking via GitHub direct (current=214)
-[I] 07-08 07:33:38 AppUpdater: Up to date via website (current=214 latest=214)
-[I] 07-08 07:33:39 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
-[E] 07-08 07:33:39 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-08 07:33:39 AuthManager: Sign in OK — augesrob role=admin
-[I] 07-08 07:33:39 AuthManager: HWID silent login OK
-[I] 07-08 07:33:39 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
-[I] 07-08 07:33:39 TTS: Engine initialized OK
-[I] 07-08 07:33:39 TTS: Speaking: Badger live monitoring active
-[I] 07-08 07:33:39 AppUpdater: Up to date via GitHub (current=214 latest=214)
+=== samsung SM-S938U | v214 | shipped 2026-07-08 21:09:40 ===
 [I] 07-08 07:33:40 BadgerService: Realtime subscribed OK -- badger-svc-820cc0fe-2c38-4538-ae3b-0c6fb6817af7 status=SUBSCRIBED
 [I] 07-08 07:33:43 Movement: Door 13A status → End Of Truck Tote
 [I] 07-08 07:33:43 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
@@ -441,3 +426,76 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-08 20:51:18 AppUpdater: Up to date via GitHub (current=214 latest=214)
 [I] 07-08 20:54:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 20:54:40 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 20:54:41 LogShipper: Shipped 442 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-08 20:59:32 TTS: Speaking: Door 15A, Change Truck/Trailer
+[I] 07-08 20:59:32 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Change Truck/Trailer (tag=watch_door_15A)
+[I] 07-08 20:59:32 WatchNotif: ?? Notif ID: -108072964
+[I] 07-08 20:59:32 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Change Truck/Trailer
+[I] 07-08 21:02:34 AppUpdater: Checking via website (current=214)
+[I] 07-08 21:02:34 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 21:02:34 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 21:02:35 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 21:02:40 Movement: Truck 187-1 status → In Door
+[I] 07-08 21:02:41 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=1
+[I] 07-08 21:02:41 TTS: Speaking: Truck 187-1, In Door
+[I] 07-08 21:02:41 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Front ? In Door (tag=watch_truck_187-1)
+[I] 07-08 21:02:41 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-08 21:02:41 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Front ? In Door
+[I] 07-08 21:02:46 Movement: Truck 222-1 status → On Route
+[I] 07-08 21:02:46 BadgerRepo: updateMovementStatus OK — truck=222-1 statusId=3
+[I] 07-08 21:02:46 TTS: Speaking: Truck 222-1, On Route
+[I] 07-08 21:02:46 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - In Door ? On Route (tag=watch_truck_222-1)
+[I] 07-08 21:02:46 WatchNotif: ?? Notif ID: -1200417850
+[I] 07-08 21:02:46 WatchNotif: ? Successfully sent to watch: Truck 222-1 - In Door ? On Route
+[I] 07-08 21:02:57 TTS: Speaking: Door 13A, Change Truck/Trailer
+[I] 07-08 21:02:57 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? Change Truck/Trailer (tag=watch_door_13A)
+[I] 07-08 21:02:57 WatchNotif: ?? Notif ID: -108073026
+[I] 07-08 21:02:57 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? Change Truck/Trailer
+[I] 07-08 21:02:58 Movement: Door 15A status → Loading
+[I] 07-08 21:02:58 BadgerRepo: updateDoorStatus OK — id=5 status=Loading
+[I] 07-08 21:02:58 TTS: Speaking: Door 15A, Loading
+[I] 07-08 21:02:58 WatchNotif: ?? PUSHING NOTIF: Door 15A - Change Truck/Trailer ? Loading (tag=watch_door_15A)
+[I] 07-08 21:02:58 WatchNotif: ?? Notif ID: -108072964
+[I] 07-08 21:02:58 WatchNotif: ? Successfully sent to watch: Door 15A - Change Truck/Trailer ? Loading
+[I] 07-08 21:03:32 AppUpdater: Checking via website (current=214)
+[I] 07-08 21:03:32 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 21:03:32 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 21:03:33 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 21:03:45 Movement: Truck 248-1 status → On Route
+[I] 07-08 21:03:45 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=3
+[I] 07-08 21:03:46 TTS: Speaking: Truck 248-1, On Route
+[I] 07-08 21:03:46 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - In Door ? On Route (tag=watch_truck_248-1)
+[I] 07-08 21:03:46 WatchNotif: ?? Notif ID: -1200352502
+[I] 07-08 21:03:46 WatchNotif: ? Successfully sent to watch: Truck 248-1 - In Door ? On Route
+[I] 07-08 21:03:48 Movement: Truck 186-1 status → In Door
+[I] 07-08 21:03:48 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=1
+[I] 07-08 21:03:49 TTS: Speaking: Truck 186-1, In Door
+[I] 07-08 21:03:49 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Front ? In Door (tag=watch_truck_186-1)
+[I] 07-08 21:03:49 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-08 21:03:49 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Front ? In Door
+[I] 07-08 21:05:25 TTS: Speaking: Door 13A, Loading
+[I] 07-08 21:05:25 WatchNotif: ?? PUSHING NOTIF: Door 13A - Change Truck/Trailer ? Loading (tag=watch_door_13A)
+[I] 07-08 21:05:25 WatchNotif: ?? Notif ID: -108073026
+[I] 07-08 21:05:25 WatchNotif: ? Successfully sent to watch: Door 13A - Change Truck/Trailer ? Loading
+[I] 07-08 21:05:33 AppUpdater: Checking via website (current=214)
+[I] 07-08 21:05:33 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 21:05:33 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 21:05:34 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 21:06:30 TTS: Speaking: Door 14B, Move to Receiving
+[I] 07-08 21:06:30 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? Move to Receiving (tag=watch_door_14B)
+[I] 07-08 21:06:30 WatchNotif: ?? Notif ID: -108072994
+[I] 07-08 21:06:30 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? Move to Receiving
+[I] 07-08 21:06:32 AppUpdater: Checking via website (current=214)
+[I] 07-08 21:06:32 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 21:06:32 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 21:06:33 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 21:07:30 TTS: Speaking: Truck 220, In Front
+[I] 07-08 21:07:30 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Back ? In Front (tag=watch_truck_220)
+[I] 07-08 21:07:30 WatchNotif: ?? Notif ID: -658231648
+[I] 07-08 21:07:30 WatchNotif: ? Successfully sent to watch: Truck 220 - In Back ? In Front
+[I] 07-08 21:08:57 TTS: Speaking: Truck 223-2, In Door
+[I] 07-08 21:08:57 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - In Front ? In Door (tag=watch_truck_223-2)
+[I] 07-08 21:08:57 WatchNotif: ?? Notif ID: -1200416888
+[I] 07-08 21:08:57 WatchNotif: ? Successfully sent to watch: Truck 223-2 - In Front ? In Door
+[I] 07-08 21:09:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 21:09:40 BadgerService: Keepalive scheduled in 900s
