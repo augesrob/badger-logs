@@ -1,35 +1,4 @@
-=== samsung SM-S911U | v214 | shipped 2026-07-08 19:55:46 ===
-[W] 07-08 00:09:39 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 07-08 00:09:50 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-08 00:09:50 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 07-08 00:10:11 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-08 00:10:11 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
-[E] 07-08 00:10:42 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-08 00:10:42 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #3 in 40s)
-[E] 07-08 00:11:32 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #4 in 80s)
-[E] 07-08 00:11:32 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-08 00:13:03 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #5 in 80s)
-[E] 07-08 00:13:03 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-08 00:14:34 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #6 in 80s)
-[E] 07-08 00:14:34 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-08 00:16:04 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #7 in 80s)
-[E] 07-08 00:16:04 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 07-08 00:17:27 BadgerService: Realtime subscribed OK -- badger-svc-1163ccd5-677a-4465-975c-27216d3f9b55 status=SUBSCRIBED
-[I] 07-08 00:18:37 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 246, Put Away
-[I] 07-08 00:18:37 WatchNotif: ?? Notif ID: -658231580
-[I] 07-08 00:18:37 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Yard ? Put Away (tag=watch_truck_246)
-[I] 07-08 00:18:37 WatchNotif: ? Successfully sent to watch: Truck 246 - Yard ? Put Away
-[I] 07-08 00:18:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-08 00:18:43 BadgerService: Keepalive scheduled in 900s
-[I] 07-08 00:18:45 LogShipper: Shipped 450 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 07-08 00:20:55 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 230, In Front
-[I] 07-08 00:20:55 WatchNotif: ?? PUSHING NOTIF: Truck 230 - Ready ? In Front (tag=watch_truck_230)
-[I] 07-08 00:20:55 WatchNotif: ?? Notif ID: -658231617
-[I] 07-08 00:20:55 WatchNotif: ? Successfully sent to watch: Truck 230 - Ready ? In Front
-[I] 07-08 00:21:05 AppUpdater: Checking via website (current=210)
-[I] 07-08 00:21:07 AppUpdater: Checking via GitHub direct (current=210)
-[I] 07-08 00:21:07 AppUpdater: Up to date via website (current=210 latest=210)
-[I] 07-08 00:21:08 AppUpdater: Up to date via GitHub (current=210 latest=210)
+=== samsung SM-S911U | v214 | shipped 2026-07-08 20:00:15 ===
 [W] 07-08 00:21:17 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
 [I] 07-08 00:21:17 BadgerService: Keepalive scheduled in 2s
 [I] 07-08 00:21:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +468,34 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-08 19:55:41 BadgerService: Keepalive scheduled in 2s
 [I] 07-08 19:55:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 19:55:46 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 19:55:47 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-08 19:59:51 TTS: Skipped (ttsEnabled=false channelPref=true): Door 14A, End Of Truck Tote
+[I] 07-08 19:59:51 WatchNotif: ?? PUSHING NOTIF: Door 14A - Loading ? End Of Truck Tote (tag=watch_door_14A)
+[I] 07-08 19:59:51 WatchNotif: ?? Notif ID: -108072995
+[I] 07-08 19:59:51 WatchNotif: ? Successfully sent to watch: Door 14A - Loading ? End Of Truck Tote
+[I] 07-08 20:00:00 AppUpdater: Checking via website (current=214)
+[I] 07-08 20:00:00 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 20:00:00 AppUpdater: Checking via GitHub direct (current=214)
+[W] 07-08 20:00:00 AppUpdater: GitHub direct check failed: Job was cancelled
+[I] 07-08 20:00:00 AppUpdater: Checking via website (current=214)
+[E] 07-08 20:00:01 BadgerRepo: getLiveMovement FAILED: The coroutine scope left the composition
+[I] 07-08 20:00:01 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 20:00:01 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 20:00:01 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 20:00:01 AppUpdater: Checking via website (current=214)
+[I] 07-08 20:00:01 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 20:00:01 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 20:00:02 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 20:00:02 AppUpdater: Checking via website (current=214)
+[E] 07-08 20:00:02 BadgerRepo: getLoadingDoors FAILED: The coroutine scope left the composition
+[I] 07-08 20:00:02 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 20:00:02 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 20:00:02 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 20:00:02 AppUpdater: Checking via website (current=214)
+[I] 07-08 20:00:03 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 20:00:03 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 20:00:03 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[W] 07-08 20:00:10 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-08 20:00:10 BadgerService: Keepalive scheduled in 2s
+[I] 07-08 20:00:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-08 20:00:15 BadgerService: Keepalive scheduled in 900s
