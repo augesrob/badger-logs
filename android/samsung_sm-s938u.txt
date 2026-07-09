@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-09 03:21:48 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-09 03:36:48 ===
 [I] 07-08 21:02:35 AppUpdater: Up to date via GitHub (current=214 latest=214)
 [I] 07-08 21:02:40 Movement: Truck 187-1 status → In Door
 [I] 07-08 21:02:41 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=1
@@ -283,3 +283,25 @@
 [I] 07-09 03:21:48 BadgerService: Keepalive scheduled in 900s
 [W] 07-09 03:21:48 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-09 03:21:48 BadgerService: startRealtimeSync: in backoff for 205s more � skipping
+[I] 07-09 03:21:49 LogShipper: Shipped 284 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-09 03:25:49 AppUpdater: Checking via website (current=214)
+[I] 07-09 03:25:50 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-09 03:25:50 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-09 03:25:50 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[E] 07-09 03:26:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #23 in 300s)
+[E] 07-09 03:26:00 BadgerService: Realtime: 23 consecutive failures � cooling down 5 min
+[I] 07-09 03:31:01 BadgerService: Realtime subscribed OK -- badger-svc-ef47a895-b956-4593-97c9-c90f4c999855 status=SUBSCRIBED
+[I] 07-09 03:32:17 TTS: Speaking: Truck 141, Put Away
+[I] 07-09 03:32:17 WatchNotif: ?? Notif ID: -658232546
+[I] 07-09 03:32:17 WatchNotif: ?? PUSHING NOTIF: Truck 141 - Yard ? Put Away (tag=watch_truck_141)
+[I] 07-09 03:32:17 WatchNotif: ? Successfully sent to watch: Truck 141 - Yard ? Put Away
+[I] 07-09 03:32:26 AppUpdater: Checking via website (current=214)
+[I] 07-09 03:32:26 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-09 03:32:26 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-09 03:32:27 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-09 03:32:28 TTS: Speaking: Door 15B, Done for Night
+[I] 07-09 03:32:28 WatchNotif: ?? PUSHING NOTIF: Door 15B - Loading ? Done for Night (tag=watch_door_15B)
+[I] 07-09 03:32:28 WatchNotif: ?? Notif ID: -108072963
+[I] 07-09 03:32:28 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? Done for Night
+[I] 07-09 03:36:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-09 03:36:48 BadgerService: Keepalive scheduled in 900s
