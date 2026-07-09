@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-08 19:24:40 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-08 19:39:40 ===
 [I] 07-08 07:33:38 AuthManager: HWID silent login for rfa1991@gmail.com
 [I] 07-08 07:33:38 BadgerService: Keepalive scheduled in 900s
 [I] 07-08 07:33:38 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
@@ -344,3 +344,22 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-08 19:17:06 BadgerRepo: importRoutes: 200  {"ok":true,"updated":39,"total":40,"fresh":true,"csvAge":"2026-07-09T00:17:05.792+00:00"}
 [I] 07-08 19:24:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-08 19:24:40 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 19:24:42 LogShipper: Shipped 345 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-08 19:35:10 AppUpdater: Checking via website (current=214)
+[I] 07-08 19:35:10 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-08 19:35:10 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-08 19:35:11 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-08 19:35:13 Movement: Door 13A status → End Of Truck Tote
+[I] 07-08 19:35:14 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
+[I] 07-08 19:35:14 TTS: Speaking: Door 13A, End Of Truck Tote
+[I] 07-08 19:35:14 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
+[I] 07-08 19:35:14 WatchNotif: ?? Notif ID: -108073026
+[I] 07-08 19:35:14 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
+[I] 07-08 19:35:19 Movement: Door 13A status → Loading
+[I] 07-08 19:35:19 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
+[I] 07-08 19:35:20 TTS: Speaking: Door 13A, Loading
+[I] 07-08 19:35:20 WatchNotif: ?? Notif ID: -108073026
+[I] 07-08 19:35:20 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Loading (tag=watch_door_13A)
+[I] 07-08 19:35:20 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Loading
+[I] 07-08 19:39:40 BadgerService: Keepalive scheduled in 900s
+[I] 07-08 19:39:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
