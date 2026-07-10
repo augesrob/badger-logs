@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-10 15:36:31 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-10 15:51:31 ===
 [E] 07-10 06:09:35 BadgerService: Realtime: 35 consecutive failures � cooling down 5 min
 [E] 07-10 06:09:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #35 in 300s)
 [E] 07-10 06:15:21 BadgerService: Realtime: 36 consecutive failures � cooling down 5 min
@@ -397,3 +397,13 @@
 [I] 07-10 15:36:31 BadgerService: Keepalive scheduled in 900s
 [W] 07-10 15:36:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-10 15:36:31 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
+[I] 07-10 15:36:33 LogShipper: Shipped 398 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-10 15:41:54 BadgerService: Realtime: 134 consecutive failures � cooling down 5 min
+[E] 07-10 15:41:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #134 in 300s)
+[E] 07-10 15:47:00 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 07-10 15:47:00 BadgerService: Realtime: 135 consecutive failures � cooling down 5 min
+[E] 07-10 15:47:00 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #135 in 300s)
+[I] 07-10 15:51:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-10 15:51:31 BadgerService: Keepalive scheduled in 900s
+[W] 07-10 15:51:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-10 15:51:31 BadgerService: startRealtimeSync: in backoff for 29s more � skipping
