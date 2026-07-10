@@ -1,20 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-10 12:06:31 ===
-[I] 07-10 00:10:39 WatchNotif: ?? Notif ID: -658231583
-[I] 07-10 00:10:39 WatchNotif: ? Successfully sent to watch: Truck 243 - In Front ? In Door
-[I] 07-10 00:10:40 TTS: Speaking: Door 13B, Loading
-[I] 07-10 00:10:40 WatchNotif: ?? PUSHING NOTIF: Door 13B - End Of Truck Tote ? Loading (tag=watch_door_13B)
-[I] 07-10 00:10:40 WatchNotif: ?? Notif ID: -108073025
-[I] 07-10 00:10:40 WatchNotif: ? Successfully sent to watch: Door 13B - End Of Truck Tote ? Loading
-[I] 07-10 00:14:52 AppUpdater: Checking via website (current=214)
-[I] 07-10 00:14:52 AppUpdater: Checking via GitHub direct (current=214)
-[I] 07-10 00:14:52 AppUpdater: Up to date via website (current=214 latest=214)
-[I] 07-10 00:14:53 AppUpdater: Up to date via GitHub (current=214 latest=214)
-[I] 07-10 00:14:53 AppUpdater: Checking via website (current=214)
-[I] 07-10 00:14:53 AppUpdater: Checking via GitHub direct (current=214)
-[I] 07-10 00:14:53 AppUpdater: Up to date via website (current=214 latest=214)
-[I] 07-10 00:14:53 AppUpdater: Up to date via GitHub (current=214 latest=214)
-[I] 07-10 00:14:55 AppUpdater: Checking via website (current=0)
-[I] 07-10 00:14:55 AppUpdater: Update found via website: access-v214
+=== samsung SM-S938U | v214 | shipped 2026-07-10 12:21:31 ===
 [I] 07-10 00:14:57 BadgerService: User explicitly stopped service -- keepalive cancelled
 [I] 07-10 02:30:13 MainActivity: BadgerService started (mic=true)
 [I] 07-10 02:30:13 AppUpdater: Checking via website (current=214)
@@ -499,3 +483,19 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-10 12:06:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-10 12:06:31 BadgerService: Keepalive scheduled in 900s
 [W] 07-10 12:06:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-10 12:06:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-10 12:07:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #97 in 300s)
+[E] 07-10 12:07:17 BadgerService: Realtime: 97 consecutive failures � cooling down 5 min
+[E] 07-10 12:12:17 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 07-10 12:13:03 BadgerService: Realtime: 98 consecutive failures � cooling down 5 min
+[E] 07-10 12:13:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #98 in 300s)
+[W] 07-10 12:15:16 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-10 12:15:16 BadgerService: startRealtimeSync: in backoff for 166s more � skipping
+[W] 07-10 12:17:20 BadgerService: startRealtimeSync: in backoff for 43s more � skipping
+[W] 07-10 12:17:20 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 07-10 12:18:49 BadgerService: Realtime: 99 consecutive failures � cooling down 5 min
+[E] 07-10 12:18:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #99 in 300s)
+[I] 07-10 12:21:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-10 12:21:31 BadgerService: Keepalive scheduled in 900s
+[W] 07-10 12:21:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-10 12:21:31 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
