@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-09 22:06:42 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-09 22:09:00 ===
 [I] 07-09 17:38:39 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Door
 [W] 07-09 17:49:19 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
 [E] 07-09 17:50:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
@@ -481,3 +481,20 @@
 [I] 07-09 22:06:42 BadgerService: Keepalive scheduled in 900s
 [W] 07-09 22:06:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [E] 07-09 22:06:42 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[I] 07-09 22:06:44 LogShipper: Shipped 482 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-09 22:07:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[E] 07-09 22:07:28 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[I] 07-09 22:08:47 AppUpdater: Checking via website (current=214)
+[I] 07-09 22:08:49 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-09 22:08:49 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-09 22:08:49 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[W] 07-09 22:08:55 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-09 22:08:55 BadgerService: Keepalive scheduled in 2s
+[I] 07-09 22:08:58 AppUpdater: Checking via website (current=214)
+[I] 07-09 22:08:58 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-09 22:08:58 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-09 22:08:58 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-09 22:09:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-09 22:09:00 BadgerService: Keepalive scheduled in 900s
+[W] 07-09 22:09:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-09 22:09:00 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
