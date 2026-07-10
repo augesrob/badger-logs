@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-09 21:06:42 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-09 21:21:42 ===
 [I] 07-09 17:38:39 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Door
 [W] 07-09 17:49:19 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
 [E] 07-09 17:50:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
@@ -332,3 +332,22 @@
 [I] 07-09 21:05:01 WatchNotif: ? Successfully sent to watch: Truck 248-2 - Trailer Area - connected ? In Door
 [I] 07-09 21:06:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-09 21:06:42 BadgerService: Keepalive scheduled in 900s
+[I] 07-09 21:06:44 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-09 21:11:26 AppUpdater: Checking via website (current=214)
+[I] 07-09 21:11:27 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-09 21:11:27 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-09 21:11:27 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-09 21:11:39 Movement: Truck 223-1 status → On Route
+[I] 07-09 21:11:39 BadgerRepo: updateMovementStatus OK — truck=223-1 statusId=3
+[I] 07-09 21:11:40 TTS: Speaking: Truck 223-1, On Route
+[I] 07-09 21:11:40 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Door ? On Route (tag=watch_truck_223-1)
+[I] 07-09 21:11:40 WatchNotif: ?? Notif ID: -1200416889
+[I] 07-09 21:11:40 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Door ? On Route
+[I] 07-09 21:11:41 Movement: Truck 223-2 status → In Door
+[I] 07-09 21:11:41 BadgerRepo: updateMovementStatus OK — truck=223-2 statusId=1
+[I] 07-09 21:11:41 TTS: Speaking: Truck 223-2, In Door
+[I] 07-09 21:11:41 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - In Front ? In Door (tag=watch_truck_223-2)
+[I] 07-09 21:11:41 WatchNotif: ?? Notif ID: -1200416888
+[I] 07-09 21:11:41 WatchNotif: ? Successfully sent to watch: Truck 223-2 - In Front ? In Door
+[I] 07-09 21:21:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-09 21:21:42 BadgerService: Keepalive scheduled in 900s
