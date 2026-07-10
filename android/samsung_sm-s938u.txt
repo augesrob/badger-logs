@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-10 11:21:31 ===
-[I] 07-10 00:08:11 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Front ? In Door (tag=watch_truck_220)
-[I] 07-10 00:08:11 WatchNotif: ?? Notif ID: -658231648
-[I] 07-10 00:08:11 WatchNotif: ? Successfully sent to watch: Truck 220 - In Front ? In Door
-[I] 07-10 00:08:12 Movement: Door 14A status → Loading
-[I] 07-10 00:08:12 BadgerRepo: updateDoorStatus OK — id=3 status=Loading
-[I] 07-10 00:08:12 TTS: Speaking: Door 14A, Loading
-[I] 07-10 00:08:12 WatchNotif: ?? PUSHING NOTIF: Door 14A - Change Truck/Trailer ? Loading (tag=watch_door_14A)
+=== samsung SM-S938U | v214 | shipped 2026-07-10 11:36:31 ===
 [I] 07-10 00:08:12 WatchNotif: ?? Notif ID: -108072995
 [I] 07-10 00:08:12 WatchNotif: ? Successfully sent to watch: Door 14A - Change Truck/Trailer ? Loading
 [I] 07-10 00:08:18 TTS: Speaking: Truck 213, In Front
@@ -497,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-10 11:21:31 BadgerService: Keepalive scheduled in 900s
 [W] 07-10 11:21:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-10 11:21:31 BadgerService: startRealtimeSync: in backoff for 275s more � skipping
+[I] 07-10 11:21:33 LogShipper: Shipped 498 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-10 11:26:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #90 in 300s)
+[E] 07-10 11:26:53 BadgerService: Realtime: 90 consecutive failures � cooling down 5 min
+[E] 07-10 11:32:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #91 in 300s)
+[E] 07-10 11:32:39 BadgerService: Realtime: 91 consecutive failures � cooling down 5 min
+[I] 07-10 11:36:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-10 11:36:31 BadgerService: Keepalive scheduled in 900s
+[W] 07-10 11:36:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-10 11:36:31 BadgerService: startRealtimeSync: in backoff for 68s more � skipping
