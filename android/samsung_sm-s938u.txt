@@ -1,9 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-09 22:54:00 ===
-[I] 07-09 18:47:47 AppUpdater: Up to date via website (current=214 latest=214)
-[I] 07-09 18:47:48 AppUpdater: Up to date via GitHub (current=214 latest=214)
-[I] 07-09 18:47:54 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":12,"printroomCreated":0,"movementAdded":6}
-[I] 07-09 18:48:51 BadgerService: Realtime subscribed OK -- badger-svc-1116f3da-f69e-4e24-85bf-228f95739557 status=SUBSCRIBED
-[I] 07-09 18:50:01 Movement: Truck 186-1 status → Trailer Area - connected
+=== samsung SM-S938U | v214 | shipped 2026-07-09 23:09:00 ===
 [I] 07-09 18:50:01 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=36
 [I] 07-09 18:50:02 TTS: Speaking: Truck 186-1, Trailer Area - connected
 [I] 07-09 18:50:02 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - Transfer ? Trailer Area - connected (tag=watch_truck_186-1)
@@ -499,3 +494,8 @@
 [I] 07-09 22:43:41 WatchNotif: ? Successfully sent to watch: Truck 220 - In Back ? In Front
 [I] 07-09 22:54:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-09 22:54:00 BadgerService: Keepalive scheduled in 900s
+[I] 07-09 22:54:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-09 23:08:56 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 07-09 23:09:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-09 23:09:00 BadgerService: Keepalive scheduled in 900s
+[W] 07-09 23:09:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
