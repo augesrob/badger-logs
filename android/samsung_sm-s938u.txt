@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-09 20:06:42 ===
-[W] 07-09 12:06:48 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
-[I] 07-09 12:06:49 LogShipper: Shipped 255 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-09 12:12:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #66 in 300s)
-[E] 07-09 12:12:11 BadgerService: Realtime: 66 consecutive failures � cooling down 5 min
-[E] 07-09 12:17:11 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
-[E] 07-09 12:17:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #67 in 300s)
-[E] 07-09 12:17:57 BadgerService: Realtime: 67 consecutive failures � cooling down 5 min
+=== samsung SM-S938U | v214 | shipped 2026-07-09 20:21:42 ===
 [I] 07-09 12:21:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-09 12:21:48 BadgerService: Keepalive scheduled in 900s
 [W] 07-09 12:21:48 BadgerService: startRealtimeSync: in backoff for 69s more � skipping
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-09 20:00:08 BadgerService: Realtime subscribed OK -- badger-svc-448ae2d3-c636-4b27-87ee-f0114974d53d status=SUBSCRIBED
 [I] 07-09 20:06:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-09 20:06:42 BadgerService: Keepalive scheduled in 900s
+[I] 07-09 20:06:44 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-09 20:12:44 AppUpdater: Checking via website (current=214)
+[I] 07-09 20:12:45 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-09 20:12:45 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-09 20:12:46 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-09 20:21:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-09 20:21:42 BadgerService: Keepalive scheduled in 900s
