@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-11 17:36:33 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-11 17:51:33 ===
 [E] 07-11 04:40:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #269 in 300s)
 [E] 07-11 04:40:45 BadgerService: Realtime: 269 consecutive failures � cooling down 5 min
 [E] 07-11 04:46:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #270 in 300s)
@@ -356,3 +356,16 @@
 [I] 07-11 17:36:33 BadgerService: Keepalive scheduled in 900s
 [W] 07-11 17:36:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-11 17:36:33 BadgerService: startRealtimeSync: in backoff for 144s more � skipping
+[I] 07-11 17:36:36 LogShipper: Shipped 357 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-11 17:39:43 BadgerService: Realtime: 404 consecutive failures � cooling down 5 min
+[E] 07-11 17:39:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #404 in 300s)
+[W] 07-11 17:42:38 BadgerService: startRealtimeSync: in backoff for 124s more � skipping
+[W] 07-11 17:42:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 07-11 17:45:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #405 in 300s)
+[E] 07-11 17:45:29 BadgerService: Realtime: 405 consecutive failures � cooling down 5 min
+[E] 07-11 17:51:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #406 in 300s)
+[E] 07-11 17:51:15 BadgerService: Realtime: 406 consecutive failures � cooling down 5 min
+[I] 07-11 17:51:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-11 17:51:33 BadgerService: Keepalive scheduled in 900s
+[W] 07-11 17:51:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-11 17:51:33 BadgerService: startRealtimeSync: in backoff for 282s more � skipping
