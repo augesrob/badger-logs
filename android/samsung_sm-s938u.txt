@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-12 06:28:41 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-12 06:43:41 ===
 [I] 07-11 15:21:32 BadgerService: Keepalive scheduled in 900s
 [W] 07-11 15:21:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-11 15:21:32 BadgerService: startRealtimeSync: in backoff for 283s more � skipping
@@ -418,3 +418,9 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-12 06:13:41 BadgerService: Keepalive scheduled in 900s
 [I] 07-12 06:13:42 LogShipper: Shipped 417 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-12 06:28:41 BadgerService: Keepalive scheduled in 900s
+[I] 07-12 06:28:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-12 06:28:42 LogShipper: Shipped 419 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-12 06:43:39 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 07-12 06:43:39 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 07-12 06:43:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-12 06:43:41 BadgerService: Keepalive scheduled in 900s
