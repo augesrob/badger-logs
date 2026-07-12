@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-11 22:36:33 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-11 23:28:40 ===
 [I] 07-11 15:21:32 BadgerService: Keepalive scheduled in 900s
 [W] 07-11 15:21:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-11 15:21:32 BadgerService: startRealtimeSync: in backoff for 283s more � skipping
@@ -310,3 +310,28 @@
 [W] 07-11 22:36:33 BadgerService: startRealtimeSync: in backoff for 143s more � skipping
 [W] 07-11 22:36:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 07-11 22:36:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-11 22:36:34 LogShipper: Shipped 311 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-11 22:39:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #456 in 300s)
+[E] 07-11 22:39:42 BadgerService: Realtime: 456 consecutive failures � cooling down 5 min
+[W] 07-11 22:41:17 BadgerService: startRealtimeSync: in backoff for 204s more � skipping
+[W] 07-11 22:41:17 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-11 23:13:40 BadgerApp: App started v214 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-11 23:13:40 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 07-11 23:13:40 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 07-11 23:13:40 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-11 23:13:40 AuthManager: Session expired — trying HWID silent login
+[I] 07-11 23:13:40 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 07-11 23:13:40 BadgerService: Keepalive scheduled in 900s
+[I] 07-11 23:13:40 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-11 23:13:40 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-11 23:13:40 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-11 23:13:41 AuthManager: Sign in OK — augesrob role=admin
+[I] 07-11 23:13:41 AuthManager: HWID silent login OK
+[I] 07-11 23:13:41 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 07-11 23:13:41 TTS: Engine initialized OK
+[I] 07-11 23:13:41 TTS: Speaking: Badger live monitoring active
+[I] 07-11 23:13:42 BadgerService: Realtime subscribed OK -- badger-svc-f17f3749-1049-4f63-80ee-53b5e4e14c7c status=SUBSCRIBED
+[I] 07-11 23:28:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-11 23:28:40 BadgerService: Keepalive scheduled in 900s
