@@ -1,17 +1,4 @@
-=== samsung SM-S948U | v214 | shipped 2026-07-13 18:39:20 ===
-[I] 07-09 17:20:16 AppUpdater: Up to date via GitHub (current=214 latest=214)
-[I] 07-09 17:20:16 BadgerService: Realtime subscribed OK -- badger-svc-30f592e0-5191-417f-ab91-1a3b62a3d27c status=SUBSCRIBED
-[I] 07-09 17:20:17 TTS: TTS DISABLED
-[I] 07-09 17:20:25 PreShift: Truck 228 staged at door 22A front
-[I] 07-09 17:20:26 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-09 17:20:28 AppUpdater: Checking via website (current=0)
-[I] 07-09 17:20:29 AppUpdater: Update found via website: access-v214
-[I] 07-09 17:20:32 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-09 17:20:36 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-09 17:20:36 BadgerApp: App started v214 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-09 17:20:36 AuthManager: Session expired — trying HWID silent login
-[W] 07-09 17:20:36 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-09 17:20:36 AuthManager: HWID silent login for millerjo1986@gmail.com
+=== samsung SM-S948U | v214 | shipped 2026-07-13 18:54:20 ===
 [I] 07-09 17:20:37 AuthManager: Sign in OK — joemiller role=admin
 [I] 07-09 17:20:37 AuthManager: HWID silent login OK
 [I] 07-09 17:20:37 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
@@ -499,3 +486,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 18:39:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 18:39:20 BadgerService: Keepalive scheduled in 900s
 [W] 07-13 18:39:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-13 18:39:21 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 07-13 18:40:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[E] 07-13 18:40:05 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[W] 07-13 18:41:50 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-13 18:41:50 BadgerService: startRealtimeSync: in backoff for 195s more � skipping
+[E] 07-13 18:45:51 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
+[E] 07-13 18:45:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
+[E] 07-13 18:51:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #15 in 300s)
+[E] 07-13 18:51:37 BadgerService: Realtime: 15 consecutive failures � cooling down 5 min
+[I] 07-13 18:54:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 18:54:20 BadgerService: Keepalive scheduled in 900s
+[W] 07-13 18:54:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-13 18:54:20 BadgerService: startRealtimeSync: in backoff for 137s more � skipping
