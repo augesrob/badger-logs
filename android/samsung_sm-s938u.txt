@@ -1,17 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-13 10:41:31 ===
-[W] 07-11 22:12:37 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 07-11 22:12:37 BadgerService: startRealtimeSync: in backoff for 194s more � skipping
-[E] 07-11 22:16:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #452 in 300s)
-[E] 07-11 22:16:38 BadgerService: Realtime: 452 consecutive failures � cooling down 5 min
-[I] 07-11 22:21:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-11 22:21:33 BadgerService: Keepalive scheduled in 900s
-[W] 07-11 22:21:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-11 22:21:33 BadgerService: startRealtimeSync: in backoff for 5s more � skipping
-[I] 07-11 22:21:34 LogShipper: Shipped 300 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-11 22:22:24 BadgerService: Realtime: 453 consecutive failures � cooling down 5 min
-[E] 07-11 22:22:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #453 in 300s)
-[E] 07-11 22:28:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #454 in 300s)
-[E] 07-11 22:28:10 BadgerService: Realtime: 454 consecutive failures � cooling down 5 min
+=== samsung SM-S938U | v214 | shipped 2026-07-13 10:56:31 ===
 [E] 07-11 22:33:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #455 in 300s)
 [E] 07-11 22:33:56 BadgerService: Realtime: 455 consecutive failures � cooling down 5 min
 [I] 07-11 22:36:33 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +486,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 10:41:31 BadgerService: Keepalive scheduled in 900s
 [W] 07-13 10:41:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 07-13 10:41:31 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-13 10:41:31 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-13 10:41:31 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 07-13 10:41:31 TTS: Engine initialized OK
+[I] 07-13 10:41:31 TTS: Speaking: Badger live monitoring active
+[I] 07-13 10:41:32 AuthManager: Sign in OK — augesrob role=admin
+[I] 07-13 10:41:32 AuthManager: HWID silent login OK
+[I] 07-13 10:41:32 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 07-13 10:41:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-13 10:41:33 BadgerService: Realtime subscribed OK -- badger-svc-52e1fc6f-3489-4742-807c-47a0381a807a status=SUBSCRIBED
+[I] 07-13 10:56:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 10:56:31 BadgerService: Keepalive scheduled in 900s
