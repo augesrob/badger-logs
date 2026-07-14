@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v214 | shipped 2026-07-12 16:23:17 ===
+=== samsung SM-S911U | v214 | shipped 2026-07-13 22:09:26 ===
 [I] 07-11 18:53:16 BadgerService: Keepalive scheduled in 900s
 [W] 07-11 18:53:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 07-11 18:53:19 LogShipper: Shipped 294 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -349,3 +349,31 @@
 [I] 07-12 16:08:23 LogShipper: Shipped 347 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 07-12 16:23:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-12 16:23:17 BadgerService: Keepalive scheduled in 900s
+[W] 07-12 16:23:17 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-12 16:23:19 LogShipper: Shipped 350 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-13 21:54:25 BadgerApp: App started v214 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-13 21:54:25 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 07-13 21:54:25 BadgerService: FGS microphone blocked � starting without mic FGS type
+[I] 07-13 21:54:26 AuthManager: Session expired — trying HWID silent login
+[W] 07-13 21:54:26 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-13 21:54:26 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 07-13 21:54:26 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 21:54:26 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-13 21:54:26 FCM: ?? FCM Token: cZ3kVW_ZRwaBydQ06hnw...
+[E] 07-13 21:54:26 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-13 21:54:26 TTS: Engine initialized OK
+[I] 07-13 21:54:26 TTS: Speaking: Badger live monitoring active
+[W] 07-13 21:54:27 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 07-13 21:54:27 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[I] 07-13 21:54:33 AuthManager: Sign in OK — felipe role=admin
+[I] 07-13 21:54:33 AuthManager: HWID silent login OK
+[I] 07-13 21:54:33 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 07-13 21:54:36 BadgerService: Realtime subscribed OK -- badger-svc-0c744b00-1a48-4538-85be-6a9d43ee658e status=SUBSCRIBED
+[I] 07-13 21:55:29 TTS: Speaking: Truck 170-1, On Route
+[I] 07-13 21:55:29 WatchNotif: ?? PUSHING NOTIF: Truck 170-1 - 11 ? On Route (tag=watch_truck_170-1)
+[I] 07-13 21:55:29 WatchNotif: ?? Notif ID: -1201194338
+[I] 07-13 21:55:29 WatchNotif: ? Successfully sent to watch: Truck 170-1 - 11 ? On Route
+[I] 07-13 22:09:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 22:09:26 BadgerService: Keepalive scheduled in 900s
