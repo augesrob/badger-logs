@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v214 | shipped 2026-07-13 23:41:20 ===
+=== samsung SM-S948U | v214 | shipped 2026-07-13 23:56:21 ===
 [E] 07-13 20:13:37 TTS: speak() returned -1 for: Text to speech enabled — reinitializing, queued
 [I] 07-13 20:13:37 TTS: TTS ENABLED
 [I] 07-13 20:13:38 TTS: Engine initialized OK
@@ -327,3 +327,11 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [W] 07-13 23:41:20 BadgerService: startRealtimeSync: in backoff for 182s more � skipping
 [W] 07-13 23:41:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 07-13 23:41:20 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 23:41:22 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 07-13 23:45:09 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
+[E] 07-13 23:45:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
+[E] 07-13 23:50:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
+[E] 07-13 23:50:55 BadgerService: Realtime: 17 consecutive failures � cooling down 5 min
+[W] 07-13 23:56:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-13 23:56:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 23:56:20 BadgerService: Keepalive scheduled in 900s
