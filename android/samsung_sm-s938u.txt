@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-14 03:56:32 ===
+=== samsung SM-S938U | v214 | shipped 2026-07-14 04:11:32 ===
 [I] 07-14 00:43:26 PTT: Incoming PTT message received
 [I] 07-14 00:43:33 PTT: PTT recording STARTED
 [I] 07-14 00:43:36 PTT: PTT recording STOPPED
@@ -321,3 +321,10 @@
 [I] 07-14 03:41:33 LogShipper: Shipped 319 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-14 03:56:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-14 03:56:32 BadgerService: Keepalive scheduled in 900s
+[I] 07-14 03:56:33 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-14 04:09:29 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-14 04:10:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-14 04:11:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[I] 07-14 04:11:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-14 04:11:32 BadgerService: Keepalive scheduled in 900s
+[W] 07-14 04:11:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
