@@ -1,28 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-14 02:26:32 ===
-[I] 07-13 20:26:17 WatchNotif: ?? PUSHING NOTIF: Truck 170-1 - In Door ? 11 (tag=watch_truck_170-1)
-[I] 07-13 20:26:17 WatchNotif: ?? Notif ID: -1201194338
-[I] 07-13 20:26:17 WatchNotif: ? Successfully sent to watch: Truck 170-1 - In Door ? 11
-[I] 07-13 20:26:21 Movement: Truck 186-2 status → In Door
-[I] 07-13 20:26:21 BadgerRepo: updateMovementStatus OK — truck=186-2 statusId=1
-[I] 07-13 20:26:21 TTS: Speaking: Truck 186-2, In Door
-[I] 07-13 20:26:21 WatchNotif: ?? PUSHING NOTIF: Truck 186-2 - In Front ? In Door (tag=watch_truck_186-2)
-[I] 07-13 20:26:21 WatchNotif: ?? Notif ID: -1201158780
-[I] 07-13 20:26:21 WatchNotif: ? Successfully sent to watch: Truck 186-2 - In Front ? In Door
-[I] 07-13 20:26:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-13 20:26:32 BadgerService: Keepalive scheduled in 900s
-[I] 07-13 20:26:33 LogShipper: Shipped 379 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-13 20:39:21 AppUpdater: Checking via website (current=214)
-[I] 07-13 20:39:21 AppUpdater: Up to date via website (current=214 latest=214)
-[I] 07-13 20:39:21 AppUpdater: Checking via GitHub direct (current=214)
-[I] 07-13 20:39:22 AppUpdater: Up to date via GitHub (current=214 latest=214)
-[I] 07-13 20:40:09 Movement: Truck 148 status → In Front
-[I] 07-13 20:40:09 BadgerRepo: updateMovementStatus OK — truck=148 statusId=4
-[I] 07-13 20:40:09 TTS: Speaking: Truck 148, In Front
-[I] 07-13 20:40:09 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Back ? In Front (tag=watch_truck_148)
-[I] 07-13 20:40:09 WatchNotif: ?? Notif ID: -658232539
-[I] 07-13 20:40:09 WatchNotif: ? Successfully sent to watch: Truck 148 - In Back ? In Front
-[I] 07-13 20:40:14 Movement: Truck 148 status → Trailer Area
-[I] 07-13 20:40:14 BadgerRepo: updateMovementStatus OK — truck=148 statusId=8
+=== samsung SM-S938U | v214 | shipped 2026-07-14 02:41:32 ===
 [I] 07-13 20:40:14 TTS: Speaking: Truck 148, Trailer Area
 [I] 07-13 20:40:14 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Front ? Trailer Area (tag=watch_truck_148)
 [I] 07-13 20:40:14 WatchNotif: ?? Notif ID: -658232539
@@ -499,3 +475,27 @@
 [I] 07-14 02:26:14 WatchNotif: ? Successfully sent to watch: Door 15B - Change Truck/Trailer ? Done for Night
 [I] 07-14 02:26:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-14 02:26:32 BadgerService: Keepalive scheduled in 900s
+[I] 07-14 02:26:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-14 02:29:11 TTS: Speaking: Truck 244, Put Away
+[I] 07-14 02:29:11 WatchNotif: ?? PUSHING NOTIF: Truck 244 - Yard ? Put Away (tag=watch_truck_244)
+[I] 07-14 02:29:11 WatchNotif: ?? Notif ID: -658231582
+[I] 07-14 02:29:11 WatchNotif: ? Successfully sent to watch: Truck 244 - Yard ? Put Away
+[I] 07-14 02:29:18 TTS: Speaking: Truck 160, Put Away
+[I] 07-14 02:29:18 WatchNotif: ?? PUSHING NOTIF: Truck 160 - Yard ? Put Away (tag=watch_truck_160)
+[I] 07-14 02:29:18 WatchNotif: ?? Notif ID: -658232485
+[I] 07-14 02:29:18 WatchNotif: ? Successfully sent to watch: Truck 160 - Yard ? Put Away
+[I] 07-14 02:31:49 TTS: Speaking: Truck 194, Yard
+[I] 07-14 02:31:49 WatchNotif: ?? PUSHING NOTIF: Truck 194 - In Door ? Yard (tag=watch_truck_194)
+[I] 07-14 02:31:49 WatchNotif: ?? Notif ID: -658232388
+[I] 07-14 02:31:49 WatchNotif: ? Successfully sent to watch: Truck 194 - In Door ? Yard
+[W] 07-14 02:32:02 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-14 02:32:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-14 02:33:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-14 02:34:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-14 02:36:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 07-14 02:38:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 07-14 02:40:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[I] 07-14 02:41:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-14 02:41:32 BadgerService: Keepalive scheduled in 900s
+[W] 07-14 02:41:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-14 02:41:32 BadgerService: startRealtimeSync: in backoff for 16s more � skipping
