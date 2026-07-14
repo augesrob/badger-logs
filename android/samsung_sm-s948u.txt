@@ -1,17 +1,4 @@
-=== samsung SM-S948U | v214 | shipped 2026-07-13 22:56:20 ===
-[I] 07-13 17:10:30 PreShift: Truck 158 staged at door 26A back
-[I] 07-13 17:10:31 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:10:32 PreShift: Truck 213 staged at door 26A front
-[I] 07-13 17:10:33 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:10:36 PreShift: Truck 244 staged at door 25B back
-[I] 07-13 17:10:37 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:10:45 PreShift: Truck 243 staged at door 25B front
-[I] 07-13 17:10:46 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:10:48 PreShift: Truck 160 staged at door 25A back
-[I] 07-13 17:10:49 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:10:51 PreShift: Truck 245 staged at door 24B back
-[I] 07-13 17:10:54 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:10:54 PreShift: Truck 199 staged at door 24A back
+=== samsung SM-S948U | v214 | shipped 2026-07-13 23:11:20 ===
 [I] 07-13 17:10:55 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
 [I] 07-13 17:10:59 PreShift: Truck 159 staged at door 25A front
 [I] 07-13 17:11:00 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
@@ -499,3 +486,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 22:53:17 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? Move to Receiving
 [I] 07-13 22:56:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 22:56:20 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 22:56:25 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 07-13 22:56:38 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-13 22:57:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-13 22:58:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-13 22:59:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-13 23:00:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 07-13 23:03:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 07-13 23:05:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 07-13 23:07:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 07-13 23:09:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[I] 07-13 23:11:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 23:11:20 BadgerService: Keepalive scheduled in 900s
+[W] 07-13 23:11:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
