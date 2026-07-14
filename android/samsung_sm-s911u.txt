@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v214 | shipped 2026-07-13 22:54:26 ===
+=== samsung SM-S911U | v214 | shipped 2026-07-13 23:09:26 ===
 [I] 07-11 18:53:16 BadgerService: Keepalive scheduled in 900s
 [W] 07-11 18:53:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 07-11 18:53:19 LogShipper: Shipped 294 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -450,3 +450,20 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 22:53:17 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? Move to Receiving
 [I] 07-13 22:54:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 22:54:26 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 22:54:27 LogShipper: Shipped 451 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 07-13 22:56:20 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-13 22:56:30 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 07-13 22:56:30 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-13 22:56:51 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[E] 07-13 22:56:51 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 07-13 22:57:14 BadgerService: Realtime subscribed OK -- badger-svc-a3971dbf-9e7b-434b-a13a-df52d446f9a4 status=SUBSCRIBED
+[I] 07-13 22:57:24 TTS: Speaking: Truck 148, In Door
+[I] 07-13 22:57:24 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Trailer Area ? In Door (tag=watch_truck_148)
+[I] 07-13 22:57:24 WatchNotif: ?? Notif ID: -658232539
+[I] 07-13 22:57:24 WatchNotif: ? Successfully sent to watch: Truck 148 - Trailer Area ? In Door
+[I] 07-13 22:59:38 TTS: Speaking: Truck 195, In Front
+[I] 07-13 22:59:38 WatchNotif: ?? PUSHING NOTIF: Truck 195 - In Back ? In Front (tag=watch_truck_195)
+[I] 07-13 22:59:38 WatchNotif: ?? Notif ID: -658232387
+[I] 07-13 22:59:38 WatchNotif: ? Successfully sent to watch: Truck 195 - In Back ? In Front
+[I] 07-13 23:09:26 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 23:09:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
