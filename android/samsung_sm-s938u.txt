@@ -1,28 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-14 03:11:32 ===
-[I] 07-13 20:56:33 LogShipper: Shipped 417 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-13 21:11:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-13 21:11:32 BadgerService: Keepalive scheduled in 900s
-[I] 07-13 21:11:33 LogShipper: Shipped 420 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-13 21:19:51 TTS: Speaking: Door 14B, Change Truck/Trailer
-[I] 07-13 21:19:51 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? Change Truck/Trailer (tag=watch_door_14B)
-[I] 07-13 21:19:51 WatchNotif: ?? Notif ID: -108072994
-[I] 07-13 21:19:51 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? Change Truck/Trailer
-[I] 07-13 21:22:00 TTS: Speaking: Truck 187-2, In Door
-[I] 07-13 21:22:00 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
-[I] 07-13 21:22:00 WatchNotif: ?? Notif ID: -1201157819
-[I] 07-13 21:22:00 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Front ? In Door
-[I] 07-13 21:23:28 AppUpdater: Checking via website (current=214)
-[I] 07-13 21:23:29 AppUpdater: Up to date via website (current=214 latest=214)
-[I] 07-13 21:23:29 AppUpdater: Checking via GitHub direct (current=214)
-[I] 07-13 21:23:29 AppUpdater: Up to date via GitHub (current=214 latest=214)
-[I] 07-13 21:23:36 Movement: Truck 188-1 status → On Route
-[I] 07-13 21:23:36 BadgerRepo: updateMovementStatus OK — truck=188-1 statusId=3
-[I] 07-13 21:23:36 TTS: Speaking: Truck 188-1, On Route
-[I] 07-13 21:23:36 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - In Door ? On Route (tag=watch_truck_188-1)
-[I] 07-13 21:23:36 WatchNotif: ?? Notif ID: -1201156859
-[I] 07-13 21:23:36 WatchNotif: ? Successfully sent to watch: Truck 188-1 - In Door ? On Route
-[I] 07-13 21:23:38 Movement: Door 14B status → Loading
-[I] 07-13 21:23:38 BadgerRepo: updateDoorStatus OK — id=4 status=Loading
+=== samsung SM-S938U | v214 | shipped 2026-07-14 03:26:32 ===
 [I] 07-13 21:23:38 TTS: Speaking: Door 14B, Loading
 [I] 07-13 21:23:38 WatchNotif: ?? PUSHING NOTIF: Door 14B - Change Truck/Trailer ? Loading (tag=watch_door_14B)
 [I] 07-13 21:23:38 WatchNotif: ?? Notif ID: -108072994
@@ -499,3 +475,27 @@
 [I] 07-14 03:11:32 BadgerService: Keepalive scheduled in 900s
 [W] 07-14 03:11:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-14 03:11:32 BadgerService: startRealtimeSync: in backoff for 137s more � skipping
+[I] 07-14 03:11:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-14 03:13:51 BadgerService: Realtime subscribed OK -- badger-svc-27ee921e-04a8-4f64-a900-c28c1e61f483 status=SUBSCRIBED
+[I] 07-14 03:14:13 AppUpdater: Checking via website (current=214)
+[I] 07-14 03:14:14 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-14 03:14:14 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-14 03:14:14 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-14 03:17:17 TTS: Speaking: Truck 216, 10
+[I] 07-14 03:17:17 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Door ? 10 (tag=watch_truck_216)
+[I] 07-14 03:17:17 WatchNotif: ?? Notif ID: -658231673
+[I] 07-14 03:17:17 WatchNotif: ? Successfully sent to watch: Truck 216 - In Door ? 10
+[I] 07-14 03:20:32 TTS: Speaking: Truck 187-2, On Route
+[I] 07-14 03:20:32 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - 11 ? On Route (tag=watch_truck_187-2)
+[I] 07-14 03:20:32 WatchNotif: ?? Notif ID: -1201157819
+[I] 07-14 03:20:32 WatchNotif: ? Successfully sent to watch: Truck 187-2 - 11 ? On Route
+[I] 07-14 03:20:37 TTS: Speaking: Truck 245, Put Away
+[I] 07-14 03:20:37 WatchNotif: ?? PUSHING NOTIF: Truck 245 - 11 ? Put Away (tag=watch_truck_245)
+[I] 07-14 03:20:37 WatchNotif: ?? Notif ID: -658231581
+[I] 07-14 03:20:37 WatchNotif: ? Successfully sent to watch: Truck 245 - 11 ? Put Away
+[I] 07-14 03:20:53 AppUpdater: Checking via website (current=214)
+[I] 07-14 03:20:54 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-14 03:20:54 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-14 03:20:54 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-14 03:26:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-14 03:26:32 BadgerService: Keepalive scheduled in 900s
