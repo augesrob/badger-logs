@@ -1,4 +1,4 @@
-=== samsung SM-N975U | v214 | shipped 2026-07-13 20:33:53 ===
+=== samsung SM-N975U | v214 | shipped 2026-07-13 21:33:53 ===
 [I] 07-13 04:48:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 04:48:51 BadgerService: Keepalive scheduled in 900s
 [I] 07-13 04:48:54 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
@@ -390,3 +390,53 @@
 [I] 07-13 20:26:21 WatchNotif: ? Successfully sent to watch: Truck 186-2 - In Front ? In Door
 [I] 07-13 20:33:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 20:33:53 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 20:33:54 LogShipper: Shipped 391 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-13 20:40:09 TTS: Speaking: Truck 148, In Front
+[I] 07-13 20:40:09 WatchNotif: ?? Notif ID: -658232539
+[I] 07-13 20:40:09 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Back ? In Front (tag=watch_truck_148)
+[I] 07-13 20:40:09 WatchNotif: ? Successfully sent to watch: Truck 148 - In Back ? In Front
+[I] 07-13 20:40:14 TTS: Speaking: Truck 148, Trailer Area
+[I] 07-13 20:40:14 WatchNotif: ?? Notif ID: -658232539
+[I] 07-13 20:40:14 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Front ? Trailer Area (tag=watch_truck_148)
+[I] 07-13 20:40:14 WatchNotif: ? Successfully sent to watch: Truck 148 - In Front ? Trailer Area
+[I] 07-13 20:41:20 TTS: Speaking: Truck 246, In Front
+[I] 07-13 20:41:20 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
+[I] 07-13 20:41:20 WatchNotif: ?? Notif ID: -658231580
+[I] 07-13 20:41:20 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
+[I] 07-13 20:42:13 TTS: Speaking: Truck 175, In Front
+[I] 07-13 20:42:13 WatchNotif: ?? Notif ID: -658232449
+[I] 07-13 20:42:13 WatchNotif: ?? PUSHING NOTIF: Truck 175 - In Back ? In Front (tag=watch_truck_175)
+[I] 07-13 20:42:13 WatchNotif: ? Successfully sent to watch: Truck 175 - In Back ? In Front
+[I] 07-13 20:48:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 20:48:53 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 21:03:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 21:03:53 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 21:18:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 21:18:53 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 21:19:51 TTS: Speaking: Door 14B, Change Truck/Trailer
+[I] 07-13 21:19:51 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? Change Truck/Trailer (tag=watch_door_14B)
+[I] 07-13 21:19:51 WatchNotif: ?? Notif ID: -108072994
+[I] 07-13 21:19:51 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? Change Truck/Trailer
+[I] 07-13 21:22:00 TTS: Speaking: Truck 187-2, In Door
+[I] 07-13 21:22:00 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
+[I] 07-13 21:22:00 WatchNotif: ?? Notif ID: -1201157819
+[I] 07-13 21:22:00 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Front ? In Door
+[I] 07-13 21:23:36 TTS: Speaking: Truck 188-1, On Route
+[I] 07-13 21:23:36 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - In Door ? On Route (tag=watch_truck_188-1)
+[I] 07-13 21:23:36 WatchNotif: ?? Notif ID: -1201156859
+[I] 07-13 21:23:36 WatchNotif: ? Successfully sent to watch: Truck 188-1 - In Door ? On Route
+[I] 07-13 21:23:38 TTS: Speaking: Door 14B, Loading
+[I] 07-13 21:23:38 WatchNotif: ?? PUSHING NOTIF: Door 14B - Change Truck/Trailer ? Loading (tag=watch_door_14B)
+[I] 07-13 21:23:38 WatchNotif: ?? Notif ID: -108072994
+[I] 07-13 21:23:38 WatchNotif: ? Successfully sent to watch: Door 14B - Change Truck/Trailer ? Loading
+[W] 07-13 21:26:44 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-13 21:26:44 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 07-13 21:29:44 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-13 21:29:58 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 07-13 21:29:58 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 07-13 21:31:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-13 21:33:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #3 in 40s)
+[I] 07-13 21:33:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 21:33:53 BadgerService: Keepalive scheduled in 900s
+[W] 07-13 21:33:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-13 21:33:53 BadgerService: startRealtimeSync: in backoff for 14s more � skipping
