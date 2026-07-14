@@ -1,35 +1,4 @@
-=== samsung SM-N975U | v214 | shipped 2026-07-14 02:33:53 ===
-[I] 07-13 21:19:51 WatchNotif: ?? Notif ID: -108072994
-[I] 07-13 21:19:51 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? Change Truck/Trailer
-[I] 07-13 21:22:00 TTS: Speaking: Truck 187-2, In Door
-[I] 07-13 21:22:00 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
-[I] 07-13 21:22:00 WatchNotif: ?? Notif ID: -1201157819
-[I] 07-13 21:22:00 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Front ? In Door
-[I] 07-13 21:23:36 TTS: Speaking: Truck 188-1, On Route
-[I] 07-13 21:23:36 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - In Door ? On Route (tag=watch_truck_188-1)
-[I] 07-13 21:23:36 WatchNotif: ?? Notif ID: -1201156859
-[I] 07-13 21:23:36 WatchNotif: ? Successfully sent to watch: Truck 188-1 - In Door ? On Route
-[I] 07-13 21:23:38 TTS: Speaking: Door 14B, Loading
-[I] 07-13 21:23:38 WatchNotif: ?? PUSHING NOTIF: Door 14B - Change Truck/Trailer ? Loading (tag=watch_door_14B)
-[I] 07-13 21:23:38 WatchNotif: ?? Notif ID: -108072994
-[I] 07-13 21:23:38 WatchNotif: ? Successfully sent to watch: Door 14B - Change Truck/Trailer ? Loading
-[W] 07-13 21:26:44 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-13 21:26:44 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 07-13 21:29:44 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 07-13 21:29:58 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
-[E] 07-13 21:29:58 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 07-13 21:31:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
-[E] 07-13 21:33:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #3 in 40s)
-[I] 07-13 21:33:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-13 21:33:53 BadgerService: Keepalive scheduled in 900s
-[W] 07-13 21:33:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-13 21:33:53 BadgerService: startRealtimeSync: in backoff for 14s more � skipping
-[I] 07-13 21:33:55 LogShipper: Shipped 441 log lines to badger-logs/android/samsung_sm-n975u.txt
-[I] 07-13 21:34:10 BadgerService: Realtime subscribed OK -- badger-svc-5bbb235f-92b9-4bdc-9f4a-e320907e4f75 status=SUBSCRIBED
-[I] 07-13 21:38:30 TTS: Speaking: Door 13B, Move to Receiving
-[I] 07-13 21:38:30 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? Move to Receiving (tag=watch_door_13B)
-[I] 07-13 21:38:30 WatchNotif: ?? Notif ID: -108073025
-[I] 07-13 21:38:30 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Move to Receiving
+=== samsung SM-N975U | v214 | shipped 2026-07-14 02:48:53 ===
 [I] 07-13 21:39:58 TTS: Speaking: Truck 187-1, On Route
 [I] 07-13 21:39:58 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - 9 ? On Route (tag=watch_truck_187-1)
 [I] 07-13 21:39:58 WatchNotif: ?? Notif ID: -1201157820
@@ -499,3 +468,34 @@
 [I] 07-14 02:31:49 WatchNotif: ? Successfully sent to watch: Truck 194 - In Door ? Yard
 [I] 07-14 02:33:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-14 02:33:53 BadgerService: Keepalive scheduled in 900s
+[I] 07-14 02:33:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-n975u.txt
+[I] 07-14 02:38:08 TTS: Speaking: Truck 242, In Door
+[I] 07-14 02:38:08 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Front ? In Door (tag=watch_truck_242)
+[I] 07-14 02:38:08 WatchNotif: ?? Notif ID: -658231584
+[I] 07-14 02:38:08 WatchNotif: ? Successfully sent to watch: Truck 242 - In Front ? In Door
+[I] 07-14 02:38:12 TTS: Speaking: Door 13A, Done for Night
+[I] 07-14 02:38:12 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? Done for Night (tag=watch_door_13A)
+[I] 07-14 02:38:12 WatchNotif: ?? Notif ID: -108073026
+[I] 07-14 02:38:12 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? Done for Night
+[I] 07-14 02:38:21 TTS: Speaking: Truck 199, Yard
+[I] 07-14 02:38:21 WatchNotif: ?? PUSHING NOTIF: Truck 199 - In Door ? Yard (tag=watch_truck_199)
+[I] 07-14 02:38:21 WatchNotif: ?? Notif ID: -658232383
+[I] 07-14 02:38:21 WatchNotif: ? Successfully sent to watch: Truck 199 - In Door ? Yard
+[I] 07-14 02:38:29 TTS: Speaking: Truck 230, In Door
+[I] 07-14 02:38:29 WatchNotif: ?? PUSHING NOTIF: Truck 230 - In Front ? In Door (tag=watch_truck_230)
+[I] 07-14 02:38:29 WatchNotif: ?? Notif ID: -658231617
+[I] 07-14 02:38:29 WatchNotif: ? Successfully sent to watch: Truck 230 - In Front ? In Door
+[I] 07-14 02:38:31 TTS: Speaking: Door 13B, Done for Night
+[I] 07-14 02:38:31 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? Done for Night (tag=watch_door_13B)
+[I] 07-14 02:38:31 WatchNotif: ?? Notif ID: -108073025
+[I] 07-14 02:38:31 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Done for Night
+[I] 07-14 02:42:49 TTS: Speaking: Truck 194, Put Away
+[I] 07-14 02:42:49 WatchNotif: ?? PUSHING NOTIF: Truck 194 - Yard ? Put Away (tag=watch_truck_194)
+[I] 07-14 02:42:49 WatchNotif: ?? Notif ID: -658232388
+[I] 07-14 02:42:49 WatchNotif: ? Successfully sent to watch: Truck 194 - Yard ? Put Away
+[I] 07-14 02:45:57 TTS: Speaking: Truck 199, Put Away
+[I] 07-14 02:45:57 WatchNotif: ?? PUSHING NOTIF: Truck 199 - Yard ? Put Away (tag=watch_truck_199)
+[I] 07-14 02:45:57 WatchNotif: ?? Notif ID: -658232383
+[I] 07-14 02:45:57 WatchNotif: ? Successfully sent to watch: Truck 199 - Yard ? Put Away
+[I] 07-14 02:48:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-14 02:48:53 BadgerService: Keepalive scheduled in 900s
