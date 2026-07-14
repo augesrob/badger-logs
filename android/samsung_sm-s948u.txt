@@ -1,21 +1,4 @@
-=== samsung SM-S948U | v214 | shipped 2026-07-13 19:09:20 ===
-[I] 07-10 10:32:48 BadgerApp: App started v214 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-10 10:32:48 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 07-10 10:32:48 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-10 10:32:48 AuthManager: Session expired — trying HWID silent login
-[I] 07-10 10:32:48 AuthManager: HWID silent login for millerjo1986@gmail.com
-[E] 07-10 10:32:48 AuthManager: Sign in failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/auth/v1/token?grant_type=password (POST) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[I] 07-12 03:51:25 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-12 03:51:25 BadgerApp: App started v214 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 07-12 03:51:26 BadgerService: FGS microphone blocked � starting without mic FGS type
-[I] 07-12 03:51:26 AuthManager: Session expired — trying HWID silent login
-[W] 07-12 03:51:26 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-12 03:51:26 BadgerService: Keepalive scheduled in 900s
-[W] 07-12 03:51:26 AuthManager: Failed to decrypt password: null
-[I] 07-12 03:51:26 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-12 03:51:26 TTS: Engine initialized OK
-[I] 07-12 03:51:26 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[I] 07-12 03:51:26 TTS: Speaking: Badger live monitoring active
+=== samsung SM-S948U | v214 | shipped 2026-07-13 19:24:20 ===
 [E] 07-12 03:51:26 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
 Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
 
@@ -499,3 +482,20 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 19:09:20 BadgerService: Keepalive scheduled in 900s
 [W] 07-13 19:09:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-13 19:09:20 BadgerService: startRealtimeSync: in backoff for 275s more � skipping
+[I] 07-13 19:09:21 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 07-13 19:14:41 BadgerService: Realtime: 19 consecutive failures � cooling down 5 min
+[E] 07-13 19:14:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #19 in 300s)
+[W] 07-13 19:16:10 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-13 19:16:10 BadgerService: startRealtimeSync: in backoff for 211s more � skipping
+[W] 07-13 19:17:39 BadgerService: startRealtimeSync: in backoff for 122s more � skipping
+[W] 07-13 19:17:39 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 07-13 19:20:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #20 in 300s)
+[E] 07-13 19:20:27 BadgerService: Realtime: 20 consecutive failures � cooling down 5 min
+[I] 07-13 19:21:25 AppUpdater: Checking via website (current=214)
+[I] 07-13 19:21:26 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 19:21:26 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 19:21:27 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 19:24:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 07-13 19:24:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-13 19:24:20 BadgerService: startRealtimeSync: in backoff for 67s more � skipping
+[I] 07-13 19:24:20 BadgerService: Keepalive scheduled in 900s
