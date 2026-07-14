@@ -1,47 +1,4 @@
-=== samsung SM-S948U | v214 | shipped 2026-07-13 22:26:20 ===
-[W] 07-13 01:01:54 BadgerService: FGS microphone blocked � starting without mic FGS type
-[W] 07-13 01:01:54 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-13 01:01:54 AuthManager: Session expired — trying HWID silent login
-[I] 07-13 01:01:54 BadgerService: Keepalive scheduled in 900s
-[I] 07-13 01:01:54 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-13 01:01:54 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[W] 07-13 01:01:54 AuthManager: Failed to decrypt password: null
-[E] 07-13 01:01:54 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-13 01:01:54 TTS: Engine initialized OK
-[I] 07-13 01:01:55 TTS: Speaking: Badger live monitoring active
-[I] 07-13 01:01:56 BadgerService: Realtime subscribed OK -- badger-svc-95a0ac0f-00de-4131-9da8-73d051fe8388 status=SUBSCRIBED
-[I] 07-13 01:08:09 AppUpdater: Checking via website (current=214)
-[I] 07-13 01:08:10 AppUpdater: Up to date via website (current=214 latest=214)
-[I] 07-13 01:08:10 AppUpdater: Checking via GitHub direct (current=214)
-[I] 07-13 01:08:11 AuthManager: Session expired — trying HWID silent login
-[W] 07-13 01:08:11 AuthManager: JWT refresh failed: No refresh token found in current session
-[W] 07-13 01:08:11 AuthManager: Failed to decrypt password: null
-[W] 07-13 01:08:11 AuthManager: Failed to decrypt password: null
-[I] 07-13 01:08:11 AppUpdater: Up to date via GitHub (current=214 latest=214)
-[I] 07-13 01:08:17 AuthManager: Session expired — trying HWID silent login
-[W] 07-13 01:08:17 AuthManager: JWT refresh failed: No refresh token found in current session
-[W] 07-13 01:08:17 AuthManager: Failed to decrypt password: null
-[W] 07-13 01:08:17 AuthManager: Failed to decrypt password: null
-[I] 07-13 01:08:37 AuthManager: Sign in OK — joemiller role=admin
-[I] 07-13 01:08:37 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
-[I] 07-13 01:08:37 AuthManager: Password encrypted and saved for biometric
-[I] 07-13 01:08:40 AppUpdater: Checking via website (current=0)
-[I] 07-13 01:08:40 AppUpdater: Update found via website: access-v214
-[I] 07-13 01:08:48 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-13 17:09:19 BadgerApp: App started v214 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-13 17:09:19 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-13 17:09:19 MainActivity: BadgerService started (mic=true)
-[W] 07-13 17:09:19 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-13 17:09:19 AuthManager: Session expired — trying HWID silent login
-[I] 07-13 17:09:19 AppUpdater: Checking via website (current=214)
-[I] 07-13 17:09:19 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-13 17:09:20 BadgerService: Keepalive scheduled in 900s
-[I] 07-13 17:09:20 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-13 17:09:20 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-13 17:09:20 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+=== samsung SM-S948U | v214 | shipped 2026-07-13 22:41:20 ===
 
 [I] 07-13 17:09:20 TTS: Engine initialized OK
 [I] 07-13 17:09:20 TTS: Speaking: Badger live monitoring active
@@ -499,3 +456,46 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 22:21:01 WatchNotif: ? Successfully sent to watch: Truck 186-1 - 8 ? On Route
 [I] 07-13 22:26:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 22:26:20 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 22:26:22 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 07-13 22:31:19 TTS: Speaking: Truck 186-2, Missing
+[I] 07-13 22:31:19 WatchNotif: ?? PUSHING NOTIF: Truck 186-2 - In Door ? Missing (tag=watch_truck_186-2)
+[I] 07-13 22:31:19 WatchNotif: ?? Notif ID: -1201158780
+[I] 07-13 22:31:19 WatchNotif: ? Successfully sent to watch: Truck 186-2 - In Door ? Missing
+[I] 07-13 22:31:21 TTS: Speaking: Truck 186-2, 8
+[I] 07-13 22:31:21 WatchNotif: ?? PUSHING NOTIF: Truck 186-2 - Missing ? 8 (tag=watch_truck_186-2)
+[I] 07-13 22:31:21 WatchNotif: ?? Notif ID: -1201158780
+[I] 07-13 22:31:21 WatchNotif: ? Successfully sent to watch: Truck 186-2 - Missing ? 8
+[I] 07-13 22:32:55 AppUpdater: Checking via website (current=214)
+[I] 07-13 22:32:57 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 22:32:57 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 22:32:58 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 22:34:57 TTS: Speaking: Truck 224-2, In Door
+[I] 07-13 22:34:57 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - Trailer Area ? In Door (tag=watch_truck_224-2)
+[I] 07-13 22:34:57 WatchNotif: ?? Notif ID: -1200415927
+[I] 07-13 22:34:57 WatchNotif: ? Successfully sent to watch: Truck 224-2 - Trailer Area ? In Door
+[I] 07-13 22:35:51 TTS: Speaking: Truck 175, Yard
+[I] 07-13 22:35:51 WatchNotif: ?? PUSHING NOTIF: Truck 175 - In Door ? Yard (tag=watch_truck_175)
+[I] 07-13 22:35:51 WatchNotif: ?? Notif ID: -658232449
+[I] 07-13 22:35:51 WatchNotif: ? Successfully sent to watch: Truck 175 - In Door ? Yard
+[I] 07-13 22:36:47 TTS: Speaking: Truck 246, In Door
+[I] 07-13 22:36:47 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Front ? In Door (tag=watch_truck_246)
+[I] 07-13 22:36:47 WatchNotif: ?? Notif ID: -658231580
+[I] 07-13 22:36:47 WatchNotif: ? Successfully sent to watch: Truck 246 - In Front ? In Door
+[I] 07-13 22:38:21 TTS: Speaking: Truck 175, Put Away
+[I] 07-13 22:38:21 WatchNotif: ?? PUSHING NOTIF: Truck 175 - Yard ? Put Away (tag=watch_truck_175)
+[I] 07-13 22:38:21 WatchNotif: ?? Notif ID: -658232449
+[I] 07-13 22:38:21 WatchNotif: ? Successfully sent to watch: Truck 175 - Yard ? Put Away
+[I] 07-13 22:39:34 TTS: Speaking: Truck 194, In Front
+[I] 07-13 22:39:34 WatchNotif: ?? PUSHING NOTIF: Truck 194 - Ready ? In Front (tag=watch_truck_194)
+[I] 07-13 22:39:34 WatchNotif: ?? Notif ID: -658232388
+[I] 07-13 22:39:34 WatchNotif: ? Successfully sent to watch: Truck 194 - Ready ? In Front
+[I] 07-13 22:39:38 AppUpdater: Checking via website (current=214)
+[I] 07-13 22:39:44 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 22:39:44 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 22:39:47 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 22:41:19 TTS: Speaking: Door 14A, Change Truck/Trailer
+[I] 07-13 22:41:19 WatchNotif: ?? PUSHING NOTIF: Door 14A - Loading ? Change Truck/Trailer (tag=watch_door_14A)
+[I] 07-13 22:41:19 WatchNotif: ?? Notif ID: -108072995
+[I] 07-13 22:41:19 WatchNotif: ? Successfully sent to watch: Door 14A - Loading ? Change Truck/Trailer
+[I] 07-13 22:41:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 22:41:20 BadgerService: Keepalive scheduled in 900s
