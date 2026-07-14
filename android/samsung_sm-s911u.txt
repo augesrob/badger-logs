@@ -1,14 +1,4 @@
-=== samsung SM-S911U | v214 | shipped 2026-07-14 05:09:26 ===
-[I] 07-13 22:34:57 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - Trailer Area ? In Door (tag=watch_truck_224-2)
-[I] 07-13 22:34:57 WatchNotif: ?? Notif ID: -1200415927
-[I] 07-13 22:34:57 WatchNotif: ? Successfully sent to watch: Truck 224-2 - Trailer Area ? In Door
-[I] 07-13 22:35:52 TTS: Speaking: Truck 175, Yard
-[I] 07-13 22:35:52 WatchNotif: ?? PUSHING NOTIF: Truck 175 - In Door ? Yard (tag=watch_truck_175)
-[I] 07-13 22:35:52 WatchNotif: ?? Notif ID: -658232449
-[I] 07-13 22:35:52 WatchNotif: ? Successfully sent to watch: Truck 175 - In Door ? Yard
-[I] 07-13 22:36:47 TTS: Speaking: Truck 246, In Door
-[I] 07-13 22:36:47 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Front ? In Door (tag=watch_truck_246)
-[I] 07-13 22:36:47 WatchNotif: ?? Notif ID: -658231580
+=== samsung SM-S911U | v214 | shipped 2026-07-14 05:21:52 ===
 [I] 07-13 22:36:47 WatchNotif: ? Successfully sent to watch: Truck 246 - In Front ? In Door
 [I] 07-13 22:38:21 TTS: Speaking: Truck 175, Put Away
 [I] 07-13 22:38:21 WatchNotif: ?? PUSHING NOTIF: Truck 175 - Yard ? Put Away (tag=watch_truck_175)
@@ -499,3 +489,13 @@
 [I] 07-14 04:54:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 07-14 05:09:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-14 05:09:26 BadgerService: Keepalive scheduled in 900s
+[I] 07-14 05:09:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 07-14 05:20:39 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-14 05:20:39 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
+[E] 07-14 05:20:50 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-14 05:20:50 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 07-14 05:21:04 BadgerService: Realtime subscribed OK -- badger-svc-12af27e1-8ce3-42bc-9ffc-c4ee57ebf05f status=SUBSCRIBED
+[W] 07-14 05:21:47 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-14 05:21:47 BadgerService: Keepalive scheduled in 2s
+[I] 07-14 05:21:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-14 05:21:52 BadgerService: Keepalive scheduled in 900s
