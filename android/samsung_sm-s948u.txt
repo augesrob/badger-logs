@@ -1,11 +1,4 @@
-=== samsung SM-S948U | v214 | shipped 2026-07-13 23:11:20 ===
-[I] 07-13 17:10:55 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:10:59 PreShift: Truck 159 staged at door 25A front
-[I] 07-13 17:11:00 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:11:01 PreShift: Truck 212 staged at door 23B back
-[I] 07-13 17:11:02 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
-[I] 07-13 17:11:07 PreShift: Truck 238 staged at door 24B front
-[I] 07-13 17:11:08 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
+=== samsung SM-S948U | v214 | shipped 2026-07-13 23:26:20 ===
 [I] 07-13 17:11:15 PreShift: Truck 194 staged at door 24A front
 [I] 07-13 17:11:15 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
 [I] 07-13 17:11:17 PreShift: Truck 211 staged at door 23A back
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 23:11:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 23:11:20 BadgerService: Keepalive scheduled in 900s
 [W] 07-13 23:11:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-13 23:11:22 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 07-13 23:12:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 07-13 23:14:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 07-13 23:16:19 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 07-13 23:16:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[E] 07-13 23:22:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
+[E] 07-13 23:22:05 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
