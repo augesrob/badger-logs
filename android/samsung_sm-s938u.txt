@@ -1,79 +1,4 @@
-=== samsung SM-S938U | v214 | shipped 2026-07-13 19:56:32 ===
-[I] 07-12 19:11:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 19:11:32 LogShipper: Shipped 311 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 19:26:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 19:26:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 19:26:32 LogShipper: Shipped 314 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 19:41:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 19:41:30 BadgerService: Keepalive scheduled in 900s
-[W] 07-12 19:41:39 LogShipper: Ship failed HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/conten
-[W] 07-12 19:46:49 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 07-12 19:46:49 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 2
-[E] 07-12 19:47:00 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-12 19:47:00 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 07-12 19:47:17 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
-[E] 07-12 19:47:17 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[I] 07-12 19:47:38 BadgerService: Realtime subscribed OK -- badger-svc-4ffdd340-4a7f-4121-8836-ae6d981872bd status=SUBSCRIBED
-[I] 07-12 19:56:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 19:56:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 19:56:32 LogShipper: Shipped 327 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 20:11:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 20:11:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 20:11:31 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 20:26:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 20:26:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 20:26:32 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 20:41:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 20:41:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 20:41:32 LogShipper: Shipped 334 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 20:56:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 20:56:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 20:56:36 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 21:11:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 21:11:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 21:11:35 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 21:26:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 21:26:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 21:26:32 LogShipper: Shipped 345 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 21:41:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 21:41:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 21:41:31 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 21:56:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 21:56:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 21:56:32 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 22:11:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 22:11:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 22:11:32 LogShipper: Shipped 354 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 22:26:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 22:26:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 22:26:33 LogShipper: Shipped 357 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 22:41:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 22:41:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 22:41:32 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 22:56:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 22:56:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 22:56:32 LogShipper: Shipped 362 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 23:11:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 23:11:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 23:11:37 LogShipper: Shipped 366 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 23:26:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 23:26:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 23:26:32 LogShipper: Shipped 369 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 23:41:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 23:41:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 23:41:32 LogShipper: Shipped 372 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-12 23:56:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-12 23:56:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-12 23:56:32 LogShipper: Shipped 375 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-13 00:11:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-13 00:11:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-13 00:11:32 LogShipper: Shipped 378 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-13 00:26:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-13 00:26:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-13 00:26:35 LogShipper: Shipped 381 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-13 00:41:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-13 00:41:30 BadgerService: Keepalive scheduled in 900s
-[I] 07-13 00:41:32 LogShipper: Shipped 384 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | v214 | shipped 2026-07-13 20:11:32 ===
 [I] 07-13 00:56:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 00:56:30 BadgerService: Keepalive scheduled in 900s
 [I] 07-13 00:56:32 LogShipper: Shipped 387 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -499,3 +424,78 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-13 19:55:10 AppUpdater: Up to date via GitHub (current=214 latest=214)
 [I] 07-13 19:56:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-13 19:56:32 BadgerService: Keepalive scheduled in 900s
+[I] 07-13 19:56:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-13 19:56:57 AppUpdater: Checking via website (current=214)
+[I] 07-13 19:56:57 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 19:56:57 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 19:56:58 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 19:57:32 AppUpdater: Checking via website (current=214)
+[I] 07-13 19:57:32 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 19:57:32 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 19:57:32 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 19:58:08 TTS: Speaking: Door 13B, Change Truck/Trailer
+[I] 07-13 19:58:08 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? Change Truck/Trailer (tag=watch_door_13B)
+[I] 07-13 19:58:08 WatchNotif: ?? Notif ID: -108073025
+[I] 07-13 19:58:08 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Change Truck/Trailer
+[I] 07-13 19:58:19 AppUpdater: Checking via website (current=214)
+[I] 07-13 19:58:19 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 19:58:19 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 19:58:20 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 20:01:49 AppUpdater: Checking via website (current=214)
+[I] 07-13 20:01:49 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 20:01:49 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 20:01:50 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 20:02:28 TTS: Speaking: Truck 186-1, In Door
+[I] 07-13 20:02:28 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-13 20:02:28 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - Trailer Area - connected ? In Door (tag=watch_truck_186-1)
+[I] 07-13 20:02:28 WatchNotif: ? Successfully sent to watch: Truck 186-1 - Trailer Area - connected ? In Door
+[I] 07-13 20:02:31 TTS: Speaking: Door 13B, Loading
+[I] 07-13 20:02:31 WatchNotif: ?? PUSHING NOTIF: Door 13B - Change Truck/Trailer ? Loading (tag=watch_door_13B)
+[I] 07-13 20:02:31 WatchNotif: ?? Notif ID: -108073025
+[I] 07-13 20:02:31 WatchNotif: ? Successfully sent to watch: Door 13B - Change Truck/Trailer ? Loading
+[I] 07-13 20:02:34 TTS: Speaking: Truck 187-1, 8
+[I] 07-13 20:02:34 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 8 (tag=watch_truck_187-1)
+[I] 07-13 20:02:34 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-13 20:02:34 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 8
+[I] 07-13 20:02:38 TTS: Speaking: Truck 187-1, 9
+[I] 07-13 20:02:38 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - 8 ? 9 (tag=watch_truck_187-1)
+[I] 07-13 20:02:38 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-13 20:02:38 WatchNotif: ? Successfully sent to watch: Truck 187-1 - 8 ? 9
+[I] 07-13 20:03:00 AppUpdater: Checking via website (current=214)
+[I] 07-13 20:03:00 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 20:03:00 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 20:03:01 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 20:03:52 TTS: Speaking: Door 15A, Change Truck/Trailer
+[I] 07-13 20:03:52 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Change Truck/Trailer (tag=watch_door_15A)
+[I] 07-13 20:03:52 WatchNotif: ?? Notif ID: -108072964
+[I] 07-13 20:03:52 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Change Truck/Trailer
+[I] 07-13 20:04:00 AppUpdater: Checking via website (current=214)
+[I] 07-13 20:04:00 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 20:04:00 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 20:04:01 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 20:05:51 AppUpdater: Checking via website (current=214)
+[I] 07-13 20:05:51 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 20:05:51 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 20:05:52 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 20:07:01 TTS: Speaking: Door 14A, Change Truck/Trailer
+[I] 07-13 20:07:01 WatchNotif: ?? PUSHING NOTIF: Door 14A - Loading ? Change Truck/Trailer (tag=watch_door_14A)
+[I] 07-13 20:07:01 WatchNotif: ?? Notif ID: -108072995
+[I] 07-13 20:07:01 WatchNotif: ? Successfully sent to watch: Door 14A - Loading ? Change Truck/Trailer
+[I] 07-13 20:09:31 TTS: Speaking: Truck 231-1, On Route
+[I] 07-13 20:09:31 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - In Door ? On Route (tag=watch_truck_231-1)
+[I] 07-13 20:09:31 WatchNotif: ?? Notif ID: -1200389020
+[I] 07-13 20:09:31 WatchNotif: ? Successfully sent to watch: Truck 231-1 - In Door ? On Route
+[I] 07-13 20:10:51 TTS: Speaking: Truck 231-2, In Door
+[I] 07-13 20:10:51 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - Trailer Area - connected ? In Door (tag=watch_truck_231-2)
+[I] 07-13 20:10:51 WatchNotif: ?? Notif ID: -1200389019
+[I] 07-13 20:10:51 WatchNotif: ? Successfully sent to watch: Truck 231-2 - Trailer Area - connected ? In Door
+[I] 07-13 20:10:53 TTS: Speaking: Door 14A, Loading
+[I] 07-13 20:10:53 WatchNotif: ?? PUSHING NOTIF: Door 14A - Change Truck/Trailer ? Loading (tag=watch_door_14A)
+[I] 07-13 20:10:53 WatchNotif: ?? Notif ID: -108072995
+[I] 07-13 20:10:53 WatchNotif: ? Successfully sent to watch: Door 14A - Change Truck/Trailer ? Loading
+[I] 07-13 20:10:57 AppUpdater: Checking via website (current=214)
+[I] 07-13 20:10:57 AppUpdater: Up to date via website (current=214 latest=214)
+[I] 07-13 20:10:57 AppUpdater: Checking via GitHub direct (current=214)
+[I] 07-13 20:10:58 AppUpdater: Up to date via GitHub (current=214 latest=214)
+[I] 07-13 20:11:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-13 20:11:32 BadgerService: Keepalive scheduled in 900s
