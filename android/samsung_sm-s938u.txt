@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-14 23:22:00 ===
+=== samsung SM-S938U | v215 | shipped 2026-07-14 23:37:00 ===
 [W] 07-14 15:58:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-14 15:58:19 BadgerService: startRealtimeSync: in backoff for 143s more � skipping
 [I] 07-14 15:58:20 LogShipper: Shipped 275 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -381,3 +381,32 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-14 23:21:54 AppUpdater: Up to date via GitHub (current=215 latest=215)
 [I] 07-14 23:22:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-14 23:22:00 BadgerService: Keepalive scheduled in 900s
+[I] 07-14 23:22:03 LogShipper: Shipped 382 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-14 23:25:59 AppUpdater: Checking via website (current=215)
+[I] 07-14 23:25:59 AppUpdater: Up to date via website (current=215 latest=215)
+[I] 07-14 23:25:59 AppUpdater: Checking via GitHub direct (current=215)
+[W] 07-14 23:25:59 AppUpdater: GitHub direct check failed: Job was cancelled
+[I] 07-14 23:25:59 AppUpdater: Checking via website (current=215)
+[I] 07-14 23:25:59 AppUpdater: Checking via GitHub direct (current=215)
+[I] 07-14 23:25:59 AppUpdater: Up to date via website (current=215 latest=215)
+[I] 07-14 23:26:00 AppUpdater: Up to date via GitHub (current=215 latest=215)
+[W] 07-14 23:28:38 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-14 23:28:49 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-14 23:28:49 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 07-14 23:29:09 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-14 23:29:09 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[W] 07-14 23:29:19 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-14 23:29:19 BadgerService: startRealtimeSync: in backoff for 10s more � skipping
+[E] 07-14 23:29:40 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #3 in 40s)
+[E] 07-14 23:29:40 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-14 23:30:21 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 07-14 23:30:21 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #4 in 80s)
+[W] 07-14 23:30:48 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-14 23:30:48 BadgerService: startRealtimeSync: in backoff for 52s more � skipping
+[I] 07-14 23:31:42 BadgerService: Realtime subscribed OK -- badger-svc-cb987624-1b2b-4636-a493-2ba1a93379da status=SUBSCRIBED
+[I] 07-14 23:31:55 AppUpdater: Checking via website (current=215)
+[I] 07-14 23:31:55 AppUpdater: Up to date via website (current=215 latest=215)
+[I] 07-14 23:31:55 AppUpdater: Checking via GitHub direct (current=215)
+[I] 07-14 23:31:56 AppUpdater: Up to date via GitHub (current=215 latest=215)
+[I] 07-14 23:37:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-14 23:37:00 BadgerService: Keepalive scheduled in 900s
