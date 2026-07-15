@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-14 23:07:00 ===
+=== samsung SM-S938U | v215 | shipped 2026-07-14 23:22:00 ===
 [W] 07-14 15:58:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-14 15:58:19 BadgerService: startRealtimeSync: in backoff for 143s more � skipping
 [I] 07-14 15:58:20 LogShipper: Shipped 275 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -355,3 +355,29 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-14 23:07:00 BadgerService: Keepalive scheduled in 900s
 [W] 07-14 23:07:00 BadgerService: startRealtimeSync: in backoff for 142s more � skipping
 [W] 07-14 23:07:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-14 23:07:03 LogShipper: Shipped 356 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-14 23:10:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #59 in 300s)
+[E] 07-14 23:10:08 BadgerService: Realtime: 59 consecutive failures � cooling down 5 min
+[I] 07-14 23:14:47 AppUpdater: Checking via website (current=215)
+[I] 07-14 23:14:48 AppUpdater: Checking via GitHub direct (current=215)
+[I] 07-14 23:14:48 AppUpdater: Up to date via website (current=215 latest=215)
+[E] 07-14 23:14:49 BadgerRepo: getLoadingDoors FAILED: The coroutine scope left the composition
+[I] 07-14 23:14:53 AppUpdater: Up to date via GitHub (current=215 latest=215)
+[I] 07-14 23:15:10 BadgerService: Realtime subscribed OK -- badger-svc-43287152-95b0-43f6-9d2f-458066997230 status=SUBSCRIBED
+[W] 07-14 23:16:21 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-14 23:16:23 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 07-14 23:16:23 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 07-14 23:16:33 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 07-14 23:16:33 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
+[E] 07-14 23:16:54 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #3 in 40s)
+[E] 07-14 23:16:54 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 07-14 23:17:16 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-14 23:17:16 BadgerService: startRealtimeSync: in backoff for 18s more � skipping
+[E] 07-14 23:18:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #4 in 80s)
+[I] 07-14 23:19:43 BadgerService: Realtime subscribed OK -- badger-svc-cf313a80-795c-46b4-9fd1-a833c3eef74a status=SUBSCRIBED
+[I] 07-14 23:21:52 AppUpdater: Checking via website (current=215)
+[I] 07-14 23:21:52 AppUpdater: Up to date via website (current=215 latest=215)
+[I] 07-14 23:21:52 AppUpdater: Checking via GitHub direct (current=215)
+[I] 07-14 23:21:54 AppUpdater: Up to date via GitHub (current=215 latest=215)
+[I] 07-14 23:22:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-14 23:22:00 BadgerService: Keepalive scheduled in 900s
