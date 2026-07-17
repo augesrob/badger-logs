@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-17 09:53:57 ===
+=== samsung SM-S938U | v215 | shipped 2026-07-17 10:08:57 ===
 [I] 07-16 03:39:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-16 03:39:26 BadgerService: Keepalive scheduled in 900s
 [W] 07-16 03:39:26 BadgerService: startRealtimeSync: in backoff for 83s more � skipping
@@ -481,3 +481,11 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-17 09:44:55 BadgerService: Realtime subscribed OK -- badger-svc-e7a0fccc-1cec-41f5-8e05-400f9f4085a6 status=SUBSCRIBED
 [I] 07-17 09:53:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-17 09:53:57 BadgerService: Keepalive scheduled in 900s
+[I] 07-17 09:53:59 LogShipper: Shipped 482 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-17 09:59:40 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-17 09:59:40 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 07-17 09:59:44 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 07-17 09:59:44 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[I] 07-17 09:59:56 BadgerService: Realtime subscribed OK -- badger-svc-5400fd6f-66c1-49a7-b4cd-12ac3ad10274 status=SUBSCRIBED
+[I] 07-17 10:08:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-17 10:08:57 BadgerService: Keepalive scheduled in 900s
