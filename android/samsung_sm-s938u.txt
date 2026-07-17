@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-17 14:08:57 ===
-[W] 07-16 04:39:26 BadgerService: startRealtimeSync: in backoff for 290s more � skipping
-[W] 07-16 04:39:26 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-16 04:39:27 LogShipper: Shipped 311 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-16 04:43:01 AppUpdater: Checking via website (current=215)
-[I] 07-16 04:43:02 AppUpdater: Up to date via website (current=215 latest=215)
-[I] 07-16 04:43:02 AppUpdater: Checking via GitHub direct (current=215)
-[I] 07-16 04:43:03 AppUpdater: Up to date via GitHub (current=215 latest=215)
+=== samsung SM-S938U | v215 | shipped 2026-07-17 14:23:57 ===
 [E] 07-16 04:44:16 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 2
 [I] 07-16 04:44:17 BadgerService: Realtime subscribed OK -- badger-svc-98417eaf-dcc3-4346-ac5b-2c20a53a64dd status=SUBSCRIBED
 [I] 07-16 04:54:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-17 14:06:37 BadgerService: Realtime subscribed OK -- badger-svc-bf4a14f0-83f0-4048-9f2f-948a5acc4395 status=SUBSCRIBED
 [I] 07-17 14:08:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-17 14:08:57 BadgerService: Keepalive scheduled in 900s
+[I] 07-17 14:08:59 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-17 14:09:17 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 07-17 14:09:19 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-17 14:09:22 BadgerService: Realtime subscribed OK -- badger-svc-53164d13-413d-40b4-a394-e80fae75bd6d status=SUBSCRIBED
+[W] 07-17 14:09:37 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-17 14:10:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 07-17 14:10:36 BadgerService: Realtime subscribed OK -- badger-svc-5ca23ca0-d4e4-4652-b051-b94fba9b1e51 status=SUBSCRIBED
