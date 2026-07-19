@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-19 11:08:59 ===
-[I] 07-17 17:38:59 LogShipper: Shipped 327 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-17 17:53:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-17 17:53:57 BadgerService: Keepalive scheduled in 900s
-[I] 07-17 17:53:59 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-17 18:08:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-17 18:08:57 BadgerService: Keepalive scheduled in 900s
-[I] 07-17 18:08:59 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-17 18:23:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S938U | v215 | shipped 2026-07-19 11:23:59 ===
 [I] 07-17 18:23:57 BadgerService: Keepalive scheduled in 900s
 [I] 07-17 18:23:59 LogShipper: Shipped 336 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-17 18:38:57 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +491,11 @@
 [I] 07-19 10:54:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-19 11:08:59 BadgerService: Keepalive scheduled in 900s
 [I] 07-19 11:08:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-19 11:09:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-19 11:23:14 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-19 11:23:14 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 4
+[E] 07-19 11:23:14 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 07-19 11:23:14 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[I] 07-19 11:23:27 BadgerService: Realtime subscribed OK -- badger-svc-1b70fcc6-95d4-4767-b696-16ed7a9bf18a status=SUBSCRIBED
+[I] 07-19 11:23:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-19 11:23:59 BadgerService: Keepalive scheduled in 900s
