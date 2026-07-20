@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-20 18:18:00 ===
+=== samsung SM-S938U | v215 | shipped 2026-07-20 18:33:00 ===
 [I] 07-19 15:23:59 BadgerService: Keepalive scheduled in 900s
 [I] 07-19 15:24:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [W] 07-19 15:38:00 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
@@ -332,3 +332,13 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-20 18:03:01 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-20 18:18:00 BadgerService: Keepalive scheduled in 900s
 [I] 07-20 18:18:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-20 18:18:02 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-20 18:28:12 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 07-20 18:28:12 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 07-20 18:28:12 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 07-20 18:28:12 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 07-20 18:28:17 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
+[W] 07-20 18:28:17 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-20 18:28:24 BadgerService: Realtime subscribed OK -- badger-svc-a0d3cd55-8b6d-45b2-af4a-db2369504751 status=SUBSCRIBED
+[I] 07-20 18:33:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-20 18:33:00 BadgerService: Keepalive scheduled in 900s
