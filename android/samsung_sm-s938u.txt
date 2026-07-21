@@ -1,16 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-21 09:48:00 ===
-[I] 07-19 17:53:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-19 17:53:59 BadgerService: Keepalive scheduled in 900s
-[I] 07-19 17:54:01 LogShipper: Shipped 332 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-19 18:08:59 BadgerService: Keepalive scheduled in 900s
-[I] 07-19 18:08:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-19 18:09:01 LogShipper: Shipped 335 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-19 18:23:59 BadgerService: Keepalive scheduled in 900s
-[I] 07-19 18:23:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-19 18:24:01 LogShipper: Shipped 338 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-19 18:38:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-19 18:38:59 BadgerService: Keepalive scheduled in 900s
-[I] 07-19 18:39:01 LogShipper: Shipped 341 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | v215 | shipped 2026-07-21 10:03:00 ===
 [I] 07-19 18:53:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-19 18:53:59 BadgerService: Keepalive scheduled in 900s
 [I] 07-19 18:54:03 LogShipper: Shipped 344 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -499,3 +487,15 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-21 09:33:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-21 09:48:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-21 09:48:00 BadgerService: Keepalive scheduled in 900s
+[I] 07-21 09:48:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-21 09:50:58 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-21 09:50:58 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
+[E] 07-21 09:51:08 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 07-21 09:51:08 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-21 09:51:25 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
+[E] 07-21 09:51:25 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[I] 07-21 09:51:47 BadgerService: Realtime subscribed OK -- badger-svc-ae501775-20d8-4b89-8aef-bca0cd8803ae status=SUBSCRIBED
+[W] 07-21 10:00:25 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 07-21 10:00:25 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 07-21 10:03:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-21 10:03:00 BadgerService: Keepalive scheduled in 900s
