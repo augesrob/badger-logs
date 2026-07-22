@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-22 09:18:01 ===
-[I] 07-20 17:48:01 LogShipper: Shipped 327 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-20 18:03:00 BadgerService: Keepalive scheduled in 900s
-[I] 07-20 18:03:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-20 18:03:01 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-20 18:18:00 BadgerService: Keepalive scheduled in 900s
-[I] 07-20 18:18:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-20 18:18:02 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 07-20 18:28:12 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+=== samsung SM-S938U | v215 | shipped 2026-07-22 09:33:02 ===
 [E] 07-20 18:28:12 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
 [E] 07-20 18:28:12 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
 [E] 07-20 18:28:12 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
@@ -499,3 +491,11 @@
 [I] 07-22 09:03:03 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-22 09:18:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-22 09:18:01 BadgerService: Keepalive scheduled in 900s
+[I] 07-22 09:18:03 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-22 09:29:48 TTS: Speaking: Truck 246, On Route
+[I] 07-22 09:29:48 WatchNotif: ?? PUSHING NOTIF: Truck 246 - New ? On Route (tag=watch_truck_246)
+[I] 07-22 09:29:48 WatchNotif: ?? Notif ID: -658231580
+[I] 07-22 09:29:48 WatchNotif: ? Successfully sent to watch: Truck 246 - New ? On Route
+[I] 07-22 09:30:01 TTS: Speaking: Preshift updated
+[I] 07-22 09:33:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-22 09:33:01 BadgerService: Keepalive scheduled in 900s
