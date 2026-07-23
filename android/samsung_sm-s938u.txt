@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v215 | shipped 2026-07-22 22:20:25 ===
-[I] 07-21 14:48:00 BadgerService: Keepalive scheduled in 900s
-[I] 07-21 14:48:02 LogShipper: Shipped 321 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-21 15:03:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-21 15:03:00 BadgerService: Keepalive scheduled in 900s
-[I] 07-21 15:03:02 LogShipper: Shipped 324 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 07-21 15:18:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-21 15:18:00 BadgerService: Keepalive scheduled in 900s
-[I] 07-21 15:18:02 LogShipper: Shipped 327 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | v215 | shipped 2026-07-22 22:35:25 ===
 [I] 07-21 15:33:00 BadgerService: Keepalive scheduled in 900s
 [I] 07-21 15:33:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-21 15:33:02 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -499,3 +491,11 @@
 [I] 07-22 22:20:25 BadgerService: Keepalive scheduled in 900s
 [W] 07-22 22:20:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-22 22:20:25 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
+[I] 07-22 22:20:26 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-22 22:24:38 BadgerService: Realtime: 42 consecutive failures � cooling down 5 min
+[E] 07-22 22:24:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #42 in 300s)
+[E] 07-22 22:30:24 BadgerService: Realtime: 43 consecutive failures � cooling down 5 min
+[E] 07-22 22:30:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #43 in 300s)
+[I] 07-22 22:35:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-22 22:35:25 BadgerService: Keepalive scheduled in 900s
+[W] 07-22 22:35:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
