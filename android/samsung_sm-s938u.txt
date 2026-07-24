@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-24 07:10:15 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-24 07:25:15 ===
 [I] 07-23 17:05:27 LogShipper: Shipped 283 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-23 17:20:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-23 17:20:25 BadgerService: Keepalive scheduled in 900s
@@ -294,3 +294,19 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-24 07:10:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 07-24 07:10:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 07-24 07:10:15 BadgerService: Keepalive scheduled in 900s
+[I] 07-24 07:10:16 LogShipper: Shipped 295 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-24 07:11:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-24 07:12:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 07-24 07:14:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 07-24 07:15:53 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 07-24 07:16:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 07-24 07:18:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 07-24 07:20:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 07-24 07:22:12 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 07-24 07:22:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 07-24 07:24:18 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 07-24 07:25:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[I] 07-24 07:25:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-24 07:25:15 BadgerService: Keepalive scheduled in 900s
+[W] 07-24 07:25:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-24 07:25:15 BadgerService: startRealtimeSync: in backoff for 69s more � skipping
