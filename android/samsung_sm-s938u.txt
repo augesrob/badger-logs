@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-24 08:25:15 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-24 08:40:15 ===
 [I] 07-23 17:05:27 LogShipper: Shipped 283 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-23 17:20:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-23 17:20:25 BadgerService: Keepalive scheduled in 900s
@@ -354,3 +354,59 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-24 08:25:15 BadgerService: Keepalive scheduled in 900s
 [W] 07-24 08:25:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-24 08:25:15 BadgerService: startRealtimeSync: in backoff for 277s more � skipping
+[I] 07-24 08:25:17 LogShipper: Shipped 355 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-24 08:30:39 BadgerService: Realtime: 22 consecutive failures � cooling down 5 min
+[E] 07-24 08:30:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #22 in 300s)
+[E] 07-24 08:36:25 BadgerService: Realtime: 23 consecutive failures � cooling down 5 min
+[E] 07-24 08:36:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #23 in 300s)
+[I] 07-24 08:36:36 AppUpdater: Checking via website (current=216)
+[I] 07-24 08:36:37 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-24 08:36:37 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-24 08:36:38 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-24 08:36:44 Movement: Door 13A status → End Of Truck Tote
+[I] 07-24 08:36:44 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
+[I] 07-24 08:36:56 AppUpdater: Checking via website (current=216)
+[I] 07-24 08:36:56 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-24 08:36:56 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-24 08:36:57 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-24 08:37:02 Movement: Truck 248-1 status → In Door
+[I] 07-24 08:37:03 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=1
+[I] 07-24 08:37:09 AppUpdater: Checking via website (current=216)
+[I] 07-24 08:37:09 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-24 08:37:09 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-24 08:37:09 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-24 08:37:14 Movement: Truck 248-1 status → Transfer
+[I] 07-24 08:37:14 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=25
+[I] 07-24 08:37:20 Movement: Truck 240 status → Ready
+[I] 07-24 08:37:20 BadgerRepo: updateMovementStatus OK — truck=240 statusId=5
+[I] 07-24 08:37:33 BadgerRepo: Sheet sync OK (both): {"ok":true,"preshiftUpdated":0,"printroomUpdated":1,"printroomCreated":0,"movementAdded":0}
+[I] 07-24 08:37:38 PreShift: Truck 240 staged at door 20A front
+[W] 07-24 08:37:38 PreShift: Duplicate truck 240 force-staged (override) — Truck 240 is already assigned in the Print Room.
+[I] 07-24 08:37:46 Movement: Door 13A status → Loading
+[I] 07-24 08:37:46 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
+[I] 07-24 08:37:56 AppUpdater: Checking via website (current=216)
+[I] 07-24 08:37:56 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-24 08:37:56 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-24 08:37:57 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-24 08:38:07 AppUpdater: Checking via website (current=216)
+[I] 07-24 08:38:07 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-24 08:38:07 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-24 08:38:08 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-24 08:38:21 Movement: Door 13A status → Loading
+[I] 07-24 08:38:21 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
+[I] 07-24 08:38:42 AppUpdater: Checking via website (current=216)
+[I] 07-24 08:38:42 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-24 08:38:42 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-24 08:38:43 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-24 08:39:13 Movement: Truck 187-1 status → Transfer
+[I] 07-24 08:39:14 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=25
+[I] 07-24 08:39:26 Movement: Truck 245 status → Move to Receiving
+[I] 07-24 08:39:26 BadgerRepo: updateMovementStatus OK — truck=245 statusId=27
+[I] 07-24 08:39:54 AppUpdater: Checking via website (current=216)
+[I] 07-24 08:39:54 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-24 08:39:54 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-24 08:39:56 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-24 08:40:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-24 08:40:15 BadgerService: Keepalive scheduled in 900s
+[W] 07-24 08:40:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-24 08:40:15 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
