@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-25 17:01:37 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-25 17:16:37 ===
 [I] 07-24 18:18:42 TTS: Speaking: Door 13A, Loading
 [I] 07-24 18:18:42 WatchNotif: ?? PUSHING NOTIF: Door 13A - Change Truck/Trailer ? Loading (tag=watch_door_13A)
 [I] 07-24 18:18:42 WatchNotif: ?? Notif ID: -108073026
@@ -324,3 +324,12 @@
 [I] 07-25 16:46:38 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-25 17:01:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-25 17:01:37 BadgerService: Keepalive scheduled in 900s
+[I] 07-25 17:01:39 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-25 17:02:36 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
+[E] 07-25 17:02:46 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-25 17:02:46 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 07-25 17:03:07 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[E] 07-25 17:03:07 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 07-25 17:03:29 BadgerService: Realtime subscribed OK -- badger-svc-009097bd-5fc1-4b39-ad76-4ed1a04e299f status=SUBSCRIBED
+[I] 07-25 17:16:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-25 17:16:37 BadgerService: Keepalive scheduled in 900s
