@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-26 17:01:38 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-26 17:16:38 ===
 [I] 07-25 15:46:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-25 15:46:37 BadgerService: Keepalive scheduled in 900s
 [I] 07-25 15:46:38 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -339,3 +339,11 @@
 [I] 07-26 16:46:39 LogShipper: Shipped 337 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-26 17:01:38 BadgerService: Keepalive scheduled in 900s
 [I] 07-26 17:01:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-26 17:01:40 LogShipper: Shipped 340 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-26 17:15:33 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 07-26 17:15:33 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 2
+[E] 07-26 17:15:43 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 07-26 17:15:43 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 07-26 17:15:55 BadgerService: Realtime subscribed OK -- badger-svc-1d7cb8ad-3870-40e2-a299-88c422fbfedd status=SUBSCRIBED
+[I] 07-26 17:16:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-26 17:16:38 BadgerService: Keepalive scheduled in 900s
