@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-28 04:02:21 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-28 04:17:21 ===
 [I] 07-28 01:05:45 WatchNotif: ?? PUSHING NOTIF: Door 14B - Change Truck/Trailer ? Done for Night (tag=watch_door_14B)
 [I] 07-28 01:05:45 WatchNotif: ?? Notif ID: -108072994
 [I] 07-28 01:05:45 WatchNotif: ? Successfully sent to watch: Door 14B - Change Truck/Trailer ? Done for Night
@@ -379,3 +379,17 @@
 [I] 07-28 04:02:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-28 04:02:21 BadgerService: Keepalive scheduled in 900s
 [W] 07-28 04:02:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-28 04:02:23 LogShipper: Shipped 380 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-28 04:11:07 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-28 04:11:14 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 07-28 04:11:15 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 07-28 04:11:15 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #16 in 300s)
+[E] 07-28 04:11:15 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
+[W] 07-28 04:11:27 BadgerService: startRealtimeSync: in backoff for 288s more � skipping
+[W] 07-28 04:11:27 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-28 04:16:11 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 07-28 04:16:11 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
+[W] 07-28 04:16:28 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-28 04:17:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 07-28 04:17:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-28 04:17:21 BadgerService: Keepalive scheduled in 900s
