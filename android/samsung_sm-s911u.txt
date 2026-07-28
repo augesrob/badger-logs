@@ -1,13 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-28 02:58:15 ===
-[I] 07-28 00:30:46 WatchNotif: ?? PUSHING NOTIF: Truck 228 - Ready ? In Front (tag=watch_truck_228)
-[I] 07-28 00:30:46 WatchNotif: ? Successfully sent to watch: Truck 228 - Ready ? In Front
-[I] 07-28 00:30:50 TTS: Speaking: Truck 228, Ready
-[I] 07-28 00:30:50 WatchNotif: ?? Notif ID: -658231640
-[I] 07-28 00:30:50 WatchNotif: ?? PUSHING NOTIF: Truck 228 - In Front ? Ready (tag=watch_truck_228)
-[I] 07-28 00:30:50 WatchNotif: ? Successfully sent to watch: Truck 228 - In Front ? Ready
-[I] 07-28 00:32:28 AppUpdater: Checking via website (current=216)
-[I] 07-28 00:32:28 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-28 00:32:28 AppUpdater: Checking via GitHub direct (current=216)
+=== samsung SM-S911U | v216 | shipped 2026-07-28 03:13:15 ===
 [I] 07-28 00:32:29 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 07-28 00:32:34 Movement: Truck 228 status → In Front
 [I] 07-28 00:32:34 BadgerRepo: updateMovementStatus OK — truck=228 statusId=4
@@ -499,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-28 02:58:15 BadgerService: Keepalive scheduled in 900s
 [W] 07-28 02:58:15 BadgerService: startRealtimeSync: in backoff for 67s more � skipping
 [W] 07-28 02:58:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-28 02:58:16 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 07-28 03:00:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 07-28 03:02:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[E] 07-28 03:02:14 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 07-28 03:08:01 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
+[E] 07-28 03:08:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
+[I] 07-28 03:13:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-28 03:13:15 BadgerService: Keepalive scheduled in 900s
+[W] 07-28 03:13:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
