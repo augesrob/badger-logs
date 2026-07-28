@@ -1,27 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-27 23:44:33 ===
-[I] 07-27 18:14:30 MainActivity: BadgerService started (mic=false)
-[I] 07-27 18:14:30 AppUpdater: Checking via website (current=216)
-[W] 07-27 18:14:30 BadgerService: FGS microphone blocked � starting without mic FGS type
-[W] 07-27 18:14:30 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-27 18:14:30 AuthManager: Session expired — trying HWID silent login
-[I] 07-27 18:14:31 BadgerService: Keepalive scheduled in 900s
-[I] 07-27 18:14:31 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-27 18:14:31 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-27 18:14:31 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-27 18:14:32 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
-[I] 07-27 18:14:32 FCM: 🔄 FCM Token refreshed: cT2SDPsSRxum5HFV2dZD...
-[I] 07-27 18:14:32 FCM: ✅ New token sent to backend
-[E] 07-27 18:14:32 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[E] 07-27 18:14:32 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-27 18:14:32 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-27 18:14:32 BadgerService: Realtime subscribed OK -- badger-svc-58f9462c-7e65-479a-bf55-e11bde87d7ef status=SUBSCRIBED
-[I] 07-27 18:14:32 TTS: Engine initialized OK
-[I] 07-27 18:14:32 TTS: Speaking: Badger live monitoring active
-[I] 07-27 18:14:33 MainActivity: Permissions result: RECORD_AUDIO=true
+=== samsung SM-S911U | v216 | shipped 2026-07-27 23:59:33 ===
 [I] 07-27 18:14:33 MainActivity: BadgerService restarted (mic=true)
 [I] 07-27 18:14:33 AppUpdater: Checking via website (current=216)
 [I] 07-27 18:14:33 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +476,26 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-27 23:44:14 WatchNotif: ? Successfully sent to watch: Door 13A - Change Truck/Trailer ? Loading
 [I] 07-27 23:44:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-27 23:44:33 BadgerService: Keepalive scheduled in 900s
+[I] 07-27 23:44:35 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-27 23:48:19 AppUpdater: Checking via website (current=216)
+[I] 07-27 23:48:19 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-27 23:48:19 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-27 23:48:20 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-27 23:48:24 Movement: Truck 160 status → In Front
+[I] 07-27 23:48:24 BadgerRepo: updateMovementStatus OK — truck=160 statusId=4
+[I] 07-27 23:48:25 TTS: Speaking: Truck 160, In Front
+[I] 07-27 23:48:25 WatchNotif: ?? PUSHING NOTIF: Truck 160 - Ready ? In Front (tag=watch_truck_160)
+[I] 07-27 23:48:25 WatchNotif: ?? Notif ID: -658232485
+[I] 07-27 23:48:25 WatchNotif: ? Successfully sent to watch: Truck 160 - Ready ? In Front
+[I] 07-27 23:48:35 Movement: Truck 248-2 status → 9
+[I] 07-27 23:48:35 BadgerRepo: updateMovementStatus OK — truck=248-2 statusId=12
+[I] 07-27 23:48:35 TTS: Speaking: Truck 248-2, 9
+[I] 07-27 23:48:35 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - In Door ? 9 (tag=watch_truck_248-2)
+[I] 07-27 23:48:35 WatchNotif: ?? Notif ID: -1200352501
+[I] 07-27 23:48:35 WatchNotif: ? Successfully sent to watch: Truck 248-2 - In Door ? 9
+[I] 07-27 23:57:15 TTS: Speaking: Door 15A, End Of Truck Tote
+[I] 07-27 23:57:15 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? End Of Truck Tote (tag=watch_door_15A)
+[I] 07-27 23:57:15 WatchNotif: ?? Notif ID: -108072964
+[I] 07-27 23:57:15 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? End Of Truck Tote
+[I] 07-27 23:59:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-27 23:59:33 BadgerService: Keepalive scheduled in 900s
