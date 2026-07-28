@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-27 22:53:46 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-27 23:08:46 ===
 [I] 07-27 19:22:58 AppUpdater: Checking via GitHub direct (current=216)
 [I] 07-27 19:22:59 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 07-27 19:23:00 AppUpdater: Checking via website (current=216)
@@ -437,3 +437,37 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-27 22:38:47 LogShipper: Shipped 435 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-27 22:53:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-27 22:53:46 BadgerService: Keepalive scheduled in 900s
+[I] 07-27 22:53:47 LogShipper: Shipped 438 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-27 22:53:52 AppUpdater: Checking via website (current=216)
+[I] 07-27 22:53:53 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-27 22:53:53 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-27 22:53:54 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-27 22:53:55 PTT: PTT recording STARTED
+[I] 07-27 22:53:58 PTT: PTT recording STOPPED
+[I] 07-27 22:53:58 PTT: PTT sent OK — 43200 bytes
+[I] 07-27 22:53:58 PTT: Incoming PTT message received
+[I] 07-27 22:54:18 PTT: Incoming PTT message received
+[I] 07-27 22:54:58 Movement: Truck 243 status → In Door
+[I] 07-27 22:54:58 BadgerRepo: updateMovementStatus OK — truck=243 statusId=1
+[I] 07-27 22:54:58 TTS: Speaking: Truck 243, In Door
+[I] 07-27 22:54:58 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Front ? In Door (tag=watch_truck_243)
+[I] 07-27 22:54:58 WatchNotif: ?? Notif ID: -658231583
+[I] 07-27 22:54:58 WatchNotif: ? Successfully sent to watch: Truck 243 - In Front ? In Door
+[I] 07-27 22:55:05 Movement: Truck 241 status → Put Away
+[I] 07-27 22:55:05 BadgerRepo: updateMovementStatus OK — truck=241 statusId=2
+[I] 07-27 22:55:06 TTS: Speaking: Truck 241, Put Away
+[I] 07-27 22:55:06 WatchNotif: ?? PUSHING NOTIF: Truck 241 - In Door ? Put Away (tag=watch_truck_241)
+[I] 07-27 22:55:06 WatchNotif: ?? Notif ID: -658231585
+[I] 07-27 22:55:06 WatchNotif: ? Successfully sent to watch: Truck 241 - In Door ? Put Away
+[I] 07-27 22:55:54 TTS: Speaking: Truck 159, In Front
+[I] 07-27 22:55:54 WatchNotif: ?? PUSHING NOTIF: Truck 159 - Ready ? In Front (tag=watch_truck_159)
+[I] 07-27 22:55:54 WatchNotif: ?? Notif ID: -658232507
+[I] 07-27 22:55:54 WatchNotif: ? Successfully sent to watch: Truck 159 - Ready ? In Front
+[I] 07-27 22:59:32 TTS: Speaking: Door 14A, Move to Receiving
+[I] 07-27 22:59:32 WatchNotif: ?? PUSHING NOTIF: Door 14A - Loading ? Move to Receiving (tag=watch_door_14A)
+[I] 07-27 22:59:32 WatchNotif: ?? Notif ID: -108072995
+[I] 07-27 22:59:32 WatchNotif: ? Successfully sent to watch: Door 14A - Loading ? Move to Receiving
+[W] 07-27 23:08:34 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 07-27 23:08:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-27 23:08:46 BadgerService: Keepalive scheduled in 900s
+[W] 07-27 23:08:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
