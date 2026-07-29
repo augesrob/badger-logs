@@ -1,49 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-29 03:11:33 ===
-[I] 07-29 00:58:17 LogShipper: Shipped 298 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 07-29 01:02:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
-[E] 07-29 01:02:54 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
-[E] 07-29 01:08:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
-[E] 07-29 01:08:41 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
-[I] 07-29 01:13:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-29 01:13:16 BadgerService: Keepalive scheduled in 900s
-[W] 07-29 01:13:16 BadgerService: startRealtimeSync: in backoff for 24s more � skipping
-[W] 07-29 01:13:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-29 01:13:18 LogShipper: Shipped 307 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 07-29 01:14:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #15 in 300s)
-[E] 07-29 01:14:27 BadgerService: Realtime: 15 consecutive failures � cooling down 5 min
-[E] 07-29 01:20:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
-[E] 07-29 01:20:13 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
-[E] 07-29 01:25:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
-[E] 07-29 01:25:59 BadgerService: Realtime: 17 consecutive failures � cooling down 5 min
-[I] 07-29 01:26:27 AppUpdater: Checking via website (current=216)
-[I] 07-29 01:26:28 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-29 01:26:28 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-29 01:26:28 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-29 01:26:29 AppUpdater: Checking via website (current=0)
-[I] 07-29 01:26:29 AppUpdater: Update found via website: access-v216
-[I] 07-29 01:26:31 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-29 01:26:33 MainActivity: BadgerService started (mic=true)
-[I] 07-29 01:26:33 AppUpdater: Checking via website (current=216)
-[I] 07-29 01:26:33 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-29 01:26:33 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-29 01:26:33 BadgerService: Keepalive scheduled in 900s
-[I] 07-29 01:26:33 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-29 01:26:33 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
-[E] 07-29 01:26:33 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-29 01:26:33 TTS: Engine initialized OK
-[I] 07-29 01:26:33 TTS: Speaking: Badger live monitoring active
-[I] 07-29 01:26:33 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-29 01:26:34 BadgerService: Realtime subscribed OK -- badger-svc-f1367c8d-feae-4a79-8f23-a34d38d2d674 status=SUBSCRIBED
-[I] 07-29 01:28:50 TTS: Speaking: Door 15B, End Of Truck Tote
-[I] 07-29 01:28:50 WatchNotif: ?? PUSHING NOTIF: Door 15B - Loading ? End Of Truck Tote (tag=watch_door_15B)
-[I] 07-29 01:28:50 WatchNotif: ?? Notif ID: -108072963
-[I] 07-29 01:28:50 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? End Of Truck Tote
-[I] 07-29 01:29:09 AppUpdater: Checking via website (current=216)
-[I] 07-29 01:29:10 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-29 01:29:10 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-29 01:29:11 AppUpdater: Up to date via GitHub (current=216 latest=216)
+=== samsung SM-S911U | v216 | shipped 2026-07-29 03:35:50 ===
 [I] 07-29 01:29:35 Movement: Truck 230 status → Put Away
 [I] 07-29 01:29:35 BadgerRepo: updateMovementStatus OK — truck=230 statusId=2
 [I] 07-29 01:29:35 TTS: Speaking: Truck 230, Put Away
@@ -499,3 +454,48 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-29 02:56:35 LogShipper: Shipped 499 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 07-29 03:11:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-29 03:11:33 BadgerService: Keepalive scheduled in 900s
+[I] 07-29 03:11:35 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-29 03:14:42 TTS: Speaking: Door 15A, 100%
+[I] 07-29 03:14:42 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? 100% (tag=watch_door_15A)
+[I] 07-29 03:14:42 WatchNotif: ?? Notif ID: -108072964
+[I] 07-29 03:14:42 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? 100%
+[I] 07-29 03:14:47 TTS: Speaking: Door 15A, 1
+[I] 07-29 03:14:47 WatchNotif: ?? PUSHING NOTIF: Door 15A - 100% ? 1 (tag=watch_door_15A)
+[I] 07-29 03:14:47 WatchNotif: ?? Notif ID: -108072964
+[I] 07-29 03:14:47 WatchNotif: ? Successfully sent to watch: Door 15A - 100% ? 1
+[W] 07-29 03:15:33 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-29 03:16:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-29 03:17:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-29 03:18:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-29 03:19:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[I] 07-29 03:20:38 AppUpdater: Checking via website (current=216)
+[I] 07-29 03:20:39 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 03:20:39 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 03:20:40 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 03:20:45 Movement: Door 15A status → End Of Truck Tote
+[I] 07-29 03:20:45 BadgerRepo: updateDoorStatus OK — id=5 status=End Of Truck Tote
+[I] 07-29 03:20:50 BadgerService: Keepalive scheduled in 900s
+[I] 07-29 03:20:50 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-29 03:20:50 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
+[E] 07-29 03:20:50 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-29 03:20:50 TTS: Engine initialized OK
+[I] 07-29 03:20:50 TTS: Speaking: Badger live monitoring active
+[I] 07-29 03:20:52 BadgerService: Realtime subscribed OK -- badger-svc-b95621c6-a0b7-4f38-b2aa-673760c6a87c status=SUBSCRIBED
+[I] 07-29 03:20:59 TTS: Speaking: Truck 216, In Door
+[I] 07-29 03:20:59 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Front ? In Door (tag=watch_truck_216)
+[I] 07-29 03:20:59 WatchNotif: ?? Notif ID: -658231673
+[I] 07-29 03:20:59 WatchNotif: ? Successfully sent to watch: Truck 216 - In Front ? In Door
+[I] 07-29 03:21:03 TTS: Speaking: Door 15A, Priority Change Truck/Trailer
+[I] 07-29 03:21:03 WatchNotif: ?? Notif ID: -108072964
+[I] 07-29 03:21:03 WatchNotif: ?? PUSHING NOTIF: Door 15A - End Of Truck Tote ? Priority Change Truck/Trailer (tag=watch_door_15A)
+[I] 07-29 03:21:03 WatchNotif: ? Successfully sent to watch: Door 15A - End Of Truck Tote ? Priority Change Truck/Trailer
+[I] 07-29 03:21:06 Movement: Truck 245 status → Put Away
+[I] 07-29 03:21:06 BadgerRepo: updateMovementStatus OK — truck=245 statusId=2
+[I] 07-29 03:21:06 TTS: Speaking: Truck 245, Put Away
+[I] 07-29 03:21:06 WatchNotif: ?? PUSHING NOTIF: Truck 245 - In Door ? Put Away (tag=watch_truck_245)
+[I] 07-29 03:21:06 WatchNotif: ?? Notif ID: -658231581
+[I] 07-29 03:21:06 WatchNotif: ? Successfully sent to watch: Truck 245 - In Door ? Put Away
+[I] 07-29 03:35:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-29 03:35:50 BadgerService: Keepalive scheduled in 900s
