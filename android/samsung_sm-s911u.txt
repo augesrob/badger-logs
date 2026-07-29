@@ -1,27 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-29 03:35:50 ===
-[I] 07-29 01:29:35 Movement: Truck 230 status → Put Away
-[I] 07-29 01:29:35 BadgerRepo: updateMovementStatus OK — truck=230 statusId=2
-[I] 07-29 01:29:35 TTS: Speaking: Truck 230, Put Away
-[I] 07-29 01:29:35 WatchNotif: ?? PUSHING NOTIF: Truck 230 - In Door ? Put Away (tag=watch_truck_230)
-[I] 07-29 01:29:35 WatchNotif: ?? Notif ID: -658231617
-[I] 07-29 01:29:35 WatchNotif: ? Successfully sent to watch: Truck 230 - In Door ? Put Away
-[I] 07-29 01:31:19 AppUpdater: Checking via website (current=216)
-[I] 07-29 01:31:20 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-29 01:31:20 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-29 01:31:21 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-29 01:31:42 TTS: Speaking: Door 15B, Loading
-[I] 07-29 01:31:42 WatchNotif: ?? PUSHING NOTIF: Door 15B - End Of Truck Tote ? Loading (tag=watch_door_15B)
-[I] 07-29 01:31:42 WatchNotif: ?? Notif ID: -108072963
-[I] 07-29 01:31:42 WatchNotif: ? Successfully sent to watch: Door 15B - End Of Truck Tote ? Loading
-[I] 07-29 01:31:44 TTS: Speaking: Truck 244, In Door
-[I] 07-29 01:31:44 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Front ? In Door (tag=watch_truck_244)
-[I] 07-29 01:31:44 WatchNotif: ?? Notif ID: -658231582
-[I] 07-29 01:31:44 WatchNotif: ? Successfully sent to watch: Truck 244 - In Front ? In Door
-[I] 07-29 01:31:47 TTS: Speaking: Truck 244, In Front
-[I] 07-29 01:31:47 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Door ? In Front (tag=watch_truck_244)
-[I] 07-29 01:31:47 WatchNotif: ?? Notif ID: -658231582
-[I] 07-29 01:31:47 WatchNotif: ? Successfully sent to watch: Truck 244 - In Door ? In Front
-[I] 07-29 01:34:18 AppUpdater: Checking via website (current=216)
+=== samsung SM-S911U | v216 | shipped 2026-07-29 03:47:43 ===
 [I] 07-29 01:34:19 AppUpdater: Checking via GitHub direct (current=216)
 [I] 07-29 01:34:19 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 07-29 01:34:19 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -499,3 +476,26 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-29 03:21:06 WatchNotif: ? Successfully sent to watch: Truck 245 - In Door ? Put Away
 [I] 07-29 03:35:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-29 03:35:50 BadgerService: Keepalive scheduled in 900s
+[I] 07-29 03:35:52 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-29 03:43:24 TTS: Speaking: Truck 228, Put Away
+[I] 07-29 03:43:24 WatchNotif: ?? Notif ID: -658231640
+[I] 07-29 03:43:24 WatchNotif: ?? PUSHING NOTIF: Truck 228 - In Door ? Put Away (tag=watch_truck_228)
+[I] 07-29 03:43:24 WatchNotif: ? Successfully sent to watch: Truck 228 - In Door ? Put Away
+[I] 07-29 03:43:30 TTS: Speaking: Truck 141, Put Away
+[I] 07-29 03:43:30 WatchNotif: ?? PUSHING NOTIF: Truck 141 - In Door ? Put Away (tag=watch_truck_141)
+[I] 07-29 03:43:30 WatchNotif: ?? Notif ID: -658232546
+[I] 07-29 03:43:30 WatchNotif: ? Successfully sent to watch: Truck 141 - In Door ? Put Away
+[I] 07-29 03:47:05 AppUpdater: Checking via website (current=216)
+[I] 07-29 03:47:06 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 03:47:06 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 03:47:07 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 03:47:08 Movement: Door 15A status → Done for Night
+[I] 07-29 03:47:08 BadgerRepo: updateDoorStatus OK — id=5 status=Done for Night
+[I] 07-29 03:47:09 TTS: Speaking: Door 15A, Done for Night
+[I] 07-29 03:47:09 WatchNotif: ?? PUSHING NOTIF: Door 15A - Priority Change Truck/Trailer ? Done for Night (tag=watch_door_15A)
+[I] 07-29 03:47:09 WatchNotif: ?? Notif ID: -108072964
+[I] 07-29 03:47:09 WatchNotif: ? Successfully sent to watch: Door 15A - Priority Change Truck/Trailer ? Done for Night
+[W] 07-29 03:47:38 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 07-29 03:47:38 BadgerService: Keepalive scheduled in 2s
+[I] 07-29 03:47:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-29 03:47:43 BadgerService: Keepalive scheduled in 900s
