@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-29 18:10:45 ===
-[E] 07-29 07:10:24 BadgerService: Realtime: 33 consecutive failures � cooling down 5 min
-[I] 07-29 07:10:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-29 07:10:45 BadgerService: Keepalive scheduled in 900s
-[W] 07-29 07:10:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-29 07:10:45 BadgerService: startRealtimeSync: in backoff for 278s more � skipping
-[I] 07-29 07:10:47 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-29 07:16:10 BadgerService: Realtime: 34 consecutive failures � cooling down 5 min
+=== samsung SM-S938U | v216 | shipped 2026-07-29 18:29:30 ===
 [E] 07-29 07:16:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #34 in 300s)
 [E] 07-29 07:21:56 BadgerService: Realtime: 35 consecutive failures � cooling down 5 min
 [E] 07-29 07:21:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #35 in 300s)
@@ -473,3 +466,36 @@
 [I] 07-29 18:10:45 BadgerService: Keepalive scheduled in 900s
 [W] 07-29 18:10:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-29 18:10:45 BadgerService: startRealtimeSync: in backoff for 218s more � skipping
+[I] 07-29 18:10:47 LogShipper: Shipped 474 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-29 18:14:21 AppUpdater: Checking via website (current=216)
+[I] 07-29 18:14:22 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 18:14:22 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 18:14:23 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 18:14:26 BadgerService: Realtime subscribed OK -- badger-svc-8a01a7d7-f689-4f37-9975-c6e6849b7eb4 status=SUBSCRIBED
+[I] 07-29 18:14:26 AppUpdater: Checking via website (current=0)
+[I] 07-29 18:14:26 AppUpdater: Update found via website: access-v216
+[I] 07-29 18:14:28 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 07-29 18:14:30 MainActivity: BadgerService started (mic=true)
+[I] 07-29 18:14:30 AppUpdater: Checking via website (current=216)
+[I] 07-29 18:14:30 BadgerService: Keepalive scheduled in 900s
+[I] 07-29 18:14:30 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-29 18:14:30 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 18:14:30 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 18:14:30 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-29 18:14:30 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-29 18:14:30 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 18:14:30 TTS: Engine initialized OK
+[I] 07-29 18:14:30 TTS: Speaking: Badger live monitoring active
+[I] 07-29 18:14:31 BadgerService: Realtime subscribed OK -- badger-svc-e4309362-aff3-4fa1-a531-3d37ecf874f2 status=SUBSCRIBED
+[I] 07-29 18:14:51 AppUpdater: Checking via website (current=216)
+[I] 07-29 18:14:51 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 18:14:51 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 18:14:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 18:20:39 AppUpdater: Checking via website (current=216)
+[I] 07-29 18:20:39 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 18:20:39 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 18:20:40 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 18:29:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-29 18:29:30 BadgerService: Keepalive scheduled in 900s
