@@ -1,13 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-29 04:47:43 ===
-[I] 07-29 01:37:01 WatchNotif: ?? PUSHING NOTIF: Truck 195 - In Door ? Put Away (tag=watch_truck_195)
-[I] 07-29 01:37:01 WatchNotif: ? Successfully sent to watch: Truck 195 - In Door ? Put Away
-[I] 07-29 01:37:05 Movement: Door 13B status → Loading
-[I] 07-29 01:37:05 BadgerRepo: updateDoorStatus OK — id=2 status=Loading
-[I] 07-29 01:37:06 TTS: Speaking: Door 13B, Loading
-[I] 07-29 01:37:06 WatchNotif: ?? PUSHING NOTIF: Door 13B - End Of Truck Tote ? Loading (tag=watch_door_13B)
-[I] 07-29 01:37:06 WatchNotif: ?? Notif ID: -108073025
-[I] 07-29 01:37:06 WatchNotif: ? Successfully sent to watch: Door 13B - End Of Truck Tote ? Loading
-[I] 07-29 01:41:32 PTT: Incoming PTT message received
+=== samsung SM-S911U | v216 | shipped 2026-07-29 05:02:43 ===
 [I] 07-29 01:41:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-29 01:41:33 BadgerService: Keepalive scheduled in 900s
 [I] 07-29 01:41:35 LogShipper: Shipped 408 log lines to badger-logs/android/samsung_sm-s911u.txt
@@ -499,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-29 04:47:43 BadgerService: Keepalive scheduled in 900s
 [W] 07-29 04:47:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-29 04:47:43 BadgerService: startRealtimeSync: in backoff for 171s more � skipping
+[I] 07-29 04:47:45 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 07-29 04:51:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[E] 07-29 04:51:21 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[E] 07-29 04:57:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
+[E] 07-29 04:57:07 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
+[I] 07-29 05:02:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-29 05:02:43 BadgerService: Keepalive scheduled in 900s
+[W] 07-29 05:02:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 07-29 05:02:43 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
