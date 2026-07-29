@@ -1,32 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-28 20:08:19 ===
-[E] 07-28 03:19:27 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
-[E] 07-28 03:20:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
-[E] 07-28 03:22:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
-[E] 07-28 03:24:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
-[E] 07-28 03:26:34 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
-[E] 07-28 03:26:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
-[E] 07-28 03:32:20 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
-[E] 07-28 03:32:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
-[I] 07-28 03:32:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-28 03:32:21 BadgerService: Keepalive scheduled in 900s
-[W] 07-28 03:32:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-28 03:32:21 BadgerService: startRealtimeSync: in backoff for 298s more � skipping
-[I] 07-28 03:32:22 LogShipper: Shipped 364 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-28 03:38:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
-[E] 07-28 03:38:06 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
-[E] 07-28 03:43:52 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
-[E] 07-28 03:43:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
-[I] 07-28 03:47:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-28 03:47:21 BadgerService: Keepalive scheduled in 900s
-[W] 07-28 03:47:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 07-28 03:47:21 BadgerService: startRealtimeSync: in backoff for 90s more � skipping
-[I] 07-28 03:47:22 LogShipper: Shipped 374 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-28 03:49:38 BadgerService: Realtime: 15 consecutive failures � cooling down 5 min
-[E] 07-28 03:49:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #15 in 300s)
-[I] 07-28 04:02:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-28 04:02:21 BadgerService: Keepalive scheduled in 900s
-[W] 07-28 04:02:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-28 04:02:23 LogShipper: Shipped 380 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | v216 | shipped 2026-07-28 20:23:19 ===
 [W] 07-28 04:11:07 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [W] 07-28 04:11:14 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [E] 07-28 04:11:15 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
@@ -499,3 +471,31 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-28 19:53:21 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 07-28 20:08:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-28 20:08:19 BadgerService: Keepalive scheduled in 900s
+[I] 07-28 20:08:21 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-28 20:08:29 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 07-28 20:09:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 07-28 20:10:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 07-28 20:11:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 07-28 20:12:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 07-28 20:14:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 07-28 20:16:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 07-28 20:18:15 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 07-28 20:19:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[I] 07-28 20:20:30 AppUpdater: Checking via website (current=216)
+[I] 07-28 20:20:31 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-28 20:20:31 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-28 20:20:31 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[E] 07-28 20:21:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[I] 07-28 20:21:17 Movement: Truck 231-1 status → On Route
+[I] 07-28 20:21:17 BadgerRepo: updateMovementStatus OK — truck=231-1 statusId=3
+[I] 07-28 20:21:20 Movement: Truck 236 status → In Door
+[I] 07-28 20:21:20 BadgerRepo: updateMovementStatus OK — truck=236 statusId=1
+[I] 07-28 20:22:13 AppUpdater: Checking via website (current=216)
+[I] 07-28 20:22:13 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-28 20:22:13 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-28 20:22:14 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-28 20:22:18 Movement: Truck 231-1 status → 10
+[I] 07-28 20:22:18 BadgerRepo: updateMovementStatus OK — truck=231-1 statusId=13
+[I] 07-28 20:22:28 BadgerService: Realtime subscribed OK -- badger-svc-ba9b7f45-f53b-4e1b-abc2-5604c957c1ec status=SUBSCRIBED
+[I] 07-28 20:23:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-28 20:23:19 BadgerService: Keepalive scheduled in 900s
