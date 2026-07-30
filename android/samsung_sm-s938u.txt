@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-30 18:23:49 ===
-[I] 07-30 02:58:30 WatchNotif: ? Successfully sent to watch: Truck 245 - Yard ? Put Away
-[I] 07-30 02:59:49 AppUpdater: Checking via website (current=216)
-[I] 07-30 02:59:49 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-30 02:59:49 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-30 02:59:50 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-30 02:59:51 AppUpdater: Checking via website (current=216)
-[I] 07-30 02:59:51 AppUpdater: Checking via GitHub direct (current=216)
+=== samsung SM-S938U | v216 | shipped 2026-07-30 18:38:49 ===
 [I] 07-30 02:59:51 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 07-30 02:59:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 07-30 03:03:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-30 18:23:46 WatchNotif: ? Successfully sent to watch: Truck 186-2 - New ? Transfer
 [I] 07-30 18:23:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-30 18:23:49 BadgerService: Keepalive scheduled in 900s
+[I] 07-30 18:23:51 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-30 18:37:45 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 07-30 18:37:48 BadgerService: Realtime subscribed OK -- badger-svc-4fbfa5e9-7222-41e6-8150-addecde9774c status=SUBSCRIBED
+[W] 07-30 18:38:25 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 07-30 18:38:27 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-30 18:38:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-30 18:38:49 BadgerService: Keepalive scheduled in 900s
