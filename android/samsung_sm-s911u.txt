@@ -1,30 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-29 20:24:38 ===
-[I] 07-29 02:44:30 TTS: Speaking: Door 13B, Done for Night
-[I] 07-29 02:44:30 WatchNotif: ?? PUSHING NOTIF: Door 13B - End Of Truck Tote ? Done for Night (tag=watch_door_13B)
-[I] 07-29 02:44:30 WatchNotif: ?? Notif ID: -108073025
-[I] 07-29 02:44:30 WatchNotif: ? Successfully sent to watch: Door 13B - End Of Truck Tote ? Done for Night
-[I] 07-29 02:45:42 TTS: Speaking: Door 14B, End Of Truck Tote
-[I] 07-29 02:45:42 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? End Of Truck Tote (tag=watch_door_14B)
-[I] 07-29 02:45:42 WatchNotif: ?? Notif ID: -108072994
-[I] 07-29 02:45:42 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? End Of Truck Tote
-[I] 07-29 02:49:04 TTS: Speaking: Door 14B, Change Truck/Trailer
-[I] 07-29 02:49:04 WatchNotif: ?? PUSHING NOTIF: Door 14B - End Of Truck Tote ? Change Truck/Trailer (tag=watch_door_14B)
-[I] 07-29 02:49:04 WatchNotif: ?? Notif ID: -108072994
-[I] 07-29 02:49:04 WatchNotif: ? Successfully sent to watch: Door 14B - End Of Truck Tote ? Change Truck/Trailer
-[I] 07-29 02:49:07 TTS: Speaking: Truck 238, Put Away
-[I] 07-29 02:49:07 WatchNotif: ?? PUSHING NOTIF: Truck 238 - In Door ? Put Away (tag=watch_truck_238)
-[I] 07-29 02:49:07 WatchNotif: ?? Notif ID: -658231609
-[I] 07-29 02:49:07 WatchNotif: ? Successfully sent to watch: Truck 238 - In Door ? Put Away
-[I] 07-29 02:49:12 AppUpdater: Checking via website (current=216)
-[I] 07-29 02:49:12 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-29 02:49:12 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-29 02:49:14 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-29 02:49:26 Movement: Truck 242 status → In Door
-[I] 07-29 02:49:26 BadgerRepo: updateMovementStatus OK — truck=242 statusId=1
-[I] 07-29 02:49:26 TTS: Speaking: Truck 242, In Door
-[I] 07-29 02:49:26 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Front ? In Door (tag=watch_truck_242)
-[I] 07-29 02:49:26 WatchNotif: ?? Notif ID: -658231584
-[I] 07-29 02:49:26 WatchNotif: ? Successfully sent to watch: Truck 242 - In Front ? In Door
+=== samsung SM-S911U | v216 | shipped 2026-07-29 20:41:50 ===
 [I] 07-29 02:49:28 Movement: Door 14B status → Done for Night
 [I] 07-29 02:49:28 BadgerRepo: updateDoorStatus OK — id=4 status=Done for Night
 [I] 07-29 02:49:28 TTS: Speaking: Door 14B, Done for Night
@@ -499,3 +473,29 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-29 20:24:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-29 20:24:38 BadgerService: Keepalive scheduled in 900s
 [W] 07-29 20:24:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-29 20:24:41 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-29 20:24:47 Movement: Truck 230 status → In Front
+[I] 07-29 20:24:48 BadgerRepo: updateMovementStatus OK — truck=230 statusId=4
+[I] 07-29 20:25:57 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:25:57 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:25:57 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:25:58 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:26:39 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:26:39 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:26:39 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:26:40 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:26:47 Movement: Truck 246 status → In Front
+[I] 07-29 20:26:47 BadgerRepo: updateMovementStatus OK — truck=246 statusId=4
+[I] 07-29 20:26:50 BadgerService: Keepalive scheduled in 900s
+[I] 07-29 20:26:50 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-29 20:26:50 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
+[E] 07-29 20:26:50 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-29 20:26:50 TTS: Engine initialized OK
+[I] 07-29 20:26:50 TTS: Speaking: Badger live monitoring active
+[W] 07-29 20:26:51 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 07-29 20:41:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-29 20:41:50 BadgerService: Keepalive scheduled in 900s
+[W] 07-29 20:41:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 07-29 20:41:50 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 2
