@@ -1,51 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-30 02:48:03 ===
-[I] 07-29 21:49:34 TTS: Speaking: Truck 158, Ready
-[I] 07-29 21:49:34 WatchNotif: ?? PUSHING NOTIF: Truck 158 - Missing ? Ready (tag=watch_truck_158)
-[I] 07-29 21:49:34 WatchNotif: ?? Notif ID: -658232508
-[I] 07-29 21:49:34 WatchNotif: ? Successfully sent to watch: Truck 158 - Missing ? Ready
-[I] 07-29 21:49:53 PTT: PTT recording STARTED
-[I] 07-29 21:49:55 PTT: PTT recording STOPPED
-[I] 07-29 21:49:55 PTT: PTT sent OK — 32960 bytes
-[I] 07-29 21:49:55 PTT: Incoming PTT message received
-[I] 07-29 21:50:10 PTT: Incoming PTT message received
-[I] 07-29 21:50:19 PreShift: Truck 158 staged at door 26B front
-[W] 07-29 21:50:19 PreShift: Duplicate truck 158 force-staged (override) — Truck 158 is already assigned in the Print Room.
-[I] 07-29 21:50:19 TTS: Speaking: Preshift updated
-[I] 07-29 21:50:31 TTS: Speaking: Truck 160, In Front
-[I] 07-29 21:50:31 WatchNotif: ?? PUSHING NOTIF: Truck 160 - Ready ? In Front (tag=watch_truck_160)
-[I] 07-29 21:50:31 WatchNotif: ?? Notif ID: -658232485
-[I] 07-29 21:50:31 WatchNotif: ? Successfully sent to watch: Truck 160 - Ready ? In Front
-[I] 07-29 21:52:16 AppUpdater: Checking via website (current=216)
-[I] 07-29 21:52:17 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-29 21:52:17 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-29 21:52:17 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-29 21:53:20 AppUpdater: Checking via website (current=216)
-[I] 07-29 21:53:21 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-29 21:53:21 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-29 21:53:21 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-29 21:53:30 PreShift: Truck 238 staged at door 24A front
-[W] 07-29 21:53:30 PreShift: Duplicate truck 238 force-staged (override) — Truck 238 is already assigned in the Print Room.
-[I] 07-29 21:53:31 TTS: Speaking: Preshift updated
-[I] 07-29 21:53:37 TTS: Speaking: Truck 243, In Front
-[I] 07-29 21:53:37 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Back ? In Front (tag=watch_truck_243)
-[I] 07-29 21:53:37 WatchNotif: ?? Notif ID: -658231583
-[I] 07-29 21:53:37 WatchNotif: ? Successfully sent to watch: Truck 243 - In Back ? In Front
-[I] 07-29 21:53:38 Movement: Truck 238 status → Ready
-[I] 07-29 21:53:38 BadgerRepo: updateMovementStatus OK — truck=238 statusId=5
-[I] 07-29 21:53:38 TTS: Speaking: Truck 238, Ready
-[I] 07-29 21:53:38 WatchNotif: ?? PUSHING NOTIF: Truck 238 - Missing ? Ready (tag=watch_truck_238)
-[I] 07-29 21:53:38 WatchNotif: ?? Notif ID: -658231609
-[I] 07-29 21:53:38 WatchNotif: ? Successfully sent to watch: Truck 238 - Missing ? Ready
-[I] 07-29 21:59:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-29 21:59:31 BadgerService: Keepalive scheduled in 900s
-[I] 07-29 21:59:32 LogShipper: Shipped 448 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 07-29 22:10:53 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 07-29 22:10:53 BadgerService: Keepalive scheduled in 2s
-[I] 07-29 22:10:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-29 22:10:58 BadgerService: Keepalive scheduled in 900s
-[I] 07-29 22:10:59 LogShipper: Shipped 453 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 07-29 22:12:40 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
-[E] 07-29 22:13:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+=== samsung SM-S938U | v216 | shipped 2026-07-30 03:03:03 ===
 [E] 07-29 22:14:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
 [E] 07-29 22:14:42 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
 [E] 07-29 22:15:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
@@ -499,3 +452,50 @@
 [I] 07-30 02:47:11 WatchNotif: ? Successfully sent to watch: Truck 160 - In Door ? Put Away
 [I] 07-30 02:48:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-30 02:48:03 BadgerService: Keepalive scheduled in 900s
+[I] 07-30 02:48:05 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-30 02:48:43 TTS: Speaking: Door 15B, Done for Night
+[I] 07-30 02:48:43 WatchNotif: ?? PUSHING NOTIF: Door 15B - Change Truck/Trailer ? Done for Night (tag=watch_door_15B)
+[I] 07-30 02:48:43 WatchNotif: ?? Notif ID: -108072963
+[I] 07-30 02:48:43 WatchNotif: ? Successfully sent to watch: Door 15B - Change Truck/Trailer ? Done for Night
+[I] 07-30 02:48:45 TTS: Speaking: Truck 158, In Door
+[I] 07-30 02:48:45 WatchNotif: ?? PUSHING NOTIF: Truck 158 - In Front ? In Door (tag=watch_truck_158)
+[I] 07-30 02:48:45 WatchNotif: ?? Notif ID: -658232508
+[I] 07-30 02:48:45 WatchNotif: ? Successfully sent to watch: Truck 158 - In Front ? In Door
+[I] 07-30 02:49:50 TTS: Speaking: Truck 242, In Front
+[I] 07-30 02:49:50 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Back ? In Front (tag=watch_truck_242)
+[I] 07-30 02:49:50 WatchNotif: ?? Notif ID: -658231584
+[I] 07-30 02:49:50 WatchNotif: ? Successfully sent to watch: Truck 242 - In Back ? In Front
+[I] 07-30 02:51:54 TTS: Speaking: Door 15A, Change Truck/Trailer
+[I] 07-30 02:51:54 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Change Truck/Trailer (tag=watch_door_15A)
+[I] 07-30 02:51:54 WatchNotif: ?? Notif ID: -108072964
+[I] 07-30 02:51:54 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Change Truck/Trailer
+[I] 07-30 02:55:28 TTS: Speaking: Truck 245, Yard
+[I] 07-30 02:55:28 WatchNotif: ?? PUSHING NOTIF: Truck 245 - In Door ? Yard (tag=watch_truck_245)
+[I] 07-30 02:55:28 WatchNotif: ?? Notif ID: -658231581
+[I] 07-30 02:55:28 WatchNotif: ? Successfully sent to watch: Truck 245 - In Door ? Yard
+[I] 07-30 02:55:30 TTS: Speaking: Door 15A, Loading
+[I] 07-30 02:55:30 WatchNotif: ?? PUSHING NOTIF: Door 15A - Change Truck/Trailer ? Loading (tag=watch_door_15A)
+[I] 07-30 02:55:30 WatchNotif: ?? Notif ID: -108072964
+[I] 07-30 02:55:30 WatchNotif: ? Successfully sent to watch: Door 15A - Change Truck/Trailer ? Loading
+[I] 07-30 02:58:01 TTS: Speaking: Truck 141, In Door
+[I] 07-30 02:58:01 WatchNotif: ?? PUSHING NOTIF: Truck 141 - In Front ? In Door (tag=watch_truck_141)
+[I] 07-30 02:58:01 WatchNotif: ?? Notif ID: -658232546
+[I] 07-30 02:58:01 WatchNotif: ? Successfully sent to watch: Truck 141 - In Front ? In Door
+[I] 07-30 02:58:05 TTS: Speaking: Door 15A, Done for Night
+[I] 07-30 02:58:05 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Done for Night (tag=watch_door_15A)
+[I] 07-30 02:58:05 WatchNotif: ?? Notif ID: -108072964
+[I] 07-30 02:58:05 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Done for Night
+[I] 07-30 02:58:30 TTS: Speaking: Truck 245, Put Away
+[I] 07-30 02:58:30 WatchNotif: ?? PUSHING NOTIF: Truck 245 - Yard ? Put Away (tag=watch_truck_245)
+[I] 07-30 02:58:30 WatchNotif: ?? Notif ID: -658231581
+[I] 07-30 02:58:30 WatchNotif: ? Successfully sent to watch: Truck 245 - Yard ? Put Away
+[I] 07-30 02:59:49 AppUpdater: Checking via website (current=216)
+[I] 07-30 02:59:49 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-30 02:59:49 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-30 02:59:50 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-30 02:59:51 AppUpdater: Checking via website (current=216)
+[I] 07-30 02:59:51 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-30 02:59:51 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-30 02:59:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-30 03:03:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-30 03:03:03 BadgerService: Keepalive scheduled in 900s
