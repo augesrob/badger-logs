@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-30 06:51:06 ===
-[I] 07-30 00:20:52 WatchNotif: ?? PUSHING NOTIF: Door 13A - Change Truck/Trailer ? Loading (tag=watch_door_13A)
-[I] 07-30 00:20:52 WatchNotif: ?? Notif ID: -108073026
-[I] 07-30 00:20:52 WatchNotif: ? Successfully sent to watch: Door 13A - Change Truck/Trailer ? Loading
-[I] 07-30 00:20:55 TTS: Speaking: Truck 186-1, On Route
-[I] 07-30 00:20:55 WatchNotif: ?? Notif ID: -1201158781
-[I] 07-30 00:20:55 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Door ? On Route (tag=watch_truck_186-1)
-[I] 07-30 00:20:55 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Door ? On Route
-[I] 07-30 00:20:58 TTS: Speaking: Truck 240, In Door
+=== samsung SM-S938U | v216 | shipped 2026-07-30 07:35:34 ===
 [I] 07-30 00:20:58 WatchNotif: ?? PUSHING NOTIF: Truck 240 - In Front ? In Door (tag=watch_truck_240)
 [I] 07-30 00:20:58 WatchNotif: ?? Notif ID: -658231586
 [I] 07-30 00:20:58 WatchNotif: ? Successfully sent to watch: Truck 240 - In Front ? In Door
@@ -482,3 +474,28 @@
 [I] 07-30 06:51:06 BadgerService: Keepalive scheduled in 900s
 [W] 07-30 06:51:06 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-30 06:51:06 BadgerService: startRealtimeSync: in backoff for 214s more � skipping
+[I] 07-30 06:51:07 LogShipper: Shipped 483 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 07-30 06:51:13 BadgerService: startRealtimeSync: in backoff for 206s more � skipping
+[W] 07-30 06:51:13 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 07-30 06:55:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #46 in 300s)
+[E] 07-30 06:55:27 BadgerService: Realtime: 46 consecutive failures � cooling down 5 min
+[I] 07-30 07:20:34 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-30 07:20:34 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 07-30 07:20:34 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 07-30 07:20:34 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-30 07:20:34 AuthManager: Session expired — trying HWID silent login
+[I] 07-30 07:20:34 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 07-30 07:20:34 BadgerService: Keepalive scheduled in 900s
+[I] 07-30 07:20:34 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-30 07:20:34 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 07-30 07:20:34 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-30 07:20:35 AuthManager: HWID silent login OK
+[I] 07-30 07:20:35 AuthManager: Sign in OK — augesrob role=admin
+[I] 07-30 07:20:35 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 07-30 07:20:35 TTS: Engine initialized OK
+[I] 07-30 07:20:35 TTS: Speaking: Badger live monitoring active
+[I] 07-30 07:20:36 BadgerService: Realtime subscribed OK -- badger-svc-7520e4a9-9a1c-4385-93ed-e0ac67344c55 status=SUBSCRIBED
+[I] 07-30 07:35:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-30 07:35:34 BadgerService: Keepalive scheduled in 900s
