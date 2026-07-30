@@ -1,9 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-29 23:38:35 ===
-[I] 07-29 13:02:43 BadgerService: Keepalive scheduled in 900s
-[W] 07-29 13:02:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-29 13:02:46 LogShipper: Shipped 415 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 07-29 13:17:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-29 13:17:43 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S911U | v216 | shipped 2026-07-29 23:53:35 ===
 [W] 07-29 13:17:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 07-29 13:17:45 LogShipper: Shipped 419 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 07-29 13:32:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +494,8 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-29 23:35:55 WatchNotif: ? Successfully sent to watch: Door 13B - Change Truck/Trailer ? Loading
 [I] 07-29 23:38:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-29 23:38:35 BadgerService: Keepalive scheduled in 900s
+[I] 07-29 23:38:37 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 07-29 23:52:47 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 07-29 23:52:47 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 07-29 23:53:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-29 23:53:35 BadgerService: Keepalive scheduled in 900s
