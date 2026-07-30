@@ -1,21 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-29 20:44:31 ===
-[W] 07-29 13:25:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-29 13:25:47 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-29 13:26:31 BadgerService: Realtime: 98 consecutive failures � cooling down 5 min
-[E] 07-29 13:26:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #98 in 300s)
-[E] 07-29 13:32:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #99 in 300s)
-[E] 07-29 13:32:18 BadgerService: Realtime: 99 consecutive failures � cooling down 5 min
-[E] 07-29 13:38:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #100 in 300s)
-[E] 07-29 13:38:04 BadgerService: Realtime: 100 consecutive failures � cooling down 5 min
-[W] 07-29 13:40:45 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
-[W] 07-29 13:40:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 07-29 13:40:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-29 13:40:47 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 07-29 13:43:50 BadgerService: Realtime: 101 consecutive failures � cooling down 5 min
-[E] 07-29 13:43:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #101 in 300s)
-[E] 07-29 13:48:50 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
-[E] 07-29 13:49:36 BadgerService: Realtime: 102 consecutive failures � cooling down 5 min
-[E] 07-29 13:49:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #102 in 300s)
+=== samsung SM-S938U | v216 | shipped 2026-07-29 20:59:31 ===
 [E] 07-29 13:55:22 BadgerService: Realtime: 103 consecutive failures � cooling down 5 min
 [E] 07-29 13:55:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #103 in 300s)
 [I] 07-29 13:55:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -449,3 +432,70 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-29 20:33:52 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 07-29 20:44:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-29 20:44:31 BadgerService: Keepalive scheduled in 900s
+[I] 07-29 20:44:31 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:44:31 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:44:31 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:44:32 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:44:32 LogShipper: Shipped 450 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-29 20:45:27 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:45:27 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:45:27 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:45:28 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:45:29 Movement: Door 13A status → End Of Truck Tote
+[I] 07-29 20:45:29 BadgerRepo: updateDoorStatus OK — id=1 status=End Of Truck Tote
+[I] 07-29 20:45:29 TTS: Speaking: Door 13A, End Of Truck Tote
+[I] 07-29 20:45:29 WatchNotif: ?? PUSHING NOTIF: Door 13A - Loading ? End Of Truck Tote (tag=watch_door_13A)
+[I] 07-29 20:45:29 WatchNotif: ?? Notif ID: -108073026
+[I] 07-29 20:45:29 WatchNotif: ? Successfully sent to watch: Door 13A - Loading ? End Of Truck Tote
+[I] 07-29 20:48:01 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:48:01 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:48:01 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:48:02 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:48:17 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:48:17 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:48:17 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:48:17 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:51:21 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:51:21 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:51:21 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:51:22 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:52:38 TTS: Speaking: Door 13A, Change Truck/Trailer
+[I] 07-29 20:52:38 WatchNotif: ?? PUSHING NOTIF: Door 13A - End Of Truck Tote ? Change Truck/Trailer (tag=watch_door_13A)
+[I] 07-29 20:52:38 WatchNotif: ?? Notif ID: -108073026
+[I] 07-29 20:52:38 WatchNotif: ? Successfully sent to watch: Door 13A - End Of Truck Tote ? Change Truck/Trailer
+[I] 07-29 20:52:46 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:52:46 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:52:46 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:52:47 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:52:49 Movement: Truck 248-1 status → On Route
+[I] 07-29 20:52:49 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=3
+[I] 07-29 20:52:49 TTS: Speaking: Truck 248-1, On Route
+[I] 07-29 20:52:49 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - In Door ? On Route (tag=watch_truck_248-1)
+[I] 07-29 20:52:49 WatchNotif: ?? Notif ID: -1200352502
+[I] 07-29 20:52:49 WatchNotif: ? Successfully sent to watch: Truck 248-1 - In Door ? On Route
+[I] 07-29 20:52:51 Movement: Truck 186-1 status → In Door
+[I] 07-29 20:52:51 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=1
+[I] 07-29 20:52:52 TTS: Speaking: Truck 186-1, In Door
+[I] 07-29 20:52:52 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Front ? In Door (tag=watch_truck_186-1)
+[I] 07-29 20:52:52 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-29 20:52:52 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Front ? In Door
+[I] 07-29 20:54:45 AppUpdater: Checking via website (current=216)
+[I] 07-29 20:54:45 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-29 20:54:45 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-29 20:54:46 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-29 20:54:52 TTS: Speaking: Truck 175, In Front
+[I] 07-29 20:54:52 WatchNotif: ?? PUSHING NOTIF: Truck 175 - In Back ? In Front (tag=watch_truck_175)
+[I] 07-29 20:54:52 WatchNotif: ?? Notif ID: -658232449
+[I] 07-29 20:54:52 WatchNotif: ? Successfully sent to watch: Truck 175 - In Back ? In Front
+[I] 07-29 20:54:58 Movement: Door 13A status → Loading
+[I] 07-29 20:54:58 BadgerRepo: updateDoorStatus OK — id=1 status=Loading
+[I] 07-29 20:54:58 TTS: Speaking: Door 13A, Loading
+[I] 07-29 20:54:58 WatchNotif: ?? PUSHING NOTIF: Door 13A - Change Truck/Trailer ? Loading (tag=watch_door_13A)
+[I] 07-29 20:54:58 WatchNotif: ?? Notif ID: -108073026
+[I] 07-29 20:54:58 WatchNotif: ? Successfully sent to watch: Door 13A - Change Truck/Trailer ? Loading
+[I] 07-29 20:56:19 TTS: Speaking: Truck 240, In Front
+[I] 07-29 20:56:19 WatchNotif: ?? PUSHING NOTIF: Truck 240 - Ready ? In Front (tag=watch_truck_240)
+[I] 07-29 20:56:19 WatchNotif: ?? Notif ID: -658231586
+[I] 07-29 20:56:19 WatchNotif: ? Successfully sent to watch: Truck 240 - Ready ? In Front
+[I] 07-29 20:59:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-29 20:59:31 BadgerService: Keepalive scheduled in 900s
