@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-30 03:18:03 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-30 03:33:03 ===
 [I] 07-30 00:20:52 WatchNotif: ?? PUSHING NOTIF: Door 13A - Change Truck/Trailer ? Loading (tag=watch_door_13A)
 [I] 07-30 00:20:52 WatchNotif: ?? Notif ID: -108073026
 [I] 07-30 00:20:52 WatchNotif: ? Successfully sent to watch: Door 13A - Change Truck/Trailer ? Loading
@@ -326,3 +326,16 @@
 [I] 07-30 03:18:03 BadgerService: Keepalive scheduled in 900s
 [W] 07-30 03:18:03 BadgerService: startRealtimeSync: in backoff for 61s more � skipping
 [W] 07-30 03:18:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-30 03:18:05 LogShipper: Shipped 327 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-30 03:19:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 07-30 03:21:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 07-30 03:24:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 07-30 03:26:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 07-30 03:28:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 07-30 03:30:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 07-30 03:32:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[E] 07-30 03:32:27 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[I] 07-30 03:33:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-30 03:33:03 BadgerService: Keepalive scheduled in 900s
+[W] 07-30 03:33:03 BadgerService: startRealtimeSync: in backoff for 264s more � skipping
+[W] 07-30 03:33:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
