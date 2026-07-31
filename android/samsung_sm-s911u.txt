@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-30 04:38:35 ===
+=== samsung SM-S911U | v216 | shipped 2026-07-30 21:02:02 ===
 [I] 07-30 00:14:23 WatchNotif: ? Successfully sent to watch: Door 14B - Move to Receiving ? Loading
 [I] 07-30 00:14:26 TTS: Speaking: Truck 187-2, 8
 [I] 07-30 00:14:26 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Door ? 8 (tag=watch_truck_187-2)
@@ -328,3 +328,72 @@
 [I] 07-30 04:38:35 BadgerService: Keepalive scheduled in 900s
 [W] 07-30 04:38:35 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-30 04:38:35 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
+[I] 07-30 04:38:36 LogShipper: Shipped 329 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 07-30 04:40:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #42 in 300s)
+[E] 07-30 04:40:32 BadgerService: Realtime: 42 consecutive failures � cooling down 5 min
+[E] 07-30 04:46:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #43 in 300s)
+[E] 07-30 04:46:19 BadgerService: Realtime: 43 consecutive failures � cooling down 5 min
+[I] 07-30 04:47:43 AppUpdater: Checking via website (current=216)
+[I] 07-30 04:47:44 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-30 04:47:44 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-30 04:47:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-30 04:47:47 AppUpdater: Checking via website (current=0)
+[I] 07-30 04:47:47 AppUpdater: Update found via website: access-v216
+[I] 07-30 04:47:50 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 07-30 20:46:48 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-30 20:46:48 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-30 20:46:48 MainActivity: BadgerService started (mic=true)
+[W] 07-30 20:46:48 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-30 20:46:48 AuthManager: Session expired — trying HWID silent login
+[I] 07-30 20:46:48 AppUpdater: Checking via website (current=216)
+[I] 07-30 20:46:48 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 07-30 20:46:49 BadgerService: Keepalive scheduled in 900s
+[I] 07-30 20:46:49 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-30 20:46:49 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
+[E] 07-30 20:46:49 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-30 20:46:49 AuthManager: Sign in OK — felipe role=admin
+[I] 07-30 20:46:49 AuthManager: HWID silent login OK
+[I] 07-30 20:46:49 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 07-30 20:46:50 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-30 20:46:50 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-30 20:46:50 BadgerService: Realtime subscribed OK -- badger-svc-26e6ac50-773c-4324-b568-3ee1c8e51550 status=SUBSCRIBED
+[I] 07-30 20:46:50 TTS: Engine initialized OK
+[I] 07-30 20:46:50 TTS: Speaking: Badger live monitoring active
+[I] 07-30 20:46:50 AppUpdater: Checking via website (current=0)
+[I] 07-30 20:46:50 AppUpdater: Update found via website: access-v216
+[I] 07-30 20:46:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-30 20:46:52 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 07-30 20:47:02 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-30 20:47:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 07-30 20:47:02 MainActivity: BadgerService started (mic=true)
+[W] 07-30 20:47:02 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 07-30 20:47:02 AuthManager: Session expired — trying HWID silent login
+[I] 07-30 20:47:02 AppUpdater: Checking via website (current=216)
+[I] 07-30 20:47:02 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 07-30 20:47:02 BadgerService: Keepalive scheduled in 900s
+[I] 07-30 20:47:02 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 07-30 20:47:02 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
+[E] 07-30 20:47:02 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 07-30 20:47:02 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-30 20:47:02 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-30 20:47:02 TTS: Engine initialized OK
+[I] 07-30 20:47:02 TTS: Speaking: Badger live monitoring active
+[I] 07-30 20:47:03 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-30 20:47:03 AuthManager: Sign in OK — felipe role=admin
+[I] 07-30 20:47:03 AuthManager: HWID silent login OK
+[I] 07-30 20:47:03 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 07-30 20:47:03 BadgerService: Realtime subscribed OK -- badger-svc-3c1ed4b0-5f0b-4669-988e-72a553f94813 status=SUBSCRIBED
+[I] 07-30 20:54:48 AppUpdater: Checking via website (current=216)
+[I] 07-30 20:54:49 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-30 20:54:49 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-30 20:54:50 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-30 21:00:53 AppUpdater: Checking via website (current=216)
+[I] 07-30 21:00:54 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-30 21:00:54 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-30 21:00:55 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-30 21:02:02 BadgerService: Keepalive scheduled in 900s
+[I] 07-30 21:02:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
