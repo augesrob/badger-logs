@@ -1,5 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-31 00:17:02 ===
-[E] 07-30 04:17:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #38 in 300s)
+=== samsung SM-S911U | v216 | shipped 2026-07-31 00:32:02 ===
 [E] 07-30 04:17:27 BadgerService: Realtime: 38 consecutive failures � cooling down 5 min
 [E] 07-30 04:23:13 BadgerService: Realtime: 39 consecutive failures � cooling down 5 min
 [E] 07-30 04:23:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #39 in 300s)
@@ -426,3 +425,77 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-31 00:16:23 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 07-31 00:17:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-31 00:17:02 BadgerService: Keepalive scheduled in 900s
+[I] 07-31 00:17:03 LogShipper: Shipped 427 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-31 00:20:43 TTS: Speaking: Door 15A, Change Truck/Trailer
+[I] 07-31 00:20:43 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Change Truck/Trailer (tag=watch_door_15A)
+[I] 07-31 00:20:43 WatchNotif: ?? Notif ID: -108072964
+[I] 07-31 00:20:43 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Change Truck/Trailer
+[I] 07-31 00:20:47 TTS: Speaking: Door 15A, Move to Receiving
+[I] 07-31 00:20:47 WatchNotif: ?? PUSHING NOTIF: Door 15A - Change Truck/Trailer ? Move to Receiving (tag=watch_door_15A)
+[I] 07-31 00:20:47 WatchNotif: ?? Notif ID: -108072964
+[I] 07-31 00:20:47 WatchNotif: ? Successfully sent to watch: Door 15A - Change Truck/Trailer ? Move to Receiving
+[I] 07-31 00:24:22 PTT: Incoming PTT message received
+[I] 07-31 00:24:39 AppUpdater: Checking via website (current=216)
+[I] 07-31 00:24:40 PTT: PTT recording STARTED
+[I] 07-31 00:24:40 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-31 00:24:40 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-31 00:24:41 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-31 00:24:42 PTT: PTT recording STOPPED
+[I] 07-31 00:24:42 PTT: PTT sent OK — 27200 bytes
+[I] 07-31 00:24:42 PTT: Incoming PTT message received
+[I] 07-31 00:24:57 PTT: Incoming PTT message received
+[I] 07-31 00:25:04 PTT: PTT recording STARTED
+[I] 07-31 00:25:06 PTT: PTT recording STOPPED
+[I] 07-31 00:25:06 PTT: PTT sent OK — 32640 bytes
+[I] 07-31 00:25:07 PTT: Incoming PTT message received
+[I] 07-31 00:25:40 PTT: Incoming PTT message received
+[I] 07-31 00:25:52 AppUpdater: Checking via website (current=216)
+[I] 07-31 00:25:53 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-31 00:25:53 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-31 00:25:53 PTT: PTT recording STARTED
+[I] 07-31 00:25:54 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-31 00:25:56 PTT: PTT recording STOPPED
+[I] 07-31 00:25:56 PTT: Incoming PTT message received
+[I] 07-31 00:25:56 PTT: PTT sent OK — 42880 bytes
+[I] 07-31 00:25:58 PTT: Incoming PTT message received
+[I] 07-31 00:26:03 PTT: PTT recording STARTED
+[I] 07-31 00:26:07 PTT: Incoming PTT message received
+[I] 07-31 00:26:08 PTT: PTT recording STOPPED
+[I] 07-31 00:26:09 PTT: PTT sent OK — 83520 bytes
+[I] 07-31 00:26:10 PTT: Incoming PTT message received
+[I] 07-31 00:30:36 AppUpdater: Checking via website (current=216)
+[I] 07-31 00:30:36 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 07-31 00:30:36 AppUpdater: Checking via GitHub direct (current=216)
+[I] 07-31 00:30:37 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 07-31 00:30:39 Movement: Door 15A status → Loading
+[I] 07-31 00:30:39 BadgerRepo: updateDoorStatus OK — id=5 status=Loading
+[I] 07-31 00:30:39 TTS: Speaking: Door 15A, Loading
+[I] 07-31 00:30:39 WatchNotif: ?? PUSHING NOTIF: Door 15A - Move to Receiving ? Loading (tag=watch_door_15A)
+[I] 07-31 00:30:39 WatchNotif: ?? Notif ID: -108072964
+[I] 07-31 00:30:39 WatchNotif: ? Successfully sent to watch: Door 15A - Move to Receiving ? Loading
+[I] 07-31 00:30:46 Movement: Truck 186-2 status → In Door
+[I] 07-31 00:30:46 BadgerRepo: updateMovementStatus OK — truck=186-2 statusId=1
+[I] 07-31 00:30:46 TTS: Speaking: Truck 186-2, In Door
+[I] 07-31 00:30:46 WatchNotif: ?? PUSHING NOTIF: Truck 186-2 - In Front ? In Door (tag=watch_truck_186-2)
+[I] 07-31 00:30:46 WatchNotif: ?? Notif ID: -1201158780
+[I] 07-31 00:30:46 WatchNotif: ? Successfully sent to watch: Truck 186-2 - In Front ? In Door
+[I] 07-31 00:30:49 Movement: Truck 248-2 status → 8
+[I] 07-31 00:30:49 BadgerRepo: updateMovementStatus OK — truck=248-2 statusId=11
+[I] 07-31 00:30:49 TTS: Speaking: Truck 248-2, 8
+[I] 07-31 00:30:49 WatchNotif: ?? Notif ID: -1200352501
+[I] 07-31 00:30:49 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - In Door ? 8 (tag=watch_truck_248-2)
+[I] 07-31 00:30:49 WatchNotif: ? Successfully sent to watch: Truck 248-2 - In Door ? 8
+[I] 07-31 00:31:22 Movement: Truck 186-1 status → In Door
+[I] 07-31 00:31:23 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=1
+[I] 07-31 00:31:23 TTS: Speaking: Truck 186-1, In Door
+[I] 07-31 00:31:23 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Door No Tractor ? In Door (tag=watch_truck_186-1)
+[I] 07-31 00:31:23 WatchNotif: ?? Notif ID: -1201158781
+[I] 07-31 00:31:23 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Door No Tractor ? In Door
+[I] 07-31 00:31:49 Movement: Truck 242 status → In Front
+[I] 07-31 00:31:49 BadgerRepo: updateMovementStatus OK — truck=242 statusId=4
+[I] 07-31 00:31:49 TTS: Speaking: Truck 242, In Front
+[I] 07-31 00:31:49 WatchNotif: ?? Notif ID: -658231584
+[I] 07-31 00:31:49 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Back ? In Front (tag=watch_truck_242)
+[I] 07-31 00:31:49 WatchNotif: ? Successfully sent to watch: Truck 242 - In Back ? In Front
+[I] 07-31 00:32:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-31 00:32:02 BadgerService: Keepalive scheduled in 900s
