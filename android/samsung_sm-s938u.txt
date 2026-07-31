@@ -1,15 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-31 06:44:45 ===
-[I] 07-31 00:24:21 PTT: PTT sent OK — 60160 bytes
-[I] 07-31 00:24:21 PTT: Incoming PTT message received
-[I] 07-31 00:24:42 PTT: Incoming PTT message received
-[I] 07-31 00:24:51 PTT: PTT recording STARTED
-[I] 07-31 00:24:57 PTT: PTT recording STOPPED
-[I] 07-31 00:24:57 PTT: PTT sent OK — 87040 bytes
-[I] 07-31 00:24:57 PTT: Incoming PTT message received
-[I] 07-31 00:25:07 PTT: Incoming PTT message received
-[I] 07-31 00:25:35 PTT: PTT recording STARTED
-[I] 07-31 00:25:39 PTT: PTT recording STOPPED
-[I] 07-31 00:25:39 PTT: PTT sent OK — 56320 bytes
+=== samsung SM-S938U | v216 | shipped 2026-07-31 06:59:45 ===
 [I] 07-31 00:25:39 PTT: Incoming PTT message received
 [I] 07-31 00:25:54 PTT: PTT recording STARTED
 [I] 07-31 00:25:56 PTT: PTT recording STOPPED
@@ -499,3 +488,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-31 06:44:45 BadgerService: Keepalive scheduled in 900s
 [W] 07-31 06:44:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-31 06:44:45 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
+[I] 07-31 06:44:47 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-31 06:47:50 BadgerService: Realtime: 27 consecutive failures � cooling down 5 min
+[E] 07-31 06:47:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #27 in 300s)
+[E] 07-31 06:53:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #28 in 300s)
+[E] 07-31 06:53:36 BadgerService: Realtime: 28 consecutive failures � cooling down 5 min
+[E] 07-31 06:59:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #29 in 300s)
+[E] 07-31 06:59:22 BadgerService: Realtime: 29 consecutive failures � cooling down 5 min
+[I] 07-31 06:59:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-31 06:59:45 BadgerService: Keepalive scheduled in 900s
+[W] 07-31 06:59:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-31 06:59:45 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
