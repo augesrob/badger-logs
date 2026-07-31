@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-31 10:52:03 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-31 11:07:03 ===
 [I] 07-31 01:49:05 TTS: Speaking: Truck 238, In Front
 [I] 07-31 01:49:05 WatchNotif: ?? PUSHING NOTIF: Truck 238 - In Back ? In Front (tag=watch_truck_238)
 [I] 07-31 01:49:05 WatchNotif: ?? Notif ID: -658231609
@@ -444,3 +444,12 @@
 [I] 07-31 10:52:03 BadgerService: Keepalive scheduled in 900s
 [W] 07-31 10:52:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 07-31 10:52:03 BadgerService: startRealtimeSync: in backoff for 277s more � skipping
+[I] 07-31 10:52:04 LogShipper: Shipped 445 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 07-31 10:57:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #70 in 300s)
+[E] 07-31 10:57:26 BadgerService: Realtime: 70 consecutive failures � cooling down 5 min
+[E] 07-31 11:03:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #71 in 300s)
+[E] 07-31 11:03:12 BadgerService: Realtime: 71 consecutive failures � cooling down 5 min
+[I] 07-31 11:07:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-31 11:07:03 BadgerService: Keepalive scheduled in 900s
+[W] 07-31 11:07:03 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 07-31 11:07:03 BadgerService: startRealtimeSync: in backoff for 69s more � skipping
