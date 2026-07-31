@@ -1,43 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-31 00:47:02 ===
-[I] 07-30 20:46:48 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-30 20:46:48 MainActivity: BadgerService started (mic=true)
-[W] 07-30 20:46:48 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-30 20:46:48 AuthManager: Session expired — trying HWID silent login
-[I] 07-30 20:46:48 AppUpdater: Checking via website (current=216)
-[I] 07-30 20:46:48 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 07-30 20:46:49 BadgerService: Keepalive scheduled in 900s
-[I] 07-30 20:46:49 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-30 20:46:49 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
-[E] 07-30 20:46:49 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-30 20:46:49 AuthManager: Sign in OK — felipe role=admin
-[I] 07-30 20:46:49 AuthManager: HWID silent login OK
-[I] 07-30 20:46:49 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 07-30 20:46:50 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-30 20:46:50 AppUpdater: Checking via GitHub direct (current=216)
-[I] 07-30 20:46:50 BadgerService: Realtime subscribed OK -- badger-svc-26e6ac50-773c-4324-b568-3ee1c8e51550 status=SUBSCRIBED
-[I] 07-30 20:46:50 TTS: Engine initialized OK
-[I] 07-30 20:46:50 TTS: Speaking: Badger live monitoring active
-[I] 07-30 20:46:50 AppUpdater: Checking via website (current=0)
-[I] 07-30 20:46:50 AppUpdater: Update found via website: access-v216
-[I] 07-30 20:46:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 07-30 20:46:52 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-30 20:47:02 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-30 20:47:02 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-30 20:47:02 MainActivity: BadgerService started (mic=true)
-[W] 07-30 20:47:02 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-30 20:47:02 AuthManager: Session expired — trying HWID silent login
-[I] 07-30 20:47:02 AppUpdater: Checking via website (current=216)
-[I] 07-30 20:47:02 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 07-30 20:47:02 BadgerService: Keepalive scheduled in 900s
-[I] 07-30 20:47:02 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-30 20:47:02 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
-[E] 07-30 20:47:02 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-30 20:47:02 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 07-30 20:47:02 AppUpdater: Checking via GitHub direct (current=216)
+=== samsung SM-S911U | v216 | shipped 2026-07-31 01:02:02 ===
 [I] 07-30 20:47:02 TTS: Engine initialized OK
 [I] 07-30 20:47:02 TTS: Speaking: Badger live monitoring active
 [I] 07-30 20:47:03 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -499,3 +460,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-31 00:45:33 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 07-31 00:47:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-31 00:47:02 BadgerService: Keepalive scheduled in 900s
+[I] 07-31 00:47:04 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 07-31 00:52:01 TTS: Speaking: Door 13B, Change Truck/Trailer
+[I] 07-31 00:52:01 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? Change Truck/Trailer (tag=watch_door_13B)
+[I] 07-31 00:52:01 WatchNotif: ?? Notif ID: -108073025
+[I] 07-31 00:52:01 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Change Truck/Trailer
+[I] 07-31 00:52:46 TTS: Speaking: Truck 246, In Door
+[I] 07-31 00:52:46 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Front ? In Door (tag=watch_truck_246)
+[I] 07-31 00:52:46 WatchNotif: ?? Notif ID: -658231580
+[I] 07-31 00:52:46 WatchNotif: ? Successfully sent to watch: Truck 246 - In Front ? In Door
+[I] 07-31 00:52:47 TTS: Speaking: Truck 246, In Front
+[I] 07-31 00:52:47 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Door ? In Front (tag=watch_truck_246)
+[I] 07-31 00:52:47 WatchNotif: ?? Notif ID: -658231580
+[I] 07-31 00:52:47 WatchNotif: ? Successfully sent to watch: Truck 246 - In Door ? In Front
+[I] 07-31 00:52:47 TTS: Speaking: Door 13B, Loading
+[I] 07-31 00:52:47 WatchNotif: ?? Notif ID: -108073025
+[I] 07-31 00:52:47 WatchNotif: ?? PUSHING NOTIF: Door 13B - Change Truck/Trailer ? Loading (tag=watch_door_13B)
+[I] 07-31 00:52:47 WatchNotif: ? Successfully sent to watch: Door 13B - Change Truck/Trailer ? Loading
+[I] 07-31 00:52:53 TTS: Speaking: Truck 246, In Door
+[I] 07-31 00:52:53 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Front ? In Door (tag=watch_truck_246)
+[I] 07-31 00:52:53 WatchNotif: ?? Notif ID: -658231580
+[I] 07-31 00:52:53 WatchNotif: ? Successfully sent to watch: Truck 246 - In Front ? In Door
+[I] 07-31 00:54:24 TTS: Speaking: Truck 223-2, 9
+[I] 07-31 00:54:24 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - In Door ? 9 (tag=watch_truck_223-2)
+[I] 07-31 00:54:24 WatchNotif: ?? Notif ID: -1200416888
+[I] 07-31 00:54:24 WatchNotif: ? Successfully sent to watch: Truck 223-2 - In Door ? 9
+[I] 07-31 00:55:20 TTS: Speaking: Truck 187-1, On Route
+[I] 07-31 00:55:20 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? On Route (tag=watch_truck_187-1)
+[I] 07-31 00:55:20 WatchNotif: ?? Notif ID: -1201157820
+[I] 07-31 00:55:20 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? On Route
+[I] 07-31 00:55:23 TTS: Speaking: Truck 220, In Door
+[I] 07-31 00:55:23 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Front ? In Door (tag=watch_truck_220)
+[I] 07-31 00:55:23 WatchNotif: ?? Notif ID: -658231648
+[I] 07-31 00:55:23 WatchNotif: ? Successfully sent to watch: Truck 220 - In Front ? In Door
+[I] 07-31 01:01:35 TTS: Speaking: Truck 160, In Front
+[I] 07-31 01:01:35 WatchNotif: ?? PUSHING NOTIF: Truck 160 - Ready ? In Front (tag=watch_truck_160)
+[I] 07-31 01:01:35 WatchNotif: ?? Notif ID: -658232485
+[I] 07-31 01:01:35 WatchNotif: ? Successfully sent to watch: Truck 160 - Ready ? In Front
+[I] 07-31 01:02:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-31 01:02:02 BadgerService: Keepalive scheduled in 900s
