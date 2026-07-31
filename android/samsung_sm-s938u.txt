@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-07-31 01:59:45 ===
+=== samsung SM-S938U | v216 | shipped 2026-07-31 02:14:45 ===
 [E] 07-30 23:01:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
 [E] 07-30 23:03:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
 [E] 07-30 23:05:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
@@ -344,3 +344,22 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 07-31 01:59:26 WatchNotif: ? Successfully sent to watch: Truck 216 - In Front ? In Door
 [I] 07-31 01:59:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 07-31 01:59:45 BadgerService: Keepalive scheduled in 900s
+[I] 07-31 01:59:46 LogShipper: Shipped 345 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 07-31 02:09:15 TTS: Speaking: Truck 241, In Back
+[I] 07-31 02:09:15 WatchNotif: ?? PUSHING NOTIF: Truck 241 - Yard ? In Back (tag=watch_truck_241)
+[I] 07-31 02:09:15 WatchNotif: ?? Notif ID: -658231585
+[I] 07-31 02:09:15 WatchNotif: ? Successfully sent to watch: Truck 241 - Yard ? In Back
+[I] 07-31 02:09:18 TTS: Speaking: Truck 241, Put Away
+[I] 07-31 02:09:18 WatchNotif: ?? PUSHING NOTIF: Truck 241 - In Back ? Put Away (tag=watch_truck_241)
+[I] 07-31 02:09:18 WatchNotif: ?? Notif ID: -658231585
+[I] 07-31 02:09:18 WatchNotif: ? Successfully sent to watch: Truck 241 - In Back ? Put Away
+[I] 07-31 02:13:02 TTS: Speaking: Truck 240, Put Away
+[I] 07-31 02:13:02 WatchNotif: ?? PUSHING NOTIF: Truck 240 - Yard ? Put Away (tag=watch_truck_240)
+[I] 07-31 02:13:02 WatchNotif: ?? Notif ID: -658231586
+[I] 07-31 02:13:02 WatchNotif: ? Successfully sent to watch: Truck 240 - Yard ? Put Away
+[I] 07-31 02:13:19 TTS: Speaking: Truck 228, In Front
+[I] 07-31 02:13:19 WatchNotif: ?? Notif ID: -658231640
+[I] 07-31 02:13:19 WatchNotif: ?? PUSHING NOTIF: Truck 228 - Ready ? In Front (tag=watch_truck_228)
+[I] 07-31 02:13:19 WatchNotif: ? Successfully sent to watch: Truck 228 - Ready ? In Front
+[I] 07-31 02:14:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 07-31 02:14:45 BadgerService: Keepalive scheduled in 900s
