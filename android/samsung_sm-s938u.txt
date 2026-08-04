@@ -1,15 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-04 06:39:50 ===
-[I] 08-04 01:19:37 WatchNotif: ?? Notif ID: -658231583
-[I] 08-04 01:19:37 WatchNotif: ? Successfully sent to watch: Truck 243 - In Front ? In Door
-[I] 08-04 01:19:46 PTT: Incoming PTT message received
-[I] 08-04 01:21:19 AppUpdater: Checking via website (current=216)
-[I] 08-04 01:21:19 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-04 01:21:19 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-04 01:21:19 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 08-04 01:21:28 Movement: Door 14B status → Loading
-[I] 08-04 01:21:28 BadgerRepo: updateDoorStatus OK — id=4 status=Loading
-[I] 08-04 01:22:13 TTS: Speaking: Truck 194, In Front
-[I] 08-04 01:22:13 WatchNotif: ?? PUSHING NOTIF: Truck 194 - In Back ? In Front (tag=watch_truck_194)
+=== samsung SM-S938U | v216 | shipped 2026-08-04 06:54:50 ===
 [I] 08-04 01:22:13 WatchNotif: ?? Notif ID: -658232388
 [I] 08-04 01:22:13 WatchNotif: ? Successfully sent to watch: Truck 194 - In Back ? In Front
 [I] 08-04 01:24:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +488,14 @@
 [I] 08-04 06:39:50 BadgerService: Keepalive scheduled in 900s
 [W] 08-04 06:39:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-04 06:39:50 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
+[I] 08-04 06:39:51 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-04 06:42:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #41 in 300s)
+[E] 08-04 06:42:55 BadgerService: Realtime: 41 consecutive failures � cooling down 5 min
+[E] 08-04 06:48:41 BadgerService: Realtime: 42 consecutive failures � cooling down 5 min
+[E] 08-04 06:48:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #42 in 300s)
+[E] 08-04 06:54:27 BadgerService: Realtime: 43 consecutive failures � cooling down 5 min
+[E] 08-04 06:54:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #43 in 300s)
+[I] 08-04 06:54:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-04 06:54:50 BadgerService: Keepalive scheduled in 900s
+[W] 08-04 06:54:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-04 06:54:50 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
