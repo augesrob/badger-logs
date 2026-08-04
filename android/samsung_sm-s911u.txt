@@ -1,15 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-04 09:53:49 ===
-[I] 08-04 01:42:55 AppUpdater: Checking via website (current=216)
-[I] 08-04 01:42:55 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-04 01:42:55 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-04 01:42:56 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 08-04 01:43:11 Movement: Truck 152 status → In Door
-[I] 08-04 01:43:11 BadgerRepo: updateMovementStatus OK — truck=152 statusId=1
-[I] 08-04 01:43:11 TTS: Speaking: Truck 152, In Door
-[I] 08-04 01:43:11 WatchNotif: ?? Notif ID: -658232514
-[I] 08-04 01:43:11 WatchNotif: ?? PUSHING NOTIF: Truck 152 - In Front ? In Door (tag=watch_truck_152)
-[I] 08-04 01:43:11 WatchNotif: ? Successfully sent to watch: Truck 152 - In Front ? In Door
-[I] 08-04 01:43:15 Movement: Door 15B status → Loading
+=== samsung SM-S911U | v216 | shipped 2026-08-04 10:08:49 ===
 [I] 08-04 01:43:15 BadgerRepo: updateDoorStatus OK — id=6 status=Loading
 [I] 08-04 01:43:16 TTS: Speaking: Door 15B, Loading
 [I] 08-04 01:43:16 WatchNotif: ?? PUSHING NOTIF: Door 15B - Change Truck/Trailer ? Loading (tag=watch_door_15B)
@@ -499,3 +488,14 @@
 [I] 08-04 09:53:49 BadgerService: Keepalive scheduled in 900s
 [W] 08-04 09:53:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-04 09:53:49 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
+[I] 08-04 09:53:51 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 08-04 09:54:39 BadgerService: Realtime: 81 consecutive failures � cooling down 5 min
+[E] 08-04 09:54:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #81 in 300s)
+[E] 08-04 10:00:25 BadgerService: Realtime: 82 consecutive failures � cooling down 5 min
+[E] 08-04 10:00:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #82 in 300s)
+[E] 08-04 10:06:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #83 in 300s)
+[E] 08-04 10:06:11 BadgerService: Realtime: 83 consecutive failures � cooling down 5 min
+[I] 08-04 10:08:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-04 10:08:49 BadgerService: Keepalive scheduled in 900s
+[W] 08-04 10:08:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-04 10:08:49 BadgerService: startRealtimeSync: in backoff for 142s more � skipping
