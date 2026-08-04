@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-04 07:27:54 ===
-[I] 08-04 01:29:02 BadgerRepo: updateDoorStatus OK — id=5 status=EOT+1
-[I] 08-04 01:29:03 TTS: Speaking: Door 15A, EOT+1
-[I] 08-04 01:29:03 WatchNotif: ?? Notif ID: -108072964
-[I] 08-04 01:29:03 WatchNotif: ?? PUSHING NOTIF: Door 15A - End Of Truck Tote ? EOT+1 (tag=watch_door_15A)
-[I] 08-04 01:29:03 WatchNotif: ? Successfully sent to watch: Door 15A - End Of Truck Tote ? EOT+1
-[I] 08-04 01:30:10 TTS: Speaking: Truck 195, In Door
-[I] 08-04 01:30:10 WatchNotif: ?? PUSHING NOTIF: Truck 195 - In Front ? In Door (tag=watch_truck_195)
+=== samsung SM-S938U | v216 | shipped 2026-08-04 07:42:54 ===
 [I] 08-04 01:30:10 WatchNotif: ?? Notif ID: -658232387
 [I] 08-04 01:30:10 WatchNotif: ? Successfully sent to watch: Truck 195 - In Front ? In Door
 [I] 08-04 01:30:35 TTS: Speaking: Door 13A, Loading
@@ -499,3 +492,10 @@
 [I] 08-04 07:27:54 BadgerService: Keepalive scheduled in 900s
 [W] 08-04 07:27:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-04 07:27:54 BadgerService: startRealtimeSync: in backoff for 36s more � skipping
+[I] 08-04 07:27:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-04 07:29:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
+[E] 08-04 07:29:16 BadgerService: Realtime: 49 consecutive failures � cooling down 5 min
+[E] 08-04 07:35:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #50 in 300s)
+[E] 08-04 07:35:02 BadgerService: Realtime: 50 consecutive failures � cooling down 5 min
+[E] 08-04 07:40:48 BadgerService: Realtime: 51 consecutive failures � cooling down 5 min
+[E] 08-04 07:40:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #51 in 300s)
