@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-03 21:36:06 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-03 21:54:50 ===
 [I] 08-03 06:22:06 BadgerService: Keepalive scheduled in 900s
 [W] 08-03 06:22:06 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
 [W] 08-03 06:22:06 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -350,3 +350,39 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-03 21:36:06 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-03 21:36:06 BadgerService: Keepalive scheduled in 900s
 [W] 08-03 21:36:06 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-03 21:36:07 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-03 21:39:50 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-03 21:39:50 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 08-03 21:39:50 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 08-03 21:39:50 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-03 21:39:50 AuthManager: Session expired — trying HWID silent login
+[I] 08-03 21:39:50 BadgerService: Keepalive scheduled in 900s
+[I] 08-03 21:39:50 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-03 21:39:50 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[I] 08-03 21:39:50 AuthManager: HWID silent login for rfa1991@gmail.com
+[E] 08-03 21:39:50 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-03 21:39:51 AuthManager: HWID silent login OK
+[I] 08-03 21:39:51 AuthManager: Sign in OK — augesrob role=admin
+[I] 08-03 21:39:51 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 08-03 21:39:51 TTS: Engine initialized OK
+[I] 08-03 21:39:51 TTS: Speaking: Badger live monitoring active
+[I] 08-03 21:39:52 BadgerService: Realtime subscribed OK -- badger-svc-22e64093-dc67-492b-85a9-70de752d1aa5 status=SUBSCRIBED
+[I] 08-03 21:41:11 TTS: Speaking: Truck 246, In Front
+[I] 08-03 21:41:11 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
+[I] 08-03 21:41:11 WatchNotif: ?? Notif ID: -658231580
+[I] 08-03 21:41:11 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
+[I] 08-03 21:46:30 TTS: Speaking: Truck 220, In Front
+[I] 08-03 21:46:30 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Back ? In Front (tag=watch_truck_220)
+[I] 08-03 21:46:30 WatchNotif: ?? Notif ID: -658231648
+[I] 08-03 21:46:30 WatchNotif: ? Successfully sent to watch: Truck 220 - In Back ? In Front
+[W] 08-03 21:50:00 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 08-03 21:50:00 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 3
+[E] 08-03 21:50:00 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 08-03 21:50:00 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 08-03 21:50:07 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-03 21:50:07 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
+[I] 08-03 21:50:12 BadgerService: Realtime subscribed OK -- badger-svc-8ea41c02-b741-466c-a6f6-ec2c3b545a34 status=SUBSCRIBED
+[I] 08-03 21:54:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-03 21:54:50 BadgerService: Keepalive scheduled in 900s
