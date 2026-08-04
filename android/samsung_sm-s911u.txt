@@ -1,8 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-03 22:53:49 ===
-[I] 07-31 00:31:49 Movement: Truck 242 status → In Front
-[I] 07-31 00:31:49 BadgerRepo: updateMovementStatus OK — truck=242 statusId=4
-[I] 07-31 00:31:49 TTS: Speaking: Truck 242, In Front
-[I] 07-31 00:31:49 WatchNotif: ?? Notif ID: -658231584
+=== samsung SM-S911U | v216 | shipped 2026-08-03 23:08:49 ===
 [I] 07-31 00:31:49 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Back ? In Front (tag=watch_truck_242)
 [I] 07-31 00:31:49 WatchNotif: ? Successfully sent to watch: Truck 242 - In Back ? In Front
 [I] 07-31 00:32:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -487,3 +483,19 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-03 22:53:49 BadgerService: Keepalive scheduled in 900s
 [W] 08-03 22:53:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-03 22:53:49 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
+[I] 08-03 22:53:51 LogShipper: Shipped 488 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 08-03 22:55:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 08-03 22:57:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[E] 08-03 22:57:53 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 08-03 23:03:39 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
+[E] 08-03 23:03:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
+[I] 08-03 23:05:43 AppUpdater: Checking via website (current=216)
+[I] 08-03 23:05:44 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-03 23:05:44 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-03 23:05:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-03 23:05:46 TTS: TTS DISABLED
+[I] 08-03 23:05:46 TTS: TTS ENABLED
+[I] 08-03 23:05:46 TTS: Speaking: Text to speech enabled
+[I] 08-03 23:08:41 BadgerService: Realtime subscribed OK -- badger-svc-dff5c243-2e60-4a5f-a631-97bbf76c17e1 status=SUBSCRIBED
+[I] 08-03 23:08:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-03 23:08:49 BadgerService: Keepalive scheduled in 900s
