@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-04 01:09:50 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-04 01:24:50 ===
 [I] 08-03 21:09:23 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 08-03 21:21:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-03 21:21:21 BadgerService: Keepalive scheduled in 900s
@@ -385,3 +385,33 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-04 01:02:43 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
 [I] 08-04 01:09:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-04 01:09:50 BadgerService: Keepalive scheduled in 900s
+[I] 08-04 01:09:51 LogShipper: Shipped 386 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-04 01:19:05 AppUpdater: Checking via website (current=216)
+[I] 08-04 01:19:06 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-04 01:19:06 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-04 01:19:07 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-04 01:19:11 Movement: Door 14B status → End Of Truck Tote
+[I] 08-04 01:19:12 BadgerRepo: updateDoorStatus OK — id=4 status=End Of Truck Tote
+[I] 08-04 01:19:13 TTS: Speaking: Truck 241, Put Away
+[I] 08-04 01:19:13 WatchNotif: ?? PUSHING NOTIF: Truck 241 - In Door ? Put Away (tag=watch_truck_241)
+[I] 08-04 01:19:13 WatchNotif: ?? Notif ID: -658231585
+[I] 08-04 01:19:13 WatchNotif: ? Successfully sent to watch: Truck 241 - In Door ? Put Away
+[I] 08-04 01:19:36 Movement: Truck 243 status → In Door
+[I] 08-04 01:19:36 BadgerRepo: updateMovementStatus OK — truck=243 statusId=1
+[I] 08-04 01:19:37 TTS: Speaking: Truck 243, In Door
+[I] 08-04 01:19:37 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Front ? In Door (tag=watch_truck_243)
+[I] 08-04 01:19:37 WatchNotif: ?? Notif ID: -658231583
+[I] 08-04 01:19:37 WatchNotif: ? Successfully sent to watch: Truck 243 - In Front ? In Door
+[I] 08-04 01:19:46 PTT: Incoming PTT message received
+[I] 08-04 01:21:19 AppUpdater: Checking via website (current=216)
+[I] 08-04 01:21:19 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-04 01:21:19 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-04 01:21:19 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-04 01:21:28 Movement: Door 14B status → Loading
+[I] 08-04 01:21:28 BadgerRepo: updateDoorStatus OK — id=4 status=Loading
+[I] 08-04 01:22:13 TTS: Speaking: Truck 194, In Front
+[I] 08-04 01:22:13 WatchNotif: ?? PUSHING NOTIF: Truck 194 - In Back ? In Front (tag=watch_truck_194)
+[I] 08-04 01:22:13 WatchNotif: ?? Notif ID: -658232388
+[I] 08-04 01:22:13 WatchNotif: ? Successfully sent to watch: Truck 194 - In Back ? In Front
+[I] 08-04 01:24:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-04 01:24:50 BadgerService: Keepalive scheduled in 900s
