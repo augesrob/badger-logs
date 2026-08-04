@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-04 00:53:49 ===
+=== samsung SM-S911U | v216 | shipped 2026-08-04 01:08:49 ===
 [I] 07-31 05:02:03 LogShipper: Shipped 287 log lines to badger-logs/android/samsung_sm-s911u.txt
 [E] 07-31 05:06:17 BadgerService: Realtime: 46 consecutive failures � cooling down 5 min
 [E] 07-31 05:06:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #46 in 300s)
@@ -462,3 +462,23 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-04 00:53:49 BadgerService: Keepalive scheduled in 900s
 [I] 08-04 00:53:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 08-04 00:53:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-04 00:53:50 LogShipper: Shipped 463 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 08-04 00:54:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 08-04 00:54:45 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 2
+[E] 08-04 00:55:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 08-04 00:56:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 08-04 00:58:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 08-04 01:00:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[I] 08-04 01:01:28 AppUpdater: Checking via website (current=216)
+[I] 08-04 01:01:28 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-04 01:01:28 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-04 01:01:29 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-04 01:01:32 BadgerService: Realtime subscribed OK -- badger-svc-bcd2909f-c76e-41d4-bc96-e8a88b2a1564 status=SUBSCRIBED
+[I] 08-04 01:02:42 Movement: Truck 152 status → In Front
+[I] 08-04 01:02:42 BadgerRepo: updateMovementStatus OK — truck=152 statusId=4
+[I] 08-04 01:02:43 TTS: Speaking: Truck 152, In Front
+[I] 08-04 01:02:43 WatchNotif: ?? PUSHING NOTIF: Truck 152 - Ready ? In Front (tag=watch_truck_152)
+[I] 08-04 01:02:43 WatchNotif: ?? Notif ID: -658232514
+[I] 08-04 01:02:43 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
+[I] 08-04 01:08:49 BadgerService: Keepalive scheduled in 900s
+[I] 08-04 01:08:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
