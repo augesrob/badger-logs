@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-07-31 08:13:49 ===
+=== samsung SM-S911U | v216 | shipped 2026-08-03 21:53:49 ===
 [I] 07-31 00:31:49 Movement: Truck 242 status → In Front
 [I] 07-31 00:31:49 BadgerRepo: updateMovementStatus OK — truck=242 statusId=4
 [I] 07-31 00:31:49 TTS: Speaking: Truck 242, In Front
@@ -418,3 +418,48 @@
 [I] 07-31 08:13:49 BadgerService: Keepalive scheduled in 900s
 [W] 07-31 08:13:49 BadgerService: startRealtimeSync: in backoff for 140s more � skipping
 [W] 07-31 08:13:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 07-31 08:13:50 LogShipper: Shipped 419 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 07-31 08:16:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #79 in 300s)
+[E] 07-31 08:16:55 BadgerService: Realtime: 79 consecutive failures � cooling down 5 min
+[E] 07-31 08:22:41 BadgerService: Realtime: 80 consecutive failures � cooling down 5 min
+[E] 07-31 08:22:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #80 in 300s)
+[I] 08-03 21:38:48 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-03 21:38:48 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 08-03 21:38:48 MainActivity: BadgerService started (mic=true)
+[I] 08-03 21:38:48 AppUpdater: Checking via website (current=216)
+[I] 08-03 21:38:48 AuthManager: Session expired — trying HWID silent login
+[I] 08-03 21:38:48 AuthManager: HWID silent login for felipe@badgerliquor.com
+[W] 08-03 21:38:48 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-03 21:38:48 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-03 21:38:48 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-03 21:38:49 BadgerService: Keepalive scheduled in 900s
+[I] 08-03 21:38:49 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-03 21:38:49 AuthManager: HWID silent login OK
+[I] 08-03 21:38:49 AuthManager: Sign in OK — felipe role=admin
+[I] 08-03 21:38:49 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 08-03 21:38:49 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
+[E] 08-03 21:38:49 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-03 21:38:49 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-03 21:38:50 BadgerService: Realtime subscribed OK -- badger-svc-6762a155-f7ef-47fa-8767-ff71d447bdc0 status=SUBSCRIBED
+[I] 08-03 21:38:52 TTS: Engine initialized OK
+[I] 08-03 21:38:52 TTS: Speaking: Badger live monitoring active
+[I] 08-03 21:39:37 AppUpdater: Checking via website (current=216)
+[I] 08-03 21:39:37 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-03 21:39:37 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-03 21:39:38 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-03 21:40:09 AppUpdater: Checking via website (current=216)
+[I] 08-03 21:40:09 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-03 21:40:09 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-03 21:40:10 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-03 21:41:12 TTS: Speaking: Truck 246, In Front
+[I] 08-03 21:41:12 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
+[I] 08-03 21:41:12 WatchNotif: ?? Notif ID: -658231580
+[I] 08-03 21:41:12 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
+[I] 08-03 21:46:30 TTS: Speaking: Truck 220, In Front
+[I] 08-03 21:46:30 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Back ? In Front (tag=watch_truck_220)
+[I] 08-03 21:46:30 WatchNotif: ?? Notif ID: -658231648
+[I] 08-03 21:46:30 WatchNotif: ? Successfully sent to watch: Truck 220 - In Back ? In Front
+[I] 08-03 21:53:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-03 21:53:49 BadgerService: Keepalive scheduled in 900s
