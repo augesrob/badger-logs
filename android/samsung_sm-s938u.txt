@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-04 00:39:50 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-04 00:54:50 ===
 [I] 08-03 21:09:23 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 08-03 21:21:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-03 21:21:21 BadgerService: Keepalive scheduled in 900s
@@ -330,3 +330,37 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-04 00:39:50 BadgerService: Keepalive scheduled in 900s
 [W] 08-04 00:39:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-04 00:39:50 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
+[I] 08-04 00:39:51 LogShipper: Shipped 331 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-04 00:40:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
+[E] 08-04 00:40:39 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
+[I] 08-04 00:45:16 AppUpdater: Checking via website (current=216)
+[I] 08-04 00:45:17 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-04 00:45:17 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-04 00:45:18 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-04 00:45:21 Movement: Truck 220 status → Yard
+[I] 08-04 00:45:21 BadgerRepo: updateMovementStatus OK — truck=220 statusId=9
+[I] 08-04 00:45:26 Movement: Truck 216 status → In Door
+[I] 08-04 00:45:26 BadgerRepo: updateMovementStatus OK — truck=216 statusId=1
+[I] 08-04 00:45:40 BadgerService: Realtime subscribed OK -- badger-svc-58909a59-a734-4fd9-af73-d45bec3d24d1 status=SUBSCRIBED
+[I] 08-04 00:47:23 AppUpdater: Checking via website (current=216)
+[I] 08-04 00:47:23 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-04 00:47:23 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-04 00:47:24 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-04 00:49:00 Movement: Truck 220 status → Put Away
+[I] 08-04 00:49:00 BadgerRepo: updateMovementStatus OK — truck=220 statusId=2
+[I] 08-04 00:49:01 TTS: Speaking: Truck 220, Put Away
+[I] 08-04 00:49:01 WatchNotif: ?? PUSHING NOTIF: Truck 220 - Yard ? Put Away (tag=watch_truck_220)
+[I] 08-04 00:49:01 WatchNotif: ?? Notif ID: -658231648
+[I] 08-04 00:49:01 WatchNotif: ? Successfully sent to watch: Truck 220 - Yard ? Put Away
+[I] 08-04 00:49:11 Movement: Truck 192 status → In Front
+[I] 08-04 00:49:11 BadgerRepo: updateMovementStatus OK — truck=192 statusId=4
+[I] 08-04 00:49:12 TTS: Speaking: Truck 192, In Front
+[I] 08-04 00:49:12 WatchNotif: ?? Notif ID: -658232390
+[I] 08-04 00:49:12 WatchNotif: ?? PUSHING NOTIF: Truck 192 - Ready ? In Front (tag=watch_truck_192)
+[I] 08-04 00:49:12 WatchNotif: ? Successfully sent to watch: Truck 192 - Ready ? In Front
+[I] 08-04 00:50:58 AppUpdater: Checking via website (current=216)
+[I] 08-04 00:50:59 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-04 00:50:59 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-04 00:50:59 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-04 00:54:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-04 00:54:50 BadgerService: Keepalive scheduled in 900s
