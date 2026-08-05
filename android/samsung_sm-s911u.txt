@@ -1,13 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-05 05:46:38 ===
-[I] 08-04 23:07:22 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-04 23:07:22 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 08-04 23:07:27 Movement: Door 14A status → Loading
-[I] 08-04 23:07:27 BadgerRepo: updateDoorStatus OK — id=3 status=Loading
-[I] 08-04 23:07:27 TTS: Speaking: Door 14A, Loading
-[I] 08-04 23:07:27 WatchNotif: ?? PUSHING NOTIF: Door 14A - End Of Truck Tote ? Loading (tag=watch_door_14A)
-[I] 08-04 23:07:27 WatchNotif: ?? Notif ID: -108072995
-[I] 08-04 23:07:27 WatchNotif: ? Successfully sent to watch: Door 14A - End Of Truck Tote ? Loading
-[I] 08-04 23:10:33 AppUpdater: Checking via website (current=216)
+=== samsung SM-S911U | v216 | shipped 2026-08-05 06:01:38 ===
 [I] 08-04 23:10:34 AppUpdater: Checking via GitHub direct (current=216)
 [I] 08-04 23:10:34 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 08-04 23:10:34 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -499,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-05 05:46:38 BadgerService: Keepalive scheduled in 900s
 [W] 08-05 05:46:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-05 05:46:38 BadgerService: startRealtimeSync: in backoff for 227s more � skipping
+[I] 08-05 05:46:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 08-05 05:51:12 BadgerService: Realtime: 59 consecutive failures � cooling down 5 min
+[E] 08-05 05:51:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #59 in 300s)
+[E] 08-05 05:56:58 BadgerService: Realtime: 60 consecutive failures � cooling down 5 min
+[E] 08-05 05:56:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #60 in 300s)
+[I] 08-05 06:01:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-05 06:01:38 BadgerService: Keepalive scheduled in 900s
+[W] 08-05 06:01:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-05 06:01:38 BadgerService: startRealtimeSync: in backoff for 20s more � skipping
