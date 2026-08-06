@@ -1,15 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-06 00:28:14 ===
-[E] 08-05 19:20:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #199 in 300s)
-[E] 08-05 19:20:56 BadgerService: Realtime: 199 consecutive failures � cooling down 5 min
-[E] 08-05 19:26:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #200 in 300s)
-[E] 08-05 19:26:42 BadgerService: Realtime: 200 consecutive failures � cooling down 5 min
-[I] 08-05 19:31:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-05 19:31:39 BadgerService: Keepalive scheduled in 900s
-[W] 08-05 19:31:39 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 08-05 19:31:39 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
-[I] 08-05 19:31:41 LogShipper: Shipped 299 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 08-05 19:32:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #201 in 300s)
-[E] 08-05 19:32:29 BadgerService: Realtime: 201 consecutive failures � cooling down 5 min
+=== samsung SM-S911U | v216 | shipped 2026-08-06 00:43:14 ===
 [E] 08-05 19:38:15 BadgerService: Realtime: 202 consecutive failures � cooling down 5 min
 [E] 08-05 19:38:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #202 in 300s)
 [E] 08-05 19:44:02 BadgerService: Realtime: 203 consecutive failures � cooling down 5 min
@@ -499,3 +488,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-06 00:26:27 WatchNotif: ? Successfully sent to watch: Truck 245 - Ready ? In Front
 [I] 08-06 00:28:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-06 00:28:14 BadgerService: Keepalive scheduled in 900s
+[I] 08-06 00:28:15 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 08-06 00:28:31 AppUpdater: Checking via website (current=216)
+[I] 08-06 00:28:31 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-06 00:28:31 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-06 00:28:32 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-06 00:29:32 TTS: Speaking: Truck 175, In Front
+[I] 08-06 00:29:32 WatchNotif: ?? PUSHING NOTIF: Truck 175 - Ready ? In Front (tag=watch_truck_175)
+[I] 08-06 00:29:32 WatchNotif: ?? Notif ID: -658232449
+[I] 08-06 00:29:32 WatchNotif: ? Successfully sent to watch: Truck 175 - Ready ? In Front
+[I] 08-06 00:43:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-06 00:43:14 BadgerService: Keepalive scheduled in 900s
