@@ -1,17 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-06 00:13:14 ===
-[W] 08-05 19:01:39 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
-[I] 08-05 19:01:41 LogShipper: Shipped 279 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 08-05 19:03:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #196 in 300s)
-[E] 08-05 19:03:36 BadgerService: Realtime: 196 consecutive failures � cooling down 5 min
-[E] 08-05 19:09:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #197 in 300s)
-[E] 08-05 19:09:22 BadgerService: Realtime: 197 consecutive failures � cooling down 5 min
-[E] 08-05 19:15:10 BadgerService: Realtime: 198 consecutive failures � cooling down 5 min
-[E] 08-05 19:15:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #198 in 300s)
-[I] 08-05 19:16:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-05 19:16:39 BadgerService: Keepalive scheduled in 900s
-[W] 08-05 19:16:39 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 08-05 19:16:39 BadgerService: startRealtimeSync: in backoff for 210s more � skipping
-[I] 08-05 19:16:42 LogShipper: Shipped 290 log lines to badger-logs/android/samsung_sm-s911u.txt
+=== samsung SM-S911U | v216 | shipped 2026-08-06 00:28:14 ===
 [E] 08-05 19:20:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #199 in 300s)
 [E] 08-05 19:20:56 BadgerService: Realtime: 199 consecutive failures � cooling down 5 min
 [E] 08-05 19:26:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #200 in 300s)
@@ -499,3 +486,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-06 00:00:31 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 08-06 00:13:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-06 00:13:14 BadgerService: Keepalive scheduled in 900s
+[I] 08-06 00:13:15 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 08-06 00:25:44 AppUpdater: Checking via website (current=216)
+[I] 08-06 00:25:45 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-06 00:25:45 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-06 00:25:46 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-06 00:26:26 Movement: Truck 245 status → In Front
+[I] 08-06 00:26:26 BadgerRepo: updateMovementStatus OK — truck=245 statusId=4
+[I] 08-06 00:26:27 TTS: Speaking: Truck 245, In Front
+[I] 08-06 00:26:27 WatchNotif: ?? PUSHING NOTIF: Truck 245 - Ready ? In Front (tag=watch_truck_245)
+[I] 08-06 00:26:27 WatchNotif: ?? Notif ID: -658231581
+[I] 08-06 00:26:27 WatchNotif: ? Successfully sent to watch: Truck 245 - Ready ? In Front
+[I] 08-06 00:28:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-06 00:28:14 BadgerService: Keepalive scheduled in 900s
