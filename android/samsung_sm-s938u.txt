@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-05 22:03:49 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-05 22:18:49 ===
 [I] 08-04 23:10:45 WatchNotif: ?? Notif ID: -1200352501
 [I] 08-04 23:10:45 WatchNotif: ? Successfully sent to watch: Truck 248-2 - In Door ? In Front
 [I] 08-04 23:11:02 AppUpdater: Checking via website (current=216)
@@ -466,3 +466,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-05 21:54:59 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 08-05 22:03:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-05 22:03:49 BadgerService: Keepalive scheduled in 900s
+[I] 08-05 22:03:50 LogShipper: Shipped 467 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 08-05 22:14:49 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 08-05 22:14:49 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 08-05 22:15:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 08-05 22:16:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 08-05 22:16:51 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 2
+[E] 08-05 22:17:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 08-05 22:18:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 08-05 22:18:49 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-05 22:18:49 BadgerService: Keepalive scheduled in 900s
+[E] 08-05 22:18:49 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
