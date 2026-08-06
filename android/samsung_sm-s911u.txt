@@ -1,17 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-06 01:51:51 ===
-[E] 08-05 21:04:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #217 in 300s)
-[E] 08-05 21:10:36 BadgerService: Realtime: 218 consecutive failures � cooling down 5 min
-[E] 08-05 21:10:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #218 in 300s)
-[I] 08-05 21:11:58 AppUpdater: Checking via website (current=216)
-[I] 08-05 21:11:59 AppUpdater: Checking via website (current=0)
-[I] 08-05 21:11:59 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-05 21:11:59 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-05 21:11:59 AppUpdater: Update found via website: access-v216
-[I] 08-05 21:12:00 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 08-05 21:12:01 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 08-05 21:12:05 MainActivity: BadgerService started (mic=true)
-[I] 08-05 21:12:05 AppUpdater: Checking via website (current=216)
-[I] 08-05 21:12:05 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S911U | v216 | shipped 2026-08-06 02:06:51 ===
 [I] 08-05 21:12:05 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 08-05 21:12:05 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
 [E] 08-05 21:12:05 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
@@ -499,3 +486,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-06 01:49:58 WatchNotif: ? Successfully sent to watch: Truck 194 - In Back ? In Front
 [I] 08-06 01:51:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-06 01:51:51 BadgerService: Keepalive scheduled in 900s
+[I] 08-06 01:51:52 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 08-06 02:02:53 TTS: Speaking: Truck 223-2, 8
+[I] 08-06 02:02:53 WatchNotif: ?? Notif ID: -1200416888
+[I] 08-06 02:02:53 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - In Door ? 8 (tag=watch_truck_223-2)
+[I] 08-06 02:02:53 WatchNotif: ? Successfully sent to watch: Truck 223-2 - In Door ? 8
+[I] 08-06 02:02:58 TTS: Speaking: Truck 240, In Door
+[I] 08-06 02:02:58 WatchNotif: ?? Notif ID: -658231586
+[I] 08-06 02:02:58 WatchNotif: ?? PUSHING NOTIF: Truck 240 - In Front ? In Door (tag=watch_truck_240)
+[I] 08-06 02:02:58 WatchNotif: ? Successfully sent to watch: Truck 240 - In Front ? In Door
+[W] 08-06 02:06:48 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 08-06 02:06:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-06 02:06:51 BadgerService: Keepalive scheduled in 900s
+[W] 08-06 02:06:51 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
