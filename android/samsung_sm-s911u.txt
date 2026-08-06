@@ -1,10 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-05 21:58:13 ===
-[E] 08-05 12:07:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #124 in 300s)
-[E] 08-05 12:07:10 BadgerService: Realtime: 124 consecutive failures � cooling down 5 min
-[E] 08-05 12:12:57 BadgerService: Realtime: 125 consecutive failures � cooling down 5 min
-[E] 08-05 12:12:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #125 in 300s)
-[I] 08-05 12:16:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-05 12:16:41 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+=== samsung SM-S911U | v216 | shipped 2026-08-05 22:13:14 ===
 [E] 08-05 12:18:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #126 in 300s)
 [E] 08-05 12:18:43 BadgerService: Realtime: 126 consecutive failures � cooling down 5 min
 [E] 08-05 12:24:29 BadgerService: Realtime: 127 consecutive failures � cooling down 5 min
@@ -499,3 +493,9 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-05 21:57:47 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 08-05 21:58:13 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-05 21:58:13 BadgerService: Keepalive scheduled in 900s
+[I] 08-05 21:58:15 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 08-05 22:12:06 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 08-05 22:12:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[I] 08-05 22:13:13 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-05 22:13:13 BadgerService: Keepalive scheduled in 900s
+[W] 08-05 22:13:13 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
