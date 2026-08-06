@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-06 14:32:51 ===
+=== samsung SM-S911U | v216 | shipped 2026-08-06 14:47:51 ===
 [I] 08-06 07:32:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-06 07:32:51 BadgerService: Keepalive scheduled in 900s
 [W] 08-06 07:32:51 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -296,3 +296,11 @@
 [I] 08-06 14:32:51 BadgerService: Keepalive scheduled in 900s
 [W] 08-06 14:32:51 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-06 14:32:51 BadgerService: startRealtimeSync: in backoff for 187s more � skipping
+[I] 08-06 14:32:53 LogShipper: Shipped 297 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 08-06 14:36:46 BadgerService: Realtime: 106 consecutive failures � cooling down 5 min
+[E] 08-06 14:36:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #106 in 300s)
+[E] 08-06 14:42:33 BadgerService: Realtime: 107 consecutive failures � cooling down 5 min
+[E] 08-06 14:42:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #107 in 300s)
+[I] 08-06 14:47:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-06 14:47:51 BadgerService: Keepalive scheduled in 900s
+[W] 08-06 14:47:51 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
