@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-06 14:19:46 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-06 14:34:46 ===
 [E] 08-06 07:11:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #26 in 300s)
 [E] 08-06 07:11:19 BadgerService: Realtime: 26 consecutive failures � cooling down 5 min
 [E] 08-06 07:17:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #27 in 300s)
@@ -300,3 +300,24 @@
 [I] 08-06 14:19:46 BadgerService: Keepalive scheduled in 900s
 [W] 08-06 14:19:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-06 14:19:46 BadgerService: startRealtimeSync: in backoff for 211s more � skipping
+[I] 08-06 14:19:47 LogShipper: Shipped 301 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 08-06 14:20:08 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-06 14:20:08 BadgerService: startRealtimeSync: in backoff for 189s more � skipping
+[E] 08-06 14:24:04 BadgerService: Realtime: 101 consecutive failures � cooling down 5 min
+[E] 08-06 14:24:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #101 in 300s)
+[E] 08-06 14:29:50 BadgerService: Realtime: 102 consecutive failures � cooling down 5 min
+[E] 08-06 14:29:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #102 in 300s)
+[I] 08-06 14:34:46 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 08-06 14:34:46 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 08-06 14:34:46 BadgerService: FGS microphone blocked � starting without mic FGS type
+[I] 08-06 14:34:46 AuthManager: Session expired — trying HWID silent login
+[W] 08-06 14:34:46 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-06 14:34:46 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 08-06 14:34:46 BadgerService: Keepalive scheduled in 900s
+[I] 08-06 14:34:46 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-06 14:34:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-06 14:34:46 BadgerService: Keepalive scheduled in 900s
+[W] 08-06 14:34:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-06 14:34:46 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 08-06 14:34:46 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
