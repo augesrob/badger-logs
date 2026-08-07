@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-08-07 00:02:07 ===
+=== samsung SM-S911U | v216 | shipped 2026-08-07 00:17:07 ===
 [E] 08-06 20:36:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #168 in 300s)
 [E] 08-06 20:41:49 BadgerService: Realtime: 169 consecutive failures � cooling down 5 min
 [E] 08-06 20:41:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #169 in 300s)
@@ -433,3 +433,28 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-07 00:02:05 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 08-07 00:02:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-07 00:02:07 BadgerService: Keepalive scheduled in 900s
+[I] 08-07 00:02:08 Movement: Truck 175 status → 11
+[I] 08-07 00:02:09 BadgerRepo: updateMovementStatus OK — truck=175 statusId=14
+[I] 08-07 00:02:09 LogShipper: Shipped 434 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 08-07 00:02:09 TTS: Speaking: Truck 175, 11
+[I] 08-07 00:02:09 WatchNotif: ?? PUSHING NOTIF: Truck 175 - Ready ? 11 (tag=watch_truck_175)
+[I] 08-07 00:02:09 WatchNotif: ?? Notif ID: -658232449
+[I] 08-07 00:02:09 WatchNotif: ? Successfully sent to watch: Truck 175 - Ready ? 11
+[I] 08-07 00:07:02 AppUpdater: Checking via website (current=216)
+[I] 08-07 00:07:02 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-07 00:07:02 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-07 00:07:03 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-07 00:07:05 Movement: Truck 248-1 status → On Route
+[I] 08-07 00:07:05 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=3
+[I] 08-07 00:07:06 TTS: Speaking: Truck 248-1, On Route
+[I] 08-07 00:07:06 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - In Door ? On Route (tag=watch_truck_248-1)
+[I] 08-07 00:07:06 WatchNotif: ?? Notif ID: -1200352502
+[I] 08-07 00:07:06 WatchNotif: ? Successfully sent to watch: Truck 248-1 - In Door ? On Route
+[I] 08-07 00:07:07 Movement: Truck 231-2 status → In Door
+[I] 08-07 00:07:07 BadgerRepo: updateMovementStatus OK — truck=231-2 statusId=1
+[I] 08-07 00:07:08 TTS: Speaking: Truck 231-2, In Door
+[I] 08-07 00:07:08 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - In Front ? In Door (tag=watch_truck_231-2)
+[I] 08-07 00:07:08 WatchNotif: ?? Notif ID: -1200389019
+[I] 08-07 00:07:08 WatchNotif: ? Successfully sent to watch: Truck 231-2 - In Front ? In Door
+[I] 08-07 00:17:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-07 00:17:07 BadgerService: Keepalive scheduled in 900s
