@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-07 01:04:46 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-07 01:19:46 ===
 [I] 08-06 21:17:25 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 08-06 21:17:25 AppUpdater: Checking via GitHub direct (current=216)
 [I] 08-06 21:17:25 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -334,3 +334,16 @@
 [I] 08-07 00:49:47 LogShipper: Shipped 332 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 08-07 01:04:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-07 01:04:46 BadgerService: Keepalive scheduled in 900s
+[I] 08-07 01:04:48 LogShipper: Shipped 335 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 08-07 01:07:42 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 08-07 01:08:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 08-07 01:09:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 08-07 01:10:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 08-07 01:11:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 08-07 01:14:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 08-07 01:16:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 08-07 01:17:28 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 2
+[E] 08-07 01:18:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[I] 08-07 01:19:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-07 01:19:46 BadgerService: Keepalive scheduled in 900s
+[W] 08-07 01:19:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
