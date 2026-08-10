@@ -1,31 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-04 18:16:14 ===
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-14 17:18:23 AuthManager: Sign in OK — joemiller role=admin
-[I] 07-14 17:18:23 AuthManager: HWID silent login OK
-[I] 07-14 17:18:23 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
-[I] 07-14 17:18:23 AppUpdater: Checking via website (current=214)
-[I] 07-14 17:18:23 BadgerService: Realtime subscribed OK -- badger-svc-9261c3d2-ff73-4210-aaa0-3932e8ce07b4 status=SUBSCRIBED
-[I] 07-14 17:18:24 AppUpdater: Update found via website: access-v215
-[I] 07-14 17:18:24 MainActivity: Auto-downloading access-v215
-[I] 07-14 17:18:24 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v215/badger-access-access-v215.apk
-[I] 07-14 17:18:25 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v215/badger-access-access-v215.apk
-[I] 07-14 17:18:28 AppUpdater: Downloaded 16635260 bytes
-[I] 07-14 17:18:28 AppUpdater: Downloaded 16635260 bytes
-[I] 07-14 17:18:31 AppUpdater: Checking via website (current=214)
-[I] 07-14 17:18:31 AppUpdater: Update found via website: access-v215
-[W] 07-14 17:18:38 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 07-14 17:18:38 BadgerService: Keepalive scheduled in 2s
-[I] 07-14 17:18:40 AppUpdater: Checking via website (current=214)
-[I] 07-14 17:18:40 AppUpdater: Update found via website: access-v215
-[I] 07-14 17:18:42 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v215/badger-access-access-v215.apk
-[I] 07-14 17:18:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 07-14 17:18:43 AppUpdater: Downloaded 16635260 bytes
-[I] 07-14 17:18:43 BadgerService: Keepalive scheduled in 900s
-[I] 07-14 17:18:44 LogShipper: Shipped 317 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 07-14 17:18:47 AppUpdater: Checking via website (current=214)
-[I] 07-14 17:18:47 AppUpdater: Update found via website: access-v215
-[W] 07-14 17:18:56 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+=== samsung SM-S948U | v216 | shipped 2026-08-10 18:30:55 ===
 [I] 07-14 17:18:56 BadgerService: Keepalive scheduled in 2s
 [I] 07-14 17:18:58 AppUpdater: Checking via website (current=214)
 [I] 07-14 17:18:58 AppUpdater: Update found via website: access-v215
@@ -490,3 +463,39 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-04 18:16:13 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 08-04 18:16:14 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-04 18:16:14 BadgerService: Keepalive scheduled in 900s
+[I] 08-04 18:16:14 AppUpdater: Checking via website (current=0)
+[I] 08-04 18:16:14 AppUpdater: Update found via website: access-v216
+[I] 08-04 18:16:15 LogShipper: Shipped 491 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 08-04 18:16:17 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 08-10 18:15:55 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-10 18:15:55 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 08-10 18:15:55 MainActivity: BadgerService started (mic=true)
+[I] 08-10 18:15:55 AppUpdater: Checking via website (current=216)
+[I] 08-10 18:15:55 AuthManager: Session expired — trying HWID silent login
+[W] 08-10 18:15:55 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-10 18:15:55 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 08-10 18:15:55 BadgerService: Keepalive scheduled in 900s
+[I] 08-10 18:15:55 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-10 18:15:55 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 08-10 18:15:55 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-10 18:15:55 TTS: Engine initialized OK
+[I] 08-10 18:15:55 TTS: Speaking: Badger live monitoring active
+[I] 08-10 18:15:56 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-10 18:15:56 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-10 18:15:56 AuthManager: Sign in OK — joemiller role=admin
+[I] 08-10 18:15:56 AuthManager: HWID silent login OK
+[I] 08-10 18:15:56 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 08-10 18:15:57 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-10 18:15:57 BadgerService: Realtime subscribed OK -- badger-svc-0e742f41-7e60-4249-9f03-f739887571e6 status=SUBSCRIBED
+[I] 08-10 18:18:50 AppUpdater: Checking via website (current=216)
+[I] 08-10 18:18:50 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-10 18:18:50 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-10 18:18:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-10 18:20:17 AppUpdater: Checking via website (current=216)
+[I] 08-10 18:20:17 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-10 18:20:17 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-10 18:20:18 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-10 18:30:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-10 18:30:55 BadgerService: Keepalive scheduled in 900s
