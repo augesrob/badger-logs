@@ -1,5 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-09 21:53:54 ===
-[E] 08-08 19:53:55 BadgerService: Realtime: 396 consecutive failures � cooling down 5 min
+=== samsung SM-S938U | v216 | shipped 2026-08-09 23:20:21 ===
 [E] 08-08 19:53:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #396 in 300s)
 [I] 08-08 19:57:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-08 19:57:35 BadgerService: Keepalive scheduled in 900s
@@ -479,3 +478,24 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-09 21:38:55 LogShipper: Shipped 477 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 08-09 21:53:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-09 21:53:54 BadgerService: Keepalive scheduled in 900s
+[I] 08-09 21:53:55 LogShipper: Shipped 480 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-09 23:05:21 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 08-09 23:05:21 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 08-09 23:05:21 BadgerService: FGS microphone blocked � starting without mic FGS type
+[I] 08-09 23:05:21 AuthManager: Session expired — trying HWID silent login
+[W] 08-09 23:05:21 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-09 23:05:21 BadgerService: Keepalive scheduled in 900s
+[I] 08-09 23:05:21 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-09 23:05:21 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 08-09 23:05:21 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-09 23:05:21 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 08-09 23:05:21 TTS: Engine initialized OK
+[I] 08-09 23:05:21 TTS: Speaking: Badger live monitoring active
+[I] 08-09 23:05:22 AuthManager: Sign in OK — augesrob role=admin
+[I] 08-09 23:05:22 AuthManager: HWID silent login OK
+[I] 08-09 23:05:22 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 08-09 23:05:23 BadgerService: Realtime subscribed OK -- badger-svc-1d90c29f-49e0-4716-a3ec-3601c56d208f status=SUBSCRIBED
+[I] 08-09 23:20:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-09 23:20:21 BadgerService: Keepalive scheduled in 900s
