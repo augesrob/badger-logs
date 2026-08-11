@@ -1,12 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-11 04:54:34 ===
-[I] 08-10 20:04:39 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=4
-[I] 08-10 20:04:39 TTS: Speaking: Truck 187-1, In Front
-[I] 08-10 20:04:39 WatchNotif: ?? Notif ID: -1201157820
-[I] 08-10 20:04:39 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - Transfer ? In Front (tag=watch_truck_187-1)
-[I] 08-10 20:04:39 WatchNotif: ? Successfully sent to watch: Truck 187-1 - Transfer ? In Front
-[I] 08-10 20:04:43 Movement: Truck 148 status → In Front
-[I] 08-10 20:04:43 BadgerRepo: updateMovementStatus OK — truck=148 statusId=4
-[I] 08-10 20:04:44 TTS: Speaking: Truck 148, In Front
+=== samsung SM-S948U | v216 | shipped 2026-08-11 05:09:34 ===
 [I] 08-10 20:04:44 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Ready ? In Front (tag=watch_truck_148)
 [I] 08-10 20:04:44 WatchNotif: ?? Notif ID: -658232539
 [I] 08-10 20:04:44 WatchNotif: ? Successfully sent to watch: Truck 148 - Ready ? In Front
@@ -499,3 +491,11 @@
 [I] 08-11 04:54:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-11 04:54:34 BadgerService: Keepalive scheduled in 900s
 [W] 08-11 04:54:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-11 04:54:35 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 08-11 04:55:20 BadgerService: Realtime: 46 consecutive failures � cooling down 5 min
+[E] 08-11 04:55:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #46 in 300s)
+[E] 08-11 05:01:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #47 in 300s)
+[E] 08-11 05:01:06 BadgerService: Realtime: 47 consecutive failures � cooling down 5 min
+[E] 08-11 05:06:52 BadgerService: Realtime: 48 consecutive failures � cooling down 5 min
+[E] 08-11 05:06:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #48 in 300s)
+[I] 08-11 05:09:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
