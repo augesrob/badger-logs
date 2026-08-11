@@ -1,19 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-10 19:15:55 ===
-[I] 07-14 17:20:21 AuthManager: Session expired — trying HWID silent login
-[I] 07-14 17:20:21 AuthManager: HWID silent login for millerjo1986@gmail.com
-[W] 07-14 17:20:22 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[W] 07-14 17:20:22 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-14 17:20:22 BadgerService: Lockdown active — stopping service
-[I] 07-14 17:20:22 BadgerService: Lockdown active — stopping service
-[I] 07-14 17:20:22 BadgerService: Keepalive scheduled in 900s
-[I] 07-14 17:20:22 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-14 17:20:22 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-14 17:20:22 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-14 17:20:22 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[E] 07-14 17:20:22 BadgerRepo: getLiveMovement FAILED: Job was cancelled
-[W] 07-14 17:20:22 BadgerService: refreshVoiceData error: Job was cancelled
+=== samsung SM-S948U | v216 | shipped 2026-08-10 19:30:55 ===
 [I] 07-16 05:38:08 BadgerApp: App started v215 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 07-16 05:38:08 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [W] 07-16 05:38:08 BadgerService: FGS microphone blocked � starting without mic FGS type
@@ -499,3 +484,18 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-10 19:15:47 WatchNotif: ? Successfully sent to watch: Truck 224-1 - Transfer ? In Door
 [I] 08-10 19:15:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-10 19:15:55 BadgerService: Keepalive scheduled in 900s
+[I] 08-10 19:15:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 08-10 19:16:05 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 08-10 19:16:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 08-10 19:17:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 08-10 19:18:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 08-10 19:20:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 08-10 19:22:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 08-10 19:24:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 08-10 19:26:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 08-10 19:28:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 08-10 19:30:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[I] 08-10 19:30:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-10 19:30:55 BadgerService: Keepalive scheduled in 900s
+[W] 08-10 19:30:55 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-10 19:30:55 BadgerService: startRealtimeSync: in backoff for 74s more � skipping
