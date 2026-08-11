@@ -1,201 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-10 19:45:55 ===
-[E] 07-16 05:38:10 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
-[E] 07-16 05:38:18 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 07-16 05:38:18 BadgerService: refreshVoiceData error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 07-16 05:38:19 AppUpdater: Checking via website (current=215)
-[E] 07-16 05:38:25 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
-[E] 07-16 05:38:25 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 07-16 05:38:25 BadgerRepo: getCurrentProfile failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/profiles?id=eq.7122b9b1-0809-4343-8325-6157ad2939c8&select=%2A, request_timeout=10000 ms]
-[E] 07-16 05:38:39 BadgerRepo: getCurrentProfile failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/profiles?id=eq.7122b9b1-0809-4343-8325-6157ad2939c8&select=%2A, request_timeout=10000 ms]
-[I] 07-16 05:38:42 AppUpdater: Checking via GitHub direct (current=215)
-[I] 07-16 05:38:42 AppUpdater: Up to date via website (current=215 latest=215)
-[E] 07-16 05:38:46 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 07-16 05:38:46 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
-[I] 07-16 05:38:49 AuthManager: Session expired — trying HWID silent login
-[W] 07-16 05:38:49 AuthManager: JWT refresh failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/auth/v1/token?grant_type=refresh_token, request_timeout=10000 ms]
-[I] 07-16 05:38:49 AuthManager: HWID silent login for millerjo1986@gmail.com
-[W] 07-16 05:38:52 AppUpdater: GitHub direct check failed: Software caused connection abort
-[E] 07-16 05:38:52 AuthManager: Sign in failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/auth/v1/token?grant_type=password (POST) failed with message: Failed to connect to vjmvuqunedyuovtqtotj.supabase.co/172.64.149.246:443
-[E] 07-16 05:38:52 AuthManager: Sign in failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/auth/v1/token?grant_type=password (POST) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[W] 07-16 05:39:00 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 07-16 05:39:00 BadgerService: startRealtimeSync: in backoff for 5s more � skipping
-[W] 07-16 05:39:06 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-16 05:39:06 BadgerService: Lockdown active — stopping service
-[E] 07-16 05:39:06 AuthManager: Sign in failed: The coroutine scope left the composition
-[I] 07-16 05:39:06 BadgerService: Lockdown active — stopping service
-[I] 07-16 05:39:06 BadgerService: Keepalive scheduled in 900s
-[I] 07-16 05:39:06 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-16 05:39:06 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-16 05:39:06 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-16 05:39:06 BadgerRepo: getLiveMovement FAILED: Job was cancelled
-[W] 07-16 05:39:06 BadgerService: refreshVoiceData error: Job was cancelled
-[I] 07-16 05:39:07 TTS: Engine initialized OK
-[I] 07-16 05:39:07 TTS: Speaking: Badger live monitoring active
-[I] 07-27 17:18:05 BadgerApp: App started v215 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-27 17:18:05 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-27 17:18:05 MainActivity: BadgerService started (mic=true)
-[I] 07-27 17:18:05 AppUpdater: Checking via website (current=215)
-[W] 07-27 17:18:05 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-27 17:18:05 AuthManager: Session expired — trying HWID silent login
-[I] 07-27 17:18:05 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-27 17:18:05 BadgerService: Keepalive scheduled in 900s
-[I] 07-27 17:18:05 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-27 17:18:05 TTS: Engine initialized OK
-[I] 07-27 17:18:05 TTS: Speaking: Badger live monitoring active
-[I] 07-27 17:18:05 MainActivity: Auto-downloading access-v216
-[I] 07-27 17:18:05 AppUpdater: Update found via website: access-v216
-[I] 07-27 17:18:05 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v216/badger-access-access-v216.apk
-[I] 07-27 17:18:05 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-27 17:18:05 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[W] 07-27 17:18:06 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[W] 07-27 17:18:06 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 07-27 17:18:06 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 07-27 17:18:07 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-27 17:18:07 AuthManager: Session expired — trying HWID silent login
-[I] 07-27 17:18:07 AuthManager: HWID silent login for millerjo1986@gmail.com
-[W] 07-27 17:18:07 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-27 17:18:07 BadgerService: Lockdown active — stopping service
-[W] 07-27 17:18:08 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-27 17:18:08 BadgerService: Lockdown active — stopping service
-[I] 07-27 17:18:08 BadgerService: Keepalive scheduled in 900s
-[I] 07-27 17:18:08 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-27 17:18:08 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-27 17:18:08 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-27 17:18:08 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[W] 07-27 17:18:08 BadgerService: refreshVoiceData error: Job was cancelled
-[E] 07-27 17:18:08 BadgerRepo: getLiveMovement FAILED: Job was cancelled
-[I] 07-27 17:18:18 BadgerApp: App started v215 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-27 17:18:18 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 07-27 17:18:18 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-27 17:18:18 AuthManager: Session expired — trying HWID silent login
-[I] 07-27 17:18:18 MainActivity: BadgerService started (mic=true)
-[I] 07-27 17:18:18 AppUpdater: Checking via website (current=215)
-[I] 07-27 17:18:18 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-27 17:18:18 BadgerService: Keepalive scheduled in 900s
-[I] 07-27 17:18:18 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-27 17:18:18 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-27 17:18:18 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-27 17:18:18 TTS: Engine initialized OK
-[I] 07-27 17:18:18 TTS: Speaking: Badger live monitoring active
-[I] 07-27 17:18:18 AppUpdater: Update found via website: access-v216
-[I] 07-27 17:18:18 MainActivity: Auto-downloading access-v216
-[I] 07-27 17:18:18 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v216/badger-access-access-v216.apk
-[W] 07-27 17:18:18 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-27 17:18:19 BadgerService: Realtime subscribed OK -- badger-svc-ed443948-ddff-44a3-9017-9c10fa31a71a status=SUBSCRIBED
-[I] 07-28 02:08:32 BadgerApp: App started v215 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:08:32 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-28 02:08:32 MainActivity: BadgerService started (mic=true)
-[I] 07-28 02:08:32 AppUpdater: Checking via website (current=215)
-[W] 07-28 02:08:32 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-28 02:08:32 AuthManager: Session expired — trying HWID silent login
-[I] 07-28 02:08:32 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-28 02:08:32 BadgerService: Keepalive scheduled in 900s
-[I] 07-28 02:08:32 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:08:32 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-28 02:08:32 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-28 02:08:32 TTS: Engine initialized OK
-[I] 07-28 02:08:32 TTS: Speaking: Badger live monitoring active
-[I] 07-28 02:08:32 AppUpdater: Update found via website: access-v216
-[I] 07-28 02:08:32 MainActivity: Auto-downloading access-v216
-[I] 07-28 02:08:32 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v216/badger-access-access-v216.apk
-[W] 07-28 02:08:32 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-28 02:08:33 BadgerService: Realtime subscribed OK -- badger-svc-caa533da-8dc5-4b2f-93c2-8b571c401f82 status=SUBSCRIBED
-[W] 07-28 02:08:33 AppUpdater: downloadAndInstall failed: Job was cancelled
-[I] 07-28 02:08:33 AppUpdater: Checking via website (current=215)
-[I] 07-28 02:08:34 AppUpdater: Update found via website: access-v216
-[W] 07-28 02:08:39 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-28 02:08:39 AuthManager: Session expired — trying HWID silent login
-[I] 07-28 02:08:39 AuthManager: HWID silent login for millerjo1986@gmail.com
-[W] 07-28 02:08:39 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-28 02:08:40 BadgerService: Lockdown active — stopping service
-[W] 07-28 02:08:40 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-28 02:08:40 BadgerService: Lockdown active — stopping service
-[I] 07-28 02:08:40 BadgerService: Keepalive scheduled in 900s
-[I] 07-28 02:08:40 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:08:40 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-28 02:08:40 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-28 02:08:40 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[W] 07-28 02:08:40 BadgerService: refreshVoiceData error: Job was cancelled
-[E] 07-28 02:08:40 BadgerRepo: getLiveMovement FAILED: Job was cancelled
-[I] 07-28 02:09:40 BadgerApp: App started v215 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:09:40 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-28 02:09:40 MainActivity: BadgerService started (mic=true)
-[I] 07-28 02:09:40 AuthManager: Session expired — trying HWID silent login
-[W] 07-28 02:09:40 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-28 02:09:40 AppUpdater: Checking via website (current=215)
-[I] 07-28 02:09:40 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-28 02:09:40 BadgerService: Keepalive scheduled in 900s
-[I] 07-28 02:09:40 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:09:40 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-28 02:09:40 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-28 02:09:40 TTS: Engine initialized OK
-[I] 07-28 02:09:40 TTS: Speaking: Badger live monitoring active
-[I] 07-28 02:09:41 AppUpdater: Update found via website: access-v216
-[I] 07-28 02:09:41 MainActivity: Auto-downloading access-v216
-[I] 07-28 02:09:41 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v216/badger-access-access-v216.apk
-[W] 07-28 02:09:41 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[W] 07-28 02:09:42 AppUpdater: downloadAndInstall failed: Job was cancelled
-[I] 07-28 02:09:42 AppUpdater: Checking via website (current=215)
-[I] 07-28 02:09:42 AppUpdater: Update found via website: access-v216
-[I] 07-28 02:09:42 BadgerService: Realtime subscribed OK -- badger-svc-e0f75cf1-2ada-423d-91be-c2bebbc27715 status=SUBSCRIBED
-[I] 07-28 02:09:51 AppUpdater: Checking via website (current=215)
-[I] 07-28 02:09:51 AppUpdater: Update found via website: access-v216
-[I] 07-28 02:10:35 AppUpdater: Checking via website (current=215)
-[I] 07-28 02:10:35 AppUpdater: Update found via website: access-v216
-[I] 07-28 02:10:39 AuthManager: Session expired — trying HWID silent login
-[W] 07-28 02:10:39 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-28 02:10:39 AuthManager: HWID silent login for millerjo1986@gmail.com
-[W] 07-28 02:10:39 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-28 02:10:40 BadgerService: Lockdown active — stopping service
-[W] 07-28 02:10:40 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-28 02:10:40 BadgerService: Lockdown active — stopping service
-[I] 07-28 02:10:40 BadgerService: Keepalive scheduled in 900s
-[I] 07-28 02:10:40 BadgerService: User explicitly stopped service -- keepalive cancelled
-[I] 07-28 02:10:40 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:10:40 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-28 02:10:40 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[E] 07-28 02:10:40 BadgerRepo: getLiveMovement FAILED: Job was cancelled
-[W] 07-28 02:10:40 BadgerService: refreshVoiceData error: Job was cancelled
-[I] 07-28 02:10:45 BadgerApp: App started v215 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:10:45 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 07-28 02:10:45 AuthManager: Session expired — trying HWID silent login
-[W] 07-28 02:10:45 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-28 02:10:45 MainActivity: BadgerService started (mic=true)
-[I] 07-28 02:10:45 AppUpdater: Checking via website (current=215)
-[I] 07-28 02:10:45 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-28 02:10:45 BadgerService: Keepalive scheduled in 900s
-[I] 07-28 02:10:45 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:10:45 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-28 02:10:45 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-28 02:10:45 TTS: Engine initialized OK
-[I] 07-28 02:10:45 TTS: Speaking: Badger live monitoring active
-[I] 07-28 02:10:45 AppUpdater: Update found via website: access-v216
-[I] 07-28 02:10:45 MainActivity: Auto-downloading access-v216
-[I] 07-28 02:10:45 AppUpdater: Downloading https://github.com/augesrob/badger-android/releases/download/access-v216/badger-access-access-v216.apk
-[W] 07-28 02:10:45 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[W] 07-28 02:10:46 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 07-28 02:10:48 AppUpdater: Downloaded 16635260 bytes
-[I] 07-28 02:10:48 BadgerService: Realtime subscribed OK -- badger-svc-77b715cd-e40e-496f-853e-5a3e20fa6e39 status=SUBSCRIBED
-[I] 07-28 02:11:50 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-28 02:11:50 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 07-28 02:11:50 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-28 02:11:50 AuthManager: Session expired — trying HWID silent login
+=== samsung SM-S948U | v216 | shipped 2026-08-10 20:00:55 ===
 [I] 07-28 02:11:50 MainActivity: BadgerService started (mic=true)
 [I] 07-28 02:11:50 AppUpdater: Checking via website (current=216)
 [I] 07-28 02:11:50 AuthManager: HWID silent login for millerjo1986@gmail.com
@@ -499,3 +302,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-10 19:45:50 BadgerService: Realtime subscribed OK -- badger-svc-1055d44c-bdc1-4101-a103-b8639252ce92 status=SUBSCRIBED
 [I] 08-10 19:45:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-10 19:45:55 BadgerService: Keepalive scheduled in 900s
+[I] 08-10 19:45:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 08-10 19:46:50 TTS: Speaking: Truck 152, Ready
+[I] 08-10 19:46:50 WatchNotif: ?? PUSHING NOTIF: Truck 152 - New ? Ready (tag=watch_truck_152)
+[I] 08-10 19:46:50 WatchNotif: ?? Notif ID: -658232514
+[I] 08-10 19:46:50 WatchNotif: ? Successfully sent to watch: Truck 152 - New ? Ready
+[I] 08-10 19:46:52 TTS: Speaking: Truck 195, Ready
+[I] 08-10 19:46:52 WatchNotif: ?? PUSHING NOTIF: Truck 195 - New ? Ready (tag=watch_truck_195)
+[I] 08-10 19:46:52 WatchNotif: ?? Notif ID: -658232387
+[I] 08-10 19:46:52 WatchNotif: ? Successfully sent to watch: Truck 195 - New ? Ready
+[I] 08-10 19:46:53 TTS: Speaking: Truck 199, In Back
+[I] 08-10 19:46:53 WatchNotif: ?? PUSHING NOTIF: Truck 199 - New ? In Back (tag=watch_truck_199)
+[I] 08-10 19:46:53 WatchNotif: ?? Notif ID: -658232383
+[I] 08-10 19:46:53 WatchNotif: ? Successfully sent to watch: Truck 199 - New ? In Back
+[I] 08-10 19:46:53 AppUpdater: Checking via website (current=216)
+[I] 08-10 19:46:54 TTS: Speaking: Truck 211, Ready
+[I] 08-10 19:46:54 WatchNotif: ?? PUSHING NOTIF: Truck 211 - New ? Ready (tag=watch_truck_211)
+[I] 08-10 19:46:54 WatchNotif: ?? Notif ID: -658231678
+[I] 08-10 19:46:54 WatchNotif: ? Successfully sent to watch: Truck 211 - New ? Ready
+[I] 08-10 19:46:54 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-10 19:46:54 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-10 19:46:54 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-10 19:46:55 TTS: Speaking: Truck 187-2, Transfer
+[I] 08-10 19:46:55 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - New ? Transfer (tag=watch_truck_187-2)
+[I] 08-10 19:46:55 WatchNotif: ?? Notif ID: -1201157819
+[I] 08-10 19:46:55 WatchNotif: ? Successfully sent to watch: Truck 187-2 - New ? Transfer
+[I] 08-10 19:47:45 TTS: Speaking: Truck 175, Ready
+[I] 08-10 19:47:45 WatchNotif: ?? PUSHING NOTIF: Truck 175 - New ? Ready (tag=watch_truck_175)
+[I] 08-10 19:47:45 WatchNotif: ?? Notif ID: -658232449
+[I] 08-10 19:47:45 WatchNotif: ? Successfully sent to watch: Truck 175 - New ? Ready
+[I] 08-10 19:47:46 TTS: Speaking: Truck 187-1, Transfer
+[I] 08-10 19:47:46 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - New ? Transfer (tag=watch_truck_187-1)
+[I] 08-10 19:47:46 WatchNotif: ?? Notif ID: -1201157820
+[I] 08-10 19:47:46 WatchNotif: ? Successfully sent to watch: Truck 187-1 - New ? Transfer
+[I] 08-10 19:47:47 TTS: Speaking: Truck 248-2, Transfer
+[I] 08-10 19:47:47 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - New ? Transfer (tag=watch_truck_248-2)
+[I] 08-10 19:47:47 WatchNotif: ?? Notif ID: -1200352501
+[I] 08-10 19:47:47 WatchNotif: ? Successfully sent to watch: Truck 248-2 - New ? Transfer
+[I] 08-10 20:00:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-10 20:00:55 BadgerService: Keepalive scheduled in 900s
