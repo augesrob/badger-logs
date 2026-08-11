@@ -1,27 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-10 19:00:55 ===
-[I] 07-14 17:20:04 AppUpdater: Downloaded 16635260 bytes
-[I] 07-14 17:20:05 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 07-14 17:20:18 BadgerApp: App started v215 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-14 17:20:18 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 07-14 17:20:18 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 07-14 17:20:18 AuthManager: Session expired — trying HWID silent login
-[I] 07-14 17:20:18 MainActivity: BadgerService started (mic=true)
-[I] 07-14 17:20:18 AppUpdater: Checking via website (current=215)
-[I] 07-14 17:20:18 AuthManager: HWID silent login for millerjo1986@gmail.com
-[I] 07-14 17:20:18 BadgerService: Keepalive scheduled in 900s
-[I] 07-14 17:20:18 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 07-14 17:20:18 TTS: Engine initialized OK
-[I] 07-14 17:20:18 TTS: Speaking: Badger live monitoring active
-[I] 07-14 17:20:18 AppUpdater: Up to date via website (current=215 latest=215)
-[I] 07-14 17:20:18 AppUpdater: Checking via GitHub direct (current=215)
-[W] 07-14 17:20:18 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
-[I] 07-14 17:20:18 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
-[E] 07-14 17:20:18 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 07-14 17:20:19 AppUpdater: Up to date via GitHub (current=215 latest=215)
-[I] 07-14 17:20:19 BadgerService: Realtime subscribed OK -- badger-svc-a355c128-ecaf-45ba-8434-6107dbfb5a81 status=SUBSCRIBED
-[W] 07-14 17:20:21 AuthManager: JWT refresh failed: No refresh token found in current session
+=== samsung SM-S948U | v216 | shipped 2026-08-10 19:15:55 ===
 [I] 07-14 17:20:21 AuthManager: Session expired — trying HWID silent login
 [I] 07-14 17:20:21 AuthManager: HWID silent login for millerjo1986@gmail.com
 [W] 07-14 17:20:22 AuthManager: LOCKDOWN: blocked joemiller (millerjo1986@gmail.com) — Closed till further notice
@@ -499,3 +476,26 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-10 19:00:48 WatchNotif: ? Successfully sent to watch: Truck 5 - New ? Missing
 [I] 08-10 19:00:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-10 19:00:55 BadgerService: Keepalive scheduled in 900s
+[I] 08-10 19:00:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 08-10 19:01:44 TTS: Speaking: Truck 148, Ready
+[I] 08-10 19:01:44 WatchNotif: ?? PUSHING NOTIF: Truck 148 - New ? Ready (tag=watch_truck_148)
+[I] 08-10 19:01:44 WatchNotif: ?? Notif ID: -658232539
+[I] 08-10 19:01:44 WatchNotif: ? Successfully sent to watch: Truck 148 - New ? Ready
+[I] 08-10 19:02:52 TTS: Speaking: Truck 248-1, In Door
+[I] 08-10 19:02:52 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - Transfer ? In Door (tag=watch_truck_248-1)
+[I] 08-10 19:02:52 WatchNotif: ?? Notif ID: -1200352502
+[I] 08-10 19:02:52 WatchNotif: ? Successfully sent to watch: Truck 248-1 - Transfer ? In Door
+[W] 08-10 19:13:56 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 08-10 19:14:07 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 08-10 19:14:07 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 08-10 19:14:19 BadgerService: Realtime subscribed OK -- badger-svc-aa4ddfee-0288-4b70-92af-df681a1ec2c3 status=SUBSCRIBED
+[I] 08-10 19:15:45 TTS: Speaking: Truck 223-1, In Door
+[I] 08-10 19:15:45 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Transfer ? In Door (tag=watch_truck_223-1)
+[I] 08-10 19:15:45 WatchNotif: ?? Notif ID: -1200416889
+[I] 08-10 19:15:45 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Door
+[I] 08-10 19:15:47 TTS: Speaking: Truck 224-1, In Door
+[I] 08-10 19:15:47 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - Transfer ? In Door (tag=watch_truck_224-1)
+[I] 08-10 19:15:47 WatchNotif: ?? Notif ID: -1200415928
+[I] 08-10 19:15:47 WatchNotif: ? Successfully sent to watch: Truck 224-1 - Transfer ? In Door
+[I] 08-10 19:15:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-10 19:15:55 BadgerService: Keepalive scheduled in 900s
