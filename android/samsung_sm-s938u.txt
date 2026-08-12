@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-12 03:02:21 ===
-[I] 08-11 21:59:54 WatchNotif: ? Successfully sent to watch: Truck 246 - In Back ? In Front
-[I] 08-11 22:00:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-11 22:00:04 BadgerService: Keepalive scheduled in 900s
-[I] 08-11 22:00:06 LogShipper: Shipped 338 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 08-11 22:02:04 AppUpdater: Checking via website (current=216)
-[I] 08-11 22:02:05 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-11 22:02:05 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-11 22:02:05 AppUpdater: Up to date via GitHub (current=216 latest=216)
+=== samsung SM-S938U | v216 | shipped 2026-08-12 03:17:21 ===
 [I] 08-11 22:09:28 AppUpdater: Checking via website (current=216)
 [I] 08-11 22:09:30 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 08-11 22:09:30 AppUpdater: Checking via GitHub direct (current=216)
@@ -499,3 +491,11 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-12 03:02:21 BadgerService: Keepalive scheduled in 900s
 [W] 08-12 03:02:21 BadgerService: startRealtimeSync: in backoff for 202s more � skipping
 [W] 08-12 03:02:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-12 03:02:23 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-12 03:06:30 BadgerService: Realtime: 19 consecutive failures � cooling down 5 min
+[E] 08-12 03:06:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #19 in 300s)
+[E] 08-12 03:12:16 BadgerService: Realtime: 20 consecutive failures � cooling down 5 min
+[E] 08-12 03:12:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #20 in 300s)
+[I] 08-12 03:17:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-12 03:17:21 BadgerService: Keepalive scheduled in 900s
+[W] 08-12 03:17:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
