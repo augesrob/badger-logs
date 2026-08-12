@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-11 23:09:34 ===
+=== samsung SM-S948U | v216 | shipped 2026-08-11 23:24:34 ===
 [E] 08-11 17:36:55 BadgerService: Realtime: 178 consecutive failures � cooling down 5 min
 [I] 08-11 17:39:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-11 17:39:34 BadgerService: Keepalive scheduled in 900s
@@ -293,3 +293,23 @@
 [I] 08-11 23:09:34 BadgerService: Keepalive scheduled in 900s
 [W] 08-11 23:09:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-11 23:09:34 BadgerService: startRealtimeSync: in backoff for 16s more � skipping
+[I] 08-11 23:09:36 LogShipper: Shipped 294 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 08-11 23:10:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #29 in 300s)
+[E] 08-11 23:10:37 BadgerService: Realtime: 29 consecutive failures � cooling down 5 min
+[I] 08-11 23:11:35 AppUpdater: Checking via website (current=216)
+[I] 08-11 23:11:35 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-11 23:11:35 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-11 23:11:36 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 08-11 23:12:54 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-11 23:12:54 BadgerService: startRealtimeSync: in backoff for 162s more � skipping
+[I] 08-11 23:15:38 BadgerService: Realtime subscribed OK -- badger-svc-ae06ee2f-ea0c-4416-8f0c-243a907559ce status=SUBSCRIBED
+[I] 08-11 23:17:08 TTS: Speaking: Truck 158, In Front
+[I] 08-11 23:17:08 WatchNotif: ?? PUSHING NOTIF: Truck 158 - Ready ? In Front (tag=watch_truck_158)
+[I] 08-11 23:17:08 WatchNotif: ?? Notif ID: -658232508
+[I] 08-11 23:17:08 WatchNotif: ? Successfully sent to watch: Truck 158 - Ready ? In Front
+[I] 08-11 23:20:45 TTS: Speaking: Truck 213, Ready
+[I] 08-11 23:20:45 WatchNotif: ?? Notif ID: -658231676
+[I] 08-11 23:20:45 WatchNotif: ?? PUSHING NOTIF: Truck 213 - Missing ? Ready (tag=watch_truck_213)
+[I] 08-11 23:20:45 WatchNotif: ? Successfully sent to watch: Truck 213 - Missing ? Ready
+[I] 08-11 23:24:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-11 23:24:34 BadgerService: Keepalive scheduled in 900s
