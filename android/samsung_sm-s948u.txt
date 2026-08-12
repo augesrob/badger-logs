@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-12 18:16:58 ===
+=== samsung SM-S948U | v216 | shipped 2026-08-12 18:31:58 ===
 [E] 08-12 08:58:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #82 in 300s)
 [I] 08-12 09:01:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-12 09:01:58 BadgerService: Keepalive scheduled in 900s
@@ -387,3 +387,19 @@
 [I] 08-12 18:16:58 BadgerService: Keepalive scheduled in 900s
 [W] 08-12 18:16:58 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-12 18:16:58 BadgerService: startRealtimeSync: in backoff for 1s more � skipping
+[I] 08-12 18:17:00 LogShipper: Shipped 388 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 08-12 18:17:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #179 in 300s)
+[E] 08-12 18:17:47 BadgerService: Realtime: 179 consecutive failures � cooling down 5 min
+[W] 08-12 18:20:05 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-12 18:20:05 BadgerService: startRealtimeSync: in backoff for 161s more � skipping
+[W] 08-12 18:20:06 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-12 18:20:06 BadgerService: startRealtimeSync: in backoff for 161s more � skipping
+[E] 08-12 18:23:34 BadgerService: Realtime: 180 consecutive failures � cooling down 5 min
+[E] 08-12 18:23:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #180 in 300s)
+[I] 08-12 18:25:20 AppUpdater: Checking via website (current=216)
+[I] 08-12 18:25:21 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-12 18:25:21 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-12 18:25:22 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-12 18:28:35 BadgerService: Realtime subscribed OK -- badger-svc-ad687b1d-c9eb-4e74-b8ba-386761951e3f status=SUBSCRIBED
+[I] 08-12 18:31:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-12 18:31:58 BadgerService: Keepalive scheduled in 900s
