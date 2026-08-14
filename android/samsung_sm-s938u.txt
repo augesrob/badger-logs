@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-14 03:43:27 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-14 03:58:27 ===
 [I] 08-12 22:53:55 WatchNotif: ?? Notif ID: -1201155898
 [I] 08-12 22:53:55 WatchNotif: ? Successfully sent to watch: Truck 189-1 - In Door ? On Route
 [I] 08-12 22:54:05 TTS: Speaking: Door 15B, Loading
@@ -359,3 +359,35 @@ Http Method: GET
 [I] 08-14 03:43:27 BadgerService: Keepalive scheduled in 900s
 [W] 08-14 03:43:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-14 03:43:27 BadgerService: startRealtimeSync: in backoff for 1s more � skipping
+[I] 08-14 03:43:28 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 03:43:31 BadgerRepo: getLiveMovement FAILED: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[E] 08-14 03:43:31 BadgerService: Realtime setup error: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET (retry #11 in 300s)
+[E] 08-14 03:43:31 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 08-14 03:48:33 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
+[E] 08-14 03:48:33 BadgerRepo: getLiveMovement FAILED: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[E] 08-14 03:48:33 BadgerService: Realtime setup error: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET (retry #12 in 300s)
+[E] 08-14 03:53:35 BadgerService: Realtime setup error: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET (retry #13 in 300s)
+[E] 08-14 03:53:35 BadgerRepo: getLiveMovement FAILED: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[E] 08-14 03:53:35 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[I] 08-14 03:58:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 03:58:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 03:58:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 03:58:27 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
