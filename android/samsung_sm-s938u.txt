@@ -1,141 +1,173 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-14 10:58:19 ===
-[I] 08-14 03:14:29 BadgerService: Keepalive scheduled in 900s
-[I] 08-14 03:14:30 LogShipper: Shipped 262 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 08-14 03:28:18 AppUpdater: Checking via website (current=216)
-[I] 08-14 03:28:19 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-14 03:28:19 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-14 03:28:20 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[W] 08-14 03:28:22 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 08-14 03:28:22 BadgerService: Keepalive scheduled in 2s
-[I] 08-14 03:28:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-14 03:28:27 BadgerService: Keepalive scheduled in 900s
-[I] 08-14 03:28:28 LogShipper: Shipped 271 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 08-14 03:32:39 BadgerService: Heartbeat ping failed: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET -- restarting
-[E] 08-14 03:32:41 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:32:41 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #1 in 10s)
-[E] 08-14 03:32:53 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #2 in 20s)
-[E] 08-14 03:32:53 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:33:14 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #3 in 40s)
-[E] 08-14 03:33:14 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:33:57 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:33:57 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #4 in 80s)
-[E] 08-14 03:35:18 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #5 in 80s)
-[E] 08-14 03:35:18 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:36:39 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #6 in 80s)
-[E] 08-14 03:36:39 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:38:02 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #7 in 80s)
-[E] 08-14 03:38:02 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:39:24 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #8 in 80s)
-[E] 08-14 03:39:24 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:40:46 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #9 in 80s)
-[E] 08-14 03:40:46 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:42:08 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #10 in 80s)
-[E] 08-14 03:42:08 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[I] 08-14 03:43:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-14 03:43:27 BadgerService: Keepalive scheduled in 900s
-[W] 08-14 03:43:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 08-14 03:43:27 BadgerService: startRealtimeSync: in backoff for 1s more � skipping
-[I] 08-14 03:43:28 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 08-14 03:43:31 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:43:31 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #11 in 300s)
-[E] 08-14 03:43:31 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
-[E] 08-14 03:48:33 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
-[E] 08-14 03:48:33 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:48:33 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #12 in 300s)
-[E] 08-14 03:53:35 BadgerService: Realtime setup error: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET (retry #13 in 300s)
-[E] 08-14 03:53:35 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:53:35 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
-[I] 08-14 03:58:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-14 03:58:27 BadgerService: Keepalive scheduled in 900s
-[W] 08-14 03:58:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 08-14 03:58:27 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
-[I] 08-14 03:58:28 LogShipper: Shipped 392 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 08-14 03:58:37 BadgerRepo: getLiveMovement FAILED: Unknown error
-URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
-Http Method: GET
-[E] 08-14 03:58:37 BadgerServ 45s (status=SUBSCRIBING) (retry #3 in 40s)
+=== samsung SM-S938U | v216 | shipped 2026-08-14 11:13:19 ===
+[W] 08-14 04:58:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 04:58:28 LogShipper: Shipped 499 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 05:02:00 BadgerService: Realtime: 26 consecutive failures � cooling down 5 min
+[E] 08-14 05:02:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #26 in 300s)
+[E] 08-14 05:07:46 BadgerService: Realtime: 27 consecutive failures � cooling down 5 min
+[E] 08-14 05:07:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #27 in 300s)
+[I] 08-14 05:13:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 05:13:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 05:13:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 05:13:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 05:14:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #28 in 300s)
+[E] 08-14 05:14:13 BadgerService: Realtime: 28 consecutive failures � cooling down 5 min
+[E] 08-14 05:19:59 BadgerService: Realtime: 29 consecutive failures � cooling down 5 min
+[E] 08-14 05:19:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #29 in 300s)
+[E] 08-14 05:25:45 BadgerService: Realtime: 30 consecutive failures � cooling down 5 min
+[E] 08-14 05:25:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #30 in 300s)
+[W] 08-14 05:28:27 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
+[I] 08-14 05:28:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 05:28:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 05:28:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 05:28:29 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 05:31:31 BadgerService: Realtime: 31 consecutive failures � cooling down 5 min
+[E] 08-14 05:31:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #31 in 300s)
+[E] 08-14 05:37:18 BadgerService: Realtime: 32 consecutive failures � cooling down 5 min
+[E] 08-14 05:37:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #32 in 300s)
+[E] 08-14 05:43:04 BadgerService: Realtime: 33 consecutive failures � cooling down 5 min
+[E] 08-14 05:43:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #33 in 300s)
+[I] 08-14 05:43:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 05:43:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 05:43:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 05:43:27 BadgerService: startRealtimeSync: in backoff for 277s more � skipping
+[I] 08-14 05:43:29 LogShipper: Shipped 268 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 05:48:50 BadgerService: Realtime: 34 consecutive failures � cooling down 5 min
+[E] 08-14 05:48:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #34 in 300s)
+[E] 08-14 05:54:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #35 in 300s)
+[E] 08-14 05:54:38 BadgerService: Realtime: 35 consecutive failures � cooling down 5 min
+[I] 08-14 05:58:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 08-14 05:58:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 05:58:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 05:58:27 BadgerService: startRealtimeSync: in backoff for 71s more � skipping
+[I] 08-14 05:58:29 LogShipper: Shipped 277 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 06:00:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #36 in 300s)
+[E] 08-14 06:00:24 BadgerService: Realtime: 36 consecutive failures � cooling down 5 min
+[E] 08-14 06:06:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #37 in 300s)
+[E] 08-14 06:06:12 BadgerService: Realtime: 37 consecutive failures � cooling down 5 min
+[E] 08-14 06:12:03 BadgerService: Realtime: 38 consecutive failures � cooling down 5 min
+[E] 08-14 06:12:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #38 in 300s)
+[I] 08-14 06:13:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 06:13:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 06:13:27 BadgerService: startRealtimeSync: in backoff for 216s more � skipping
+[W] 08-14 06:13:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 06:13:28 LogShipper: Shipped 288 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 06:17:50 BadgerService: Realtime: 39 consecutive failures � cooling down 5 min
+[E] 08-14 06:17:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #39 in 300s)
+[E] 08-14 06:23:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #40 in 300s)
+[E] 08-14 06:23:36 BadgerService: Realtime: 40 consecutive failures � cooling down 5 min
+[I] 08-14 06:28:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 06:28:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 06:28:27 BadgerService: startRealtimeSync: in backoff for 9s more � skipping
+[W] 08-14 06:28:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 06:28:28 LogShipper: Shipped 297 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 06:29:22 BadgerService: Realtime: 41 consecutive failures � cooling down 5 min
+[E] 08-14 06:29:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #41 in 300s)
+[E] 08-14 06:35:08 BadgerService: Realtime: 42 consecutive failures � cooling down 5 min
+[E] 08-14 06:35:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #42 in 300s)
+[E] 08-14 06:40:54 BadgerService: Realtime: 43 consecutive failures � cooling down 5 min
+[E] 08-14 06:40:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #43 in 300s)
+[I] 08-14 06:43:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 06:43:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 06:43:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 06:43:27 BadgerService: startRealtimeSync: in backoff for 147s more � skipping
+[I] 08-14 06:43:29 LogShipper: Shipped 308 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 06:46:41 BadgerService: Realtime: 44 consecutive failures � cooling down 5 min
+[E] 08-14 06:46:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #44 in 300s)
+[E] 08-14 06:52:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #45 in 300s)
+[E] 08-14 06:52:28 BadgerService: Realtime: 45 consecutive failures � cooling down 5 min
+[E] 08-14 06:58:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #46 in 300s)
+[E] 08-14 06:58:14 BadgerService: Realtime: 46 consecutive failures � cooling down 5 min
+[I] 08-14 06:58:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 06:58:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 06:58:27 BadgerService: startRealtimeSync: in backoff for 287s more � skipping
+[W] 08-14 06:58:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 06:58:28 LogShipper: Shipped 319 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 07:04:00 BadgerService: Realtime: 47 consecutive failures � cooling down 5 min
+[E] 08-14 07:04:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #47 in 300s)
+[E] 08-14 07:09:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #48 in 300s)
+[E] 08-14 07:09:46 BadgerService: Realtime: 48 consecutive failures � cooling down 5 min
+[I] 08-14 07:13:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 07:13:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 07:13:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 07:13:27 BadgerService: startRealtimeSync: in backoff for 79s more � skipping
+[I] 08-14 07:13:29 LogShipper: Shipped 328 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 07:15:33 BadgerService: Realtime: 49 consecutive failures � cooling down 5 min
+[E] 08-14 07:15:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
+[E] 08-14 07:21:19 BadgerService: Realtime: 50 consecutive failures � cooling down 5 min
+[E] 08-14 07:21:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #50 in 300s)
+[E] 08-14 07:27:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #51 in 300s)
+[E] 08-14 07:27:05 BadgerService: Realtime: 51 consecutive failures � cooling down 5 min
+[I] 08-14 07:28:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 07:28:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 07:28:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 07:28:27 BadgerService: startRealtimeSync: in backoff for 218s more � skipping
+[I] 08-14 07:28:29 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 07:32:51 BadgerService: Realtime: 52 consecutive failures � cooling down 5 min
+[E] 08-14 07:32:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #52 in 300s)
+[E] 08-14 07:38:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #53 in 300s)
+[E] 08-14 07:38:37 BadgerService: Realtime: 53 consecutive failures � cooling down 5 min
+[I] 08-14 07:43:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 07:43:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 07:43:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 07:43:27 BadgerService: startRealtimeSync: in backoff for 10s more � skipping
+[I] 08-14 07:43:29 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 07:44:24 BadgerService: Realtime: 54 consecutive failures � cooling down 5 min
+[E] 08-14 07:44:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #54 in 300s)
+[E] 08-14 07:49:24 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 08-14 07:50:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #55 in 300s)
+[E] 08-14 07:50:10 BadgerService: Realtime: 55 consecutive failures � cooling down 5 min
+[E] 08-14 07:55:56 BadgerService: Realtime: 56 consecutive failures � cooling down 5 min
+[E] 08-14 07:55:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #56 in 300s)
+[I] 08-14 07:58:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 08-14 07:58:27 BadgerService: startRealtimeSync: in backoff for 149s more � skipping
+[W] 08-14 07:58:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 07:58:27 BadgerService: Keepalive scheduled in 900s
+[I] 08-14 07:58:28 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 08:00:56 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 08-14 08:01:42 BadgerService: Realtime: 57 consecutive failures � cooling down 5 min
+[E] 08-14 08:01:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #57 in 300s)
+[E] 08-14 08:07:29 BadgerService: Realtime: 58 consecutive failures � cooling down 5 min
+[E] 08-14 08:07:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #58 in 300s)
+[E] 08-14 08:13:15 BadgerService: Realtime: 59 consecutive failures � cooling down 5 min
+[E] 08-14 08:13:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #59 in 300s)
+[I] 08-14 08:13:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 08:13:27 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 08:13:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 08:13:27 BadgerService: startRealtimeSync: in backoff for 288s more � skipping
+[I] 08-14 08:13:28 LogShipper: Shipped 372 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 08:19:01 BadgerService: Realtime: 60 consecutive failures � cooling down 5 min
+[E] 08-14 08:19:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #60 in 300s)
+[E] 08-14 08:24:47 BadgerService: Realtime: 61 consecutive failures � cooling down 5 min
+[E] 08-14 08:24:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #61 in 300s)
+[I] 08-14 08:28:12 AppUpdater: Checking via website (current=216)
+[I] 08-14 08:28:13 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-14 08:28:13 AppUpdater: Up to date via website (current=216 latest=216)
+[W] 08-14 08:28:14 AppUpdater: GitHub direct check failed: Job was cancelled
+[W] 08-14 08:28:14 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 08-14 08:28:14 BadgerService: Keepalive scheduled in 2s
+[I] 08-14 08:28:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 08:28:19 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 08:28:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 08:28:19 BadgerService: startRealtimeSync: in backoff for 88s more � skipping
+[I] 08-14 08:28:21 LogShipper: Shipped 387 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-14 08:29:49 BadgerService: Realtime subscribed OK -- badger-svc-642a19bc-df2b-4759-a72d-21992da4e851 status=SUBSCRIBED
+[I] 08-14 08:43:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 08:43:19 BadgerService: Keepalive scheduled in 900s
+[I] 08-14 08:43:20 LogShipper: Shipped 391 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-14 08:58:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 08:58:19 BadgerService: Keepalive scheduled in 900s
+[I] 08-14 08:58:20 LogShipper: Shipped 394 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-14 09:13:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 09:13:19 BadgerService: Keepalive scheduled in 900s
+[I] 08-14 09:13:21 LogShipper: Shipped 397 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 08-14 09:28:15 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 08-14 09:28:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 09:28:19 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 09:28:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-14 09:28:21 LogShipper: Shipped 402 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 09:29:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 08-14 09:30:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 08-14 09:31:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
 [E] 08-14 09:32:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
 [E] 08-14 09:34:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
 [E] 08-14 09:36:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
@@ -204,3 +236,11 @@ Http Method: GET
 [I] 08-14 10:58:19 BadgerService: Keepalive scheduled in 900s
 [W] 08-14 10:58:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-14 10:58:19 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
+[I] 08-14 10:58:21 LogShipper: Shipped 205 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 11:02:32 BadgerService: Realtime: 24 consecutive failures � cooling down 5 min
+[E] 08-14 11:02:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #24 in 300s)
+[E] 08-14 11:08:18 BadgerService: Realtime: 25 consecutive failures � cooling down 5 min
+[E] 08-14 11:08:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #25 in 300s)
+[I] 08-14 11:13:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 11:13:19 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 11:13:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
