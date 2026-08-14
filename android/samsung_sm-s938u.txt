@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-14 08:13:27 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-14 08:28:19 ===
 [I] 08-14 03:14:29 BadgerService: Keepalive scheduled in 900s
 [I] 08-14 03:14:30 LogShipper: Shipped 262 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 08-14 03:28:18 AppUpdater: Checking via website (current=216)
@@ -371,3 +371,18 @@ Http Method: GET (retry #22 in 300s)
 [I] 08-14 08:13:27 BadgerService: Keepalive scheduled in 900s
 [W] 08-14 08:13:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-14 08:13:27 BadgerService: startRealtimeSync: in backoff for 288s more � skipping
+[I] 08-14 08:13:28 LogShipper: Shipped 372 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-14 08:19:01 BadgerService: Realtime: 60 consecutive failures � cooling down 5 min
+[E] 08-14 08:19:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #60 in 300s)
+[E] 08-14 08:24:47 BadgerService: Realtime: 61 consecutive failures � cooling down 5 min
+[E] 08-14 08:24:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #61 in 300s)
+[I] 08-14 08:28:12 AppUpdater: Checking via website (current=216)
+[I] 08-14 08:28:13 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-14 08:28:13 AppUpdater: Up to date via website (current=216 latest=216)
+[W] 08-14 08:28:14 AppUpdater: GitHub direct check failed: Job was cancelled
+[W] 08-14 08:28:14 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 08-14 08:28:14 BadgerService: Keepalive scheduled in 2s
+[I] 08-14 08:28:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 08:28:19 BadgerService: Keepalive scheduled in 900s
+[W] 08-14 08:28:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-14 08:28:19 BadgerService: startRealtimeSync: in backoff for 88s more � skipping
