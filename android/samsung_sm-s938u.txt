@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-13 22:27:13 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-14 03:14:29 ===
 [I] 08-12 22:53:55 WatchNotif: ?? Notif ID: -1201155898
 [I] 08-12 22:53:55 WatchNotif: ? Successfully sent to watch: Truck 189-1 - In Door ? On Route
 [I] 08-12 22:54:05 TTS: Speaking: Door 15B, Loading
@@ -204,3 +204,60 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-13 22:15:17 WatchNotif: ? Successfully sent to watch: Truck 230 - In Back ? In Front
 [I] 08-13 22:27:13 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-13 22:27:13 BadgerService: Keepalive scheduled in 900s
+[I] 08-13 22:27:14 LogShipper: Shipped 205 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-13 22:29:35 TTS: Speaking: Truck 194, In Front
+[I] 08-13 22:29:36 WatchNotif: ?? Notif ID: -658232388
+[I] 08-13 22:29:36 WatchNotif: ?? PUSHING NOTIF: Truck 194 - In Back ? In Front (tag=watch_truck_194)
+[I] 08-13 22:29:36 WatchNotif: ? Successfully sent to watch: Truck 194 - In Back ? In Front
+[I] 08-13 22:29:42 TTS: Speaking: Truck 186-1, On Route
+[I] 08-13 22:29:42 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Door ? On Route (tag=watch_truck_186-1)
+[I] 08-13 22:29:42 WatchNotif: ?? Notif ID: -1201158781
+[I] 08-13 22:29:42 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Door ? On Route
+[I] 08-13 22:29:46 TTS: Speaking: Truck 223-3, In Door
+[I] 08-13 22:29:46 WatchNotif: ?? PUSHING NOTIF: Truck 223-3 - In Front ? In Door (tag=watch_truck_223-3)
+[I] 08-13 22:29:46 WatchNotif: ?? Notif ID: -1200416887
+[I] 08-13 22:29:46 WatchNotif: ? Successfully sent to watch: Truck 223-3 - In Front ? In Door
+[I] 08-13 22:30:10 AppUpdater: Checking via website (current=216)
+[I] 08-13 22:30:11 AppUpdater: Checking via website (current=0)
+[I] 08-13 22:30:11 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-13 22:30:11 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-13 22:30:11 AppUpdater: Update found via website: access-v216
+[I] 08-13 22:30:11 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-13 22:30:12 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 08-14 02:59:29 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-14 02:59:29 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 08-14 02:59:29 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-14 02:59:29 AuthManager: Session expired — trying HWID silent login
+[I] 08-14 02:59:29 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 08-14 02:59:29 MainActivity: BadgerService started (mic=true)
+[I] 08-14 02:59:29 AppUpdater: Checking via website (current=216)
+[I] 08-14 02:59:29 BadgerService: Keepalive scheduled in 900s
+[I] 08-14 02:59:29 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-14 02:59:29 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 08-14 02:59:29 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-14 02:59:29 TTS: Engine initialized OK
+[I] 08-14 02:59:29 TTS: Speaking: Badger live monitoring active
+[I] 08-14 02:59:30 AuthManager: Sign in OK — augesrob role=admin
+[I] 08-14 02:59:30 AuthManager: HWID silent login OK
+[I] 08-14 02:59:30 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 08-14 02:59:30 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-14 02:59:30 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-14 02:59:30 BadgerService: Realtime subscribed OK -- badger-svc-3ad08bce-fa60-4cfe-b165-1b7ab9294932 status=SUBSCRIBED
+[I] 08-14 02:59:31 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 08-14 03:02:02 Voice: Speech recognition error: Speech error (11)
+[I] 08-14 03:02:07 PTT: PTT recording STARTED
+[I] 08-14 03:02:07 PTT: PTT recording STOPPED
+[I] 08-14 03:02:07 PTT: PTT sent OK — 640 bytes
+[I] 08-14 03:02:07 PTT: Incoming PTT message received
+[I] 08-14 03:02:12 PTT: PTT recording STARTED
+[I] 08-14 03:02:16 PTT: PTT recording STOPPED
+[I] 08-14 03:02:16 PTT: PTT sent OK — 58240 bytes
+[I] 08-14 03:02:16 PTT: Incoming PTT message received
+[I] 08-14 03:04:29 AppUpdater: Checking via website (current=216)
+[I] 08-14 03:04:29 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-14 03:04:29 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-14 03:04:30 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-14 03:14:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-14 03:14:29 BadgerService: Keepalive scheduled in 900s
