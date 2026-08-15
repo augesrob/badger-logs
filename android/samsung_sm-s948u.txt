@@ -1,8 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-08-15 08:31:34 ===
-[I] 08-13 21:32:03 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 08-13 21:47:01 BadgerService: Keepalive scheduled in 900s
-[W] 08-13 21:47:01 BadgerSer29
-Headers: [Authorization=[Bearer sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+=== samsung SM-S948U | v216 | shipped 2026-08-15 08:46:34 ===
 Http Method: GET (retry #31 in 300s)
 [E] 08-14 04:24:03 BadgerRepo: getLiveMovement FAILED: Unknown error
 URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
@@ -499,3 +495,7 @@ Http Method: GET
 [I] 08-15 08:31:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-15 08:31:34 BadgerService: Keepalive scheduled in 900s
 [W] 08-15 08:31:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-15 08:31:35 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 08-15 08:46:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-15 08:46:34 BadgerService: Keepalive scheduled in 900s
+[W] 08-15 08:46:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
