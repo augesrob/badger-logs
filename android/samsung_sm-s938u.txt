@@ -1,7 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-16 12:46:34 ===
-[E] 08-15 14:58:34 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 08-15 14:58:34 BadgerService: Realtime: 314 consecutive failures � cooling down 5 min
-[W] 08-15 14:58:40 LogShipper: Ship failed HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/conten
+=== samsung SM-S938U | v216 | shipped 2026-08-16 13:01:34 ===
 [E] 08-15 15:04:20 BadgerService: Realtime: 315 consecutive failures � cooling down 5 min
 [E] 08-15 15:04:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #315 in 300s)
 [E] 08-15 15:10:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #316 in 300s)
@@ -499,3 +496,6 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-16 12:31:36 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 08-16 12:46:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-16 12:46:34 BadgerService: Keepalive scheduled in 900s
+[I] 08-16 12:46:36 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-16 13:01:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-16 13:01:34 BadgerService: Keepalive scheduled in 900s
