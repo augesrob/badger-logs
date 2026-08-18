@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-17 19:45:01 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-17 20:00:01 ===
 [I] 08-16 19:16:36 LogShipper: Shipped 306 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 08-16 19:31:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-16 19:31:34 BadgerService: Keepalive scheduled in 900s
@@ -453,3 +453,35 @@
 [I] 08-17 19:42:46 WatchNotif: ? Successfully sent to watch: Truck 161 - New ? Ready
 [I] 08-17 19:45:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-17 19:45:01 BadgerService: Keepalive scheduled in 900s
+[I] 08-17 19:45:02 LogShipper: Shipped 454 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-17 19:48:31 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 08-17 19:48:31 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 08-17 19:49:11 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 08-17 19:49:12 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-17 19:49:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 08-17 19:50:10 BadgerService: Realtime subscribed OK -- badger-svc-c2a39f24-26b2-41e6-9667-52b04847d8f1 status=SUBSCRIBED
+[I] 08-17 19:55:50 TTS: Speaking: Truck 170-1, In Front
+[I] 08-17 19:55:50 WatchNotif: ?? PUSHING NOTIF: Truck 170-1 - 11 ? In Front (tag=watch_truck_170-1)
+[I] 08-17 19:55:50 WatchNotif: ?? Notif ID: -1201194338
+[I] 08-17 19:55:50 WatchNotif: ? Successfully sent to watch: Truck 170-1 - 11 ? In Front
+[I] 08-17 19:56:06 TTS: Speaking: Truck 187-1, In Front
+[I] 08-17 19:56:06 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - Transfer ? In Front (tag=watch_truck_187-1)
+[I] 08-17 19:56:06 WatchNotif: ?? Notif ID: -1201157820
+[I] 08-17 19:56:06 WatchNotif: ? Successfully sent to watch: Truck 187-1 - Transfer ? In Front
+[I] 08-17 19:56:31 TTS: Speaking: Truck 231-2, In Front
+[I] 08-17 19:56:32 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - Transfer ? In Front (tag=watch_truck_231-2)
+[I] 08-17 19:56:32 WatchNotif: ?? Notif ID: -1200389019
+[I] 08-17 19:56:32 WatchNotif: ? Successfully sent to watch: Truck 231-2 - Transfer ? In Front
+[I] 08-17 19:56:37 TTS: Speaking: Truck 223-1, In Front
+[I] 08-17 19:56:37 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Transfer ? In Front (tag=watch_truck_223-1)
+[I] 08-17 19:56:37 WatchNotif: ?? Notif ID: -1200416889
+[I] 08-17 19:56:37 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Front
+[I] 08-17 19:56:45 TTS: Speaking: Truck 248-2, In Front
+[I] 08-17 19:56:45 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - Transfer ? In Front (tag=watch_truck_248-2)
+[I] 08-17 19:56:45 WatchNotif: ?? Notif ID: -1200352501
+[I] 08-17 19:56:45 WatchNotif: ? Successfully sent to watch: Truck 248-2 - Transfer ? In Front
+[I] 08-17 19:59:53 TTS: Speaking: Preshift updated
+[I] 08-17 19:59:56 TTS: Speaking: Preshift updated
+[I] 08-17 19:59:59 TTS: Speaking: Preshift updated
+[I] 08-17 20:00:01 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-17 20:00:01 BadgerService: Keepalive scheduled in 900s
