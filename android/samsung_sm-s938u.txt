@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-18 19:51:46 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-18 20:06:46 ===
 [I] 08-18 09:22:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 08-18 09:22:16 BadgerService: startRealtimeSync: in backoff for 68s more � skipping
 [W] 08-18 09:22:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -433,3 +433,18 @@
 [I] 08-18 19:36:48 LogShipper: Shipped 431 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 08-18 19:51:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-18 19:51:46 BadgerService: Keepalive scheduled in 900s
+[I] 08-18 19:51:48 LogShipper: Shipped 434 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-18 19:55:50 TTS: Speaking: Truck 158, Ready
+[I] 08-18 19:55:50 WatchNotif: ?? PUSHING NOTIF: Truck 158 - New ? Ready (tag=watch_truck_158)
+[I] 08-18 19:55:50 WatchNotif: ?? Notif ID: -658232508
+[I] 08-18 19:55:50 WatchNotif: ? Successfully sent to watch: Truck 158 - New ? Ready
+[W] 08-18 19:56:51 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[W] 08-18 19:56:53 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-18 19:57:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 08-18 19:57:51 BadgerService: Realtime subscribed OK -- badger-svc-961296d5-2f6a-4a03-a921-d2e079bd38ad status=SUBSCRIBED
+[I] 08-18 20:03:31 AppUpdater: Checking via website (current=216)
+[I] 08-18 20:03:32 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-18 20:03:32 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-18 20:03:33 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-18 20:06:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-18 20:06:46 BadgerService: Keepalive scheduled in 900s
