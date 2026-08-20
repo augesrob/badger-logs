@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-20 18:17:54 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-20 18:32:54 ===
 [I] 08-20 11:32:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 08-20 11:36:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #82 in 300s)
 [E] 08-20 11:36:16 BadgerService: Realtime: 82 consecutive failures � cooling down 5 min
@@ -313,3 +313,36 @@
 [I] 08-20 18:17:54 BadgerService: Keepalive scheduled in 900s
 [W] 08-20 18:17:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-20 18:17:54 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
+[I] 08-20 18:17:55 LogShipper: Shipped 314 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-20 18:22:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #152 in 300s)
+[E] 08-20 18:22:07 BadgerService: Realtime: 152 consecutive failures � cooling down 5 min
+[W] 08-20 18:26:08 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-20 18:26:08 BadgerService: startRealtimeSync: in backoff for 58s more � skipping
+[E] 08-20 18:27:07 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 08-20 18:27:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #153 in 300s)
+[E] 08-20 18:27:53 BadgerService: Realtime: 153 consecutive failures � cooling down 5 min
+[I] 08-20 18:31:33 AppUpdater: Checking via website (current=216)
+[I] 08-20 18:31:34 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 18:31:34 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-20 18:31:35 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-20 18:32:37 AppUpdater: Checking via website (current=216)
+[I] 08-20 18:32:37 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 18:32:37 AppUpdater: Checking via GitHub direct (current=216)
+[W] 08-20 18:32:37 AppUpdater: GitHub direct check failed: Job was cancelled
+[I] 08-20 18:32:37 AppUpdater: Checking via website (current=216)
+[I] 08-20 18:32:38 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 18:32:38 AppUpdater: Checking via GitHub direct (current=216)
+[W] 08-20 18:32:38 AppUpdater: GitHub direct check failed: Job was cancelled
+[I] 08-20 18:32:38 AppUpdater: Checking via website (current=216)
+[I] 08-20 18:32:38 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 18:32:38 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-20 18:32:38 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-20 18:32:38 AppUpdater: Checking via website (current=216)
+[E] 08-20 18:32:38 BadgerRepo: getLiveMovement FAILED: The coroutine scope left the composition
+[I] 08-20 18:32:39 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 18:32:39 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-20 18:32:39 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-20 18:32:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-20 18:32:54 BadgerService: Keepalive scheduled in 900s
+[W] 08-20 18:32:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 08-20 18:32:54 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
