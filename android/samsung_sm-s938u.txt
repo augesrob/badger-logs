@@ -1,14 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-20 04:49:40 ===
-[I] 08-20 01:41:04 WatchNotif: ?? Notif ID: -658232485
-[I] 08-20 01:41:04 WatchNotif: ? Successfully sent to watch: Truck 160 - In Back ? In Front
-[I] 08-20 01:42:20 TTS: Speaking: Truck 152, In Front
-[I] 08-20 01:42:20 WatchNotif: ?? PUSHING NOTIF: Truck 152 - Ready ? In Front (tag=watch_truck_152)
-[I] 08-20 01:42:20 WatchNotif: ?? Notif ID: -658232514
-[I] 08-20 01:42:20 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
-[I] 08-20 01:43:40 TTS: Speaking: Truck 220, In Door
-[I] 08-20 01:43:40 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Front ? In Door (tag=watch_truck_220)
-[I] 08-20 01:43:40 WatchNotif: ?? Notif ID: -658231648
-[I] 08-20 01:43:40 WatchNotif: ? Successfully sent to watch: Truck 220 - In Front ? In Door
+=== samsung SM-S938U | v216 | shipped 2026-08-20 05:02:53 ===
 [I] 08-20 01:46:09 AppUpdater: Checking via website (current=216)
 [I] 08-20 01:46:10 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 08-20 01:46:10 AppUpdater: Checking via GitHub direct (current=216)
@@ -499,3 +489,13 @@
 [I] 08-20 04:49:40 BadgerService: Keepalive scheduled in 900s
 [W] 08-20 04:49:40 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-20 04:49:40 BadgerService: startRealtimeSync: in backoff for 77s more � skipping
+[I] 08-20 04:49:42 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-20 04:51:44 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
+[E] 08-20 04:51:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
+[E] 08-20 04:57:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[E] 08-20 04:57:30 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[I] 08-20 05:02:48 BadgerService: Keepalive scheduled in 2s
+[W] 08-20 05:02:48 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
+[I] 08-20 05:02:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-20 05:02:53 BadgerService: Keepalive scheduled in 900s
+[W] 08-20 05:02:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
