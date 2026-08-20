@@ -1,13 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-20 11:02:53 ===
-[I] 08-20 03:16:56 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-20 03:16:56 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 08-20 03:17:01 Movement: Door 15A status → Done for Night
-[I] 08-20 03:17:01 BadgerRepo: updateDoorStatus OK — id=5 status=Done for Night
-[I] 08-20 03:17:02 TTS: Speaking: Door 15A, Done for Night
-[I] 08-20 03:17:02 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Done for Night (tag=watch_door_15A)
-[I] 08-20 03:17:02 WatchNotif: ?? Notif ID: -108072964
-[I] 08-20 03:17:02 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Done for Night
-[I] 08-20 03:17:43 AppUpdater: Checking via website (current=216)
+=== samsung SM-S938U | v216 | shipped 2026-08-20 11:17:53 ===
 [I] 08-20 03:17:43 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 08-20 03:17:43 AppUpdater: Checking via GitHub direct (current=216)
 [I] 08-20 03:17:44 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -499,3 +490,12 @@
 [I] 08-20 11:02:53 BadgerService: Keepalive scheduled in 900s
 [W] 08-20 11:02:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-20 11:02:53 BadgerService: startRealtimeSync: in backoff for 226s more � skipping
+[I] 08-20 11:02:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-20 11:07:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #77 in 300s)
+[E] 08-20 11:07:26 BadgerService: Realtime: 77 consecutive failures � cooling down 5 min
+[E] 08-20 11:13:12 BadgerService: Realtime: 78 consecutive failures � cooling down 5 min
+[E] 08-20 11:13:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #78 in 300s)
+[I] 08-20 11:17:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-20 11:17:53 BadgerService: Keepalive scheduled in 900s
+[W] 08-20 11:17:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-20 11:17:53 BadgerService: startRealtimeSync: in backoff for 18s more � skipping
