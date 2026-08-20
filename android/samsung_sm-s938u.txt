@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-20 03:04:40 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-20 03:19:40 ===
 [E] 08-20 00:37:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #19 in 300s)
 [I] 08-20 00:38:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-20 00:38:21 BadgerService: Keepalive scheduled in 900s
@@ -332,3 +332,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-20 02:49:42 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 08-20 03:04:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-20 03:04:40 BadgerService: Keepalive scheduled in 900s
+[I] 08-20 03:04:42 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-20 03:15:38 AppUpdater: Checking via website (current=216)
+[I] 08-20 03:15:39 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 03:15:39 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-20 03:15:40 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-20 03:16:34 Movement: Truck 216 status → In Door
+[I] 08-20 03:16:34 BadgerRepo: updateMovementStatus OK — truck=216 statusId=1
+[I] 08-20 03:16:34 TTS: Speaking: Truck 216, In Door
+[I] 08-20 03:16:34 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Front ? In Door (tag=watch_truck_216)
+[I] 08-20 03:16:34 WatchNotif: ?? Notif ID: -658231673
+[I] 08-20 03:16:34 WatchNotif: ? Successfully sent to watch: Truck 216 - In Front ? In Door
+[I] 08-20 03:16:35 Movement: Truck 192 status → Put Away
+[I] 08-20 03:16:35 BadgerRepo: updateMovementStatus OK — truck=192 statusId=2
+[I] 08-20 03:16:36 TTS: Speaking: Truck 192, Put Away
+[I] 08-20 03:16:36 WatchNotif: ?? PUSHING NOTIF: Truck 192 - In Door ? Put Away (tag=watch_truck_192)
+[I] 08-20 03:16:36 WatchNotif: ?? Notif ID: -658232390
+[I] 08-20 03:16:36 WatchNotif: ? Successfully sent to watch: Truck 192 - In Door ? Put Away
+[I] 08-20 03:16:55 AppUpdater: Checking via website (current=216)
+[I] 08-20 03:16:56 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 03:16:56 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-20 03:16:56 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-20 03:17:01 Movement: Door 15A status → Done for Night
+[I] 08-20 03:17:01 BadgerRepo: updateDoorStatus OK — id=5 status=Done for Night
+[I] 08-20 03:17:02 TTS: Speaking: Door 15A, Done for Night
+[I] 08-20 03:17:02 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Done for Night (tag=watch_door_15A)
+[I] 08-20 03:17:02 WatchNotif: ?? Notif ID: -108072964
+[I] 08-20 03:17:02 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Done for Night
+[I] 08-20 03:17:43 AppUpdater: Checking via website (current=216)
+[I] 08-20 03:17:43 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-20 03:17:43 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-20 03:17:44 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-20 03:17:46 Movement: Door 14B status → End Of Truck Tote
+[I] 08-20 03:17:46 BadgerRepo: updateDoorStatus OK — id=4 status=End Of Truck Tote
+[I] 08-20 03:17:46 TTS: Speaking: Door 14B, End Of Truck Tote
+[I] 08-20 03:17:46 WatchNotif: ?? PUSHING NOTIF: Door 14B - Loading ? End Of Truck Tote (tag=watch_door_14B)
+[I] 08-20 03:17:46 WatchNotif: ?? Notif ID: -108072994
+[I] 08-20 03:17:46 WatchNotif: ? Successfully sent to watch: Door 14B - Loading ? End Of Truck Tote
+[I] 08-20 03:19:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-20 03:19:40 BadgerService: Keepalive scheduled in 900s
