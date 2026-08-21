@@ -1,33 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-21 02:10:59 ===
-[I] 08-20 18:02:54 BadgerService: Keepalive scheduled in 900s
-[W] 08-20 18:02:54 BadgerService: startRealtimeSync: in backoff for 68s more � skipping
-[W] 08-20 18:02:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 08-20 18:02:55 LogShipper: Shipped 303 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 08-20 18:04:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #149 in 300s)
-[E] 08-20 18:04:49 BadgerService: Realtime: 149 consecutive failures � cooling down 5 min
-[E] 08-20 18:10:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #150 in 300s)
-[E] 08-20 18:10:35 BadgerService: Realtime: 150 consecutive failures � cooling down 5 min
-[E] 08-20 18:16:21 BadgerService: Realtime: 151 consecutive failures � cooling down 5 min
-[E] 08-20 18:16:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #151 in 300s)
-[I] 08-20 18:17:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-20 18:17:54 BadgerService: Keepalive scheduled in 900s
-[W] 08-20 18:17:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 08-20 18:17:54 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
-[I] 08-20 18:17:55 LogShipper: Shipped 314 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 08-20 18:22:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #152 in 300s)
-[E] 08-20 18:22:07 BadgerService: Realtime: 152 consecutive failures � cooling down 5 min
-[W] 08-20 18:26:08 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 08-20 18:26:08 BadgerService: startRealtimeSync: in backoff for 58s more � skipping
-[E] 08-20 18:27:07 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
-[E] 08-20 18:27:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #153 in 300s)
-[E] 08-20 18:27:53 BadgerService: Realtime: 153 consecutive failures � cooling down 5 min
-[I] 08-20 18:31:33 AppUpdater: Checking via website (current=216)
-[I] 08-20 18:31:34 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-20 18:31:34 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-20 18:31:35 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 08-20 18:32:37 AppUpdater: Checking via website (current=216)
-[I] 08-20 18:32:37 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-20 18:32:37 AppUpdater: Checking via GitHub direct (current=216)
+=== samsung SM-S938U | v216 | shipped 2026-08-21 02:25:59 ===
 [W] 08-20 18:32:37 AppUpdater: GitHub direct check failed: Job was cancelled
 [I] 08-20 18:32:37 AppUpdater: Checking via website (current=216)
 [I] 08-20 18:32:38 AppUpdater: Up to date via website (current=216 latest=216)
@@ -489,3 +460,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-21 02:10:54 BadgerService: Keepalive scheduled in 2s
 [I] 08-21 02:10:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-21 02:10:59 BadgerService: Keepalive scheduled in 900s
+[I] 08-21 02:11:00 LogShipper: Shipped 490 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-21 02:11:48 AppUpdater: Checking via website (current=216)
+[I] 08-21 02:11:48 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-21 02:11:48 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-21 02:11:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-21 02:11:56 Movement: Truck 166 status → Put Away
+[I] 08-21 02:11:56 BadgerRepo: updateMovementStatus OK — truck=166 statusId=2
+[I] 08-21 02:11:57 TTS: Speaking: Truck 166, Put Away
+[I] 08-21 02:11:57 WatchNotif: ?? PUSHING NOTIF: Truck 166 - In Door ? Put Away (tag=watch_truck_166)
+[I] 08-21 02:11:57 WatchNotif: ?? Notif ID: -658232479
+[I] 08-21 02:11:57 WatchNotif: ? Successfully sent to watch: Truck 166 - In Door ? Put Away
+[I] 08-21 02:14:50 TTS: Speaking: Truck 228, In Door
+[I] 08-21 02:14:50 WatchNotif: ?? PUSHING NOTIF: Truck 228 - In Front ? In Door (tag=watch_truck_228)
+[I] 08-21 02:14:50 WatchNotif: ?? Notif ID: -658231640
+[I] 08-21 02:14:50 WatchNotif: ? Successfully sent to watch: Truck 228 - In Front ? In Door
+[I] 08-21 02:14:59 AppUpdater: Checking via website (current=216)
+[I] 08-21 02:15:00 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-21 02:15:00 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-21 02:15:00 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-21 02:15:01 TTS: Speaking: Truck 199, In Door
+[I] 08-21 02:15:01 WatchNotif: ?? PUSHING NOTIF: Truck 199 - In Front ? In Door (tag=watch_truck_199)
+[I] 08-21 02:15:01 WatchNotif: ?? Notif ID: -658232383
+[I] 08-21 02:15:01 WatchNotif: ? Successfully sent to watch: Truck 199 - In Front ? In Door
+[I] 08-21 02:15:09 Movement: Truck 246 status → Put Away
+[I] 08-21 02:15:09 BadgerRepo: updateMovementStatus OK — truck=246 statusId=2
+[I] 08-21 02:15:09 TTS: Speaking: Truck 246, Put Away
+[I] 08-21 02:15:09 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Door ? Put Away (tag=watch_truck_246)
+[I] 08-21 02:15:09 WatchNotif: ?? Notif ID: -658231580
+[I] 08-21 02:15:09 WatchNotif: ? Successfully sent to watch: Truck 246 - In Door ? Put Away
+[I] 08-21 02:16:34 AppUpdater: Checking via website (current=216)
+[I] 08-21 02:16:34 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-21 02:16:34 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-21 02:16:35 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-21 02:25:10 AppUpdater: Checking via website (current=216)
+[I] 08-21 02:25:11 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-21 02:25:11 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-21 02:25:12 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-21 02:25:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-21 02:25:59 BadgerService: Keepalive scheduled in 900s
