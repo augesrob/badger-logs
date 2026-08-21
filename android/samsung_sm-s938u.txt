@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-21 00:44:33 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-21 00:59:33 ===
 [I] 08-20 18:02:54 BadgerService: Keepalive scheduled in 900s
 [W] 08-20 18:02:54 BadgerService: startRealtimeSync: in backoff for 68s more � skipping
 [W] 08-20 18:02:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -397,3 +397,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-21 00:44:33 BadgerService: Keepalive scheduled in 900s
 [W] 08-21 00:44:33 BadgerService: startRealtimeSync: in backoff for 211s more � skipping
 [W] 08-21 00:44:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-21 00:44:35 LogShipper: Shipped 398 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 08-21 00:45:51 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-21 00:45:51 BadgerService: startRealtimeSync: in backoff for 133s more � skipping
+[E] 08-21 00:48:16 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #12 in 300s)
+[E] 08-21 00:48:16 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 08-21 00:48:16 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
+[E] 08-21 00:54:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[E] 08-21 00:54:02 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[W] 08-21 00:58:24 BadgerService: startRealtimeSync: in backoff for 37s more � skipping
+[W] 08-21 00:58:24 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 08-21 00:59:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-21 00:59:33 BadgerService: Keepalive scheduled in 900s
+[W] 08-21 00:59:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
