@@ -1,13 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-25 03:26:07 ===
-[I] 08-24 21:17:48 TTS: Speaking: Truck 187-2, In Door
-[I] 08-24 21:17:48 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
-[I] 08-24 21:17:48 WatchNotif: ?? Notif ID: -1201157819
-[I] 08-24 21:17:48 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Front ? In Door
-[E] 08-24 21:18:16 BadgerRepo: getLoadingDoors FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[W] 08-24 21:18:16 BadgerService: Heartbeat poll: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[I] 08-24 21:22:07 TTS: Speaking: Truck 195, In Front
-[I] 08-24 21:22:07 WatchNotif: ?? PUSHING NOTIF: Truck 195 - Ready ? In Front (tag=watch_truck_195)
-[I] 08-24 21:22:07 WatchNotif: ?? Notif ID: -658232387
+=== samsung SM-S921U | v216 | shipped 2026-08-25 03:41:07 ===
 [I] 08-24 21:22:07 WatchNotif: ? Successfully sent to watch: Truck 195 - Ready ? In Front
 [I] 08-24 21:22:50 TTS: Speaking: Truck 248-1, On Route
 [I] 08-24 21:22:50 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - In Door ? On Route (tag=watch_truck_248-1)
@@ -499,3 +490,12 @@
 [I] 08-25 03:26:07 BadgerService: Keepalive scheduled in 900s
 [W] 08-25 03:26:07 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-25 03:26:07 BadgerService: startRealtimeSync: in backoff for 294s more � skipping
+[I] 08-25 03:26:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 08-25 03:29:19 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-25 03:29:19 BadgerService: startRealtimeSync: in backoff for 102s more � skipping
+[E] 08-25 03:31:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #44 in 300s)
+[E] 08-25 03:31:48 BadgerService: Realtime: 44 consecutive failures � cooling down 5 min
+[E] 08-25 03:37:34 BadgerService: Realtime: 45 consecutive failures � cooling down 5 min
+[E] 08-25 03:37:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #45 in 300s)
+[I] 08-25 03:41:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-25 03:41:07 BadgerService: Keepalive scheduled in 900s
