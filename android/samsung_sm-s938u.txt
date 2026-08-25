@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-25 00:47:31 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-25 01:02:31 ===
 [I] 08-24 21:29:41 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 245, In Front
 [I] 08-24 21:29:41 WatchNotif: ?? PUSHING NOTIF: Truck 245 - In Back ? In Front (tag=watch_truck_245)
 [I] 08-24 21:29:41 WatchNotif: ?? Notif ID: -658231581
@@ -255,3 +255,39 @@
 [I] 08-25 00:47:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 08-25 00:47:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 08-25 00:47:31 BadgerService: Keepalive scheduled in 900s
+[I] 08-25 00:47:32 LogShipper: Shipped 256 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-25 00:48:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #41 in 300s)
+[E] 08-25 00:48:17 BadgerService: Realtime: 41 consecutive failures � cooling down 5 min
+[E] 08-25 00:54:03 BadgerService: Realtime: 42 consecutive failures � cooling down 5 min
+[E] 08-25 00:54:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #42 in 300s)
+[I] 08-25 00:56:56 AppUpdater: Checking via website (current=216)
+[I] 08-25 00:56:57 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-25 00:56:57 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-25 00:56:58 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-25 00:57:05 Movement: Truck 220 status → Put Away
+[I] 08-25 00:57:05 BadgerRepo: updateMovementStatus OK — truck=220 statusId=2
+[I] 08-25 00:59:04 BadgerService: Realtime subscribed OK -- badger-svc-e1230ff5-4a54-4157-8607-6f5aebf1200f status=SUBSCRIBED
+[I] 08-25 01:00:45 Movement: Truck 243 status → Put Away
+[I] 08-25 01:00:46 BadgerRepo: updateMovementStatus OK — truck=243 statusId=2
+[I] 08-25 01:00:46 TTS: Speaking: Truck 243, Put Away
+[I] 08-25 01:00:46 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Door ? Put Away (tag=watch_truck_243)
+[I] 08-25 01:00:46 WatchNotif: ?? Notif ID: -658231583
+[I] 08-25 01:00:46 WatchNotif: ? Successfully sent to watch: Truck 243 - In Door ? Put Away
+[I] 08-25 01:00:54 Movement: Truck 240 status → Put Away
+[I] 08-25 01:00:54 BadgerRepo: updateMovementStatus OK — truck=240 statusId=2
+[I] 08-25 01:00:55 TTS: Speaking: Truck 240, Put Away
+[I] 08-25 01:00:55 WatchNotif: ?? PUSHING NOTIF: Truck 240 - In Door ? Put Away (tag=watch_truck_240)
+[I] 08-25 01:00:55 WatchNotif: ?? Notif ID: -658231586
+[I] 08-25 01:00:55 WatchNotif: ? Successfully sent to watch: Truck 240 - In Door ? Put Away
+[I] 08-25 01:00:56 Movement: Truck 244 status → In Door
+[I] 08-25 01:00:57 BadgerRepo: updateMovementStatus OK — truck=244 statusId=1
+[I] 08-25 01:00:57 TTS: Speaking: Truck 244, In Door
+[I] 08-25 01:00:57 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Front ? In Door (tag=watch_truck_244)
+[I] 08-25 01:00:57 WatchNotif: ?? Notif ID: -658231582
+[I] 08-25 01:00:57 WatchNotif: ? Successfully sent to watch: Truck 244 - In Front ? In Door
+[I] 08-25 01:01:56 AppUpdater: Checking via website (current=216)
+[I] 08-25 01:01:56 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-25 01:01:56 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-25 01:01:57 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-25 01:02:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-25 01:02:31 BadgerService: Keepalive scheduled in 900s
