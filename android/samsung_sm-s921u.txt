@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-25 16:11:08 ===
+=== samsung SM-S921U | v216 | shipped 2026-08-25 16:26:08 ===
 [I] 08-25 09:56:09 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 08-25 09:57:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
 [E] 08-25 09:58:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
@@ -264,3 +264,16 @@
 [I] 08-25 16:11:08 BadgerService: Keepalive scheduled in 900s
 [W] 08-25 16:11:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-25 16:11:08 BadgerService: startRealtimeSync: in backoff for 84s more � skipping
+[I] 08-25 16:11:10 LogShipper: Shipped 265 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 08-25 16:13:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #73 in 300s)
+[E] 08-25 16:13:18 BadgerService: Realtime: 73 consecutive failures � cooling down 5 min
+[E] 08-25 16:19:05 BadgerService: Realtime: 74 consecutive failures � cooling down 5 min
+[E] 08-25 16:19:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #74 in 300s)
+[W] 08-25 16:24:06 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-25 16:24:06 BadgerRepo: getLoadingDoors FAILED: StandaloneCoroutine was cancelled
+[E] 08-25 16:24:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #75 in 300s)
+[E] 08-25 16:24:52 BadgerService: Realtime: 75 consecutive failures � cooling down 5 min
+[I] 08-25 16:26:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-25 16:26:08 BadgerService: Keepalive scheduled in 900s
+[W] 08-25 16:26:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-25 16:26:08 BadgerService: startRealtimeSync: in backoff for 224s more � skipping
