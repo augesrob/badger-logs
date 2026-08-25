@@ -1,9 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-25 00:02:31 ===
-[I] 08-20 23:59:33 BadgerService: Keepalive scheduled in 900s
-[I] 08-20 23:59:35 LogShipper: Shipped 363 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 08-21 00:01:22 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 08-21 00:01:22 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 1
-[E] 08-21 00:01:32 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+=== samsung SM-S938U | v216 | shipped 2026-08-25 00:17:31 ===
 [E] 08-21 00:01:32 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [E] 08-21 00:01:49 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 08-21 00:01:49 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
@@ -499,3 +494,8 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-25 00:02:31 BadgerService: Keepalive scheduled in 900s
 [W] 08-25 00:02:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-25 00:02:31 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
+[I] 08-25 00:02:32 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-25 00:07:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #34 in 300s)
+[E] 08-25 00:07:53 BadgerService: Realtime: 34 consecutive failures � cooling down 5 min
+[E] 08-25 00:13:39 BadgerService: Realtime: 35 consecutive failures � cooling down 5 min
+[E] 08-25 00:13:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #35 in 300s)
