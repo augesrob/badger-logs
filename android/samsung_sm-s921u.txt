@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-24 21:56:07 ===
+=== samsung SM-S921U | v216 | shipped 2026-08-24 22:11:07 ===
 [I] 08-24 20:56:05 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 08-24 20:56:05 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 08-24 20:56:05 MainActivity: BadgerService started (mic=false)
@@ -184,3 +184,82 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-24 21:41:09 LogShipper: Shipped 182 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 08-24 21:56:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-24 21:56:07 BadgerService: Keepalive scheduled in 900s
+[I] 08-24 21:56:09 LogShipper: Shipped 185 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 08-24 21:57:41 AppUpdater: Checking via website (current=216)
+[I] 08-24 21:57:42 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-24 21:57:42 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-24 21:57:44 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-24 21:57:47 Movement: Truck 224-1 status → On Route
+[E] 08-24 21:57:47 BadgerRepo: updateMovementStatus FAILED truck=224-1: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?truck_number=eq.224-1 (PATCH) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[I] 08-24 21:57:51 Movement: Truck 224-1 status → On Route
+[I] 08-24 21:57:52 BadgerRepo: updateMovementStatus OK — truck=224-1 statusId=3
+[I] 08-24 21:57:52 TTS: Speaking: Truck 224-1, On Route
+[I] 08-24 21:57:52 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - In Door ? On Route (tag=watch_truck_224-1)
+[I] 08-24 21:57:52 WatchNotif: ?? Notif ID: -1200415928
+[I] 08-24 21:57:52 WatchNotif: ? Successfully sent to watch: Truck 224-1 - In Door ? On Route
+[I] 08-24 21:58:22 AppUpdater: Checking via website (current=216)
+[W] 08-24 21:58:23 AppUpdater: Website check failed: Job was cancelled — trying GitHub direct
+[I] 08-24 21:58:23 AppUpdater: Checking via GitHub direct (current=216)
+[W] 08-24 21:58:23 AppUpdater: GitHub direct check failed: Job was cancelled
+[I] 08-24 21:58:23 AppUpdater: Checking via website (current=216)
+[I] 08-24 21:58:23 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-24 21:58:23 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-24 21:58:24 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-24 21:58:46 AppUpdater: Checking via website (current=216)
+[I] 08-24 21:58:46 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-24 21:58:46 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-24 21:58:46 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-24 21:59:07 Movement: Truck 240 status → In Front
+[I] 08-24 21:59:07 BadgerRepo: updateMovementStatus OK — truck=240 statusId=4
+[I] 08-24 21:59:08 TTS: Speaking: Truck 240, In Front
+[I] 08-24 21:59:08 WatchNotif: ?? PUSHING NOTIF: Truck 240 - Ready ? In Front (tag=watch_truck_240)
+[I] 08-24 21:59:08 WatchNotif: ?? Notif ID: -658231586
+[I] 08-24 21:59:08 WatchNotif: ? Successfully sent to watch: Truck 240 - Ready ? In Front
+[I] 08-24 21:59:09 Movement: Truck 210 status → In Door
+[I] 08-24 21:59:09 BadgerRepo: updateMovementStatus OK — truck=210 statusId=1
+[I] 08-24 21:59:09 TTS: Speaking: Truck 210, In Door
+[I] 08-24 21:59:09 WatchNotif: ?? PUSHING NOTIF: Truck 210 - In Front ? In Door (tag=watch_truck_210)
+[I] 08-24 21:59:09 WatchNotif: ?? Notif ID: -658231679
+[I] 08-24 21:59:09 WatchNotif: ? Successfully sent to watch: Truck 210 - In Front ? In Door
+[I] 08-24 21:59:16 TTS: Speaking: Truck 210, In Front
+[I] 08-24 21:59:16 WatchNotif: ?? PUSHING NOTIF: Truck 210 - In Door ? In Front (tag=watch_truck_210)
+[I] 08-24 21:59:16 WatchNotif: ?? Notif ID: -658231679
+[I] 08-24 21:59:16 WatchNotif: ? Successfully sent to watch: Truck 210 - In Door ? In Front
+[I] 08-24 21:59:19 TTS: Speaking: Truck 240, Ready
+[I] 08-24 21:59:19 WatchNotif: ?? PUSHING NOTIF: Truck 240 - In Front ? Ready (tag=watch_truck_240)
+[I] 08-24 21:59:19 WatchNotif: ?? Notif ID: -658231586
+[I] 08-24 21:59:19 WatchNotif: ? Successfully sent to watch: Truck 240 - In Front ? Ready
+[I] 08-24 21:59:31 AppUpdater: Checking via website (current=216)
+[I] 08-24 21:59:32 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-24 21:59:32 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-24 21:59:33 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-24 21:59:35 Movement: Truck 210 status → In Door
+[I] 08-24 21:59:35 BadgerRepo: updateMovementStatus OK — truck=210 statusId=1
+[I] 08-24 21:59:36 TTS: Speaking: Truck 210, In Door
+[I] 08-24 21:59:36 WatchNotif: ?? PUSHING NOTIF: Truck 210 - In Front ? In Door (tag=watch_truck_210)
+[I] 08-24 21:59:36 WatchNotif: ?? Notif ID: -658231679
+[I] 08-24 21:59:36 WatchNotif: ? Successfully sent to watch: Truck 210 - In Front ? In Door
+[I] 08-24 21:59:38 Movement: Truck 240 status → In Front
+[I] 08-24 21:59:38 BadgerRepo: updateMovementStatus OK — truck=240 statusId=4
+[I] 08-24 21:59:38 TTS: Speaking: Truck 240, In Front
+[I] 08-24 21:59:38 WatchNotif: ?? PUSHING NOTIF: Truck 240 - Ready ? In Front (tag=watch_truck_240)
+[I] 08-24 21:59:38 WatchNotif: ?? Notif ID: -658231586
+[I] 08-24 21:59:38 WatchNotif: ? Successfully sent to watch: Truck 240 - Ready ? In Front
+[I] 08-24 21:59:47 AppUpdater: Checking via website (current=216)
+[I] 08-24 21:59:47 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-24 21:59:47 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-24 21:59:47 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 08-24 22:00:42 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[W] 08-24 22:00:45 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-24 22:00:45 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[I] 08-24 22:00:48 BadgerService: Realtime subscribed OK -- badger-svc-14244f98-b246-4a5e-95ba-3b81699faa2d status=SUBSCRIBED
+[I] 08-24 22:02:13 TTS: Speaking: Truck 210, In Front
+[I] 08-24 22:02:13 WatchNotif: ?? PUSHING NOTIF: Truck 210 - In Door ? In Front (tag=watch_truck_210)
+[I] 08-24 22:02:13 WatchNotif: ?? Notif ID: -658231679
+[I] 08-24 22:02:13 WatchNotif: ? Successfully sent to watch: Truck 210 - In Door ? In Front
+[I] 08-24 22:02:29 TTS: Speaking: Truck 210, In Door
+[I] 08-24 22:02:29 WatchNotif: ?? PUSHING NOTIF: Truck 210 - In Front ? In Door (tag=watch_truck_210)
+[I] 08-24 22:02:29 WatchNotif: ?? Notif ID: -658231679
+[I] 08-24 22:02:29 WatchNotif: ? Successfully sent to watch: Truck 210 - In Front ? In Door
+[I] 08-24 22:11:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-24 22:11:07 BadgerService: Keepalive scheduled in 900s
