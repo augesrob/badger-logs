@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-24 22:56:07 ===
+=== samsung SM-S921U | v216 | shipped 2026-08-24 23:11:07 ===
 [I] 08-24 20:56:05 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
 [I] 08-24 20:56:05 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
 [I] 08-24 20:56:05 MainActivity: BadgerService started (mic=false)
@@ -338,3 +338,28 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-24 22:44:48 BadgerService: Realtime subscribed OK -- badger-svc-1a19193d-9917-4279-949a-2657cccd7863 status=SUBSCRIBED
 [I] 08-24 22:56:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-24 22:56:07 BadgerService: Keepalive scheduled in 900s
+[I] 08-24 22:56:09 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 08-24 22:57:51 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 08-24 22:58:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 08-24 22:59:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 08-24 23:00:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 08-24 23:00:43 AppUpdater: Checking via website (current=216)
+[I] 08-24 23:00:44 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-24 23:00:44 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-24 23:00:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-24 23:01:23 BadgerService: Realtime subscribed OK -- badger-svc-4a7cf956-cbda-4ce3-ad05-27b596367a6c status=SUBSCRIBED
+[W] 08-24 23:02:59 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 08-24 23:03:01 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-24 23:03:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[E] 08-24 23:03:58 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[I] 08-24 23:03:59 BadgerService: Realtime subscribed OK -- badger-svc-74b55394-bc43-4a9e-96fd-41f7c00be144 status=SUBSCRIBED
+[I] 08-24 23:04:24 TTS: Speaking: Truck 246, In Door
+[I] 08-24 23:04:24 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Front ? In Door (tag=watch_truck_246)
+[I] 08-24 23:04:24 WatchNotif: ?? Notif ID: -658231580
+[I] 08-24 23:04:24 WatchNotif: ? Successfully sent to watch: Truck 246 - In Front ? In Door
+[I] 08-24 23:06:36 TTS: Speaking: Truck 152, In Front
+[I] 08-24 23:06:36 WatchNotif: ?? PUSHING NOTIF: Truck 152 - Ready ? In Front (tag=watch_truck_152)
+[I] 08-24 23:06:36 WatchNotif: ?? Notif ID: -658232514
+[I] 08-24 23:06:36 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
+[I] 08-24 23:11:07 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-24 23:11:07 BadgerService: Keepalive scheduled in 900s
