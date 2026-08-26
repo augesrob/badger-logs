@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-26 06:30:29 ===
+=== samsung SM-S921U | v216 | shipped 2026-08-26 06:45:29 ===
 [I] 08-26 00:48:52 WatchNotif: ?? PUSHING NOTIF: Truck 240 - Ready ? In Front (tag=watch_truck_240)
 [I] 08-26 00:48:52 WatchNotif: ?? Notif ID: -658231586
 [I] 08-26 00:48:52 WatchNotif: ? Successfully sent to watch: Truck 240 - Ready ? In Front
@@ -393,3 +393,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-26 06:15:30 LogShipper: Shipped 391 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 08-26 06:30:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-26 06:30:29 BadgerService: Keepalive scheduled in 900s
+[I] 08-26 06:30:31 LogShipper: Shipped 394 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 08-26 06:33:51 BadgerRepo: getLoadingDoors FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 08-26 06:33:51 BadgerService: Heartbeat poll: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 08-26 06:42:33 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 08-26 06:43:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 08-26 06:44:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 08-26 06:45:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 08-26 06:45:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-26 06:45:29 BadgerService: Keepalive scheduled in 900s
+[W] 08-26 06:45:29 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-26 06:45:29 BadgerService: startRealtimeSync: in backoff for 33s more � skipping
