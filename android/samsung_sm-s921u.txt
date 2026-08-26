@@ -1,7 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-25 23:46:17 ===
-[I] 08-25 15:56:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-25 15:56:08 BadgerService: Keepalive scheduled in 900s
-[W] 08-25 15:56:08 BadgerService: startRealtimeSync: in backoff for 291s more � skipping
+=== samsung SM-S921U | v216 | shipped 2026-08-26 00:10:51 ===
 [W] 08-25 15:56:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 08-25 15:56:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 08-25 16:01:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #71 in 300s)
@@ -459,3 +456,46 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-25 23:45:55 WatchNotif: ? Successfully sent to watch: Truck 198 - In Back ? In Door
 [I] 08-25 23:46:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-25 23:46:17 BadgerService: Keepalive scheduled in 900s
+[I] 08-25 23:46:19 LogShipper: Shipped 460 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 08-25 23:55:01 AppUpdater: Checking via website (current=216)
+[I] 08-25 23:55:03 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-25 23:55:03 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-25 23:55:04 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-25 23:55:37 AppUpdater: Checking via website (current=216)
+[W] 08-25 23:55:40 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 08-25 23:55:40 AppUpdater: Website check failed: Unable to resolve host "badger.augesrob.net": No address associated with hostname — trying GitHub direct
+[I] 08-25 23:55:40 AppUpdater: Checking via GitHub direct (current=216)
+[W] 08-25 23:55:40 AppUpdater: GitHub direct check failed: Unable to resolve host "api.github.com": No address associated with hostname
+[W] 08-25 23:55:41 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 08-25 23:55:49 Movement: Truck 248-1 status → On Route
+[I] 08-25 23:55:49 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=3
+[I] 08-25 23:55:51 BadgerService: Keepalive scheduled in 900s
+[I] 08-25 23:55:51 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-25 23:55:51 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 08-25 23:55:51 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-25 23:55:51 TTS: Engine initialized OK
+[I] 08-25 23:55:51 TTS: Speaking: Badger live monitoring active
+[I] 08-25 23:55:53 BadgerService: Realtime subscribed OK -- badger-svc-05cc2459-9ff6-4128-8cc1-f86de6cb4331 status=SUBSCRIBED
+[I] 08-25 23:55:56 Movement: Truck 187-1 status → In Door
+[I] 08-25 23:55:56 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=1
+[I] 08-25 23:55:57 TTS: Speaking: Truck 187-1, In Door
+[I] 08-25 23:55:57 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Front ? In Door (tag=watch_truck_187-1)
+[I] 08-25 23:55:57 WatchNotif: ?? Notif ID: -1201157820
+[I] 08-25 23:55:57 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Front ? In Door
+[I] 08-25 23:58:01 AppUpdater: Checking via website (current=216)
+[I] 08-25 23:58:02 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-25 23:58:02 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-25 23:58:03 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-25 23:59:40 AppUpdater: Checking via website (current=216)
+[I] 08-25 23:59:40 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-25 23:59:40 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-25 23:59:42 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 08-26 00:01:54 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 08-26 00:01:56 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-26 00:02:02 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-26 00:02:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 08-26 00:03:03 BadgerService: Realtime subscribed OK -- badger-svc-f7bd4681-87da-4b53-af6e-ad0f02c7fc8c status=SUBSCRIBED
+[I] 08-26 00:10:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-26 00:10:51 BadgerService: Keepalive scheduled in 900s
