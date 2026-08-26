@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-26 01:57:47 ===
+=== samsung SM-S921U | v216 | shipped 2026-08-26 02:45:29 ===
 [I] 08-25 21:41:34 BadgerRepo: updateMovementStatus OK — truck=231-2 statusId=4
 [I] 08-25 21:41:35 TTS: Speaking: Truck 231-2, In Front
 [I] 08-25 21:41:35 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - Transfer ? In Front (tag=watch_truck_231-2)
@@ -430,3 +430,56 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-26 01:57:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 08-26 01:57:47 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 08-26 01:57:47 BadgerService: Keepalive scheduled in 900s
+[I] 08-26 01:57:49 LogShipper: Shipped 431 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 08-26 01:58:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 08-26 02:00:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 08-26 02:02:46 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 08-26 02:02:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[E] 08-26 02:08:32 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
+[E] 08-26 02:08:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
+[I] 08-26 02:30:28 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-26 02:30:28 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 08-26 02:30:28 MainActivity: BadgerService started (mic=true)
+[I] 08-26 02:30:28 AppUpdater: Checking via website (current=216)
+[W] 08-26 02:30:28 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-26 02:30:28 AuthManager: Session expired — trying HWID silent login
+[I] 08-26 02:30:28 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 08-26 02:30:29 BadgerService: Keepalive scheduled in 900s
+[I] 08-26 02:30:29 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-26 02:30:29 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 08-26 02:30:29 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-26 02:30:29 AuthManager: HWID silent login OK
+[I] 08-26 02:30:29 AuthManager: Sign in OK — felipe role=admin
+[I] 08-26 02:30:29 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 08-26 02:30:30 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 02:30:30 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 02:30:30 TTS: Engine initialized OK
+[I] 08-26 02:30:30 TTS: Speaking: Badger live monitoring active
+[I] 08-26 02:30:31 BadgerService: Realtime subscribed OK -- badger-svc-f6d86dff-36d1-43bf-a3fa-fb29a203a52f status=SUBSCRIBED
+[I] 08-26 02:30:31 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 08-26 02:31:07 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 08-26 02:31:07 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 3
+[W] 08-26 02:31:09 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 08-26 02:31:22 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-26 02:31:22 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 2
+[I] 08-26 02:31:24 BadgerService: Realtime subscribed OK -- badger-svc-58877858-ff41-4d6c-9e77-9463c6439d13 status=SUBSCRIBED
+[I] 08-26 02:34:51 AppUpdater: Checking via website (current=216)
+[I] 08-26 02:34:53 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 02:34:53 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 02:34:53 TTS: Speaking: Truck 244, In Front
+[I] 08-26 02:34:53 WatchNotif: ?? PUSHING NOTIF: Truck 244 - Ready ? In Front (tag=watch_truck_244)
+[I] 08-26 02:34:53 WatchNotif: ?? Notif ID: -658231582
+[I] 08-26 02:34:53 WatchNotif: ? Successfully sent to watch: Truck 244 - Ready ? In Front
+[I] 08-26 02:34:55 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 02:34:57 TTS: Speaking: Truck 194, In Front
+[I] 08-26 02:34:57 WatchNotif: ?? PUSHING NOTIF: Truck 194 - Ready ? In Front (tag=watch_truck_194)
+[I] 08-26 02:34:57 WatchNotif: ?? Notif ID: -658232388
+[I] 08-26 02:34:57 WatchNotif: ? Successfully sent to watch: Truck 194 - Ready ? In Front
+[I] 08-26 02:35:54 AppUpdater: Checking via website (current=216)
+[I] 08-26 02:35:54 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 02:35:54 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 02:35:55 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 02:45:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-26 02:45:29 BadgerService: Keepalive scheduled in 900s
