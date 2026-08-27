@@ -1,16 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-27 08:30:30 ===
-[I] 08-26 22:15:58 WatchNotif: ?? Notif ID: -1200389019
-[I] 08-26 22:15:58 WatchNotif: ? Successfully sent to watch: Truck 231-2 - In Front ? In Door
-[I] 08-26 22:16:04 AppUpdater: Checking via website (current=216)
-[I] 08-26 22:16:04 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-26 22:16:04 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-26 22:16:05 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[W] 08-26 22:18:44 BadgerService: Heartbeat poll: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 08-26 22:18:44 BadgerRepo: getLoadingDoors FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[I] 08-26 22:19:36 AppUpdater: Checking via website (current=216)
-[I] 08-26 22:19:37 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 08-26 22:19:37 AppUpdater: Checking via GitHub direct (current=216)
-[I] 08-26 22:19:38 AppUpdater: Up to date via GitHub (current=216 latest=216)
+=== samsung SM-S921U | v216 | shipped 2026-08-27 08:45:30 ===
 [I] 08-26 22:19:41 TTS: Speaking: Truck 189-1, On Route
 [I] 08-26 22:19:41 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - In Door ? On Route (tag=watch_truck_189-1)
 [I] 08-26 22:19:41 WatchNotif: ?? Notif ID: -1201155898
@@ -499,3 +487,15 @@
 [W] 08-27 08:30:30 BadgerService: startRealtimeSync: in backoff for 153s more � skipping
 [W] 08-27 08:30:30 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 08-27 08:30:30 BadgerService: Keepalive scheduled in 900s
+[I] 08-27 08:30:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 08-27 08:33:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #105 in 300s)
+[E] 08-27 08:33:49 BadgerService: Realtime: 105 consecutive failures � cooling down 5 min
+[E] 08-27 08:38:49 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 08-27 08:39:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #106 in 300s)
+[E] 08-27 08:39:36 BadgerService: Realtime: 106 consecutive failures � cooling down 5 min
+[E] 08-27 08:45:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #107 in 300s)
+[E] 08-27 08:45:22 BadgerService: Realtime: 107 consecutive failures � cooling down 5 min
+[I] 08-27 08:45:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-27 08:45:30 BadgerService: Keepalive scheduled in 900s
+[W] 08-27 08:45:30 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-27 08:45:30 BadgerService: startRealtimeSync: in backoff for 291s more � skipping
