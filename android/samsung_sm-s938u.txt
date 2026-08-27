@@ -1,17 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-26 22:10:30 ===
-[I] 08-26 04:43:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 08-26 04:48:34 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #71 in 300s)
-[E] 08-26 04:48:34 BadgerService: Realtime: 71 consecutive failures � cooling down 5 min
-[E] 08-26 04:54:20 BadgerService: Realtime: 72 consecutive failures � cooling down 5 min
-[E] 08-26 04:54:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #72 in 300s)
-[I] 08-26 04:58:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 08-26 04:58:11 BadgerService: Keepalive scheduled in 900s
-[W] 08-26 04:58:11 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 08-26 04:58:11 BadgerService: startRealtimeSync: in backoff for 68s more � skipping
-[I] 08-26 04:58:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 08-26 05:00:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #73 in 300s)
-[E] 08-26 05:00:06 BadgerService: Realtime: 73 consecutive failures � cooling down 5 min
-[E] 08-26 05:05:52 BadgerService: Realtime: 74 consecutive failures � cooling down 5 min
+=== samsung SM-S938U | v216 | shipped 2026-08-26 22:30:19 ===
 [E] 08-26 05:05:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #74 in 300s)
 [E] 08-26 05:11:38 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #75 in 300s)
 [E] 08-26 05:11:38 BadgerService: Realtime: 75 consecutive failures � cooling down 5 min
@@ -429,3 +416,86 @@
 [I] 08-26 22:10:30 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-26 22:10:30 BadgerService: Keepalive scheduled in 900s
 [W] 08-26 22:10:30 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 08-26 22:10:31 Movement: Truck 248-2 status → In Door
+[I] 08-26 22:10:31 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 08-26 22:10:31 BadgerRepo: updateMovementStatus OK — truck=248-2 statusId=1
+[I] 08-26 22:10:40 Movement: Truck 224-1 status → 9
+[I] 08-26 22:10:40 BadgerRepo: updateMovementStatus OK — truck=224-1 statusId=12
+[I] 08-26 22:10:42 Movement: Truck 231-2 status → In Door
+[I] 08-26 22:10:42 BadgerRepo: updateMovementStatus OK — truck=231-2 statusId=1
+[I] 08-26 22:11:29 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:11:29 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:11:29 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:11:30 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:15:13 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:15:13 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:15:13 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:15:14 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:15:15 BadgerService: Keepalive scheduled in 900s
+[I] 08-26 22:15:15 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-26 22:15:15 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 08-26 22:15:15 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-26 22:15:15 TTS: Engine initialized OK
+[I] 08-26 22:15:15 TTS: Speaking: Badger live monitoring active
+[I] 08-26 22:15:16 AppUpdater: Checking via website (current=0)
+[W] 08-26 22:15:16 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 08-26 22:15:16 AppUpdater: Update found via website: access-v216
+[I] 08-26 22:15:18 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 08-26 22:15:19 MainActivity: BadgerService started (mic=true)
+[I] 08-26 22:15:19 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:15:19 BadgerService: Keepalive scheduled in 900s
+[I] 08-26 22:15:19 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-26 22:15:19 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 08-26 22:15:19 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-26 22:15:19 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:15:19 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:15:20 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:15:20 TTS: Engine initialized OK
+[I] 08-26 22:15:20 TTS: Speaking: Badger live monitoring active
+[W] 08-26 22:15:21 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 08-26 22:15:49 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:15:49 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:15:49 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:15:49 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:15:58 Movement: Truck 231-2 status → In Door
+[I] 08-26 22:15:58 BadgerRepo: updateMovementStatus OK — truck=231-2 statusId=1
+[I] 08-26 22:17:35 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:17:35 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:17:35 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:17:35 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:17:37 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:17:37 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:17:37 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:17:37 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:19:24 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:19:24 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:19:24 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:19:25 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:19:38 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:19:38 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:19:38 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:19:38 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:19:41 Movement: Truck 189-1 status → On Route
+[I] 08-26 22:19:41 BadgerRepo: updateMovementStatus OK — truck=189-1 statusId=3
+[I] 08-26 22:19:42 Movement: Truck 237 status → In Door
+[I] 08-26 22:19:42 BadgerRepo: updateMovementStatus OK — truck=237 statusId=1
+[I] 08-26 22:19:46 TTS: TTS DISABLED
+[I] 08-26 22:19:46 TTS: Speaking: Text to speech enabled
+[I] 08-26 22:19:46 TTS: TTS ENABLED
+[I] 08-26 22:22:50 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:22:50 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:22:50 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:22:51 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:23:23 AppUpdater: Checking via website (current=216)
+[I] 08-26 22:23:23 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 08-26 22:23:23 AppUpdater: Checking via GitHub direct (current=216)
+[I] 08-26 22:23:24 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 08-26 22:24:20 Movement: Truck 199 status → In Front
+[I] 08-26 22:24:20 BadgerRepo: updateMovementStatus OK — truck=199 statusId=4
+[I] 08-26 22:30:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-26 22:30:19 BadgerService: Keepalive scheduled in 900s
+[W] 08-26 22:30:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
