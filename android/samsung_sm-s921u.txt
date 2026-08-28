@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-28 02:00:31 ===
+=== samsung SM-S921U | v216 | shipped 2026-08-28 12:15:53 ===
 [I] 08-27 21:38:10 AppUpdater: Checking via website (current=216)
 [I] 08-27 21:38:11 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 08-27 21:38:11 AppUpdater: Checking via GitHub direct (current=216)
@@ -298,3 +298,42 @@
 [W] 08-28 02:00:31 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-28 02:00:31 BadgerService: startRealtimeSync: in backoff for 9s more � skipping
 [I] 08-28 02:00:31 BadgerService: Keepalive scheduled in 900s
+[I] 08-28 02:00:33 LogShipper: Shipped 299 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 08-28 02:01:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #27 in 300s)
+[E] 08-28 02:01:26 BadgerService: Realtime: 27 consecutive failures � cooling down 5 min
+[E] 08-28 02:07:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #28 in 300s)
+[E] 08-28 02:07:13 BadgerService: Realtime: 28 consecutive failures � cooling down 5 min
+[I] 08-28 12:00:53 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 08-28 12:00:53 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 08-28 12:00:53 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 08-28 12:00:53 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 08-28 12:00:53 AuthManager: Session expired — trying HWID silent login
+[I] 08-28 12:00:53 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 08-28 12:00:53 BadgerService: Keepalive scheduled in 900s
+[I] 08-28 12:00:53 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 08-28 12:00:53 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 08-28 12:00:53 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 08-28 12:00:54 AuthManager: Sign in OK — felipe role=admin
+[I] 08-28 12:00:54 AuthManager: HWID silent login OK
+[I] 08-28 12:00:54 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 08-28 12:00:54 TTS: Engine initialized OK
+[I] 08-28 12:00:54 TTS: Speaking: Badger live monitoring active
+[I] 08-28 12:00:55 BadgerService: Realtime subscribed OK -- badger-svc-adf22fe6-cbf1-4979-b9ea-30225edb87dc status=SUBSCRIBED
+[I] 08-28 12:09:47 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:49 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:49 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:49 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:49 TTS: Speaking: Preshift updated
+[I] 08-28 12:09:49 TTS: Speaking: Preshift updated
+[I] 08-28 12:15:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-28 12:15:53 BadgerService: Keepalive scheduled in 900s
