@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-08-28 13:29:02 ===
+=== samsung SM-S938U | v216 | shipped 2026-08-28 13:44:02 ===
 [W] 08-28 02:14:44 BadgerService: startRealtimeSync: in backoff for 288s more � skipping
 [I] 08-28 02:14:46 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 08-28 02:20:18 BadgerService: Realtime: 31 consecutive failures � cooling down 5 min
@@ -471,3 +471,17 @@
 [I] 08-28 13:29:02 BadgerService: Keepalive scheduled in 900s
 [W] 08-28 13:29:02 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 08-28 13:29:02 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
+[I] 08-28 13:29:05 LogShipper: Shipped 472 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 08-28 13:29:06 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 08-28 13:29:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #147 in 300s)
+[E] 08-28 13:29:52 BadgerService: Realtime: 147 consecutive failures � cooling down 5 min
+[E] 08-28 13:35:39 BadgerService: Realtime: 148 consecutive failures � cooling down 5 min
+[E] 08-28 13:35:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #148 in 300s)
+[W] 08-28 13:38:39 BadgerService: startRealtimeSync: in backoff for 120s more � skipping
+[W] 08-28 13:38:39 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 08-28 13:41:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #149 in 300s)
+[E] 08-28 13:41:25 BadgerService: Realtime: 149 consecutive failures � cooling down 5 min
+[I] 08-28 13:44:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-28 13:44:02 BadgerService: Keepalive scheduled in 900s
+[W] 08-28 13:44:02 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 08-28 13:44:02 BadgerService: startRealtimeSync: in backoff for 142s more � skipping
