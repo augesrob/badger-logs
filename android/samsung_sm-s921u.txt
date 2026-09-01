@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-31 22:32:56 ===
+=== samsung SM-S921U | v216 | shipped 2026-08-31 22:47:56 ===
 [I] 08-29 11:00:55 BadgerService: Keepalive scheduled in 900s
 [I] 08-29 11:00:56 LogShipper: Shipped 316 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 08-29 11:15:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -316,3 +316,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-31 22:17:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 08-31 22:32:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-31 22:32:56 BadgerService: Keepalive scheduled in 900s
+[I] 08-31 22:32:58 LogShipper: Shipped 317 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 08-31 22:37:07 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 08-31 22:37:07 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 08-31 22:37:07 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 08-31 22:37:13 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
+[W] 08-31 22:37:13 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 08-31 22:37:19 BadgerService: Realtime subscribed OK -- badger-svc-4526b2d5-e252-4c7d-b489-1f258eb042c3 status=SUBSCRIBED
+[W] 08-31 22:47:49 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[I] 08-31 22:47:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-31 22:47:56 BadgerService: Keepalive scheduled in 900s
+[W] 08-31 22:47:56 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
