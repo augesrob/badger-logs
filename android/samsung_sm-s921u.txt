@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-01 00:02:56 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-01 00:17:56 ===
 [I] 08-29 11:00:55 BadgerService: Keepalive scheduled in 900s
 [I] 08-29 11:00:56 LogShipper: Shipped 316 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 08-29 11:15:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -396,3 +396,15 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-31 23:47:58 LogShipper: Shipped 394 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 09-01 00:02:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 00:02:56 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 00:02:58 LogShipper: Shipped 397 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-01 00:08:33 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-01 00:08:35 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-01 00:09:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[E] 09-01 00:09:32 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[I] 09-01 00:09:33 BadgerService: Realtime subscribed OK -- badger-svc-4afe78f5-a0fc-43c1-bf3b-c85a27d22d56 status=SUBSCRIBED
+[W] 09-01 00:11:45 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-01 00:11:46 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-01 00:11:46 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[I] 09-01 00:11:49 BadgerService: Realtime subscribed OK -- badger-svc-9f9d4f1a-494b-4764-b32c-ded36c5cd64a status=SUBSCRIBED
+[I] 09-01 00:17:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 00:17:56 BadgerService: Keepalive scheduled in 900s
