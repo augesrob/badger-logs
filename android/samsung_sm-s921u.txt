@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-01 00:17:56 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-01 00:32:56 ===
 [I] 08-29 11:00:55 BadgerService: Keepalive scheduled in 900s
 [I] 08-29 11:00:56 LogShipper: Shipped 316 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 08-29 11:15:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -408,3 +408,52 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-01 00:11:49 BadgerService: Realtime subscribed OK -- badger-svc-9f9d4f1a-494b-4764-b32c-ded36c5cd64a status=SUBSCRIBED
 [I] 09-01 00:17:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 00:17:56 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 00:17:58 LogShipper: Shipped 409 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 09-01 00:18:32 AppUpdater: Checking via website (current=216)
+[I] 09-01 00:18:33 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 00:18:33 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-01 00:18:34 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-01 00:19:24 Movement: Truck 192 status → In Back
+[I] 09-01 00:19:24 BadgerRepo: updateMovementStatus OK — truck=192 statusId=6
+[I] 09-01 00:19:25 TTS: Speaking: Truck 192, In Back
+[I] 09-01 00:19:25 WatchNotif: ?? PUSHING NOTIF: Truck 192 - Missing ? In Back (tag=watch_truck_192)
+[I] 09-01 00:19:25 WatchNotif: ?? Notif ID: -658232390
+[I] 09-01 00:19:25 WatchNotif: ? Successfully sent to watch: Truck 192 - Missing ? In Back
+[I] 09-01 00:19:50 AppUpdater: Checking via website (current=216)
+[I] 09-01 00:19:51 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 00:19:51 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-01 00:19:53 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-01 00:19:55 AppUpdater: Checking via website (current=216)
+[I] 09-01 00:19:56 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 00:19:56 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-01 00:19:56 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-01 00:20:08 Movement: Truck 245 status → In Front
+[I] 09-01 00:20:09 BadgerRepo: updateMovementStatus OK — truck=245 statusId=4
+[I] 09-01 00:20:09 TTS: Speaking: Truck 245, In Front
+[I] 09-01 00:20:09 WatchNotif: ?? Notif ID: -658231581
+[I] 09-01 00:20:09 WatchNotif: ?? PUSHING NOTIF: Truck 245 - Ready ? In Front (tag=watch_truck_245)
+[I] 09-01 00:20:09 WatchNotif: ? Successfully sent to watch: Truck 245 - Ready ? In Front
+[I] 09-01 00:20:13 AppUpdater: Checking via website (current=216)
+[I] 09-01 00:20:13 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 00:20:13 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-01 00:20:13 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-01 00:20:18 AppUpdater: Checking via website (current=216)
+[I] 09-01 00:20:19 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-01 00:20:19 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 00:20:19 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 09-01 00:21:37 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-01 00:21:39 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-01 00:22:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-01 00:22:35 AppUpdater: Checking via website (current=216)
+[I] 09-01 00:22:36 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 00:22:36 AppUpdater: Checking via GitHub direct (current=216)
+[W] 09-01 00:22:36 BadgerService: startRealtimeSync: in backoff for 0s more � skipping
+[W] 09-01 00:22:36 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-01 00:22:37 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-01 00:22:37 BadgerService: Realtime subscribed OK -- badger-svc-5649d381-f599-4e26-a589-277549279359 status=SUBSCRIBED
+[I] 09-01 00:24:23 AppUpdater: Checking via website (current=216)
+[I] 09-01 00:24:24 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-01 00:24:24 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 00:24:25 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-01 00:32:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 00:32:56 BadgerService: Keepalive scheduled in 900s
