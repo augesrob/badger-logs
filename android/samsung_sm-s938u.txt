@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-01 03:12:21 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-01 03:27:21 ===
 [I] 08-31 08:57:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 08-31 08:57:20 BadgerService: Keepalive scheduled in 900s
 [I] 08-31 08:57:22 LogShipper: Shipped 324 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -470,3 +470,22 @@
 [I] 09-01 02:57:23 LogShipper: Shipped 468 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-01 03:12:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 03:12:21 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 03:12:23 LogShipper: Shipped 471 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-01 03:20:35 TTS: Speaking: Truck 216, Put Away
+[I] 09-01 03:20:35 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Door ? Put Away (tag=watch_truck_216)
+[I] 09-01 03:20:35 WatchNotif: ?? Notif ID: -658231673
+[I] 09-01 03:20:35 WatchNotif: ? Successfully sent to watch: Truck 216 - In Door ? Put Away
+[E] 09-01 03:20:45 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-01 03:20:45 BadgerService: Truck refresh: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 09-01 03:20:52 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-01 03:20:52 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[E] 09-01 03:20:52 BadgerService: Truck refresh: StandaloneCoroutine was cancelled
+[I] 09-01 03:20:52 TTS: Speaking: Truck 148, In Door
+[I] 09-01 03:20:52 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Front ? In Door (tag=watch_truck_148)
+[I] 09-01 03:20:52 WatchNotif: ?? Notif ID: -658232539
+[I] 09-01 03:20:52 WatchNotif: ? Successfully sent to watch: Truck 148 - In Front ? In Door
+[E] 09-01 03:20:52 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[E] 09-01 03:20:52 BadgerService: Truck refresh: StandaloneCoroutine was cancelled
+[I] 09-01 03:20:55 BadgerService: Realtime subscribed OK -- badger-svc-44052148-a897-4785-90be-b3b56de092f1 status=SUBSCRIBED
+[I] 09-01 03:27:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 03:27:21 BadgerService: Keepalive scheduled in 900s
