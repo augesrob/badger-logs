@@ -1,15 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-01 05:13:16 ===
-[I] 08-31 06:40:05 LogShipper: Shipped 288 log lines to badger-logs/android/samsung_sm-s911u.txt
-[E] 08-31 06:44:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1058 in 300s)
-[E] 08-31 06:44:23 BadgerService: Realtime: 1058 consecutive failures � cooling down 5 min
-[I] 08-31 18:28:15 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 08-31 18:28:15 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 08-31 18:28:15 BadgerService: FGS microphone blocked � starting without mic FGS type
-[W] 08-31 18:28:15 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 08-31 18:28:15 AuthManager: Session expired — trying HWID silent login
-[I] 08-31 18:28:15 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 08-31 18:28:15 BadgerService: Keepalive scheduled in 900s
-[I] 08-31 18:28:16 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+=== samsung SM-S911U | v216 | shipped 2026-09-01 05:28:16 ===
 [I] 08-31 18:28:16 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
 [E] 08-31 18:28:16 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
 Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
@@ -491,3 +480,22 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-01 04:58:18 LogShipper: Shipped 489 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-01 05:13:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 05:13:16 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 05:13:17 LogShipper: Shipped 492 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 09-01 05:25:50 TTS: Speaking: Truck 194, Put Away
+[I] 09-01 05:25:50 WatchNotif: ?? Notif ID: -658232388
+[I] 09-01 05:25:50 WatchNotif: ?? PUSHING NOTIF: Truck 194 - In Door ? Put Away (tag=watch_truck_194)
+[I] 09-01 05:25:50 WatchNotif: ? Successfully sent to watch: Truck 194 - In Door ? Put Away
+[I] 09-01 05:25:52 TTS: Speaking: Truck 257, In Door
+[I] 09-01 05:25:52 WatchNotif: ?? PUSHING NOTIF: Truck 257 - In Front ? In Door (tag=watch_truck_257)
+[I] 09-01 05:25:52 WatchNotif: ?? Notif ID: -658231548
+[I] 09-01 05:25:52 WatchNotif: ? Successfully sent to watch: Truck 257 - In Front ? In Door
+[I] 09-01 05:28:10 TTS: Speaking: Truck 257, On Route
+[I] 09-01 05:28:10 WatchNotif: ?? PUSHING NOTIF: Truck 257 - In Door ? On Route (tag=watch_truck_257)
+[I] 09-01 05:28:10 WatchNotif: ?? Notif ID: -658231548
+[I] 09-01 05:28:10 WatchNotif: ? Successfully sent to watch: Truck 257 - In Door ? On Route
+[I] 09-01 05:28:14 TTS: Speaking: Truck 257, In Door
+[I] 09-01 05:28:14 WatchNotif: ?? Notif ID: -658231548
+[I] 09-01 05:28:14 WatchNotif: ?? PUSHING NOTIF: Truck 257 - On Route ? In Door (tag=watch_truck_257)
+[I] 09-01 05:28:14 WatchNotif: ? Successfully sent to watch: Truck 257 - On Route ? In Door
+[I] 09-01 05:28:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 05:28:16 BadgerService: Keepalive scheduled in 900s
