@@ -1,31 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-08-31 20:47:56 ===
-[E] 08-28 02:01:26 BadgerService: Realtime: 27 consecutive failures � cooling down 5 min
-[E] 08-28 02:07:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #28 in 300s)
-[E] 08-28 02:07:13 BadgerService: Realtime: 28 consecutive failures � cooling down 5 min
-[I] 08-28 12:00:53 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 08-28 12:00:53 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 08-28 12:00:53 BadgerService: FGS microphone blocked � starting without mic FGS type
-[W] 08-28 12:00:53 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 08-28 12:00:53 AuthManager: Session expired — trying HWID silent login
-[I] 08-28 12:00:53 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 08-28 12:00:53 BadgerService: Keepalive scheduled in 900s
-[I] 08-28 12:00:53 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 08-28 12:00:53 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
-[E] 08-28 12:00:53 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 08-28 12:00:54 AuthManager: Sign in OK — felipe role=admin
-[I] 08-28 12:00:54 AuthManager: HWID silent login OK
-[I] 08-28 12:00:54 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 08-28 12:00:54 TTS: Engine initialized OK
-[I] 08-28 12:00:54 TTS: Speaking: Badger live monitoring active
-[I] 08-28 12:00:55 BadgerService: Realtime subscribed OK -- badger-svc-adf22fe6-cbf1-4979-b9ea-30225edb87dc status=SUBSCRIBED
-[I] 08-28 12:09:47 TTS: Speaking: Preshift updated
-[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
-[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
-[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
-[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
-[I] 08-28 12:09:48 TTS: Speaking: Preshift updated
+=== samsung SM-S921U | v216 | shipped 2026-08-31 21:02:56 ===
 [I] 08-28 12:09:48 TTS: Speaking: Preshift updated
 [I] 08-28 12:09:48 TTS: Speaking: Preshift updated
 [I] 08-28 12:09:48 TTS: Speaking: Preshift updated
@@ -499,3 +472,30 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 08-31 20:32:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 08-31 20:47:56 BadgerService: Keepalive scheduled in 900s
 [I] 08-31 20:47:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 08-31 20:47:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 08-31 20:48:49 TTS: Speaking: Truck 165, Ready
+[I] 08-31 20:48:49 WatchNotif: ?? PUSHING NOTIF: Truck 165 - New ? Ready (tag=watch_truck_165)
+[I] 08-31 20:48:49 WatchNotif: ?? Notif ID: -658232480
+[I] 08-31 20:48:49 WatchNotif: ? Successfully sent to watch: Truck 165 - New ? Ready
+[I] 08-31 20:48:50 TTS: Speaking: Truck 220, In Back
+[I] 08-31 20:48:50 WatchNotif: ?? PUSHING NOTIF: Truck 220 - New ? In Back (tag=watch_truck_220)
+[I] 08-31 20:48:50 WatchNotif: ?? Notif ID: -658231648
+[I] 08-31 20:48:50 WatchNotif: ? Successfully sent to watch: Truck 220 - New ? In Back
+[I] 08-31 20:49:53 TTS: Speaking: Truck 160, Ready
+[I] 08-31 20:49:53 WatchNotif: ?? PUSHING NOTIF: Truck 160 - New ? Ready (tag=watch_truck_160)
+[I] 08-31 20:49:53 WatchNotif: ?? Notif ID: -658232485
+[I] 08-31 20:49:53 WatchNotif: ? Successfully sent to watch: Truck 160 - New ? Ready
+[I] 08-31 20:50:52 TTS: Speaking: Truck 228, Ready
+[I] 08-31 20:50:52 WatchNotif: ?? Notif ID: -658231640
+[I] 08-31 20:50:52 WatchNotif: ? Successfully sent to watch: Truck 228 - New ? Ready
+[I] 08-31 20:50:52 WatchNotif: ?? PUSHING NOTIF: Truck 228 - New ? Ready (tag=watch_truck_228)
+[I] 08-31 20:51:48 TTS: Speaking: Truck 192, Missing
+[I] 08-31 20:51:48 WatchNotif: ?? PUSHING NOTIF: Truck 192 - New ? Missing (tag=watch_truck_192)
+[I] 08-31 20:51:48 WatchNotif: ?? Notif ID: -658232390
+[I] 08-31 20:51:48 WatchNotif: ? Successfully sent to watch: Truck 192 - New ? Missing
+[I] 08-31 20:51:49 TTS: Speaking: Truck 194, In Back
+[I] 08-31 20:51:49 WatchNotif: ?? PUSHING NOTIF: Truck 194 - New ? In Back (tag=watch_truck_194)
+[I] 08-31 20:51:49 WatchNotif: ?? Notif ID: -658232388
+[I] 08-31 20:51:49 WatchNotif: ? Successfully sent to watch: Truck 194 - New ? In Back
+[I] 08-31 21:02:56 BadgerService: Keepalive scheduled in 900s
+[I] 08-31 21:02:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
