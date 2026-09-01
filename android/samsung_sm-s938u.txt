@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-01 13:19:55 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-01 13:35:11 ===
 [I] 09-01 04:45:45 WatchNotif: ? Successfully sent to watch: Truck 245 - In Front ? In Door
 [I] 09-01 04:57:21 BadgerService: Keepalive scheduled in 900s
 [I] 09-01 04:57:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -349,3 +349,24 @@
 [I] 09-01 13:19:55 BadgerService: Keepalive scheduled in 900s
 [W] 09-01 13:19:55 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-01 13:19:55 BadgerService: startRealtimeSync: in backoff for 286s more � skipping
+[I] 09-01 13:19:57 LogShipper: Shipped 350 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-01 13:20:11 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 09-01 13:20:11 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 09-01 13:20:11 BadgerService: FGS microphone blocked � starting without mic FGS type
+[I] 09-01 13:20:11 AuthManager: Session expired — trying HWID silent login
+[W] 09-01 13:20:11 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 09-01 13:20:11 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 13:20:11 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 09-01 13:20:11 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 09-01 13:20:11 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 09-01 13:20:11 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 09-01 13:20:11 TTS: Engine initialized OK
+[I] 09-01 13:20:11 TTS: Speaking: Badger live monitoring active
+[I] 09-01 13:20:11 AuthManager: HWID silent login OK
+[I] 09-01 13:20:11 AuthManager: Sign in OK — augesrob role=admin
+[I] 09-01 13:20:11 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 09-01 13:20:12 BadgerService: Realtime subscribed OK -- badger-svc-18bc018c-101f-4803-b003-4bc729708129 status=SUBSCRIBED
+[I] 09-01 13:35:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 13:35:11 BadgerService: Keepalive scheduled in 900s
