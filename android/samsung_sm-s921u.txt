@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-02 10:17:27 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-02 10:32:27 ===
 [I] 09-01 23:20:11 TTS: Speaking: Truck 220, In Front
 [I] 09-01 23:20:11 WatchNotif: ?? Notif ID: -658231648
 [I] 09-01 23:20:11 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Back ? In Front (tag=watch_truck_220)
@@ -488,3 +488,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-02 10:02:28 LogShipper: Shipped 486 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 09-02 10:17:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-02 10:17:27 BadgerService: Keepalive scheduled in 900s
+[I] 09-02 10:17:28 LogShipper: Shipped 489 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-02 10:31:05 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-02 10:31:06 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-02 10:31:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-02 10:32:05 BadgerService: Realtime subscribed OK -- badger-svc-d0cd44f7-0f44-404c-a554-2541030f368f status=SUBSCRIBED
+[I] 09-02 10:32:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 10:32:27 BadgerService: Keepalive scheduled in 900s
