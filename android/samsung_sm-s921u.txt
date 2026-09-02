@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-01 22:33:20 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-01 22:48:20 ===
 [W] 09-01 10:57:43 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [E] 09-01 11:03:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #48 in 300s)
 [E] 09-01 11:03:11 BadgerService: Realtime: 48 consecutive failures � cooling down 5 min
@@ -457,3 +457,14 @@
 [I] 09-01 22:32:47 WatchNotif: ? Successfully sent to watch: Truck 186-2 - New ? Transfer
 [I] 09-01 22:33:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 22:33:20 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 22:33:22 LogShipper: Shipped 458 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 09-01 22:33:45 TTS: Speaking: Truck 224-2, Transfer
+[I] 09-01 22:33:45 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - New ? Transfer (tag=watch_truck_224-2)
+[I] 09-01 22:33:45 WatchNotif: ?? Notif ID: -1200415927
+[I] 09-01 22:33:45 WatchNotif: ? Successfully sent to watch: Truck 224-2 - New ? Transfer
+[W] 09-01 22:39:09 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-01 22:39:11 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-01 22:39:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-01 22:40:09 BadgerService: Realtime subscribed OK -- badger-svc-c12ec61b-1ea9-4dde-8a0c-5509a4d2b626 status=SUBSCRIBED
+[I] 09-01 22:48:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 22:48:20 BadgerService: Keepalive scheduled in 900s
