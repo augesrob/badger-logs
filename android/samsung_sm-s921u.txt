@@ -1,9 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-02 10:32:27 ===
-[I] 09-01 23:20:11 TTS: Speaking: Truck 220, In Front
-[I] 09-01 23:20:11 WatchNotif: ?? Notif ID: -658231648
-[I] 09-01 23:20:11 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Back ? In Front (tag=watch_truck_220)
-[I] 09-01 23:20:11 WatchNotif: ? Successfully sent to watch: Truck 220 - In Back ? In Front
-[I] 09-01 23:20:21 AppUpdater: Checking via website (current=216)
+=== samsung SM-S921U | v216 | shipped 2026-09-02 10:47:27 ===
 [W] 09-01 23:20:57 AppUpdater: Website check failed: Unable to resolve host "badger.augesrob.net": No address associated with hostname — trying GitHub direct
 [I] 09-01 23:20:57 AppUpdater: Checking via GitHub direct (current=216)
 [W] 09-01 23:20:57 AppUpdater: GitHub direct check failed: Unable to resolve host "api.github.com": No address associated with hostname
@@ -495,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-02 10:32:05 BadgerService: Realtime subscribed OK -- badger-svc-d0cd44f7-0f44-404c-a554-2541030f368f status=SUBSCRIBED
 [I] 09-02 10:32:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-02 10:32:27 BadgerService: Keepalive scheduled in 900s
+[I] 09-02 10:32:28 LogShipper: Shipped 496 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-02 10:44:09 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 09-02 10:44:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 09-02 10:45:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 09-02 10:46:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 09-02 10:47:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 10:47:27 BadgerService: Keepalive scheduled in 900s
+[W] 09-02 10:47:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-02 10:47:27 BadgerService: startRealtimeSync: in backoff for 11s more � skipping
