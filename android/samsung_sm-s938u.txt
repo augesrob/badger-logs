@@ -1,24 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-01 22:20:11 ===
-[I] 09-01 05:48:23 WatchNotif: ?? Notif ID: -658232390
-[I] 09-01 05:48:23 WatchNotif: ? Successfully sent to watch: Truck 192 - In Front ? In Door
-[I] 09-01 05:54:08 TTS: Speaking: Truck 240, Put Away
-[I] 09-01 05:54:08 WatchNotif: ?? PUSHING NOTIF: Truck 240 - In Door ? Put Away (tag=watch_truck_240)
-[I] 09-01 05:54:08 WatchNotif: ?? Notif ID: -658231586
-[I] 09-01 05:54:08 WatchNotif: ? Successfully sent to watch: Truck 240 - In Door ? Put Away
-[I] 09-01 05:54:15 TTS: Speaking: Truck 165, In Door
-[I] 09-01 05:54:15 WatchNotif: ?? PUSHING NOTIF: Truck 165 - In Front ? In Door (tag=watch_truck_165)
-[I] 09-01 05:54:15 WatchNotif: ?? Notif ID: -658232480
-[I] 09-01 05:54:15 WatchNotif: ? Successfully sent to watch: Truck 165 - In Front ? In Door
-[I] 09-01 05:57:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-01 05:57:21 BadgerService: Keepalive scheduled in 900s
-[I] 09-01 05:57:23 LogShipper: Shipped 364 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 09-01 05:58:31 TTS: Speaking: Truck 165, Put Away
-[I] 09-01 05:58:31 WatchNotif: ?? PUSHING NOTIF: Truck 165 - In Door ? Put Away (tag=watch_truck_165)
-[I] 09-01 05:58:31 WatchNotif: ?? Notif ID: -658232480
-[I] 09-01 05:58:31 WatchNotif: ? Successfully sent to watch: Truck 165 - In Door ? Put Away
-[I] 09-01 05:58:33 TTS: Speaking: Truck 199, In Door
-[I] 09-01 05:58:33 WatchNotif: ?? PUSHING NOTIF: Truck 199 - In Front ? In Door (tag=watch_truck_199)
-[I] 09-01 05:58:33 WatchNotif: ?? Notif ID: -658232383
+=== samsung SM-S938U | v216 | shipped 2026-09-01 22:35:11 ===
 [I] 09-01 05:58:33 WatchNotif: ? Successfully sent to watch: Truck 199 - In Front ? In Door
 [I] 09-01 06:08:33 TTS: Speaking: Truck 244, Put Away
 [I] 09-01 06:08:33 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Front ? Put Away (tag=watch_truck_244)
@@ -499,3 +479,23 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-01 22:05:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-01 22:20:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 22:20:11 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 22:20:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 09-01 22:26:42 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 09-01 22:26:42 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 1
+[W] 09-01 22:26:44 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-01 22:27:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-01 22:27:42 BadgerService: Realtime subscribed OK -- badger-svc-f7459e63-d1c3-43ee-8391-a7e95da3e105 status=SUBSCRIBED
+[I] 09-01 22:31:45 TTS: Speaking: Truck 186-1, Transfer
+[I] 09-01 22:31:45 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - New ? Transfer (tag=watch_truck_186-1)
+[I] 09-01 22:31:45 WatchNotif: ?? Notif ID: -1201158781
+[I] 09-01 22:31:45 WatchNotif: ? Successfully sent to watch: Truck 186-1 - New ? Transfer
+[I] 09-01 22:32:47 TTS: Speaking: Truck 186-2, Transfer
+[I] 09-01 22:32:47 WatchNotif: ?? PUSHING NOTIF: Truck 186-2 - New ? Transfer (tag=watch_truck_186-2)
+[I] 09-01 22:32:47 WatchNotif: ?? Notif ID: -1201158780
+[I] 09-01 22:32:47 WatchNotif: ? Successfully sent to watch: Truck 186-2 - New ? Transfer
+[I] 09-01 22:33:45 TTS: Speaking: Truck 224-2, Transfer
+[I] 09-01 22:33:45 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - New ? Transfer (tag=watch_truck_224-2)
+[I] 09-01 22:33:45 WatchNotif: ?? Notif ID: -1200415927
+[I] 09-01 22:33:45 WatchNotif: ? Successfully sent to watch: Truck 224-2 - New ? Transfer
+[I] 09-01 22:35:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 22:35:11 BadgerService: Keepalive scheduled in 900s
