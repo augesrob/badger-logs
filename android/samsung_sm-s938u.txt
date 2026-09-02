@@ -1,15 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-02 04:05:11 ===
-[E] 09-01 13:13:56 BadgerService: Realtime: 45 consecutive failures � cooling down 5 min
-[E] 09-01 13:19:42 BadgerService: Realtime: 46 consecutive failures � cooling down 5 min
-[E] 09-01 13:19:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #46 in 300s)
-[I] 09-01 13:19:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-01 13:19:55 BadgerService: Keepalive scheduled in 900s
-[W] 09-01 13:19:55 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 09-01 13:19:55 BadgerService: startRealtimeSync: in backoff for 286s more � skipping
-[I] 09-01 13:19:57 LogShipper: Shipped 350 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 09-01 13:20:11 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 09-01 13:20:11 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 09-01 13:20:11 BadgerService: FGS microphone blocked � starting without mic FGS type
+=== samsung SM-S938U | v216 | shipped 2026-09-02 04:20:11 ===
 [I] 09-01 13:20:11 AuthManager: Session expired — trying HWID silent login
 [W] 09-01 13:20:11 AuthManager: JWT refresh failed: No refresh token found in current session
 [I] 09-01 13:20:11 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +488,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-02 03:59:56 WatchNotif: ? Successfully sent to watch: Truck 220 - In Front ? In Door
 [I] 09-02 04:05:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-02 04:05:11 BadgerService: Keepalive scheduled in 900s
+[I] 09-02 04:05:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-02 04:10:35 TTS: Speaking: Truck 257, In Front
+[I] 09-02 04:10:35 WatchNotif: ?? PUSHING NOTIF: Truck 257 - In Back ? In Front (tag=watch_truck_257)
+[I] 09-02 04:10:35 WatchNotif: ?? Notif ID: -658231548
+[I] 09-02 04:10:35 WatchNotif: ? Successfully sent to watch: Truck 257 - In Back ? In Front
+[I] 09-02 04:11:07 TTS: Speaking: Truck 148, Put Away
+[I] 09-02 04:11:07 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Door ? Put Away (tag=watch_truck_148)
+[I] 09-02 04:11:07 WatchNotif: ?? Notif ID: -658232539
+[I] 09-02 04:11:07 WatchNotif: ? Successfully sent to watch: Truck 148 - In Door ? Put Away
+[I] 09-02 04:20:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 04:20:11 BadgerService: Keepalive scheduled in 900s
