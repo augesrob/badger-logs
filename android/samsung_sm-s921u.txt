@@ -1,8 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-02 17:17:27 ===
-[I] 09-02 04:56:30 TTS: Speaking: Truck 194, In Front
-[I] 09-02 04:56:30 WatchNotif: ?? PUSHING NOTIF: Truck 194 - Ready ? In Front (tag=watch_truck_194)
-[I] 09-02 04:56:30 WatchNotif: ?? Notif ID: -658232388
-[I] 09-02 04:56:30 WatchNotif: ? Successfully sent to watch: Truck 194 - Ready ? In Front
+=== samsung SM-S921U | v216 | shipped 2026-09-02 18:05:59 ===
 [I] 09-02 05:01:18 TTS: Speaking: Truck 158, In Front
 [I] 09-02 05:01:18 WatchNotif: ?? PUSHING NOTIF: Truck 158 - Ready ? In Front (tag=watch_truck_158)
 [I] 09-02 05:01:18 WatchNotif: ?? Notif ID: -658232508
@@ -478,3 +474,28 @@
 [I] 09-02 17:17:27 BadgerService: Keepalive scheduled in 900s
 [W] 09-02 17:17:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-02 17:17:27 BadgerService: startRealtimeSync: in backoff for 161s more � skipping
+[I] 09-02 17:17:29 LogShipper: Shipped 479 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-02 17:20:55 BadgerService: Realtime: 63 consecutive failures � cooling down 5 min
+[E] 09-02 17:20:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #63 in 300s)
+[E] 09-02 17:26:41 BadgerService: Realtime: 64 consecutive failures � cooling down 5 min
+[E] 09-02 17:26:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #64 in 300s)
+[I] 09-02 17:50:58 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 09-02 17:50:58 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 09-02 17:50:58 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 09-02 17:50:59 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 09-02 17:50:59 AuthManager: Session expired — trying HWID silent login
+[I] 09-02 17:50:59 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 09-02 17:50:59 BadgerService: Keepalive scheduled in 900s
+[I] 09-02 17:50:59 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 09-02 17:50:59 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 09-02 17:50:59 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 09-02 17:50:59 TTS: Engine initialized OK
+[I] 09-02 17:50:59 TTS: Speaking: Badger live monitoring active
+[I] 09-02 17:51:00 AuthManager: Sign in OK — felipe role=admin
+[I] 09-02 17:51:00 AuthManager: HWID silent login OK
+[I] 09-02 17:51:00 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 09-02 17:51:00 BadgerService: Realtime subscribed OK -- badger-svc-4c58013f-2046-4423-8ef2-ffff76837b6e status=SUBSCRIBED
+[I] 09-02 18:05:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 18:05:59 BadgerService: Keepalive scheduled in 900s
