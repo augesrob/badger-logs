@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-01 23:18:20 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-01 23:33:20 ===
 [W] 09-01 19:12:09 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
 [E] 09-01 19:16:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #39 in 300s)
 [E] 09-01 19:16:56 BadgerService: Realtime: 39 consecutive failures � cooling down 5 min
@@ -298,3 +298,28 @@
 [I] 09-01 23:17:02 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Front ? In Door
 [I] 09-01 23:18:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 23:18:20 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 23:18:21 LogShipper: Shipped 299 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 09-01 23:20:11 TTS: Speaking: Truck 220, In Front
+[I] 09-01 23:20:11 WatchNotif: ?? Notif ID: -658231648
+[I] 09-01 23:20:11 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Back ? In Front (tag=watch_truck_220)
+[I] 09-01 23:20:11 WatchNotif: ? Successfully sent to watch: Truck 220 - In Back ? In Front
+[I] 09-01 23:20:21 AppUpdater: Checking via website (current=216)
+[W] 09-01 23:20:57 AppUpdater: Website check failed: Unable to resolve host "badger.augesrob.net": No address associated with hostname — trying GitHub direct
+[I] 09-01 23:20:57 AppUpdater: Checking via GitHub direct (current=216)
+[W] 09-01 23:20:57 AppUpdater: GitHub direct check failed: Unable to resolve host "api.github.com": No address associated with hostname
+[I] 09-01 23:26:21 AppUpdater: Checking via website (current=216)
+[I] 09-01 23:26:21 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-01 23:26:21 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-01 23:26:22 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-01 23:26:25 Movement: Truck 186-1 status → In Front
+[I] 09-01 23:26:25 BadgerRepo: updateMovementStatus OK — truck=186-1 statusId=4
+[I] 09-01 23:26:26 TTS: Speaking: Truck 186-1, In Front
+[I] 09-01 23:26:26 WatchNotif: ?? Notif ID: -1201158781
+[I] 09-01 23:26:26 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - Transfer ? In Front (tag=watch_truck_186-1)
+[I] 09-01 23:26:26 WatchNotif: ? Successfully sent to watch: Truck 186-1 - Transfer ? In Front
+[I] 09-01 23:32:49 TTS: Speaking: Truck 148, In Front
+[I] 09-01 23:32:49 WatchNotif: ?? Notif ID: -658232539
+[I] 09-01 23:32:49 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Back ? In Front (tag=watch_truck_148)
+[I] 09-01 23:32:49 WatchNotif: ? Successfully sent to watch: Truck 148 - In Back ? In Front
+[I] 09-01 23:33:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 23:33:20 BadgerService: Keepalive scheduled in 900s
