@@ -1,19 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-01 21:35:11 ===
-[I] 09-01 05:34:18 TTS: Speaking: Truck 228, In Door
-[I] 09-01 05:34:18 WatchNotif: ?? PUSHING NOTIF: Truck 228 - In Front ? In Door (tag=watch_truck_228)
-[I] 09-01 05:34:18 WatchNotif: ?? Notif ID: -658231640
-[I] 09-01 05:34:18 WatchNotif: ? Successfully sent to watch: Truck 228 - In Front ? In Door
-[I] 09-01 05:42:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-01 05:42:21 BadgerService: Keepalive scheduled in 900s
-[W] 09-01 05:42:28 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 09-01 05:42:28 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 3
-[E] 09-01 05:42:38 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 09-01 05:42:38 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[I] 09-01 05:42:50 BadgerService: Realtime subscribed OK -- badger-svc-181b22e5-abe3-45a8-905b-c385ea892c01 status=SUBSCRIBED
-[I] 09-01 05:45:08 TTS: Speaking: Truck 160, In Front
-[I] 09-01 05:45:08 WatchNotif: ?? PUSHING NOTIF: Truck 160 - Ready ? In Front (tag=watch_truck_160)
-[I] 09-01 05:45:08 WatchNotif: ?? Notif ID: -658232485
-[I] 09-01 05:45:08 WatchNotif: ? Successfully sent to watch: Truck 160 - Ready ? In Front
+=== samsung SM-S938U | v216 | shipped 2026-09-01 21:50:11 ===
 [I] 09-01 05:48:21 TTS: Speaking: Truck 245, Put Away
 [I] 09-01 05:48:21 WatchNotif: ?? PUSHING NOTIF: Truck 245 - In Door ? Put Away (tag=watch_truck_245)
 [I] 09-01 05:48:21 WatchNotif: ?? Notif ID: -658231581
@@ -499,3 +484,18 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-01 21:34:08 WatchNotif: ? Successfully sent to watch: Truck 222-1 - Transfer ? In Door
 [I] 09-01 21:35:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-01 21:35:11 BadgerService: Keepalive scheduled in 900s
+[I] 09-01 21:35:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-01 21:37:55 TTS: Speaking: Truck 187-1, Transfer
+[I] 09-01 21:37:55 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - New ? Transfer (tag=watch_truck_187-1)
+[I] 09-01 21:37:55 WatchNotif: ?? Notif ID: -1201157820
+[I] 09-01 21:37:55 WatchNotif: ? Successfully sent to watch: Truck 187-1 - New ? Transfer
+[I] 09-01 21:40:08 TTS: Speaking: Truck 251, In Door
+[I] 09-01 21:40:08 WatchNotif: ?? PUSHING NOTIF: Truck 251 - In Back ? In Door (tag=watch_truck_251)
+[I] 09-01 21:40:08 WatchNotif: ?? Notif ID: -658231554
+[I] 09-01 21:40:08 WatchNotif: ? Successfully sent to watch: Truck 251 - In Back ? In Door
+[I] 09-01 21:41:32 TTS: Speaking: Truck 187-1, In Front
+[I] 09-01 21:41:32 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - Transfer ? In Front (tag=watch_truck_187-1)
+[I] 09-01 21:41:32 WatchNotif: ?? Notif ID: -1201157820
+[I] 09-01 21:41:32 WatchNotif: ? Successfully sent to watch: Truck 187-1 - Transfer ? In Front
+[I] 09-01 21:50:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-01 21:50:11 BadgerService: Keepalive scheduled in 900s
