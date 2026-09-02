@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-02 02:03:20 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-02 02:47:26 ===
 [W] 09-01 19:12:09 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
 [E] 09-01 19:16:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #39 in 300s)
 [E] 09-01 19:16:56 BadgerService: Realtime: 39 consecutive failures � cooling down 5 min
@@ -426,3 +426,45 @@
 [W] 09-02 02:03:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-02 02:03:20 BadgerService: Keepalive scheduled in 900s
 [W] 09-02 02:03:20 BadgerService: startRealtimeSync: in backoff for 17s more � skipping
+[I] 09-02 02:03:22 LogShipper: Shipped 427 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-02 02:04:04 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-02 02:04:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[E] 09-02 02:04:51 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[W] 09-02 02:06:49 BadgerService: startRealtimeSync: in backoff for 181s more � skipping
+[W] 09-02 02:06:49 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-02 02:32:26 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 09-02 02:32:26 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 09-02 02:32:26 MainActivity: BadgerService started (mic=true)
+[W] 09-02 02:32:26 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 09-02 02:32:26 AuthManager: Session expired — trying HWID silent login
+[I] 09-02 02:32:26 AppUpdater: Checking via website (current=216)
+[I] 09-02 02:32:26 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 09-02 02:32:26 BadgerService: Keepalive scheduled in 900s
+[I] 09-02 02:32:26 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 09-02 02:32:26 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 09-02 02:32:26 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 09-02 02:32:27 TTS: Engine initialized OK
+[I] 09-02 02:32:27 TTS: Speaking: Badger live monitoring active
+[I] 09-02 02:32:27 AuthManager: HWID silent login OK
+[I] 09-02 02:32:27 AuthManager: Sign in OK — felipe role=admin
+[I] 09-02 02:32:27 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 09-02 02:32:27 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-02 02:32:27 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-02 02:32:28 BadgerService: Realtime subscribed OK -- badger-svc-51ed8c9c-d51f-4206-abac-5d3c98c636ff status=SUBSCRIBED
+[I] 09-02 02:32:28 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-02 02:32:30 AppUpdater: Checking via website (current=216)
+[I] 09-02 02:32:30 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-02 02:32:30 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-02 02:32:30 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-02 02:34:27 TTS: Speaking: Truck 241, In Front
+[I] 09-02 02:34:27 WatchNotif: ?? PUSHING NOTIF: Truck 241 - Ready ? In Front (tag=watch_truck_241)
+[I] 09-02 02:34:27 WatchNotif: ?? Notif ID: -658231585
+[I] 09-02 02:34:27 WatchNotif: ? Successfully sent to watch: Truck 241 - Ready ? In Front
+[I] 09-02 02:35:41 TTS: Speaking: Truck 222-1, On Route
+[I] 09-02 02:35:41 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - In Door ? On Route (tag=watch_truck_222-1)
+[I] 09-02 02:35:41 WatchNotif: ?? Notif ID: -1200417850
+[I] 09-02 02:35:41 WatchNotif: ? Successfully sent to watch: Truck 222-1 - In Door ? On Route
+[I] 09-02 02:47:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 02:47:26 BadgerService: Keepalive scheduled in 900s
