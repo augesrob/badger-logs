@@ -1,11 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-02 03:50:11 ===
-[I] 09-01 13:04:55 BadgerService: Keepalive scheduled in 900s
-[W] 09-01 13:04:55 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 09-01 13:04:55 BadgerService: startRealtimeSync: in backoff for 148s more � skipping
-[I] 09-01 13:04:58 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 09-01 13:08:10 BadgerService: Realtime: 44 consecutive failures � cooling down 5 min
-[E] 09-01 13:08:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #44 in 300s)
-[E] 09-01 13:13:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #45 in 300s)
+=== samsung SM-S938U | v216 | shipped 2026-09-02 04:05:11 ===
 [E] 09-01 13:13:56 BadgerService: Realtime: 45 consecutive failures � cooling down 5 min
 [E] 09-01 13:19:42 BadgerService: Realtime: 46 consecutive failures � cooling down 5 min
 [E] 09-01 13:19:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #46 in 300s)
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-02 03:45:46 WatchNotif: ? Successfully sent to watch: Truck 240 - Ready ? In Front
 [I] 09-02 03:50:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-02 03:50:11 BadgerService: Keepalive scheduled in 900s
+[I] 09-02 03:50:14 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-02 03:59:56 TTS: Speaking: Truck 220, In Door
+[I] 09-02 03:59:56 WatchNotif: ?? PUSHING NOTIF: Truck 220 - In Front ? In Door (tag=watch_truck_220)
+[I] 09-02 03:59:56 WatchNotif: ?? Notif ID: -658231648
+[I] 09-02 03:59:56 WatchNotif: ? Successfully sent to watch: Truck 220 - In Front ? In Door
+[I] 09-02 04:05:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 04:05:11 BadgerService: Keepalive scheduled in 900s
