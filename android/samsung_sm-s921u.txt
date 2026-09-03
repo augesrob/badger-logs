@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-02 21:50:59 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-02 22:05:59 ===
 [E] 09-02 12:12:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
 [E] 09-02 12:14:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
 [E] 09-02 12:16:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
@@ -379,3 +379,15 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-02 21:50:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-02 21:50:59 BadgerService: Keepalive scheduled in 900s
 [W] 09-02 21:50:59 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-02 21:51:01 LogShipper: Shipped 380 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-02 21:51:25 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-02 21:52:12 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
+[E] 09-02 21:52:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
+[E] 09-02 21:57:58 BadgerService: Realtime: 15 consecutive failures � cooling down 5 min
+[E] 09-02 21:57:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #15 in 300s)
+[E] 09-02 22:03:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
+[E] 09-02 22:03:44 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
+[I] 09-02 22:05:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 22:05:59 BadgerService: Keepalive scheduled in 900s
+[W] 09-02 22:05:59 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-02 22:05:59 BadgerService: startRealtimeSync: in backoff for 165s more � skipping
