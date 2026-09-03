@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-03 06:50:59 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-03 07:05:59 ===
 [I] 09-02 23:32:56 Movement: Truck 187-1 status → In Door
 [I] 09-02 23:32:56 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=1
 [I] 09-02 23:33:00 Movement: Truck 224-1 status → On Route
@@ -371,3 +371,14 @@
 [I] 09-03 06:36:01 LogShipper: Shipped 369 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 09-03 06:50:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-03 06:50:59 BadgerService: Keepalive scheduled in 900s
+[I] 09-03 06:51:01 LogShipper: Shipped 372 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-03 07:04:41 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-03 07:04:44 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 09-03 07:04:44 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 09-03 07:04:54 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #2 in 20s)
+[E] 09-03 07:04:54 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 09-03 07:04:59 BadgerService: startRealtimeSync: in backoff for 15s more � skipping
+[W] 09-03 07:04:59 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-03 07:05:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 09-03 07:05:59 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-03 07:05:59 BadgerService: Keepalive scheduled in 900s
