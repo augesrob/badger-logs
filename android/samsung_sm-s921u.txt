@@ -1,11 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-02 22:50:59 ===
-[E] 09-02 12:12:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
-[E] 09-02 12:14:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
-[E] 09-02 12:16:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
-[I] 09-02 12:17:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 09-02 12:17:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 09-02 12:17:27 BadgerService: startRealtimeSync: in backoff for 19s more � skipping
-[I] 09-02 12:17:27 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S921U | v216 | shipped 2026-09-02 23:05:59 ===
 [I] 09-02 12:17:29 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 09-02 12:18:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
 [E] 09-02 12:20:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
@@ -491,3 +484,18 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-02 22:46:01 WatchNotif: ? Successfully sent to watch: Truck 243 - In Back ? In Front
 [I] 09-02 22:50:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-02 22:50:59 BadgerService: Keepalive scheduled in 900s
+[I] 09-02 22:51:01 LogShipper: Shipped 492 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-02 23:00:31 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-02 23:00:33 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-02 23:01:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-02 23:01:32 BadgerService: Realtime subscribed OK -- badger-svc-466d0073-8c79-4e46-8e34-59293bc6e5dd status=SUBSCRIBED
+[I] 09-02 23:02:34 TTS: Speaking: Truck 231-1, On Route
+[I] 09-02 23:02:34 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - In Door ? On Route (tag=watch_truck_231-1)
+[I] 09-02 23:02:34 WatchNotif: ?? Notif ID: -1200389020
+[I] 09-02 23:02:34 WatchNotif: ? Successfully sent to watch: Truck 231-1 - In Door ? On Route
+[I] 09-02 23:02:40 TTS: Speaking: Truck 223-2, In Door
+[I] 09-02 23:02:40 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - In Front ? In Door (tag=watch_truck_223-2)
+[I] 09-02 23:02:40 WatchNotif: ?? Notif ID: -1200416888
+[I] 09-02 23:02:40 WatchNotif: ? Successfully sent to watch: Truck 223-2 - In Front ? In Door
+[I] 09-02 23:05:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-02 23:05:59 BadgerService: Keepalive scheduled in 900s
