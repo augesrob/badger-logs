@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-03 07:35:59 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-03 07:50:59 ===
 [I] 09-02 23:32:56 Movement: Truck 187-1 status → In Door
 [I] 09-02 23:32:56 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=1
 [I] 09-02 23:33:00 Movement: Truck 224-1 status → On Route
@@ -398,3 +398,16 @@
 [I] 09-03 07:35:59 BadgerService: Keepalive scheduled in 900s
 [W] 09-03 07:35:59 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-03 07:35:59 BadgerService: startRealtimeSync: in backoff for 54s more � skipping
+[I] 09-03 07:36:01 LogShipper: Shipped 399 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-03 07:37:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 09-03 07:39:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 09-03 07:41:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 09-03 07:44:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[E] 09-03 07:46:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
+[E] 09-03 07:48:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
+[E] 09-03 07:50:22 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 09-03 07:50:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
+[I] 09-03 07:50:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-03 07:50:59 BadgerService: Keepalive scheduled in 900s
+[W] 09-03 07:50:59 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-03 07:50:59 BadgerService: startRealtimeSync: in backoff for 262s more � skipping
