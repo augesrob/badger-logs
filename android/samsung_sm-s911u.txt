@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-03 00:58:18 ===
+=== samsung SM-S911U | v216 | shipped 2026-09-03 01:13:18 ===
 [I] 09-02 09:13:17 BadgerService: Keepalive scheduled in 900s
 [I] 09-02 09:13:19 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-02 09:28:17 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -402,3 +402,17 @@
 [I] 09-03 00:43:20 LogShipper: Shipped 400 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-03 00:58:18 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-03 00:58:18 BadgerService: Keepalive scheduled in 900s
+[I] 09-03 00:58:20 LogShipper: Shipped 403 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 09-03 01:05:11 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-03 01:05:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-03 01:06:12 BadgerService: Realtime subscribed OK -- badger-svc-234f6738-85be-4ea3-bef1-513de1544a0e status=SUBSCRIBED
+[I] 09-03 01:12:50 TTS: Speaking: Truck 187-1, 11
+[I] 09-03 01:12:50 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 11 (tag=watch_truck_187-1)
+[I] 09-03 01:12:50 WatchNotif: ?? Notif ID: -1201157820
+[I] 09-03 01:12:50 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 11
+[I] 09-03 01:12:52 TTS: Speaking: Truck 148, In Door
+[I] 09-03 01:12:52 WatchNotif: ?? Notif ID: -658232539
+[I] 09-03 01:12:52 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Front ? In Door (tag=watch_truck_148)
+[I] 09-03 01:12:52 WatchNotif: ? Successfully sent to watch: Truck 148 - In Front ? In Door
+[I] 09-03 01:13:18 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-03 01:13:18 BadgerService: Keepalive scheduled in 900s
