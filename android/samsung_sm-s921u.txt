@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-03 01:05:59 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-03 01:20:59 ===
 [I] 09-02 19:33:51 WatchNotif: ?? PUSHING NOTIF: Truck 158 - New ? Ready (tag=watch_truck_158)
 [I] 09-02 19:33:51 WatchNotif: ?? Notif ID: -658232508
 [I] 09-02 19:33:51 WatchNotif: ? Successfully sent to watch: Truck 158 - New ? Ready
@@ -355,3 +355,34 @@
 [I] 09-03 00:56:47 BadgerService: Realtime subscribed OK -- badger-svc-c258d2bb-da85-41b9-a707-c6e5d9c726b7 status=SUBSCRIBED
 [I] 09-03 01:05:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-03 01:05:59 BadgerService: Keepalive scheduled in 900s
+[I] 09-03 01:06:09 LogShipper: Shipped 356 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-03 01:06:48 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-03 01:06:50 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-03 01:07:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-03 01:07:48 BadgerService: Realtime subscribed OK -- badger-svc-2089e906-b27d-4610-a64a-dcdb678b1d4b status=SUBSCRIBED
+[I] 09-03 01:12:38 AppUpdater: Checking via website (current=216)
+[I] 09-03 01:12:40 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-03 01:12:40 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-03 01:12:40 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-03 01:12:49 Movement: Truck 187-1 status → 11
+[I] 09-03 01:12:49 BadgerRepo: updateMovementStatus OK — truck=187-1 statusId=14
+[I] 09-03 01:12:50 TTS: Speaking: Truck 187-1, 11
+[I] 09-03 01:12:50 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 11 (tag=watch_truck_187-1)
+[I] 09-03 01:12:50 WatchNotif: ?? Notif ID: -1201157820
+[I] 09-03 01:12:50 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 11
+[I] 09-03 01:12:51 Movement: Truck 148 status → In Door
+[I] 09-03 01:12:51 BadgerRepo: updateMovementStatus OK — truck=148 statusId=1
+[I] 09-03 01:12:52 TTS: Speaking: Truck 148, In Door
+[I] 09-03 01:12:52 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Front ? In Door (tag=watch_truck_148)
+[I] 09-03 01:12:52 WatchNotif: ?? Notif ID: -658232539
+[I] 09-03 01:12:52 WatchNotif: ? Successfully sent to watch: Truck 148 - In Front ? In Door
+[I] 09-03 01:14:39 TTS: Speaking: Truck 240, In Front
+[I] 09-03 01:14:39 WatchNotif: ?? PUSHING NOTIF: Truck 240 - In Back ? In Front (tag=watch_truck_240)
+[I] 09-03 01:14:39 WatchNotif: ?? Notif ID: -658231586
+[I] 09-03 01:14:39 WatchNotif: ? Successfully sent to watch: Truck 240 - In Back ? In Front
+[I] 09-03 01:14:44 TTS: Speaking: Truck 160, In Front
+[I] 09-03 01:14:44 WatchNotif: ?? Notif ID: -658232485
+[I] 09-03 01:14:44 WatchNotif: ?? PUSHING NOTIF: Truck 160 - Ready ? In Front (tag=watch_truck_160)
+[I] 09-03 01:14:44 WatchNotif: ? Successfully sent to watch: Truck 160 - Ready ? In Front
+[I] 09-03 01:20:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-03 01:20:59 BadgerService: Keepalive scheduled in 900s
