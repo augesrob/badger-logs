@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-09-05 06:30:32 ===
+=== samsung SM-S948U | v216 | shipped 2026-09-05 06:45:32 ===
 [W] 09-04 23:15:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-04 23:15:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [E] 09-04 23:18:45 BadgerService: Realtime: 584 consecutive failures � cooling down 5 min
@@ -296,3 +296,17 @@
 [I] 09-05 06:30:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-05 06:30:32 BadgerService: Keepalive scheduled in 900s
 [W] 09-05 06:30:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-05 06:30:32 BadgerService: startRealtimeSync: in backoff for 9s more � skipping
+[I] 09-05 06:30:33 LogShipper: Shipped 297 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 09-05 06:31:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #659 in 300s)
+[E] 09-05 06:31:28 BadgerService: Realtime: 659 consecutive failures � cooling down 5 min
+[E] 09-05 06:37:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #660 in 300s)
+[E] 09-05 06:37:14 BadgerService: Realtime: 660 consecutive failures � cooling down 5 min
+[E] 09-05 06:43:00 BadgerService: Realtime: 661 consecutive failures � cooling down 5 min
+[E] 09-05 06:43:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #661 in 300s)
+[W] 09-05 06:43:12 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-05 06:43:12 BadgerService: startRealtimeSync: in backoff for 288s more � skipping
+[I] 09-05 06:45:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-05 06:45:32 BadgerService: Keepalive scheduled in 900s
+[W] 09-05 06:45:32 BadgerService: startRealtimeSync: in backoff for 148s more � skipping
+[W] 09-05 06:45:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
