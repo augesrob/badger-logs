@@ -1,8 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-09-05 05:00:32 ===
-[E] 09-04 17:03:44 BadgerService: Realtime: 519 consecutive failures � cooling down 5 min
-[E] 09-04 17:03:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #519 in 300s)
-[E] 09-04 17:08:44 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
-[E] 09-04 17:09:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #520 in 300s)
+=== samsung SM-S948U | v216 | shipped 2026-09-05 05:15:32 ===
 [E] 09-04 17:09:30 BadgerService: Realtime: 520 consecutive failures � cooling down 5 min
 [E] 09-04 17:15:17 BadgerService: Realtime: 521 consecutive failures � cooling down 5 min
 [E] 09-04 17:15:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #521 in 300s)
@@ -494,3 +490,12 @@
 [W] 09-05 05:00:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-05 05:00:32 BadgerService: startRealtimeSync: in backoff for 216s more � skipping
 [I] 09-05 05:00:32 BadgerService: Keepalive scheduled in 900s
+[I] 09-05 05:00:34 LogShipper: Shipped 495 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 09-05 05:04:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #644 in 300s)
+[E] 09-05 05:04:54 BadgerService: Realtime: 644 consecutive failures � cooling down 5 min
+[E] 09-05 05:10:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #645 in 300s)
+[E] 09-05 05:10:41 BadgerService: Realtime: 645 consecutive failures � cooling down 5 min
+[I] 09-05 05:15:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 09-05 05:15:32 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-05 05:15:32 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[I] 09-05 05:15:32 BadgerService: Keepalive scheduled in 900s
