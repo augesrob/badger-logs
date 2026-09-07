@@ -1,13 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-07 15:24:03 ===
-[I] 09-05 23:20:17 LogShipper: Shipped 385 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 09-05 23:35:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-05 23:35:16 BadgerService: Keepalive scheduled in 900s
-[I] 09-05 23:35:17 LogShipper: Shipped 388 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 09-05 23:50:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-05 23:50:16 BadgerService: Keepalive scheduled in 900s
-[I] 09-05 23:50:17 LogShipper: Shipped 391 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 09-06 00:05:16 BadgerService: Keepalive scheduled in 900s
-[I] 09-06 00:05:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S938U | v216 | shipped 2026-09-07 15:39:03 ===
 [I] 09-06 00:05:17 LogShipper: Shipped 394 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-06 00:20:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-06 00:20:16 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-07 15:09:05 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-07 15:24:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-07 15:24:03 BadgerService: Keepalive scheduled in 900s
+[I] 09-07 15:24:05 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 09-07 15:34:38 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-07 15:34:49 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-07 15:34:49 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[W] 09-07 15:34:57 BadgerService: startRealtimeSync: in backoff for 2s more � skipping
+[W] 09-07 15:34:57 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-07 15:35:01 BadgerService: Realtime subscribed OK -- badger-svc-03dd3c41-bbb5-49e3-ad06-45d8158989ef status=SUBSCRIBED
+[I] 09-07 15:39:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-07 15:39:03 BadgerService: Keepalive scheduled in 900s
