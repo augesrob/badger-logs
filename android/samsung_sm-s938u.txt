@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-07 17:09:03 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-07 17:24:03 ===
 [I] 09-06 18:09:02 BadgerService: Keepalive scheduled in 900s
 [I] 09-06 18:09:03 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-06 18:24:02 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -304,3 +304,15 @@
 [I] 09-07 16:54:04 LogShipper: Shipped 301 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-07 17:09:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-07 17:09:03 BadgerService: Keepalive scheduled in 900s
+[I] 09-07 17:09:04 LogShipper: Shipped 305 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 09-07 17:21:08 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 09-07 17:21:08 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 3
+[E] 09-07 17:21:09 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 09-07 17:21:09 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 09-07 17:21:11 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-07 17:21:11 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[W] 09-07 17:21:15 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
+[W] 09-07 17:21:15 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-07 17:21:21 BadgerService: Realtime subscribed OK -- badger-svc-48b70946-68ac-4e99-bf2a-1abe67e2545c status=SUBSCRIBED
+[I] 09-07 17:24:03 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-07 17:24:03 BadgerService: Keepalive scheduled in 900s
