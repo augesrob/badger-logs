@@ -1,12 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-09-08 02:33:00 ===
-[I] 09-06 09:17:57 BadgerService: Keepalive scheduled in 900s
-[I] 09-06 09:17:59 LogShipper: Shipped 400 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 09-06 09:32:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-06 09:32:57 BadgerService: Keepalive scheduled in 900s
-[I] 09-06 09:32:59 LogShipper: Shipped 403 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 09-06 09:47:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-06 09:47:57 BadgerService: Keepalive scheduled in 900s
-[I] 09-06 09:47:59 LogShipper: Shipped 406 log lines to badger-logs/android/samsung_sm-s948u.txt
+=== samsung SM-S948U | v216 | shipped 2026-09-08 02:48:00 ===
 [I] 09-06 10:02:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-06 10:02:57 BadgerService: Keepalive scheduled in 900s
 [I] 09-06 10:02:59 LogShipper: Shipped 409 log lines to badger-logs/android/samsung_sm-s948u.txt
@@ -499,3 +491,11 @@
 [I] 09-08 02:18:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 09-08 02:33:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-08 02:33:00 BadgerService: Keepalive scheduled in 900s
+[I] 09-08 02:33:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 09-08 02:37:11 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-08 02:37:11 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 4
+[E] 09-08 02:37:21 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-08 02:37:21 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 09-08 02:37:40 BadgerService: Realtime subscribed OK -- badger-svc-5e9e9a37-9ed4-48f6-9782-4bf8f8ae83fc status=SUBSCRIBED
+[I] 09-08 02:48:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-08 02:48:00 BadgerService: Keepalive scheduled in 900s
