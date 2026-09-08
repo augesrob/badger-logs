@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-09-08 04:18:00 ===
+=== samsung SM-S948U | v216 | shipped 2026-09-08 04:33:00 ===
 [I] 09-07 02:17:59 BadgerService: Keepalive scheduled in 900s
 [I] 09-07 02:18:00 LogShipper: Shipped 305 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 09-07 02:32:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -317,3 +317,14 @@
 [I] 09-08 04:03:01 LogShipper: Shipped 315 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 09-08 04:18:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-08 04:18:00 BadgerService: Keepalive scheduled in 900s
+[I] 09-08 04:18:01 LogShipper: Shipped 318 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 09-08 04:31:24 BadgerService: Heartbeat poll: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI3MTIyYjliMS0wODA5LTQzNDMtODMyNS02MTU3YWQyOTM5YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg4ODYyOTAxLCJpYXQiOjE3ODg4NTkzMDEsImVtYWlsIjoibWlsbGVyam8xOTg2QGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZGlzcGxheV9uYW1lIjoiSm9lIE1pbGxlciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ1c2VybmFtZSI6ImpvZW1pbGxlciJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzg4NjExNTc3fV0sInNlc3Npb25faWQiOiI3M2I2NzE3Ny1iZmY0LTQxZTktODUyZC05M2I4NzlkMzg1NmUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.wgb_v1ZlI0x5vjRo23b_5ApJL0TYZ6tfgIivfL36Ml4Zk5Kpnn8pGB2tIB0hOnMigSzkK_H9m3uyMDOxVSxLIg], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[E] 09-08 04:31:24 BadgerRepo: getLiveMovement FAILED: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI3MTIyYjliMS0wODA5LTQzNDMtODMyNS02MTU3YWQyOTM5YzgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg4ODYyOTAxLCJpYXQiOjE3ODg4NTkzMDEsImVtYWlsIjoibWlsbGVyam8xOTg2QGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZGlzcGxheV9uYW1lIjoiSm9lIE1pbGxlciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ1c2VybmFtZSI6ImpvZW1pbGxlciJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzg4NjExNTc3fV0sInNlc3Npb25faWQiOiI3M2I2NzE3Ny1iZmY0LTQxZTktODUyZC05M2I4NzlkMzg1NmUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.wgb_v1ZlI0x5vjRo23b_5ApJL0TYZ6tfgIivfL36Ml4Zk5Kpnn8pGB2tIB0hOnMigSzkK_H9m3uyMDOxVSxLIg], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[I] 09-08 04:33:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-08 04:33:00 BadgerService: Keepalive scheduled in 900s
