@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-08 22:33:39 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-08 22:48:39 ===
 [E] 09-03 23:06:56 BadgerService: Realtime: 120 consecutive failures � cooling down 5 min
 [E] 09-03 23:12:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #121 in 300s)
 [E] 09-03 23:12:42 BadgerService: Realtime: 121 consecutive failures � cooling down 5 min
@@ -425,3 +425,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [E] 09-08 22:33:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #35 in 300s)
 [I] 09-08 22:33:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-08 22:33:39 BadgerService: Keepalive scheduled in 900s
+[W] 09-08 22:33:39 BadgerService: startRealtimeSync: in backoff for 278s more � skipping
+[W] 09-08 22:33:39 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-08 22:33:42 LogShipper: Shipped 426 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-08 22:39:04 BadgerService: Realtime: 36 consecutive failures � cooling down 5 min
+[E] 09-08 22:39:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #36 in 300s)
+[E] 09-08 22:44:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #37 in 300s)
+[E] 09-08 22:44:51 BadgerService: Realtime: 37 consecutive failures � cooling down 5 min
+[W] 09-08 22:45:49 BadgerService: startRealtimeSync: in backoff for 241s more � skipping
+[W] 09-08 22:45:49 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-08 22:48:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-08 22:48:39 BadgerService: Keepalive scheduled in 900s
+[W] 09-08 22:48:39 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-08 22:48:39 BadgerService: startRealtimeSync: in backoff for 71s more � skipping
