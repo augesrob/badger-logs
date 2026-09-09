@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-09 02:33:40 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-09 02:48:40 ===
 [E] 09-08 18:34:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
 [E] 09-08 18:40:12 BadgerService: Realtime: 14 consecutive failures � cooling down 5 min
 [E] 09-08 18:40:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #14 in 300s)
@@ -333,3 +333,17 @@
 [I] 09-09 02:33:40 BadgerService: Keepalive scheduled in 900s
 [W] 09-09 02:33:40 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-09 02:33:40 BadgerService: startRealtimeSync: in backoff for 277s more � skipping
+[I] 09-09 02:33:41 LogShipper: Shipped 334 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-09 02:37:20 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-09 02:37:20 BadgerService: startRealtimeSync: in backoff for 57s more � skipping
+[E] 09-09 02:39:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #77 in 300s)
+[E] 09-09 02:39:04 BadgerService: Realtime: 77 consecutive failures � cooling down 5 min
+[W] 09-09 02:40:01 BadgerService: startRealtimeSync: in backoff for 242s more � skipping
+[W] 09-09 02:40:01 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-09 02:44:04 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 09-09 02:44:50 BadgerService: Realtime: 78 consecutive failures � cooling down 5 min
+[E] 09-09 02:44:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #78 in 300s)
+[I] 09-09 02:48:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-09 02:48:40 BadgerService: Keepalive scheduled in 900s
+[W] 09-09 02:48:40 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-09 02:48:40 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
