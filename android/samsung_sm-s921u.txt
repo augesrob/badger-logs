@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-08 22:03:39 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-08 22:18:39 ===
 [E] 09-03 23:06:56 BadgerService: Realtime: 120 consecutive failures � cooling down 5 min
 [E] 09-03 23:12:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #121 in 300s)
 [E] 09-03 23:12:42 BadgerService: Realtime: 121 consecutive failures � cooling down 5 min
@@ -403,3 +403,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-08 22:03:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-08 22:03:39 BadgerService: Keepalive scheduled in 900s
 [W] 09-08 22:03:39 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-08 22:03:41 LogShipper: Shipped 404 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-08 22:04:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #30 in 300s)
+[E] 09-08 22:04:26 BadgerService: Realtime: 30 consecutive failures � cooling down 5 min
+[E] 09-08 22:10:12 BadgerService: Realtime: 31 consecutive failures � cooling down 5 min
+[E] 09-08 22:10:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #31 in 300s)
+[E] 09-08 22:15:59 BadgerService: Realtime: 32 consecutive failures � cooling down 5 min
+[E] 09-08 22:15:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #32 in 300s)
+[W] 09-08 22:16:57 BadgerService: startRealtimeSync: in backoff for 241s more � skipping
+[W] 09-08 22:16:57 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-08 22:18:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-08 22:18:39 BadgerService: Keepalive scheduled in 900s
+[W] 09-08 22:18:39 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-08 22:18:39 BadgerService: startRealtimeSync: in backoff for 139s more � skipping
