@@ -1,8 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-09 00:39:04 ===
-[W] 09-07 17:21:08 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
-[E] 09-07 17:21:08 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 3
-[E] 09-07 17:21:09 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 09-07 17:21:09 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+=== samsung SM-S938U | v216 | shipped 2026-09-09 00:54:04 ===
 [W] 09-07 17:21:11 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [W] 09-07 17:21:11 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
 [W] 09-07 17:21:15 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
@@ -499,3 +495,7 @@
 [I] 09-09 00:24:04 BadgerService: Keepalive scheduled in 900s
 [I] 09-09 00:24:06 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-09 00:39:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-09 00:39:04 BadgerService: Keepalive scheduled in 900s
+[I] 09-09 00:39:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-09 00:54:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-09 00:54:04 BadgerService: Keepalive scheduled in 900s
