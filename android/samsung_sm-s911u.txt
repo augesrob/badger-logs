@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-11 02:48:35 ===
+=== samsung SM-S911U | v216 | shipped 2026-09-11 03:03:35 ===
 [I] 09-10 18:33:34 BadgerService: Keepalive scheduled in 900s
 [I] 09-10 18:33:36 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-10 18:36:30 TTS: Speaking: Truck 231-2, In Front
@@ -436,3 +436,18 @@
 [I] 09-11 02:48:21 WatchNotif: ? Successfully sent to watch: Truck 213 - In Front ? In Door
 [I] 09-11 02:48:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-11 02:48:35 BadgerService: Keepalive scheduled in 900s
+[I] 09-11 02:48:36 LogShipper: Shipped 437 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 09-11 02:49:22 TTS: Speaking: Truck 160, Put Away
+[I] 09-11 02:49:22 WatchNotif: ?? PUSHING NOTIF: Truck 160 - In Door ? Put Away (tag=watch_truck_160)
+[I] 09-11 02:49:22 WatchNotif: ?? Notif ID: -658232485
+[I] 09-11 02:49:22 WatchNotif: ? Successfully sent to watch: Truck 160 - In Door ? Put Away
+[W] 09-11 02:57:19 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-11 02:57:30 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-11 02:57:30 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 09-11 02:57:42 BadgerService: Realtime subscribed OK -- badger-svc-d3707c1f-5b44-4db8-97b7-f0bf305fb930 status=SUBSCRIBED
+[I] 09-11 03:01:40 TTS: Speaking: Truck 257, Put Away
+[I] 09-11 03:01:40 WatchNotif: ?? PUSHING NOTIF: Truck 257 - In Door ? Put Away (tag=watch_truck_257)
+[I] 09-11 03:01:40 WatchNotif: ?? Notif ID: -658231548
+[I] 09-11 03:01:40 WatchNotif: ? Successfully sent to watch: Truck 257 - In Door ? Put Away
+[I] 09-11 03:03:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-11 03:03:35 BadgerService: Keepalive scheduled in 900s
