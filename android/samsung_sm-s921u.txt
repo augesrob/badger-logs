@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-11 11:33:43 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-11 11:48:43 ===
 [I] 09-10 19:18:42 BadgerService: Keepalive scheduled in 900s
 [W] 09-10 19:18:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-10 19:18:43 LogShipper: Shipped 302 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -308,3 +308,12 @@
 [I] 09-11 11:33:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 09-11 11:33:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-11 11:33:43 BadgerService: Keepalive scheduled in 900s
+[I] 09-11 11:33:44 LogShipper: Shipped 309 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-11 11:33:52 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-11 11:33:52 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #351 in 300s)
+[E] 09-11 11:33:52 BadgerService: Realtime: 351 consecutive failures � cooling down 5 min
+[E] 09-11 11:33:52 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 09-11 11:40:33 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-11 11:48:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-11 11:48:43 BadgerService: Keepalive scheduled in 900s
+[W] 09-11 11:48:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
