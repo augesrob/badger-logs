@@ -1,16 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-11 09:33:43 ===
-[I] 09-10 05:33:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-10 05:33:41 BadgerService: Keepalive scheduled in 900s
-[W] 09-10 05:33:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 05:33:43 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 09-10 05:48:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 09-10 05:48:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 05:48:41 BadgerService: Keepalive scheduled in 900s
-[I] 09-10 05:48:43 LogShipper: Shipped 352 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 09-10 06:03:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-10 06:03:41 BadgerService: Keepalive scheduled in 900s
-[W] 09-10 06:03:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 06:03:43 LogShipper: Shipped 356 log lines to badger-logs/android/samsung_sm-s921u.txt
+=== samsung SM-S921U | v216 | shipped 2026-09-11 10:03:43 ===
 [I] 09-10 06:18:41 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-10 06:18:41 BadgerService: Keepalive scheduled in 900s
 [W] 09-10 06:18:41 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -499,3 +487,15 @@
 [W] 09-11 09:33:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-11 09:33:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-11 09:33:43 BadgerService: Keepalive scheduled in 900s
+[I] 09-11 09:33:46 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-11 09:46:29 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-11 09:48:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-11 09:48:43 BadgerService: Keepalive scheduled in 900s
+[W] 09-11 09:48:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[E] 09-11 09:48:54 BadgerService: Realtime: 350 consecutive failures � cooling down 5 min
+[E] 09-11 09:48:54 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 09-11 09:48:54 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms] (retry #350 in 300s)
+[W] 09-11 09:48:57 LogShipper: Ship failed HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/conten
+[W] 09-11 09:59:56 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-11 10:03:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 09-11 10:03:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
