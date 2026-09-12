@@ -1,15 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-12 08:48:37 ===
-[I] 09-11 01:47:19 WatchNotif: ?? PUSHING NOTIF: Truck 241 - In Front ? Put Away (tag=watch_truck_241)
-[I] 09-11 01:47:19 WatchNotif: ?? Notif ID: -658231585
-[I] 09-11 01:47:19 WatchNotif: ? Successfully sent to watch: Truck 241 - In Front ? Put Away
-[I] 09-11 01:47:25 TTS: Speaking: Truck 160, In Door
-[I] 09-11 01:47:25 WatchNotif: ?? PUSHING NOTIF: Truck 160 - In Front ? In Door (tag=watch_truck_160)
-[I] 09-11 01:47:25 WatchNotif: ?? Notif ID: -658232485
-[I] 09-11 01:47:25 WatchNotif: ? Successfully sent to watch: Truck 160 - In Front ? In Door
-[I] 09-11 01:48:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-11 01:48:35 BadgerService: Keepalive scheduled in 900s
-[I] 09-11 01:48:36 LogShipper: Shipped 353 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 09-11 02:00:58 TTS: Speaking: Truck 256, Put Away
+=== samsung SM-S911U | v216 | shipped 2026-09-12 09:03:37 ===
 [I] 09-11 02:00:58 WatchNotif: ?? PUSHING NOTIF: Truck 256 - In Door ? Put Away (tag=watch_truck_256)
 [I] 09-11 02:00:58 WatchNotif: ?? Notif ID: -658231549
 [I] 09-11 02:00:58 WatchNotif: ? Successfully sent to watch: Truck 256 - In Door ? Put Away
@@ -499,3 +488,14 @@ Http Method: GET -- restarting
 [I] 09-12 08:33:38 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-12 08:48:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-12 08:48:37 BadgerService: Keepalive scheduled in 900s
+[I] 09-12 08:48:38 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 09-12 09:00:14 BadgerRepo: getLoadingDoors FAILED: Gateway Timeout
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJhYjdlYWQwOC01MTViLTQ5Y2QtOWRjMS0zYjQ1MDA1YWU4MDEiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg5MjI0NTYwLCJpYXQiOjE3ODkyMjA5NjAsImVtYWlsIjoiZmVsaXBlQGJhZGdlcmxpcXVvci5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6InZhenF1ZXoiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXNlcm5hbWUiOiJmZWxpcGUifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc4ODk0NzMxM31dLCJzZXNzaW9uX2lkIjoiYWRjMzk3NTMtMWM5Yi00MTlhLThmYzctOGRlNGM3MWI1NDViIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.gmFtSCoOs_2L-Bwyb-4W7Lhp6j1L7n7pFs5pho_ZdTfFF4-0H9Jz8ntYg5nlLRS5zWix5T71NM9q62vgVDnkMw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[W] 09-12 09:00:14 BadgerService: Heartbeat poll: Gateway Timeout
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJhYjdlYWQwOC01MTViLTQ5Y2QtOWRjMS0zYjQ1MDA1YWU4MDEiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg5MjI0NTYwLCJpYXQiOjE3ODkyMjA5NjAsImVtYWlsIjoiZmVsaXBlQGJhZGdlcmxpcXVvci5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6InZhenF1ZXoiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXNlcm5hbWUiOiJmZWxpcGUifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc4ODk0NzMxM31dLCJzZXNzaW9uX2lkIjoiYWRjMzk3NTMtMWM5Yi00MTlhLThmYzctOGRlNGM3MWI1NDViIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.gmFtSCoOs_2L-Bwyb-4W7Lhp6j1L7n7pFs5pho_ZdTfFF4-0H9Jz8ntYg5nlLRS5zWix5T71NM9q62vgVDnkMw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[I] 09-12 09:03:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-12 09:03:37 BadgerService: Keepalive scheduled in 900s
