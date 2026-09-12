@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-12 18:09:11 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-12 18:24:11 ===
 [I] 09-11 13:09:10 BadgerService: Keepalive scheduled in 900s
 [I] 09-11 13:09:10 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-11 13:09:13 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -381,3 +381,12 @@ Http Method: GET -- restarting
 [I] 09-12 17:54:13 LogShipper: Shipped 379 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-12 18:09:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-12 18:09:11 BadgerService: Keepalive scheduled in 900s
+[I] 09-12 18:09:12 LogShipper: Shipped 382 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 09-12 18:14:06 BadgerService: Heartbeat ping failed: Gateway Timeout
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiIxNTIwYzkxYS1mN2VmLTRhOTYtOTQ2Yi0zMWMxODAxNWEwYzMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg5MjU3ODc2LCJpYXQiOjE3ODkyNTQyNzYsImVtYWlsIjoicmZhMTk5MUBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6ImF1Z2Vzcm9iIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVzZXJuYW1lIjoiYXVnZXNyb2IifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc4ODY4Mzk0Mn1dLCJzZXNzaW9uX2lkIjoiYmY0ZWI4ZjUtZDk2Ny00MTc1LWFjYzMtMWE1Y2UxNGQxYWU0IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.V5EXzJm7pmXtdhuKXH6KA1dqxtEPGGHSppx0qLLJUnfJc3Joc32b8BF4yY5FA03nAINclP-PuoDZKSstWxJtcg], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET -- restarting
+[E] 09-12 18:14:06 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[I] 09-12 18:14:08 BadgerService: Realtime subscribed OK -- badger-svc-6a3ae9a9-772c-41fc-a8f5-493aebb44a27 status=SUBSCRIBED
+[I] 09-12 18:24:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-12 18:24:11 BadgerService: Keepalive scheduled in 900s
