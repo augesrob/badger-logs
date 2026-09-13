@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gift overlay</title>
+<style>
+  /* OBS composites the page over the scene, so everything must be transparent. */
+  html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; }
+  #stage {
+    position: fixed; inset: 0; display: flex;
+    align-items: center; justify-content: center; pointer-events: none;
+  }
+  #player { max-width: 100%; max-height: 100%; opacity: 0; transition: opacity 120ms linear; }
+  #player.playing { opacity: 1; }
+
+  /* Everything below only appears with ?browse=1 - a contact sheet for
+     eyeballing the converted library outside OBS. */
+  #browser { display: none; padding: 16px; font: 13px/1.4 system-ui, sans-serif; color: #eee; }
+  body.browse { background: #15161a; overflow: auto; }
+  body.browse #browser { display: block; }
+  body.browse #stage { background: rgba(0,0,0,.75); pointer-events: auto; }
+  body.browse #stage.idle { display: none; }
+  h1 { font-size: 15px; font-weight: 600; margin: 0 0 12px; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 10px; }
+  .card {
+    background: #21232b; border: 1px solid #2f3240; border-radius: 8px;
+    padding: 8px; cursor: pointer; text-align: center;
+  }
+  .card:hover { border-color: #6c7bff; }
+  .card video, .card img {
+    width: 100%; height: 92px; object-fit: contain;
+    background: repeating-conic-gradient(#2a2d38 0% 25%, #23262f 0% 50%) 50% / 16px 16px;
+    border-radius: 4px;
+  }
+  .card b { display: block; margin-top: 6px; font-weight: 600; font-size: 12px;
+            overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .card span { color: #9aa0b4; font-size: 11px; }
+  #status { position: fixed; right: 10px; bottom: 8px; font: 11px system-ui; color: #8a90a6; }
+</style>
+</head>
+<body>
+<div id="stage" class="idle"><video id="player" muted playsinline></video></div>
+
+<div id="browser">
+  <h1>Gift library <span id="count"></span></h1>
+  <div id="grid"></div>
+</div>
+<div id="status"></div>
+
+<script>
+const params = new URLSearchParams(location.search);
+const browse = params.has('browse');
+if (browse) document.body.classList.add('browse');
+
+const stage = document.getElementById('stage');
+const player = document.getElementById('player');
+const status = document.getElementById('status');
+const queue = [];
+let playing = false;
+
+function note(text) { if (browse) status.textContent = text; }
+
+/* One gift at a time: overlapping full-screen effects just smear. Anything
+   that arrives mid-playback waits its turn. */
+function enqueue(event) { queue.push(event); if (!playing) next(); }
+
+function next() {
+  const event = queue.shift();
+  if (!event) {
+    playing = false;
+    player.removeAttribute('src');
+    player.classList.remove('playing');
+    stage.classList.add('idle');
+    return;
+  }
+  playing = true;
+  stage.classList.remove('idle');
+  player.src = event.src;
+  player.loop = false;
+  player.classList.add('playing');
+  note('playing ' + (event.gift || event.src));
+  player.play().catch((err) => { console.warn('playback blocked', err); finish(); });
+}
+
+let repeatsLeft = 0;
+function finish() { if (repeatsLeft-- > 0) { player.currentTime = 0; player.play(); } else next(); }
+player.addEventListener('ended', finish);
+player.addEventListener('error', () => { console.warn('cannot play', player.src); finish(); });
+
+const events = new EventSource('/events');
+events.onmessage = (message) => {
+  const event = JSON.parse(message.data);
+  if (event.type !== 'play') return;
+  repeatsLeft = Math.max(0, (event.repeat || 1) - 1);
+  enqueue(event);
+};
+events.onopen = () => note('connected');
+events.onerror = () => note('reconnecting…');
+
+if (browse) {
+  fetch('/library.json').then((r) => r.json()).then((library) => {
+    const assets = (library.assets || []).filter((a) => a.frames > 1);
+    document.getElementById('count').textContent =
+      `· ${assets.length} animations from ${library.counts?.gifts ?? 0} gifts`;
+    const grid = document.getElementById('grid');
+    for (const asset of assets) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML =
+        `<video src="/${asset.file}" muted loop playsinline autoplay></video>` +
+        `<b title="${asset.name}">${asset.name || asset.gift_id}</b>` +
+        `<span>${asset.width}×${asset.height} · ${asset.frames}f` +
+        `${asset.diamond_count ? ' · ' + asset.diamond_count + '◈' : ''}</span>`;
+      card.onclick = () => fetch('/trigger?gift=' + encodeURIComponent(asset.gift_id));
+      grid.appendChild(card);
+    }
+  }).catch((err) => note('library.json unavailable: ' + err));
+  stage.onclick = () => { queue.length = 0; repeatsLeft = 0; finish(); };
+}
+</script>
+</body>
+</html>
