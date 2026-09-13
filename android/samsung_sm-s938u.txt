@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-13 18:12:28 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-13 18:27:28 ===
 [I] 09-13 06:12:27 BadgerService: Keepalive scheduled in 900s
 [I] 09-13 06:12:29 LogShipper: Shipped 370 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-13 06:27:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -221,3 +221,17 @@ Http Method: GET
 [I] 09-13 17:57:30 LogShipper: Shipped 219 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-13 18:12:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-13 18:12:28 BadgerService: Keepalive scheduled in 900s
+[I] 09-13 18:12:37 LogShipper: Shipped 222 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 09-13 18:14:28 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 09-13 18:14:28 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 09-13 18:22:47 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-13 18:22:47 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
+[E] 09-13 18:22:58 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 09-13 18:22:58 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 09-13 18:23:01 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-13 18:23:01 BadgerService: startRealtimeSync: in backoff for 6s more � skipping
+[W] 09-13 18:23:05 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-13 18:23:05 BadgerService: startRealtimeSync: in backoff for 2s more � skipping
+[I] 09-13 18:23:09 BadgerService: Realtime subscribed OK -- badger-svc-8775fdb5-6de4-432a-a37c-305d07c5536a status=SUBSCRIBED
+[I] 09-13 18:27:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-13 18:27:28 BadgerService: Keepalive scheduled in 900s
