@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-13 00:12:27 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-13 00:27:27 ===
 [I] 09-12 07:54:11 BadgerService: Keepalive scheduled in 900s
 [I] 09-12 07:54:12 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-12 08:09:11 BadgerService: Keepalive scheduled in 900s
@@ -266,3 +266,16 @@ Http Method: GET
 [I] 09-12 23:57:28 LogShipper: Shipped 264 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-13 00:12:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-13 00:12:27 BadgerService: Keepalive scheduled in 900s
+[I] 09-13 00:12:29 LogShipper: Shipped 267 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 09-13 00:15:07 BadgerService: Heartbeat ping failed: Gateway Timeout
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiIxNTIwYzkxYS1mN2VmLTRhOTYtOTQ2Yi0zMWMxODAxNWEwYzMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg5Mjc4NTA4LCJpYXQiOjE3ODkyNzQ5MDgsImVtYWlsIjoicmZhMTk5MUBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6ImF1Z2Vzcm9iIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVzZXJuYW1lIjoiYXVnZXNyb2IifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc4OTI2OTE0N31dLCJzZXNzaW9uX2lkIjoiNDYzNTNlYmQtMWU2ZS00ZDNkLWFjMTEtNzM1MzhkM2UxYmE2IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.ewEP6kRvbwLpOnSt8NelujVr-_TvKL14FmloUp7d7vwxYs4oWJLKhMi8uXbxhR5eheUHS_gfjHWm7-brmZhX0g], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET -- restarting
+[I] 09-13 00:15:09 BadgerService: Realtime subscribed OK -- badger-svc-3fb86a66-63d1-4aef-978e-f680a61b9b83 status=SUBSCRIBED
+[W] 09-13 00:21:05 BadgerService: Heartbeat ping failed: Gateway Timeout
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiIxNTIwYzkxYS1mN2VmLTRhOTYtOTQ2Yi0zMWMxODAxNWEwYzMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg5Mjc4NTA4LCJpYXQiOjE3ODkyNzQ5MDgsImVtYWlsIjoicmZhMTk5MUBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6ImF1Z2Vzcm9iIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVzZXJuYW1lIjoiYXVnZXNyb2IifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc4OTI2OTE0N31dLCJzZXNzaW9uX2lkIjoiNDYzNTNlYmQtMWU2ZS00ZDNkLWFjMTEtNzM1MzhkM2UxYmE2IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.ewEP6kRvbwLpOnSt8NelujVr-_TvKL14FmloUp7d7vwxYs4oWJLKhMi8uXbxhR5eheUHS_gfjHWm7-brmZhX0g], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET -- restarting
+[I] 09-13 00:21:07 BadgerService: Realtime subscribed OK -- badger-svc-502a176f-1750-4ac1-867d-61f2e0c24f62 status=SUBSCRIBED
+[I] 09-13 00:27:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-13 00:27:27 BadgerService: Keepalive scheduled in 900s
