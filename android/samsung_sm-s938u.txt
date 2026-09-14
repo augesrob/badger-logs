@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-13 20:27:28 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-13 20:42:28 ===
 [I] 09-13 06:12:27 BadgerService: Keepalive scheduled in 900s
 [I] 09-13 06:12:29 LogShipper: Shipped 370 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-13 06:27:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -284,3 +284,14 @@ Http Method: GET
 [I] 09-13 20:12:30 LogShipper: Shipped 282 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-13 20:27:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-13 20:27:28 BadgerService: Keepalive scheduled in 900s
+[I] 09-13 20:27:29 LogShipper: Shipped 285 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 09-13 20:30:06 BadgerRepo: getLoadingDoors FAILED: Gateway Timeout
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiIxNTIwYzkxYS1mN2VmLTRhOTYtOTQ2Yi0zMWMxODAxNWEwYzMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg5MzUwNTIxLCJpYXQiOjE3ODkzNDY5MjEsImVtYWlsIjoicmZhMTk5MUBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6ImF1Z2Vzcm9iIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVzZXJuYW1lIjoiYXVnZXNyb2IifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc4OTI2OTE0N31dLCJzZXNzaW9uX2lkIjoiNDYzNTNlYmQtMWU2ZS00ZDNkLWFjMTEtNzM1MzhkM2UxYmE2IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.LuoBBrObWG_FDzVailWlUlucw-6KrZcQ15rBKAtq2PYXkjzikEP10fAUvXKVulT8Q-inkgbYaWu6Dm_z0LSvOw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[W] 09-13 20:30:06 BadgerService: Heartbeat poll: Gateway Timeout
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiIxNTIwYzkxYS1mN2VmLTRhOTYtOTQ2Yi0zMWMxODAxNWEwYzMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg5MzUwNTIxLCJpYXQiOjE3ODkzNDY5MjEsImVtYWlsIjoicmZhMTk5MUBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6ImF1Z2Vzcm9iIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVzZXJuYW1lIjoiYXVnZXNyb2IifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc4OTI2OTE0N31dLCJzZXNzaW9uX2lkIjoiNDYzNTNlYmQtMWU2ZS00ZDNkLWFjMTEtNzM1MzhkM2UxYmE2IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.LuoBBrObWG_FDzVailWlUlucw-6KrZcQ15rBKAtq2PYXkjzikEP10fAUvXKVulT8Q-inkgbYaWu6Dm_z0LSvOw], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[I] 09-13 20:42:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-13 20:42:28 BadgerService: Keepalive scheduled in 900s
