@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-14 18:27:29 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-14 18:42:29 ===
 [I] 09-14 09:27:28 BadgerService: Keepalive scheduled in 900s
 [I] 09-14 09:27:30 LogShipper: Shipped 189 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-14 09:42:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -188,3 +188,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [W] 09-14 18:22:31 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
 [I] 09-14 18:22:38 BadgerService: Realtime subscribed OK -- badger-svc-a290cc8e-1fdf-49b2-ae14-1a37322c1e16 status=SUBSCRIBED
 [I] 09-14 18:27:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-14 18:27:32 LogShipper: Shipped 189 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 09-14 18:29:11 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 09-14 18:29:12 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 09-14 18:29:12 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 09-14 18:29:13 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-14 18:29:13 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[I] 09-14 18:29:23 BadgerService: Realtime subscribed OK -- badger-svc-a4869501-74ea-4cac-8f6f-0308f197865a status=SUBSCRIBED
+[I] 09-14 18:42:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-14 18:42:29 BadgerService: Keepalive scheduled in 900s
