@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-11 12:18:43 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-14 17:27:42 ===
 [I] 09-10 19:18:42 BadgerService: Keepalive scheduled in 900s
 [W] 09-10 19:18:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-10 19:18:43 LogShipper: Shipped 302 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -325,3 +325,25 @@
 [I] 09-11 12:18:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-11 12:18:43 BadgerService: Keepalive scheduled in 900s
 [W] 09-11 12:18:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-11 12:18:45 LogShipper: Shipped 326 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-11 12:18:46 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-14 17:12:41 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 09-14 17:12:41 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 09-14 17:12:41 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 09-14 17:12:42 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 09-14 17:12:42 AuthManager: Session expired — trying HWID silent login
+[I] 09-14 17:12:42 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 09-14 17:12:42 BadgerService: Keepalive scheduled in 900s
+[I] 09-14 17:12:42 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 09-14 17:12:42 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 09-14 17:12:42 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 09-14 17:12:43 AuthManager: Sign in OK — felipe role=admin
+[I] 09-14 17:12:43 AuthManager: HWID silent login OK
+[I] 09-14 17:12:43 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 09-14 17:12:43 TTS: Engine initialized OK
+[I] 09-14 17:12:43 TTS: Speaking: Badger live monitoring active
+[I] 09-14 17:12:43 BadgerService: Realtime subscribed OK -- badger-svc-2bfa2747-b076-4156-bb67-6ac02edacff6 status=SUBSCRIBED
+[I] 09-14 17:27:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-14 17:27:42 BadgerService: Keepalive scheduled in 900s
