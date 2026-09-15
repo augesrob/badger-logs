@@ -1,22 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-14 20:42:42 ===
-[W] 09-10 20:51:44 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 21:03:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-10 21:03:42 BadgerService: Keepalive scheduled in 900s
-[W] 09-10 21:03:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 21:03:46 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 09-10 21:05:20 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 09-10 21:06:03 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 21:18:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 09-10 21:18:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 21:18:42 BadgerService: Keepalive scheduled in 900s
-[I] 09-10 21:18:44 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 09-10 21:32:17 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 21:33:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-10 21:33:42 BadgerService: Keepalive scheduled in 900s
-[W] 09-10 21:33:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 21:33:44 LogShipper: Shipped 344 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 09-10 21:42:58 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 09-10 21:48:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S921U | v216 | shipped 2026-09-14 20:57:42 ===
 [I] 09-10 21:48:42 BadgerService: Keepalive scheduled in 900s
 [W] 09-10 21:48:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-10 21:48:44 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -499,3 +481,21 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-14 20:29:05 WatchNotif: ? Successfully sent to watch: Truck 241 - In Back ? In Front
 [I] 09-14 20:42:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-14 20:42:42 BadgerService: Keepalive scheduled in 900s
+[I] 09-14 20:42:44 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-14 20:43:33 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 09-14 20:44:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 09-14 20:45:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 09-14 20:46:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[W] 09-14 20:47:37 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-14 20:47:46 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #4 in 80s)
+[E] 09-14 20:47:46 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 09-14 20:47:47 BadgerService: startRealtimeSync: in backoff for 78s more � skipping
+[W] 09-14 20:47:47 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-14 20:49:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 09-14 20:51:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 09-14 20:54:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[W] 09-14 20:55:49 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-14 20:55:50 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort
+[E] 09-14 20:55:50 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort (retry #8 in 80s)
+[I] 09-14 20:57:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 09-14 20:57:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
