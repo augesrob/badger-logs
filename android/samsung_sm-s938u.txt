@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-14 19:42:29 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-14 19:57:29 ===
 [I] 09-14 09:27:28 BadgerService: Keepalive scheduled in 900s
 [I] 09-14 09:27:30 LogShipper: Shipped 189 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-14 09:42:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -225,3 +225,43 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-14 19:27:31 LogShipper: Shipped 223 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-14 19:42:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-14 19:42:29 BadgerService: Keepalive scheduled in 900s
+[I] 09-14 19:42:30 LogShipper: Shipped 226 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-14 19:42:58 TTS: Speaking: Truck 223-1, In Door
+[I] 09-14 19:42:58 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Transfer ? In Door (tag=watch_truck_223-1)
+[I] 09-14 19:42:58 WatchNotif: ?? Notif ID: -1200416889
+[I] 09-14 19:42:58 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Door
+[I] 09-14 19:43:07 TTS: Speaking: Truck 222-1, 14A
+[I] 09-14 19:43:07 WatchNotif: ?? Notif ID: -1200417850
+[I] 09-14 19:43:07 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - Transfer ? 14A (tag=watch_truck_222-1)
+[I] 09-14 19:43:07 WatchNotif: ? Successfully sent to watch: Truck 222-1 - Transfer ? 14A
+[I] 09-14 19:43:15 TTS: Speaking: Truck 222-1, 8
+[I] 09-14 19:43:15 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - 14A ? 8 (tag=watch_truck_222-1)
+[I] 09-14 19:43:15 WatchNotif: ?? Notif ID: -1200417850
+[I] 09-14 19:43:15 WatchNotif: ? Successfully sent to watch: Truck 222-1 - 14A ? 8
+[I] 09-14 19:43:24 TTS: Speaking: Truck 222-1, In Door
+[I] 09-14 19:43:24 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - 8 ? In Door (tag=watch_truck_222-1)
+[I] 09-14 19:43:24 WatchNotif: ?? Notif ID: -1200417850
+[I] 09-14 19:43:24 WatchNotif: ? Successfully sent to watch: Truck 222-1 - 8 ? In Door
+[W] 09-14 19:45:44 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 09-14 19:45:44 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 1
+[E] 09-14 19:45:44 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 09-14 19:45:44 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 09-14 19:45:49 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-14 19:45:49 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
+[I] 09-14 19:46:24 BadgerService: Realtime subscribed OK -- badger-svc-208c88db-dc0e-4827-addc-49bdd2843d6c status=SUBSCRIBED
+[W] 09-14 19:47:49 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-14 19:48:00 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-14 19:48:00 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 09-14 19:48:23 BadgerService: Realtime subscribed OK -- badger-svc-b48a777d-f515-4a5a-8299-75d9c022d684 status=SUBSCRIBED
+[I] 09-14 19:50:16 TTS: Speaking: Truck 223-2, In Front
+[I] 09-14 19:50:16 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - Transfer ? In Front (tag=watch_truck_223-2)
+[I] 09-14 19:50:16 WatchNotif: ?? Notif ID: -1200416888
+[I] 09-14 19:50:16 WatchNotif: ? Successfully sent to watch: Truck 223-2 - Transfer ? In Front
+[W] 09-14 19:55:37 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 09-14 19:55:37 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 09-14 19:55:37 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 09-14 19:55:39 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-14 19:55:39 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[I] 09-14 19:55:49 BadgerService: Realtime subscribed OK -- badger-svc-d1ac5423-6082-4637-b84c-1884cbfd291b status=SUBSCRIBED
+[I] 09-14 19:57:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-14 19:57:29 BadgerService: Keepalive scheduled in 900s
