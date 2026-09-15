@@ -1,16 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-15 01:42:42 ===
-[W] 09-11 11:17:49 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 09-11 11:18:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-11 11:18:43 BadgerService: Keepalive scheduled in 900s
-[W] 09-11 11:18:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-11 11:18:45 LogShipper: Shipped 304 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 09-11 11:33:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 09-11 11:33:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-11 11:33:43 BadgerService: Keepalive scheduled in 900s
-[I] 09-11 11:33:44 LogShipper: Shipped 309 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 09-11 11:33:52 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 09-11 11:33:52 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #351 in 300s)
-[E] 09-11 11:33:52 BadgerService: Realtime: 351 consecutive failures � cooling down 5 min
+=== samsung SM-S921U | v216 | shipped 2026-09-15 01:57:42 ===
 [E] 09-11 11:33:52 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [W] 09-11 11:40:33 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
 [I] 09-11 11:48:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +487,15 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-15 01:42:42 BadgerService: Keepalive scheduled in 900s
 [W] 09-15 01:42:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-15 01:42:42 BadgerService: startRealtimeSync: in backoff for 155s more � skipping
+[I] 09-15 01:42:45 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-15 01:45:17 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 09-15 01:46:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #60 in 300s)
+[E] 09-15 01:46:03 BadgerService: Realtime: 60 consecutive failures � cooling down 5 min
+[E] 09-15 01:51:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #61 in 300s)
+[E] 09-15 01:51:50 BadgerService: Realtime: 61 consecutive failures � cooling down 5 min
+[E] 09-15 01:57:36 BadgerService: Realtime: 62 consecutive failures � cooling down 5 min
+[E] 09-15 01:57:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #62 in 300s)
+[I] 09-15 01:57:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 09-15 01:57:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-15 01:57:42 BadgerService: Keepalive scheduled in 900s
+[W] 09-15 01:57:42 BadgerService: startRealtimeSync: in backoff for 293s more � skipping
