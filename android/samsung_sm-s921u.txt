@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-14 22:42:42 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-14 22:57:42 ===
 [I] 09-11 10:48:43 BadgerService: Keepalive scheduled in 900s
 [W] 09-11 10:48:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-11 10:48:44 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -365,3 +365,17 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [W] 09-14 22:42:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-14 22:42:42 BadgerService: startRealtimeSync: in backoff for 206s more � skipping
 [I] 09-14 22:42:42 BadgerService: Keepalive scheduled in 900s
+[I] 09-14 22:42:44 LogShipper: Shipped 366 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-14 22:43:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 09-14 22:43:38 BadgerService: startRealtimeSync: in backoff for 150s more � skipping
+[W] 09-14 22:46:20 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-14 22:47:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #29 in 300s)
+[E] 09-14 22:47:09 BadgerService: Realtime: 29 consecutive failures � cooling down 5 min
+[W] 09-14 22:48:04 BadgerService: startRealtimeSync: in backoff for 244s more � skipping
+[W] 09-14 22:48:04 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-14 22:52:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #30 in 300s)
+[E] 09-14 22:52:55 BadgerService: Realtime: 30 consecutive failures � cooling down 5 min
+[I] 09-14 22:57:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-14 22:57:42 BadgerService: Keepalive scheduled in 900s
+[W] 09-14 22:57:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-14 22:57:42 BadgerService: startRealtimeSync: in backoff for 13s more � skipping
