@@ -1,19 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-15 02:12:42 ===
-[I] 09-11 12:03:44 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 09-11 12:18:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-11 12:18:43 BadgerService: Keepalive scheduled in 900s
-[W] 09-11 12:18:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 09-11 12:18:45 LogShipper: Shipped 326 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 09-11 12:18:46 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
-[I] 09-14 17:12:41 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[I] 09-14 17:12:41 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[W] 09-14 17:12:41 BadgerService: FGS microphone blocked � starting without mic FGS type
-[W] 09-14 17:12:42 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 09-14 17:12:42 AuthManager: Session expired — trying HWID silent login
-[I] 09-14 17:12:42 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 09-14 17:12:42 BadgerService: Keepalive scheduled in 900s
-[I] 09-14 17:12:42 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 09-14 17:12:42 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+=== samsung SM-S921U | v216 | shipped 2026-09-15 02:27:42 ===
 [E] 09-14 17:12:42 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
 Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
 
@@ -499,3 +484,18 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-15 02:12:42 BadgerService: Keepalive scheduled in 900s
 [W] 09-15 02:12:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-15 02:12:42 BadgerService: startRealtimeSync: in backoff for 86s more � skipping
+[I] 09-15 02:12:44 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-15 02:14:55 BadgerService: Realtime: 65 consecutive failures � cooling down 5 min
+[E] 09-15 02:14:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #65 in 300s)
+[W] 09-15 02:15:24 BadgerService: startRealtimeSync: in backoff for 270s more � skipping
+[W] 09-15 02:15:24 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-15 02:19:55 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 09-15 02:20:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #66 in 300s)
+[E] 09-15 02:20:41 BadgerService: Realtime: 66 consecutive failures � cooling down 5 min
+[W] 09-15 02:23:43 BadgerService: startRealtimeSync: in backoff for 118s more � skipping
+[W] 09-15 02:23:43 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-15 02:26:27 BadgerService: Realtime: 67 consecutive failures � cooling down 5 min
+[E] 09-15 02:26:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #67 in 300s)
+[I] 09-15 02:27:42 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-15 02:27:42 BadgerService: Keepalive scheduled in 900s
+[W] 09-15 02:27:42 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
