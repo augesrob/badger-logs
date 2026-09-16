@@ -1,9 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-16 03:37:43 ===
-[E] 09-15 14:05:39 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #188 in 300s)
-[E] 09-15 14:11:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #189 in 300s)
-[E] 09-15 14:11:25 BadgerService: Realtime: 189 consecutive failures � cooling down 5 min
-[I] 09-15 14:12:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 09-15 14:12:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+=== samsung SM-S921U | v216 | shipped 2026-09-16 03:52:43 ===
 [W] 09-15 14:12:43 BadgerService: startRealtimeSync: in backoff for 222s more � skipping
 [I] 09-15 14:12:43 BadgerService: Keepalive scheduled in 900s
 [I] 09-15 14:12:45 LogShipper: Shipped 267 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -497,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-16 03:22:45 LogShipper: Shipped 495 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 09-16 03:37:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-16 03:37:43 BadgerService: Keepalive scheduled in 900s
+[I] 09-16 03:37:45 LogShipper: Shipped 498 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-16 03:42:04 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-16 03:42:14 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-16 03:42:14 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 09-16 03:42:27 BadgerService: Realtime subscribed OK -- badger-svc-abec8cee-0605-43ce-88fc-16a151c78181 status=SUBSCRIBED
+[I] 09-16 03:52:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-16 03:52:43 BadgerService: Keepalive scheduled in 900s
