@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-18 09:30:59 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-18 09:45:59 ===
 [E] 09-17 19:14:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
 [E] 09-17 19:15:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
 [I] 09-17 19:16:15 BadgerService: Keepalive scheduled in 900s
@@ -443,3 +443,11 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-18 09:16:01 LogShipper: Shipped 441 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 09-18 09:30:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-18 09:30:59 BadgerService: Keepalive scheduled in 900s
+[I] 09-18 09:31:01 LogShipper: Shipped 444 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-18 09:43:15 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-18 09:43:17 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-18 09:43:17 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[E] 09-18 09:44:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-18 09:44:15 BadgerService: Realtime subscribed OK -- badger-svc-1e5b2acd-5f81-4ff6-9fe3-ea95ac79534a status=SUBSCRIBED
+[I] 09-18 09:45:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-18 09:45:59 BadgerService: Keepalive scheduled in 900s
