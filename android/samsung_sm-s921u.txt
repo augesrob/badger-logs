@@ -1,26 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-21 14:45:35 ===
-[I] 09-17 19:16:15 BadgerService: Keepalive scheduled in 900s
-[I] 09-17 19:16:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 09-17 19:16:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[E] 09-17 19:16:15 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
-[I] 09-17 19:16:17 LogShipper: Shipped 291 log lines to badger-logs/android/samsung_sm-s921u.txt
-[E] 09-17 19:17:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
-[E] 09-17 19:18:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
-[E] 09-17 19:20:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
-[E] 09-17 19:22:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
-[E] 09-17 19:24:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
-[E] 09-17 19:26:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
-[E] 09-17 19:29:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #9 in 80s)
-[E] 09-17 19:31:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #10 in 80s)
-[I] 09-17 19:31:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-17 19:31:15 BadgerService: Keepalive scheduled in 900s
-[W] 09-17 19:31:15 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 09-17 19:31:15 BadgerService: startRealtimeSync: in backoff for 71s more � skipping
-[I] 09-17 19:31:17 LogShipper: Shipped 305 log lines to badger-logs/android/samsung_sm-s921u.txt
-[E] 09-17 19:33:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
-[E] 09-17 19:33:13 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
-[E] 09-17 19:38:59 BadgerService: Realtime: 12 consecutive failures � cooling down 5 min
-[E] 09-17 19:38:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #12 in 300s)
+=== samsung SM-S921U | v216 | shipped 2026-09-21 17:19:35 ===
 [W] 09-17 19:41:24 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
 [W] 09-17 19:41:24 BadgerService: startRealtimeSync: in backoff for 155s more � skipping
 [E] 09-17 19:44:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
@@ -499,3 +477,25 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-21 14:30:37 LogShipper: Shipped 499 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 09-21 14:45:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-21 14:45:35 BadgerService: Keepalive scheduled in 900s
+[I] 09-21 14:45:38 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 09-21 17:04:35 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 09-21 17:04:35 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 09-21 17:04:35 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 09-21 17:04:35 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 09-21 17:04:35 AuthManager: Session expired — trying HWID silent login
+[I] 09-21 17:04:35 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 09-21 17:04:35 BadgerService: Keepalive scheduled in 900s
+[I] 09-21 17:04:35 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[I] 09-21 17:04:35 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[E] 09-21 17:04:35 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 09-21 17:04:36 TTS: Engine initialized OK
+[I] 09-21 17:04:36 TTS: Speaking: Badger live monitoring active
+[I] 09-21 17:04:37 AuthManager: HWID silent login OK
+[I] 09-21 17:04:37 AuthManager: Sign in OK — felipe role=admin
+[I] 09-21 17:04:37 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[W] 09-21 17:04:37 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-21 17:04:39 BadgerService: Realtime subscribed OK -- badger-svc-07a90cc7-95d2-4d64-a227-83afaa400468 status=SUBSCRIBED
+[I] 09-21 17:19:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-21 17:19:35 BadgerService: Keepalive scheduled in 900s
