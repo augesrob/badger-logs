@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-21 21:04:36 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-21 21:19:36 ===
 [I] 09-18 01:01:17 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 09-18 01:02:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #68 in 300s)
 [E] 09-18 01:02:11 BadgerService: Realtime: 68 consecutive failures � cooling down 5 min
@@ -436,3 +436,21 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-21 21:03:52 WatchNotif: ? Successfully sent to watch: Truck 231-2 - Transfer ? In Front
 [I] 09-21 21:04:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-21 21:04:36 BadgerService: Keepalive scheduled in 900s
+[I] 09-21 21:04:37 LogShipper: Shipped 437 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 09-21 21:05:40 TTS: Speaking: Truck 148, In Front
+[I] 09-21 21:05:40 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Ready ? In Front (tag=watch_truck_148)
+[I] 09-21 21:05:40 WatchNotif: ?? Notif ID: -658232539
+[I] 09-21 21:05:40 WatchNotif: ? Successfully sent to watch: Truck 148 - Ready ? In Front
+[I] 09-21 21:12:52 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Back ? In Front (tag=watch_truck_246)
+[I] 09-21 21:12:52 TTS: Speaking: Truck 246, In Front
+[I] 09-21 21:12:52 WatchNotif: ?? Notif ID: -658231580
+[I] 09-21 21:12:52 WatchNotif: ? Successfully sent to watch: Truck 246 - In Back ? In Front
+[I] 09-21 21:16:52 TTS: Speaking: Truck 243, In Front
+[I] 09-21 21:16:52 WatchNotif: ?? PUSHING NOTIF: Truck 243 - Ready ? In Front (tag=watch_truck_243)
+[I] 09-21 21:16:52 WatchNotif: ?? Notif ID: -658231583
+[I] 09-21 21:16:52 WatchNotif: ? Successfully sent to watch: Truck 243 - Ready ? In Front
+[W] 09-21 21:18:56 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-21 21:18:58 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-21 21:19:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-21 21:19:36 BadgerService: Keepalive scheduled in 900s
+[W] 09-21 21:19:36 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
