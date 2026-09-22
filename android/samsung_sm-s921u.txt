@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-21 20:19:36 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-21 20:34:36 ===
 [I] 09-18 01:01:17 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 09-18 01:02:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #68 in 300s)
 [E] 09-18 01:02:11 BadgerService: Realtime: 68 consecutive failures � cooling down 5 min
@@ -385,3 +385,19 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-21 20:04:37 LogShipper: Shipped 383 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 09-21 20:19:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-21 20:19:36 BadgerService: Keepalive scheduled in 900s
+[I] 09-21 20:19:37 LogShipper: Shipped 386 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 09-21 20:26:45 TTS: Speaking: Truck 152, Ready
+[I] 09-21 20:26:45 WatchNotif: ?? PUSHING NOTIF: Truck 152 - New ? Ready (tag=watch_truck_152)
+[I] 09-21 20:26:45 WatchNotif: ?? Notif ID: -658232514
+[I] 09-21 20:26:45 WatchNotif: ? Successfully sent to watch: Truck 152 - New ? Ready
+[I] 09-21 20:27:46 TTS: Speaking: Truck 194, In Back
+[I] 09-21 20:27:46 WatchNotif: ?? PUSHING NOTIF: Truck 194 - New ? In Back (tag=watch_truck_194)
+[I] 09-21 20:27:46 WatchNotif: ?? Notif ID: -658232388
+[I] 09-21 20:27:46 WatchNotif: ? Successfully sent to watch: Truck 194 - New ? In Back
+[W] 09-21 20:28:41 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 09-21 20:29:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 09-21 20:30:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 09-21 20:31:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 09-21 20:32:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[I] 09-21 20:34:36 BadgerService: Keepalive scheduled in 900s
+[W] 09-21 20:34:36 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
