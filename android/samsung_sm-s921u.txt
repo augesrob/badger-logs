@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-21 20:49:36 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-21 21:04:36 ===
 [I] 09-18 01:01:17 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 09-18 01:02:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #68 in 300s)
 [E] 09-18 01:02:11 BadgerService: Realtime: 68 consecutive failures � cooling down 5 min
@@ -419,3 +419,20 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-21 20:49:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-21 20:49:36 BadgerService: Keepalive scheduled in 900s
 [W] 09-21 20:49:36 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-21 20:49:36 BadgerService: startRealtimeSync: in backoff for 206s more � skipping
+[I] 09-21 20:49:37 LogShipper: Shipped 420 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 09-21 20:53:04 BadgerService: Realtime subscribed OK -- badger-svc-9aa2a0bc-6bf1-4c80-98f6-ff566d2567ba status=SUBSCRIBED
+[I] 09-21 20:55:24 TTS: Speaking: Truck 223-2, In Front
+[I] 09-21 20:55:24 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - Transfer ? In Front (tag=watch_truck_223-2)
+[I] 09-21 20:55:24 WatchNotif: ?? Notif ID: -1200416888
+[I] 09-21 20:55:24 WatchNotif: ? Successfully sent to watch: Truck 223-2 - Transfer ? In Front
+[I] 09-21 20:58:26 TTS: Speaking: Truck 224-2, In Front
+[I] 09-21 20:58:26 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - Transfer ? In Front (tag=watch_truck_224-2)
+[I] 09-21 20:58:26 WatchNotif: ?? Notif ID: -1200415927
+[I] 09-21 20:58:26 WatchNotif: ? Successfully sent to watch: Truck 224-2 - Transfer ? In Front
+[I] 09-21 21:03:52 TTS: Speaking: Truck 231-2, In Front
+[I] 09-21 21:03:52 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - Transfer ? In Front (tag=watch_truck_231-2)
+[I] 09-21 21:03:52 WatchNotif: ?? Notif ID: -1200389019
+[I] 09-21 21:03:52 WatchNotif: ? Successfully sent to watch: Truck 231-2 - Transfer ? In Front
+[I] 09-21 21:04:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-21 21:04:36 BadgerService: Keepalive scheduled in 900s
