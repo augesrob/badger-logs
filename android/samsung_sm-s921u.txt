@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-23 17:49:38 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-23 18:04:38 ===
 [E] 09-23 06:52:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #351 in 300s)
 [E] 09-23 06:58:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #352 in 300s)
 [E] 09-23 06:58:29 BadgerService: Realtime: 352 consecutive failures � cooling down 5 min
@@ -461,3 +461,16 @@
 [I] 09-23 17:49:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-23 17:49:38 BadgerService: Keepalive scheduled in 900s
 [W] 09-23 17:49:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-23 17:49:38 BadgerService: startRealtimeSync: in backoff for 20s more � skipping
+[I] 09-23 17:49:40 LogShipper: Shipped 462 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-23 17:50:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #465 in 300s)
+[E] 09-23 17:50:45 BadgerService: Realtime: 465 consecutive failures � cooling down 5 min
+[E] 09-23 17:55:45 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 09-23 17:56:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #466 in 300s)
+[E] 09-23 17:56:32 BadgerService: Realtime: 466 consecutive failures � cooling down 5 min
+[E] 09-23 18:02:18 BadgerService: Realtime: 467 consecutive failures � cooling down 5 min
+[E] 09-23 18:02:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #467 in 300s)
+[I] 09-23 18:04:38 BadgerService: Keepalive scheduled in 900s
+[W] 09-23 18:04:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-23 18:04:38 BadgerService: startRealtimeSync: in backoff for 159s more � skipping
+[I] 09-23 18:04:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
