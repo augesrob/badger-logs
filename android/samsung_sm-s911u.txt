@@ -1,10 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-23 00:27:34 ===
-[I] 09-22 04:42:34 LogShipper: Shipped 479 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 09-22 04:51:33 TTS: Speaking: Truck 262, In Door
-[I] 09-22 04:51:33 WatchNotif: ?? PUSHING NOTIF: Truck 262 - In Front ? In Door (tag=watch_truck_262)
-[I] 09-22 04:51:33 WatchNotif: ?? Notif ID: -658231522
-[I] 09-22 04:51:33 WatchNotif: ? Successfully sent to watch: Truck 262 - In Front ? In Door
-[I] 09-22 04:51:36 TTS: Speaking: Truck 228, Put Away
+=== samsung SM-S911U | v216 | shipped 2026-09-23 00:42:34 ===
 [I] 09-22 04:51:36 WatchNotif: ?? PUSHING NOTIF: Truck 228 - In Door ? Put Away (tag=watch_truck_228)
 [I] 09-22 04:51:36 WatchNotif: ?? Notif ID: -658231640
 [I] 09-22 04:51:36 WatchNotif: ? Successfully sent to watch: Truck 228 - In Door ? Put Away
@@ -499,3 +493,9 @@
 [I] 09-23 00:12:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-23 00:27:34 BadgerService: Keepalive scheduled in 900s
 [I] 09-23 00:27:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-23 00:27:37 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 09-23 00:29:38 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-23 00:30:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 09-23 00:30:39 BadgerService: Realtime subscribed OK -- badger-svc-3a1c2924-4a33-48e9-bc5a-e5c48ab4482c status=SUBSCRIBED
+[I] 09-23 00:42:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-23 00:42:34 BadgerService: Keepalive scheduled in 900s
