@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-24 18:31:56 ===
+=== samsung SM-S911U | v216 | shipped 2026-09-24 18:46:56 ===
 [I] 09-23 21:42:37 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-23 21:57:35 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-23 21:57:35 BadgerService: Keepalive scheduled in 900s
@@ -449,3 +449,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-24 18:28:21 BadgerService: Realtime subscribed OK -- badger-svc-ff86f8ee-3dc2-4e76-9ef9-fca0f49ccc17 status=SUBSCRIBED
 [I] 09-24 18:31:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-24 18:31:56 BadgerService: Keepalive scheduled in 900s
+[I] 09-24 18:32:11 LogShipper: Shipped 450 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 09-24 18:34:08 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 09-24 18:34:08 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 09-24 18:34:33 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-24 18:34:43 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-24 18:34:43 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 09-24 18:35:08 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 09-24 18:35:08 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms] (retry #2 in 20s)
+[I] 09-24 18:35:30 BadgerService: Realtime subscribed OK -- badger-svc-d8767bfe-28e9-46b7-9414-42813b21bdac status=SUBSCRIBED
+[I] 09-24 18:46:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-24 18:46:56 BadgerService: Keepalive scheduled in 900s
