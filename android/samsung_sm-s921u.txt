@@ -1,11 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-23 18:49:38 ===
-[E] 09-23 07:09:16 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
-[E] 09-23 07:10:02 BadgerService: Realtime: 354 consecutive failures � cooling down 5 min
-[E] 09-23 07:10:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #354 in 300s)
-[E] 09-23 07:15:02 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
-[E] 09-23 07:15:48 BadgerService: Realtime: 355 consecutive failures � cooling down 5 min
-[E] 09-23 07:15:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #355 in 300s)
-[I] 09-23 07:19:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S921U | v216 | shipped 2026-09-23 19:04:38 ===
 [I] 09-23 07:19:37 BadgerService: Keepalive scheduled in 900s
 [W] 09-23 07:19:37 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-23 07:19:37 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
@@ -499,3 +492,10 @@
 [I] 09-23 18:49:38 BadgerService: Keepalive scheduled in 900s
 [W] 09-23 18:49:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 09-23 18:49:38 BadgerService: startRealtimeSync: in backoff for 230s more � skipping
+[I] 09-23 18:49:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-23 18:54:15 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #476 in 300s)
+[E] 09-23 18:54:15 BadgerService: Realtime: 476 consecutive failures � cooling down 5 min
+[E] 09-23 19:00:01 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #477 in 300s)
+[E] 09-23 19:00:01 BadgerService: Realtime: 477 consecutive failures � cooling down 5 min
+[I] 09-23 19:04:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-23 19:04:38 BadgerService: Keepalive scheduled in 900s
