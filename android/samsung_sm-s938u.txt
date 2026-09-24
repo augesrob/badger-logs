@@ -1,19 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-23 23:28:05 ===
-[E] 09-23 13:11:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #370 in 300s)
-[E] 09-23 13:11:32 BadgerService: Realtime: 370 consecutive failures � cooling down 5 min
-[I] 09-23 13:13:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-23 13:13:04 BadgerService: Keepalive scheduled in 900s
-[W] 09-23 13:13:04 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 09-23 13:13:04 BadgerService: startRealtimeSync: in backoff for 207s more � skipping
-[I] 09-23 13:13:06 LogShipper: Shipped 284 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 09-23 13:17:18 BadgerService: Realtime: 371 consecutive failures � cooling down 5 min
-[E] 09-23 13:17:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #371 in 300s)
-[E] 09-23 13:23:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #372 in 300s)
-[E] 09-23 13:23:04 BadgerService: Realtime: 372 consecutive failures � cooling down 5 min
-[I] 09-23 13:28:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 09-23 13:28:04 BadgerService: Keepalive scheduled in 900s
-[W] 09-23 13:28:04 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 09-23 13:28:04 BadgerService: startRealtimeSync: in backoff for 0s more � skipping
+=== samsung SM-S938U | v216 | shipped 2026-09-23 23:43:05 ===
 [I] 09-23 13:28:06 LogShipper: Shipped 293 log lines to badger-logs/android/samsung_sm-s938u.txt
 [E] 09-23 13:28:54 BadgerService: Realtime: 373 consecutive failures � cooling down 5 min
 [E] 09-23 13:28:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #373 in 300s)
@@ -499,3 +484,18 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-23 23:15:33 WatchNotif: ? Successfully sent to watch: Truck 244 - Ready ? In Front
 [I] 09-23 23:28:05 BadgerService: Keepalive scheduled in 900s
 [I] 09-23 23:28:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-23 23:28:06 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-23 23:42:25 TTS: Speaking: Truck 224-1, On Route
+[I] 09-23 23:42:25 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - 9 ? On Route (tag=watch_truck_224-1)
+[I] 09-23 23:42:25 WatchNotif: ?? Notif ID: -1200415928
+[I] 09-23 23:42:25 WatchNotif: ? Successfully sent to watch: Truck 224-1 - 9 ? On Route
+[I] 09-23 23:42:34 TTS: Speaking: Truck 224-2, 8
+[I] 09-23 23:42:34 WatchNotif: ?? Notif ID: -1200415927
+[I] 09-23 23:42:34 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - In Door ? 8 (tag=watch_truck_224-2)
+[I] 09-23 23:42:34 WatchNotif: ? Successfully sent to watch: Truck 224-2 - In Door ? 8
+[I] 09-23 23:42:48 TTS: Speaking: Truck 256, In Door
+[I] 09-23 23:42:48 WatchNotif: ?? PUSHING NOTIF: Truck 256 - In Front ? In Door (tag=watch_truck_256)
+[I] 09-23 23:42:48 WatchNotif: ?? Notif ID: -658231549
+[I] 09-23 23:42:48 WatchNotif: ? Successfully sent to watch: Truck 256 - In Front ? In Door
+[I] 09-23 23:43:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-23 23:43:05 BadgerService: Keepalive scheduled in 900s
