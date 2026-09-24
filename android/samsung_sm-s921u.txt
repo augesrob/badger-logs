@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-24 00:04:38 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-24 00:19:38 ===
 [E] 09-23 13:02:08 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #415 in 300s)
 [I] 09-23 13:04:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-23 13:04:38 BadgerService: Keepalive scheduled in 900s
@@ -482,3 +482,17 @@
 [I] 09-24 00:04:38 BadgerService: Keepalive scheduled in 900s
 [W] 09-24 00:04:38 BadgerService: startRealtimeSync: in backoff for 142s more � skipping
 [W] 09-24 00:04:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-24 00:04:40 LogShipper: Shipped 483 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 09-24 00:07:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #530 in 300s)
+[E] 09-24 00:07:47 BadgerService: Realtime: 530 consecutive failures � cooling down 5 min
+[W] 09-24 00:11:05 BadgerService: startRealtimeSync: in backoff for 102s more � skipping
+[W] 09-24 00:11:05 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-24 00:13:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #531 in 300s)
+[E] 09-24 00:13:33 BadgerService: Realtime: 531 consecutive failures � cooling down 5 min
+[E] 09-24 00:18:33 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 09-24 00:19:22 BadgerService: Realtime: 532 consecutive failures � cooling down 5 min
+[E] 09-24 00:19:22 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #532 in 300s)
+[I] 09-24 00:19:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 09-24 00:19:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 09-24 00:19:38 BadgerService: startRealtimeSync: in backoff for 284s more � skipping
+[I] 09-24 00:19:38 BadgerService: Keepalive scheduled in 900s
