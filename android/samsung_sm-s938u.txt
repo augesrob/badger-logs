@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-28 06:13:10 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-28 06:28:10 ===
 [I] 09-27 01:28:08 BadgerService: Keepalive scheduled in 900s
 [I] 09-27 01:28:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-27 01:43:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -322,3 +322,12 @@
 [I] 09-28 05:58:12 LogShipper: Shipped 320 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-28 06:13:10 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-28 06:13:10 BadgerService: Keepalive scheduled in 900s
+[I] 09-28 06:13:11 LogShipper: Shipped 323 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 09-28 06:23:33 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 09-28 06:23:35 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 09-28 06:23:35 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[E] 09-28 06:24:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[E] 09-28 06:24:33 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
+[I] 09-28 06:24:34 BadgerService: Realtime subscribed OK -- badger-svc-e825ad1a-ac8f-4aeb-a031-01c1ef7a1d5c status=SUBSCRIBED
+[I] 09-28 06:28:10 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-28 06:28:10 BadgerService: Keepalive scheduled in 900s
