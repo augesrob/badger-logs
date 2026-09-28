@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-09-25 05:52:28 ===
+=== samsung SM-S921U | v216 | shipped 2026-09-28 14:22:49 ===
 [I] 09-24 03:19:38 BadgerService: Keepalive scheduled in 900s
 [W] 09-24 03:19:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 09-24 03:19:40 LogShipper: Shipped 289 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -464,3 +464,25 @@
 [I] 09-25 05:52:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-25 05:52:28 BadgerService: Keepalive scheduled in 900s
 [W] 09-25 05:52:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 09-25 05:52:31 LogShipper: Shipped 465 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 09-25 05:57:08 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 09-28 14:07:49 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 09-28 14:07:49 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 09-28 14:07:49 BadgerService: FGS microphone blocked � starting without mic FGS type
+[I] 09-28 14:07:49 AuthManager: Session expired — trying HWID silent login
+[W] 09-28 14:07:49 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 09-28 14:07:49 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 09-28 14:07:49 BadgerService: Keepalive scheduled in 900s
+[I] 09-28 14:07:49 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 09-28 14:07:50 TTS: Engine initialized OK
+[I] 09-28 14:07:50 TTS: Speaking: Badger live monitoring active
+[I] 09-28 14:07:50 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 09-28 14:07:50 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 09-28 14:07:50 AuthManager: Sign in OK — felipe role=admin
+[I] 09-28 14:07:50 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 09-28 14:07:50 AuthManager: HWID silent login OK
+[I] 09-28 14:07:51 BadgerService: Realtime subscribed OK -- badger-svc-212b6ccb-fdc5-4e08-ae04-1fe5097b1e54 status=SUBSCRIBED
+[I] 09-28 14:22:49 BadgerService: Keepalive scheduled in 900s
+[I] 09-28 14:22:49 BadgerService: Keepalive alarm fired -- service alive, rescheduling
