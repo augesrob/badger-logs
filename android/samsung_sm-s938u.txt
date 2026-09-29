@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-28 23:58:11 ===
+=== samsung SM-S938U | v216 | shipped 2026-09-29 00:28:11 ===
 [I] 09-28 04:43:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-28 04:43:09 BadgerService: Keepalive scheduled in 900s
 [I] 09-28 04:43:11 LogShipper: Shipped 305 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -387,3 +387,56 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-28 23:43:12 LogShipper: Shipped 385 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-28 23:58:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-28 23:58:11 BadgerService: Keepalive scheduled in 900s
+[I] 09-28 23:58:13 LogShipper: Shipped 388 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-28 23:59:07 TTS: Speaking: Truck 187-1, On Route
+[I] 09-28 23:59:07 WatchNotif: ?? Notif ID: -1201157820
+[I] 09-28 23:59:07 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? On Route (tag=watch_truck_187-1)
+[I] 09-28 23:59:07 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? On Route
+[I] 09-28 23:59:15 TTS: Speaking: Truck 187-2, In Door
+[I] 09-28 23:59:15 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
+[I] 09-28 23:59:15 WatchNotif: ?? Notif ID: -1201157819
+[I] 09-28 23:59:15 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Front ? In Door
+[I] 09-28 23:59:30 TTS: Speaking: Truck 248-1, On Route
+[I] 09-28 23:59:30 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - 11 ? On Route (tag=watch_truck_248-1)
+[I] 09-28 23:59:30 WatchNotif: ?? Notif ID: -1200352502
+[I] 09-28 23:59:30 WatchNotif: ? Successfully sent to watch: Truck 248-1 - 11 ? On Route
+[I] 09-28 23:59:32 TTS: Speaking: Truck 224-1, On Route
+[I] 09-28 23:59:32 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - 8 ? On Route (tag=watch_truck_224-1)
+[I] 09-28 23:59:32 WatchNotif: ?? Notif ID: -1200415928
+[I] 09-28 23:59:32 WatchNotif: ? Successfully sent to watch: Truck 224-1 - 8 ? On Route
+[I] 09-29 00:03:21 TTS: Speaking: Truck 222-1, On Route
+[I] 09-29 00:03:21 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - In Door ? On Route (tag=watch_truck_222-1)
+[I] 09-29 00:03:21 WatchNotif: ?? Notif ID: -1200417850
+[I] 09-29 00:03:21 WatchNotif: ? Successfully sent to watch: Truck 222-1 - In Door ? On Route
+[I] 09-29 00:03:25 TTS: Speaking: Truck 224-2, In Door
+[I] 09-29 00:03:25 WatchNotif: ?? Notif ID: -1200415927
+[I] 09-29 00:03:25 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - In Front ? In Door (tag=watch_truck_224-2)
+[I] 09-29 00:03:25 WatchNotif: ? Successfully sent to watch: Truck 224-2 - In Front ? In Door
+[I] 09-29 00:08:48 TTS: Speaking: Truck 158, In Front
+[I] 09-29 00:08:48 WatchNotif: ?? PUSHING NOTIF: Truck 158 - In Back ? In Front (tag=watch_truck_158)
+[I] 09-29 00:08:48 WatchNotif: ?? Notif ID: -658232508
+[I] 09-29 00:08:48 WatchNotif: ? Successfully sent to watch: Truck 158 - In Back ? In Front
+[W] 09-29 00:11:08 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-29 00:11:19 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-29 00:11:19 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 09-29 00:11:39 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-29 00:11:39 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[I] 09-29 00:12:08 BadgerService: Realtime subscribed OK -- badger-svc-0b05b786-0b60-4434-9e21-b90dfcd4f58f status=SUBSCRIBED
+[I] 09-29 00:13:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-29 00:13:11 BadgerService: Keepalive scheduled in 900s
+[W] 09-29 00:13:20 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-29 00:13:20 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 09-29 00:13:48 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 09-29 00:13:48 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 09-29 00:17:05 TTS: Speaking: Truck 152, In Front
+[I] 09-29 00:17:05 WatchNotif: ?? PUSHING NOTIF: Truck 152 - Ready ? In Front (tag=watch_truck_152)
+[I] 09-29 00:17:05 WatchNotif: ?? Notif ID: -658232514
+[I] 09-29 00:17:05 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
+[W] 09-29 00:18:50 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-29 00:18:50 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 09-29 00:18:58 TTS: Speaking: Truck 238, In Front
+[I] 09-29 00:18:58 WatchNotif: ?? PUSHING NOTIF: Truck 238 - Ready ? In Front (tag=watch_truck_238)
+[I] 09-29 00:18:58 WatchNotif: ?? Notif ID: -658231609
+[I] 09-29 00:18:58 WatchNotif: ? Successfully sent to watch: Truck 238 - Ready ? In Front
+[I] 09-29 00:28:11 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-29 00:28:11 BadgerService: Keepalive scheduled in 900s
