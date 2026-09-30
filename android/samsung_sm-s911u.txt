@@ -1,24 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-30 18:00:31 ===
-[I] 09-29 23:35:46 TTS: Speaking: Truck 194, In Back
-[I] 09-29 23:35:46 WatchNotif: ?? PUSHING NOTIF: Truck 194 - In Front ? In Back (tag=watch_truck_194)
-[I] 09-29 23:35:46 WatchNotif: ?? Notif ID: -658232388
-[I] 09-29 23:35:46 WatchNotif: ? Successfully sent to watch: Truck 194 - In Front ? In Back
-[I] 09-29 23:36:01 TTS: Speaking: Truck 244, In Front
-[I] 09-29 23:36:01 WatchNotif: ?? PUSHING NOTIF: Truck 244 - Ready ? In Front (tag=watch_truck_244)
-[I] 09-29 23:36:01 WatchNotif: ?? Notif ID: -658231582
-[I] 09-29 23:36:01 WatchNotif: ? Successfully sent to watch: Truck 244 - Ready ? In Front
-[I] 09-29 23:37:42 TTS: Speaking: Truck 222-1, On Route
-[I] 09-29 23:37:42 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - In Door ? On Route (tag=watch_truck_222-1)
-[I] 09-29 23:37:42 WatchNotif: ?? Notif ID: -1200417850
-[I] 09-29 23:37:42 WatchNotif: ? Successfully sent to watch: Truck 222-1 - In Door ? On Route
-[I] 09-29 23:37:53 TTS: Speaking: Truck 187-2, In Door
-[I] 09-29 23:37:53 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
-[I] 09-29 23:37:53 WatchNotif: ?? Notif ID: -1201157819
-[I] 09-29 23:37:53 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Front ? In Door
-[I] 09-29 23:38:45 TTS: Speaking: Truck 222-1, In Door
-[I] 09-29 23:38:45 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - On Route ? In Door (tag=watch_truck_222-1)
-[I] 09-29 23:38:45 WatchNotif: ?? Notif ID: -1200417850
-[I] 09-29 23:38:45 WatchNotif: ? Successfully sent to watch: Truck 222-1 - On Route ? In Door
+=== samsung SM-S911U | v216 | shipped 2026-09-30 18:30:32 ===
 [I] 09-29 23:39:41 TTS: Speaking: Truck 187-2, In Door
 [I] 09-29 23:39:41 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
 [I] 09-29 23:39:41 WatchNotif: ?? Notif ID: -1201157819
@@ -499,3 +479,23 @@
 [I] 09-30 17:45:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 09-30 18:00:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-30 18:00:31 BadgerService: Keepalive scheduled in 900s
+[I] 09-30 18:00:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 09-30 18:15:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-30 18:15:31 BadgerService: Keepalive scheduled in 900s
+[W] 09-30 18:15:49 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[W] 09-30 18:15:58 LogShipper: Ship failed HTTP 400: {"message": "We received a malformed request from your client. Sorry about that. Please try resubmitting your request an
+[E] 09-30 18:16:04 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 09-30 18:16:04 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 09-30 18:16:25 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 09-30 18:16:25 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[I] 09-30 18:16:47 BadgerService: Realtime subscribed OK -- badger-svc-1a069012-e788-4632-b79c-0c4475e08203 status=SUBSCRIBED
+[I] 09-30 18:22:46 TTS: Speaking: Truck 223-1, In Door
+[I] 09-30 18:22:46 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - Transfer ? In Door (tag=watch_truck_223-1)
+[I] 09-30 18:22:46 WatchNotif: ?? Notif ID: -1200416889
+[I] 09-30 18:22:46 WatchNotif: ? Successfully sent to watch: Truck 223-1 - Transfer ? In Door
+[I] 09-30 18:26:43 TTS: Speaking: Truck 224-1, In Door
+[I] 09-30 18:26:43 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - Transfer ? In Door (tag=watch_truck_224-1)
+[I] 09-30 18:26:43 WatchNotif: ?? Notif ID: -1200415928
+[I] 09-30 18:26:43 WatchNotif: ? Successfully sent to watch: Truck 224-1 - Transfer ? In Door
+[I] 09-30 18:30:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-30 18:30:31 BadgerService: Keepalive scheduled in 900s
