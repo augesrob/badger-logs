@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-09-30 23:00:32 ===
+=== samsung SM-S911U | v216 | shipped 2026-09-30 23:15:32 ===
 [I] 09-30 03:41:28 WatchNotif: ? Successfully sent to watch: Truck 220 - In Door ? Put Away
 [I] 09-30 03:41:32 TTS: Speaking: Truck 245, In Door
 [I] 09-30 03:41:32 WatchNotif: ?? PUSHING NOTIF: Truck 245 - In Front ? In Door (tag=watch_truck_245)
@@ -414,3 +414,17 @@
 [I] 09-30 22:59:47 WatchNotif: ? Successfully sent to watch: Truck 240 - Ready ? In Front
 [I] 09-30 23:00:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-30 23:00:32 BadgerService: Keepalive scheduled in 900s
+[W] 09-30 23:00:50 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 09-30 23:01:01 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 09-30 23:01:01 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 09-30 23:01:13 BadgerService: Realtime subscribed OK -- badger-svc-1449ebee-4d35-4e74-b87a-e8e0ec829833 status=SUBSCRIBED
+[I] 09-30 23:06:18 TTS: Speaking: Truck 262, In Front
+[I] 09-30 23:06:18 WatchNotif: ?? PUSHING NOTIF: Truck 262 - Ready ? In Front (tag=watch_truck_262)
+[I] 09-30 23:06:18 WatchNotif: ?? Notif ID: -658231522
+[I] 09-30 23:06:18 WatchNotif: ? Successfully sent to watch: Truck 262 - Ready ? In Front
+[I] 09-30 23:08:57 TTS: Speaking: Truck 246, In Front
+[I] 09-30 23:08:57 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Back ? In Front (tag=watch_truck_246)
+[I] 09-30 23:08:57 WatchNotif: ?? Notif ID: -658231580
+[I] 09-30 23:08:57 WatchNotif: ? Successfully sent to watch: Truck 246 - In Back ? In Front
+[I] 09-30 23:15:32 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 09-30 23:15:32 BadgerService: Keepalive scheduled in 900s
