@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-01 08:37:53 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-01 08:52:53 ===
 [I] 09-30 07:22:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-30 07:22:51 BadgerService: Keepalive scheduled in 900s
 [W] 09-30 07:22:51 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -449,3 +449,13 @@
 [I] 10-01 08:37:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-01 08:37:53 BadgerService: Keepalive scheduled in 900s
 [W] 10-01 08:37:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 10-01 08:37:55 LogShipper: Shipped 450 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-01 08:47:37 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-01 08:51:53 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-01 08:51:54 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort
+[E] 10-01 08:51:54 BadgerService: Realtime: 368 consecutive failures � cooling down 5 min
+[E] 10-01 08:51:54 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort (retry #368 in 300s)
+[I] 10-01 08:52:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-01 08:52:53 BadgerService: Keepalive scheduled in 900s
+[W] 10-01 08:52:53 BadgerService: startRealtimeSync: in backoff for 241s more � skipping
+[W] 10-01 08:52:53 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
