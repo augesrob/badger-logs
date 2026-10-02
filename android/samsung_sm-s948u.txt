@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-01 18:41:19 ===
+=== samsung SM-S948U | v216 | shipped 2026-10-02 05:01:31 ===
 [I] 09-08 02:48:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 09-08 03:03:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-08 03:03:00 BadgerService: Keepalive scheduled in 900s
@@ -318,3 +318,113 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-01 18:26:22 LogShipper: Shipped 316 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 10-01 18:41:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-01 18:41:19 BadgerService: Keepalive scheduled in 900s
+[I] 10-01 18:41:21 LogShipper: Shipped 319 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 10-01 18:42:41 AppUpdater: Checking via website (current=216)
+[I] 10-01 18:42:42 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-01 18:42:42 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-01 18:42:43 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-01 21:09:43 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 10-01 21:09:43 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-01 21:09:43 MainActivity: BadgerService started (mic=true)
+[I] 10-01 21:09:43 AppUpdater: Checking via website (current=216)
+[I] 10-01 21:09:43 AuthManager: Session expired — trying HWID silent login
+[W] 10-01 21:09:43 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-01 21:09:43 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 10-01 21:09:43 BadgerService: Keepalive scheduled in 900s
+[I] 10-01 21:09:43 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-01 21:09:43 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 10-01 21:09:43 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-01 21:09:44 TTS: Engine initialized OK
+[I] 10-01 21:09:44 TTS: Speaking: Badger live monitoring active
+[I] 10-01 21:09:44 AuthManager: Sign in OK — joemiller role=admin
+[I] 10-01 21:09:44 AuthManager: HWID silent login OK
+[I] 10-01 21:09:44 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 10-01 21:09:45 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-01 21:09:45 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-01 21:09:45 BadgerService: Realtime subscribed OK -- badger-svc-ed82ea54-ea19-47e1-a967-a04b7abbe465 status=SUBSCRIBED
+[I] 10-01 21:09:46 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-01 21:11:13 TTS: Speaking: Truck 224-1, 8
+[I] 10-01 21:11:13 WatchNotif: ?? Notif ID: -1200415928
+[I] 10-01 21:11:13 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - In Door ? 8 (tag=watch_truck_224-1)
+[I] 10-01 21:11:13 WatchNotif: ? Successfully sent to watch: Truck 224-1 - In Door ? 8
+[I] 10-01 21:11:17 TTS: Speaking: Truck 223-2, In Door
+[I] 10-01 21:11:17 WatchNotif: ?? PUSHING NOTIF: Truck 223-2 - In Front ? In Door (tag=watch_truck_223-2)
+[I] 10-01 21:11:17 WatchNotif: ?? Notif ID: -1200416888
+[I] 10-01 21:11:17 WatchNotif: ? Successfully sent to watch: Truck 223-2 - In Front ? In Door
+[I] 10-01 21:14:43 AppUpdater: Checking via website (current=216)
+[I] 10-01 21:14:44 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-01 21:14:44 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-01 21:14:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-01 21:15:27 TTS: Speaking: Truck 216, In Door
+[I] 10-01 21:15:27 WatchNotif: ?? PUSHING NOTIF: Truck 216 - Ready ? In Door (tag=watch_truck_216)
+[I] 10-01 21:15:27 WatchNotif: ?? Notif ID: -658231673
+[I] 10-01 21:15:27 WatchNotif: ? Successfully sent to watch: Truck 216 - Ready ? In Door
+[I] 10-01 21:15:44 Movement: Truck 216 status → In Front
+[I] 10-01 21:15:44 BadgerRepo: updateMovementStatus OK — truck=216 statusId=4
+[I] 10-01 21:15:44 TTS: Speaking: Truck 216, In Front
+[I] 10-01 21:15:44 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Door ? In Front (tag=watch_truck_216)
+[I] 10-01 21:15:44 WatchNotif: ?? Notif ID: -658231673
+[I] 10-01 21:15:44 WatchNotif: ? Successfully sent to watch: Truck 216 - In Door ? In Front
+[I] 10-01 21:15:47 TTS: Speaking: Truck 216, In Door
+[I] 10-01 21:15:47 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Front ? In Door (tag=watch_truck_216)
+[I] 10-01 21:15:47 WatchNotif: ?? Notif ID: -658231673
+[I] 10-01 21:15:47 WatchNotif: ? Successfully sent to watch: Truck 216 - In Front ? In Door
+[I] 10-01 21:15:53 Movement: Truck 216 status → In Front
+[I] 10-01 21:15:53 BadgerRepo: updateMovementStatus OK — truck=216 statusId=4
+[I] 10-01 21:15:53 TTS: Speaking: Truck 216, In Front
+[I] 10-01 21:15:53 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Door ? In Front (tag=watch_truck_216)
+[I] 10-01 21:15:53 WatchNotif: ?? Notif ID: -658231673
+[I] 10-01 21:15:53 WatchNotif: ? Successfully sent to watch: Truck 216 - In Door ? In Front
+[I] 10-01 21:17:22 TTS: Speaking: Truck 148, In Front
+[I] 10-01 21:17:22 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Ready ? In Front (tag=watch_truck_148)
+[I] 10-01 21:17:22 WatchNotif: ?? Notif ID: -658232539
+[I] 10-01 21:17:22 WatchNotif: ? Successfully sent to watch: Truck 148 - Ready ? In Front
+[I] 10-01 21:18:14 TTS: Speaking: Truck 246, In Front
+[I] 10-01 21:18:14 WatchNotif: ?? Notif ID: -658231580
+[I] 10-01 21:18:14 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
+[I] 10-01 21:18:14 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
+[I] 10-01 21:18:23 AppUpdater: Checking via website (current=216)
+[I] 10-01 21:18:23 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-01 21:18:23 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-01 21:18:24 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-01 21:18:28 AppUpdater: Checking via website (current=0)
+[I] 10-01 21:18:28 AppUpdater: Update found via website: access-v216
+[I] 10-01 21:18:30 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 10-02 04:46:31 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-02 04:46:31 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 10-02 04:46:31 MainActivity: BadgerService started (mic=true)
+[I] 10-02 04:46:31 AppUpdater: Checking via website (current=216)
+[W] 10-02 04:46:31 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-02 04:46:31 AuthManager: Session expired — trying HWID silent login
+[I] 10-02 04:46:31 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 10-02 04:46:31 BadgerService: Keepalive scheduled in 900s
+[I] 10-02 04:46:31 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-02 04:46:31 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 10-02 04:46:31 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-02 04:46:31 TTS: Engine initialized OK
+[I] 10-02 04:46:31 TTS: Speaking: Badger live monitoring active
+[I] 10-02 04:46:32 AuthManager: Sign in OK — joemiller role=admin
+[I] 10-02 04:46:32 AuthManager: HWID silent login OK
+[I] 10-02 04:46:32 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 10-02 04:46:32 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-02 04:46:32 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-02 04:46:33 BadgerService: Realtime subscribed OK -- badger-svc-1edaeb80-102c-4e89-994e-6471f320427a status=SUBSCRIBED
+[I] 10-02 04:46:33 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-02 04:47:44 AppUpdater: Checking via website (current=216)
+[I] 10-02 04:47:44 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-02 04:47:44 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-02 04:47:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-02 04:59:25 AppUpdater: Checking via website (current=216)
+[I] 10-02 04:59:26 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-02 04:59:26 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-02 04:59:27 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-02 05:00:02 AppUpdater: Checking via website (current=216)
+[I] 10-02 05:00:02 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-02 05:00:02 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-02 05:00:03 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-02 05:01:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-02 05:01:31 BadgerService: Keepalive scheduled in 900s
