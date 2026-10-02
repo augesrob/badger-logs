@@ -1,8 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-02 06:52:54 ===
-[E] 10-01 03:39:15 BadgerService: Realtime: 367 consecutive failures � cooling down 5 min
-[E] 10-01 03:39:15 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 10-01 03:39:15 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #367 in 300s)
-[W] 10-01 03:39:46 BadgerService: startRealtimeSync: in backoff for 268s more � skipping
+=== samsung SM-S921U | v216 | shipped 2026-10-02 07:07:54 ===
 [W] 10-01 03:39:46 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [I] 10-01 03:52:53 BadgerService: Keepalive scheduled in 900s
 [I] 10-01 03:52:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +495,7 @@
 [I] 10-02 06:52:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-02 06:52:54 BadgerService: Keepalive scheduled in 900s
 [W] 10-02 06:52:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 10-02 06:52:56 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 10-02 07:07:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-02 07:07:54 BadgerService: Keepalive scheduled in 900s
+[W] 10-02 07:07:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
