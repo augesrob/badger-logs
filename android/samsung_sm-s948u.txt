@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-02 05:46:31 ===
+=== samsung SM-S948U | v216 | shipped 2026-10-04 15:39:52 ===
 [I] 09-08 02:48:02 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 09-08 03:03:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-08 03:03:00 BadgerService: Keepalive scheduled in 900s
@@ -443,3 +443,42 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-02 05:31:33 LogShipper: Shipped 441 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 10-02 05:46:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-02 05:46:31 BadgerService: Keepalive scheduled in 900s
+[I] 10-02 05:46:33 LogShipper: Shipped 444 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 10-02 05:46:34 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 10-02 05:46:34 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 10-02 05:47:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[W] 10-02 05:47:58 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-02 05:47:58 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[W] 10-02 05:48:27 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-02 05:49:04 AppUpdater: Checking via website (current=216)
+[I] 10-02 05:49:05 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-02 05:49:05 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-02 05:49:06 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[E] 10-02 05:49:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[I] 10-02 05:49:14 AppUpdater: Checking via website (current=216)
+[I] 10-02 05:49:15 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-02 05:49:15 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-02 05:49:15 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-02 05:49:17 AppUpdater: Checking via website (current=0)
+[I] 10-02 05:49:17 AppUpdater: Update found via website: access-v216
+[I] 10-02 05:49:19 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 10-04 15:24:51 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-04 15:24:51 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 10-04 15:24:51 BadgerService: FGS microphone blocked � starting without mic FGS type
+[I] 10-04 15:24:52 AuthManager: Session expired — trying HWID silent login
+[W] 10-04 15:24:52 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-04 15:24:52 BadgerService: Keepalive scheduled in 900s
+[I] 10-04 15:24:52 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 10-04 15:24:52 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-04 15:24:52 TTS: Engine initialized OK
+[I] 10-04 15:24:52 TTS: Speaking: Badger live monitoring active
+[I] 10-04 15:24:52 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 10-04 15:24:52 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-04 15:24:53 AuthManager: Sign in OK — joemiller role=admin
+[I] 10-04 15:24:53 AuthManager: HWID silent login OK
+[I] 10-04 15:24:53 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 10-04 15:24:53 BadgerService: Realtime subscribed OK -- badger-svc-b92a6a1a-97df-4405-abcf-f491d536dbf9 status=SUBSCRIBED
+[I] 10-04 15:39:52 BadgerService: Keepalive scheduled in 900s
+[I] 10-04 15:39:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
