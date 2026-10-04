@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-09-29 19:51:26 ===
+=== samsung SM-S938U | v216 | shipped 2026-10-03 22:03:25 ===
 [I] 09-29 03:19:53 TTS: Speaking: Truck 230, In Front
 [I] 09-29 03:19:53 WatchNotif: ?? PUSHING NOTIF: Truck 230 - In Door ? In Front (tag=watch_truck_230)
 [I] 09-29 03:19:53 WatchNotif: ?? Notif ID: -658231617
@@ -432,3 +432,39 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 09-29 19:36:27 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 09-29 19:51:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 09-29 19:51:26 BadgerService: Keepalive scheduled in 900s
+[I] 09-29 19:51:27 LogShipper: Shipped 433 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 09-29 19:54:45 TTS: Speaking: Truck 248-1, Transfer
+[I] 09-29 19:54:45 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - New ? Transfer (tag=watch_truck_248-1)
+[I] 09-29 19:54:45 WatchNotif: ?? Notif ID: -1200352502
+[I] 09-29 19:54:45 WatchNotif: ? Successfully sent to watch: Truck 248-1 - New ? Transfer
+[I] 09-29 19:55:45 TTS: Speaking: Truck 248-1, In Door
+[I] 09-29 19:55:45 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - Transfer ? In Door (tag=watch_truck_248-1)
+[I] 09-29 19:55:45 WatchNotif: ?? Notif ID: -1200352502
+[I] 09-29 19:55:45 WatchNotif: ? Successfully sent to watch: Truck 248-1 - Transfer ? In Door
+[I] 09-29 19:55:58 AppUpdater: Checking via website (current=216)
+[I] 09-29 19:56:00 AppUpdater: Checking via GitHub direct (current=216)
+[I] 09-29 19:56:00 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 09-29 19:56:01 AppUpdater: Checking via website (current=0)
+[I] 09-29 19:56:01 AppUpdater: Update found via website: access-v216
+[I] 09-29 19:56:01 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 09-29 19:56:02 BadgerService: User explicitly stopped service -- keepalive cancelled
+[I] 10-03 21:48:24 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 10-03 21:48:24 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 10-03 21:48:24 BadgerService: FGS microphone blocked � starting without mic FGS type
+[I] 10-03 21:48:25 AuthManager: Session expired — trying HWID silent login
+[W] 10-03 21:48:25 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-03 21:48:25 BadgerService: Keepalive scheduled in 900s
+[I] 10-03 21:48:25 AuthManager: HWID silent login for rfa1991@gmail.com
+[I] 10-03 21:48:25 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-03 21:48:25 FCM: ?? FCM Token: el5vhD6iTICzS-Ij5-JN...
+[E] 10-03 21:48:25 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-03 21:48:26 AuthManager: Sign in OK — augesrob role=admin
+[I] 10-03 21:48:26 AuthManager: HWID silent login OK
+[I] 10-03 21:48:26 AuthManager: Profile realtime watch started for 1520c91a-f7ef-4a96-946b-31c18015a0c3
+[I] 10-03 21:48:27 BadgerService: Realtime subscribed OK -- badger-svc-c3055531-d289-4169-a650-fe20429c086f status=SUBSCRIBED
+[I] 10-03 21:48:27 TTS: Engine initialized OK
+[I] 10-03 21:48:27 TTS: Speaking: Badger live monitoring active
+[I] 10-03 22:03:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-03 22:03:25 BadgerService: Keepalive scheduled in 900s
