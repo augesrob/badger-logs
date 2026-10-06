@@ -1,19 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-10-05 21:18:27 ===
-[W] 10-04 16:14:56 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 10-04 16:15:21 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[I] 10-04 16:15:24 BadgerService: Realtime subscribed OK -- badger-svc-1565a622-39e5-477e-8fce-ff0a65bbcd03 status=SUBSCRIBED
-[W] 10-04 16:16:36 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
-[E] 10-04 16:16:36 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
-[I] 10-04 16:18:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-04 16:18:26 BadgerService: Keepalive scheduled in 900s
-[W] 10-04 16:18:35 LogShipper: Ship failed HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/conten
-[W] 10-04 16:19:00 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 10-04 16:19:10 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 10-04 16:19:10 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[W] 10-04 16:19:16 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-04 16:19:16 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
-[I] 10-04 16:19:24 BadgerService: Realtime subscribed OK -- badger-svc-ffcd11b3-574b-4891-98bf-7b28bc3c75b7 status=SUBSCRIBED
-[W] 10-04 16:19:49 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+=== samsung SM-S938U | v216 | shipped 2026-10-05 21:33:27 ===
 [E] 10-04 16:19:59 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [E] 10-04 16:19:59 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
 [E] 10-04 16:20:20 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
@@ -499,3 +484,18 @@
 [I] 10-05 21:18:01 WatchNotif: ? Successfully sent to watch: Truck 256 - In Back ? In Front
 [I] 10-05 21:18:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-05 21:18:27 BadgerService: Keepalive scheduled in 900s
+[I] 10-05 21:18:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 10-05 21:20:23 TTS: Speaking: Truck 246, In Front
+[I] 10-05 21:20:23 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
+[I] 10-05 21:20:23 WatchNotif: ?? Notif ID: -658231580
+[I] 10-05 21:20:23 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
+[I] 10-05 21:24:16 TTS: Speaking: Truck 243, In Front
+[I] 10-05 21:24:16 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Back ? In Front (tag=watch_truck_243)
+[I] 10-05 21:24:16 WatchNotif: ?? Notif ID: -658231583
+[I] 10-05 21:24:16 WatchNotif: ? Successfully sent to watch: Truck 243 - In Back ? In Front
+[I] 10-05 21:25:25 TTS: Speaking: Truck 148, In Front
+[I] 10-05 21:25:25 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Ready ? In Front (tag=watch_truck_148)
+[I] 10-05 21:25:25 WatchNotif: ?? Notif ID: -658232539
+[I] 10-05 21:25:25 WatchNotif: ? Successfully sent to watch: Truck 148 - Ready ? In Front
+[I] 10-05 21:33:27 BadgerService: Keepalive scheduled in 900s
+[I] 10-05 21:33:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
