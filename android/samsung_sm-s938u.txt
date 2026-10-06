@@ -1,19 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-10-05 21:48:27 ===
-[E] 10-04 16:20:20 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
-[E] 10-04 16:20:51 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 10-04 16:20:51 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #3 in 40s)
-[W] 10-04 16:21:14 BadgerService: startRealtimeSync: in backoff for 16s more � skipping
-[W] 10-04 16:21:14 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-04 16:21:15 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-04 16:21:15 BadgerService: startRealtimeSync: in backoff for 15s more � skipping
-[W] 10-04 16:21:18 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-04 16:21:18 BadgerService: startRealtimeSync: in backoff for 12s more � skipping
-[I] 10-04 16:21:32 BadgerService: Realtime subscribed OK -- badger-svc-d359426c-5d06-40e3-bd1f-ef26d5707a93 status=SUBSCRIBED
-[I] 10-04 16:33:26 BadgerService: Keepalive scheduled in 900s
-[I] 10-04 16:33:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-04 16:33:27 LogShipper: Shipped 397 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 10-04 16:48:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-04 16:48:26 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S938U | v216 | shipped 2026-10-05 22:03:27 ===
 [I] 10-04 16:48:27 LogShipper: Shipped 400 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 10-04 17:03:26 BadgerService: Keepalive scheduled in 900s
 [I] 10-04 17:03:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +484,18 @@
 [I] 10-05 21:33:28 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 10-05 21:48:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-05 21:48:27 BadgerService: Keepalive scheduled in 900s
+[I] 10-05 21:48:29 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 10-05 22:00:21 TTS: Speaking: Truck 238, In Front
+[I] 10-05 22:00:21 WatchNotif: ?? PUSHING NOTIF: Truck 238 - Ready ? In Front (tag=watch_truck_238)
+[I] 10-05 22:00:21 WatchNotif: ?? Notif ID: -658231609
+[I] 10-05 22:00:21 WatchNotif: ? Successfully sent to watch: Truck 238 - Ready ? In Front
+[I] 10-05 22:02:18 TTS: Speaking: Truck 231-1, On Route
+[I] 10-05 22:02:18 WatchNotif: ?? Notif ID: -1200389020
+[I] 10-05 22:02:18 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - Transfer ? On Route (tag=watch_truck_231-1)
+[I] 10-05 22:02:18 WatchNotif: ? Successfully sent to watch: Truck 231-1 - Transfer ? On Route
+[I] 10-05 22:02:24 TTS: Speaking: Truck 188-2, In Door
+[I] 10-05 22:02:24 WatchNotif: ?? PUSHING NOTIF: Truck 188-2 - In Front ? In Door (tag=watch_truck_188-2)
+[I] 10-05 22:02:24 WatchNotif: ?? Notif ID: -1201156858
+[I] 10-05 22:02:24 WatchNotif: ? Successfully sent to watch: Truck 188-2 - In Front ? In Door
+[I] 10-05 22:03:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-05 22:03:27 BadgerService: Keepalive scheduled in 900s
