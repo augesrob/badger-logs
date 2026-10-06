@@ -1,190 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-06 12:06:56 ===
-[I] 10-04 06:45:36 BadgerService: Keepalive scheduled in 900s
-[I] 10-04 06:45:38 LogShipper: Shipped 442 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-04 07:00:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-04 07:00:36 BadgerService: Keepalive scheduled in 900s
-[I] 10-04 07:00:38 LogShipper: Shipped 445 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-04 07:15:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-04 07:15:36 BadgerService: Keepalive scheduled in 900s
-[I] 10-04 07:15:38 LogShipper: Shipped 448 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-04 07:30:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-04 07:30:36 BadgerService: Keepalive scheduled in 900s
-[I] 10-04 07:30:38 LogShipper: Shipped 451 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 20:36:55 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 10-05 20:36:55 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
-[W] 10-05 20:36:55 BadgerService: FGS microphone blocked � starting without mic FGS type
-[I] 10-05 20:36:55 AuthManager: Session expired — trying HWID silent login
-[W] 10-05 20:36:55 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 10-05 20:36:55 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 10-05 20:36:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 20:36:55 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 10-05 20:36:56 TTS: Engine initialized OK
-[I] 10-05 20:36:56 TTS: Speaking: Badger live monitoring active
-[W] 10-05 20:36:57 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 10-05 20:36:57 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
-[I] 10-05 20:36:58 FCM: ?? FCM Token: cT2SDPsSRxum5HFV2dZD...
-[E] 10-05 20:36:58 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-[I] 10-05 20:37:00 AuthManager: HWID silent login OK
-[I] 10-05 20:37:00 AuthManager: Sign in OK — felipe role=admin
-[I] 10-05 20:37:00 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
-[I] 10-05 20:37:01 BadgerService: Realtime subscribed OK -- badger-svc-c7703229-5cf4-4f91-aab0-dbcdf311bb29 status=SUBSCRIBED
-[I] 10-05 20:51:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 20:51:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 20:51:57 LogShipper: Shipped 474 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 21:06:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 21:06:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 21:06:57 LogShipper: Shipped 477 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 21:14:13 TTS: Speaking: Truck 188-1, 9
-[I] 10-05 21:14:13 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - In Door ? 9 (tag=watch_truck_188-1)
-[I] 10-05 21:14:13 WatchNotif: ?? Notif ID: -1201156859
-[I] 10-05 21:14:13 WatchNotif: ? Successfully sent to watch: Truck 188-1 - In Door ? 9
-[I] 10-05 21:14:17 TTS: Speaking: Truck 186-1, In Door
-[I] 10-05 21:14:17 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Front ? In Door (tag=watch_truck_186-1)
-[I] 10-05 21:14:17 WatchNotif: ?? Notif ID: -1201158781
-[I] 10-05 21:14:17 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Front ? In Door
-[I] 10-05 21:14:25 TTS: Speaking: Truck 187-1, 8
-[I] 10-05 21:14:25 WatchNotif: ?? Notif ID: -1201157820
-[I] 10-05 21:14:25 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 8 (tag=watch_truck_187-1)
-[I] 10-05 21:14:25 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 8
-[I] 10-05 21:14:28 TTS: Speaking: Truck 223-1, In Door
-[I] 10-05 21:14:28 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Front ? In Door (tag=watch_truck_223-1)
-[I] 10-05 21:14:28 WatchNotif: ?? Notif ID: -1200416889
-[I] 10-05 21:14:28 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Front ? In Door
-[I] 10-05 21:18:02 TTS: Speaking: Truck 256, In Front
-[I] 10-05 21:18:02 WatchNotif: ?? PUSHING NOTIF: Truck 256 - In Back ? In Front (tag=watch_truck_256)
-[I] 10-05 21:18:02 WatchNotif: ?? Notif ID: -658231549
-[I] 10-05 21:18:02 WatchNotif: ? Successfully sent to watch: Truck 256 - In Back ? In Front
-[I] 10-05 21:20:24 TTS: Speaking: Truck 246, In Front
-[I] 10-05 21:20:24 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
-[I] 10-05 21:20:24 WatchNotif: ?? Notif ID: -658231580
-[I] 10-05 21:20:24 WatchNotif: ? Successfully sent to watch: Truck 246 - Ready ? In Front
-[I] 10-05 21:21:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 21:21:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 21:21:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 21:24:16 TTS: Speaking: Truck 243, In Front
-[I] 10-05 21:24:16 WatchNotif: ?? Notif ID: -658231583
-[I] 10-05 21:24:16 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Back ? In Front (tag=watch_truck_243)
-[I] 10-05 21:24:16 WatchNotif: ? Successfully sent to watch: Truck 243 - In Back ? In Front
-[I] 10-05 21:25:26 TTS: Speaking: Truck 148, In Front
-[I] 10-05 21:25:26 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Ready ? In Front (tag=watch_truck_148)
-[I] 10-05 21:25:26 WatchNotif: ?? Notif ID: -658232539
-[I] 10-05 21:25:26 WatchNotif: ? Successfully sent to watch: Truck 148 - Ready ? In Front
-[I] 10-05 21:36:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 21:36:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 21:36:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 21:51:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 21:51:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 21:51:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 22:00:21 TTS: Speaking: Truck 238, In Front
-[I] 10-05 22:00:21 WatchNotif: ?? PUSHING NOTIF: Truck 238 - Ready ? In Front (tag=watch_truck_238)
-[I] 10-05 22:00:21 WatchNotif: ?? Notif ID: -658231609
-[I] 10-05 22:00:21 WatchNotif: ? Successfully sent to watch: Truck 238 - Ready ? In Front
-[I] 10-05 22:02:23 TTS: Speaking: Truck 231-1, On Route
-[I] 10-05 22:02:23 WatchNotif: ?? Notif ID: -1200389020
-[I] 10-05 22:02:23 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - Transfer ? On Route (tag=watch_truck_231-1)
-[I] 10-05 22:02:23 WatchNotif: ? Successfully sent to watch: Truck 231-1 - Transfer ? On Route
-[I] 10-05 22:02:24 TTS: Speaking: Truck 188-2, In Door
-[I] 10-05 22:02:24 WatchNotif: ?? PUSHING NOTIF: Truck 188-2 - In Front ? In Door (tag=watch_truck_188-2)
-[I] 10-05 22:02:24 WatchNotif: ?? Notif ID: -1201156858
-[I] 10-05 22:02:24 WatchNotif: ? Successfully sent to watch: Truck 188-2 - In Front ? In Door
-[W] 10-05 22:06:08 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[I] 10-05 22:06:19 BadgerService: Realtime subscribed OK -- badger-svc-dc7f766e-06ca-406f-8218-fdddb8e292f8 status=SUBSCRIBED
-[I] 10-05 22:06:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 22:06:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 22:06:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 22:20:24 TTS: Speaking: Truck 222-1, On Route
-[I] 10-05 22:20:24 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - In Door ? On Route (tag=watch_truck_222-1)
-[I] 10-05 22:20:24 WatchNotif: ?? Notif ID: -1200417850
-[I] 10-05 22:20:24 WatchNotif: ? Successfully sent to watch: Truck 222-1 - In Door ? On Route
-[I] 10-05 22:20:27 TTS: Speaking: Truck 224-2, In Door
-[I] 10-05 22:20:27 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - In Front ? In Door (tag=watch_truck_224-2)
-[I] 10-05 22:20:27 WatchNotif: ?? Notif ID: -1200415927
-[I] 10-05 22:20:27 WatchNotif: ? Successfully sent to watch: Truck 224-2 - In Front ? In Door
-[I] 10-05 22:21:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 22:21:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 22:21:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 22:24:34 TTS: Speaking: Truck 224-1, 8
-[I] 10-05 22:24:34 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - Transfer ? 8 (tag=watch_truck_224-1)
-[I] 10-05 22:24:34 WatchNotif: ?? Notif ID: -1200415928
-[I] 10-05 22:24:34 WatchNotif: ? Successfully sent to watch: Truck 224-1 - Transfer ? 8
-[I] 10-05 22:24:38 TTS: Speaking: Truck 231-2, In Door
-[I] 10-05 22:24:38 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - In Front ? In Door (tag=watch_truck_231-2)
-[I] 10-05 22:24:38 WatchNotif: ?? Notif ID: -1200389019
-[I] 10-05 22:24:38 WatchNotif: ? Successfully sent to watch: Truck 231-2 - In Front ? In Door
-[I] 10-05 22:26:13 TTS: Speaking: Truck 152, In Front
-[I] 10-05 22:26:13 WatchNotif: ?? PUSHING NOTIF: Truck 152 - Ready ? In Front (tag=watch_truck_152)
-[I] 10-05 22:26:13 WatchNotif: ?? Notif ID: -658232514
-[I] 10-05 22:26:13 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
-[I] 10-05 22:34:01 TTS: Speaking: Truck 264, In Front
-[I] 10-05 22:34:01 WatchNotif: ?? PUSHING NOTIF: Truck 264 - Ready ? In Front (tag=watch_truck_264)
-[I] 10-05 22:34:01 WatchNotif: ?? Notif ID: -658231520
-[I] 10-05 22:34:01 WatchNotif: ? Successfully sent to watch: Truck 264 - Ready ? In Front
-[I] 10-05 22:34:08 TTS: Speaking: Truck 244, In Front
-[I] 10-05 22:34:08 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Back ? In Front (tag=watch_truck_244)
-[I] 10-05 22:34:08 WatchNotif: ?? Notif ID: -658231582
-[I] 10-05 22:34:08 WatchNotif: ? Successfully sent to watch: Truck 244 - In Back ? In Front
-[I] 10-05 22:34:20 TTS: Speaking: Truck 188-1, On Route
-[I] 10-05 22:34:20 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - 9 ? On Route (tag=watch_truck_188-1)
-[I] 10-05 22:34:20 WatchNotif: ?? Notif ID: -1201156859
-[I] 10-05 22:34:20 WatchNotif: ? Successfully sent to watch: Truck 188-1 - 9 ? On Route
-[I] 10-05 22:36:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 22:36:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 22:36:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 22:41:27 TTS: Speaking: Truck 241, In Front
-[I] 10-05 22:41:27 WatchNotif: ?? PUSHING NOTIF: Truck 241 - In Back ? In Front (tag=watch_truck_241)
-[I] 10-05 22:41:27 WatchNotif: ?? Notif ID: -658231585
-[I] 10-05 22:41:27 WatchNotif: ? Successfully sent to watch: Truck 241 - In Back ? In Front
-[I] 10-05 22:44:13 TTS: Speaking: Truck 189-1, On Route
-[I] 10-05 22:44:13 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - In Door ? On Route (tag=watch_truck_189-1)
-[I] 10-05 22:44:13 WatchNotif: ?? Notif ID: -1201155898
-[I] 10-05 22:44:13 WatchNotif: ? Successfully sent to watch: Truck 189-1 - In Door ? On Route
-[I] 10-05 22:44:17 TTS: Speaking: Truck 187-2, In Door
-[I] 10-05 22:44:17 WatchNotif: ?? Notif ID: -1201157819
-[I] 10-05 22:44:17 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Front ? In Door (tag=watch_truck_187-2)
-[I] 10-05 22:44:17 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Front ? In Door
-[I] 10-05 22:45:24 TTS: Speaking: Truck 230, In Front
-[I] 10-05 22:45:24 WatchNotif: ?? PUSHING NOTIF: Truck 230 - Ready ? In Front (tag=watch_truck_230)
-[I] 10-05 22:45:24 WatchNotif: ?? Notif ID: -658231617
-[I] 10-05 22:45:24 WatchNotif: ? Successfully sent to watch: Truck 230 - Ready ? In Front
-[I] 10-05 22:48:52 TTS: Speaking: Truck 220, In Front
-[I] 10-05 22:48:52 WatchNotif: ?? PUSHING NOTIF: Truck 220 - Ready ? In Front (tag=watch_truck_220)
-[I] 10-05 22:48:52 WatchNotif: ?? Notif ID: -658231648
-[I] 10-05 22:48:52 WatchNotif: ? Successfully sent to watch: Truck 220 - Ready ? In Front
-[I] 10-05 22:51:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 22:51:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 22:51:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 23:06:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 23:06:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 23:06:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 23:21:01 TTS: Speaking: Truck 148, In Door
-[I] 10-05 23:21:01 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Front ? In Door (tag=watch_truck_148)
-[I] 10-05 23:21:01 WatchNotif: ?? Notif ID: -658232539
-[I] 10-05 23:21:01 WatchNotif: ? Successfully sent to watch: Truck 148 - In Front ? In Door
-[I] 10-05 23:21:26 TTS: Speaking: Truck 224-1, On Route
-[I] 10-05 23:21:26 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - 8 ? On Route (tag=watch_truck_224-1)
-[I] 10-05 23:21:26 WatchNotif: ?? Notif ID: -1200415928
-[I] 10-05 23:21:26 WatchNotif: ? Successfully sent to watch: Truck 224-1 - 8 ? On Route
-[I] 10-05 23:21:44 TTS: Speaking: Truck 186-1, 8
-[I] 10-05 23:21:44 WatchNotif: ?? Notif ID: -1201158781
-[I] 10-05 23:21:44 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - In Door ? 8 (tag=watch_truck_186-1)
-[I] 10-05 23:21:44 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Door ? 8
-[I] 10-05 23:21:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 23:21:55 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 23:21:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-05 23:27:21 TTS: Speaking: Truck 261, In Front
-[I] 10-05 23:27:21 WatchNotif: ?? PUSHING NOTIF: Truck 261 - Ready ? In Front (tag=watch_truck_261)
-[I] 10-05 23:27:21 WatchNotif: ?? Notif ID: -658231523
-[I] 10-05 23:27:21 WatchNotif: ? Successfully sent to watch: Truck 261 - Ready ? In Front
-[I] 10-05 23:34:57 TTS: Speaking: Truck 246, In Door
-[I] 10-05 23:34:57 WatchNotif: ? Successfully sent to watch: Truck 246 - In Front ? In Door
-[I] 10-05 23:36:35 TTS: Speaking: Truck 223-1, 9
-[I] 10-05 23:36:35 WatchNotif: ?? Notif ID: -1200416889
-[I] 10-05 23:36:35 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Door ? 9 (tag=watch_truck_223-1)
-[I] 10-05 23:36:35 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Door ? 9
-[I] 10-05 23:36:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 23:36:55 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S911U | v216 | shipped 2026-10-06 12:21:56 ===
 [I] 10-05 23:36:57 LogShipper: Shipped 317 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-05 23:44:17 TTS: Speaking: Truck 228, In Front
 [I] 10-05 23:44:17 WatchNotif: ?? PUSHING NOTIF: Truck 228 - In Back ? In Front (tag=watch_truck_228)
@@ -499,3 +313,20 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-06 11:51:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-06 12:06:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-06 12:06:56 BadgerService: Keepalive scheduled in 900s
+[I] 10-06 12:06:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 10-06 12:09:55 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:56 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:56 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:56 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:56 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:56 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:56 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:57 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:57 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:57 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:57 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:57 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:58 TTS: Speaking: Preshift updated
+[I] 10-06 12:09:58 TTS: Speaking: Preshift updated
+[I] 10-06 12:21:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-06 12:21:56 BadgerService: Keepalive scheduled in 900s
