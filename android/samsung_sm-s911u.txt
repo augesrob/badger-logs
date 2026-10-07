@@ -1,19 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-07 01:21:57 ===
-[I] 10-06 15:36:56 BadgerService: Keepalive scheduled in 900s
-[I] 10-06 15:36:58 LogShipper: Shipped 370 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-06 15:51:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-06 15:51:56 BadgerService: Keepalive scheduled in 900s
-[I] 10-06 15:51:58 LogShipper: Shipped 373 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-06 16:06:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-06 16:06:56 BadgerService: Keepalive scheduled in 900s
-[I] 10-06 16:06:58 LogShipper: Shipped 376 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-06 16:21:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-06 16:21:56 BadgerService: Keepalive scheduled in 900s
-[I] 10-06 16:21:58 LogShipper: Shipped 379 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-06 16:36:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-06 16:36:56 BadgerService: Keepalive scheduled in 900s
-[I] 10-06 16:36:58 LogShipper: Shipped 382 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-06 16:51:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S911U | v216 | shipped 2026-10-07 01:36:57 ===
 [I] 10-06 16:51:56 BadgerService: Keepalive scheduled in 900s
 [I] 10-06 16:51:58 LogShipper: Shipped 385 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-06 17:06:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +484,18 @@
 [I] 10-07 01:20:19 WatchNotif: ? Successfully sent to watch: Truck 152 - Ready ? In Front
 [I] 10-07 01:21:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-07 01:21:57 BadgerService: Keepalive scheduled in 900s
+[I] 10-07 01:21:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 10-07 01:29:37 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Socket timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, socket_timeout=unknown] ms -- restarting
+[E] 10-07 01:29:48 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-07 01:29:48 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 10-07 01:30:00 BadgerService: Realtime subscribed OK -- badger-svc-2b5d59c9-cd11-46fa-adcb-7d83fc658dec status=SUBSCRIBED
+[I] 10-07 01:32:22 TTS: Speaking: Truck 256, Put Away
+[I] 10-07 01:32:22 WatchNotif: ?? PUSHING NOTIF: Truck 256 - In Door ? Put Away (tag=watch_truck_256)
+[I] 10-07 01:32:22 WatchNotif: ?? Notif ID: -658231549
+[I] 10-07 01:32:22 WatchNotif: ? Successfully sent to watch: Truck 256 - In Door ? Put Away
+[I] 10-07 01:34:21 TTS: Speaking: Truck 244, In Door
+[I] 10-07 01:34:21 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Front ? In Door (tag=watch_truck_244)
+[I] 10-07 01:34:21 WatchNotif: ?? Notif ID: -658231582
+[I] 10-07 01:34:21 WatchNotif: ? Successfully sent to watch: Truck 244 - In Front ? In Door
+[I] 10-07 01:36:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-07 01:36:57 BadgerService: Keepalive scheduled in 900s
