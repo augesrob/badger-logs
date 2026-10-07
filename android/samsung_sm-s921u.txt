@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-07 12:20:38 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-07 12:35:38 ===
 [W] 10-07 05:20:38 BadgerService: startRealtimeSync: in backoff for 280s more � skipping
 [I] 10-07 05:20:40 LogShipper: Shipped 167 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 10-07 05:26:04 BadgerService: Realtime: 94 consecutive failures � cooling down 5 min
@@ -265,3 +265,17 @@
 [E] 10-07 12:18:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #41 in 300s)
 [I] 10-07 12:20:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-07 12:20:38 BadgerService: Keepalive scheduled in 900s
+[W] 10-07 12:20:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-07 12:20:38 BadgerService: startRealtimeSync: in backoff for 159s more � skipping
+[I] 10-07 12:20:40 LogShipper: Shipped 266 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 10-07 12:23:17 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 10-07 12:24:04 BadgerService: Realtime: 42 consecutive failures � cooling down 5 min
+[E] 10-07 12:24:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #42 in 300s)
+[E] 10-07 12:29:50 BadgerService: Realtime: 43 consecutive failures � cooling down 5 min
+[E] 10-07 12:29:50 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #43 in 300s)
+[E] 10-07 12:35:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #44 in 300s)
+[E] 10-07 12:35:37 BadgerService: Realtime: 44 consecutive failures � cooling down 5 min
+[I] 10-07 12:35:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-07 12:35:38 BadgerService: Keepalive scheduled in 900s
+[W] 10-07 12:35:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-07 12:35:38 BadgerService: startRealtimeSync: in backoff for 298s more � skipping
