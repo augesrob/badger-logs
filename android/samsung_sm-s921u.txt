@@ -1,29 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-06 20:50:37 ===
-[W] 10-01 20:07:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 20:07:56 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 10-01 20:15:29 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 20:22:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 10-01 20:22:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 20:22:54 BadgerService: Keepalive scheduled in 900s
-[I] 10-01 20:22:59 LogShipper: Shipped 365 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 10-01 20:25:09 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-01 20:35:51 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 20:37:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-01 20:37:54 BadgerService: Keepalive scheduled in 900s
-[W] 10-01 20:37:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 20:37:56 LogShipper: Shipped 371 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 10-01 20:52:54 BadgerService: Keepalive scheduled in 900s
-[W] 10-01 20:52:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 20:52:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-01 20:52:56 LogShipper: Shipped 374 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 10-01 21:00:41 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-01 21:03:23 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-01 21:04:58 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 21:07:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-01 21:07:54 BadgerService: Keepalive scheduled in 900s
-[W] 10-01 21:07:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-01 21:07:55 LogShipper: Shipped 382 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 10-01 21:10:20 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+=== samsung SM-S921U | v216 | shipped 2026-10-06 21:05:37 ===
 [W] 10-01 21:12:52 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
 [W] 10-01 21:17:47 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
 [W] 10-01 21:20:54 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
@@ -499,3 +474,28 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-06 20:36:03 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 10-06 20:50:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-06 20:50:37 BadgerService: Keepalive scheduled in 900s
+[I] 10-06 20:50:39 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 10-06 20:51:41 TTS: Speaking: Truck 187-1, 8
+[I] 10-06 20:51:41 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 8 (tag=watch_truck_187-1)
+[I] 10-06 20:51:41 WatchNotif: ?? Notif ID: -1201157820
+[I] 10-06 20:51:41 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 8
+[I] 10-06 20:51:45 TTS: Speaking: Truck 223-1, In Door
+[I] 10-06 20:51:45 WatchNotif: ?? PUSHING NOTIF: Truck 223-1 - In Front ? In Door (tag=watch_truck_223-1)
+[I] 10-06 20:51:45 WatchNotif: ?? Notif ID: -1200416889
+[I] 10-06 20:51:45 WatchNotif: ? Successfully sent to watch: Truck 223-1 - In Front ? In Door
+[W] 10-06 20:55:50 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-06 20:56:00 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-06 20:56:00 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 10-06 20:56:12 BadgerService: Realtime subscribed OK -- badger-svc-62825428-933e-4932-a370-85c3f013bf43 status=SUBSCRIBED
+[I] 10-06 20:57:57 TTS: Speaking: Truck 148, In Front
+[I] 10-06 20:57:57 WatchNotif: ?? Notif ID: -658232539
+[I] 10-06 20:57:57 WatchNotif: ?? PUSHING NOTIF: Truck 148 - Ready ? In Front (tag=watch_truck_148)
+[I] 10-06 20:57:57 WatchNotif: ? Successfully sent to watch: Truck 148 - Ready ? In Front
+[W] 10-06 20:58:26 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-06 20:58:37 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-06 20:58:37 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[W] 10-06 20:58:40 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-06 20:58:40 BadgerService: startRealtimeSync: in backoff for 6s more � skipping
+[I] 10-06 20:58:48 BadgerService: Realtime subscribed OK -- badger-svc-b67f8b64-8be9-4f89-9acb-df15ecd2012f status=SUBSCRIBED
+[I] 10-06 21:05:37 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-06 21:05:37 BadgerService: Keepalive scheduled in 900s
