@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-08 01:51:58 ===
+=== samsung SM-S911U | v216 | shipped 2026-10-08 02:06:58 ===
 [I] 10-07 18:37:00 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-07 18:49:47 TTS: Speaking: Truck 148, Ready
 [I] 10-07 18:49:47 WatchNotif: ?? PUSHING NOTIF: Truck 148 - New ? Ready (tag=watch_truck_148)
@@ -364,3 +364,20 @@
 [I] 10-08 01:45:59 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Door ? 9
 [I] 10-08 01:51:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-08 01:51:58 BadgerService: Keepalive scheduled in 900s
+[I] 10-08 01:52:00 LogShipper: Shipped 365 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 10-08 01:59:39 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 10-08 01:59:46 BadgerService: Realtime subscribed OK -- badger-svc-8ffb0fdf-569b-4127-a194-8e666b45fe85 status=SUBSCRIBED
+[W] 10-08 02:00:01 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[E] 10-08 02:00:02 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[E] 10-08 02:00:02 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[W] 10-08 02:00:09 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-08 02:00:09 BadgerService: startRealtimeSync: in backoff for 2s more � skipping
+[I] 10-08 02:00:15 BadgerService: Realtime subscribed OK -- badger-svc-21edadd6-1395-4015-8ce3-04d5f58554d6 status=SUBSCRIBED
+[W] 10-08 02:01:26 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-08 02:01:37 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 10-08 02:01:37 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 02:01:58 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 02:01:58 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[I] 10-08 02:02:20 BadgerService: Realtime subscribed OK -- badger-svc-c8e9a75b-b074-4df1-890b-fd155f345850 status=SUBSCRIBED
+[I] 10-08 02:06:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-08 02:06:58 BadgerService: Keepalive scheduled in 900s
