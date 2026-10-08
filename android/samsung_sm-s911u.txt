@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-08 05:21:58 ===
+=== samsung SM-S911U | v216 | shipped 2026-10-08 05:51:58 ===
 [I] 10-07 18:37:00 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-07 18:49:47 TTS: Speaking: Truck 148, Ready
 [I] 10-07 18:49:47 WatchNotif: ?? PUSHING NOTIF: Truck 148 - New ? Ready (tag=watch_truck_148)
@@ -460,3 +460,42 @@
 [I] 10-08 05:07:00 LogShipper: Shipped 458 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-08 05:21:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-08 05:21:58 BadgerService: Keepalive scheduled in 900s
+[W] 10-08 05:22:11 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-08 05:22:21 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 05:22:21 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 10-08 05:22:42 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 05:22:42 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[E] 10-08 05:23:09 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 10-08 05:23:09 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #3 in 40s)
+[E] 10-08 05:23:59 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #4 in 80s)
+[E] 10-08 05:23:59 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 05:25:30 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 05:25:30 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #5 in 80s)
+[W] 10-08 05:25:53 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-08 05:25:53 BadgerService: startRealtimeSync: in backoff for 56s more � skipping
+[E] 10-08 05:26:57 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #6 in 80s)
+[E] 10-08 05:26:57 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 10-08 05:28:24 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 10-08 05:28:24 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #7 in 80s)
+[E] 10-08 05:29:54 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #8 in 80s)
+[E] 10-08 05:29:54 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[W] 10-08 05:30:21 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-08 05:30:21 BadgerService: startRealtimeSync: in backoff for 53s more � skipping
+[E] 10-08 05:31:25 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 05:31:25 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #9 in 80s)
+[E] 10-08 05:32:56 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #10 in 80s)
+[E] 10-08 05:32:56 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 05:34:26 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-08 05:34:26 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
+[E] 10-08 05:34:26 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #11 in 300s)
+[W] 10-08 05:34:56 BadgerService: startRealtimeSync: in backoff for 270s more � skipping
+[W] 10-08 05:34:56 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-08 05:36:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-08 05:36:58 BadgerService: Keepalive scheduled in 900s
+[W] 10-08 05:36:58 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-08 05:36:58 BadgerService: startRealtimeSync: in backoff for 148s more � skipping
+[W] 10-08 05:37:57 BadgerService: startRealtimeSync: in backoff for 89s more � skipping
+[W] 10-08 05:37:57 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-08 05:39:28 BadgerService: Realtime subscribed OK -- badger-svc-c58f7c7f-c41a-4dcc-845a-986ac3c8a133 status=SUBSCRIBED
+[I] 10-08 05:51:58 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-08 05:51:58 BadgerService: Keepalive scheduled in 900s
