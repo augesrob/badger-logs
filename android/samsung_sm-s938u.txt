@@ -1,15 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-10-09 02:33:57 ===
-[E] 10-08 15:32:51 BadgerService: Realtime: 421 consecutive failures � cooling down 5 min
-[E] 10-08 15:32:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #421 in 300s)
-[E] 10-08 15:38:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #422 in 300s)
-[E] 10-08 15:38:37 BadgerService: Realtime: 422 consecutive failures � cooling down 5 min
-[E] 10-08 15:44:23 BadgerService: Realtime: 423 consecutive failures � cooling down 5 min
-[E] 10-08 15:44:23 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #423 in 300s)
-[I] 10-08 15:44:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-08 15:44:46 BadgerService: Keepalive scheduled in 900s
-[W] 10-08 15:44:46 BadgerService: startRealtimeSync: in backoff for 276s more � skipping
-[W] 10-08 15:44:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-08 15:44:48 LogShipper: Shipped 291 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | v216 | shipped 2026-10-09 02:48:57 ===
 [E] 10-08 15:50:09 BadgerService: Realtime: 424 consecutive failures � cooling down 5 min
 [E] 10-08 15:50:09 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #424 in 300s)
 [E] 10-08 15:55:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #425 in 300s)
@@ -499,3 +488,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-09 02:32:48 WatchNotif: ? Successfully sent to watch: Truck 216 - In Door ? Put Away
 [I] 10-09 02:33:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-09 02:33:57 BadgerService: Keepalive scheduled in 900s
+[I] 10-09 02:33:59 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 10-09 02:34:55 TTS: Speaking: Truck 242, In Front
+[I] 10-09 02:34:55 WatchNotif: ?? PUSHING NOTIF: Truck 242 - In Back ? In Front (tag=watch_truck_242)
+[I] 10-09 02:34:55 WatchNotif: ?? Notif ID: -658231584
+[I] 10-09 02:34:55 WatchNotif: ? Successfully sent to watch: Truck 242 - In Back ? In Front
+[I] 10-09 02:34:57 TTS: Speaking: Truck 256, In Door
+[I] 10-09 02:34:57 WatchNotif: ?? PUSHING NOTIF: Truck 256 - In Front ? In Door (tag=watch_truck_256)
+[I] 10-09 02:34:57 WatchNotif: ?? Notif ID: -658231549
+[I] 10-09 02:34:57 WatchNotif: ? Successfully sent to watch: Truck 256 - In Front ? In Door
+[I] 10-09 02:48:57 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-09 02:48:57 BadgerService: Keepalive scheduled in 900s
