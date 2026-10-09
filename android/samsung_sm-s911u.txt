@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-08 18:51:59 ===
+=== samsung SM-S911U | v216 | shipped 2026-10-08 19:06:59 ===
 [E] 10-08 05:52:55 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [E] 10-08 05:52:55 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
 [E] 10-08 05:53:26 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #3 in 40s)
@@ -289,3 +289,14 @@
 [I] 10-08 18:50:01 WatchNotif: ? Successfully sent to watch: Truck 231-2 - Transfer ? In Front
 [I] 10-08 18:51:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-08 18:51:59 BadgerService: Keepalive scheduled in 900s
+[I] 10-08 18:52:01 LogShipper: Shipped 290 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 10-08 18:54:29 TTS: Speaking: Truck 186-1, In Front
+[I] 10-08 18:54:29 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - Transfer ? In Front (tag=watch_truck_186-1)
+[I] 10-08 18:54:29 WatchNotif: ?? Notif ID: -1201158781
+[I] 10-08 18:54:29 WatchNotif: ? Successfully sent to watch: Truck 186-1 - Transfer ? In Front
+[I] 10-08 18:59:24 TTS: Speaking: Truck 187-2, In Front
+[I] 10-08 18:59:24 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - Transfer ? In Front (tag=watch_truck_187-2)
+[I] 10-08 18:59:24 WatchNotif: ?? Notif ID: -1201157819
+[I] 10-08 18:59:24 WatchNotif: ? Successfully sent to watch: Truck 187-2 - Transfer ? In Front
+[I] 10-08 19:06:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-08 19:06:59 BadgerService: Keepalive scheduled in 900s
