@@ -1,10 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-13 17:23:46 ===
-[I] 10-12 21:00:17 WatchNotif: ? Successfully sent to watch: Truck 230 - Ready ? In Front
-[W] 10-12 21:04:42 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
-[E] 10-12 21:05:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
-[W] 10-12 21:06:06 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-12 21:06:33 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 10-12 21:06:33 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 2
+=== samsung SM-S948U | v216 | shipped 2026-10-13 17:38:46 ===
 [E] 10-12 21:07:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
 [I] 10-12 21:08:10 BadgerService: Realtime subscribed OK -- badger-svc-3607b019-e6fd-4eb4-b0aa-6faf32a994ac status=SUBSCRIBED
 [I] 10-12 21:08:17 TTS: Speaking: Truck 248-2, In Door
@@ -499,3 +493,9 @@
 [I] 10-13 17:08:46 BadgerService: Keepalive scheduled in 900s
 [I] 10-13 17:08:48 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 10-13 17:23:46 BadgerService: Keepalive scheduled in 900s
+[W] 10-13 17:23:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 10-13 17:23:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-13 17:23:48 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 10-13 17:38:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-13 17:38:46 BadgerService: Keepalive scheduled in 900s
+[W] 10-13 17:38:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
