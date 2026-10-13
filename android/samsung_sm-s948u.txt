@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-12 23:08:46 ===
+=== samsung SM-S948U | v216 | shipped 2026-10-12 23:23:46 ===
 [I] 10-09 06:14:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 10-09 06:29:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-09 06:29:53 BadgerService: Keepalive scheduled in 900s
@@ -471,3 +471,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-12 23:08:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-12 23:08:46 BadgerService: Keepalive scheduled in 900s
 [W] 10-12 23:08:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 10-12 23:08:47 LogShipper: Shipped 472 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 10-12 23:18:43 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-12 23:18:53 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-12 23:18:53 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 10-12 23:23:46 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-12 23:23:46 BadgerService: Keepalive scheduled in 900s
+[W] 10-12 23:23:46 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
