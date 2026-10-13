@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-12 21:08:45 ===
+=== samsung SM-S948U | v216 | shipped 2026-10-12 21:23:45 ===
 [I] 10-09 06:14:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 10-09 06:29:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-09 06:29:53 BadgerService: Keepalive scheduled in 900s
@@ -317,3 +317,43 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-12 21:08:17 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - In Front ? In Door (tag=watch_truck_248-2)
 [I] 10-12 21:08:17 WatchNotif: ?? Notif ID: -1200352501
 [I] 10-12 21:08:17 WatchNotif: ? Successfully sent to watch: Truck 248-2 - In Front ? In Door
+[I] 10-12 21:08:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-12 21:08:45 BadgerService: Keepalive scheduled in 900s
+[I] 10-12 21:08:47 LogShipper: Shipped 318 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 10-12 21:09:27 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
+[W] 10-12 21:09:28 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-12 21:10:10 BadgerService: Realtime subscribed OK -- badger-svc-a22ca482-dc7e-41b9-8ac9-95955a0c77fb status=SUBSCRIBED
+[W] 10-12 21:11:26 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-12 21:11:31 BadgerService: Realtime subscribed OK -- badger-svc-a9dc32be-efee-46bb-892d-6effa80a2173 status=SUBSCRIBED
+[W] 10-12 21:11:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-12 21:11:38 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[I] 10-12 21:11:40 BadgerService: Realtime subscribed OK -- badger-svc-93558636-7d18-45c2-b50b-fe85397b0726 status=SUBSCRIBED
+[W] 10-12 21:11:55 BadgerService: Heartbeat: channel SUBSCRIBING -- restarting
+[W] 10-12 21:12:36 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-12 21:12:46 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-12 21:12:46 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 10-12 21:13:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 10-12 21:14:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 10-12 21:15:30 BadgerService: Realtime subscribed OK -- badger-svc-9b327faf-315f-46a2-afd0-8c0df3e0ef6d status=SUBSCRIBED
+[I] 10-12 21:16:59 TTS: Speaking: Truck 243, In Front
+[I] 10-12 21:16:59 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Back ? In Front (tag=watch_truck_243)
+[I] 10-12 21:16:59 WatchNotif: ?? Notif ID: -658231583
+[I] 10-12 21:16:59 WatchNotif: ? Successfully sent to watch: Truck 243 - In Back ? In Front
+[I] 10-12 21:17:26 TTS: Speaking: Truck 264, In Front
+[I] 10-12 21:17:26 WatchNotif: ?? Notif ID: -658231520
+[I] 10-12 21:17:26 WatchNotif: ?? PUSHING NOTIF: Truck 264 - Ready ? In Front (tag=watch_truck_264)
+[I] 10-12 21:17:26 WatchNotif: ? Successfully sent to watch: Truck 264 - Ready ? In Front
+[I] 10-12 21:17:37 TTS: Speaking: Truck 222-1, On Route
+[I] 10-12 21:17:37 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - In Door ? On Route (tag=watch_truck_222-1)
+[I] 10-12 21:17:37 WatchNotif: ?? Notif ID: -1200417850
+[I] 10-12 21:17:37 WatchNotif: ? Successfully sent to watch: Truck 222-1 - In Door ? On Route
+[I] 10-12 21:18:57 TTS: Speaking: Truck 188-2, In Door
+[I] 10-12 21:18:57 WatchNotif: ?? PUSHING NOTIF: Truck 188-2 - In Front ? In Door (tag=watch_truck_188-2)
+[I] 10-12 21:18:57 WatchNotif: ?? Notif ID: -1201156858
+[I] 10-12 21:18:57 WatchNotif: ? Successfully sent to watch: Truck 188-2 - In Front ? In Door
+[I] 10-12 21:21:57 TTS: Speaking: Truck 199, In Front
+[I] 10-12 21:21:57 WatchNotif: ?? Notif ID: -658232383
+[I] 10-12 21:21:57 WatchNotif: ?? PUSHING NOTIF: Truck 199 - In Back ? In Front (tag=watch_truck_199)
+[I] 10-12 21:21:57 WatchNotif: ? Successfully sent to watch: Truck 199 - In Back ? In Front
+[I] 10-12 21:23:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-12 21:23:45 BadgerService: Keepalive scheduled in 900s
