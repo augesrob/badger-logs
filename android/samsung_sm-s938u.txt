@@ -1,12 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-10-13 06:49:24 ===
-[I] 10-11 03:57:18 BadgerService: Realtime subscribed OK -- badger-svc-1da3b0ed-ffa0-4438-9323-18597d57fd7a status=SUBSCRIBED
-[I] 10-11 04:03:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-11 04:03:51 BadgerService: Keepalive scheduled in 900s
-[I] 10-11 04:03:53 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 10-11 04:18:51 BadgerService: Keepalive scheduled in 900s
-[I] 10-11 04:18:51 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-11 04:18:53 LogShipper: Shipped 354 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 10-11 04:33:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S938U | v216 | shipped 2026-10-13 07:04:24 ===
 [I] 10-11 04:33:52 BadgerService: Keepalive scheduled in 900s
 [I] 10-11 04:33:53 LogShipper: Shipped 357 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 10-11 04:48:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +491,11 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-13 06:34:26 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 10-13 06:49:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-13 06:49:24 BadgerService: Keepalive scheduled in 900s
+[I] 10-13 06:49:26 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 10-13 07:01:07 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-13 07:01:07 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 10-13 07:01:17 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 10-13 07:01:17 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 10-13 07:01:29 BadgerService: Realtime subscribed OK -- badger-svc-44dde73f-41fa-4b98-85ec-9cbd1ea3f86c status=SUBSCRIBED
+[I] 10-13 07:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-13 07:04:24 BadgerService: Keepalive scheduled in 900s
