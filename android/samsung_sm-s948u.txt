@@ -1,22 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-12 19:53:45 ===
-[I] 10-05 04:39:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 04:39:52 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 04:39:54 LogShipper: Shipped 333 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 10-05 04:54:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 04:54:52 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 04:54:54 LogShipper: Shipped 334 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 10-05 05:09:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 05:09:52 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 05:09:54 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 10-05 05:24:52 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 05:24:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 05:24:54 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 10-05 05:39:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 05:39:52 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 05:39:54 LogShipper: Shipped 345 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 10-05 05:54:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-05 05:54:52 BadgerService: Keepalive scheduled in 900s
-[I] 10-05 05:54:54 LogShipper: Shipped 348 log lines to badger-logs/android/samsung_sm-s948u.txt
+=== samsung SM-S948U | v216 | shipped 2026-10-12 20:08:45 ===
 [I] 10-05 06:09:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-05 06:09:52 BadgerService: Keepalive scheduled in 900s
 [I] 10-05 06:09:54 LogShipper: Shipped 351 log lines to badger-logs/android/samsung_sm-s948u.txt
@@ -499,3 +481,21 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-12 19:53:45 BadgerService: Keepalive scheduled in 900s
 [W] 10-12 19:53:45 BadgerService: startRealtimeSync: in backoff for 191s more � skipping
 [W] 10-12 19:53:45 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 10-12 19:53:47 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 10-12 19:57:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
+[E] 10-12 19:57:43 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
+[I] 10-12 20:03:27 AppUpdater: Checking via website (current=216)
+[I] 10-12 20:03:29 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-12 20:03:29 AppUpdater: Checking via GitHub direct (current=216)
+[E] 10-12 20:03:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
+[E] 10-12 20:03:30 BadgerService: Realtime: 17 consecutive failures � cooling down 5 min
+[I] 10-12 20:03:30 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 10-12 20:05:08 BadgerService: startRealtimeSync: in backoff for 202s more � skipping
+[W] 10-12 20:05:08 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-12 20:06:46 AppUpdater: Checking via website (current=216)
+[I] 10-12 20:06:47 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 10-12 20:06:47 AppUpdater: Checking via GitHub direct (current=216)
+[I] 10-12 20:06:48 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 10-12 20:08:41 BadgerService: Realtime subscribed OK -- badger-svc-b875bd63-b793-4762-be2c-23cae6daf7f5 status=SUBSCRIBED
+[I] 10-12 20:08:45 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-12 20:08:45 BadgerService: Keepalive scheduled in 900s
