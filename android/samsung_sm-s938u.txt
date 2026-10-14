@@ -1,10 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-10-13 19:34:25 ===
-[I] 10-12 07:15:16 BadgerService: Keepalive scheduled in 900s
-[I] 10-12 07:15:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-12 07:15:18 LogShipper: Shipped 354 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 10-12 07:30:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-12 07:30:16 BadgerService: Keepalive scheduled in 900s
-[I] 10-12 07:30:18 LogShipper: Shipped 357 log lines to badger-logs/android/samsung_sm-s938u.txt
+=== samsung SM-S938U | v216 | shipped 2026-10-13 19:49:25 ===
 [I] 10-12 07:45:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-12 07:45:16 BadgerService: Keepalive scheduled in 900s
 [I] 10-12 07:45:19 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s938u.txt
@@ -499,3 +493,9 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-13 19:19:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 10-13 19:34:25 BadgerService: Keepalive scheduled in 900s
 [I] 10-13 19:34:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-13 19:34:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 10-13 19:44:54 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-13 19:44:54 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 2
+[I] 10-13 19:45:03 BadgerService: Realtime subscribed OK -- badger-svc-1e68bd41-d640-476c-9548-2843a75810de status=SUBSCRIBED
+[I] 10-13 19:49:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-13 19:49:25 BadgerService: Keepalive scheduled in 900s
