@@ -1,13 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-14 02:02:08 ===
-[W] 10-13 14:02:07 BadgerService: FGS microphone blocked � starting without mic FGS type
-[W] 10-13 14:02:07 AuthManager: JWT refresh failed: No refresh token found in current session
-[I] 10-13 14:02:07 AuthManager: Session expired — trying HWID silent login
-[I] 10-13 14:02:07 AuthManager: HWID silent login for felipe@badgerliquor.com
-[I] 10-13 14:02:07 BadgerService: Keepalive scheduled in 900s
-[I] 10-13 14:02:07 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
-[I] 10-13 14:02:07 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
-[E] 10-13 14:02:07 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+=== samsung SM-S921U | v216 | shipped 2026-10-14 02:17:08 ===
 
 [I] 10-13 14:02:08 AuthManager: Sign in OK — felipe role=admin
 [I] 10-13 14:02:08 AuthManager: HWID silent login OK
@@ -499,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [W] 10-14 02:02:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 10-14 02:02:08 BadgerService: startRealtimeSync: in backoff for 220s more � skipping
 [I] 10-14 02:02:08 BadgerService: Keepalive scheduled in 900s
+[I] 10-14 02:02:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 10-14 02:06:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #81 in 300s)
+[E] 10-14 02:06:35 BadgerService: Realtime: 81 consecutive failures � cooling down 5 min
+[E] 10-14 02:12:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #82 in 300s)
+[E] 10-14 02:12:21 BadgerService: Realtime: 82 consecutive failures � cooling down 5 min
+[I] 10-14 02:17:08 BadgerService: Keepalive scheduled in 900s
+[W] 10-14 02:17:08 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-14 02:17:08 BadgerService: startRealtimeSync: in backoff for 13s more � skipping
+[I] 10-14 02:17:08 BadgerService: Keepalive alarm fired -- service alive, rescheduling
