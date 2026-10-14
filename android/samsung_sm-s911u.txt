@@ -1,15 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-13 23:58:04 ===
-[E] 10-09 04:08:49 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
-[E] 10-09 04:08:49 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #4 in 80s)
-[E] 10-09 04:10:20 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #5 in 80s)
-[E] 10-09 04:10:20 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[W] 10-09 04:11:00 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[W] 10-09 04:11:00 BadgerService: startRealtimeSync: in backoff for 39s more � skipping
-[I] 10-09 04:11:41 BadgerService: Realtime subscribed OK -- badger-svc-cc57da65-d545-427f-aed7-0497e3d49afb status=SUBSCRIBED
-[I] 10-09 04:21:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-09 04:21:59 BadgerService: Keepalive scheduled in 900s
-[I] 10-09 04:22:01 LogShipper: Shipped 381 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-09 04:36:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S911U | v216 | shipped 2026-10-14 00:13:04 ===
 [I] 10-09 04:36:59 BadgerService: Keepalive scheduled in 900s
 [I] 10-09 04:37:01 LogShipper: Shipped 384 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-09 04:51:59 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +488,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-13 23:50:36 WatchNotif: ? Successfully sent to watch: Truck 238 - Ready ? In Front
 [I] 10-13 23:58:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-13 23:58:04 BadgerService: Keepalive scheduled in 900s
+[I] 10-13 23:58:06 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 10-14 00:00:39 TTS: Speaking: Truck 231-2, 10
+[I] 10-14 00:00:39 WatchNotif: ?? PUSHING NOTIF: Truck 231-2 - In Door ? 10 (tag=watch_truck_231-2)
+[I] 10-14 00:00:39 WatchNotif: ?? Notif ID: -1200389019
+[I] 10-14 00:00:39 WatchNotif: ? Successfully sent to watch: Truck 231-2 - In Door ? 10
+[I] 10-14 00:00:43 TTS: Speaking: Truck 243, In Door
+[I] 10-14 00:00:43 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Front ? In Door (tag=watch_truck_243)
+[I] 10-14 00:00:43 WatchNotif: ?? Notif ID: -658231583
+[I] 10-14 00:00:43 WatchNotif: ? Successfully sent to watch: Truck 243 - In Front ? In Door
+[I] 10-14 00:13:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-14 00:13:04 BadgerService: Keepalive scheduled in 900s
