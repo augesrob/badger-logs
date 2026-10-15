@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-15 05:05:16 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-15 05:20:16 ===
 [E] 10-14 14:20:27 BadgerService: Realtime: 208 consecutive failures � cooling down 5 min
 [E] 10-14 14:20:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #208 in 300s)
 [E] 10-14 14:26:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #209 in 300s)
@@ -408,3 +408,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-15 04:50:18 BadgerService: Realtime subscribed OK -- badger-svc-6c745afa-5ebd-4db3-b7c6-594fb30c795d status=SUBSCRIBED
 [I] 10-15 05:05:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-15 05:05:16 BadgerService: Keepalive scheduled in 900s
+[I] 10-15 05:05:18 LogShipper: Shipped 409 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-15 05:15:56 BadgerService: Heartbeat poll: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJhYjdlYWQwOC01MTViLTQ5Y2QtOWRjMS0zYjQ1MDA1YWU4MDEiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzkyMDYxNDE3LCJpYXQiOjE3OTIwNTc4MTcsImVtYWlsIjoiZmVsaXBlQGJhZGdlcmxpcXVvci5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6InZhenF1ZXoiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXNlcm5hbWUiOiJmZWxpcGUifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc5MjA1NzgxN31dLCJzZXNzaW9uX2lkIjoiMjFhZWZlMDItZWMwNy00N2RhLTk3MGItYjY1NmI5MDQyYjY2IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.WwtMkuRpLs8da5U0-xdzdsGF_N18CX6n_URh7vKKOUqlpz35R-yVyeNwL9IDGap-83wLNE5GDxEFFUlPlEND9g], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[E] 10-15 05:15:56 BadgerRepo: getLiveMovement FAILED: Unknown error
+URL: https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29
+Headers: [Authorization=[Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjJmYzU4OTgyLWMwYTEtNGI5My1hMTM5LTgyNTkzMGEyZWQwZiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ZqbXZ1cXVuZWR5dW92dHF0b3RqLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJhYjdlYWQwOC01MTViLTQ5Y2QtOWRjMS0zYjQ1MDA1YWU4MDEiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzkyMDYxNDE3LCJpYXQiOjE3OTIwNTc4MTcsImVtYWlsIjoiZmVsaXBlQGJhZGdlcmxpcXVvci5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImRpc3BsYXlfbmFtZSI6InZhenF1ZXoiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXNlcm5hbWUiOiJmZWxpcGUifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc5MjA1NzgxN31dLCJzZXNzaW9uX2lkIjoiMjFhZWZlMDItZWMwNy00N2RhLTk3MGItYjY1NmI5MDQyYjY2IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.WwtMkuRpLs8da5U0-xdzdsGF_N18CX6n_URh7vKKOUqlpz35R-yVyeNwL9IDGap-83wLNE5GDxEFFUlPlEND9g], Content-Type=[application/json], Prefer=[], Accept-Profile=[public], apikey=[sb_publishable_T4oY9TGx4HcZP9AmbblHxA_l4ZeaePw], X-Client-Info=[supabase-kt/3.1.4], Accept=[application/json], Accept-Charset=[UTF-8]]
+Http Method: GET
+[I] 10-15 05:20:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-15 05:20:16 BadgerService: Keepalive scheduled in 900s
