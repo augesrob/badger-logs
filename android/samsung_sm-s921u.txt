@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-15 08:35:16 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-15 08:50:16 ===
 [E] 10-14 14:20:27 BadgerService: Realtime: 208 consecutive failures � cooling down 5 min
 [E] 10-14 14:20:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #208 in 300s)
 [E] 10-14 14:26:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #209 in 300s)
@@ -464,3 +464,12 @@ Http Method: GET
 [I] 10-15 08:20:19 LogShipper: Shipped 462 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-15 08:35:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-15 08:35:16 BadgerService: Keepalive scheduled in 900s
+[I] 10-15 08:35:18 LogShipper: Shipped 465 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-15 08:43:03 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-15 08:43:05 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 10-15 08:43:05 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 10-15 08:43:06 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[W] 10-15 08:43:06 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-15 08:43:16 BadgerService: Realtime subscribed OK -- badger-svc-fb778102-54ff-43c8-b673-0cfe09b52543 status=SUBSCRIBED
+[I] 10-15 08:50:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-15 08:50:16 BadgerService: Keepalive scheduled in 900s
