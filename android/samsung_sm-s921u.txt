@@ -1,7 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-15 11:05:16 ===
-[W] 10-14 14:32:08 BadgerService: startRealtimeSync: in backoff for 291s more � skipping
-[I] 10-14 14:32:11 LogShipper: Shipped 271 log lines to badger-logs/android/samsung_sm-s921u.txt
-[E] 10-14 14:37:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #211 in 300s)
+=== samsung SM-S921U | v216 | shipped 2026-10-15 11:20:16 ===
 [E] 10-14 14:37:46 BadgerService: Realtime: 211 consecutive failures � cooling down 5 min
 [E] 10-14 14:43:33 BadgerService: Realtime: 212 consecutive failures � cooling down 5 min
 [E] 10-14 14:43:33 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #212 in 300s)
@@ -499,3 +496,6 @@ Http Method: GET
 [I] 10-15 10:50:18 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-15 11:05:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-15 11:05:16 BadgerService: Keepalive scheduled in 900s
+[I] 10-15 11:05:19 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 10-15 11:14:48 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort
+[W] 10-15 11:14:48 BadgerService: Heartbeat poll: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort
