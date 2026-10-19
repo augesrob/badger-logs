@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-16 13:50:18 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-19 18:55:53 ===
 [E] 10-16 06:06:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #118 in 300s)
 [E] 10-16 06:06:14 BadgerService: Realtime: 118 consecutive failures � cooling down 5 min
 [E] 10-16 06:12:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #119 in 300s)
@@ -329,3 +329,55 @@
 [I] 10-16 13:50:18 BadgerService: Keepalive scheduled in 900s
 [W] 10-16 13:50:18 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 10-16 13:50:18 BadgerService: startRealtimeSync: in backoff for 220s more � skipping
+[I] 10-16 13:50:20 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-16 13:54:22 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-19 18:05:31 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-19 18:05:31 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 10-19 18:05:31 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 10-19 18:05:31 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-19 18:05:31 AuthManager: Session expired — trying HWID silent login
+[I] 10-19 18:05:31 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 10-19 18:05:31 BadgerService: Keepalive scheduled in 900s
+[I] 10-19 18:05:31 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-19 18:05:31 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 10-19 18:05:31 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-19 18:05:32 AuthManager: HWID silent login OK
+[I] 10-19 18:05:32 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 10-19 18:05:32 AuthManager: Sign in OK — felipe role=admin
+[I] 10-19 18:05:32 TTS: Engine initialized OK
+[I] 10-19 18:05:32 TTS: Speaking: Badger live monitoring active
+[I] 10-19 18:05:33 BadgerService: Realtime subscribed OK -- badger-svc-aec377a0-7781-47f1-8827-6537c42bc159 status=SUBSCRIBED
+[I] 10-19 18:40:53 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-19 18:40:53 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 10-19 18:40:53 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 10-19 18:40:53 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-19 18:40:53 AuthManager: Session expired — trying HWID silent login
+[I] 10-19 18:40:53 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 10-19 18:40:53 BadgerService: Keepalive scheduled in 900s
+[I] 10-19 18:40:53 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-19 18:40:53 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 10-19 18:40:53 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-19 18:40:54 TTS: Engine initialized OK
+[I] 10-19 18:40:54 TTS: Speaking: Badger live monitoring active
+[I] 10-19 18:40:55 AuthManager: Sign in OK — felipe role=admin
+[I] 10-19 18:40:55 AuthManager: HWID silent login OK
+[I] 10-19 18:40:55 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 10-19 18:40:55 BadgerService: Realtime subscribed OK -- badger-svc-ae4ffc0b-fe53-45d9-8b7f-f39b07d382b0 status=SUBSCRIBED
+[I] 10-19 18:46:48 TTS: Speaking: Truck 248-2, In Front
+[I] 10-19 18:46:48 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - Transfer ? In Front (tag=watch_truck_248-2)
+[I] 10-19 18:46:48 WatchNotif: ?? Notif ID: -1200352501
+[I] 10-19 18:46:48 WatchNotif: ? Successfully sent to watch: Truck 248-2 - Transfer ? In Front
+[I] 10-19 18:52:42 TTS: Speaking: Truck 164, The Rock
+[I] 10-19 18:52:42 WatchNotif: ?? Notif ID: -658232481
+[I] 10-19 18:52:42 WatchNotif: ?? PUSHING NOTIF: Truck 164 - In Back ? The Rock (tag=watch_truck_164)
+[I] 10-19 18:52:42 WatchNotif: ? Successfully sent to watch: Truck 164 - In Back ? The Rock
+[I] 10-19 18:54:44 TTS: Speaking: Truck 187-2, In Front
+[I] 10-19 18:54:44 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - Transfer ? In Front (tag=watch_truck_187-2)
+[I] 10-19 18:54:44 WatchNotif: ?? Notif ID: -1201157819
+[I] 10-19 18:54:44 WatchNotif: ? Successfully sent to watch: Truck 187-2 - Transfer ? In Front
+[I] 10-19 18:55:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-19 18:55:53 BadgerService: Keepalive scheduled in 900s
