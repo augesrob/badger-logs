@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-20 04:10:54 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-20 04:25:54 ===
 [W] 10-19 23:08:21 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
 [W] 10-19 23:08:21 BadgerService: startRealtimeSync: in backoff for 3s more � skipping
 [W] 10-19 23:08:22 BadgerService: startRealtimeSync: in backoff for 2s more � skipping
@@ -348,3 +348,16 @@
 [I] 10-20 03:55:55 LogShipper: Shipped 346 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-20 04:10:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-20 04:10:54 BadgerService: Keepalive scheduled in 900s
+[I] 10-20 04:10:56 LogShipper: Shipped 349 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-20 04:17:24 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 10-20 04:18:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 10-20 04:19:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[W] 10-20 04:19:28 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-20 04:20:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 10-20 04:21:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 10-20 04:23:47 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 10-20 04:25:53 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[I] 10-20 04:25:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-20 04:25:54 BadgerService: Keepalive scheduled in 900s
+[W] 10-20 04:25:54 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-20 04:25:54 BadgerService: startRealtimeSync: in backoff for 78s more � skipping
