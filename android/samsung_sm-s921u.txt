@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-19 21:10:54 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-19 21:25:54 ===
 [E] 10-16 06:06:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #118 in 300s)
 [E] 10-16 06:06:14 BadgerService: Realtime: 118 consecutive failures � cooling down 5 min
 [E] 10-16 06:12:00 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #119 in 300s)
@@ -464,3 +464,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-19 20:55:55 LogShipper: Shipped 462 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-19 21:10:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-19 21:10:54 BadgerService: Keepalive scheduled in 900s
+[I] 10-19 21:10:56 LogShipper: Shipped 465 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-19 21:17:52 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-19 21:18:03 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-19 21:18:03 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 10-19 21:18:15 BadgerService: Realtime subscribed OK -- badger-svc-0b964e53-f9a1-44d5-9f93-b91d5d186bc2 status=SUBSCRIBED
+[I] 10-19 21:25:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-19 21:25:54 BadgerService: Keepalive scheduled in 900s
