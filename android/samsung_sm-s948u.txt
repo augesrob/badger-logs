@@ -1,12 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-20 09:27:19 ===
-[I] 10-20 01:33:16 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 10-20 01:33:16 AppUpdater: Checking via GitHub direct (current=216)
-[I] 10-20 01:33:20 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 10-20 01:34:31 PTT: Incoming PTT message received
-[I] 10-20 01:34:37 PTT: Incoming PTT message received
-[I] 10-20 01:35:22 PTT: PTT recording STARTED
-[I] 10-20 01:35:27 PTT: PTT recording STOPPED
-[I] 10-20 01:35:27 PTT: PTT sent OK — 78080 bytes
+=== samsung SM-S948U | v216 | shipped 2026-10-20 09:42:19 ===
 [I] 10-20 01:35:27 PTT: Incoming PTT message received
 [I] 10-20 01:36:38 TTS: Speaking: Truck 213, In Front
 [I] 10-20 01:36:38 WatchNotif: ?? PUSHING NOTIF: Truck 213 - Ready ? In Front (tag=watch_truck_213)
@@ -499,3 +491,11 @@
 [W] 10-20 09:27:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 10-20 09:27:19 BadgerService: Keepalive scheduled in 900s
 [W] 10-20 09:27:19 BadgerService: startRealtimeSync: in backoff for 206s more � skipping
+[I] 10-20 09:27:21 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 10-20 09:31:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #60 in 300s)
+[E] 10-20 09:31:32 BadgerService: Realtime: 60 consecutive failures � cooling down 5 min
+[E] 10-20 09:37:18 BadgerService: Realtime: 61 consecutive failures � cooling down 5 min
+[E] 10-20 09:37:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #61 in 300s)
+[I] 10-20 09:42:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-20 09:42:19 BadgerService: Keepalive scheduled in 900s
+[W] 10-20 09:42:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
