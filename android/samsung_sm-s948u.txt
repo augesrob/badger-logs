@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-20 04:27:19 ===
+=== samsung SM-S948U | v216 | shipped 2026-10-20 04:42:19 ===
 [I] 10-20 01:27:43 TTS: Speaking: Truck 244, In Door
 [I] 10-20 01:27:43 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Front ? In Door (tag=watch_truck_244)
 [I] 10-20 01:27:43 WatchNotif: ?? Notif ID: -658231582
@@ -325,3 +325,23 @@
 [I] 10-20 04:12:21 LogShipper: Shipped 323 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 10-20 04:27:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-20 04:27:19 BadgerService: Keepalive scheduled in 900s
+[I] 10-20 04:27:22 LogShipper: Shipped 326 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 10-20 04:27:36 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Socket timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, socket_timeout=unknown] ms -- restarting
+[E] 10-20 04:27:47 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 10-20 04:27:47 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 10-20 04:27:59 BadgerService: Realtime subscribed OK -- badger-svc-cdc03467-03df-44b6-b90c-477b39baab98 status=SUBSCRIBED
+[W] 10-20 04:29:45 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 10-20 04:30:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 10-20 04:30:52 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[E] 10-20 04:30:52 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-20 04:31:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[E] 10-20 04:33:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 10-20 04:35:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[E] 10-20 04:36:50 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 2
+[E] 10-20 04:37:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #6 in 80s)
+[E] 10-20 04:39:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #7 in 80s)
+[E] 10-20 04:41:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #8 in 80s)
+[I] 10-20 04:42:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-20 04:42:19 BadgerService: Keepalive scheduled in 900s
+[W] 10-20 04:42:19 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-20 04:42:19 BadgerService: startRealtimeSync: in backoff for 50s more � skipping
