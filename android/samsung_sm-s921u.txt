@@ -1,11 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-21 07:49:31 ===
-[I] 10-20 15:10:55 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-20 15:10:55 BadgerService: Keepalive scheduled in 900s
-[W] 10-20 15:10:55 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-20 15:10:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
-[E] 10-20 15:11:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #18 in 300s)
-[E] 10-20 15:11:41 BadgerService: Realtime: 18 consecutive failures � cooling down 5 min
-[E] 10-20 15:17:28 BadgerService: Realtime: 19 consecutive failures � cooling down 5 min
+=== samsung SM-S921U | v216 | shipped 2026-10-21 08:04:31 ===
 [E] 10-20 15:17:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #19 in 300s)
 [E] 10-20 15:23:14 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #20 in 300s)
 [E] 10-20 15:23:14 BadgerService: Realtime: 20 consecutive failures � cooling down 5 min
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-21 07:34:33 LogShipper: Shipped 497 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-21 07:49:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-21 07:49:31 BadgerService: Keepalive scheduled in 900s
+[I] 10-21 07:49:34 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-21 07:50:29 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 10-21 07:50:30 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-21 07:51:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 10-21 07:51:29 BadgerService: Realtime subscribed OK -- badger-svc-690daa55-beb9-4853-8b93-271b0b7ee2bf status=SUBSCRIBED
+[I] 10-21 08:04:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-21 08:04:31 BadgerService: Keepalive scheduled in 900s
