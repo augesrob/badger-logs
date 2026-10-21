@@ -1,13 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-10-21 09:25:33 ===
-[I] 10-20 23:25:14 BadgerService: Keepalive scheduled in 900s
-[I] 10-20 23:25:14 AppUpdater: Checking via website (current=216)
-[I] 10-20 23:25:15 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 10-20 23:25:15 AppUpdater: Checking via GitHub direct (current=216)
-[I] 10-20 23:25:15 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 10-20 23:25:15 LogShipper: Shipped 291 log lines to badger-logs/android/samsung_sm-s938u.txt
-[I] 10-20 23:25:27 BadgerService: Keepalive scheduled in 2s
-[W] 10-20 23:25:27 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
-[I] 10-20 23:25:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S938U | v216 | shipped 2026-10-21 09:40:33 ===
 [I] 10-20 23:25:33 BadgerService: Keepalive scheduled in 900s
 [I] 10-20 23:25:34 LogShipper: Shipped 300 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 10-20 23:25:45 TTS: Speaking: Truck 185, In Front
@@ -499,3 +490,12 @@
 [I] 10-21 09:25:33 BadgerService: Keepalive scheduled in 900s
 [W] 10-21 09:25:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 10-21 09:25:33 BadgerService: startRealtimeSync: in backoff for 280s more � skipping
+[I] 10-21 09:25:35 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 10-21 09:31:02 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #110 in 300s)
+[E] 10-21 09:31:02 BadgerService: Realtime: 110 consecutive failures � cooling down 5 min
+[E] 10-21 09:36:49 BadgerService: Realtime: 111 consecutive failures � cooling down 5 min
+[E] 10-21 09:36:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #111 in 300s)
+[I] 10-21 09:40:33 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 10-21 09:40:33 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-21 09:40:33 BadgerService: startRealtimeSync: in backoff for 75s more � skipping
+[I] 10-21 09:40:33 BadgerService: Keepalive scheduled in 900s
