@@ -1,25 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-22 00:29:29 ===
-[I] 10-21 05:59:30 LogShipper: Shipped 402 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-21 06:14:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-21 06:14:28 BadgerService: Keepalive scheduled in 900s
-[I] 10-21 06:14:30 LogShipper: Shipped 405 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-21 06:29:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-21 06:29:28 BadgerService: Keepalive scheduled in 900s
-[I] 10-21 06:29:30 LogShipper: Shipped 408 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-21 06:44:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-21 06:44:28 BadgerService: Keepalive scheduled in 900s
-[I] 10-21 06:44:30 LogShipper: Shipped 411 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-21 06:59:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-21 06:59:28 BadgerService: Keepalive scheduled in 900s
-[I] 10-21 06:59:37 LogShipper: Shipped 414 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-21 07:14:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-21 07:14:28 BadgerService: Keepalive scheduled in 900s
-[I] 10-21 07:14:32 LogShipper: Shipped 417 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-21 07:29:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-21 07:29:28 BadgerService: Keepalive scheduled in 900s
-[I] 10-21 07:29:32 LogShipper: Shipped 420 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-21 07:44:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-21 07:44:28 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S911U | v216 | shipped 2026-10-22 00:44:29 ===
 [I] 10-21 07:44:30 LogShipper: Shipped 423 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-21 07:59:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-21 07:59:28 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +478,24 @@
 [I] 10-22 00:29:10 WatchNotif: ? Successfully sent to watch: Truck 263 - Ready ? In Front
 [I] 10-22 00:29:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-22 00:29:29 BadgerService: Keepalive scheduled in 900s
+[I] 10-22 00:29:31 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[E] 10-22 00:30:41 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 10-22 00:30:41 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 10-22 00:31:06 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-22 00:31:17 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Socket timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, socket_timeout=unknown] ms (retry #1 in 10s)
+[E] 10-22 00:31:17 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Socket timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, socket_timeout=unknown] ms
+[E] 10-22 00:31:37 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[E] 10-22 00:31:37 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-22 00:32:08 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-22 00:32:08 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #3 in 40s)
+[I] 10-22 00:32:56 BadgerService: Realtime subscribed OK -- badger-svc-cae6df36-b216-46eb-aa58-0d86da4c1d9c status=SUBSCRIBED
+[I] 10-22 00:36:12 TTS: Speaking: Truck 248-2, 10
+[I] 10-22 00:36:12 WatchNotif: ?? PUSHING NOTIF: Truck 248-2 - In Door ? 10 (tag=watch_truck_248-2)
+[I] 10-22 00:36:12 WatchNotif: ?? Notif ID: -1200352501
+[I] 10-22 00:36:12 WatchNotif: ? Successfully sent to watch: Truck 248-2 - In Door ? 10
+[I] 10-22 00:36:15 TTS: Speaking: Truck 262, In Door
+[I] 10-22 00:36:15 WatchNotif: ?? PUSHING NOTIF: Truck 262 - In Front ? In Door (tag=watch_truck_262)
+[I] 10-22 00:36:15 WatchNotif: ?? Notif ID: -658231522
+[I] 10-22 00:36:15 WatchNotif: ? Successfully sent to watch: Truck 262 - In Front ? In Door
+[I] 10-22 00:44:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-22 00:44:29 BadgerService: Keepalive scheduled in 900s
