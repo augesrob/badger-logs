@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-22 11:24:50 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-22 11:39:50 ===
 [E] 10-22 02:22:36 BadgerService: Realtime: 35 consecutive failures � cooling down 5 min
 [E] 10-22 02:22:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #35 in 300s)
 [E] 10-22 02:27:47 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #36 in 300s)
@@ -391,3 +391,15 @@
 [I] 10-22 11:24:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-22 11:24:50 BadgerService: Keepalive scheduled in 900s
 [W] 10-22 11:24:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-22 11:24:50 BadgerService: startRealtimeSync: in backoff for 18s more � skipping
+[I] 10-22 11:24:52 LogShipper: Shipped 392 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 10-22 11:25:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #129 in 300s)
+[E] 10-22 11:25:54 BadgerService: Realtime: 129 consecutive failures � cooling down 5 min
+[E] 10-22 11:31:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #130 in 300s)
+[E] 10-22 11:31:40 BadgerService: Realtime: 130 consecutive failures � cooling down 5 min
+[E] 10-22 11:37:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #131 in 300s)
+[E] 10-22 11:37:27 BadgerService: Realtime: 131 consecutive failures � cooling down 5 min
+[I] 10-22 11:39:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-22 11:39:50 BadgerService: Keepalive scheduled in 900s
+[W] 10-22 11:39:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-22 11:39:50 BadgerService: startRealtimeSync: in backoff for 157s more � skipping
