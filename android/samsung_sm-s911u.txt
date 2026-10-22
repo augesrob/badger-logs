@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-22 02:14:29 ===
+=== samsung SM-S911U | v216 | shipped 2026-10-22 02:29:29 ===
 [I] 10-21 18:40:48 TTS: Speaking: Truck 199, In Back
 [I] 10-21 18:40:48 WatchNotif: ?? PUSHING NOTIF: Truck 199 - New ? In Back (tag=watch_truck_199)
 [I] 10-21 18:40:48 WatchNotif: ?? Notif ID: -658232383
@@ -395,3 +395,18 @@
 [I] 10-22 02:14:13 WatchNotif: ? Successfully sent to watch: Truck 148 - In Door ? Put Away
 [I] 10-22 02:14:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-22 02:14:29 BadgerService: Keepalive scheduled in 900s
+[I] 10-22 02:14:31 LogShipper: Shipped 396 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 10-22 02:19:09 TTS: Speaking: Truck 261, Put Away
+[I] 10-22 02:19:09 WatchNotif: ?? PUSHING NOTIF: Truck 261 - In Door ? Put Away (tag=watch_truck_261)
+[I] 10-22 02:19:09 WatchNotif: ?? Notif ID: -658231523
+[I] 10-22 02:19:09 WatchNotif: ? Successfully sent to watch: Truck 261 - In Door ? Put Away
+[I] 10-22 02:19:15 TTS: Speaking: Truck 263, In Door
+[I] 10-22 02:19:15 WatchNotif: ?? PUSHING NOTIF: Truck 263 - In Front ? In Door (tag=watch_truck_263)
+[I] 10-22 02:19:15 WatchNotif: ?? Notif ID: -658231521
+[I] 10-22 02:19:15 WatchNotif: ? Successfully sent to watch: Truck 263 - In Front ? In Door
+[W] 10-22 02:21:54 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-22 02:22:05 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 10-22 02:22:05 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[I] 10-22 02:22:16 BadgerService: Realtime subscribed OK -- badger-svc-1a24203f-29a8-43b3-887f-e4c3bf9469b2 status=SUBSCRIBED
+[I] 10-22 02:29:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-22 02:29:29 BadgerService: Keepalive scheduled in 900s
