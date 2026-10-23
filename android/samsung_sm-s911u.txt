@@ -1,11 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-23 02:14:31 ===
-[I] 10-22 02:19:15 WatchNotif: ? Successfully sent to watch: Truck 263 - In Front ? In Door
-[W] 10-22 02:21:54 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 10-22 02:22:05 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 10-22 02:22:05 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[I] 10-22 02:22:16 BadgerService: Realtime subscribed OK -- badger-svc-1a24203f-29a8-43b3-887f-e4c3bf9469b2 status=SUBSCRIBED
-[I] 10-22 02:29:29 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-22 02:29:29 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S911U | v216 | shipped 2026-10-23 02:29:31 ===
 [I] 10-22 02:29:31 LogShipper: Shipped 411 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-22 02:43:27 TTS: Speaking: Truck 245, Put Away
 [I] 10-22 02:43:27 WatchNotif: ?? Notif ID: -658231581
@@ -499,3 +492,10 @@
 [I] 10-23 01:59:32 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-23 02:14:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-23 02:14:31 BadgerService: Keepalive scheduled in 900s
+[I] 10-23 02:14:33 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 10-23 02:22:50 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Door ? 10 (tag=watch_truck_187-2)
+[I] 10-23 02:22:50 WatchNotif: ?? Notif ID: -1201157819
+[I] 10-23 02:22:50 TTS: Speaking: Truck 187-2, 10
+[I] 10-23 02:22:50 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Door ? 10
+[I] 10-23 02:29:31 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-23 02:29:31 BadgerService: Keepalive scheduled in 900s
