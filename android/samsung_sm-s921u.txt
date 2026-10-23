@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-22 23:54:50 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-23 00:09:50 ===
 [E] 10-22 14:19:52 BadgerService: Realtime: 159 consecutive failures � cooling down 5 min
 [I] 10-22 14:24:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-22 14:24:52 LogShipper: Shipped 3 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -416,3 +416,16 @@
 [I] 10-22 23:48:40 BadgerService: Realtime subscribed OK -- badger-svc-e54d29a5-258a-4366-a2d5-b5ca754e2598 status=SUBSCRIBED
 [I] 10-22 23:54:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-22 23:54:50 BadgerService: Keepalive scheduled in 900s
+[I] 10-22 23:54:52 LogShipper: Shipped 417 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-22 23:58:02 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 10-22 23:58:03 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 10-22 23:58:03 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 10-22 23:58:05 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[W] 10-22 23:58:05 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-22 23:58:15 BadgerService: Realtime subscribed OK -- badger-svc-e37a8e81-d0be-4968-b36e-a355391137aa status=SUBSCRIBED
+[I] 10-22 23:58:44 TTS: Speaking: Truck 224-2, 8
+[I] 10-22 23:58:44 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - In Door ? 8 (tag=watch_truck_224-2)
+[I] 10-22 23:58:44 WatchNotif: ?? Notif ID: -1200415927
+[I] 10-22 23:58:44 WatchNotif: ? Successfully sent to watch: Truck 224-2 - In Door ? 8
+[I] 10-23 00:09:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-23 00:09:50 BadgerService: Keepalive scheduled in 900s
