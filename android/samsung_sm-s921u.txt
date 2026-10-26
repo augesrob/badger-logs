@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-23 07:54:51 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-26 17:42:41 ===
 [W] 10-22 19:24:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 10-22 19:24:50 BadgerService: startRealtimeSync: in backoff for 71s more � skipping
 [I] 10-22 19:24:52 LogShipper: Shipped 468 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -451,3 +451,30 @@
 [I] 10-23 07:54:51 BadgerService: Keepalive scheduled in 900s
 [W] 10-23 07:54:51 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 10-23 07:54:51 BadgerService: startRealtimeSync: in backoff for 280s more � skipping
+[I] 10-23 07:54:53 LogShipper: Shipped 452 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-23 07:56:54 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-23 07:56:54 BadgerService: startRealtimeSync: in backoff for 156s more � skipping
+[I] 10-26 17:27:40 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-26 17:27:40 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 10-26 17:27:40 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 10-26 17:27:40 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-26 17:27:40 AuthManager: Session expired — trying HWID silent login
+[I] 10-26 17:27:40 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 10-26 17:27:40 BadgerService: Keepalive scheduled in 900s
+[I] 10-26 17:27:40 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-26 17:27:41 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 10-26 17:27:41 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-26 17:27:41 AuthManager: HWID silent login OK
+[I] 10-26 17:27:41 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 10-26 17:27:41 AuthManager: Sign in OK — felipe role=admin
+[I] 10-26 17:27:42 TTS: Engine initialized OK
+[I] 10-26 17:27:42 TTS: Speaking: Badger live monitoring active
+[I] 10-26 17:27:42 BadgerService: Realtime subscribed OK -- badger-svc-fd37514c-13c8-409c-8093-f4f88903bc5e status=SUBSCRIBED
+[I] 10-26 17:28:46 TTS: Speaking: Truck 186-1, Transfer
+[I] 10-26 17:28:46 WatchNotif: ?? PUSHING NOTIF: Truck 186-1 - New ? Transfer (tag=watch_truck_186-1)
+[I] 10-26 17:28:46 WatchNotif: ?? Notif ID: -1201158781
+[I] 10-26 17:28:46 WatchNotif: ? Successfully sent to watch: Truck 186-1 - New ? Transfer
+[I] 10-26 17:42:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-26 17:42:40 BadgerService: Keepalive scheduled in 900s
