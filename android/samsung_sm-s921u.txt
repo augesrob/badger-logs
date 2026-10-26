@@ -1,21 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-26 17:57:40 ===
-[E] 10-22 20:12:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #220 in 300s)
-[E] 10-22 20:12:59 BadgerService: Realtime: 220 consecutive failures � cooling down 5 min
-[E] 10-22 20:18:46 BadgerService: Realtime: 221 consecutive failures � cooling down 5 min
-[E] 10-22 20:18:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #221 in 300s)
-[E] 10-22 20:24:32 BadgerService: Realtime: 222 consecutive failures � cooling down 5 min
-[E] 10-22 20:24:32 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #222 in 300s)
-[I] 10-22 20:24:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-22 20:24:50 BadgerService: Keepalive scheduled in 900s
-[W] 10-22 20:24:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 10-22 20:24:50 BadgerService: startRealtimeSync: in backoff for 282s more � skipping
-[I] 10-22 20:24:52 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
-[E] 10-22 20:30:19 BadgerService: Realtime: 223 consecutive failures � cooling down 5 min
-[E] 10-22 20:30:19 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #223 in 300s)
-[E] 10-22 20:36:05 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #224 in 300s)
-[E] 10-22 20:36:05 BadgerService: Realtime: 224 consecutive failures � cooling down 5 min
-[I] 10-22 20:39:50 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 10-22 20:39:50 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+=== samsung SM-S921U | v216 | shipped 2026-10-26 18:12:41 ===
 [I] 10-22 20:39:50 BadgerService: Keepalive scheduled in 900s
 [W] 10-22 20:39:50 BadgerService: startRealtimeSync: in backoff for 75s more � skipping
 [I] 10-22 20:39:52 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -499,3 +482,20 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-26 17:50:45 TTS: Speaking: Preshift updated
 [I] 10-26 17:57:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-26 17:57:40 BadgerService: Keepalive scheduled in 900s
+[I] 10-26 17:57:43 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 10-26 18:05:56 TTS: speak() returned -1 for: Truck 248-1, In Door — reinitializing, queued
+[I] 10-26 18:05:56 WatchNotif: ?? Notif ID: -1200352502
+[I] 10-26 18:05:56 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - Transfer ? In Door (tag=watch_truck_248-1)
+[I] 10-26 18:05:56 WatchNotif: ? Successfully sent to watch: Truck 248-1 - Transfer ? In Door
+[I] 10-26 18:05:56 TTS: Engine initialized OK
+[I] 10-26 18:05:56 TTS: Speaking: Truck 248-1, In Door
+[I] 10-26 18:06:43 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - Transfer ? In Door (tag=watch_truck_188-1)
+[I] 10-26 18:06:43 TTS: Speaking: Truck 188-1, In Door
+[I] 10-26 18:06:43 WatchNotif: ?? Notif ID: -1201156859
+[I] 10-26 18:06:43 WatchNotif: ? Successfully sent to watch: Truck 188-1 - Transfer ? In Door
+[I] 10-26 18:06:51 TTS: Speaking: Truck 189-1, In Door
+[I] 10-26 18:06:51 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - Transfer ? In Door (tag=watch_truck_189-1)
+[I] 10-26 18:06:51 WatchNotif: ?? Notif ID: -1201155898
+[I] 10-26 18:06:51 WatchNotif: ? Successfully sent to watch: Truck 189-1 - Transfer ? In Door
+[I] 10-26 18:12:40 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-26 18:12:40 BadgerService: Keepalive scheduled in 900s
