@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-10-27 02:38:43 ===
+=== samsung SM-S948U | v216 | shipped 2026-10-27 02:53:43 ===
 [I] 10-26 20:23:31 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [W] 10-26 20:23:38 BadgerService: onTaskRemoved -- rescheduling keepalive immediately
 [I] 10-26 20:23:38 BadgerService: Keepalive scheduled in 2s
@@ -324,3 +324,18 @@
 [I] 10-27 02:38:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-27 02:38:43 BadgerService: Keepalive scheduled in 900s
 [W] 10-27 02:38:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 10-27 02:38:44 LogShipper: Shipped 325 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 10-27 02:39:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #36 in 300s)
+[E] 10-27 02:39:31 BadgerService: Realtime: 36 consecutive failures � cooling down 5 min
+[W] 10-27 02:40:14 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-27 02:40:14 BadgerService: startRealtimeSync: in backoff for 256s more � skipping
+[E] 10-27 02:45:17 BadgerService: Realtime: 37 consecutive failures � cooling down 5 min
+[E] 10-27 02:45:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #37 in 300s)
+[W] 10-27 02:50:09 BadgerService: startRealtimeSync: in backoff for 7s more � skipping
+[W] 10-27 02:50:09 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-27 02:51:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #38 in 300s)
+[E] 10-27 02:51:04 BadgerService: Realtime: 38 consecutive failures � cooling down 5 min
+[I] 10-27 02:53:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-27 02:53:43 BadgerService: Keepalive scheduled in 900s
+[W] 10-27 02:53:43 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 10-27 02:53:43 BadgerService: startRealtimeSync: in backoff for 141s more � skipping
