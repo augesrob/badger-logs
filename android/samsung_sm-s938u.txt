@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-10-27 18:06:36 ===
+=== samsung SM-S938U | v216 | shipped 2026-10-27 18:21:36 ===
 [I] 10-26 01:45:17 LogShipper: Shipped 314 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 10-26 02:00:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-26 02:00:15 BadgerService: Keepalive scheduled in 900s
@@ -431,3 +431,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-27 17:59:47 WatchNotif: ? Successfully sent to watch: Truck 186-1 - New ? Transfer
 [I] 10-27 18:06:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-27 18:06:36 BadgerService: Keepalive scheduled in 900s
+[I] 10-27 18:06:38 LogShipper: Shipped 432 log lines to badger-logs/android/samsung_sm-s938u.txt
+[W] 10-27 18:06:41 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[E] 10-27 18:06:41 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 10-27 18:13:08 TTS: Speaking: Truck 248-1, In Door
+[I] 10-27 18:13:08 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - Transfer ? In Door (tag=watch_truck_248-1)
+[I] 10-27 18:13:08 WatchNotif: ?? Notif ID: -1200352502
+[I] 10-27 18:13:08 WatchNotif: ? Successfully sent to watch: Truck 248-1 - Transfer ? In Door
+[I] 10-27 18:13:55 TTS: Speaking: Truck 189-1, In Door
+[I] 10-27 18:13:55 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - Transfer ? In Door (tag=watch_truck_189-1)
+[I] 10-27 18:13:55 WatchNotif: ?? Notif ID: -1201155898
+[I] 10-27 18:13:55 WatchNotif: ? Successfully sent to watch: Truck 189-1 - Transfer ? In Door
+[I] 10-27 18:21:36 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-27 18:21:36 BadgerService: Keepalive scheduled in 900s
