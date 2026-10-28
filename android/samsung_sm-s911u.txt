@@ -1,19 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-27 23:24:54 ===
-[I] 10-27 03:39:53 BadgerService: Keepalive scheduled in 900s
-[I] 10-27 03:39:55 LogShipper: Shipped 355 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-27 03:54:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-27 03:54:53 BadgerService: Keepalive scheduled in 900s
-[I] 10-27 03:54:55 LogShipper: Shipped 358 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-27 04:09:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-27 04:09:53 BadgerService: Keepalive scheduled in 900s
-[I] 10-27 04:09:55 LogShipper: Shipped 361 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-27 04:24:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-27 04:24:53 BadgerService: Keepalive scheduled in 900s
-[I] 10-27 04:24:56 LogShipper: Shipped 364 log lines to badger-logs/android/samsung_sm-s911u.txt
-[I] 10-27 04:39:53 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-27 04:39:53 BadgerService: Keepalive scheduled in 900s
-[I] 10-27 04:39:55 LogShipper: Shipped 367 log lines to badger-logs/android/samsung_sm-s911u.txt
-[W] 10-27 04:50:47 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+=== samsung SM-S911U | v216 | shipped 2026-10-27 23:39:54 ===
 [E] 10-27 04:50:47 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
 [E] 10-27 04:50:57 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [E] 10-27 04:50:57 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
@@ -499,3 +484,18 @@
 [I] 10-27 23:09:56 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-27 23:24:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-27 23:24:54 BadgerService: Keepalive scheduled in 900s
+[I] 10-27 23:24:57 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 10-27 23:34:22 TTS: Speaking: Truck 148, In Door
+[I] 10-27 23:34:22 WatchNotif: ?? PUSHING NOTIF: Truck 148 - In Front ? In Door (tag=watch_truck_148)
+[I] 10-27 23:34:22 WatchNotif: ?? Notif ID: -658232539
+[I] 10-27 23:34:22 WatchNotif: ? Successfully sent to watch: Truck 148 - In Front ? In Door
+[I] 10-27 23:35:55 TTS: Speaking: Truck 187-1, 8
+[I] 10-27 23:35:55 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - In Door ? 8 (tag=watch_truck_187-1)
+[I] 10-27 23:35:55 WatchNotif: ?? Notif ID: -1201157820
+[I] 10-27 23:35:55 WatchNotif: ? Successfully sent to watch: Truck 187-1 - In Door ? 8
+[I] 10-27 23:38:47 TTS: Speaking: Truck 216, In Front
+[I] 10-27 23:38:47 WatchNotif: ?? PUSHING NOTIF: Truck 216 - Ready ? In Front (tag=watch_truck_216)
+[I] 10-27 23:38:47 WatchNotif: ?? Notif ID: -658231673
+[I] 10-27 23:38:47 WatchNotif: ? Successfully sent to watch: Truck 216 - Ready ? In Front
+[I] 10-27 23:39:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-27 23:39:54 BadgerService: Keepalive scheduled in 900s
