@@ -1,7 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-10-28 00:09:54 ===
-[E] 10-27 04:52:20 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
-[E] 10-27 04:52:31 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 10-27 04:52:31 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+=== samsung SM-S911U | v216 | shipped 2026-10-28 00:24:54 ===
 [E] 10-27 04:52:52 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [E] 10-27 04:52:52 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
 [E] 10-27 04:53:22 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
@@ -499,3 +496,6 @@
 [I] 10-27 23:54:56 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 10-28 00:09:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-28 00:09:54 BadgerService: Keepalive scheduled in 900s
+[I] 10-28 00:09:56 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s911u.txt
+[I] 10-28 00:24:54 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-28 00:24:54 BadgerService: Keepalive scheduled in 900s
