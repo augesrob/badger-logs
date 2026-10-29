@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-28 20:58:23 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-28 21:13:23 ===
 [I] 10-28 04:43:24 LogShipper: Shipped 286 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-28 04:58:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-28 04:58:22 BadgerService: Keepalive scheduled in 900s
@@ -359,3 +359,19 @@
 [I] 10-28 20:58:23 BadgerService: Keepalive scheduled in 900s
 [W] 10-28 20:58:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 10-28 20:58:23 BadgerService: startRealtimeSync: in backoff for 297s more � skipping
+[I] 10-28 20:58:25 LogShipper: Shipped 360 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 10-28 21:04:07 BadgerService: Realtime: 49 consecutive failures � cooling down 5 min
+[E] 10-28 21:04:07 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
+[W] 10-28 21:06:16 BadgerService: startRealtimeSync: in backoff for 171s more � skipping
+[W] 10-28 21:06:16 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-28 21:07:09 BadgerService: startRealtimeSync: in backoff for 118s more � skipping
+[W] 10-28 21:07:09 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 10-28 21:07:10 BadgerService: startRealtimeSync: in backoff for 117s more � skipping
+[W] 10-28 21:07:10 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-28 21:09:07 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
+[E] 10-28 21:09:54 BadgerService: Realtime: 50 consecutive failures � cooling down 5 min
+[E] 10-28 21:09:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #50 in 300s)
+[I] 10-28 21:13:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-28 21:13:23 BadgerService: Keepalive scheduled in 900s
+[W] 10-28 21:13:23 BadgerService: startRealtimeSync: in backoff for 90s more � skipping
+[W] 10-28 21:13:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
