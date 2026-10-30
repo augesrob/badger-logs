@@ -1,11 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-30 06:31:52 ===
-[W] 10-29 01:58:24 BadgerService: startRealtimeSync: in backoff for 70s more � skipping
-[I] 10-29 01:58:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-29 01:58:25 LogShipper: Shipped 307 log lines to badger-logs/android/samsung_sm-s921u.txt
-[E] 10-29 02:00:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #100 in 300s)
-[E] 10-29 02:00:21 BadgerService: Realtime: 100 consecutive failures � cooling down 5 min
-[I] 10-29 02:13:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-29 02:13:24 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S921U | v216 | shipped 2026-10-30 06:46:52 ===
 [W] 10-29 02:13:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 10-29 02:13:26 LogShipper: Shipped 313 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-29 02:28:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +492,10 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 10-30 06:16:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 10-30 06:31:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-30 06:31:52 BadgerService: Keepalive scheduled in 900s
+[I] 10-30 06:31:55 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 10-30 06:34:53 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 10-30 06:34:54 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 10-30 06:35:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 10-30 06:35:53 BadgerService: Realtime subscribed OK -- badger-svc-fd39d982-603c-4cfb-98d9-5193882f768f status=SUBSCRIBED
+[I] 10-30 06:46:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-30 06:46:52 BadgerService: Keepalive scheduled in 900s
