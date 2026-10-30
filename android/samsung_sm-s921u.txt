@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-10-30 01:58:25 ===
+=== samsung SM-S921U | v216 | shipped 2026-10-30 02:46:52 ===
 [I] 10-29 01:28:23 BadgerService: Keepalive scheduled in 900s
 [W] 10-29 01:28:23 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 10-29 01:28:23 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
@@ -434,3 +434,37 @@
 [I] 10-30 01:58:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 10-30 01:58:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 10-30 01:58:25 BadgerService: Keepalive scheduled in 900s
+[I] 10-30 01:58:27 LogShipper: Shipped 435 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 10-30 02:31:52 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-30 02:31:52 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 10-30 02:31:52 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 10-30 02:31:52 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 10-30 02:31:52 AuthManager: Session expired — trying HWID silent login
+[I] 10-30 02:31:52 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 10-30 02:31:52 BadgerService: Keepalive scheduled in 900s
+[I] 10-30 02:31:52 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 10-30 02:31:52 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 10-30 02:31:52 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 10-30 02:31:53 TTS: Engine initialized OK
+[I] 10-30 02:31:53 TTS: Speaking: Badger live monitoring active
+[I] 10-30 02:31:54 AuthManager: Sign in OK — felipe role=admin
+[I] 10-30 02:31:54 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 10-30 02:31:54 AuthManager: HWID silent login OK
+[W] 10-30 02:31:54 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 10-30 02:31:55 BadgerService: Realtime subscribed OK -- badger-svc-1e197e61-e239-4961-badf-a0ea37f3a5ed status=SUBSCRIBED
+[I] 10-30 02:34:27 TTS: Speaking: Truck 186-2, On Route
+[I] 10-30 02:34:27 WatchNotif: ?? PUSHING NOTIF: Truck 186-2 - In Door ? On Route (tag=watch_truck_186-2)
+[I] 10-30 02:34:27 WatchNotif: ?? Notif ID: -1201158780
+[I] 10-30 02:34:27 WatchNotif: ? Successfully sent to watch: Truck 186-2 - In Door ? On Route
+[I] 10-30 02:41:58 TTS: Speaking: Truck 224-1, On Route
+[I] 10-30 02:41:58 WatchNotif: ?? Notif ID: -1200415928
+[I] 10-30 02:41:58 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - 8 ? On Route (tag=watch_truck_224-1)
+[I] 10-30 02:41:58 WatchNotif: ? Successfully sent to watch: Truck 224-1 - 8 ? On Route
+[I] 10-30 02:42:42 TTS: Speaking: Truck 187-1, On Route
+[I] 10-30 02:42:42 WatchNotif: ?? Notif ID: -1201157820
+[I] 10-30 02:42:42 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - 8 ? On Route (tag=watch_truck_187-1)
+[I] 10-30 02:42:42 WatchNotif: ? Successfully sent to watch: Truck 187-1 - 8 ? On Route
+[I] 10-30 02:46:52 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 10-30 02:46:52 BadgerService: Keepalive scheduled in 900s
