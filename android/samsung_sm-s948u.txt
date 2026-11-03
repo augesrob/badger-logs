@@ -1,9 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-03 00:09:39 ===
-[W] 10-27 01:53:43 BadgerService: startRealtimeSync: in backoff for 225s more � skipping
-[I] 10-27 01:53:44 LogShipper: Shipped 291 log lines to badger-logs/android/samsung_sm-s948u.txt
-[E] 10-27 01:58:17 BadgerService: Realtime: 29 consecutive failures � cooling down 5 min
-[E] 10-27 01:58:17 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #29 in 300s)
-[E] 10-27 02:04:03 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #30 in 300s)
+=== samsung SM-S948U | v216 | shipped 2026-11-03 00:24:39 ===
 [E] 10-27 02:04:03 BadgerService: Realtime: 30 consecutive failures � cooling down 5 min
 [I] 10-27 02:08:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 10-27 02:08:43 BadgerService: Keepalive scheduled in 900s
@@ -499,3 +494,8 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-02 23:54:40 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 11-03 00:09:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-03 00:09:39 BadgerService: Keepalive scheduled in 900s
+[I] 11-03 00:09:41 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 11-03 00:21:38 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[I] 11-03 00:21:44 BadgerService: Realtime subscribed OK -- badger-svc-f40e54a2-57ba-4103-b1eb-0413b8fa7a27 status=SUBSCRIBED
+[I] 11-03 00:24:39 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-03 00:24:39 BadgerService: Keepalive scheduled in 900s
