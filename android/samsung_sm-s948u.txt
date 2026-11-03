@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-02 19:54:38 ===
+=== samsung SM-S948U | v216 | shipped 2026-11-02 20:09:38 ===
 [E] 10-27 01:40:56 BadgerService: Realtime: 26 consecutive failures � cooling down 5 min
 [E] 10-27 01:40:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #26 in 300s)
 [W] 10-27 01:41:55 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
@@ -290,3 +290,23 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-02 19:54:38 BadgerService: Keepalive scheduled in 900s
 [W] 11-02 19:54:38 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-02 19:54:38 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
+[I] 11-02 19:54:41 LogShipper: Shipped 291 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 11-02 19:57:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #16 in 300s)
+[E] 11-02 19:57:43 BadgerService: Realtime: 16 consecutive failures � cooling down 5 min
+[E] 11-02 20:03:29 BadgerService: Realtime: 17 consecutive failures � cooling down 5 min
+[E] 11-02 20:03:29 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #17 in 300s)
+[I] 11-02 20:05:40 AppUpdater: Checking via website (current=216)
+[I] 11-02 20:05:41 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-02 20:05:41 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-02 20:05:42 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-02 20:07:43 AppUpdater: Checking via website (current=216)
+[I] 11-02 20:07:45 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-02 20:07:45 AppUpdater: Checking via website (current=216)
+[W] 11-02 20:07:45 AppUpdater: GitHub direct check failed: Job was cancelled
+[W] 11-02 20:07:45 AppUpdater: Website check failed: Job was cancelled — trying GitHub direct
+[I] 11-02 20:07:45 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-02 20:07:45 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-02 20:07:46 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-02 20:08:31 BadgerService: Realtime subscribed OK -- badger-svc-160052d7-6a39-4548-aa34-683ad97b8d5f status=SUBSCRIBED
+[I] 11-02 20:09:38 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-02 20:09:38 BadgerService: Keepalive scheduled in 900s
