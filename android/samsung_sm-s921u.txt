@@ -1,13 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-02 21:49:22 ===
-[I] 10-29 04:43:26 LogShipper: Shipped 355 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 10-29 04:58:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 10-29 04:58:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 10-29 04:58:24 BadgerService: Keepalive scheduled in 900s
-[I] 10-29 04:58:26 LogShipper: Shipped 358 log lines to badger-logs/android/samsung_sm-s921u.txt
-[W] 10-29 05:04:58 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
-[I] 10-29 05:13:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 10-29 05:13:24 BadgerService: Keepalive scheduled in 900s
-[W] 10-29 05:13:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+=== samsung SM-S921U | v216 | shipped 2026-11-02 22:04:22 ===
 [E] 10-29 05:13:24 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
 [I] 10-29 05:13:26 LogShipper: Shipped 365 log lines to badger-logs/android/samsung_sm-s921u.txt
 [W] 10-29 05:18:27 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
@@ -499,3 +490,12 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-02 21:34:24 BadgerService: Realtime subscribed OK -- badger-svc-1531e10d-83cd-4572-bd43-146280e2aa2f status=SUBSCRIBED
 [I] 11-02 21:49:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-02 21:49:22 BadgerService: Keepalive scheduled in 900s
+[I] 11-02 21:49:24 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 11-02 21:55:55 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 11-02 21:56:01 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 11-02 21:56:01 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 11-02 21:56:03 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[W] 11-02 21:56:03 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-02 21:56:13 BadgerService: Realtime subscribed OK -- badger-svc-58e4a185-6e01-4bc7-9395-52e436fde9ff status=SUBSCRIBED
+[I] 11-02 22:04:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-02 22:04:22 BadgerService: Keepalive scheduled in 900s
