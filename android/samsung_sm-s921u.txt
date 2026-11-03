@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-03 11:34:23 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-03 11:49:23 ===
 [I] 11-02 22:12:59 WatchNotif: ? Successfully sent to watch: Truck 241 - In Back ? In Front
 [I] 11-02 22:13:02 TTS: Speaking: Truck 246, In Front
 [I] 11-02 22:13:02 WatchNotif: ?? PUSHING NOTIF: Truck 246 - Ready ? In Front (tag=watch_truck_246)
@@ -405,3 +405,14 @@
 [I] 11-03 11:19:25 LogShipper: Shipped 403 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 11-03 11:34:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-03 11:34:23 BadgerService: Keepalive scheduled in 900s
+[I] 11-03 11:34:25 LogShipper: Shipped 406 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 11-03 11:34:59 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 11-03 11:35:01 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-03 11:35:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 11-03 11:36:00 BadgerService: Realtime subscribed OK -- badger-svc-e3ea94ff-63fb-4ca1-bf46-6118268e8af5 status=SUBSCRIBED
+[W] 11-03 11:44:08 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 11-03 11:44:18 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 11-03 11:44:18 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 11-03 11:44:30 BadgerService: Realtime subscribed OK -- badger-svc-5b244ed7-3a2d-4a24-ae6d-6cf611fc5b9d status=SUBSCRIBED
+[I] 11-03 11:49:23 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-03 11:49:23 BadgerService: Keepalive scheduled in 900s
