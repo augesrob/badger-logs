@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-04 17:20:56 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-04 17:35:56 ===
 [I] 11-04 00:34:24 BadgerService: Keepalive scheduled in 900s
 [W] 11-04 00:34:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-04 00:34:24 BadgerService: startRealtimeSync: in backoff for 283s more � skipping
@@ -409,3 +409,17 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-04 17:20:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [W] 11-04 17:20:56 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-04 17:20:56 BadgerService: startRealtimeSync: in backoff for 35s more � skipping
+[I] 11-04 17:20:56 BadgerService: Keepalive scheduled in 900s
+[I] 11-04 17:20:59 LogShipper: Shipped 410 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-04 17:22:18 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #38 in 300s)
+[E] 11-04 17:22:18 BadgerService: Realtime: 38 consecutive failures � cooling down 5 min
+[W] 11-04 17:25:21 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-04 17:25:21 BadgerService: startRealtimeSync: in backoff for 116s more � skipping
+[E] 11-04 17:28:04 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #39 in 300s)
+[E] 11-04 17:28:04 BadgerService: Realtime: 39 consecutive failures � cooling down 5 min
+[E] 11-04 17:33:51 BadgerService: Realtime: 40 consecutive failures � cooling down 5 min
+[E] 11-04 17:33:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #40 in 300s)
+[I] 11-04 17:35:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-04 17:35:56 BadgerService: Keepalive scheduled in 900s
+[W] 11-04 17:35:56 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-04 17:35:56 BadgerService: startRealtimeSync: in backoff for 174s more � skipping
