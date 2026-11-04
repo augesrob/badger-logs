@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-04 01:04:24 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-04 01:34:24 ===
 [I] 11-03 18:04:26 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 11-03 18:06:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #11 in 300s)
 [E] 11-03 18:06:21 BadgerService: Realtime: 11 consecutive failures � cooling down 5 min
@@ -302,3 +302,28 @@
 [I] 11-04 01:04:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-04 01:04:24 BadgerService: Keepalive scheduled in 900s
 [W] 11-04 01:04:24 BadgerService: startRealtimeSync: in backoff for 214s more � skipping
+[W] 11-04 01:04:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-04 01:04:26 LogShipper: Shipped 303 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-04 01:08:44 BadgerService: Realtime: 84 consecutive failures � cooling down 5 min
+[E] 11-04 01:08:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #84 in 300s)
+[E] 11-04 01:14:30 BadgerService: Realtime: 85 consecutive failures � cooling down 5 min
+[E] 11-04 01:14:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #85 in 300s)
+[W] 11-04 01:16:58 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-04 01:16:58 BadgerService: startRealtimeSync: in backoff for 151s more � skipping
+[I] 11-04 01:19:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 11-04 01:19:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-04 01:19:24 BadgerService: Keepalive scheduled in 900s
+[W] 11-04 01:19:24 BadgerService: startRealtimeSync: in backoff for 6s more � skipping
+[E] 11-04 01:19:34 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 11-04 01:19:34 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #86 in 300s)
+[E] 11-04 01:19:34 BadgerService: Realtime: 86 consecutive failures � cooling down 5 min
+[W] 11-04 01:19:36 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-04 01:19:36 BadgerService: startRealtimeSync: in backoff for 298s more � skipping
+[W] 11-04 01:22:18 BadgerService: startRealtimeSync: in backoff for 136s more � skipping
+[W] 11-04 01:22:18 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-04 01:24:57 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-04 01:27:57 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-04 01:27:57 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[I] 11-04 01:34:24 BadgerService: Keepalive scheduled in 900s
+[W] 11-04 01:34:24 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-04 01:34:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
