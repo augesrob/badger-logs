@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-11-05 21:25:48 ===
+=== samsung SM-S911U | v216 | shipped 2026-11-05 21:40:48 ===
 [I] 11-05 01:09:44 BadgerService: Realtime subscribed OK -- badger-svc-92c734a8-9f5c-4499-b564-d816a91787bc status=SUBSCRIBED
 [I] 11-05 01:10:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-05 01:10:47 BadgerService: Keepalive scheduled in 900s
@@ -450,3 +450,13 @@
 [I] 11-05 21:10:50 LogShipper: Shipped 448 log lines to badger-logs/android/samsung_sm-s911u.txt
 [I] 11-05 21:25:48 BadgerService: Keepalive scheduled in 900s
 [I] 11-05 21:25:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-05 21:25:50 LogShipper: Shipped 451 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 11-05 21:38:08 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Socket timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, socket_timeout=unknown] ms -- restarting
+[E] 11-05 21:38:08 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 3, size: 3
+[E] 11-05 21:38:10 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 11-05 21:38:10 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[W] 11-05 21:38:12 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-05 21:38:12 BadgerService: startRealtimeSync: in backoff for 8s more � skipping
+[I] 11-05 21:38:22 BadgerService: Realtime subscribed OK -- badger-svc-3f9d22d3-f61e-4eed-bbda-0dd8f7ffd79e status=SUBSCRIBED
+[I] 11-05 21:40:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-05 21:40:48 BadgerService: Keepalive scheduled in 900s
