@@ -1,4 +1,4 @@
-=== samsung SM-S911U | v216 | shipped 2026-11-05 21:55:48 ===
+=== samsung SM-S911U | v216 | shipped 2026-11-05 22:10:48 ===
 [I] 11-05 01:09:44 BadgerService: Realtime subscribed OK -- badger-svc-92c734a8-9f5c-4499-b564-d816a91787bc status=SUBSCRIBED
 [I] 11-05 01:10:47 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-05 01:10:47 BadgerService: Keepalive scheduled in 900s
@@ -471,3 +471,22 @@
 [I] 11-05 21:55:03 WatchNotif: ? Successfully sent to watch: Truck 186-1 - In Door ? On Route
 [I] 11-05 21:55:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-05 21:55:48 BadgerService: Keepalive scheduled in 900s
+[I] 11-05 21:55:50 LogShipper: Shipped 472 log lines to badger-logs/android/samsung_sm-s911u.txt
+[W] 11-05 21:59:49 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 11-05 21:59:50 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-05 22:00:37 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 11-05 22:00:49 BadgerService: Realtime subscribed OK -- badger-svc-355a08a9-f71f-4a96-af02-ef2a7a592d14 status=SUBSCRIBED
+[I] 11-05 22:05:51 TTS: Speaking: Truck 231-1, On Route
+[I] 11-05 22:05:51 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - In Door ? On Route (tag=watch_truck_231-1)
+[I] 11-05 22:05:51 WatchNotif: ?? Notif ID: -1200389020
+[I] 11-05 22:05:51 WatchNotif: ? Successfully sent to watch: Truck 231-1 - In Door ? On Route
+[I] 11-05 22:06:15 TTS: Speaking: Truck 261, In Front
+[I] 11-05 22:06:15 WatchNotif: ?? PUSHING NOTIF: Truck 261 - In Back ? In Front (tag=watch_truck_261)
+[I] 11-05 22:06:15 WatchNotif: ?? Notif ID: -658231523
+[I] 11-05 22:06:15 WatchNotif: ? Successfully sent to watch: Truck 261 - In Back ? In Front
+[I] 11-05 22:09:23 TTS: Speaking: Truck 240, In Front
+[I] 11-05 22:09:23 WatchNotif: ?? PUSHING NOTIF: Truck 240 - Ready ? In Front (tag=watch_truck_240)
+[I] 11-05 22:09:23 WatchNotif: ?? Notif ID: -658231586
+[I] 11-05 22:09:23 WatchNotif: ? Successfully sent to watch: Truck 240 - Ready ? In Front
+[I] 11-05 22:10:48 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-05 22:10:48 BadgerService: Keepalive scheduled in 900s
