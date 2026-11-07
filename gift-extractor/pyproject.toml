@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "giftkit"
+version = "0.1.0"
+description = "Collect TikTok LIVE gift animations and convert them to transparent video for OBS overlays"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=10.0",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+# A self-contained ffmpeg, for machines without a system one.
+ffmpeg = ["imageio-ffmpeg>=0.4.9"]
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+giftkit = "giftkit.cli:main"
+
+[tool.setuptools]
+packages = ["giftkit", "giftkit.sources", "giftkit.formats"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["error::DeprecationWarning"]
