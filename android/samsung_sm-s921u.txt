@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-09 22:13:15 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-09 22:28:15 ===
 [W] 11-05 23:19:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 11-05 23:19:36 LogShipper: Shipped 307 log lines to badger-logs/android/samsung_sm-s921u.txt
 [W] 11-05 23:31:43 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
@@ -311,3 +311,24 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-09 21:58:16 LogShipper: Shipped 309 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 11-09 22:13:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-09 22:13:15 BadgerService: Keepalive scheduled in 900s
+[I] 11-09 22:13:16 LogShipper: Shipped 312 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 11-09 22:24:28 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[W] 11-09 22:24:37 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-09 22:24:37 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+[E] 11-09 22:24:38 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 11-09 22:24:38 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
+[I] 11-09 22:24:50 BadgerService: Realtime subscribed OK -- badger-svc-8ab0f6e5-6168-404a-a366-f57e62434ba1 status=SUBSCRIBED
+[I] 11-09 22:25:39 TTS: Speaking: Truck 231-1, 10
+[I] 11-09 22:25:39 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - 12B ? 10 (tag=watch_truck_231-1)
+[I] 11-09 22:25:39 WatchNotif: ?? Notif ID: -1200389020
+[I] 11-09 22:25:39 WatchNotif: ? Successfully sent to watch: Truck 231-1 - 12B ? 10
+[I] 11-09 22:26:52 TTS: Speaking: Truck 243, Yard
+[I] 11-09 22:26:52 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Door ? Yard (tag=watch_truck_243)
+[I] 11-09 22:26:52 WatchNotif: ?? Notif ID: -658231583
+[I] 11-09 22:26:52 WatchNotif: ? Successfully sent to watch: Truck 243 - In Door ? Yard
+[I] 11-09 22:27:55 TTS: Speaking: Truck 261, In Front
+[I] 11-09 22:27:55 WatchNotif: ?? PUSHING NOTIF: Truck 261 - Ready ? In Front (tag=watch_truck_261)
+[I] 11-09 22:27:55 WatchNotif: ?? Notif ID: -658231523
+[I] 11-09 22:27:55 WatchNotif: ? Successfully sent to watch: Truck 261 - Ready ? In Front
+[I] 11-09 22:28:15 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-09 22:28:15 BadgerService: Keepalive scheduled in 900s
