@@ -1,7 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-10 14:28:16 ===
-[W] 11-09 22:24:28 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[W] 11-09 22:24:37 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 11-09 22:24:37 BadgerRepo: getLiveMovement FAILED: StandaloneCoroutine was cancelled
+=== samsung SM-S921U | v216 | shipped 2026-11-10 14:43:16 ===
 [E] 11-09 22:24:38 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
 [E] 11-09 22:24:38 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #1 in 10s)
 [I] 11-09 22:24:50 BadgerService: Realtime subscribed OK -- badger-svc-8ab0f6e5-6168-404a-a366-f57e62434ba1 status=SUBSCRIBED
@@ -499,3 +496,6 @@
 [I] 11-10 14:13:18 LogShipper: Shipped 498 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 11-10 14:28:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-10 14:28:16 BadgerService: Keepalive scheduled in 900s
+[I] 11-10 14:28:18 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 11-10 14:43:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-10 14:43:16 BadgerService: Keepalive scheduled in 900s
