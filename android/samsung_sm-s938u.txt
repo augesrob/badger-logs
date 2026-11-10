@@ -1,4 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-11-09 21:26:09 ===
+=== samsung SM-S938U | v216 | shipped 2026-11-09 21:41:09 ===
 [I] 11-09 07:50:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-09 07:50:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 11-09 08:05:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -448,3 +448,28 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-09 21:22:16 WatchNotif: ? Successfully sent to watch: Truck 220 - Ready ? In Front
 [I] 11-09 21:26:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-09 21:26:09 BadgerService: Keepalive scheduled in 900s
+[I] 11-09 21:26:11 LogShipper: Shipped 449 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 11-09 21:30:41 TTS: Speaking: Truck 189-1, On Route
+[I] 11-09 21:30:41 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - In Door ? On Route (tag=watch_truck_189-1)
+[I] 11-09 21:30:41 WatchNotif: ?? Notif ID: -1201155898
+[I] 11-09 21:30:41 WatchNotif: ? Successfully sent to watch: Truck 189-1 - In Door ? On Route
+[I] 11-09 21:30:47 TTS: Speaking: Truck 243, In Door
+[I] 11-09 21:30:47 WatchNotif: ?? PUSHING NOTIF: Truck 243 - In Front ? In Door (tag=watch_truck_243)
+[I] 11-09 21:30:47 WatchNotif: ?? Notif ID: -658231583
+[I] 11-09 21:30:47 WatchNotif: ? Successfully sent to watch: Truck 243 - In Front ? In Door
+[W] 11-09 21:34:05 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 11-09 21:34:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[I] 11-09 21:35:11 AppUpdater: Checking via website (current=216)
+[I] 11-09 21:35:12 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-09 21:35:12 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-09 21:35:13 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-09 21:35:23 Movement: Truck 246 status → In Front Stage
+[I] 11-09 21:35:23 BadgerRepo: updateMovementStatus OK — truck=246 statusId=40
+[I] 11-09 21:35:39 AppUpdater: Checking via website (current=216)
+[I] 11-09 21:35:39 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-09 21:35:39 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-09 21:35:39 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[E] 11-09 21:35:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[I] 11-09 21:36:11 BadgerService: Realtime subscribed OK -- badger-svc-42965bab-f77d-4ba1-920f-3bfc285edcb7 status=SUBSCRIBED
+[I] 11-09 21:41:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-09 21:41:09 BadgerService: Keepalive scheduled in 900s
