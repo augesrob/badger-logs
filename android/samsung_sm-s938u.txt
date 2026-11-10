@@ -1,15 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-11-09 22:11:09 ===
-[I] 11-09 08:05:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-09 08:05:56 BadgerService: Keepalive scheduled in 900s
-[I] 11-09 08:05:58 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[W] 11-09 08:14:17 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 11-09 08:14:17 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
-[I] 11-09 08:14:30 BadgerService: Realtime subscribed OK -- badger-svc-b3f8d79d-e07a-4b28-9308-40e000dabeb1 status=SUBSCRIBED
-[W] 11-09 08:14:55 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 11-09 08:15:06 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[E] 11-09 08:15:06 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[I] 11-09 08:15:17 BadgerService: Realtime subscribed OK -- badger-svc-be86aaf2-4099-406f-b359-70b9adf53d06 status=SUBSCRIBED
-[I] 11-09 08:20:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+=== samsung SM-S938U | v216 | shipped 2026-11-09 22:26:09 ===
 [I] 11-09 08:20:56 BadgerService: Keepalive scheduled in 900s
 [I] 11-09 08:20:58 LogShipper: Shipped 329 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 11-09 08:35:56 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +488,14 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-09 21:56:10 LogShipper: Shipped 499 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 11-09 22:11:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-09 22:11:09 BadgerService: Keepalive scheduled in 900s
+[I] 11-09 22:11:10 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 11-09 22:24:16 TTS: Speaking: Truck 256, In Door
+[I] 11-09 22:24:17 WatchNotif: ?? PUSHING NOTIF: Truck 256 - In Front ? In Door (tag=watch_truck_256)
+[I] 11-09 22:24:17 WatchNotif: ?? Notif ID: -658231549
+[I] 11-09 22:24:17 WatchNotif: ? Successfully sent to watch: Truck 256 - In Front ? In Door
+[I] 11-09 22:25:39 TTS: Speaking: Truck 231-1, 10
+[I] 11-09 22:25:39 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - 12B ? 10 (tag=watch_truck_231-1)
+[I] 11-09 22:25:39 WatchNotif: ?? Notif ID: -1200389020
+[I] 11-09 22:25:39 WatchNotif: ? Successfully sent to watch: Truck 231-1 - 12B ? 10
+[I] 11-09 22:26:09 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-09 22:26:09 BadgerService: Keepalive scheduled in 900s
