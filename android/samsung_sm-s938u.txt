@@ -1,32 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-11-11 11:58:24 ===
-[W] 11-10 11:54:34 BadgerService: startRealtimeSync: in backoff for 5s more � skipping
-[I] 11-10 11:54:36 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 11-10 11:55:26 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #136 in 300s)
-[E] 11-10 11:55:26 BadgerService: Realtime: 136 consecutive failures � cooling down 5 min
-[E] 11-10 12:01:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #137 in 300s)
-[E] 11-10 12:01:12 BadgerService: Realtime: 137 consecutive failures � cooling down 5 min
-[E] 11-10 12:06:58 BadgerService: Realtime: 138 consecutive failures � cooling down 5 min
-[E] 11-10 12:06:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #138 in 300s)
-[I] 11-10 12:09:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-10 12:09:34 BadgerService: Keepalive scheduled in 900s
-[W] 11-10 12:09:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[W] 11-10 12:09:34 BadgerService: startRealtimeSync: in backoff for 144s more � skipping
-[I] 11-10 12:09:36 LogShipper: Shipped 271 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 11-10 12:11:58 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 2, size: 2
-[E] 11-10 12:12:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #139 in 300s)
-[E] 11-10 12:12:45 BadgerService: Realtime: 139 consecutive failures � cooling down 5 min
-[W] 11-10 12:18:02 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
-[E] 11-10 12:18:48 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #140 in 300s)
-[E] 11-10 12:18:48 BadgerService: Realtime: 140 consecutive failures � cooling down 5 min
-[I] 11-10 12:24:34 BadgerService: Keepalive scheduled in 900s
-[W] 11-10 12:24:34 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-10 12:24:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-10 12:24:36 LogShipper: Shipped 281 log lines to badger-logs/android/samsung_sm-s938u.txt
-[E] 11-10 12:25:20 BadgerService: Realtime: 141 consecutive failures � cooling down 5 min
-[E] 11-10 12:25:20 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #141 in 300s)
-[E] 11-10 12:31:06 BadgerService: Realtime: 142 consecutive failures � cooling down 5 min
-[E] 11-10 12:31:06 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #142 in 300s)
-[E] 11-10 12:36:52 BadgerService: Realtime: 143 consecutive failures � cooling down 5 min
+=== samsung SM-S938U | v216 | shipped 2026-11-11 12:13:24 ===
 [E] 11-10 12:36:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #143 in 300s)
 [I] 11-10 12:39:34 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-10 12:39:34 BadgerService: Keepalive scheduled in 900s
@@ -491,3 +463,39 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-11 11:43:26 LogShipper: Shipped 489 log lines to badger-logs/android/samsung_sm-s938u.txt
 [I] 11-11 11:58:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-11 11:58:24 BadgerService: Keepalive scheduled in 900s
+[I] 11-11 11:58:26 LogShipper: Shipped 492 log lines to badger-logs/android/samsung_sm-s938u.txt
+[I] 11-11 12:00:01 TTS: Speaking: Door 13B, Loading
+[I] 11-11 12:00:01 TTS: Speaking: Preshift updated
+[I] 11-11 12:00:01 WatchNotif: ?? PUSHING NOTIF: Door 13B - Done for Night ? Loading (tag=watch_door_13B)
+[I] 11-11 12:00:01 WatchNotif: ?? Notif ID: -108073025
+[I] 11-11 12:00:01 WatchNotif: ? Successfully sent to watch: Door 13B - Done for Night ? Loading
+[I] 11-11 12:00:01 TTS: Speaking: Door 15A, Loading
+[I] 11-11 12:00:01 WatchNotif: ?? PUSHING NOTIF: Door 15A - Done for Night ? Loading (tag=watch_door_15A)
+[I] 11-11 12:00:01 WatchNotif: ?? Notif ID: -108072964
+[I] 11-11 12:00:01 WatchNotif: ? Successfully sent to watch: Door 15A - Done for Night ? Loading
+[I] 11-11 12:00:01 TTS: Speaking: Door 15B, Loading
+[I] 11-11 12:00:01 WatchNotif: ?? PUSHING NOTIF: Door 15B - Done for Night ? Loading (tag=watch_door_15B)
+[I] 11-11 12:00:01 WatchNotif: ?? Notif ID: -108072963
+[I] 11-11 12:00:01 WatchNotif: ? Successfully sent to watch: Door 15B - Done for Night ? Loading
+[I] 11-11 12:00:58 TTS: Speaking: Truck 148, Put Away
+[I] 11-11 12:00:58 WatchNotif: ?? PUSHING NOTIF: Truck 148 - New ? Put Away (tag=watch_truck_148)
+[I] 11-11 12:00:58 WatchNotif: ?? Notif ID: -658232539
+[I] 11-11 12:00:58 WatchNotif: ? Successfully sent to watch: Truck 148 - New ? Put Away
+[I] 11-11 12:01:02 TTS: Speaking: Truck 246, Put Away
+[I] 11-11 12:01:02 WatchNotif: ?? PUSHING NOTIF: Truck 246 - New ? Put Away (tag=watch_truck_246)
+[I] 11-11 12:01:02 WatchNotif: ?? Notif ID: -658231580
+[I] 11-11 12:01:02 WatchNotif: ? Successfully sent to watch: Truck 246 - New ? Put Away
+[I] 11-11 12:01:05 TTS: Speaking: Truck 187-1, On Route
+[I] 11-11 12:01:05 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - New ? On Route (tag=watch_truck_187-1)
+[I] 11-11 12:01:05 WatchNotif: ?? Notif ID: -1201157820
+[I] 11-11 12:01:05 WatchNotif: ? Successfully sent to watch: Truck 187-1 - New ? On Route
+[I] 11-11 12:01:06 TTS: Speaking: Truck 231-1, On Route
+[I] 11-11 12:01:06 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - New ? On Route (tag=watch_truck_231-1)
+[I] 11-11 12:01:06 WatchNotif: ?? Notif ID: -1200389020
+[I] 11-11 12:01:06 WatchNotif: ? Successfully sent to watch: Truck 231-1 - New ? On Route
+[I] 11-11 12:01:08 TTS: Speaking: Truck 188-1, On Route
+[I] 11-11 12:01:08 WatchNotif: ?? PUSHING NOTIF: Truck 188-1 - New ? On Route (tag=watch_truck_188-1)
+[I] 11-11 12:01:08 WatchNotif: ?? Notif ID: -1201156859
+[I] 11-11 12:01:08 WatchNotif: ? Successfully sent to watch: Truck 188-1 - New ? On Route
+[I] 11-11 12:13:24 BadgerService: Keepalive scheduled in 900s
+[I] 11-11 12:13:24 BadgerService: Keepalive alarm fired -- service alive, rescheduling
