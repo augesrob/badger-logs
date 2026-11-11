@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-11 01:58:16 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-11 03:28:19 ===
 [I] 11-10 17:58:16 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-10 17:58:16 BadgerService: Keepalive scheduled in 900s
 [I] 11-10 17:58:18 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -402,3 +402,47 @@
 [I] 11-11 01:58:16 BadgerService: Keepalive scheduled in 900s
 [W] 11-11 01:58:16 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-11 01:58:16 BadgerService: startRealtimeSync: in backoff for 232s more � skipping
+[I] 11-11 01:58:18 LogShipper: Shipped 403 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-11 02:02:08 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 11-11 02:02:55 BadgerService: Realtime: 77 consecutive failures � cooling down 5 min
+[E] 11-11 02:02:55 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #77 in 300s)
+[E] 11-11 02:08:41 BadgerService: Realtime: 78 consecutive failures � cooling down 5 min
+[E] 11-11 02:08:41 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #78 in 300s)
+[I] 11-11 03:13:19 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 11-11 03:13:19 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[W] 11-11 03:13:19 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 11-11 03:13:19 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 11-11 03:13:19 AuthManager: Session expired — trying HWID silent login
+[I] 11-11 03:13:19 AuthManager: HWID silent login for felipe@badgerliquor.com
+[I] 11-11 03:13:19 BadgerService: Keepalive scheduled in 900s
+[I] 11-11 03:13:19 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 11-11 03:13:19 FCM: ?? FCM Token: dvTBy6v-SeeqNwaR4dsK...
+[E] 11-11 03:13:19 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 11-11 03:13:19 TTS: Engine initialized OK
+[I] 11-11 03:13:19 TTS: Speaking: Badger live monitoring active
+[W] 11-11 03:13:20 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-11 03:13:20 BadgerRepo: getLoadingDoors FAILED: StandaloneCoroutine was cancelled
+[I] 11-11 03:13:21 AuthManager: HWID silent login OK
+[I] 11-11 03:13:21 AuthManager: Sign in OK — felipe role=admin
+[I] 11-11 03:13:21 AuthManager: Profile realtime watch started for ab7ead08-515b-49cd-9dc1-3b45005ae801
+[I] 11-11 03:13:22 BadgerService: Realtime subscribed OK -- badger-svc-cf5884f9-5fa6-4531-b319-c96c7994eeac status=SUBSCRIBED
+[I] 11-11 03:13:33 TTS: Speaking: Truck 216, Put Away
+[I] 11-11 03:13:33 WatchNotif: ?? Notif ID: -658231673
+[I] 11-11 03:13:33 WatchNotif: ?? PUSHING NOTIF: Truck 216 - In Door ? Put Away (tag=watch_truck_216)
+[I] 11-11 03:13:33 WatchNotif: ? Successfully sent to watch: Truck 216 - In Door ? Put Away
+[I] 11-11 03:14:21 TTS: Speaking: Door 13B, Done for Night
+[I] 11-11 03:14:21 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? Done for Night (tag=watch_door_13B)
+[I] 11-11 03:14:21 WatchNotif: ?? Notif ID: -108073025
+[I] 11-11 03:14:21 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? Done for Night
+[I] 11-11 03:14:34 TTS: Speaking: Door 15B, Done for Night
+[I] 11-11 03:14:34 WatchNotif: ?? Notif ID: -108072963
+[I] 11-11 03:14:34 WatchNotif: ?? PUSHING NOTIF: Door 15B - Loading ? Done for Night (tag=watch_door_15B)
+[I] 11-11 03:14:34 WatchNotif: ? Successfully sent to watch: Door 15B - Loading ? Done for Night
+[I] 11-11 03:14:39 TTS: Speaking: Door 15A, Done for Night
+[I] 11-11 03:14:39 WatchNotif: ?? PUSHING NOTIF: Door 15A - Loading ? Done for Night (tag=watch_door_15A)
+[I] 11-11 03:14:39 WatchNotif: ?? Notif ID: -108072964
+[I] 11-11 03:14:39 WatchNotif: ? Successfully sent to watch: Door 15A - Loading ? Done for Night
+[I] 11-11 03:28:19 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-11 03:28:19 BadgerService: Keepalive scheduled in 900s
