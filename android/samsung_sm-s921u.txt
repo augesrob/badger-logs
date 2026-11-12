@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-11 23:28:20 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-11 23:43:20 ===
 [I] 11-11 12:01:05 TTS: Speaking: Truck 187-1, On Route
 [I] 11-11 12:01:05 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - New ? On Route (tag=watch_truck_187-1)
 [I] 11-11 12:01:05 WatchNotif: ?? Notif ID: -1201157820
@@ -415,3 +415,25 @@
 [I] 11-11 23:28:04 BadgerService: Realtime subscribed OK -- badger-svc-5dd724c1-aa43-4f93-8bc2-2040c11f2080 status=SUBSCRIBED
 [I] 11-11 23:28:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-11 23:28:20 BadgerService: Keepalive scheduled in 900s
+[I] 11-11 23:28:22 LogShipper: Shipped 416 log lines to badger-logs/android/samsung_sm-s921u.txt
+[I] 11-11 23:31:50 TTS: Speaking: Truck 244, In Front
+[I] 11-11 23:31:50 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Back ? In Front (tag=watch_truck_244)
+[I] 11-11 23:31:50 WatchNotif: ?? Notif ID: -658231582
+[I] 11-11 23:31:50 WatchNotif: ? Successfully sent to watch: Truck 244 - In Back ? In Front
+[W] 11-11 23:35:33 BadgerService: Heartbeat ping failed: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname -- restarting
+[W] 11-11 23:35:34 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-11 23:36:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=UNSUBSCRIBING) (retry #1 in 10s)
+[I] 11-11 23:36:33 BadgerService: Realtime subscribed OK -- badger-svc-b3c3cfba-1d2d-4bd2-8d50-93413501ec52 status=SUBSCRIBED
+[W] 11-11 23:39:06 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 11-11 23:39:52 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 11-11 23:40:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[W] 11-11 23:41:06 BadgerService: startRealtimeSync: in backoff for 2s more � skipping
+[W] 11-11 23:41:06 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-11 23:41:09 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 4, size: 4
+[W] 11-11 23:41:11 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-11 23:41:56 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-11 23:42:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[I] 11-11 23:43:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-11 23:43:20 BadgerService: Keepalive scheduled in 900s
+[W] 11-11 23:43:20 BadgerService: startRealtimeSync: in backoff for 2s more � skipping
+[W] 11-11 23:43:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
