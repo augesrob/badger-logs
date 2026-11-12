@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-12 10:28:21 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-12 10:43:21 ===
 [E] 11-11 22:46:00 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [E] 11-11 22:46:00 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
 [I] 11-11 22:46:12 BadgerService: Realtime subscribed OK -- badger-svc-03ec9cbc-1d27-43f1-a43b-70ee96657b43 status=SUBSCRIBED
@@ -336,3 +336,20 @@
 [I] 11-12 10:28:21 BadgerService: Keepalive scheduled in 900s
 [W] 11-12 10:28:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-12 10:28:21 BadgerService: startRealtimeSync: in backoff for 79s more � skipping
+[I] 11-12 10:28:23 LogShipper: Shipped 337 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 11-12 10:30:00 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-12 10:30:49 BadgerService: Realtime: 120 consecutive failures � cooling down 5 min
+[E] 11-12 10:30:49 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #120 in 300s)
+[E] 11-12 10:36:36 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #121 in 300s)
+[E] 11-12 10:36:36 BadgerService: Realtime: 121 consecutive failures � cooling down 5 min
+[W] 11-12 10:39:15 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-12 10:39:15 BadgerService: startRealtimeSync: in backoff for 141s more � skipping
+[W] 11-12 10:41:57 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-12 10:42:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #122 in 300s)
+[E] 11-12 10:42:46 BadgerService: Realtime: 122 consecutive failures � cooling down 5 min
+[W] 11-12 10:43:12 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-12 10:43:12 BadgerService: startRealtimeSync: in backoff for 274s more � skipping
+[I] 11-12 10:43:21 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-12 10:43:21 BadgerService: Keepalive scheduled in 900s
+[W] 11-12 10:43:21 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-12 10:43:21 BadgerService: startRealtimeSync: in backoff for 265s more � skipping
