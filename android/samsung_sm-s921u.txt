@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-11 22:28:20 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-11 22:43:20 ===
 [I] 11-11 12:01:05 TTS: Speaking: Truck 187-1, On Route
 [I] 11-11 12:01:05 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - New ? On Route (tag=watch_truck_187-1)
 [I] 11-11 12:01:05 WatchNotif: ?? Notif ID: -1201157820
@@ -342,3 +342,25 @@
 [W] 11-11 22:28:20 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 11-11 22:28:20 BadgerService: Keepalive scheduled in 900s
 [W] 11-11 22:28:20 BadgerService: startRealtimeSync: in backoff for 4s more � skipping
+[I] 11-11 22:28:22 LogShipper: Shipped 343 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-11 22:29:11 BadgerService: Realtime: 31 consecutive failures � cooling down 5 min
+[E] 11-11 22:29:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #31 in 300s)
+[E] 11-11 22:34:58 BadgerService: Realtime: 32 consecutive failures � cooling down 5 min
+[E] 11-11 22:34:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #32 in 300s)
+[W] 11-11 22:37:01 BadgerService: startRealtimeSync: in backoff for 176s more � skipping
+[W] 11-11 22:37:01 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-11 22:39:02 AppUpdater: Checking via website (current=216)
+[I] 11-11 22:39:04 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-11 22:39:04 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-11 22:39:05 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-11 22:39:59 BadgerService: Realtime subscribed OK -- badger-svc-b400cc47-7bbd-4684-98d0-fde3c5452e87 status=SUBSCRIBED
+[I] 11-11 22:41:12 TTS: Speaking: Truck 197, On Route
+[I] 11-11 22:41:12 WatchNotif: ?? PUSHING NOTIF: Truck 197 - In Door ? On Route (tag=watch_truck_197)
+[I] 11-11 22:41:12 WatchNotif: ?? Notif ID: -658232385
+[I] 11-11 22:41:12 WatchNotif: ? Successfully sent to watch: Truck 197 - In Door ? On Route
+[I] 11-11 22:41:14 WatchNotif: ?? PUSHING NOTIF: Truck 152 - In Front ? In Door (tag=watch_truck_152)
+[I] 11-11 22:41:14 WatchNotif: ?? Notif ID: -658232514
+[I] 11-11 22:41:14 WatchNotif: ? Successfully sent to watch: Truck 152 - In Front ? In Door
+[I] 11-11 22:41:14 TTS: Speaking: Truck 152, In Door
+[I] 11-11 22:43:20 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-11 22:43:20 BadgerService: Keepalive scheduled in 900s
