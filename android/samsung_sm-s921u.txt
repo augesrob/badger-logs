@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-12 22:28:22 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-12 22:43:22 ===
 [I] 11-12 14:28:24 LogShipper: Shipped 259 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 11-12 14:33:59 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #162 in 300s)
 [E] 11-12 14:33:59 BadgerService: Realtime: 162 consecutive failures � cooling down 5 min
@@ -322,3 +322,15 @@
 [I] 11-12 22:28:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-12 22:28:22 BadgerService: Keepalive scheduled in 900s
 [W] 11-12 22:28:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-12 22:28:24 LogShipper: Shipped 323 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 11-12 22:30:02 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-12 22:30:03 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 11-12 22:30:03 BadgerService: Realtime: 234 consecutive failures � cooling down 5 min
+[E] 11-12 22:30:03 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #234 in 300s)
+[W] 11-12 22:30:07 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-12 22:30:07 BadgerService: startRealtimeSync: in backoff for 295s more � skipping
+[W] 11-12 22:30:38 BadgerService: startRealtimeSync: in backoff for 264s more � skipping
+[W] 11-12 22:30:38 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-12 22:43:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-12 22:43:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-12 22:43:22 BadgerService: Keepalive scheduled in 900s
