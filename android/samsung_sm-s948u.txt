@@ -1,19 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-17 03:10:05 ===
-[I] 11-16 23:51:17 WatchNotif: ? Successfully sent to watch: Truck 248-2 - In Door ? 8
-[I] 11-16 23:52:58 Movement: Truck 158 status → In Door
-[I] 11-16 23:52:58 BadgerRepo: updateMovementStatus OK — truck=158 statusId=1
-[I] 11-16 23:52:58 TTS: Speaking: Truck 158, In Door
-[I] 11-16 23:52:58 WatchNotif: ?? PUSHING NOTIF: Truck 158 - In Front ? In Door (tag=watch_truck_158)
-[I] 11-16 23:52:58 WatchNotif: ?? Notif ID: -658232508
-[I] 11-16 23:52:58 WatchNotif: ? Successfully sent to watch: Truck 158 - In Front ? In Door
-[I] 11-16 23:53:38 AppUpdater: Checking via website (current=216)
-[I] 11-16 23:53:38 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 11-16 23:53:38 AppUpdater: Checking via GitHub direct (current=216)
-[I] 11-16 23:53:39 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 11-16 23:54:47 Movement: Truck 246 status → Yard
-[I] 11-16 23:54:47 BadgerRepo: updateMovementStatus OK — truck=246 statusId=9
-[I] 11-16 23:54:48 TTS: Speaking: Truck 246, Yard
-[I] 11-16 23:54:48 WatchNotif: ?? PUSHING NOTIF: Truck 246 - In Door ? Yard (tag=watch_truck_246)
+=== samsung SM-S948U | v216 | shipped 2026-11-17 03:25:05 ===
 [I] 11-16 23:54:48 WatchNotif: ?? Notif ID: -658231580
 [I] 11-16 23:54:48 WatchNotif: ? Successfully sent to watch: Truck 246 - In Door ? Yard
 [I] 11-16 23:55:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +484,18 @@
 [I] 11-17 03:07:57 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 11-17 03:10:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-17 03:10:05 BadgerService: Keepalive scheduled in 900s
+[I] 11-17 03:10:07 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[W] 11-17 03:14:25 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 11-17 03:14:36 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 11-17 03:14:36 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 11-17 03:14:43 AppUpdater: Checking via website (current=216)
+[I] 11-17 03:14:44 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 03:14:44 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 03:14:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[E] 11-17 03:14:56 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[E] 11-17 03:14:56 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #2 in 20s)
+[E] 11-17 03:15:27 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #3 in 40s)
+[E] 11-17 03:15:27 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 11-17 03:16:09 BadgerService: Realtime subscribed OK -- badger-svc-d484896f-bb25-4154-a649-16f174b8827a status=SUBSCRIBED
+[I] 11-17 03:25:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 03:25:05 BadgerService: Keepalive scheduled in 900s
