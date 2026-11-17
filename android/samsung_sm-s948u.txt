@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-17 17:10:05 ===
+=== samsung SM-S948U | v216 | shipped 2026-11-17 17:25:05 ===
 [E] 11-17 09:52:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #71 in 300s)
 [E] 11-17 09:52:46 BadgerService: Realtime: 71 consecutive failures � cooling down 5 min
 [I] 11-17 09:55:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -306,3 +306,66 @@
 [I] 11-17 17:10:05 BadgerService: Keepalive scheduled in 900s
 [W] 11-17 17:10:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-17 17:10:05 BadgerService: startRealtimeSync: in backoff for 75s more � skipping
+[I] 11-17 17:10:07 LogShipper: Shipped 307 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 11-17 17:11:22 Movement: Door 13A dock lock → 🔒Working
+[I] 11-17 17:11:22 BadgerService: Realtime subscribed OK -- badger-svc-17c33a58-fe4c-4573-90dd-0b7a83a9bc8f status=SUBSCRIBED
+[I] 11-17 17:11:33 Movement: Door 13B dock lock → 🔒Working
+[I] 11-17 17:11:39 Movement: Door 14A dock lock → 🔒Working
+[I] 11-17 17:11:42 Movement: Door 14B dock lock → 🔒Working
+[I] 11-17 17:11:44 Movement: Door 15A dock lock → 🔒Working
+[I] 11-17 17:11:47 TTS: Speaking: Truck 231-1, Transfer
+[I] 11-17 17:11:47 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - On Route ? Transfer (tag=watch_truck_231-1)
+[I] 11-17 17:11:47 WatchNotif: ?? Notif ID: -1200389020
+[I] 11-17 17:11:47 WatchNotif: ? Successfully sent to watch: Truck 231-1 - On Route ? Transfer
+[I] 11-17 17:11:49 Movement: Door 15B dock lock → 🔒Working
+[I] 11-17 17:12:36 Movement: Truck 189-1 status → In Door
+[I] 11-17 17:12:36 BadgerRepo: updateMovementStatus OK — truck=189-1 statusId=1
+[I] 11-17 17:12:36 TTS: Speaking: Truck 189-1, In Door
+[I] 11-17 17:12:36 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - Transfer ? In Door (tag=watch_truck_189-1)
+[I] 11-17 17:12:36 WatchNotif: ?? Notif ID: -1201155898
+[I] 11-17 17:12:36 WatchNotif: ? Successfully sent to watch: Truck 189-1 - Transfer ? In Door
+[I] 11-17 17:12:42 TTS: TTS DISABLED
+[I] 11-17 17:12:54 Movement: Truck 222-1 status → In Door
+[I] 11-17 17:12:54 BadgerRepo: updateMovementStatus OK — truck=222-1 statusId=1
+[I] 11-17 17:12:54 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 222-1, In Door
+[I] 11-17 17:12:54 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - Transfer ? In Door (tag=watch_truck_222-1)
+[I] 11-17 17:12:54 WatchNotif: ?? Notif ID: -1200417850
+[I] 11-17 17:12:54 WatchNotif: ? Successfully sent to watch: Truck 222-1 - Transfer ? In Door
+[I] 11-17 17:13:17 Movement: Truck 231-1 status → In Door
+[I] 11-17 17:13:17 BadgerRepo: updateMovementStatus OK — truck=231-1 statusId=1
+[I] 11-17 17:13:17 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 231-1, In Door
+[I] 11-17 17:13:17 WatchNotif: ?? Notif ID: -1200389020
+[I] 11-17 17:13:17 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - Transfer ? In Door (tag=watch_truck_231-1)
+[I] 11-17 17:13:17 WatchNotif: ? Successfully sent to watch: Truck 231-1 - Transfer ? In Door
+[I] 11-17 17:16:59 AppUpdater: Checking via website (current=216)
+[I] 11-17 17:17:00 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 17:17:00 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 17:17:01 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-17 17:20:47 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 224-1, Transfer
+[I] 11-17 17:20:47 WatchNotif: ?? PUSHING NOTIF: Truck 224-1 - On Route ? Transfer (tag=watch_truck_224-1)
+[I] 11-17 17:20:47 WatchNotif: ?? Notif ID: -1200415928
+[I] 11-17 17:20:47 WatchNotif: ? Successfully sent to watch: Truck 224-1 - On Route ? Transfer
+[I] 11-17 17:21:46 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 119, In Door
+[I] 11-17 17:21:46 WatchNotif: ?? PUSHING NOTIF: Truck 119 - New ? In Door (tag=watch_truck_119)
+[I] 11-17 17:21:46 WatchNotif: ?? Notif ID: -658232631
+[I] 11-17 17:21:46 WatchNotif: ? Successfully sent to watch: Truck 119 - New ? In Door
+[I] 11-17 17:21:47 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 248-1, Transfer
+[I] 11-17 17:21:47 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - On Route ? Transfer (tag=watch_truck_248-1)
+[I] 11-17 17:21:47 WatchNotif: ?? Notif ID: -1200352502
+[I] 11-17 17:21:47 WatchNotif: ? Successfully sent to watch: Truck 248-1 - On Route ? Transfer
+[I] 11-17 17:21:48 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 189-1, Transfer
+[I] 11-17 17:21:48 WatchNotif: ?? PUSHING NOTIF: Truck 189-1 - In Door ? Transfer (tag=watch_truck_189-1)
+[I] 11-17 17:21:48 WatchNotif: ?? Notif ID: -1201155898
+[I] 11-17 17:21:48 WatchNotif: ? Successfully sent to watch: Truck 189-1 - In Door ? Transfer
+[I] 11-17 17:21:59 AppUpdater: Checking via website (current=216)
+[I] 11-17 17:21:59 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 17:21:59 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 17:22:01 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-17 17:22:04 Movement: Truck 248-1 status → In Door
+[I] 11-17 17:22:05 BadgerRepo: updateMovementStatus OK — truck=248-1 statusId=1
+[I] 11-17 17:22:06 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 248-1, In Door
+[I] 11-17 17:22:06 WatchNotif: ?? PUSHING NOTIF: Truck 248-1 - Transfer ? In Door (tag=watch_truck_248-1)
+[I] 11-17 17:22:06 WatchNotif: ?? Notif ID: -1200352502
+[I] 11-17 17:22:06 WatchNotif: ? Successfully sent to watch: Truck 248-1 - Transfer ? In Door
+[I] 11-17 17:25:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 17:25:05 BadgerService: Keepalive scheduled in 900s
