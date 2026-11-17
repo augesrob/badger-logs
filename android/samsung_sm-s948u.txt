@@ -1,15 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-17 12:40:05 ===
-[W] 11-17 01:21:36 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 11-17 01:21:47 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
-[E] 11-17 01:21:47 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 11-17 01:21:59 BadgerService: Realtime subscribed OK -- badger-svc-5fe9a775-2b27-4d2f-af73-204cbac126fb status=SUBSCRIBED
-[I] 11-17 01:24:03 Movement: Truck 263 status → In Front
-[I] 11-17 01:24:04 BadgerRepo: updateMovementStatus OK — truck=263 statusId=4
-[I] 11-17 01:24:04 TTS: Speaking: Truck 263, In Front
-[I] 11-17 01:24:04 WatchNotif: ?? PUSHING NOTIF: Truck 263 - In Back ? In Front (tag=watch_truck_263)
-[I] 11-17 01:24:04 WatchNotif: ?? Notif ID: -658231521
-[I] 11-17 01:24:04 WatchNotif: ? Successfully sent to watch: Truck 263 - In Back ? In Front
-[I] 11-17 01:24:42 AppUpdater: Checking via website (current=216)
+=== samsung SM-S948U | v216 | shipped 2026-11-17 12:55:05 ===
 [W] 11-17 01:24:52 AppUpdater: Website check failed: Socket timeout has expired [url=https://badger.augesrob.net/api/version, socket_timeout=unknown] ms — trying GitHub direct
 [I] 11-17 01:24:52 AppUpdater: Checking via GitHub direct (current=216)
 [I] 11-17 01:24:53 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -499,3 +488,14 @@
 [I] 11-17 12:40:05 BadgerService: Keepalive scheduled in 900s
 [W] 11-17 12:40:05 BadgerService: startRealtimeSync: in backoff for 5s more � skipping
 [W] 11-17 12:40:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-17 12:40:06 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 11-17 12:40:56 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #100 in 300s)
+[E] 11-17 12:40:56 BadgerService: Realtime: 100 consecutive failures � cooling down 5 min
+[E] 11-17 12:46:42 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #101 in 300s)
+[E] 11-17 12:46:42 BadgerService: Realtime: 101 consecutive failures � cooling down 5 min
+[E] 11-17 12:52:28 BadgerService: Realtime: 102 consecutive failures � cooling down 5 min
+[E] 11-17 12:52:28 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #102 in 300s)
+[I] 11-17 12:55:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 11-17 12:55:05 BadgerService: startRealtimeSync: in backoff for 143s more � skipping
+[W] 11-17 12:55:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-17 12:55:05 BadgerService: Keepalive scheduled in 900s
