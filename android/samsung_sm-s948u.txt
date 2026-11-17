@@ -1,33 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-17 03:25:05 ===
-[I] 11-16 23:54:48 WatchNotif: ?? Notif ID: -658231580
-[I] 11-16 23:54:48 WatchNotif: ? Successfully sent to watch: Truck 246 - In Door ? Yard
-[I] 11-16 23:55:04 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-16 23:55:04 BadgerService: Keepalive scheduled in 900s
-[I] 11-16 23:55:06 LogShipper: Shipped 365 log lines to badger-logs/android/samsung_sm-s948u.txt
-[I] 11-16 23:56:03 Movement: Truck 241 status → In Door
-[I] 11-16 23:56:03 BadgerRepo: updateMovementStatus OK — truck=241 statusId=1
-[I] 11-16 23:56:03 TTS: Speaking: Truck 241, In Door
-[I] 11-16 23:56:03 WatchNotif: ?? PUSHING NOTIF: Truck 241 - In Front ? In Door (tag=watch_truck_241)
-[I] 11-16 23:56:03 WatchNotif: ?? Notif ID: -658231585
-[I] 11-16 23:56:03 WatchNotif: ? Successfully sent to watch: Truck 241 - In Front ? In Door
-[I] 11-16 23:58:38 AppUpdater: Checking via website (current=216)
-[I] 11-16 23:58:38 AppUpdater: Checking via GitHub direct (current=216)
-[I] 11-16 23:58:38 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 11-16 23:58:39 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 11-16 23:58:49 Movement: Truck 187-2 status → 11
-[I] 11-16 23:58:49 BadgerRepo: updateMovementStatus OK — truck=187-2 statusId=14
-[I] 11-16 23:58:50 TTS: Speaking: Truck 187-2, 11
-[I] 11-16 23:58:50 WatchNotif: ?? Notif ID: -1201157819
-[I] 11-16 23:58:50 WatchNotif: ?? PUSHING NOTIF: Truck 187-2 - In Door ? 11 (tag=watch_truck_187-2)
-[I] 11-16 23:58:50 WatchNotif: ? Successfully sent to watch: Truck 187-2 - In Door ? 11
-[I] 11-17 00:00:11 Movement: Truck 261 status → In Door
-[I] 11-17 00:00:11 BadgerRepo: updateMovementStatus OK — truck=261 statusId=1
-[I] 11-17 00:00:11 TTS: Speaking: Truck 261, In Door
-[I] 11-17 00:00:11 WatchNotif: ?? PUSHING NOTIF: Truck 261 - In Front ? In Door (tag=watch_truck_261)
-[I] 11-17 00:00:11 WatchNotif: ?? Notif ID: -658231523
-[I] 11-17 00:00:11 WatchNotif: ? Successfully sent to watch: Truck 261 - In Front ? In Door
-[I] 11-17 00:03:38 AppUpdater: Checking via website (current=216)
-[I] 11-17 00:03:38 AppUpdater: Up to date via website (current=216 latest=216)
+=== samsung SM-S948U | v216 | shipped 2026-11-17 03:55:05 ===
 [I] 11-17 00:03:38 AppUpdater: Checking via GitHub direct (current=216)
 [I] 11-17 00:03:39 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 11-17 00:05:42 Movement: Truck 257 status → In Front
@@ -499,3 +470,32 @@
 [I] 11-17 03:16:09 BadgerService: Realtime subscribed OK -- badger-svc-d484896f-bb25-4154-a649-16f174b8827a status=SUBSCRIBED
 [I] 11-17 03:25:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-17 03:25:05 BadgerService: Keepalive scheduled in 900s
+[I] 11-17 03:25:06 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 11-17 03:29:08 AppUpdater: Checking via website (current=216)
+[I] 11-17 03:29:08 AppUpdater: Checking via website (current=216)
+[I] 11-17 03:29:09 AppUpdater: Checking via website (current=216)
+[I] 11-17 03:29:09 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 03:29:09 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 03:29:09 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 03:29:09 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 03:29:10 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 03:29:10 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 03:29:10 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-17 03:29:10 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-17 03:29:10 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-17 03:40:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 03:40:05 BadgerService: Keepalive scheduled in 900s
+[W] 11-17 03:47:27 BadgerService: Heartbeat: channel UNSUBSCRIBING -- restarting
+[E] 11-17 03:47:27 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 5, size: 5
+[E] 11-17 03:48:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #1 in 10s)
+[E] 11-17 03:49:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #2 in 20s)
+[E] 11-17 03:50:16 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #3 in 40s)
+[W] 11-17 03:51:05 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-17 03:51:51 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #4 in 80s)
+[E] 11-17 03:53:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #5 in 80s)
+[W] 11-17 03:54:55 BadgerService: startRealtimeSync: in backoff for 22s more � skipping
+[W] 11-17 03:54:55 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-17 03:55:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 11-17 03:55:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-17 03:55:05 BadgerService: startRealtimeSync: in backoff for 13s more � skipping
+[I] 11-17 03:55:05 BadgerService: Keepalive scheduled in 900s
