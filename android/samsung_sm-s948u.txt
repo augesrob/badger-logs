@@ -1,13 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-17 12:25:05 ===
-[I] 11-17 01:20:23 WatchNotif: ?? Notif ID: -658231701
-[I] 11-17 01:20:23 WatchNotif: ?? PUSHING NOTIF: Truck 209 - In Front ? In Door (tag=watch_truck_209)
-[I] 11-17 01:20:23 WatchNotif: ? Successfully sent to watch: Truck 209 - In Front ? In Door
-[I] 11-17 01:20:28 Movement: Truck 262 status → In Front
-[I] 11-17 01:20:28 BadgerRepo: updateMovementStatus OK — truck=262 statusId=4
-[I] 11-17 01:20:28 TTS: Speaking: Truck 262, In Front
-[I] 11-17 01:20:28 WatchNotif: ?? PUSHING NOTIF: Truck 262 - In Back ? In Front (tag=watch_truck_262)
-[I] 11-17 01:20:28 WatchNotif: ?? Notif ID: -658231522
-[I] 11-17 01:20:28 WatchNotif: ? Successfully sent to watch: Truck 262 - In Back ? In Front
+=== samsung SM-S948U | v216 | shipped 2026-11-17 12:40:05 ===
 [W] 11-17 01:21:36 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
 [E] 11-17 01:21:47 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
 [E] 11-17 01:21:47 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
@@ -499,3 +490,12 @@
 [W] 11-17 12:25:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-17 12:25:05 BadgerService: startRealtimeSync: in backoff for 212s more � skipping
 [I] 11-17 12:25:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 12:25:07 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[E] 11-17 12:29:24 BadgerService: Realtime: 98 consecutive failures � cooling down 5 min
+[E] 11-17 12:29:24 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #98 in 300s)
+[E] 11-17 12:35:10 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #99 in 300s)
+[E] 11-17 12:35:10 BadgerService: Realtime: 99 consecutive failures � cooling down 5 min
+[I] 11-17 12:40:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 12:40:05 BadgerService: Keepalive scheduled in 900s
+[W] 11-17 12:40:05 BadgerService: startRealtimeSync: in backoff for 5s more � skipping
+[W] 11-17 12:40:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
