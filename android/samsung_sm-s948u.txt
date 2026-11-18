@@ -1,8 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-17 18:25:05 ===
-[E] 11-17 09:52:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #71 in 300s)
-[E] 11-17 09:52:46 BadgerService: Realtime: 71 consecutive failures � cooling down 5 min
-[I] 11-17 09:55:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-17 09:55:05 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S948U | v216 | shipped 2026-11-17 18:40:05 ===
 [W] 11-17 09:55:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-17 09:55:05 BadgerService: startRealtimeSync: in backoff for 161s more � skipping
 [I] 11-17 09:55:06 LogShipper: Shipped 430 log lines to badger-logs/android/samsung_sm-s948u.txt
@@ -465,3 +461,41 @@
 [I] 11-17 18:23:26 WatchNotif: ? Successfully sent to watch: Truck 187-2 - Transfer ? In Front
 [I] 11-17 18:25:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-17 18:25:05 BadgerService: Keepalive scheduled in 900s
+[I] 11-17 18:25:07 LogShipper: Shipped 466 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 11-17 18:25:21 Movement: Truck 224-2 status → In Front
+[I] 11-17 18:25:21 BadgerRepo: updateMovementStatus OK — truck=224-2 statusId=4
+[I] 11-17 18:25:21 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 224-2, In Front
+[I] 11-17 18:25:21 WatchNotif: ?? PUSHING NOTIF: Truck 224-2 - Transfer ? In Front (tag=watch_truck_224-2)
+[I] 11-17 18:25:21 WatchNotif: ?? Notif ID: -1200415927
+[I] 11-17 18:25:21 WatchNotif: ? Successfully sent to watch: Truck 224-2 - Transfer ? In Front
+[I] 11-17 18:27:30 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 187-1, In Front
+[I] 11-17 18:27:30 WatchNotif: ?? PUSHING NOTIF: Truck 187-1 - Transfer ? In Front (tag=watch_truck_187-1)
+[I] 11-17 18:27:30 WatchNotif: ?? Notif ID: -1201157820
+[I] 11-17 18:27:30 WatchNotif: ? Successfully sent to watch: Truck 187-1 - Transfer ? In Front
+[I] 11-17 18:27:44 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 152, Ready
+[I] 11-17 18:27:44 WatchNotif: ?? PUSHING NOTIF: Truck 152 - In Front ? Ready (tag=watch_truck_152)
+[I] 11-17 18:27:44 WatchNotif: ?? Notif ID: -658232514
+[I] 11-17 18:27:44 WatchNotif: ? Successfully sent to watch: Truck 152 - In Front ? Ready
+[I] 11-17 18:28:47 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 164, In Back
+[I] 11-17 18:28:47 WatchNotif: ?? Notif ID: -658232481
+[I] 11-17 18:28:47 WatchNotif: ?? PUSHING NOTIF: Truck 164 - New ? In Back (tag=watch_truck_164)
+[I] 11-17 18:28:47 WatchNotif: ? Successfully sent to watch: Truck 164 - New ? In Back
+[I] 11-17 18:29:19 AppUpdater: Checking via website (current=216)
+[I] 11-17 18:29:20 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 18:29:20 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 18:29:21 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 11-17 18:29:33 PreShift: Duplicate truck 257 force-staged (override) — Truck 257 is already assigned in the Print Room.
+[I] 11-17 18:29:33 PreShift: Truck 257 staged at door 22B front
+[I] 11-17 18:29:34 TTS: Skipped (ttsEnabled=false channelPref=true): Preshift updated
+[I] 11-17 18:29:44 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 257, Ready
+[I] 11-17 18:29:44 WatchNotif: ?? PUSHING NOTIF: Truck 257 - Missing ? Ready (tag=watch_truck_257)
+[I] 11-17 18:29:44 WatchNotif: ?? Notif ID: -658231548
+[I] 11-17 18:29:44 WatchNotif: ? Successfully sent to watch: Truck 257 - Missing ? Ready
+[I] 11-17 18:35:15 AppUpdater: Checking via website (current=216)
+[I] 11-17 18:35:16 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-17 18:35:16 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-17 18:35:17 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-17 18:35:41 TTS: Speaking: Text to speech enabled
+[I] 11-17 18:35:41 TTS: TTS ENABLED
+[I] 11-17 18:40:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 18:40:05 BadgerService: Keepalive scheduled in 900s
