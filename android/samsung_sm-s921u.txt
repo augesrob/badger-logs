@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-17 20:19:25 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-17 20:34:25 ===
 [I] 11-12 20:58:24 LogShipper: Shipped 278 log lines to badger-logs/android/samsung_sm-s921u.txt
 [E] 11-12 21:02:45 BadgerService: Realtime: 229 consecutive failures � cooling down 5 min
 [E] 11-12 21:02:45 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #229 in 300s)
@@ -473,3 +473,16 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-17 20:19:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-17 20:19:25 BadgerService: Keepalive scheduled in 900s
 [W] 11-17 20:19:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-17 20:19:27 LogShipper: Shipped 474 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-17 20:20:11 BadgerService: Realtime: 31 consecutive failures � cooling down 5 min
+[E] 11-17 20:20:11 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #31 in 300s)
+[E] 11-17 20:25:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #32 in 300s)
+[E] 11-17 20:25:58 BadgerService: Realtime: 32 consecutive failures � cooling down 5 min
+[E] 11-17 20:31:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #33 in 300s)
+[E] 11-17 20:31:44 BadgerService: Realtime: 33 consecutive failures � cooling down 5 min
+[W] 11-17 20:32:47 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-17 20:32:47 BadgerService: startRealtimeSync: in backoff for 237s more � skipping
+[I] 11-17 20:34:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 20:34:25 BadgerService: Keepalive scheduled in 900s
+[W] 11-17 20:34:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-17 20:34:25 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
