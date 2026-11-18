@@ -1,10 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-17 22:40:05 ===
-[I] 11-17 17:12:54 WatchNotif: ?? PUSHING NOTIF: Truck 222-1 - Transfer ? In Door (tag=watch_truck_222-1)
-[I] 11-17 17:12:54 WatchNotif: ?? Notif ID: -1200417850
-[I] 11-17 17:12:54 WatchNotif: ? Successfully sent to watch: Truck 222-1 - Transfer ? In Door
-[I] 11-17 17:13:17 Movement: Truck 231-1 status → In Door
-[I] 11-17 17:13:17 BadgerRepo: updateMovementStatus OK — truck=231-1 statusId=1
-[I] 11-17 17:13:17 TTS: Skipped (ttsEnabled=false channelPref=true): Truck 231-1, In Door
+=== samsung SM-S948U | v216 | shipped 2026-11-17 22:55:05 ===
 [I] 11-17 17:13:17 WatchNotif: ?? Notif ID: -1200389020
 [I] 11-17 17:13:17 WatchNotif: ?? PUSHING NOTIF: Truck 231-1 - Transfer ? In Door (tag=watch_truck_231-1)
 [I] 11-17 17:13:17 WatchNotif: ? Successfully sent to watch: Truck 231-1 - Transfer ? In Door
@@ -499,3 +493,9 @@
 [I] 11-17 22:40:05 BadgerService: Keepalive scheduled in 900s
 [W] 11-17 22:40:05 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-17 22:40:05 BadgerService: startRealtimeSync: in backoff for 77s more � skipping
+[I] 11-17 22:40:07 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 11-17 22:41:24 BadgerService: Realtime subscribed OK -- badger-svc-29cc5436-ca2a-4f84-b324-e3471b65b867 status=SUBSCRIBED
+[E] 11-17 22:43:10 BadgerRepo: getLoadingDoors FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[W] 11-17 22:43:10 BadgerService: Heartbeat poll: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/loading_doors?order=sort_order.asc.nullslast&select=%2A, request_timeout=10000 ms]
+[I] 11-17 22:55:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 22:55:05 BadgerService: Keepalive scheduled in 900s
