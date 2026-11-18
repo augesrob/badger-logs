@@ -1,16 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-17 22:04:25 ===
-[W] 11-12 22:43:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-12 22:43:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-12 22:43:22 BadgerService: Keepalive scheduled in 900s
-[I] 11-12 22:43:25 LogShipper: Shipped 335 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-12 22:58:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 11-12 22:58:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-12 22:58:22 BadgerService: Keepalive scheduled in 900s
-[I] 11-12 22:58:24 LogShipper: Shipped 339 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-12 23:13:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[W] 11-12 23:13:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-12 23:13:22 BadgerService: Keepalive scheduled in 900s
-[I] 11-12 23:13:24 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s921u.txt
+=== samsung SM-S921U | v216 | shipped 2026-11-17 22:19:25 ===
 [I] 11-12 23:28:22 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-12 23:28:22 BadgerService: Keepalive scheduled in 900s
 [W] 11-12 23:28:22 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
@@ -499,3 +487,15 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [W] 11-17 22:04:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 11-17 22:04:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-17 22:04:25 BadgerService: Keepalive scheduled in 900s
+[I] 11-17 22:04:27 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-17 22:05:12 BadgerService: Realtime: 49 consecutive failures � cooling down 5 min
+[E] 11-17 22:05:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #49 in 300s)
+[E] 11-17 22:10:12 BadgerService: Unhandled coroutine: IndexOutOfBoundsException: index: 1, size: 1
+[E] 11-17 22:10:58 BadgerService: Realtime: 50 consecutive failures � cooling down 5 min
+[E] 11-17 22:10:58 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #50 in 300s)
+[E] 11-17 22:16:44 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #51 in 300s)
+[E] 11-17 22:16:44 BadgerService: Realtime: 51 consecutive failures � cooling down 5 min
+[I] 11-17 22:19:25 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-17 22:19:25 BadgerService: Keepalive scheduled in 900s
+[W] 11-17 22:19:25 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-17 22:19:25 BadgerService: startRealtimeSync: in backoff for 138s more � skipping
