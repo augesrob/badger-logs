@@ -1,4 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-18 00:10:05 ===
+=== samsung SM-S948U | v216 | shipped 2026-11-18 00:25:05 ===
 [I] 11-17 20:25:06 LogShipper: Shipped 311 log lines to badger-logs/android/samsung_sm-s948u.txt
 [I] 11-17 20:29:02 AppUpdater: Checking via website (current=216)
 [I] 11-17 20:29:02 AppUpdater: Checking via website (current=216)
@@ -316,3 +316,30 @@
 [I] 11-18 00:08:39 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 11-18 00:10:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-18 00:10:05 BadgerService: Keepalive scheduled in 900s
+[I] 11-18 00:10:06 LogShipper: Shipped 317 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 11-18 00:10:36 TTS: Speaking: Truck 158, In Front
+[I] 11-18 00:10:36 WatchNotif: ?? PUSHING NOTIF: Truck 158 - Ready ? In Front (tag=watch_truck_158)
+[I] 11-18 00:10:36 WatchNotif: ?? Notif ID: -658232508
+[I] 11-18 00:10:36 WatchNotif: ? Successfully sent to watch: Truck 158 - Ready ? In Front
+[I] 11-18 00:13:38 AppUpdater: Checking via website (current=216)
+[I] 11-18 00:13:38 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-18 00:13:38 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-18 00:13:39 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-18 00:20:02 AppUpdater: Checking via website (current=216)
+[I] 11-18 00:20:04 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-18 00:20:04 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-18 00:20:05 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[W] 11-18 00:21:39 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
+[E] 11-18 00:21:49 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+[E] 11-18 00:21:49 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
+[I] 11-18 00:21:57 AppUpdater: Checking via website (current=216)
+[I] 11-18 00:22:01 BadgerService: Realtime subscribed OK -- badger-svc-48d1c606-cc00-45ff-abe0-a8177e86cf4a status=SUBSCRIBED
+[W] 11-18 00:22:07 AppUpdater: Website check failed: Socket timeout has expired [url=https://badger.augesrob.net/api/version, socket_timeout=unknown] ms — trying GitHub direct
+[I] 11-18 00:22:07 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-18 00:22:08 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-18 00:22:10 AppUpdater: Checking via website (current=216)
+[I] 11-18 00:22:11 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-18 00:22:11 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-18 00:22:11 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-18 00:25:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-18 00:25:05 BadgerService: Keepalive scheduled in 900s
