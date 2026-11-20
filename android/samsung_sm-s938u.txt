@@ -1,13 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-11-20 09:44:00 ===
-[I] 11-20 02:14:07 AppUpdater: Checking via GitHub direct (current=216)
-[I] 11-20 02:14:08 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[I] 11-20 02:14:24 Movement: Door 13B status → End Of Truck Tote
-[I] 11-20 02:14:24 BadgerRepo: updateDoorStatus OK — id=2 status=End Of Truck Tote
-[I] 11-20 02:14:24 TTS: Speaking: Door 13B, End Of Truck Tote
-[I] 11-20 02:14:25 WatchNotif: ?? PUSHING NOTIF: Door 13B - Loading ? End Of Truck Tote (tag=watch_door_13B)
-[I] 11-20 02:14:25 WatchNotif: ?? Notif ID: -108073025
-[I] 11-20 02:14:25 WatchNotif: ? Successfully sent to watch: Door 13B - Loading ? End Of Truck Tote
-[I] 11-20 02:16:44 AppUpdater: Checking via website (current=216)
+=== samsung SM-S938U | v216 | shipped 2026-11-20 09:59:00 ===
 [I] 11-20 02:16:44 AppUpdater: Up to date via website (current=216 latest=216)
 [I] 11-20 02:16:44 AppUpdater: Checking via GitHub direct (current=216)
 [I] 11-20 02:16:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -499,3 +490,12 @@
 [I] 11-20 09:44:00 BadgerService: Keepalive scheduled in 900s
 [W] 11-20 09:44:00 BadgerService: startRealtimeSync: in backoff for 279s more � skipping
 [W] 11-20 09:44:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-20 09:44:01 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 11-20 09:49:25 BadgerService: Realtime: 72 consecutive failures � cooling down 5 min
+[E] 11-20 09:49:25 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #72 in 300s)
+[E] 11-20 09:55:12 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #73 in 300s)
+[E] 11-20 09:55:12 BadgerService: Realtime: 73 consecutive failures � cooling down 5 min
+[I] 11-20 09:59:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 11-20 09:59:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-20 09:59:00 BadgerService: Keepalive scheduled in 900s
+[W] 11-20 09:59:00 BadgerService: startRealtimeSync: in backoff for 71s more � skipping
