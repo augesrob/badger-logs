@@ -1,10 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-18 04:55:05 ===
-[I] 11-18 00:20:02 AppUpdater: Checking via website (current=216)
-[I] 11-18 00:20:04 AppUpdater: Up to date via website (current=216 latest=216)
-[I] 11-18 00:20:04 AppUpdater: Checking via GitHub direct (current=216)
-[I] 11-18 00:20:05 AppUpdater: Up to date via GitHub (current=216 latest=216)
-[W] 11-18 00:21:39 BadgerService: Heartbeat ping failed: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/status_values?limit=1&select=%2A, request_timeout=10000 ms] -- restarting
-[E] 11-18 00:21:49 BadgerService: Realtime setup error: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms] (retry #1 in 10s)
+=== samsung SM-S948U | v216 | shipped 2026-11-19 22:26:43 ===
 [E] 11-18 00:21:49 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
 [I] 11-18 00:21:57 AppUpdater: Checking via website (current=216)
 [I] 11-18 00:22:01 BadgerService: Realtime subscribed OK -- badger-svc-48d1c606-cc00-45ff-abe0-a8177e86cf4a status=SUBSCRIBED
@@ -461,3 +455,47 @@
 [I] 11-18 04:43:37 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 11-18 04:55:05 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-18 04:55:05 BadgerService: Keepalive scheduled in 900s
+[I] 11-18 04:55:10 LogShipper: Shipped 462 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 11-18 04:59:09 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 11-18 04:59:09 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 11-18 04:59:09 BadgerService: FGS microphone blocked � starting without mic FGS type
+[W] 11-18 04:59:09 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 11-18 04:59:09 AuthManager: Session expired — trying HWID silent login
+[I] 11-18 04:59:09 BadgerService: Keepalive scheduled in 900s
+[I] 11-18 04:59:10 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 11-18 04:59:10 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 11-18 04:59:10 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 11-18 04:59:10 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 11-18 04:59:10 TTS: Engine initialized OK
+[I] 11-18 04:59:10 TTS: Speaking: Badger live monitoring active
+[I] 11-18 04:59:11 AuthManager: HWID silent login OK
+[I] 11-18 04:59:11 AuthManager: Sign in OK — joemiller role=admin
+[I] 11-18 04:59:11 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[W] 11-18 04:59:11 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-18 04:59:13 BadgerService: Realtime subscribed OK -- badger-svc-2733ffcb-70b0-45c9-ba2f-fdddc3a89384 status=SUBSCRIBED
+[I] 11-19 22:11:43 BadgerApp: WebSocket URL will be: wss://vjmvuqunedyuovtqtotj.supabase.co/realtime/v1/websocket
+[I] 11-19 22:11:43 BadgerApp: App started v216 — REST: https://vjmvuqunedyuovtqtotj.supabase.co
+[W] 11-19 22:11:43 AuthManager: JWT refresh failed: No refresh token found in current session
+[I] 11-19 22:11:43 AuthManager: Session expired — trying HWID silent login
+[I] 11-19 22:11:43 AuthManager: HWID silent login for millerjo1986@gmail.com
+[I] 11-19 22:11:43 MainActivity: BadgerService started (mic=true)
+[I] 11-19 22:11:43 AppUpdater: Checking via website (current=216)
+[I] 11-19 22:11:43 BadgerService: Keepalive scheduled in 900s
+[I] 11-19 22:11:43 BadgerService: Service started � URL: https://vjmvuqunedyuovtqtotj.supabase.co
+[I] 11-19 22:11:43 FCM: ?? FCM Token: cRlCDBUBTJiXJzVIZO6T...
+[E] 11-19 22:11:43 BadgerRepo: ❌ updateFCMToken failed: Serializer for class 'Any' is not found.
+Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
+
+[I] 11-19 22:11:43 TTS: Engine initialized OK
+[I] 11-19 22:11:43 TTS: Speaking: Badger live monitoring active
+[I] 11-19 22:11:44 AuthManager: Sign in OK — joemiller role=admin
+[I] 11-19 22:11:44 AuthManager: HWID silent login OK
+[I] 11-19 22:11:44 AuthManager: Profile realtime watch started for 7122b9b1-0809-4343-8325-6157ad2939c8
+[I] 11-19 22:11:44 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-19 22:11:44 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-19 22:11:45 BadgerService: Realtime subscribed OK -- badger-svc-4e241d75-83a2-41f0-8d75-7b70edc6fbca status=SUBSCRIBED
+[I] 11-19 22:11:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-19 22:26:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-19 22:26:43 BadgerService: Keepalive scheduled in 900s
