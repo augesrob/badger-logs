@@ -1,26 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-19 22:04:28 ===
-[I] 11-18 18:34:26 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-18 18:34:27 BadgerService: Keepalive scheduled in 900s
-[W] 11-18 18:34:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-18 18:34:29 LogShipper: Shipped 322 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-18 18:49:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-18 18:49:27 BadgerService: Keepalive scheduled in 900s
-[W] 11-18 18:49:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-18 18:49:29 LogShipper: Shipped 326 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-18 19:04:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-18 19:04:27 BadgerService: Keepalive scheduled in 900s
-[W] 11-18 19:04:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-18 19:04:29 LogShipper: Shipped 330 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-18 19:19:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-18 19:19:27 BadgerService: Keepalive scheduled in 900s
-[W] 11-18 19:19:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-18 19:19:29 LogShipper: Shipped 334 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-18 19:34:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-18 19:34:27 BadgerService: Keepalive scheduled in 900s
-[W] 11-18 19:34:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
-[I] 11-18 19:34:29 LogShipper: Shipped 337 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-18 19:49:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-18 19:49:27 BadgerService: Keepalive scheduled in 900s
+=== samsung SM-S921U | v216 | shipped 2026-11-19 22:34:28 ===
 [W] 11-18 19:49:27 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [I] 11-18 19:49:29 LogShipper: Shipped 342 log lines to badger-logs/android/samsung_sm-s921u.txt
 [I] 11-18 20:04:27 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -499,3 +477,25 @@
 [I] 11-19 22:04:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-19 22:04:28 BadgerService: Keepalive scheduled in 900s
 [W] 11-19 22:04:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-19 22:04:30 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
+[W] 11-19 22:12:33 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-19 22:12:48 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-19 22:19:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 11-19 22:19:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-19 22:19:28 BadgerService: Keepalive scheduled in 900s
+[E] 11-19 22:19:30 BadgerService: Realtime setup error: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname (retry #233 in 300s)
+[E] 11-19 22:19:30 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Unable to resolve host "vjmvuqunedyuovtqtotj.supabase.co": No address associated with hostname
+[E] 11-19 22:19:30 BadgerService: Realtime: 233 consecutive failures � cooling down 5 min
+[W] 11-19 22:19:32 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-19 22:19:32 BadgerService: startRealtimeSync: in backoff for 298s more � skipping
+[W] 11-19 22:19:34 BadgerService: startRealtimeSync: in backoff for 296s more � skipping
+[W] 11-19 22:19:34 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-19 22:21:57 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-19 22:21:57 BadgerService: startRealtimeSync: in backoff for 153s more � skipping
+[W] 11-19 22:21:59 BadgerService: startRealtimeSync: in backoff for 151s more � skipping
+[W] 11-19 22:21:59 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-19 22:27:12 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-19 22:27:38 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-19 22:34:28 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-19 22:34:28 BadgerService: Keepalive scheduled in 900s
+[W] 11-19 22:34:28 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
