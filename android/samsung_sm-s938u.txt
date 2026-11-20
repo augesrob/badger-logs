@@ -1,5 +1,4 @@
-=== samsung SM-S938U | v216 | shipped 2026-11-20 07:59:00 ===
-[I] 11-20 01:48:44 Movement: Truck 166 status → Put Away
+=== samsung SM-S938U | v216 | shipped 2026-11-20 08:14:00 ===
 [I] 11-20 01:48:44 BadgerRepo: updateMovementStatus OK — truck=166 statusId=2
 [I] 11-20 01:48:44 TTS: Speaking: Truck 166, Put Away
 [I] 11-20 01:48:44 WatchNotif: ?? PUSHING NOTIF: Truck 166 - In Door ? Put Away (tag=watch_truck_166)
@@ -489,3 +488,14 @@
 [I] 11-20 07:59:00 BadgerService: Keepalive scheduled in 900s
 [W] 11-20 07:59:00 BadgerService: startRealtimeSync: in backoff for 0s more � skipping
 [W] 11-20 07:59:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-20 07:59:01 LogShipper: Shipped 490 log lines to badger-logs/android/samsung_sm-s938u.txt
+[E] 11-20 07:59:46 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #53 in 300s)
+[E] 11-20 07:59:46 BadgerService: Realtime: 53 consecutive failures � cooling down 5 min
+[E] 11-20 08:05:35 BadgerService: Realtime: 54 consecutive failures � cooling down 5 min
+[E] 11-20 08:05:35 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #54 in 300s)
+[E] 11-20 08:11:21 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #55 in 300s)
+[E] 11-20 08:11:21 BadgerService: Realtime: 55 consecutive failures � cooling down 5 min
+[I] 11-20 08:14:00 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-20 08:14:00 BadgerService: Keepalive scheduled in 900s
+[W] 11-20 08:14:00 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-20 08:14:00 BadgerService: startRealtimeSync: in backoff for 141s more � skipping
