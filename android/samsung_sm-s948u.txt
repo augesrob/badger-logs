@@ -1,7 +1,4 @@
-=== samsung SM-S948U | v216 | shipped 2026-11-19 22:26:43 ===
-[E] 11-18 00:21:49 BadgerRepo: getLiveMovement FAILED: Request timeout has expired [url=https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29, request_timeout=10000 ms]
-[I] 11-18 00:21:57 AppUpdater: Checking via website (current=216)
-[I] 11-18 00:22:01 BadgerService: Realtime subscribed OK -- badger-svc-48d1c606-cc00-45ff-abe0-a8177e86cf4a status=SUBSCRIBED
+=== samsung SM-S948U | v216 | shipped 2026-11-19 22:41:43 ===
 [W] 11-18 00:22:07 AppUpdater: Website check failed: Socket timeout has expired [url=https://badger.augesrob.net/api/version, socket_timeout=unknown] ms — trying GitHub direct
 [I] 11-18 00:22:07 AppUpdater: Checking via GitHub direct (current=216)
 [I] 11-18 00:22:08 AppUpdater: Up to date via GitHub (current=216 latest=216)
@@ -499,3 +496,6 @@ Please ensure that class is marked as '@Serializable' and that the serialization
 [I] 11-19 22:11:45 AppUpdater: Up to date via GitHub (current=216 latest=216)
 [I] 11-19 22:26:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-19 22:26:43 BadgerService: Keepalive scheduled in 900s
+[I] 11-19 22:26:46 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s948u.txt
+[I] 11-19 22:41:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-19 22:41:43 BadgerService: Keepalive scheduled in 900s
