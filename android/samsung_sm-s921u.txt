@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-24 16:54:44 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-24 17:09:44 ===
 [I] 11-24 05:39:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-24 05:39:43 BadgerService: Keepalive scheduled in 900s
 [I] 11-24 05:39:45 LogShipper: Shipped 500 log lines to badger-logs/android/samsung_sm-s921u.txt
@@ -334,3 +334,18 @@
 [E] 11-24 16:51:08 BadgerService: Realtime: 65 consecutive failures � cooling down 5 min
 [I] 11-24 16:54:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-24 16:54:44 BadgerService: Keepalive scheduled in 900s
+[W] 11-24 16:54:44 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-24 16:54:44 BadgerService: startRealtimeSync: in backoff for 83s more � skipping
+[I] 11-24 16:54:46 LogShipper: Shipped 335 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-24 16:56:54 BadgerService: Realtime: 66 consecutive failures � cooling down 5 min
+[E] 11-24 16:56:54 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #66 in 300s)
+[E] 11-24 17:02:40 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #67 in 300s)
+[E] 11-24 17:02:40 BadgerService: Realtime: 67 consecutive failures � cooling down 5 min
+[E] 11-24 17:08:27 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #68 in 300s)
+[E] 11-24 17:08:27 BadgerService: Realtime: 68 consecutive failures � cooling down 5 min
+[W] 11-24 17:09:18 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-24 17:09:18 BadgerService: startRealtimeSync: in backoff for 248s more � skipping
+[I] 11-24 17:09:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[W] 11-24 17:09:44 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-24 17:09:44 BadgerService: startRealtimeSync: in backoff for 222s more � skipping
+[I] 11-24 17:09:44 BadgerService: Keepalive scheduled in 900s
