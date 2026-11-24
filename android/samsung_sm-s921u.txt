@@ -1,12 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-24 13:54:44 ===
-[I] 11-23 23:22:14 WatchNotif: ?? Notif ID: -658231523
-[I] 11-23 23:22:14 WatchNotif: ? Successfully sent to watch: Truck 261 - In Front ? In Door
-[I] 11-23 23:24:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
-[I] 11-23 23:24:43 BadgerService: Keepalive scheduled in 900s
-[I] 11-23 23:24:45 LogShipper: Shipped 320 log lines to badger-logs/android/samsung_sm-s921u.txt
-[I] 11-23 23:37:21 TTS: Speaking: Truck 149, In Front
-[I] 11-23 23:37:21 WatchNotif: ?? PUSHING NOTIF: Truck 149 - Ready ? In Front (tag=watch_truck_149)
-[I] 11-23 23:37:21 WatchNotif: ?? Notif ID: -658232538
+=== samsung SM-S921U | v216 | shipped 2026-11-24 14:09:44 ===
 [I] 11-23 23:37:21 WatchNotif: ? Successfully sent to watch: Truck 149 - Ready ? In Front
 [I] 11-23 23:39:43 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-23 23:39:43 BadgerService: Keepalive scheduled in 900s
@@ -494,3 +486,16 @@
 [W] 11-24 13:54:44 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
 [W] 11-24 13:54:44 BadgerService: startRealtimeSync: in backoff for 146s more � skipping
 [I] 11-24 13:54:44 BadgerService: Keepalive scheduled in 900s
+[I] 11-24 13:54:46 LogShipper: Shipped 495 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-24 13:57:57 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #35 in 300s)
+[E] 11-24 13:57:57 BadgerService: Realtime: 35 consecutive failures � cooling down 5 min
+[W] 11-24 14:01:34 BadgerService: startRealtimeSync: in backoff for 82s more � skipping
+[W] 11-24 14:01:34 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[E] 11-24 14:03:43 BadgerService: Realtime: 36 consecutive failures � cooling down 5 min
+[E] 11-24 14:03:43 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #36 in 300s)
+[E] 11-24 14:09:30 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #37 in 300s)
+[E] 11-24 14:09:30 BadgerService: Realtime: 37 consecutive failures � cooling down 5 min
+[I] 11-24 14:09:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-24 14:09:44 BadgerService: Keepalive scheduled in 900s
+[W] 11-24 14:09:44 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[W] 11-24 14:09:44 BadgerService: startRealtimeSync: in backoff for 285s more � skipping
