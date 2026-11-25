@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-24 23:09:44 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-24 23:24:44 ===
 [E] 11-24 15:07:13 BadgerService: Realtime: 47 consecutive failures � cooling down 5 min
 [E] 11-24 15:07:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #47 in 300s)
 [I] 11-24 15:09:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -488,3 +488,12 @@
 [I] 11-24 23:01:29 WatchNotif: ? Successfully sent to watch: Truck 241 - In Front ? In Door
 [I] 11-24 23:09:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-24 23:09:44 BadgerService: Keepalive scheduled in 900s
+[I] 11-24 23:09:47 LogShipper: Shipped 489 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-24 23:18:40 BadgerRepo: getLiveMovement FAILED: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort
+[W] 11-24 23:18:40 BadgerService: Heartbeat poll: HTTP request to https://vjmvuqunedyuovtqtotj.supabase.co/rest/v1/live_movement?select=%2A%2Cstatus_values%28status_name%2Cstatus_color%29 (GET) failed with message: Software caused connection abort
+[I] 11-24 23:23:41 TTS: Speaking: Truck 263, In Door
+[I] 11-24 23:23:41 WatchNotif: ?? PUSHING NOTIF: Truck 263 - In Front ? In Door (tag=watch_truck_263)
+[I] 11-24 23:23:41 WatchNotif: ?? Notif ID: -658231521
+[I] 11-24 23:23:41 WatchNotif: ? Successfully sent to watch: Truck 263 - In Front ? In Door
+[I] 11-24 23:24:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-24 23:24:44 BadgerService: Keepalive scheduled in 900s
