@@ -1,4 +1,4 @@
-=== samsung SM-S921U | v216 | shipped 2026-11-24 22:24:44 ===
+=== samsung SM-S921U | v216 | shipped 2026-11-24 22:39:44 ===
 [E] 11-24 15:07:13 BadgerService: Realtime: 47 consecutive failures � cooling down 5 min
 [E] 11-24 15:07:13 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #47 in 300s)
 [I] 11-24 15:09:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
@@ -418,3 +418,35 @@
 [I] 11-24 22:24:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
 [I] 11-24 22:24:44 BadgerService: Keepalive scheduled in 900s
 [W] 11-24 22:24:44 BadgerService: Keepalive: WebSocket not SUBSCRIBED, reconnecting
+[I] 11-24 22:24:46 LogShipper: Shipped 419 log lines to badger-logs/android/samsung_sm-s921u.txt
+[E] 11-24 22:25:31 BadgerService: Realtime: 13 consecutive failures � cooling down 5 min
+[E] 11-24 22:25:31 BadgerService: Realtime setup error: channel.subscribe timed out after 45s (status=SUBSCRIBING) (retry #13 in 300s)
+[W] 11-24 22:25:57 BadgerService: startRealtimeSync: in backoff for 273s more � skipping
+[W] 11-24 22:25:57 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[W] 11-24 22:26:22 BadgerService: startRealtimeSync: in backoff for 248s more � skipping
+[W] 11-24 22:26:22 BadgerService: Network available -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-24 22:29:52 AppUpdater: Checking via website (current=216)
+[W] 11-24 22:29:53 BadgerService: startRealtimeSync: in backoff for 37s more � skipping
+[W] 11-24 22:29:53 BadgerService: Doze exit -- WebSocket not SUBSCRIBED, reconnecting
+[I] 11-24 22:29:53 AppUpdater: Up to date via website (current=216 latest=216)
+[I] 11-24 22:29:53 AppUpdater: Checking via GitHub direct (current=216)
+[I] 11-24 22:29:55 AppUpdater: Up to date via GitHub (current=216 latest=216)
+[I] 11-24 22:30:33 BadgerService: Realtime subscribed OK -- badger-svc-53d72ac2-c54b-4436-b2e7-88b21d861309 status=SUBSCRIBED
+[I] 11-24 22:31:55 TTS: Speaking: Truck 164, In Front
+[I] 11-24 22:31:55 WatchNotif: ?? PUSHING NOTIF: Truck 164 - Ready ? In Front (tag=watch_truck_164)
+[I] 11-24 22:31:55 WatchNotif: ?? Notif ID: -658232481
+[I] 11-24 22:31:55 WatchNotif: ? Successfully sent to watch: Truck 164 - Ready ? In Front
+[I] 11-24 22:32:11 TTS: Speaking: Truck 230, In Front
+[I] 11-24 22:32:11 WatchNotif: ?? Notif ID: -658231617
+[I] 11-24 22:32:11 WatchNotif: ?? PUSHING NOTIF: Truck 230 - In Back ? In Front (tag=watch_truck_230)
+[I] 11-24 22:32:11 WatchNotif: ? Successfully sent to watch: Truck 230 - In Back ? In Front
+[I] 11-24 22:32:15 TTS: Speaking: Truck 244, In Front
+[I] 11-24 22:32:15 WatchNotif: ?? PUSHING NOTIF: Truck 244 - In Back ? In Front (tag=watch_truck_244)
+[I] 11-24 22:32:15 WatchNotif: ?? Notif ID: -658231582
+[I] 11-24 22:32:15 WatchNotif: ? Successfully sent to watch: Truck 244 - In Back ? In Front
+[I] 11-24 22:35:30 TTS: Speaking: Truck 185, 12B
+[I] 11-24 22:35:30 WatchNotif: ?? PUSHING NOTIF: Truck 185 - In Door ? 12B (tag=watch_truck_185)
+[I] 11-24 22:35:30 WatchNotif: ?? Notif ID: -658232418
+[I] 11-24 22:35:30 WatchNotif: ? Successfully sent to watch: Truck 185 - In Door ? 12B
+[I] 11-24 22:39:44 BadgerService: Keepalive alarm fired -- service alive, rescheduling
+[I] 11-24 22:39:44 BadgerService: Keepalive scheduled in 900s
